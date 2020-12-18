@@ -4,7 +4,7 @@ public class Datos_indice {
 
 	private String Date;
 	private String Hour;
-	private String NOgm3;
+	private int NOgm3;
 	private String NO2gm3;
 	private String NOXgm3;
 	private String PM10gm3;
@@ -15,7 +15,7 @@ public class Datos_indice {
 	public String getHour() {
 		return Hour;
 	}
-	public String getNOgm3() {
+	public int getNOgm3() {
 		return NOgm3;
 	}
 	public String getNO2gm3() {
@@ -34,7 +34,7 @@ public class Datos_indice {
 		Hour = hour;
 	}
 	public void setNOgm3(String nOgm3) {
-		NOgm3 = nOgm3;
+		NOgm3 = Integer.parseInt(nOgm3);
 	}
 	public void setNO2gm3(String nO2gm3) {
 		NO2gm3 = nO2gm3;
