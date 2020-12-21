@@ -26,7 +26,6 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Principal {
-	static ArrayList<Integer> lista;
 	public static void main(String[] args) {
 		try {
 			int contadorPaginasNoEncontradas = 0;
@@ -55,14 +54,7 @@ public class Principal {
 						System.out.println(usrPost.getAggregated().get(i).getUrl());
 						for(int y = 0; y < json.length ;y++)
 						{
-							lista = new ArrayList<Integer>();
-//							indexOcurriencias(json[y].toString(),'=',json[y].toString().indexOf("="));
-							for (int x = 0; x < contarCaracteres(json[y].toString(),'=') ; x++)
-							{
-								System.out.println(json.toString().substring(lista.get(y),lista.get(y)+4));
-								if(!json.toString().substring(lista.get(y),lista.get(y)+4).equals("null"))
-									System.out.println(y + ") " + "No esta vacio");
-							}
+							
 						}
 					}
 					else if(usrPost.getAggregated().get(i).getUrl().contains("datos_diarios"))
@@ -75,15 +67,7 @@ public class Principal {
 						usrPost.getAggregated().get(i).setHorasRegistradas(json.length);
 						for(int y = 0; y < json.length ;y++)
 						{
-							lista = new ArrayList<Integer>();
-							indexOcurriencias(json[y].toString(),'=',json[y].toString().indexOf("="));
-							System.out.println(contarCaracteres(json[0].toString(),'='));
-							for (int x = json[y].toString().indexOf("=")+1; x < json[y].toString().length() ; x++)
-							{
-								System.out.println(json.toString().substring(lista.get(y),lista.get(y)+4));
-								if(!json.toString().substring(lista.get(y),lista.get(y)+4).equals("null"))
-									System.out.println(y + ") " + "No esta vacio");
-							}
+							
 						}
 					}
 					
@@ -285,23 +269,5 @@ public class Principal {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	}
-
-	public static int contarCaracteres(String cadena,char valor)
-	{
-		int contador = 0;
-		for (int i = 0; i < cadena.length() ; i++)
-			if(cadena.charAt(i) == valor)
-				contador++;
-		return contador;
-	}
-	
-	public static int indexOcurriencias(String cadena, char valor,int ultimoIndex)
-	{
-		if(cadena.indexOf(ultimoIndex) != -1)
-		{
-			return cadena.indexOf(ultimoIndex);
-		}
-		return -1;
 	}
 }
