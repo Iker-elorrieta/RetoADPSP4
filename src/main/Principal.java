@@ -1,7 +1,10 @@
 package main;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -12,6 +15,7 @@ import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.security.cert.X509Certificate;
+import java.util.ArrayList;
 import java.util.Calendar;
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
@@ -22,6 +26,7 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Principal {
+	static ArrayList<Integer> lista;
 	public static void main(String[] args) {
 		try {
 			int contadorPaginasNoEncontradas = 0;
@@ -43,29 +48,42 @@ public class Principal {
 					if(usrPost.getAggregated().get(i).getUrl().contains("datos_indice"))
 					{
 						//Si en un dato horario se pillara todo hasta el dia anterior hasta la hora 10:00
-						json = mapper.readValue(readJsonFromUrl(usrPost.getAggregated().get(i).getUrl(),fechaAnterior(2),null), Datos_indice[].class);
+						json = mapper.readValue(readJsonFromUrl(usrPost.getAggregated().get(i).getUrl(),fechaAnterior(0),null), Datos_indice[].class);
 						
 						//Este objeto solo sirve para guardar cuantos elementos tiene cada url
 						usrPost.getAggregated().get(i).setHorasRegistradas(json.length);
 						System.out.println(usrPost.getAggregated().get(i).getUrl());
 						for(int y = 0; y < json.length ;y++)
 						{
-							//bucle de control para ver si esta en funcion el programa.
-							System.out.println(y + ")  " + json[y]);
+							lista = new ArrayList<Integer>();
+//							indexOcurriencias(json[y].toString(),'=',json[y].toString().indexOf("="));
+							for (int x = 0; x < contarCaracteres(json[y].toString(),'=') ; x++)
+							{
+								System.out.println(json.toString().substring(lista.get(y),lista.get(y)+4));
+								if(!json.toString().substring(lista.get(y),lista.get(y)+4).equals("null"))
+									System.out.println(y + ") " + "No esta vacio");
+							}
 						}
 					}
 					else if(usrPost.getAggregated().get(i).getUrl().contains("datos_diarios"))
 					{
 						//Si es un dato diario se pillara el objeto hasta el dia anterior
-						json = mapper.readValue(readJsonFromUrl(usrPost.getAggregated().get(i).getUrl(),fechaAnterior(3),"diarios"), Datos_indice[].class);
+						json = mapper.readValue(readJsonFromUrl(usrPost.getAggregated().get(i).getUrl(),fechaAnterior(1),"diarios"), Datos_indice[].class);
 
 						usrPost.getAggregated().get(i).setHorasRegistradas(json.length);
 						//Este objeto solo sirve para guardar cuantos elementos tiene cada url
 						usrPost.getAggregated().get(i).setHorasRegistradas(json.length);
 						for(int y = 0; y < json.length ;y++)
 						{
-							//bucle de control para ver si esta en funcion el programa.
-							System.out.println(y + ")  " + json[y]);
+							lista = new ArrayList<Integer>();
+							indexOcurriencias(json[y].toString(),'=',json[y].toString().indexOf("="));
+							System.out.println(contarCaracteres(json[0].toString(),'='));
+							for (int x = json[y].toString().indexOf("=")+1; x < json[y].toString().length() ; x++)
+							{
+								System.out.println(json.toString().substring(lista.get(y),lista.get(y)+4));
+								if(!json.toString().substring(lista.get(y),lista.get(y)+4).equals("null"))
+									System.out.println(y + ") " + "No esta vacio");
+							}
 						}
 					}
 					
@@ -96,7 +114,7 @@ public class Principal {
 			//mostrar los contenidos
 			for (int i = 0 ; i < usrPost.getAggregated().size() ; i++)
 			{
-				System.out.print(i + ")");
+				System.out.print((i+1) + ")");
 				System.out.println("Url: " + usrPost.getAggregated().get(i).getUrl());
 				System.out.println("Nombre: " + usrPost.getAggregated().get(i).getName());
 				System.out.println("Contiene " + usrPost.getAggregated().get(i).getHorasRegistradas());
@@ -120,7 +138,7 @@ public class Principal {
 	 * @return
 	 * @throws IOException
 	 */
-	private static String readAll(Reader rd, String date,String tipo) throws IOException {
+	private static String readAll(Reader rd, String date,String tipo,String nombreFichero) throws IOException {
 		StringBuilder sb = new StringBuilder();
 		int cp;
 		while ((cp = rd.read()) != -1) {
@@ -128,28 +146,73 @@ public class Principal {
 			
 		//Que siga rellenando hasta la fecha anterior y hasta la hora 10 de esa fecha
 		if (sb.toString().contains("Date"))
-			if(tipo == null)
+//			if(tipo == null || tipo.equals(""))
 			{
-				if(sb.toString().contains(date))
-					if(sb.toString().contains("Hour"))
-						if(sb.toString().contains("09:00"))
+				//Recoger el string entero
+				String result = sb.toString().substring(sb.toString().indexOf("["));
+				
+				//Comprobar si la ultima fecha es del mismo mes y año
+				if(result.lastIndexOf(date.substring(2)) != -1)
+					//comprobar que la ultima fecha que se ha encontrado es menor que la fecha que quieremos
+					if(Integer.parseInt(result.substring(result.lastIndexOf(date.substring(2))-2,result.lastIndexOf(date.substring(2)))) < Integer.parseInt(date.substring(0,2)))
+						if(sb.toString().contains("Hour"))
 						{
-							String result = sb.toString().substring(sb.toString().indexOf("["),sb.toString().lastIndexOf("}")+1) + " ]";
-							return result.toLowerCase();
+							if(sb.toString().contains("09:00"))
+							{
+								result = sb.toString().substring(sb.toString().indexOf("["),sb.toString().lastIndexOf("}")+1) + " ]";
+								escribirJson(result,nombreFichero.substring(nombreFichero.lastIndexOf("/")+1));
+								return result.toLowerCase();
+							}
+						}
+						else
+						{	
+							//en caso de que no tenga el elemento hora(lo mas probable esq sea un diario) recogemos solo con la fecha
+							result = sb.toString().substring(sb.toString().indexOf("["));
+							//comprobamos que tenga una fecha en el mismo mes y año
+							if(result.lastIndexOf(date.substring(2)) != -1)
+								//comprobamos que el ultimo dia elegido es menor a la fecha que quieremos
+								if(Integer.parseInt(result.substring(result.lastIndexOf(date.substring(2))-2,result.lastIndexOf(date.substring(2)))) < Integer.parseInt(date.substring(0,2)))
+								{
+									try
+									{
+										//si tiene algun elemento se guardara en un json y se inserta el json
+										result = sb.toString().substring(sb.toString().indexOf("["),sb.toString().lastIndexOf("}")+1) + " ]";
+										escribirJson(result,nombreFichero.substring(nombreFichero.lastIndexOf("/")+1));
+										return result.toLowerCase();
+									}
+									catch (StringIndexOutOfBoundsException a)
+									{
+										//sino se deja vacio
+										return "[{}]";
+									}
+									
+								}
 						}
 			}
-			else
-			{	//en caso de que nos situemos en el json de datos_diarios solo tenemos que encontrar el "Date" y comprobar con un dia antes
-				if(sb.toString().contains(date))
-				{
-					String result = sb.toString().substring(sb.toString().indexOf("["),sb.toString().lastIndexOf("}")+1) + " ]";
-					
-					return result.toLowerCase();
-				}
-			}
+			
 				
 		}
 		return sb.toString().substring(sb.toString().indexOf("["),sb.toString().lastIndexOf("]")+1).toLowerCase();
+	}
+	
+	/**
+	 * Escribe en String del parametro en un fichero.
+	 * @param json
+	 * @return
+	 */
+	public static boolean escribirJson(String contenido,String nombre)
+	{
+		try (BufferedWriter fichero = new BufferedWriter(new FileWriter("."+File.separatorChar+"json"+File.separatorChar+nombre, false));)
+		{
+				fichero.write(contenido);
+				return true;
+		}
+		catch (FileNotFoundException fn) {
+			System.out.println("No se encuentra el fichero");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return false;
 	}
 	
 	/**
@@ -165,7 +228,7 @@ public class Principal {
 		InputStream is = new URL(url).openStream();
 		try {
 			BufferedReader rd = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
-			String jsonText = readAll(rd,date,tipo);
+			String jsonText = readAll(rd,date,tipo,url);
 			return jsonText;
 		} finally {
 			is.close();
@@ -222,5 +285,23 @@ public class Principal {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+
+	public static int contarCaracteres(String cadena,char valor)
+	{
+		int contador = 0;
+		for (int i = 0; i < cadena.length() ; i++)
+			if(cadena.charAt(i) == valor)
+				contador++;
+		return contador;
+	}
+	
+	public static int indexOcurriencias(String cadena, char valor,int ultimoIndex)
+	{
+		if(cadena.indexOf(ultimoIndex) != -1)
+		{
+			return cadena.indexOf(ultimoIndex);
+		}
+		return -1;
 	}
 }

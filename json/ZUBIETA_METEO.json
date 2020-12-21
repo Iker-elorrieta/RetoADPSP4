@@ -1,0 +1,208 @@
+[ {
+  "Date" : "21/12/2020",
+  "Hour" : "24:00"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "23:00"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "22:00"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "21:00"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "20:00"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "19:00"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "18:00"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "17:00"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "16:00"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "15:00",
+  "Dviengrados" : "237",
+  "H" : "64",
+  "PmBar" : "1003,9",
+  "Precipitacionlm2" : "0",
+  "Rwm2" : "206,6",
+  "RUVAwm2" : "43,5",
+  "TC" : "15,8",
+  "Vvienms" : "1,18",
+  "ICAEstacion" : "Sin datos / Daturik gabe"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "14:00",
+  "Dviengrados" : "226",
+  "H" : "65",
+  "PmBar" : "1003,6",
+  "Precipitacionlm2" : "0",
+  "Rwm2" : "258,5",
+  "RUVAwm2" : "59,3",
+  "TC" : "15,5",
+  "Vvienms" : "1,35",
+  "ICAEstacion" : "Sin datos / Daturik gabe"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "13:00",
+  "Dviengrados" : "241",
+  "H" : "67",
+  "PmBar" : "1004,1",
+  "Precipitacionlm2" : "0",
+  "Rwm2" : "328,9",
+  "RUVAwm2" : "64,7",
+  "TC" : "14,9",
+  "Vvienms" : "1,78",
+  "ICAEstacion" : "Sin datos / Daturik gabe"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "12:00",
+  "Dviengrados" : "229",
+  "H" : "69",
+  "PmBar" : "1004,4",
+  "Precipitacionlm2" : "0",
+  "Rwm2" : "159,5",
+  "RUVAwm2" : "44,6",
+  "TC" : "14,3",
+  "Vvienms" : "1,41",
+  "ICAEstacion" : "Sin datos / Daturik gabe"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "11:00",
+  "Dviengrados" : "197",
+  "H" : "70",
+  "PmBar" : "1004,6",
+  "Precipitacionlm2" : "0",
+  "Rwm2" : "145,6",
+  "RUVAwm2" : "38",
+  "TC" : "13,9",
+  "Vvienms" : "1,38",
+  "ICAEstacion" : "Sin datos / Daturik gabe"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "10:00",
+  "Dviengrados" : "199",
+  "H" : "71",
+  "PmBar" : "1004,3",
+  "Precipitacionlm2" : "0",
+  "Rwm2" : "48,1",
+  "RUVAwm2" : "17,7",
+  "TC" : "13,5",
+  "Vvienms" : "1,49",
+  "ICAEstacion" : "Sin datos / Daturik gabe"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "09:00",
+  "Dviengrados" : "196",
+  "H" : "73",
+  "PmBar" : "1003,8",
+  "Precipitacionlm2" : "0",
+  "Rwm2" : "17,9",
+  "RUVAwm2" : "6,3",
+  "TC" : "13,2",
+  "Vvienms" : "1,64",
+  "ICAEstacion" : "Sin datos / Daturik gabe"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "08:00",
+  "Dviengrados" : "195",
+  "H" : "74",
+  "PmBar" : "1003,2",
+  "Precipitacionlm2" : "0",
+  "Rwm2" : "0,1",
+  "RUVAwm2" : "1,1",
+  "TC" : "13",
+  "Vvienms" : "1,61",
+  "ICAEstacion" : "Sin datos / Daturik gabe"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "07:00",
+  "Dviengrados" : "181",
+  "H" : "73",
+  "PmBar" : "1002,5",
+  "Precipitacionlm2" : "0",
+  "Rwm2" : "0",
+  "RUVAwm2" : "0,5",
+  "TC" : "13,1",
+  "Vvienms" : "1,6",
+  "ICAEstacion" : "Sin datos / Daturik gabe"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "06:00",
+  "Dviengrados" : "156",
+  "H" : "78",
+  "PmBar" : "1002,2",
+  "Precipitacionlm2" : "0,1",
+  "Rwm2" : "0",
+  "RUVAwm2" : "0,5",
+  "TC" : "12,2",
+  "Vvienms" : "2,42",
+  "ICAEstacion" : "Sin datos / Daturik gabe"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "05:00",
+  "Dviengrados" : "143",
+  "H" : "82",
+  "PmBar" : "1002,4",
+  "Precipitacionlm2" : "0,6",
+  "Rwm2" : "0",
+  "RUVAwm2" : "0,5",
+  "TC" : "11,6",
+  "Vvienms" : "3,04",
+  "ICAEstacion" : "Sin datos / Daturik gabe"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "04:00",
+  "Dviengrados" : "146",
+  "H" : "62",
+  "PmBar" : "1002,3",
+  "Precipitacionlm2" : "0,2",
+  "Rwm2" : "0",
+  "RUVAwm2" : "0,5",
+  "TC" : "14",
+  "Vvienms" : "2,81",
+  "ICAEstacion" : "Sin datos / Daturik gabe"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "03:00",
+  "Dviengrados" : "153",
+  "H" : "58",
+  "PmBar" : "1002,2",
+  "Precipitacionlm2" : "0,1",
+  "Rwm2" : "0",
+  "RUVAwm2" : "0,5",
+  "TC" : "14,2",
+  "Vvienms" : "2,73",
+  "ICAEstacion" : "Sin datos / Daturik gabe"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "02:00",
+  "Dviengrados" : "157",
+  "H" : "52",
+  "PmBar" : "1001,8",
+  "Precipitacionlm2" : "0",
+  "Rwm2" : "0",
+  "RUVAwm2" : "0,5",
+  "TC" : "14,6",
+  "Vvienms" : "2,27",
+  "ICAEstacion" : "Sin datos / Daturik gabe"
+}, {
+  "Date" : "21/12/2020",
+  "Hour" : "01:00",
+  "Dviengrados" : "149",
+  "H" : "50",
+  "PmBar" : "1002",
+  "Precipitacionlm2" : "0",
+  "Rwm2" : "0",
+  "RUVAwm2" : "0,5",
+  "TC" : "14,6",
+  "Vvienms" : "2,32",
+  "ICAEstacion" : "Sin datos / Daturik gabe"
+} ]
