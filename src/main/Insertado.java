@@ -16,12 +16,12 @@ public class Insertado {
 		Session session = sesion.openSession();
 		tx = session.beginTransaction();
 
-		// Insertar nueva estación
+		// Insertar nueva estaciï¿½n
 
 		session.save(estacion);
 		tx.commit();
 		System.out.println();
-		System.out.println("Estación insertada");
+		System.out.println("Estaciï¿½n insertada");
 		System.out.println();
 
 		// borrado (para tests)
@@ -33,7 +33,7 @@ public class Insertado {
 			tx.commit();
 
 			System.out.println();
-			System.out.println("Estación borrada");
+			System.out.println("Estaciï¿½n borrada");
 			System.out.println();
 
 		}

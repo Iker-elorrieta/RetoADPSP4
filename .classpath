@@ -16,9 +16,6 @@
 	<classpathentry kind="lib" path="librerias/hibernate-core-5.1.0.Final.jar"/>
 	<classpathentry kind="lib" path="librerias/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
 	<classpathentry kind="lib" path="librerias/istack-commons-runtime-4.0.0-M3.jar"/>
-	<classpathentry kind="lib" path="librerias/jackson-annotations-2.11.1.jar"/>
-	<classpathentry kind="lib" path="librerias/jackson-core-2.11.1.jar"/>
-	<classpathentry kind="lib" path="librerias/jackson-databind-2.11.1.jar"/>
 	<classpathentry kind="lib" path="librerias/javassist-3.20.0-GA.jar"/>
 	<classpathentry kind="lib" path="librerias/jaxb-api-2.3.1.jar"/>
 	<classpathentry kind="lib" path="librerias/jaxb-impl-2.3.1.jar"/>

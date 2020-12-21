@@ -1,7 +1,6 @@
 package test;
 
 import static org.junit.Assert.*;
-
 import hiberclass.Estaciones;
 import main.Insertado;
 
