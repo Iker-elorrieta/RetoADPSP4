@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 21 dic. 2020 22:57:37 by Hibernate Tools 5.4.21.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="euskalmet" dynamic-insert="false" dynamic-update="false" mutable="true" name="hiberclass.Horario" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="horario">
+        <id name="id" type="java.lang.Integer">
+            <column name="Id"/>
+            <generator class="identity"/>
+        </id>
+        <many-to-one class="hiberclass.Informes" embed-xml="true" fetch="select" insert="true" name="informes" not-found="exception" optimistic-lock="true" unique="false" update="true">
+            <column length="500" name="InformeUrl" not-null="true"/>
+        </many-to-one>
+        <property generated="never" lazy="false" name="fecha" optimistic-lock="true" type="date" unique="false">
+            <column length="10" name="Fecha" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="hora" optimistic-lock="true" type="string" unique="false">
+            <column length="10" name="Hora" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="nogm3" optimistic-lock="true" type="double" unique="false">
+            <column name="NOgm3" not-null="true" precision="22" scale="0"/>
+        </property>
+        <property generated="never" lazy="false" name="no2gm3" optimistic-lock="true" type="double" unique="false">
+            <column name="NO2gm3" not-null="true" precision="22" scale="0"/>
+        </property>
+        <property generated="never" lazy="false" name="noxgm3" optimistic-lock="true" type="double" unique="false">
+            <column name="NOXgm3" not-null="true" precision="22" scale="0"/>
+        </property>
+        <property generated="never" lazy="false" name="pm10gm3" optimistic-lock="true" type="double" unique="false">
+            <column name="PM10gm3" not-null="true" precision="22" scale="0"/>
+        </property>
+    </class>
+</hibernate-mapping>
