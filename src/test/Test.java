@@ -7,6 +7,8 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.hibernate.SessionFactory;
+
 import hiberclass.Entornos;
 import hiberclass.Entornosmuni;
 import hiberclass.Estaciones;
@@ -41,7 +43,7 @@ public class Test {
 	Entornosmuni lista = new Entornosmuni();
 	
 	@org.junit.Test
-	public void testInsercionEstacion() {
+	public void testInsercionEstacion() {		
 		estacion = new Estaciones(nombrePruebas, nombrePruebas);
 		estacion = new Estaciones(nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		estacion.toString();
