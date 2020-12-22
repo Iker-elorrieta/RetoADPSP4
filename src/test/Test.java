@@ -13,6 +13,7 @@ import hiberclass.Estaciones;
 import hiberclass.Horario;
 import hiberclass.Informes;
 import hiberclass.Municipios;
+import main.HibernateUtil;
 import main.InsertarBorrar;
 import main.Principal;
 
@@ -28,6 +29,7 @@ public class Test {
 	Horario horario = new Horario();
 	Informes informe = new Informes();
 	Estaciones estacion = new Estaciones();
+	HibernateUtil hibernate = new HibernateUtil();
 	
 	//Valores de prueba
 	String nombrePruebas = "prueba";
@@ -42,6 +44,7 @@ public class Test {
 	public void testInsercionEstacion() {
 		estacion = new Estaciones(nombrePruebas, nombrePruebas);
 		estacion = new Estaciones(nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
+		estacion.toString();
 		assertEquals(true, InsertarBorrar.insertar((Object)estacion));
 		InsertarBorrar.borrar(estacion);
 	}
