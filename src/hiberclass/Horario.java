@@ -94,5 +94,19 @@ public class Horario implements java.io.Serializable {
 	public void setPm10gm3(double pm10gm3) {
 		this.pm10gm3 = pm10gm3;
 	}
-
+	
+	public boolean isNull()
+	{
+		if(informes != null)
+			return false;
+		if(nogm3 != 0)
+			return false;
+		if(no2gm3 != 0)
+			return false;
+		if(noxgm3 != 0)
+			return false;
+		if(pm10gm3 != 0)
+			return false;
+		return true;
+	}
 }

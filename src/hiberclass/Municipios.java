@@ -89,5 +89,21 @@ public class Municipios implements java.io.Serializable {
 	public void setEntornosmunis(Set entornosmunis) {
 		this.entornosmunis = entornosmunis;
 	}
-
+	
+	public boolean isNull()
+	{
+		if(nombre != null)
+			return false;
+		if(descripcion != null)
+			return false;
+		if(latitud != null)
+			return false;
+		if(longitud != null)
+			return false;
+		if(codigo != null)
+			return false;
+		if(entornosmunis != null)
+			return false;
+		return true;
+	}
 }

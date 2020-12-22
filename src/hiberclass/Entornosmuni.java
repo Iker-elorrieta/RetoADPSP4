@@ -41,5 +41,13 @@ public class Entornosmuni implements java.io.Serializable {
 	public void setMunicipios(Municipios municipios) {
 		this.municipios = municipios;
 	}
-
+	
+	public boolean isNull()
+	{
+		if(entornos != null)
+			return false;
+		if(municipios != null)
+			return false;
+		return true;
+	}
 }

@@ -100,4 +100,23 @@ public class Entornos implements java.io.Serializable {
 		this.entornosmunis = entornosmunis;
 	}
 
+	public boolean isNull() {
+		if(nombre != null)
+			return false;
+		if(descripcion != null)
+			return false;
+		if(tipo != null)
+			return false;
+		if(territorio != null)
+			return false;
+		if(latitud != null)
+			return false;
+		if(longitud != null)
+			return false;
+		if(entornosmunis != null)
+			return false;
+		return true;
+	}
+	
+	
 }

@@ -110,5 +110,25 @@ public class Estaciones implements java.io.Serializable {
 	public void setInformeses(Set informeses) {
 		this.informeses = informeses;
 	}
-
+	
+	public boolean isNull()
+	{
+		if(nombre != null)
+			return false;
+		if(provincia != null)
+			return false;
+		if(direccion != null)
+			return false;
+		if(coordenadaX != null)
+			return false;
+		if(coordenadaY != null)
+			return false;
+		if(latitud != null)
+			return false;
+		if(longitud != null)
+			return false;
+		if(informeses != null)
+			return false;
+		return true;
+	}
 }

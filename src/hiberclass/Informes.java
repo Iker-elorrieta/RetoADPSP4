@@ -16,6 +16,7 @@ public class Informes implements java.io.Serializable {
 	private Set horarios = new HashSet(0);
 
 	public Informes() {
+		
 	}
 
 	public Informes(Estaciones estaciones, String url) {
@@ -69,5 +70,17 @@ public class Informes implements java.io.Serializable {
 	public void setHorarios(Set horarios) {
 		this.horarios = horarios;
 	}
-
+	
+	public boolean isNull()
+	{
+		if(estaciones != null)
+			return false;
+		if(formato != null)
+			return false;
+		if(url != null)
+			return false;
+		if(horarios != null)
+			return false;
+		return true;
+	}
 }
