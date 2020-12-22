@@ -24,7 +24,6 @@ public class InsertarBorrar {
 
 		session.close();
 
-
 		return true;
 	}
 	

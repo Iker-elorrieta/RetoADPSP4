@@ -11,6 +11,7 @@ public class Entornosmuni implements java.io.Serializable {
 	private Municipios municipios;
 
 	public Entornosmuni() {
+		
 	}
 
 	public Entornosmuni(Entornos entornos, Municipios municipios) {

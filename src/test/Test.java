@@ -25,6 +25,8 @@ public class Test {
 	Horario horario = new Horario();
 	Informes informe = new Informes();
 	Estaciones estacion = new Estaciones();
+	Entornosmuni lista = new Entornosmuni();
+
 	@SuppressWarnings("rawtypes")
 	Set set = new HashSet(0);
 	Entornosmuni lista = new Entornosmuni();
@@ -143,4 +145,39 @@ public class Test {
         return result;
     }
 
+	@org.junit.Test
+	public void testInsercionEntornosMuni() {
+		
+		Set set = new HashSet(0);
+		municipio = new Municipios("prueba", "prueba", Double.valueOf("1"), Double.valueOf("1"), 1, set);
+		municipio = new Municipios();
+		municipio = new Municipios("prueba");
+		municipio.setNombre("prueba");
+		municipio.setDescripcion("prueba");
+		municipio.setLatitud(Double.valueOf("1"));
+		municipio.setLongitud(Double.valueOf("1"));
+		municipio.setCodigo(1);
+		
+		InsertarBorrar.insertar((Object)municipio);
+		
+		entorno = new Entornos();
+		entorno.setNombre("prueba");
+		entorno.setDescripcion("prueba");
+		entorno.setTipo("prueba");
+		entorno.setTerritorio("prueba");
+		entorno.setLatitud((double) 10);
+		entorno.setLongitud((double) 20);
+		entorno.setEntornosmunis(set);
+		entorno = new Entornos("prueba","prueba","prueba", "prueba", null, null, set);
+		InsertarBorrar.insertar((Object)entorno);
+		
+		lista.setMunicipios(municipio);
+		lista.setEntornos(entorno);
+		lista.setId(0);
+		lista = new Entornosmuni(entorno,municipio);
+		
+		assertEquals(true, InsertarBorrar.insertar((Object)lista));
+		InsertarBorrar.borrar(lista);
+		InsertarBorrar.borrar(municipio);
+	}
 }
