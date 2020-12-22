@@ -9,4 +9,6 @@
 	<sql-type jdbc-type="VARCHAR" hibernate-type="string"></sql-type>
 	<sql-type jdbc-type="VARCHAR" hibernate-type="string"></sql-type>
 </type-mapping>
+
+
 </hibernate-reverse-engineering>
