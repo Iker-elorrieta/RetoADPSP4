@@ -14,7 +14,7 @@ public class InsertarBorrar {
 		Session session = sesion.openSession();
 		tx = session.beginTransaction();
 
-		// Insertar nueva estación
+		// Insertar nuevo objeto
 
 		session.save(object);
 		tx.commit();
@@ -44,5 +44,6 @@ public class InsertarBorrar {
 
 
 	}
+	
 
 }
