@@ -4,8 +4,16 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
+/**
+ * Clase de modificacion BDD
+ */
 public class InsertarBorrar {
 
+	/**
+	 * Metodo para insertar un objeto en la base de datos.
+	 * @param object
+	 * @return
+	 */
 	public static boolean insertar(Object object) {
 		
 		
@@ -27,6 +35,10 @@ public class InsertarBorrar {
 		return true;
 	}
 	
+	/**
+	 * Metodo para borrar un objeto de la base de datos.
+	 * @param object
+	 */
 	public static void borrar(Object object) {
 		
 		Transaction tx = null;
@@ -40,8 +52,6 @@ public class InsertarBorrar {
 		tx.commit();
 
 		session.close();
-
-
 	}
 	
 

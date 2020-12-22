@@ -16,6 +16,9 @@ import hiberclass.Municipios;
 import main.InsertarBorrar;
 import main.Principal;
 
+/**
+ * Clase para comprobar que el programa funciona correctamente.
+ */
 public class Test {
 	
 	Principal principal = new Principal();
@@ -25,24 +28,28 @@ public class Test {
 	Horario horario = new Horario();
 	Informes informe = new Informes();
 	Estaciones estacion = new Estaciones();
-	Entornosmuni lista = new Entornosmuni();
-
+	
+	//Valores de prueba
+	String nombrePruebas = "prueba";
+	double valor = 1;
+	Calendar fecha = Calendar.getInstance(); // para pasar a date llamar al metodo toDate(Calendar)
+	
 	@SuppressWarnings("rawtypes")
 	Set set = new HashSet(0);
 	Entornosmuni lista = new Entornosmuni();
 	
 	@org.junit.Test
 	public void testInsercionEstacion() {
-		estacion = new Estaciones("prueba", "prueba");
-		estacion = new Estaciones("prueba", "prueba", "prueba", Double.valueOf("1"), Double.valueOf("1"), Double.valueOf("1"), Double.valueOf("1"), set);
+		estacion = new Estaciones(nombrePruebas, nombrePruebas);
+		estacion = new Estaciones(nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		assertEquals(true, InsertarBorrar.insertar((Object)estacion));
 		InsertarBorrar.borrar(estacion);
 	}
 	
 	@org.junit.Test
 	public void testInsercionMunicipio() {
-		municipio = new Municipios("prueba");
-		municipio = new Municipios("prueba", "prueba", Double.valueOf("1"), Double.valueOf("1"), 1, set);
+		municipio = new Municipios(nombrePruebas);
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, 1, set);
 		assertEquals(true, InsertarBorrar.insertar((Object)municipio));
 		InsertarBorrar.borrar(municipio);
 	}
@@ -50,10 +57,10 @@ public class Test {
 	@org.junit.Test
 	public void testInsercionInformes() {
 		
-		estacion.setNombre("prueba");
-		estacion.setDireccion("prueba");
-		informe = new Informes(estacion, "prueba");
-		informe = new Informes(estacion, "prueba", "prueba", set);
+		estacion.setNombre(nombrePruebas);
+		estacion.setDireccion(nombrePruebas);
+		informe = new Informes(estacion, nombrePruebas);
+		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
 		InsertarBorrar.insertar((Object)estacion);
 		assertEquals(true, InsertarBorrar.insertar((Object)informe));
 		InsertarBorrar.borrar(informe);
@@ -63,8 +70,8 @@ public class Test {
 	@org.junit.Test
 	public void testInsercionEntorno() {
 		
-		entorno = new Entornos("prueba");
-		entorno = new Entornos("prueba", "prueba", "prueba", "prueba", Double.valueOf("1"), Double.valueOf("1"), set);
+		entorno = new Entornos(nombrePruebas);
+		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
 		assertEquals(true, InsertarBorrar.insertar((Object)entorno));
 		InsertarBorrar.borrar(entorno);
 	}
@@ -73,11 +80,11 @@ public class Test {
     public void testInsercionEntornosMuni() {
 
         Set set = new HashSet(0);
-        municipio = new Municipios("prueba", "prueba", Double.valueOf("1"), Double.valueOf("1"), 1, set);
+        municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, 1, set);
         municipio = new Municipios();
-        municipio = new Municipios("prueba");
-        municipio.setNombre("prueba");
-        municipio.setDescripcion("prueba");
+        municipio = new Municipios(nombrePruebas);
+        municipio.setNombre(nombrePruebas);
+        municipio.setDescripcion(nombrePruebas);
         municipio.setLatitud(Double.valueOf("1"));
         municipio.setLongitud(Double.valueOf("1"));
         municipio.setCodigo(1);
@@ -85,14 +92,14 @@ public class Test {
         InsertarBorrar.insertar((Object)municipio);
 
         entorno = new Entornos();
-        entorno.setNombre("prueba");
-        entorno.setDescripcion("prueba");
-        entorno.setTipo("prueba");
-        entorno.setTerritorio("prueba");
+        entorno.setNombre(nombrePruebas);
+        entorno.setDescripcion(nombrePruebas);
+        entorno.setTipo(nombrePruebas);
+        entorno.setTerritorio(nombrePruebas);
         entorno.setLatitud((double) 10);
         entorno.setLongitud((double) 20);
         entorno.setEntornosmunis(set);
-        entorno = new Entornos("prueba","prueba","prueba", "prueba", null, null, set);
+        entorno = new Entornos(nombrePruebas,nombrePruebas,nombrePruebas, nombrePruebas, null, null, set);
         InsertarBorrar.insertar((Object)entorno);
 
         lista.setMunicipios(municipio);
@@ -109,10 +116,9 @@ public class Test {
 	@org.junit.Test
     public void testInsercionHorarios() {
 
-        estacion = new Estaciones("prueba", "prueba", "prueba", Double.valueOf("1"), Double.valueOf("1"), Double.valueOf("1"), Double.valueOf("1"), set);
-        informe = new Informes(estacion, "prueba", "prueba", set);
+        estacion = new Estaciones(nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
+        informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
 
-        Calendar fecha = Calendar.getInstance();
         horario.setFecha(toDate(fecha));
         horario.setHora("10:00");
         horario.setInformes(informe);
@@ -121,7 +127,7 @@ public class Test {
         horario.setNoxgm3(0.55);
         horario.setPm10gm3(1.23);
 
-        horario = new Horario(informe,toDate(fecha),"10:00",0.23,0.22,0.44,1.33);
+        horario = new Horario(informe,toDate(fecha),"10:00",valor,valor,valor,valor);
 
         InsertarBorrar.insertar((Object)estacion);
         InsertarBorrar.insertar((Object)informe);
@@ -129,14 +135,7 @@ public class Test {
         InsertarBorrar.borrar(horario);
         InsertarBorrar.borrar(informe);
         InsertarBorrar.borrar(estacion);
-
     }
-
-//    public Calendar toCalendar(Date date){ 
-//          Calendar cal = Calendar.getInstance();
-//          cal.setTime(date);
-//          return cal;
-//    }
 
     public Date toDate(Calendar calendar)
     {
@@ -144,40 +143,4 @@ public class Test {
         result = calendar.getTime();
         return result;
     }
-
-	@org.junit.Test
-	public void testInsercionEntornosMuni() {
-		
-		Set set = new HashSet(0);
-		municipio = new Municipios("prueba", "prueba", Double.valueOf("1"), Double.valueOf("1"), 1, set);
-		municipio = new Municipios();
-		municipio = new Municipios("prueba");
-		municipio.setNombre("prueba");
-		municipio.setDescripcion("prueba");
-		municipio.setLatitud(Double.valueOf("1"));
-		municipio.setLongitud(Double.valueOf("1"));
-		municipio.setCodigo(1);
-		
-		InsertarBorrar.insertar((Object)municipio);
-		
-		entorno = new Entornos();
-		entorno.setNombre("prueba");
-		entorno.setDescripcion("prueba");
-		entorno.setTipo("prueba");
-		entorno.setTerritorio("prueba");
-		entorno.setLatitud((double) 10);
-		entorno.setLongitud((double) 20);
-		entorno.setEntornosmunis(set);
-		entorno = new Entornos("prueba","prueba","prueba", "prueba", null, null, set);
-		InsertarBorrar.insertar((Object)entorno);
-		
-		lista.setMunicipios(municipio);
-		lista.setEntornos(entorno);
-		lista.setId(0);
-		lista = new Entornosmuni(entorno,municipio);
-		
-		assertEquals(true, InsertarBorrar.insertar((Object)lista));
-		InsertarBorrar.borrar(lista);
-		InsertarBorrar.borrar(municipio);
-	}
 }
