@@ -110,5 +110,17 @@ public class Estaciones implements java.io.Serializable {
 	public void setInformeses(Set informeses) {
 		this.informeses = informeses;
 	}
-
+	
+	@Override
+	public String toString() {
+		return "Estacion id: " + id + "\n" + 
+				"Nombre: " + nombre + "\n" +
+				"Provincia: " + provincia + "\n" + 
+				"Direccion: " + direccion + "\n" + 
+				"CoordenadaX: " + coordenadaX + "\n" + 
+				"CoordenadaY: " + coordenadaY + "\n" + 
+				"Latitud: " + latitud + "\n" + 
+				"Longitud: " + longitud + "\n" + 
+				"Informeses: " + informeses;
+	}
 }
