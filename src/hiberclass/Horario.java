@@ -1,5 +1,5 @@
 package hiberclass;
-// Generated 23 dic. 2020 5:10:52 by Hibernate Tools 5.4.21.Final
+// Generated 23 dic. 2020 23:03:33 by Hibernate Tools 5.4.21.Final
 
 import java.util.Date;
 

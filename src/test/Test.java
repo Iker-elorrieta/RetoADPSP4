@@ -6,6 +6,8 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 import hiberclass.Entornos;
+import hiberclass.Entornosmuni;
+import hiberclass.EntornosmuniId;
 import hiberclass.Estaciones;
 import hiberclass.Horario;
 import hiberclass.Informes;
@@ -26,6 +28,8 @@ public class Test {
 	Horario horario = new Horario();
 	Informes informe = new Informes();
 	Estaciones estacion = new Estaciones();
+	Entornosmuni entornosmuni = new Entornosmuni();
+	EntornosmuniId entornosmuniId = new EntornosmuniId();
 	HibernateUtil hibernate = new HibernateUtil();
 	
 	//Valores de prueba
@@ -75,7 +79,7 @@ public class Test {
 		
 		entorno = new Entornos(nombrePruebas);
 		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
-		assertEquals(true, InsertarBorrar.insertar((Object)entorno));
+		assertEquals(true, InsertarBorrar.insertar(entorno));
 		InsertarBorrar.borrar(entorno);
 	}
 	
@@ -112,6 +116,24 @@ public class Test {
         InsertarBorrar.borrar(municipio);
 
     }
+	
+	@org.junit.Test
+    public void testInsercionEntornosMuni() {
+		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);	
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, 1, set, set);	
+		InsertarBorrar.insertar(entorno);
+		InsertarBorrar.insertar(municipio);
+		entorno.setId(InsertarBorrar.obtenerEntornoId(entorno));
+		municipio.setId(InsertarBorrar.obtenerMunicipioId(municipio));
+		entornosmuniId = new EntornosmuniId(entorno.getId(), municipio.getId());
+		entornosmuni.setEntornos(entorno);
+		entornosmuni.setMunicipios(municipio);
+		entornosmuni = new Entornosmuni(entornosmuniId, entorno, municipio);
+		InsertarBorrar.insertar(entornosmuni);
+		InsertarBorrar.borrar(municipio);
+		InsertarBorrar.borrar(entorno);
+		
+	}
 
     public Date toDate(Calendar calendar)
     {
