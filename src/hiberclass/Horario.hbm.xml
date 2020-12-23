@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generated 22 dic. 2020 17:17:55 by Hibernate Tools 5.4.18.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 23 dic. 2020 5:10:53 by Hibernate Tools 5.4.21.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
     <class catalog="euskalmet" dynamic-insert="false" dynamic-update="false" mutable="true" name="hiberclass.Horario" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="horario">
         <id name="id" type="java.lang.Integer">
@@ -15,17 +15,41 @@
         <property generated="never" lazy="false" name="hora" optimistic-lock="true" type="string" unique="false">
             <column length="10" name="Hora" not-null="true"/>
         </property>
+        <property generated="never" lazy="false" name="comgm3" optimistic-lock="true" type="double" unique="false">
+            <column name="COmgm3" not-null="true" precision="22" scale="0"/>
+        </property>
         <property generated="never" lazy="false" name="nogm3" optimistic-lock="true" type="double" unique="false">
             <column name="NOgm3" not-null="true" precision="22" scale="0"/>
         </property>
-        <property generated="never" lazy="false" name="no2gm3" optimistic-lock="true" type="double" unique="false">
-            <column name="NO2gm3" not-null="true" precision="22" scale="0"/>
+        <property generated="never" lazy="false" name="no2" optimistic-lock="true" type="double" unique="false">
+            <column name="NO2" not-null="true" precision="22" scale="0"/>
+        </property>
+        <property generated="never" lazy="false" name="no2ica" optimistic-lock="true" type="string" unique="false">
+            <column length="50" name="NO2ICA" not-null="true"/>
         </property>
         <property generated="never" lazy="false" name="noxgm3" optimistic-lock="true" type="double" unique="false">
             <column name="NOXgm3" not-null="true" precision="22" scale="0"/>
         </property>
-        <property generated="never" lazy="false" name="pm10gm3" optimistic-lock="true" type="double" unique="false">
-            <column name="PM10gm3" not-null="true" precision="22" scale="0"/>
+        <property generated="never" lazy="false" name="pm10" optimistic-lock="true" type="double" unique="false">
+            <column name="PM10" not-null="true" precision="22" scale="0"/>
+        </property>
+        <property generated="never" lazy="false" name="pm10ica" optimistic-lock="true" type="string" unique="false">
+            <column length="50" name="PM10ICA" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="pm25" optimistic-lock="true" type="double" unique="false">
+            <column name="PM25" not-null="true" precision="22" scale="0"/>
+        </property>
+        <property generated="never" lazy="false" name="pm25ica" optimistic-lock="true" type="string" unique="false">
+            <column length="50" name="PM25ICA" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="so2" optimistic-lock="true" type="double" unique="false">
+            <column name="SO2" not-null="true" precision="22" scale="0"/>
+        </property>
+        <property generated="never" lazy="false" name="so2ica" optimistic-lock="true" type="string" unique="false">
+            <column length="50" name="SO2ICA" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="icaestacion" optimistic-lock="true" type="string" unique="false">
+            <column length="50" name="ICAEstacion" not-null="true"/>
         </property>
     </class>
 </hibernate-mapping>

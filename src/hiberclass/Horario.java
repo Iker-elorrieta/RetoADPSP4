@@ -1,5 +1,5 @@
 package hiberclass;
-// Generated 22 dic. 2020 17:17:54 by Hibernate Tools 5.4.18.Final
+// Generated 23 dic. 2020 5:10:52 by Hibernate Tools 5.4.21.Final
 
 import java.util.Date;
 
@@ -12,23 +12,40 @@ public class Horario implements java.io.Serializable {
 	private Informes informes;
 	private Date fecha;
 	private String hora;
+	private double comgm3;
 	private double nogm3;
-	private double no2gm3;
+	private double no2;
+	private String no2ica;
 	private double noxgm3;
-	private double pm10gm3;
+	private double pm10;
+	private String pm10ica;
+	private double pm25;
+	private String pm25ica;
+	private double so2;
+	private String so2ica;
+	private String icaestacion;
 
 	public Horario() {
 	}
 
-	public Horario(Informes informes, Date fecha, String hora, double nogm3, double no2gm3, double noxgm3,
-			double pm10gm3) {
+	public Horario(Informes informes, Date fecha, String hora, double comgm3, double nogm3, double no2, String no2ica,
+			double noxgm3, double pm10, String pm10ica, double pm25, String pm25ica, double so2, String so2ica,
+			String icaestacion) {
 		this.informes = informes;
 		this.fecha = fecha;
 		this.hora = hora;
+		this.comgm3 = comgm3;
 		this.nogm3 = nogm3;
-		this.no2gm3 = no2gm3;
+		this.no2 = no2;
+		this.no2ica = no2ica;
 		this.noxgm3 = noxgm3;
-		this.pm10gm3 = pm10gm3;
+		this.pm10 = pm10;
+		this.pm10ica = pm10ica;
+		this.pm25 = pm25;
+		this.pm25ica = pm25ica;
+		this.so2 = so2;
+		this.so2ica = so2ica;
+		this.icaestacion = icaestacion;
 	}
 
 	public Integer getId() {
@@ -63,6 +80,14 @@ public class Horario implements java.io.Serializable {
 		this.hora = hora;
 	}
 
+	public double getComgm3() {
+		return this.comgm3;
+	}
+
+	public void setComgm3(double comgm3) {
+		this.comgm3 = comgm3;
+	}
+
 	public double getNogm3() {
 		return this.nogm3;
 	}
@@ -71,12 +96,20 @@ public class Horario implements java.io.Serializable {
 		this.nogm3 = nogm3;
 	}
 
-	public double getNo2gm3() {
-		return this.no2gm3;
+	public double getNo2() {
+		return this.no2;
 	}
 
-	public void setNo2gm3(double no2gm3) {
-		this.no2gm3 = no2gm3;
+	public void setNo2(double no2) {
+		this.no2 = no2;
+	}
+
+	public String getNo2ica() {
+		return this.no2ica;
+	}
+
+	public void setNo2ica(String no2ica) {
+		this.no2ica = no2ica;
 	}
 
 	public double getNoxgm3() {
@@ -87,12 +120,60 @@ public class Horario implements java.io.Serializable {
 		this.noxgm3 = noxgm3;
 	}
 
-	public double getPm10gm3() {
-		return this.pm10gm3;
+	public double getPm10() {
+		return this.pm10;
 	}
 
-	public void setPm10gm3(double pm10gm3) {
-		this.pm10gm3 = pm10gm3;
+	public void setPm10(double pm10) {
+		this.pm10 = pm10;
+	}
+
+	public String getPm10ica() {
+		return this.pm10ica;
+	}
+
+	public void setPm10ica(String pm10ica) {
+		this.pm10ica = pm10ica;
+	}
+
+	public double getPm25() {
+		return this.pm25;
+	}
+
+	public void setPm25(double pm25) {
+		this.pm25 = pm25;
+	}
+
+	public String getPm25ica() {
+		return this.pm25ica;
+	}
+
+	public void setPm25ica(String pm25ica) {
+		this.pm25ica = pm25ica;
+	}
+
+	public double getSo2() {
+		return this.so2;
+	}
+
+	public void setSo2(double so2) {
+		this.so2 = so2;
+	}
+
+	public String getSo2ica() {
+		return this.so2ica;
+	}
+
+	public void setSo2ica(String so2ica) {
+		this.so2ica = so2ica;
+	}
+
+	public String getIcaestacion() {
+		return this.icaestacion;
+	}
+
+	public void setIcaestacion(String icaestacion) {
+		this.icaestacion = icaestacion;
 	}
 
 }

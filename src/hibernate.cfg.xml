@@ -12,7 +12,6 @@
         <mapping resource="hiberclass/Informes.hbm.xml"/>
         <mapping resource="hiberclass/Entornos.hbm.xml"/>
         <mapping resource="hiberclass/Municipios.hbm.xml"/>
-        <mapping resource="hiberclass/Entornosmuni.hbm.xml"/>
         <mapping resource="hiberclass/Estaciones.hbm.xml"/>
         <mapping resource="hiberclass/Horario.hbm.xml"/>
     </session-factory>

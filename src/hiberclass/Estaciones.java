@@ -1,5 +1,5 @@
 package hiberclass;
-// Generated 22 dic. 2020 17:17:54 by Hibernate Tools 5.4.18.Final
+// Generated 23 dic. 2020 5:10:52 by Hibernate Tools 5.4.21.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -10,6 +10,7 @@ import java.util.Set;
 public class Estaciones implements java.io.Serializable {
 
 	private Integer id;
+	private Municipios municipios;
 	private String nombre;
 	private String provincia;
 	private String direccion;
@@ -22,13 +23,15 @@ public class Estaciones implements java.io.Serializable {
 	public Estaciones() {
 	}
 
-	public Estaciones(String nombre, String direccion) {
+	public Estaciones(Municipios municipios, String nombre, String direccion) {
+		this.municipios = municipios;
 		this.nombre = nombre;
 		this.direccion = direccion;
 	}
 
-	public Estaciones(String nombre, String provincia, String direccion, Double coordenadaX, Double coordenadaY,
-			Double latitud, Double longitud, Set informeses) {
+	public Estaciones(Municipios municipios, String nombre, String provincia, String direccion, Double coordenadaX,
+			Double coordenadaY, Double latitud, Double longitud, Set informeses) {
+		this.municipios = municipios;
 		this.nombre = nombre;
 		this.provincia = provincia;
 		this.direccion = direccion;
@@ -45,6 +48,14 @@ public class Estaciones implements java.io.Serializable {
 
 	public void setId(Integer id) {
 		this.id = id;
+	}
+
+	public Municipios getMunicipios() {
+		return this.municipios;
+	}
+
+	public void setMunicipios(Municipios municipios) {
+		this.municipios = municipios;
 	}
 
 	public String getNombre() {
@@ -110,17 +121,5 @@ public class Estaciones implements java.io.Serializable {
 	public void setInformeses(Set informeses) {
 		this.informeses = informeses;
 	}
-	
-	@Override
-	public String toString() {
-		return "Estacion id: " + id + "\n" + 
-				"Nombre: " + nombre + "\n" +
-				"Provincia: " + provincia + "\n" + 
-				"Direccion: " + direccion + "\n" + 
-				"CoordenadaX: " + coordenadaX + "\n" + 
-				"CoordenadaY: " + coordenadaY + "\n" + 
-				"Latitud: " + latitud + "\n" + 
-				"Longitud: " + longitud + "\n" + 
-				"Informeses: " + informeses;
-	}
+
 }
