@@ -1,5 +1,5 @@
 package hiberclass;
-// Generated 22 dic. 2020 17:17:54 by Hibernate Tools 5.4.18.Final
+// Generated 23 dic. 2020 23:03:33 by Hibernate Tools 5.4.21.Final
 
 import java.util.HashSet;
 import java.util.Set;

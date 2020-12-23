@@ -1,5 +1,5 @@
 package hiberclass;
-// Generated 22 dic. 2020 17:17:54 by Hibernate Tools 5.4.18.Final
+// Generated 23 dic. 2020 23:03:33 by Hibernate Tools 5.4.21.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -15,6 +15,7 @@ public class Municipios implements java.io.Serializable {
 	private Double latitud;
 	private Double longitud;
 	private Integer codigo;
+	private Set estacioneses = new HashSet(0);
 	private Set entornosmunis = new HashSet(0);
 
 	public Municipios() {
@@ -25,12 +26,13 @@ public class Municipios implements java.io.Serializable {
 	}
 
 	public Municipios(String nombre, String descripcion, Double latitud, Double longitud, Integer codigo,
-			Set entornosmunis) {
+			Set estacioneses, Set entornosmunis) {
 		this.nombre = nombre;
 		this.descripcion = descripcion;
 		this.latitud = latitud;
 		this.longitud = longitud;
 		this.codigo = codigo;
+		this.estacioneses = estacioneses;
 		this.entornosmunis = entornosmunis;
 	}
 
@@ -80,6 +82,14 @@ public class Municipios implements java.io.Serializable {
 
 	public void setCodigo(Integer codigo) {
 		this.codigo = codigo;
+	}
+
+	public Set getEstacioneses() {
+		return this.estacioneses;
+	}
+
+	public void setEstacioneses(Set estacioneses) {
+		this.estacioneses = estacioneses;
 	}
 
 	public Set getEntornosmunis() {

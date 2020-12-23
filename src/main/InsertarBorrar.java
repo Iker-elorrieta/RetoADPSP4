@@ -1,8 +1,12 @@
 package main;
 
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+
+import hiberclass.Entornos;
+import hiberclass.Municipios;
 
 /**
  * Clase de modificacion BDD
@@ -54,5 +58,36 @@ public class InsertarBorrar {
 		session.close();
 	}
 	
+	public static int obtenerEntornoId(Entornos entorno) {
+		
+		String hql = new String();
+		Transaction tx = null;
+		SessionFactory sesion = HibernateUtil.getSessionFactory();
+		Session session = sesion.openSession();
+		tx = session.beginTransaction();		
+		hql = "from Entornos where Nombre = '" + entorno.getNombre() + "'";
+		Query q = session.createQuery(hql);
+		
+		entorno = (Entornos) q.uniqueResult();
+		
+		return entorno.getId();
+		
+	}
+	
+	public static int obtenerMunicipioId(Municipios municipio) {
+		
+		String hql = new String();
+		Transaction tx = null;
+		SessionFactory sesion = HibernateUtil.getSessionFactory();
+		Session session = sesion.openSession();
+		tx = session.beginTransaction();		
+		hql = "from Municipios where Nombre = '" + municipio.getNombre() + "'";
+		Query q = session.createQuery(hql);
+		
+		municipio = (Municipios) q.uniqueResult();
+		
+		return municipio.getId();
+		
+	}
 
 }
