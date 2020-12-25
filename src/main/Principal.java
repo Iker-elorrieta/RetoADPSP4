@@ -15,19 +15,29 @@ import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.security.cert.X509Certificate;
+import java.time.Duration;
 import java.util.Calendar;
+import java.util.regex.PatternSyntaxException;
+
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import hiberclass.Entornos;
+import hiberclass.Entornosmuni;
+import hiberclass.Estaciones;
 import hiberclass.Horario;
 import hiberclass.Informes;
+import hiberclass.Municipios;
 
 public class Principal {
+	static String[] caracteresDeSeparacion = {"-","/","|"};
+	
 	public static void main(String[] args) {
 		try {
 			int contadorPaginasNoEncontradas = 0;
@@ -38,34 +48,110 @@ public class Principal {
 			
 			//Esta linea sirve para ignorar los elementos que encuentra y que el objeto no tenga
 			mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
-			Informes[] usrPost = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/index.json", null, ""), Informes[].class);
+			Informes[] horariosEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/index.json"), Informes[].class);
+			Estaciones[] listaEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/estaciones.json"), Estaciones[].class);
+			Municipios[] listaMunicipios = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/pueblos_euskadi_turismo/opendata/herriak.json"), Municipios[].class);
+			Entornos[] listaEspaciosNaturales = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/playas_de_euskadi/opendata/espacios-naturales.json"), Entornos[].class);
+			String[] nombres;
 			
-			//Recorremos la lista para pillar todas las horas
-			for(int i = 0 ; i < usrPost.length ;i++)
+			//Insertar municipios
+			for(int i = 0 ; i < listaMunicipios.length ; i++)
 			{
-				try
+				InsertarBorrar.insertar(listaMunicipios[i]);
+			}
+			
+			//Insertar espacios naturales
+			for (int i = 0 ; i < listaEspaciosNaturales.length; i++)
+			{
+				for(int y = 0 ; y < listaMunicipios.length ; y++)
 				{
-					Horario[] json = null;
-					//Comprobamos si es un dato horario o diario
-					if(usrPost[i].getUrl().contains("datos_indice"))
+					for(int x = 0 ; x < caracteresDeSeparacion.length ; x++)
 					{
-						//Si en un dato horario se pillara todo hasta el dia anterior hasta la hora 10:00
-						System.out.println(usrPost[i].getUrl().trim());
-						json = mapper.readValue(readJsonDesdeUrl(usrPost[i].getUrl().trim(),fechaAnterior(0),"datos_indice"), Horario[].class);
-						
-						for(int y = 0; y < json.length ;y++)
+						try {
+							nombres = listaEspaciosNaturales[i].getMunicipio().split(caracteresDeSeparacion[x]);
+							for(int valor = 0 ; valor < nombres.length ; valor++)
+							{
+								if(listaMunicipios[y].getNombre().toLowerCase().contains(nombres[valor]));
+								{
+									listaEspaciosNaturales[i].setMunicipios(listaMunicipios[y]);
+									Entornosmuni tabla = new Entornosmuni();
+									tabla.setEntornos(listaEspaciosNaturales[i]);
+									tabla.setMunicipios(listaMunicipios[y]);
+									InsertarBorrar.insertar(listaEspaciosNaturales[i]);
+									InsertarBorrar.insertar(tabla);
+								}
+							}
+						}
+						catch (PatternSyntaxException a)
 						{
-							System.out.println(json[y]);
+//							System.out.println("La estacion no tiene ese municipio");
 						}
 					}
-					else if(usrPost[i].getUrl().contains("datos_diarios"))
+					if(listaMunicipios[y].getNombre().toLowerCase().equals(listaEstaciones[i].getMunicipio()))
 					{
-						//Si es un dato diario se pillara el objeto hasta el dia anterior
-						System.out.println(usrPost[i].getUrl().trim());
-						json = mapper.readValue(readJsonDesdeUrl(usrPost[i].getUrl().trim(),fechaAnterior(1),"datos_diarios"), Horario[].class);
-						for(int y = 0; y < json.length ;y++)
+						listaEspaciosNaturales[i].setMunicipios(listaMunicipios[y]);
+						InsertarBorrar.insertar(listaEspaciosNaturales[i]);
+					}
+				}
+			}
+			
+			//Insertar estaciones
+			for(int i = 0 ; i < listaEstaciones.length ; i++)
+			{
+				for(int y = 0 ; y < listaMunicipios.length ; y++)
+				{
+					for(int x = 0 ; x < caracteresDeSeparacion.length ; x++)
+					{
+						try {
+							nombres = listaEstaciones[i].getMunicipio().split(caracteresDeSeparacion[x]);
+							for(int valor = 0 ; valor < nombres.length ; valor++)
+							{
+								if(listaMunicipios[y].getNombre().toLowerCase().contains(nombres[valor]));
+								{
+									listaEstaciones[i].setMunicipios(listaMunicipios[y]);
+									InsertarBorrar.insertar(listaEstaciones[i]);
+								}
+							}
+						}
+						catch (PatternSyntaxException a)
 						{
-							System.out.println(json[y]);
+//							System.out.println("La estacion no tiene ese municipio");
+						}
+					}
+					if(listaMunicipios[y].getNombre().toLowerCase().equals(listaEstaciones[i].getMunicipio()))
+					{
+						listaEstaciones[i].setMunicipios(listaMunicipios[y]);
+						InsertarBorrar.insertar(listaEstaciones[i]);
+					}
+				}
+			}
+			
+			
+			//Insertar informes y horarios
+			for(int i = 0 ; i < horariosEstaciones.length ;i++)
+			{
+				for(int y = 0 ; y < listaEstaciones.length ; y++)
+				{
+					if(listaEstaciones[y].getNombre().contains(horariosEstaciones[i].getNombre()))
+					{
+						horariosEstaciones[i].setEstaciones(listaEstaciones[y]);
+						InsertarBorrar.insertar(horariosEstaciones[i]);
+					}
+				}
+				
+				try
+				{
+					Horario[] horario = null;
+					String url = horariosEstaciones[i].getUrl();
+					//Como no nos interesa los dadots horarios, lo ignoramos.
+					if(url.contains("datos_indice") || url.contains("datos_diarios"))
+					{
+						//Si en un dato horario se pillara todo hasta el dia anterior hasta la hora 10:00
+						horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[i].getUrl()), Horario[].class);
+						for(int x = 0 ; x < horario.length; x++)
+						{
+							horario[x].setInformes(horariosEstaciones[i]);
+							InsertarBorrar.insertar(horario[x]);
 						}
 					}
 				}
@@ -77,31 +163,6 @@ public class Principal {
 					contadorPaginasNoEncontradas++;
 				}
 			}
-			//Resumen de datos
-			System.out.println("Hay " + usrPost.length + " elementos en el json de calidad del aire de cuales hay " + contadorPaginasNoEncontradas + " sin encontrar.");
-			System.out.println("Cada uno de los elementos tiene la siguiente cantidad de horas registradas.");
-			
-
-//			for (int i = 0 ; i < usrPost.length ; i++)
-//			{
-//				//Quitar datos_horarios y las paginas que no se encuentran del array
-//				if(usrPost[i].isNull())
-//				{
-//					usrPost[i] = null;
-//					i = -1;
-//				}
-//			}
-			
-			//mostrar los contenidos
-			for (int i = 0 ; i < usrPost.length ; i++)
-			{
-				System.out.print((i+1) + ")");
-				System.out.println("Url: " + usrPost[i].getUrl());
-				System.out.println("-----------------------------------------------------------");
-			}
-			
-			System.out.println("Hay " + usrPost.length + " elementos en el json de calidad del aire de cuales hay " + contadorPaginasNoEncontradas + " sin encontrar.");
-			System.out.println(usrPost[0].getUrl());
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -117,31 +178,44 @@ public class Principal {
 	 * @return
 	 * @throws IOException
 	 */
-	private static String readAll(Reader rd, String date,String tipo,String nombreFichero) throws IOException {
+	private static String readAll(Reader rd, String url) throws IOException {
 		StringBuilder sb = new StringBuilder();
 		int cp;
 		String result = "";
 		while ((cp = rd.read()) != -1) {
 			sb.append((char) cp);
-			if(tipo.equals("datos_indice"))
-			{
-				result = comprobarHoraDia(sb.toString(),date,nombreFichero);
-					if(!result.equals("continuar"))
-						return result;
-			}
-			else if(tipo.equals("datos_diarios"))
-			{
-				result = comprobarHoraDia(sb.toString(),date,nombreFichero);
+
+			result = comprobarHoraDia(sb.toString(),url);
 				if(!result.equals("continuar"))
-					return result;
-			}		
+					return result.toLowerCase();
 		}
 		
-		//sb.toString().substring(sb.toString().indexOf("["),sb.toString().lastIndexOf("]")+1).toLowerCase()
-//		if(sb.toString().indexOf("[") != -1)
-			return sb.toString().substring(sb.toString().indexOf("["),sb.toString().lastIndexOf("]")+1);
-//		else
-//			return "[" + sb.toString().substring(sb.toString().indexOf("{"),sb.toString().lastIndexOf("}")+1).toLowerCase() + "]";
+		if(url.contains("index.json"))
+		{
+			result = sb.toString().substring(sb.toString().indexOf("["),sb.toString().lastIndexOf("]")+1);
+			String nombrefichero = url.substring(url.lastIndexOf("/")+1);
+			escribirJson(result,nombrefichero);
+			result = replace(result, url);
+			return result;
+		}
+		else if(sb.toString().indexOf("[") != -1 && sb.toString().lastIndexOf("]") != -1)
+		{
+			result = sb.toString().substring(sb.toString().indexOf("["),sb.toString().lastIndexOf("]")+1);
+			String nombrefichero = url.substring(url.lastIndexOf("/")+1);
+			escribirJson(result,nombrefichero);
+			result = replace(result, url);
+			return result.toLowerCase();
+		}
+		else if(sb.toString().indexOf("[") != -1 && sb.toString().lastIndexOf("]") == -1)
+		{
+			result = sb.toString().substring(sb.toString().indexOf("["),sb.toString().lastIndexOf("}")) + "]";
+			String nombrefichero = url.substring(url.lastIndexOf("/")+1);
+			escribirJson(result,nombrefichero);
+			result = replace(result, url);
+			return result.toLowerCase();
+		}
+		else
+			return "[{}]";
 	}
 	
 	/**
@@ -172,12 +246,12 @@ public class Principal {
 	 * @return
 	 * @throws IOException
 	 */
-	public static String readJsonDesdeUrl(String url, String date, String tipo) throws IOException {
+	public static String readJsonDesdeUrl(String url) throws IOException {
 		//Abrir entrada de la pagina para empezar ha leerlo.
 		InputStream is = new URL(url).openStream();
 		try {
 			BufferedReader rd = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
-			String jsonText = readAll(rd,date,tipo,url);
+			String jsonText = readAll(rd,url);
 			return jsonText;
 		} finally {
 			is.close();
@@ -236,53 +310,112 @@ public class Principal {
 		}
 	}
 
-	private static String comprobarHoraDia(String sb,String date,String nombreFichero)
+	private static String comprobarHoraDia(String sb ,String url)
 	{
+		String nombreFichero;
 		//Que siga rellenando hasta la fecha anterior y hasta la hora 10 de esa fecha
-		if (sb.toString().contains("Date"))
-//					if(tipo == null || tipo.equals(""))
+		if (sb.contains("Date"))
 			{
-				//Recoger el string entero
-				String result = sb.toString().substring(sb.toString().indexOf("["));
-				
-				//Comprobar si la ultima fecha es del mismo mes y año
-				if(result.lastIndexOf(date.substring(2)) != -1)
-					//comprobar que la ultima fecha que se ha encontrado es menor que la fecha que quieremos
-					if(Integer.parseInt(result.substring(result.lastIndexOf(date.substring(2))-2,result.lastIndexOf(date.substring(2)))) < Integer.parseInt(date.substring(0,2)))
-						if(sb.toString().contains("Hour"))
-						{
-							if(sb.toString().contains("09:00"))
+				try
+				{
+					//Recoger el string entero
+					String result = sb.substring(sb.indexOf("["));
+					String date = fechaAnterior(0);
+					//Comprobar si la ultima fecha es del mismo mes y año
+					if(result.lastIndexOf(date.substring(2)) != -1)
+						//comprobar que la ultima fecha que se ha encontrado es menor que la fecha que quieremos
+						if(Integer.parseInt(result.substring(result.lastIndexOf(date.substring(2))-2,result.lastIndexOf(date.substring(2)))) < Integer.parseInt(date.substring(0,2)))
+							if(sb.contains("Hour") && url.contains("datos_indice"))
 							{
-								result = sb.toString().substring(sb.toString().indexOf("["),sb.toString().lastIndexOf("}")+1) + " ]";
-								escribirJson(result,nombreFichero.substring(nombreFichero.lastIndexOf("/")+1));
-								return result.toLowerCase();
-							}
-						}
-						else
-						{
-							//en caso de que no tenga el elemento hora(lo mas probable esq sea un diario) recogemos solo con la fecha
-							result = sb.toString().substring(sb.toString().indexOf("["));
-							//comprobamos que tenga una fecha en el mismo mes y año
-							if(result.lastIndexOf(date.substring(2)) != -1)
-								//comprobamos que el ultimo dia elegido es menor a la fecha que quieremos
-								if(Integer.parseInt(result.substring(result.lastIndexOf(date.substring(2))-2,result.lastIndexOf(date.substring(2)))) < Integer.parseInt(date.substring(0,2)))
+								if(sb.contains("09:00"))
 								{
-									try
-									{
-										//si tiene algun elemento se guardara en un json y se inserta el json
-										result = sb.toString().substring(sb.toString().indexOf("["),sb.toString().lastIndexOf("}")+1) + " ]";
-										escribirJson(result,nombreFichero.substring(nombreFichero.lastIndexOf("/")+1));
-										return result.toLowerCase();
-									}
-									catch (StringIndexOutOfBoundsException a)
-									{
-										//sino se deja vacio
-										return "[{}]";
-									}
-									
+									result = sb.substring(sb.indexOf("["),sb.lastIndexOf("}")+1) + " ]";
+									nombreFichero = url.substring(url.lastIndexOf("/",url.lastIndexOf("/")-1)+1).replace("/", "-");
+									escribirJson(result,nombreFichero);
+									result = replace(result,url);
+									return result;
 								}
-						}
+							}
+							else if(url.contains("datos_diarios"))
+							{
+								date = fechaAnterior(2);
+								//en caso de que no tenga el elemento hora(lo mas probable esq sea un diario) recogemos solo con la fecha
+								result = sb.substring(sb.indexOf("["));
+								//comprobamos que tenga una fecha en el mismo mes y año
+								if(result.lastIndexOf(date.substring(2)) != -1)
+									//comprobamos que el ultimo dia elegido es menor a la fecha que quieremos
+									if(Integer.parseInt(result.substring(result.lastIndexOf(date.substring(2))-2,result.lastIndexOf(date.substring(2)))) < Integer.parseInt(date.substring(0,2)))
+									{
+										try
+										{
+											//si tiene algun elemento se guardara en un json y se inserta el json
+											result = sb.substring(sb.indexOf("["),sb.lastIndexOf("}")+1) + " ]";
+											nombreFichero = url.substring(url.lastIndexOf("/",url.lastIndexOf("/")-1)+1).replace("/", "-");
+											escribirJson(result,nombreFichero);
+											result = replace(result,url);
+											return result;
+										}
+										catch (StringIndexOutOfBoundsException a)
+										{
+											//sino se deja vacio
+											return "[{}]";
+										}
+										
+									}
+							}
+				}
+				catch (StringIndexOutOfBoundsException a)
+				{
+					return "continuar";
+				}
 			}
 			return "continuar";
+	}
+	
+	public static String replace(String cadena,String tipo)
+	{
+		if(tipo.toLowerCase().contains("estaciones.json"))
+		{
+			cadena = cadena.replace("Name", "Nombre");
+			cadena = cadena.replace("Province" , "Provincia");
+			cadena = cadena.replace("Town", "Municipio");
+			cadena = cadena.replace("Address", "Direccion");
+			cadena = cadena.replace("CoordenatesXETRS89", "CoordenadaX");
+			cadena = cadena.replace("CoordenatesYETRS89", "CoordenadaY");
+			cadena = cadena.replace("Latitude", "Latitud");
+			cadena = cadena.replace("Longitude", "Longitud");
+		}
+		else if(tipo.toLowerCase().contains("datos_indice"))
+		{
+			cadena = cadena.replace("Date", "Fecha");
+			cadena = cadena.replace("Hour", "Hora");
+		}
+		else if(tipo.toLowerCase().contains("datos_diarios"))
+		{
+			cadena = cadena.replace("Date", "Fecha");
+		}
+		else if(tipo.toLowerCase().contains("herriak.json"))
+		{
+			cadena = cadena.replace("documentName", "Nombre");
+			cadena = cadena.replace("documentDescription", "Descripcion");
+			cadena = cadena.replace("latwgs84", "Latitud");
+			cadena = cadena.replace("lonwgs84", "Longitud");
+			cadena = cadena.replace("municipalitycode", "Codigo");
+		}
+		else if(tipo.toLowerCase().contains("espacios-naturales.json"))
+		{
+			cadena = cadena.replace("documentName", "Nombre");
+			cadena = cadena.replace("turismDescription", "Descripcion");
+			cadena = cadena.replace("natureType", "Tipo");
+			cadena = cadena.replace("territory", "Territorio");
+			cadena = cadena.replace("municipality", "municipio");
+			cadena = cadena.replace("latwgs84", "Latitud");
+			cadena = cadena.replace("lonwgs84", "Longitud");
+		}
+		else if(tipo.toLowerCase().contains("index.json"))
+		{
+			cadena = cadena.replace("name", "nombre");
+		}
+		return cadena;
 	}
 }

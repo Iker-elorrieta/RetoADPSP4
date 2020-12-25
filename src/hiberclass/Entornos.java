@@ -1,5 +1,5 @@
 package hiberclass;
-// Generated 23 dic. 2020 23:03:33 by Hibernate Tools 5.4.21.Final
+// Generated Dec 25, 2020, 5:48:11 AM by Hibernate Tools 5.4.18.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -10,6 +10,8 @@ import java.util.Set;
 public class Entornos implements java.io.Serializable {
 
 	private Integer id;
+	private Municipios municipios;
+	private String municipio;
 	private String nombre;
 	private String descripcion;
 	private String tipo;
@@ -21,12 +23,14 @@ public class Entornos implements java.io.Serializable {
 	public Entornos() {
 	}
 
-	public Entornos(String nombre) {
+	public Entornos(Municipios municipios, String nombre) {
+		this.municipios = municipios;
 		this.nombre = nombre;
 	}
 
-	public Entornos(String nombre, String descripcion, String tipo, String territorio, Double latitud, Double longitud,
-			Set entornosmunis) {
+	public Entornos(Municipios municipios, String nombre, String descripcion, String tipo, String territorio,
+			Double latitud, Double longitud, Set entornosmunis) {
+		this.municipios = municipios;
 		this.nombre = nombre;
 		this.descripcion = descripcion;
 		this.tipo = tipo;
@@ -42,6 +46,30 @@ public class Entornos implements java.io.Serializable {
 
 	public void setId(Integer id) {
 		this.id = id;
+	}
+	
+	public void setLatitud(Double latitud) {
+		this.latitud = latitud;
+	}
+
+	public void setLongitud(Double longitud) {
+		this.longitud = longitud;
+	}
+
+	public String getMunicipio() {
+		return municipio;
+	}
+
+	public void setMunicipio(String municipio) {
+		this.municipio = municipio;
+	}
+	
+	public Municipios getMunicipios() {
+		return this.municipios;
+	}
+
+	public void setMunicipios(Municipios municipios) {
+		this.municipios = municipios;
 	}
 
 	public String getNombre() {
@@ -80,16 +108,30 @@ public class Entornos implements java.io.Serializable {
 		return this.latitud;
 	}
 
-	public void setLatitud(Double latitud) {
-		this.latitud = latitud;
+	public void setLatitud(String latitud) {
+		try
+		{
+			this.latitud = Double.parseDouble(latitud.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.latitud = null;
+		}
 	}
 
 	public Double getLongitud() {
 		return this.longitud;
 	}
 
-	public void setLongitud(Double longitud) {
-		this.longitud = longitud;
+	public void setLongitud(String longitud) {
+		try
+		{
+			this.longitud = Double.parseDouble(longitud.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.longitud = null;
+		}
 	}
 
 	public Set getEntornosmunis() {
@@ -99,8 +141,16 @@ public class Entornos implements java.io.Serializable {
 	public void setEntornosmunis(Set entornosmunis) {
 		this.entornosmunis = entornosmunis;
 	}
-
-	public boolean isNull() {
+	
+	@Override
+	public String toString() {
+		return "Entornos [id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + ", tipo=" + tipo
+				+ ", territorio=" + territorio + ", latitud=" + latitud + ", longitud=" + longitud + ", entornosmunis="
+				+ entornosmunis + "]";
+	}
+	
+	public boolean isNull()
+	{
 		if(nombre != null)
 			return false;
 		if(descripcion != null)
@@ -113,10 +163,6 @@ public class Entornos implements java.io.Serializable {
 			return false;
 		if(longitud != null)
 			return false;
-		if(entornosmunis != null)
-			return false;
 		return true;
 	}
-	
-	
 }

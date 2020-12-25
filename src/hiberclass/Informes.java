@@ -1,5 +1,5 @@
 package hiberclass;
-// Generated 23 dic. 2020 23:03:33 by Hibernate Tools 5.4.21.Final
+// Generated Dec 25, 2020, 5:48:11 AM by Hibernate Tools 5.4.18.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -12,11 +12,11 @@ public class Informes implements java.io.Serializable {
 	private Integer id;
 	private Estaciones estaciones;
 	private String formato;
+	private String nombre;
 	private String url;
 	private Set horarios = new HashSet(0);
 
 	public Informes() {
-		
 	}
 
 	public Informes(Estaciones estaciones, String url) {
@@ -39,6 +39,14 @@ public class Informes implements java.io.Serializable {
 		this.id = id;
 	}
 
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
 	public Estaciones getEstaciones() {
 		return this.estaciones;
 	}
@@ -70,17 +78,5 @@ public class Informes implements java.io.Serializable {
 	public void setHorarios(Set horarios) {
 		this.horarios = horarios;
 	}
-	
-	public boolean isNull()
-	{
-		if(estaciones != null)
-			return false;
-		if(formato != null)
-			return false;
-		if(url != null)
-			return false;
-		if(horarios != null)
-			return false;
-		return true;
-	}
+
 }

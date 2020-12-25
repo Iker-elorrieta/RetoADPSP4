@@ -1,6 +1,8 @@
 package hiberclass;
-// Generated 23 dic. 2020 23:03:33 by Hibernate Tools 5.4.21.Final
+// Generated Dec 25, 2020, 5:48:11 AM by Hibernate Tools 5.4.18.Final
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -56,6 +58,38 @@ public class Horario implements java.io.Serializable {
 		this.id = id;
 	}
 
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
+	}
+
+	public void setComgm3(double comgm3) {
+		this.comgm3 = comgm3;
+	}
+
+	public void setNogm3(double nogm3) {
+		this.nogm3 = nogm3;
+	}
+
+	public void setNo2(double no2) {
+		this.no2 = no2;
+	}
+
+	public void setNoxgm3(double noxgm3) {
+		this.noxgm3 = noxgm3;
+	}
+
+	public void setPm10(double pm10) {
+		this.pm10 = pm10;
+	}
+
+	public void setPm25(double pm25) {
+		this.pm25 = pm25;
+	}
+
+	public void setSo2(double so2) {
+		this.so2 = so2;
+	}
+
 	public Informes getInformes() {
 		return this.informes;
 	}
@@ -68,8 +102,12 @@ public class Horario implements java.io.Serializable {
 		return this.fecha;
 	}
 
-	public void setFecha(Date fecha) {
-		this.fecha = fecha;
+	public void setFecha(String fecha) {
+		try {
+			this.fecha = new SimpleDateFormat("dd/MM/yyyy").parse(fecha);
+		} catch (ParseException e) {
+			this.fecha = null;
+		}
 	}
 
 	public String getHora() {
@@ -84,24 +122,45 @@ public class Horario implements java.io.Serializable {
 		return this.comgm3;
 	}
 
-	public void setComgm3(double comgm3) {
-		this.comgm3 = comgm3;
+	public void setComgm3(String comgm3) {
+		try
+		{
+			this.comgm3 = Double.parseDouble(comgm3.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.comgm3 = 0;
+		}
 	}
 
 	public double getNogm3() {
 		return this.nogm3;
 	}
 
-	public void setNogm3(double nogm3) {
-		this.nogm3 = nogm3;
+	public void setNogm3(String nogm3) {
+		try
+		{
+			this.nogm3 = Double.parseDouble(nogm3.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.nogm3 = 0;
+		}
 	}
 
 	public double getNo2() {
 		return this.no2;
 	}
 
-	public void setNo2(double no2) {
-		this.no2 = no2;
+	public void setNo2(String no2) {
+		try
+		{
+			this.no2 = Double.parseDouble(no2.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.no2 = 0;
+		}
 	}
 
 	public String getNo2ica() {
@@ -116,16 +175,30 @@ public class Horario implements java.io.Serializable {
 		return this.noxgm3;
 	}
 
-	public void setNoxgm3(double noxgm3) {
-		this.noxgm3 = noxgm3;
+	public void setNoxgm3(String noxgm3) {
+		try
+		{
+			this.noxgm3 = Double.parseDouble(noxgm3.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.noxgm3 = 0;
+		}
 	}
 
 	public double getPm10() {
 		return this.pm10;
 	}
 
-	public void setPm10(double pm10) {
-		this.pm10 = pm10;
+	public void setPm10(String pm10) {
+		try
+		{
+			this.pm10 = Double.parseDouble(pm10.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.pm10 = 0;
+		}
 	}
 
 	public String getPm10ica() {
@@ -140,8 +213,15 @@ public class Horario implements java.io.Serializable {
 		return this.pm25;
 	}
 
-	public void setPm25(double pm25) {
-		this.pm25 = pm25;
+	public void setPm25(String pm25) {
+		try
+		{
+			this.pm25 = Double.parseDouble(pm25.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.pm25 = 0;
+		}
 	}
 
 	public String getPm25ica() {
@@ -156,8 +236,15 @@ public class Horario implements java.io.Serializable {
 		return this.so2;
 	}
 
-	public void setSo2(double so2) {
-		this.so2 = so2;
+	public void setSo2(String so2) {
+		try
+		{
+			this.so2 = Double.parseDouble(so2.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.so2 = 0;
+		}
 	}
 
 	public String getSo2ica() {
@@ -175,18 +262,38 @@ public class Horario implements java.io.Serializable {
 	public void setIcaestacion(String icaestacion) {
 		this.icaestacion = icaestacion;
 	}
+
+	@Override
+	public String toString() {
+		return "Horario [id=" + id + ", fecha=" + fecha + ", hora=" + hora + ", comgm3="
+				+ comgm3 + ", nogm3=" + nogm3 + ", no2=" + no2 + ", no2ica=" + no2ica + ", noxgm3=" + noxgm3 + ", pm10="
+				+ pm10 + ", pm10ica=" + pm10ica + ", pm25=" + pm25 + ", pm25ica=" + pm25ica + ", so2=" + so2
+				+ ", so2ica=" + so2ica + ", icaestacion=" + icaestacion + "]";
+	}
 	
 	public boolean isNull()
 	{
-		if(informes != null)
+		if(comgm3 != 0.0)
 			return false;
-		if(nogm3 != 0)
+		if(nogm3 != 0.0)
 			return false;
-		if(no2gm3 != 0)
+		if(no2 != 0.0)
 			return false;
-		if(noxgm3 != 0)
+		if(no2ica != null)
 			return false;
-		if(pm10gm3 != 0)
+		if(pm10 != 0.0)
+			return false;
+		if(pm10ica != null)
+			return false;
+		if(pm25 != 0.0)
+			return false;
+		if(pm25ica != null)
+			return false;
+		if(so2 != 0.0)
+			return false;
+		if(so2ica != null)
+			return false;
+		if(icaestacion != null)
 			return false;
 		return true;
 	}

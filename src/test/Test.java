@@ -34,7 +34,7 @@ public class Test {
 	
 	//Valores de prueba
 	String nombrePruebas = "prueba";
-	double valor = 1;
+	double valor = 1.2;
 	Calendar fecha = Calendar.getInstance(); // para pasar a date llamar al metodo toDate(Calendar)
 	
 	@SuppressWarnings("rawtypes")
@@ -42,7 +42,7 @@ public class Test {
 	
 	@org.junit.Test
 	public void testInsercionEstacion() {
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, 1, set, set);
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set, set);
 		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas);
 		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		estacion.toString();
@@ -55,14 +55,14 @@ public class Test {
 	@org.junit.Test
 	public void testInsercionMunicipio() {
 		municipio = new Municipios(nombrePruebas);
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, 1, set, set);
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set, set);
 		assertEquals(true, InsertarBorrar.insertar(municipio));
 		InsertarBorrar.borrar(municipio);
 	}
 	
 	@org.junit.Test
 	public void testInsercionInformes() {
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, 1, set, set);
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set, set);
 		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		informe = new Informes(estacion, nombrePruebas);
 		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
@@ -76,32 +76,34 @@ public class Test {
 	
 	@org.junit.Test
 	public void testInsercionEntorno() {
-		
-		entorno = new Entornos(nombrePruebas);
-		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set, set);
+		InsertarBorrar.insertar(municipio);
+		entorno = new Entornos(municipio, nombrePruebas);
+		entorno = new Entornos(municipio, nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
 		assertEquals(true, InsertarBorrar.insertar(entorno));
 		InsertarBorrar.borrar(entorno);
+		InsertarBorrar.borrar(municipio);
 	}
 	
 	@org.junit.Test
     public void testInsercionHorarios() {
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, 1, set, set);
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set, set);
 		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
         informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
 
-        horario.setFecha(toDate(fecha));
+        horario.setFecha("10/10/1000");
         horario.setHora("10:00");
         horario.setInformes(informe);
-        horario.setComgm3(valor);
-        horario.setNogm3(0.22);
-        horario.setNoxgm3(0.55);
-        horario.setNo2(valor);
+        horario.setComgm3(String.valueOf(valor));
+        horario.setNogm3(String.valueOf(0.22));
+        horario.setNoxgm3(String.valueOf(0.55));
+        horario.setNo2(String.valueOf(valor));
         horario.setNo2ica(nombrePruebas);
-        horario.setPm10(valor);
+        horario.setPm10(String.valueOf(valor));
         horario.setPm10ica(nombrePruebas);
-        horario.setPm25(valor);
+        horario.setPm25(String.valueOf(valor));
         horario.setPm25ica(nombrePruebas);
-        horario.setSo2(valor);
+        horario.setSo2(String.valueOf(valor));
         horario.setSo2ica(nombrePruebas);
         horario.setIcaestacion(nombrePruebas);
 
@@ -119,10 +121,10 @@ public class Test {
 	
 	@org.junit.Test
     public void testInsercionEntornosMuni() {
-		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);	
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, 1, set, set);	
-		InsertarBorrar.insertar(entorno);
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set, set);
+		entorno = new Entornos(municipio, nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);	
 		InsertarBorrar.insertar(municipio);
+		InsertarBorrar.insertar(entorno);
 		entorno.setId(InsertarBorrar.obtenerEntornoId(entorno));
 		municipio.setId(InsertarBorrar.obtenerMunicipioId(municipio));
 		entornosmuniId = new EntornosmuniId(entorno.getId(), municipio.getId());
@@ -131,7 +133,6 @@ public class Test {
 		entornosmuni = new Entornosmuni(entornosmuniId, entorno, municipio);
 		InsertarBorrar.insertar(entornosmuni);
 		InsertarBorrar.borrar(municipio);
-		InsertarBorrar.borrar(entorno);
 		
 	}
 
