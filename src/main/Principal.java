@@ -16,6 +16,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.security.cert.X509Certificate;
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.regex.PatternSyntaxException;
 
@@ -25,12 +26,15 @@ import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
 import org.hibernate.HibernateException;
+import org.hibernate.PropertyValueException;
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.exception.ConstraintViolationException;
 
-import com.fasterxml.jackson.annotation.JsonInclude.Include;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import hiberclass.Entornos;
@@ -45,8 +49,11 @@ public class Principal {
 	
 	public static void main(String[] args) {
 		Calendar tiempo1 = Calendar.getInstance();
-		try (SessionFactory sesion = HibernateUtil.getSessionFactory();
-				Session session = sesion.openSession();)
+		Horario[] horario = null;
+		Entornos[] listaEspaciosNaturales = null;
+		Municipios[] listaMunicipios = null;
+		ArrayList<Informes> paginasNoEncontrada = new ArrayList<Informes>();
+		try
 		{
 			int contadorPaginasNoEncontradas = 0;
 			//Comprobar los certificados de la pagina
@@ -56,16 +63,28 @@ public class Principal {
 			
 			//Esta linea sirve para ignorar los elementos que encuentra y que el objeto no tenga
 			mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
-			Informes[] horariosEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/index.json"), Informes[].class);
+			Informes[] horariosEstaciones = null;
+			try {
+				horariosEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/index.json"), Informes[].class);
+			} catch (JsonMappingException e2) {
+				// TODO Auto-generated catch block
+				e2.printStackTrace();
+			} catch (JsonProcessingException e2) {
+				// TODO Auto-generated catch block
+				e2.printStackTrace();
+			} catch (IOException e2) {
+				// TODO Auto-generated catch block
+				e2.printStackTrace();
+			}
 			Estaciones[] listaEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/estaciones.json"), Estaciones[].class);
-			Municipios[] listaMunicipios = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/pueblos_euskadi_turismo/opendata/herriak.json"), Municipios[].class);
-			Entornos[] listaEspaciosNaturales = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/playas_de_euskadi/opendata/espacios-naturales.json"), Entornos[].class);
+			listaMunicipios = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/pueblos_euskadi_turismo/opendata/herriak.json"), Municipios[].class);
+			listaEspaciosNaturales = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/playas_de_euskadi/opendata/espacios-naturales.json"), Entornos[].class);
 			String[] nombres;
 			
 			//Insertar municipios
 			for(int i = 0 ; i < listaMunicipios.length ; i++)
 			{
-				InsertarBorrar.insertar(listaMunicipios[i],sesion,session);
+				InsertarBorrar.insertar(listaMunicipios[i]);
 			}
 			
 			//Insertar espacios naturales
@@ -84,11 +103,11 @@ public class Principal {
 									if(listaMunicipios[y].getNombre().toLowerCase().contains(nombres[valor]));
 									{
 										listaEspaciosNaturales[i].setMunicipios(listaMunicipios[y]);
-										InsertarBorrar.insertar(listaEspaciosNaturales[i],sesion,session);
+										InsertarBorrar.insertar(listaEspaciosNaturales[i]);
 										Entornosmuni tabla = new Entornosmuni();
 										tabla.setEntornos(listaEspaciosNaturales[i]);
 										tabla.setMunicipios(listaMunicipios[y]);
-										InsertarBorrar.insertar(tabla,sesion,session);
+										InsertarBorrar.insertar(tabla);
 									}
 								}
 							}
@@ -97,10 +116,10 @@ public class Principal {
 	//							System.out.println("La estacion no tiene ese municipio");
 							}
 						}
-						if(listaMunicipios[y].getNombre().toLowerCase().equals(listaEstaciones[i].getMunicipio()))
+						if(listaMunicipios[y].getNombre().toLowerCase().equals(listaEspaciosNaturales[i].getMunicipio()))
 						{
 							listaEspaciosNaturales[i].setMunicipios(listaMunicipios[y]);
-							InsertarBorrar.insertar(listaEspaciosNaturales[i],sesion,session);
+							InsertarBorrar.insertar(listaEspaciosNaturales[i]);
 						}
 					}
 					catch (ConstraintViolationException e)
@@ -134,7 +153,7 @@ public class Principal {
 									if(listaMunicipios[y].getNombre().toLowerCase().contains(nombres[valor]));
 									{
 										listaEstaciones[i].setMunicipios(listaMunicipios[y]);
-										InsertarBorrar.insertar(listaEstaciones[i],sesion,session);
+										InsertarBorrar.insertar(listaEstaciones[i]);
 									}
 								}
 							}
@@ -146,7 +165,7 @@ public class Principal {
 						if(listaMunicipios[y].getNombre().toLowerCase().equals(listaEstaciones[i].getMunicipio()))
 						{
 							listaEstaciones[i].setMunicipios(listaMunicipios[y]);
-							InsertarBorrar.insertar(listaEstaciones[i],sesion,session);
+							InsertarBorrar.insertar(listaEstaciones[i]);
 						}
 					}
 					catch (ConstraintViolationException e)
@@ -170,7 +189,30 @@ public class Principal {
 			{
 				String url = horariosEstaciones[i].getUrl();
 				try
-				{
+				{	
+					try
+					{
+						//Como no nos interesa los dadots horarios, lo ignoramos.
+						if(url.contains("datos_indice") || url.contains("datos_diarios"))
+						{
+							//Si en un dato horario se pillara todo hasta el dia anterior hasta la hora 10:00
+							horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[i].getUrl()), Horario[].class);
+							for(int x = 0 ; x < horario.length; x++)
+							{
+								
+								horario[x].setInformes(horariosEstaciones[i]);
+//								InsertarBorrar.insertar(horario[x],sesion,session);
+							}
+						}
+					}
+					catch (IOException a)
+					{
+						//Si la pagina no se encuentra muestra el error
+						System.out.println("Pagina no encontrada");
+						//Contador de paginas no encotradas.
+						paginasNoEncontrada.add(horariosEstaciones[i]);
+					}
+					
 					for(int y = 0 ; y < listaEstaciones.length ; y++)
 					{
 						nombres = horariosEstaciones[i].getNombre().toLowerCase().split("_");
@@ -181,7 +223,14 @@ public class Principal {
 								if(listaEstaciones[y].getNombre().toLowerCase().contains(nombres[x]) && (url.contains("datos_indice") || url.contains("datos_diarios")))
 								{
 									horariosEstaciones[i].setEstaciones(listaEstaciones[y]);
-									InsertarBorrar.insertar(horariosEstaciones[i],sesion,session);
+									boolean encontrado = false;
+									for(int o = 0 ; o < paginasNoEncontrada.size() ; o++)
+									{
+										if(horariosEstaciones[i].equals(paginasNoEncontrada.get(o)))
+											encontrado = true;
+									}
+									if(!encontrado)
+										InsertarBorrar.insertar(horariosEstaciones[i]);
 								}
 							}
 							catch (ConstraintViolationException e)
@@ -203,30 +252,6 @@ public class Principal {
 							}
 						}
 					}
-					
-//					try
-//					{
-//						Horario[] horario = null;
-//						//Como no nos interesa los dadots horarios, lo ignoramos.
-//						if(url.contains("datos_indice") || url.contains("datos_diarios"))
-//						{
-//							//Si en un dato horario se pillara todo hasta el dia anterior hasta la hora 10:00
-//							horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[i].getUrl()), Horario[].class);
-//							for(int x = 0 ; x < horario.length; x++)
-//							{
-//								
-//								horario[x].setInformes(horariosEstaciones[i]);
-//								InsertarBorrar.insertar(horario[x],sesion,session);
-//							}
-//						}
-//					}
-//					catch (FileNotFoundException a)
-//					{
-//						//Si la pagina no se encuentra muestra el error
-//						System.out.println("Pagina no encontrada");
-//						//Contador de paginas no encotradas.
-//						contadorPaginasNoEncontradas++;
-//					}
 				}
 				catch (ConstraintViolationException e)
 				{
@@ -243,9 +268,77 @@ public class Principal {
 			}
 			
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}	
+		
+//		try
+//		{
+//			ObjectMapper mapper = new ObjectMapper();
+//			mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+//			
+//			Informes[] horariosEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/index.json"), Informes[].class);
+//			for(int y = 0 ; y < horariosEstaciones.length ;y++)
+//			{
+//				try
+//				{
+//					String url = horariosEstaciones[y].getUrl();
+//					if(url.contains("datos_indice") || url.contains("datos_diarios"))
+//					{
+//						SessionFactory sesion = HibernateUtil.getSessionFactory();
+//						Session session = sesion.openSession();
+//						String hql = "from Informes where url = '"+url+"'";
+//						Query q = session.createQuery(hql);
+//						Informes informe = (Informes) q.uniqueResult();
+//						session.close();
+//						sesion.close();
+//						horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[y].getUrl()), Horario[].class);
+//						for(int x = 0 ; x < horario.length; x++)
+//						{
+//							horario[x].setInformes(informe);
+//							if(!horario[x].isNull())
+//								InsertarBorrar.insertar(horario[x]);
+//						}
+//					}
+//				}
+//				catch (IOException a)
+//				{
+//					
+//				}
+//				catch(PropertyValueException b)
+//				{
+//					
+//				}
+//			}
+//
+//			for(int i = 0 ; i < listaEspaciosNaturales.length ; i++)
+//			{
+//				Entornosmuni vinculo = new Entornosmuni();
+//				vinculo.setEntornos(listaEspaciosNaturales[i]);
+//				vinculo.setMunicipios(listaEspaciosNaturales[i].getMunicipios());
+//				try
+//				{
+//					InsertarBorrar.insertar(vinculo);
+//				}
+//				catch (ConstraintViolationException e)
+//				{
+//					System.out.println("Espacio natural repetido.");
+//				}
+//				catch (HibernateException o)
+//				{
+//					System.out.println("Espacio natural repetido.");
+//				}
+//				catch (Exception a)
+//				{
+//					a.printStackTrace();
+//				}
+//			}
+//			
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		
+		
 		Calendar tiempo2 = Calendar.getInstance();
 		System.out.println(Duration.between(tiempo1.toInstant(), tiempo2.toInstant()));
 	}

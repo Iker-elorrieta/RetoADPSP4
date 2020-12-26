@@ -18,8 +18,10 @@ public class InsertarBorrar {
 	 * @param object
 	 * @return
 	 */
-	public static boolean insertar(Object object, SessionFactory sesion, Session session) {
+	public static boolean insertar(Object object) {
 		
+		SessionFactory sesion = HibernateUtil.getSessionFactory();
+		Session session = sesion.getCurrentSession();
 		
 		Transaction tx = null;
 		tx = session.beginTransaction();

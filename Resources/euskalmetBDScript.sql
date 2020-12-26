@@ -73,22 +73,22 @@ CREATE TABLE `estaciones` (
 --
 
 CREATE TABLE `horario` (
-  `Id` int(11) NOT NULL,
-  `Fecha` date NOT NULL,
-  `Hora` varchar(10) NOT NULL,
-  `COmgm3` double NOT NULL,
-  `NOgm3` double NOT NULL,
-  `NO2` double NOT NULL,
-  `NO2ICA` varchar(50) NOT NULL,
-  `NOXgm3` double NOT NULL,
-  `PM10` double NOT NULL,
-  `PM10ICA` varchar(50) NOT NULL,
-  `PM25` double NOT NULL,
-  `PM25ICA` varchar(50) NOT NULL,
-  `SO2` double NOT NULL,
-  `SO2ICA` varchar(50) NOT NULL,
-  `ICAEstacion` varchar(50) NOT NULL,
-  `Informe` int(11) NOT NULL
+  `Id` int(11),
+  `Fecha` date,
+  `Hora` varchar(10),
+  `COmgm3` double,
+  `NOgm3` double,
+  `NO2` double,
+  `NO2ICA` varchar(50),
+  `NOXgm3` double,
+  `PM10` double,
+  `PM10ICA` varchar(50),
+  `PM25` double,
+  `PM25ICA` varchar(50),
+  `SO2` double,
+  `SO2ICA` varchar(50),
+  `ICAEstacion` varchar(50),
+  `Informe` int(11)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------

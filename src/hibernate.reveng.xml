@@ -14,6 +14,8 @@
 
 
 
+
+
 	<table-filter match-catalog="euskalmet" match-name="entornos" />
 	<table-filter match-catalog="euskalmet" match-name="entornosmuni" />
 	<table-filter match-catalog="euskalmet" match-name="estaciones" />
@@ -22,46 +24,46 @@
 	<table-filter match-catalog="euskalmet" match-name="municipios" />
 	<table catalog="euskalmet" name="entornos">
 		<column name="Id"></column>
-		<column name="Nombre"></column>
-		<column name="Latitud"></column>
-		<column name="Tipo"></column>
+		<column name="Descripcion"></column>
 		<column name="Longitud"></column>
+		<column name="Latitud"></column>
+		<column name="Nombre"></column>
+		<column name="Tipo"></column>
 		<column name="Territorio"></column>
 		<column name="Municipio"></column>
-		<column name="Descripcion"></column>
 	</table>
 	<table catalog="euskalmet" name="entornosmuni">
-		<column name="Municipio"></column>
 		<column name="Entorno"></column>
+		<column name="Municipio"></column>
 	</table>
 	<table catalog="euskalmet" name="estaciones">
 		<column name="Id"></column>
-		<column name="Latitud"></column>
-		<column name="Nombre"></column>
-		<column name="CoordenadaY"></column>
-		<column name="Direccion"></column>
 		<column name="CoordenadaX"></column>
 		<column name="Longitud"></column>
-		<column name="Municipio"></column>
 		<column name="Provincia"></column>
+		<column name="CoordenadaY"></column>
+		<column name="Nombre"></column>
+		<column name="Municipio"></column>
+		<column name="Direccion"></column>
+		<column name="Latitud"></column>
 	</table>
 	<table catalog="euskalmet" name="horario">
 		<column name="Id"></column>
-		<column name="PM25"></column>
-		<column name="NOXgm3"></column>
 		<column name="Informe"></column>
+		<column name="PM10ICA"></column>
 		<column name="Fecha"></column>
 		<column name="COmgm3"></column>
-		<column name="PM10ICA"></column>
-		<column name="NO2ICA"></column>
-		<column name="SO2"></column>
-		<column name="Hora"></column>
-		<column name="SO2ICA"></column>
-		<column name="NO2"></column>
-		<column name="PM25ICA"></column>
-		<column name="NOgm3"></column>
-		<column name="PM10"></column>
 		<column name="ICAEstacion"></column>
+		<column name="NO2ICA"></column>
+		<column name="PM25"></column>
+		<column name="NOgm3"></column>
+		<column name="PM25ICA"></column>
+		<column name="SO2"></column>
+		<column name="NO2"></column>
+		<column name="Hora"></column>
+		<column name="PM10"></column>
+		<column name="SO2ICA"></column>
+		<column name="NOXgm3"></column>
 	</table>
 	<table catalog="euskalmet" name="informes">
 		<column name="Id"></column>
@@ -71,10 +73,10 @@
 	</table>
 	<table catalog="euskalmet" name="municipios">
 		<column name="Id"></column>
-		<column name="Nombre"></column>
-		<column name="Descripcion"></column>
 		<column name="Longitud"></column>
+		<column name="Nombre"></column>
 		<column name="Codigo"></column>
+		<column name="Descripcion"></column>
 		<column name="Latitud"></column>
 	</table>
 </hibernate-reverse-engineering>
