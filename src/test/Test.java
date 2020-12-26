@@ -94,16 +94,16 @@ public class Test {
         horario.setFecha("10/10/1000");
         horario.setHora("10:00");
         horario.setInformes(informe);
-        horario.setComgm3(String.valueOf(valor));
-        horario.setNogm3(String.valueOf(0.22));
-        horario.setNoxgm3(String.valueOf(0.55));
-        horario.setNo2(String.valueOf(valor));
+        horario.setComgm3(valor);
+        horario.setNogm3(0.22);
+        horario.setNoxgm3(0.55);
+        horario.setNo2(valor);
         horario.setNo2ica(nombrePruebas);
-        horario.setPm10(String.valueOf(valor));
+        horario.setPm10(valor);
         horario.setPm10ica(nombrePruebas);
-        horario.setPm25(String.valueOf(valor));
+        horario.setPm25(valor);
         horario.setPm25ica(nombrePruebas);
-        horario.setSo2(String.valueOf(valor));
+        horario.setSo2(valor);
         horario.setSo2ica(nombrePruebas);
         horario.setIcaestacion(nombrePruebas);
 

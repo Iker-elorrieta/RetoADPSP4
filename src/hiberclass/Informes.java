@@ -79,4 +79,10 @@ public class Informes implements java.io.Serializable {
 		this.horarios = horarios;
 	}
 
+	@Override
+	public String toString() {
+		return "Informes [id=" + id + ", estaciones=" + estaciones + ", formato=" + formato + ", nombre=" + nombre
+				+ ", url=" + url + ", horarios=" + horarios + "]";
+	}
+	
 }

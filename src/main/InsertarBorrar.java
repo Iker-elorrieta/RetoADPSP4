@@ -18,12 +18,10 @@ public class InsertarBorrar {
 	 * @param object
 	 * @return
 	 */
-	public static boolean insertar(Object object) {
+	public static boolean insertar(Object object, SessionFactory sesion, Session session) {
 		
 		
 		Transaction tx = null;
-		SessionFactory sesion = HibernateUtil.getSessionFactory();
-		Session session = sesion.openSession();
 		tx = session.beginTransaction();
 
 		// Insertar nuevo objeto
@@ -33,8 +31,6 @@ public class InsertarBorrar {
 		System.out.println();
 		System.out.println("Estación insertada");
 		System.out.println();
-
-		session.close();
 
 		return true;
 	}

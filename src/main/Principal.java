@@ -24,6 +24,11 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.exception.ConstraintViolationException;
+
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -39,7 +44,10 @@ public class Principal {
 	static String[] caracteresDeSeparacion = {"-","/","|"};
 	
 	public static void main(String[] args) {
-		try {
+		Calendar tiempo1 = Calendar.getInstance();
+		try (SessionFactory sesion = HibernateUtil.getSessionFactory();
+				Session session = sesion.openSession();)
+		{
 			int contadorPaginasNoEncontradas = 0;
 			//Comprobar los certificados de la pagina
 			comprobarPagina("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/index.json");
@@ -57,7 +65,7 @@ public class Principal {
 			//Insertar municipios
 			for(int i = 0 ; i < listaMunicipios.length ; i++)
 			{
-				InsertarBorrar.insertar(listaMunicipios[i]);
+				InsertarBorrar.insertar(listaMunicipios[i],sesion,session);
 			}
 			
 			//Insertar espacios naturales
@@ -65,32 +73,47 @@ public class Principal {
 			{
 				for(int y = 0 ; y < listaMunicipios.length ; y++)
 				{
-					for(int x = 0 ; x < caracteresDeSeparacion.length ; x++)
+					try
 					{
-						try {
-							nombres = listaEspaciosNaturales[i].getMunicipio().split(caracteresDeSeparacion[x]);
-							for(int valor = 0 ; valor < nombres.length ; valor++)
-							{
-								if(listaMunicipios[y].getNombre().toLowerCase().contains(nombres[valor]));
+						for(int x = 0 ; x < caracteresDeSeparacion.length ; x++)
+						{
+							try {
+								nombres = listaEspaciosNaturales[i].getMunicipio().split(caracteresDeSeparacion[x]);
+								for(int valor = 0 ; valor < nombres.length ; valor++)
 								{
-									listaEspaciosNaturales[i].setMunicipios(listaMunicipios[y]);
-									Entornosmuni tabla = new Entornosmuni();
-									tabla.setEntornos(listaEspaciosNaturales[i]);
-									tabla.setMunicipios(listaMunicipios[y]);
-									InsertarBorrar.insertar(listaEspaciosNaturales[i]);
-									InsertarBorrar.insertar(tabla);
+									if(listaMunicipios[y].getNombre().toLowerCase().contains(nombres[valor]));
+									{
+										listaEspaciosNaturales[i].setMunicipios(listaMunicipios[y]);
+										InsertarBorrar.insertar(listaEspaciosNaturales[i],sesion,session);
+										Entornosmuni tabla = new Entornosmuni();
+										tabla.setEntornos(listaEspaciosNaturales[i]);
+										tabla.setMunicipios(listaMunicipios[y]);
+										InsertarBorrar.insertar(tabla,sesion,session);
+									}
 								}
 							}
+							catch (PatternSyntaxException a)
+							{
+	//							System.out.println("La estacion no tiene ese municipio");
+							}
 						}
-						catch (PatternSyntaxException a)
+						if(listaMunicipios[y].getNombre().toLowerCase().equals(listaEstaciones[i].getMunicipio()))
 						{
-//							System.out.println("La estacion no tiene ese municipio");
+							listaEspaciosNaturales[i].setMunicipios(listaMunicipios[y]);
+							InsertarBorrar.insertar(listaEspaciosNaturales[i],sesion,session);
 						}
 					}
-					if(listaMunicipios[y].getNombre().toLowerCase().equals(listaEstaciones[i].getMunicipio()))
+					catch (ConstraintViolationException e)
 					{
-						listaEspaciosNaturales[i].setMunicipios(listaMunicipios[y]);
-						InsertarBorrar.insertar(listaEspaciosNaturales[i]);
+						System.out.println("Espacio natural repetido.");
+					}
+					catch (HibernateException o)
+					{
+						System.out.println("Espacio natural repetido.");
+					}
+					catch (Exception f)
+					{
+						System.out.println(f.getMessage());
 					}
 				}
 			}
@@ -100,28 +123,43 @@ public class Principal {
 			{
 				for(int y = 0 ; y < listaMunicipios.length ; y++)
 				{
-					for(int x = 0 ; x < caracteresDeSeparacion.length ; x++)
+					try
 					{
-						try {
-							nombres = listaEstaciones[i].getMunicipio().split(caracteresDeSeparacion[x]);
-							for(int valor = 0 ; valor < nombres.length ; valor++)
-							{
-								if(listaMunicipios[y].getNombre().toLowerCase().contains(nombres[valor]));
+						for(int x = 0 ; x < caracteresDeSeparacion.length ; x++)
+						{
+							try {
+								nombres = listaEstaciones[i].getMunicipio().split(caracteresDeSeparacion[x]);
+								for(int valor = 0 ; valor < nombres.length ; valor++)
 								{
-									listaEstaciones[i].setMunicipios(listaMunicipios[y]);
-									InsertarBorrar.insertar(listaEstaciones[i]);
+									if(listaMunicipios[y].getNombre().toLowerCase().contains(nombres[valor]));
+									{
+										listaEstaciones[i].setMunicipios(listaMunicipios[y]);
+										InsertarBorrar.insertar(listaEstaciones[i],sesion,session);
+									}
 								}
 							}
+							catch (PatternSyntaxException a)
+							{
+	//							System.out.println("La estacion no tiene ese municipio");
+							}
 						}
-						catch (PatternSyntaxException a)
+						if(listaMunicipios[y].getNombre().toLowerCase().equals(listaEstaciones[i].getMunicipio()))
 						{
-//							System.out.println("La estacion no tiene ese municipio");
+							listaEstaciones[i].setMunicipios(listaMunicipios[y]);
+							InsertarBorrar.insertar(listaEstaciones[i],sesion,session);
 						}
 					}
-					if(listaMunicipios[y].getNombre().toLowerCase().equals(listaEstaciones[i].getMunicipio()))
+					catch (ConstraintViolationException e)
 					{
-						listaEstaciones[i].setMunicipios(listaMunicipios[y]);
-						InsertarBorrar.insertar(listaEstaciones[i]);
+						System.out.println("Estacion repetida.");
+					}
+					catch (HibernateException o)
+					{
+						System.out.println("Estacion repetida.");
+					}
+					catch (Exception f)
+					{
+						System.out.println(f.getMessage());
 					}
 				}
 			}
@@ -130,37 +168,77 @@ public class Principal {
 			//Insertar informes y horarios
 			for(int i = 0 ; i < horariosEstaciones.length ;i++)
 			{
-				for(int y = 0 ; y < listaEstaciones.length ; y++)
-				{
-					if(listaEstaciones[y].getNombre().contains(horariosEstaciones[i].getNombre()))
-					{
-						horariosEstaciones[i].setEstaciones(listaEstaciones[y]);
-						InsertarBorrar.insertar(horariosEstaciones[i]);
-					}
-				}
-				
+				String url = horariosEstaciones[i].getUrl();
 				try
 				{
-					Horario[] horario = null;
-					String url = horariosEstaciones[i].getUrl();
-					//Como no nos interesa los dadots horarios, lo ignoramos.
-					if(url.contains("datos_indice") || url.contains("datos_diarios"))
+					for(int y = 0 ; y < listaEstaciones.length ; y++)
 					{
-						//Si en un dato horario se pillara todo hasta el dia anterior hasta la hora 10:00
-						horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[i].getUrl()), Horario[].class);
-						for(int x = 0 ; x < horario.length; x++)
+						nombres = horariosEstaciones[i].getNombre().toLowerCase().split("_");
+						for(int x = 0 ; x < nombres.length ;x++)
 						{
-							horario[x].setInformes(horariosEstaciones[i]);
-							InsertarBorrar.insertar(horario[x]);
+							try
+							{
+								if(listaEstaciones[y].getNombre().toLowerCase().contains(nombres[x]) && (url.contains("datos_indice") || url.contains("datos_diarios")))
+								{
+									horariosEstaciones[i].setEstaciones(listaEstaciones[y]);
+									InsertarBorrar.insertar(horariosEstaciones[i],sesion,session);
+								}
+							}
+							catch (ConstraintViolationException e)
+							{
+								System.out.println("Objeto repetido.");
+							}
+							catch (HibernateException o)
+							{
+								System.out.println("Objeto repetido.");
+							}
+							catch (PatternSyntaxException a)
+							{
+	//							System.out.println("La estacion no tiene ese municipio");
+							}
+							catch (Exception f)
+							{
+//								f.printStackTrace();
+								System.out.println(f.getMessage());
+							}
 						}
 					}
+					
+//					try
+//					{
+//						Horario[] horario = null;
+//						//Como no nos interesa los dadots horarios, lo ignoramos.
+//						if(url.contains("datos_indice") || url.contains("datos_diarios"))
+//						{
+//							//Si en un dato horario se pillara todo hasta el dia anterior hasta la hora 10:00
+//							horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[i].getUrl()), Horario[].class);
+//							for(int x = 0 ; x < horario.length; x++)
+//							{
+//								
+//								horario[x].setInformes(horariosEstaciones[i]);
+//								InsertarBorrar.insertar(horario[x],sesion,session);
+//							}
+//						}
+//					}
+//					catch (FileNotFoundException a)
+//					{
+//						//Si la pagina no se encuentra muestra el error
+//						System.out.println("Pagina no encontrada");
+//						//Contador de paginas no encotradas.
+//						contadorPaginasNoEncontradas++;
+//					}
 				}
-				catch (FileNotFoundException a)
+				catch (ConstraintViolationException e)
 				{
-					//Si la pagina no se encuentra muestra el error
-					System.out.println("Pagina no encontrada");
-					//Contador de paginas no encotradas.
-					contadorPaginasNoEncontradas++;
+					System.out.println("Objeto repetido.");
+				}
+				catch (HibernateException o)
+				{
+					System.out.println("Objeto repetido.");
+				}
+				catch (Exception f)
+				{
+					f.printStackTrace();
 				}
 			}
 			
@@ -168,6 +246,8 @@ public class Principal {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		Calendar tiempo2 = Calendar.getInstance();
+		System.out.println(Duration.between(tiempo1.toInstant(), tiempo2.toInstant()));
 	}
 	
 	/**
@@ -389,10 +469,24 @@ public class Principal {
 		{
 			cadena = cadena.replace("Date", "Fecha");
 			cadena = cadena.replace("Hour", "Hora");
+			cadena = cadena.replace("COmgm3", "valor1");
+			cadena = cadena.replace("NOgm3", "valor2");
+			cadena = cadena.replace("NO2", "valor3");
+			cadena = cadena.replace("NOXgm3", "valor4");
+			cadena = cadena.replace("PM10", "valor5");
+			cadena = cadena.replace("PM25", "valor6");
+			cadena = cadena.replace("SO2", "valor7");
 		}
 		else if(tipo.toLowerCase().contains("datos_diarios"))
 		{
 			cadena = cadena.replace("Date", "Fecha");
+			cadena = cadena.replace("COmgm3", "valor1");
+			cadena = cadena.replace("NOgm3", "valor2");
+			cadena = cadena.replace("NO2", "valor3");
+			cadena = cadena.replace("NOXgm3", "valor4");
+			cadena = cadena.replace("PM10", "valor5");
+			cadena = cadena.replace("PM25", "valor6");
+			cadena = cadena.replace("SO2", "valor7");
 		}
 		else if(tipo.toLowerCase().contains("herriak.json"))
 		{
@@ -414,6 +508,7 @@ public class Principal {
 		}
 		else if(tipo.toLowerCase().contains("index.json"))
 		{
+			cadena = cadena.replace("format", "formato");
 			cadena = cadena.replace("name", "nombre");
 		}
 		return cadena;

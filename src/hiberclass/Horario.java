@@ -57,6 +57,91 @@ public class Horario implements java.io.Serializable {
 	public void setId(Integer id) {
 		this.id = id;
 	}
+	
+	public void setFecha(String fecha) {
+		try {
+			this.fecha = new SimpleDateFormat("dd/MM/yyyy").parse(fecha);
+		} catch (ParseException e) {
+			this.fecha = null;
+		}
+	}
+	
+	public void setValor1(String comgm3) {
+		try
+		{
+			this.comgm3 = Double.parseDouble(comgm3.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.comgm3 = 0;
+		}
+	}
+	
+	public void setValor2(String nogm3) {
+		try
+		{
+			this.nogm3 = Double.parseDouble(nogm3.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.nogm3 = 0;
+		}
+	}
+	
+	public void setValor3(String no2) {
+		try
+		{
+			this.no2 = Double.parseDouble(no2.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.no2 = 0;
+		}
+	}
+	
+	public void setValor4(String noxgm3) {
+		try
+		{
+			this.noxgm3 = Double.parseDouble(noxgm3.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.noxgm3 = 0;
+		}
+	}
+
+	public void setValor5(String pm10) {
+		try
+		{
+			this.pm10 = Double.parseDouble(pm10.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.pm10 = 0;
+		}
+	}
+	
+	public void setValor6(String pm25) {
+		try
+		{
+			this.pm25 = Double.parseDouble(pm25.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.pm25 = 0;
+		}
+	}
+	
+	public void setValor7(String so2) {
+		try
+		{
+			this.so2 = Double.parseDouble(so2.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.so2 = 0;
+		}
+	}
 
 	public void setFecha(Date fecha) {
 		this.fecha = fecha;
@@ -102,14 +187,6 @@ public class Horario implements java.io.Serializable {
 		return this.fecha;
 	}
 
-	public void setFecha(String fecha) {
-		try {
-			this.fecha = new SimpleDateFormat("dd/MM/yyyy").parse(fecha);
-		} catch (ParseException e) {
-			this.fecha = null;
-		}
-	}
-
 	public String getHora() {
 		return this.hora;
 	}
@@ -122,45 +199,12 @@ public class Horario implements java.io.Serializable {
 		return this.comgm3;
 	}
 
-	public void setComgm3(String comgm3) {
-		try
-		{
-			this.comgm3 = Double.parseDouble(comgm3.replace(",", "."));
-		}
-		catch(NumberFormatException a)
-		{
-			this.comgm3 = 0;
-		}
-	}
-
 	public double getNogm3() {
 		return this.nogm3;
 	}
 
-	public void setNogm3(String nogm3) {
-		try
-		{
-			this.nogm3 = Double.parseDouble(nogm3.replace(",", "."));
-		}
-		catch(NumberFormatException a)
-		{
-			this.nogm3 = 0;
-		}
-	}
-
 	public double getNo2() {
 		return this.no2;
-	}
-
-	public void setNo2(String no2) {
-		try
-		{
-			this.no2 = Double.parseDouble(no2.replace(",", "."));
-		}
-		catch(NumberFormatException a)
-		{
-			this.no2 = 0;
-		}
 	}
 
 	public String getNo2ica() {
@@ -174,31 +218,9 @@ public class Horario implements java.io.Serializable {
 	public double getNoxgm3() {
 		return this.noxgm3;
 	}
-
-	public void setNoxgm3(String noxgm3) {
-		try
-		{
-			this.noxgm3 = Double.parseDouble(noxgm3.replace(",", "."));
-		}
-		catch(NumberFormatException a)
-		{
-			this.noxgm3 = 0;
-		}
-	}
-
+	
 	public double getPm10() {
 		return this.pm10;
-	}
-
-	public void setPm10(String pm10) {
-		try
-		{
-			this.pm10 = Double.parseDouble(pm10.replace(",", "."));
-		}
-		catch(NumberFormatException a)
-		{
-			this.pm10 = 0;
-		}
 	}
 
 	public String getPm10ica() {
@@ -213,17 +235,6 @@ public class Horario implements java.io.Serializable {
 		return this.pm25;
 	}
 
-	public void setPm25(String pm25) {
-		try
-		{
-			this.pm25 = Double.parseDouble(pm25.replace(",", "."));
-		}
-		catch(NumberFormatException a)
-		{
-			this.pm25 = 0;
-		}
-	}
-
 	public String getPm25ica() {
 		return this.pm25ica;
 	}
@@ -234,17 +245,6 @@ public class Horario implements java.io.Serializable {
 
 	public double getSo2() {
 		return this.so2;
-	}
-
-	public void setSo2(String so2) {
-		try
-		{
-			this.so2 = Double.parseDouble(so2.replace(",", "."));
-		}
-		catch(NumberFormatException a)
-		{
-			this.so2 = 0;
-		}
 	}
 
 	public String getSo2ica() {
