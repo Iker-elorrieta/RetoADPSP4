@@ -18,10 +18,7 @@ public class InsertarBorrar {
 	 * @param object
 	 * @return
 	 */
-	public static boolean insertar(Object object) {
-		
-		SessionFactory sesion = HibernateUtil.getSessionFactory();
-		Session session = sesion.getCurrentSession();
+	public static boolean insertar(Object object,SessionFactory sesion,Session session) {
 		
 		Transaction tx = null;
 		tx = session.beginTransaction();
@@ -30,9 +27,9 @@ public class InsertarBorrar {
 
 		session.save(object);
 		tx.commit();
-		System.out.println();
+//		System.out.println();
 		System.out.println("Estación insertada");
-		System.out.println();
+//		System.out.println();
 
 		return true;
 	}

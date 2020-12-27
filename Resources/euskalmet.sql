@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.0.1
 -- https://www.phpmyadmin.net/
 --
--- Servidor: 127.0.0.1
--- Tiempo de generación: 23-12-2020 a las 23:14:51
--- Versión del servidor: 10.4.16-MariaDB
--- Versión de PHP: 7.4.12
+-- Host: 127.0.0.1
+-- Generation Time: Dec 26, 2020 at 07:57 PM
+-- Server version: 10.4.11-MariaDB
+-- PHP Version: 7.4.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -18,13 +19,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `euskalmet`
+-- Database: `euskalmet`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `entornos`
+-- Table structure for table `entornos`
 --
 
 CREATE TABLE `entornos` (
@@ -33,6 +34,7 @@ CREATE TABLE `entornos` (
   `Descripcion` varchar(5000) DEFAULT NULL,
   `Tipo` varchar(100) DEFAULT NULL,
   `Territorio` varchar(100) DEFAULT NULL,
+  `Municipio` int(11) NOT NULL,
   `Latitud` double DEFAULT NULL,
   `Longitud` double DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -40,7 +42,7 @@ CREATE TABLE `entornos` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `entornosmuni`
+-- Table structure for table `entornosmuni`
 --
 
 CREATE TABLE `entornosmuni` (
@@ -51,7 +53,7 @@ CREATE TABLE `entornosmuni` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `estaciones`
+-- Table structure for table `estaciones`
 --
 
 CREATE TABLE `estaciones` (
@@ -69,32 +71,32 @@ CREATE TABLE `estaciones` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `horario`
+-- Table structure for table `horario`
 --
 
 CREATE TABLE `horario` (
-  `Id` int(11),
-  `Fecha` date,
-  `Hora` varchar(10),
-  `COmgm3` double,
-  `NOgm3` double,
-  `NO2` double,
-  `NO2ICA` varchar(50),
-  `NOXgm3` double,
-  `PM10` double,
-  `PM10ICA` varchar(50),
-  `PM25` double,
-  `PM25ICA` varchar(50),
-  `SO2` double,
-  `SO2ICA` varchar(50),
-  `ICAEstacion` varchar(50),
-  `Informe` int(11)
+  `Id` int(11) NOT NULL,
+  `Fecha` date DEFAULT NULL,
+  `Hora` varchar(10) DEFAULT NULL,
+  `COmgm3` double DEFAULT NULL,
+  `NOgm3` double DEFAULT NULL,
+  `NO2` double DEFAULT NULL,
+  `NO2ICA` varchar(50) DEFAULT NULL,
+  `NOXgm3` double DEFAULT NULL,
+  `PM10` double DEFAULT NULL,
+  `PM10ICA` varchar(50) DEFAULT NULL,
+  `PM25` double DEFAULT NULL,
+  `PM25ICA` varchar(50) DEFAULT NULL,
+  `SO2` double DEFAULT NULL,
+  `SO2ICA` varchar(50) DEFAULT NULL,
+  `ICAEstacion` varchar(50) DEFAULT NULL,
+  `Informe` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `informes`
+-- Table structure for table `informes`
 --
 
 CREATE TABLE `informes` (
@@ -107,7 +109,7 @@ CREATE TABLE `informes` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `municipios`
+-- Table structure for table `municipios`
 --
 
 CREATE TABLE `municipios` (
@@ -116,30 +118,31 @@ CREATE TABLE `municipios` (
   `Descripcion` varchar(1000) DEFAULT NULL,
   `Latitud` double DEFAULT NULL,
   `Longitud` double DEFAULT NULL,
-  `Codigo` int(11) DEFAULT NULL
+  `Codigo` varchar(270) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Índices para tablas volcadas
+-- Indexes for dumped tables
 --
 
 --
--- Indices de la tabla `entornos`
+-- Indexes for table `entornos`
 --
 ALTER TABLE `entornos`
   ADD PRIMARY KEY (`Id`) USING BTREE,
   ADD UNIQUE KEY `Nombre` (`Nombre`),
-  ADD KEY `Id` (`Id`);
+  ADD KEY `Id` (`Id`),
+  ADD KEY `Municipio` (`Municipio`);
 
 --
--- Indices de la tabla `entornosmuni`
+-- Indexes for table `entornosmuni`
 --
 ALTER TABLE `entornosmuni`
   ADD KEY `Entorno` (`Entorno`),
   ADD KEY `Municipio` (`Municipio`);
 
 --
--- Indices de la tabla `estaciones`
+-- Indexes for table `estaciones`
 --
 ALTER TABLE `estaciones`
   ADD PRIMARY KEY (`Id`) USING BTREE,
@@ -148,14 +151,14 @@ ALTER TABLE `estaciones`
   ADD KEY `Municipio` (`Municipio`);
 
 --
--- Indices de la tabla `horario`
+-- Indexes for table `horario`
 --
 ALTER TABLE `horario`
   ADD PRIMARY KEY (`Id`),
   ADD KEY `Informe` (`Informe`);
 
 --
--- Indices de la tabla `informes`
+-- Indexes for table `informes`
 --
 ALTER TABLE `informes`
   ADD PRIMARY KEY (`Id`) USING BTREE,
@@ -164,7 +167,7 @@ ALTER TABLE `informes`
   ADD KEY `Id` (`Id`);
 
 --
--- Indices de la tabla `municipios`
+-- Indexes for table `municipios`
 --
 ALTER TABLE `municipios`
   ADD PRIMARY KEY (`Id`) USING BTREE,
@@ -172,64 +175,70 @@ ALTER TABLE `municipios`
   ADD KEY `Id` (`Id`);
 
 --
--- AUTO_INCREMENT de las tablas volcadas
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT de la tabla `entornos`
+-- AUTO_INCREMENT for table `entornos`
 --
 ALTER TABLE `entornos`
   MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
--- AUTO_INCREMENT de la tabla `estaciones`
+-- AUTO_INCREMENT for table `estaciones`
 --
 ALTER TABLE `estaciones`
   MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
 
 --
--- AUTO_INCREMENT de la tabla `horario`
+-- AUTO_INCREMENT for table `horario`
 --
 ALTER TABLE `horario`
   MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
--- AUTO_INCREMENT de la tabla `informes`
+-- AUTO_INCREMENT for table `informes`
 --
 ALTER TABLE `informes`
   MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
--- AUTO_INCREMENT de la tabla `municipios`
+-- AUTO_INCREMENT for table `municipios`
 --
 ALTER TABLE `municipios`
   MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=76;
 
 --
--- Restricciones para tablas volcadas
+-- Constraints for dumped tables
 --
 
 --
--- Filtros para la tabla `entornosmuni`
+-- Constraints for table `entornos`
+--
+ALTER TABLE `entornos`
+  ADD CONSTRAINT `entornos_ibfk_1` FOREIGN KEY (`Municipio`) REFERENCES `municipios` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Constraints for table `entornosmuni`
 --
 ALTER TABLE `entornosmuni`
   ADD CONSTRAINT `entornosmuni_ibfk_1` FOREIGN KEY (`Entorno`) REFERENCES `entornos` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `entornosmuni_ibfk_2` FOREIGN KEY (`Municipio`) REFERENCES `municipios` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `estaciones`
+-- Constraints for table `estaciones`
 --
 ALTER TABLE `estaciones`
   ADD CONSTRAINT `estaciones_ibfk_1` FOREIGN KEY (`Municipio`) REFERENCES `municipios` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `horario`
+-- Constraints for table `horario`
 --
 ALTER TABLE `horario`
   ADD CONSTRAINT `horario_ibfk_1` FOREIGN KEY (`Informe`) REFERENCES `informes` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Filtros para la tabla `informes`
+-- Constraints for table `informes`
 --
 ALTER TABLE `informes`
   ADD CONSTRAINT `informes_ibfk_1` FOREIGN KEY (`Estacion`) REFERENCES `estaciones` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE;

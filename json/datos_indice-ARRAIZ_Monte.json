@@ -15,75 +15,212 @@
   "Hour" : "20:00"
 }, {
   "Date" : "26/12/2020",
-  "Hour" : "19:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "18:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "17:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "16:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "15:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "14:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "13:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "12:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "11:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "10:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "09:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "08:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "07:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "06:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "05:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "04:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "03:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "02:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "01:00",
-  "NOgm3" : "2",
-  "NO2" : "3",
+  "Hour" : "19:00",
+  "NOgm3" : "1",
+  "NO2" : "7",
   "NO2ICA" : "Muy bueno / Oso ona",
-  "NOXgm3" : "5",
-  "O3ICA" : "Sin datos / Daturik gabe",
-  "O38hgm3" : "71",
-  "PM10" : "7,38",
+  "NOXgm3" : "9",
+  "O3gm3" : "57",
+  "OZONO" : "57",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "59",
+  "PM10" : "5,71",
   "PM10ICA" : "Muy bueno / Oso ona",
   "SO2" : "5",
   "SO2ICA" : "Muy bueno / Oso ona",
-  "Dviengrados" : "333",
-  "H" : "86",
-  "PmBar" : "993,2",
+  "Dviengrados" : "231",
+  "H" : "100",
+  "PmBar" : "989,3",
+  "TC" : "5,1",
+  "Vvienms" : "2,63",
+  "ICAEstacion" : "Muy bueno / Oso ona"
+}, {
+  "Date" : "26/12/2020",
+  "Hour" : "18:00",
+  "NOgm3" : "2",
+  "NO2" : "14",
+  "NO2ICA" : "Muy bueno / Oso ona",
+  "NOXgm3" : "16",
+  "O3gm3" : "47",
+  "OZONO" : "47",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "60",
+  "PM10" : "5,88",
+  "PM10ICA" : "Muy bueno / Oso ona",
+  "SO2" : "5",
+  "SO2ICA" : "Muy bueno / Oso ona",
+  "Dviengrados" : "243",
+  "H" : "98",
+  "PmBar" : "989,7",
+  "TC" : "5,2",
+  "Vvienms" : "1,33",
+  "ICAEstacion" : "Muy bueno / Oso ona"
+}, {
+  "Date" : "26/12/2020",
+  "Hour" : "17:00",
+  "NOgm3" : "1",
+  "NO2" : "12",
+  "NO2ICA" : "Muy bueno / Oso ona",
+  "NOXgm3" : "14",
+  "O3gm3" : "54",
+  "OZONO" : "54",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "63",
+  "PM10" : "6,13",
+  "PM10ICA" : "Muy bueno / Oso ona",
+  "SO2" : "5",
+  "SO2ICA" : "Muy bueno / Oso ona",
+  "Dviengrados" : "207",
+  "H" : "96",
+  "PmBar" : "990,3",
+  "TC" : "5,2",
+  "Vvienms" : "0,48",
+  "ICAEstacion" : "Muy bueno / Oso ona"
+}, {
+  "Date" : "26/12/2020",
+  "Hour" : "16:00",
+  "NOgm3" : "1",
+  "NO2" : "6",
+  "NO2ICA" : "Muy bueno / Oso ona",
+  "NOXgm3" : "8",
+  "O3gm3" : "67",
+  "OZONO" : "67",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "63",
+  "PM10" : "6,42",
+  "PM10ICA" : "Muy bueno / Oso ona",
+  "SO2" : "6",
+  "SO2ICA" : "Muy bueno / Oso ona",
+  "Dviengrados" : "350",
+  "H" : "92",
+  "PmBar" : "990,8",
+  "TC" : "5,6",
+  "Vvienms" : "0,15",
+  "ICAEstacion" : "Muy bueno / Oso ona"
+}, {
+  "Date" : "26/12/2020",
+  "Hour" : "15:00",
+  "NOgm3" : "2",
+  "NO2" : "6",
+  "NO2ICA" : "Muy bueno / Oso ona",
+  "NOXgm3" : "8",
+  "O3gm3" : "67",
+  "OZONO" : "67",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "63",
+  "PM10" : "6,58",
+  "PM10ICA" : "Muy bueno / Oso ona",
+  "SO2" : "7",
+  "SO2ICA" : "Muy bueno / Oso ona",
+  "Dviengrados" : "256",
+  "H" : "93",
+  "PmBar" : "991,4",
+  "TC" : "5,3",
+  "Vvienms" : "1,44",
+  "ICAEstacion" : "Muy bueno / Oso ona"
+}, {
+  "Date" : "26/12/2020",
+  "Hour" : "14:00",
+  "NOgm3" : "2",
+  "NO2" : "8",
+  "NO2ICA" : "Muy bueno / Oso ona",
+  "NOXgm3" : "10",
+  "O3gm3" : "63",
+  "OZONO" : "63",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "63",
+  "PM10" : "6,71",
+  "PM10ICA" : "Muy bueno / Oso ona",
+  "SO2" : "7",
+  "SO2ICA" : "Muy bueno / Oso ona",
+  "Dviengrados" : "266",
+  "H" : "95",
+  "PmBar" : "991,9",
+  "TC" : "5,1",
+  "Vvienms" : "1,47",
+  "ICAEstacion" : "Muy bueno / Oso ona"
+}, {
+  "Date" : "26/12/2020",
+  "Hour" : "13:00",
+  "NOgm3" : "2",
+  "NO2" : "9",
+  "NO2ICA" : "Muy bueno / Oso ona",
+  "NOXgm3" : "12",
+  "O3gm3" : "60",
+  "OZONO" : "60",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "65",
+  "PM10" : "6,79",
+  "PM10ICA" : "Muy bueno / Oso ona",
+  "SO2" : "7",
+  "SO2ICA" : "Muy bueno / Oso ona",
+  "Dviengrados" : "223",
+  "H" : "92",
+  "PmBar" : "992,4",
+  "TC" : "5,3",
+  "Vvienms" : "1,68",
+  "ICAEstacion" : "Muy bueno / Oso ona"
+}, {
+  "Date" : "26/12/2020",
+  "Hour" : "12:00",
+  "NOgm3" : "2",
+  "NO2" : "8",
+  "NO2ICA" : "Muy bueno / Oso ona",
+  "NOXgm3" : "10",
+  "O3gm3" : "60",
+  "OZONO" : "60",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "67",
+  "PM10" : "6,92",
+  "PM10ICA" : "Muy bueno / Oso ona",
+  "SO2" : "10",
+  "SO2ICA" : "Muy bueno / Oso ona",
+  "Dviengrados" : "232",
+  "H" : "90",
+  "PmBar" : "993,1",
+  "TC" : "5,7",
+  "Vvienms" : "1,06",
+  "ICAEstacion" : "Muy bueno / Oso ona"
+}, {
+  "Date" : "26/12/2020",
+  "Hour" : "11:00",
+  "NOgm3" : "2",
+  "NO2" : "6",
+  "NO2ICA" : "Muy bueno / Oso ona",
+  "NOXgm3" : "9",
+  "O3gm3" : "63",
+  "OZONO" : "63",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "68",
+  "PM10" : "6,92",
+  "PM10ICA" : "Muy bueno / Oso ona",
+  "SO2" : "6",
+  "SO2ICA" : "Muy bueno / Oso ona",
+  "Dviengrados" : "246",
+  "H" : "91",
+  "PmBar" : "993,5",
+  "TC" : "5,4",
+  "Vvienms" : "0,9",
+  "ICAEstacion" : "Muy bueno / Oso ona"
+}, {
+  "Date" : "26/12/2020",
+  "Hour" : "10:00",
+  "NOgm3" : "2",
+  "NO2" : "4",
+  "NO2ICA" : "Muy bueno / Oso ona",
+  "NOXgm3" : "6",
+  "O3gm3" : "64",
+  "OZONO" : "64",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "69",
+  "PM10" : "6,92",
+  "PM10ICA" : "Muy bueno / Oso ona",
+  "SO2" : "5",
+  "SO2ICA" : "Muy bueno / Oso ona",
+  "Dviengrados" : "219",
+  "H" : "93",
+  "PmBar" : "993,4",
   "TC" : "4,9",
-  "Vvienms" : "0,93",
+  "Vvienms" : "1,03",
   "ICAEstacion" : "Muy bueno / Oso ona"
 } ]

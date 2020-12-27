@@ -11,17 +11,4 @@
   "PM25gm3" : "2",
   "SO2gm3" : "2",
   "Toluenogm3" : "0,43"
-}, {
-  "Date" : "24/12/2020",
-  "Bencenogm3" : "0,39",
-  "COmgm3" : "0,14",
-  "CO8hmgm3" : "0,14",
-  "Etilbencenogm3" : "0,18",
-  "NOgm3" : "9",
-  "NO2gm3" : "20",
-  "NOXgm3" : "33",
-  "PM10gm3" : "11",
-  "PM25gm3" : "3",
-  "SO2gm3" : "2",
-  "Toluenogm3" : "1,41"
 } ]

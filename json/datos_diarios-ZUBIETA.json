@@ -10,16 +10,4 @@
   "PM10gm3" : "11",
   "PM25gm3" : "5",
   "Toluenogm3" : "0,21"
-}, {
-  "Date" : "24/12/2020",
-  "Bencenogm3" : "0,28",
-  "Etilbencenogm3" : "1,02",
-  "NOgm3" : "1",
-  "NO2gm3" : "7",
-  "NOXgm3" : "9",
-  "O3gm3" : "51",
-  "O38hgm3" : "51",
-  "PM10gm3" : "9",
-  "PM25gm3" : "4",
-  "Toluenogm3" : "0,49"
 } ]

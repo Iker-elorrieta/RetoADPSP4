@@ -15,70 +15,142 @@
   "Hour" : "20:00"
 }, {
   "Date" : "26/12/2020",
-  "Hour" : "19:00"
+  "Hour" : "19:00",
+  "O3gm3" : "73",
+  "OZONO" : "73",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "71",
+  "Dviengrados" : "175",
+  "H" : "82",
+  "PmBar" : "965,8",
+  "Precipitacionlm2" : "0",
+  "TC" : "3,3",
+  "Vvienms" : "2,02",
+  "ICAEstacion" : "Muy bueno / Oso ona"
 }, {
   "Date" : "26/12/2020",
-  "Hour" : "18:00"
+  "Hour" : "18:00",
+  "O3gm3" : "68",
+  "OZONO" : "68",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "70",
+  "Dviengrados" : "146",
+  "H" : "83",
+  "PmBar" : "966,4",
+  "Precipitacionlm2" : "0",
+  "TC" : "3,2",
+  "Vvienms" : "2,15",
+  "ICAEstacion" : "Muy bueno / Oso ona"
 }, {
   "Date" : "26/12/2020",
-  "Hour" : "17:00"
+  "Hour" : "17:00",
+  "O3gm3" : "67",
+  "OZONO" : "67",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "71",
+  "Dviengrados" : "131",
+  "H" : "82",
+  "PmBar" : "967,1",
+  "Precipitacionlm2" : "0",
+  "TC" : "3,3",
+  "Vvienms" : "1,91",
+  "ICAEstacion" : "Muy bueno / Oso ona"
 }, {
   "Date" : "26/12/2020",
-  "Hour" : "16:00"
+  "Hour" : "16:00",
+  "O3gm3" : "68",
+  "OZONO" : "68",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "72",
+  "Dviengrados" : "112",
+  "H" : "79",
+  "PmBar" : "967,7",
+  "Precipitacionlm2" : "0",
+  "TC" : "3,9",
+  "Vvienms" : "0,52",
+  "ICAEstacion" : "Muy bueno / Oso ona"
 }, {
   "Date" : "26/12/2020",
-  "Hour" : "15:00"
+  "Hour" : "15:00",
+  "O3gm3" : "76",
+  "OZONO" : "76",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "73",
+  "Dviengrados" : "331",
+  "H" : "76",
+  "PmBar" : "968,1",
+  "Precipitacionlm2" : "0",
+  "TC" : "4,6",
+  "Vvienms" : "0,64",
+  "ICAEstacion" : "Muy bueno / Oso ona"
 }, {
   "Date" : "26/12/2020",
-  "Hour" : "14:00"
+  "Hour" : "14:00",
+  "O3gm3" : "73",
+  "OZONO" : "73",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "73",
+  "Dviengrados" : "312",
+  "H" : "77",
+  "PmBar" : "968,5",
+  "Precipitacionlm2" : "0",
+  "TC" : "4",
+  "Vvienms" : "0,68",
+  "ICAEstacion" : "Muy bueno / Oso ona"
 }, {
   "Date" : "26/12/2020",
-  "Hour" : "13:00"
+  "Hour" : "13:00",
+  "O3gm3" : "70",
+  "OZONO" : "70",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "74",
+  "Dviengrados" : "136",
+  "H" : "76",
+  "PmBar" : "969,1",
+  "Precipitacionlm2" : "0",
+  "TC" : "3,6",
+  "Vvienms" : "0,9",
+  "ICAEstacion" : "Muy bueno / Oso ona"
 }, {
   "Date" : "26/12/2020",
-  "Hour" : "12:00"
+  "Hour" : "12:00",
+  "O3gm3" : "69",
+  "OZONO" : "69",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "75",
+  "Dviengrados" : "123",
+  "H" : "77",
+  "PmBar" : "969,8",
+  "Precipitacionlm2" : "0",
+  "TC" : "2,7",
+  "Vvienms" : "1,83",
+  "ICAEstacion" : "Muy bueno / Oso ona"
 }, {
   "Date" : "26/12/2020",
-  "Hour" : "11:00"
+  "Hour" : "11:00",
+  "O3gm3" : "71",
+  "OZONO" : "71",
+  "O3ICA" : "Muy bueno / Oso ona",
+  "O38hgm3" : "76",
+  "Dviengrados" : "104",
+  "H" : "75",
+  "PmBar" : "970,1",
+  "Precipitacionlm2" : "0",
+  "TC" : "2,2",
+  "Vvienms" : "2,04",
+  "ICAEstacion" : "Muy bueno / Oso ona"
 }, {
   "Date" : "26/12/2020",
-  "Hour" : "10:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "09:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "08:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "07:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "06:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "05:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "04:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "03:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "02:00"
-}, {
-  "Date" : "26/12/2020",
-  "Hour" : "01:00",
-  "O3gm3" : "77",
-  "OZONO" : "77",
+  "Hour" : "10:00",
+  "O3gm3" : "73",
+  "OZONO" : "73",
   "O3ICA" : "Muy bueno / Oso ona",
   "O38hgm3" : "77",
-  "Dviengrados" : "58",
-  "H" : "77",
-  "PmBar" : "969,4",
+  "Dviengrados" : "97",
+  "H" : "73",
+  "PmBar" : "970",
   "Precipitacionlm2" : "0,1",
-  "TC" : "1,7",
-  "Vvienms" : "7,96",
+  "TC" : "2",
+  "Vvienms" : "2,85",
   "ICAEstacion" : "Muy bueno / Oso ona"
 } ]

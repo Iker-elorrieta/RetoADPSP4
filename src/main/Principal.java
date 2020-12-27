@@ -18,6 +18,7 @@ import java.security.cert.X509Certificate;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Iterator;
 import java.util.regex.PatternSyntaxException;
 
 import javax.net.ssl.HttpsURLConnection;
@@ -39,6 +40,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import hiberclass.Entornos;
 import hiberclass.Entornosmuni;
+import hiberclass.EntornosmuniId;
 import hiberclass.Estaciones;
 import hiberclass.Horario;
 import hiberclass.Informes;
@@ -53,7 +55,8 @@ public class Principal {
 		Entornos[] listaEspaciosNaturales = null;
 		Municipios[] listaMunicipios = null;
 		ArrayList<Informes> paginasNoEncontrada = new ArrayList<Informes>();
-		try
+		try (SessionFactory sesion = HibernateUtil.getSessionFactory();
+			 Session session = sesion.openSession();)
 		{
 			int contadorPaginasNoEncontradas = 0;
 			//Comprobar los certificados de la pagina
@@ -84,7 +87,7 @@ public class Principal {
 			//Insertar municipios
 			for(int i = 0 ; i < listaMunicipios.length ; i++)
 			{
-				InsertarBorrar.insertar(listaMunicipios[i]);
+				InsertarBorrar.insertar(listaMunicipios[i],sesion,session);
 			}
 			
 			//Insertar espacios naturales
@@ -97,17 +100,15 @@ public class Principal {
 						for(int x = 0 ; x < caracteresDeSeparacion.length ; x++)
 						{
 							try {
-								nombres = listaEspaciosNaturales[i].getMunicipio().split(caracteresDeSeparacion[x]);
+								nombres = listaEspaciosNaturales[i].getMunicipio().trim().split(caracteresDeSeparacion[x]);
 								for(int valor = 0 ; valor < nombres.length ; valor++)
 								{
-									if(listaMunicipios[y].getNombre().toLowerCase().contains(nombres[valor]));
+									String muni = listaMunicipios[y].getNombre().toLowerCase().trim();
+									if(nombres[valor].toLowerCase().trim().equals(muni))
 									{
+										System.out.println(listaEspaciosNaturales[i].getMunicipio() + "  ---------  " + muni);
 										listaEspaciosNaturales[i].setMunicipios(listaMunicipios[y]);
-										InsertarBorrar.insertar(listaEspaciosNaturales[i]);
-										Entornosmuni tabla = new Entornosmuni();
-										tabla.setEntornos(listaEspaciosNaturales[i]);
-										tabla.setMunicipios(listaMunicipios[y]);
-										InsertarBorrar.insertar(tabla);
+										InsertarBorrar.insertar(listaEspaciosNaturales[i],sesion,session);
 									}
 								}
 							}
@@ -119,7 +120,7 @@ public class Principal {
 						if(listaMunicipios[y].getNombre().toLowerCase().equals(listaEspaciosNaturales[i].getMunicipio()))
 						{
 							listaEspaciosNaturales[i].setMunicipios(listaMunicipios[y]);
-							InsertarBorrar.insertar(listaEspaciosNaturales[i]);
+							InsertarBorrar.insertar(listaEspaciosNaturales[i],sesion,session);
 						}
 					}
 					catch (ConstraintViolationException e)
@@ -153,7 +154,7 @@ public class Principal {
 									if(listaMunicipios[y].getNombre().toLowerCase().contains(nombres[valor]));
 									{
 										listaEstaciones[i].setMunicipios(listaMunicipios[y]);
-										InsertarBorrar.insertar(listaEstaciones[i]);
+										InsertarBorrar.insertar(listaEstaciones[i],sesion,session);
 									}
 								}
 							}
@@ -165,7 +166,7 @@ public class Principal {
 						if(listaMunicipios[y].getNombre().toLowerCase().equals(listaEstaciones[i].getMunicipio()))
 						{
 							listaEstaciones[i].setMunicipios(listaMunicipios[y]);
-							InsertarBorrar.insertar(listaEstaciones[i]);
+							InsertarBorrar.insertar(listaEstaciones[i],sesion,session);
 						}
 					}
 					catch (ConstraintViolationException e)
@@ -230,7 +231,7 @@ public class Principal {
 											encontrado = true;
 									}
 									if(!encontrado)
-										InsertarBorrar.insertar(horariosEstaciones[i]);
+										InsertarBorrar.insertar(horariosEstaciones[i],sesion,session);
 								}
 							}
 							catch (ConstraintViolationException e)
@@ -266,78 +267,62 @@ public class Principal {
 					f.printStackTrace();
 				}
 			}
+
+			for(int y = 0 ; y < horariosEstaciones.length ;y++)
+			{
+				try
+				{
+					String url = horariosEstaciones[y].getUrl();
+					if(url.contains("datos_indice") || url.contains("datos_diarios"))
+					{
+						String hql = "from Informes where url = '"+url+"'";
+						Query q = session.createQuery(hql);
+						Informes informe = (Informes) q.uniqueResult();
+						horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[y].getUrl()), Horario[].class);
+						for(int x = 0 ; x < horario.length; x++)
+						{
+							horario[x].setInformes(informe);
+							if(!horario[x].isNull() && horario[x].getInformes() != null)
+								InsertarBorrar.insertar(horario[x],sesion,session);
+						}
+					}
+				}
+				catch (IOException a)
+				{
+					
+				}
+				catch(PropertyValueException b)
+				{
+					
+				}
+				catch (ConstraintViolationException c)
+				{
+					
+				}
+			}
+			
+			String hql = "from Entornos";
+			Query q = session.createQuery(hql);
+			Iterator it = q.list().iterator();
+			while(it.hasNext())
+			{
+				Entornos entorno = (Entornos) it.next();
+				Municipios muni = entorno.getMunicipios();
+				EntornosmuniId yoquese = new EntornosmuniId(entorno.getId(),muni.getId());
+				Entornosmuni vinculo = new Entornosmuni(yoquese,entorno,muni);
+				try
+				{
+					InsertarBorrar.insertar(vinculo, sesion, session);
+				}
+				catch (Exception a)
+				{
+					a.printStackTrace();
+				}
+			}
 			
 		} catch (Exception e) {
 			e.printStackTrace();
-		}	
-		
-//		try
-//		{
-//			ObjectMapper mapper = new ObjectMapper();
-//			mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
-//			
-//			Informes[] horariosEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/index.json"), Informes[].class);
-//			for(int y = 0 ; y < horariosEstaciones.length ;y++)
-//			{
-//				try
-//				{
-//					String url = horariosEstaciones[y].getUrl();
-//					if(url.contains("datos_indice") || url.contains("datos_diarios"))
-//					{
-//						SessionFactory sesion = HibernateUtil.getSessionFactory();
-//						Session session = sesion.openSession();
-//						String hql = "from Informes where url = '"+url+"'";
-//						Query q = session.createQuery(hql);
-//						Informes informe = (Informes) q.uniqueResult();
-//						session.close();
-//						sesion.close();
-//						horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[y].getUrl()), Horario[].class);
-//						for(int x = 0 ; x < horario.length; x++)
-//						{
-//							horario[x].setInformes(informe);
-//							if(!horario[x].isNull())
-//								InsertarBorrar.insertar(horario[x]);
-//						}
-//					}
-//				}
-//				catch (IOException a)
-//				{
-//					
-//				}
-//				catch(PropertyValueException b)
-//				{
-//					
-//				}
-//			}
-//
-//			for(int i = 0 ; i < listaEspaciosNaturales.length ; i++)
-//			{
-//				Entornosmuni vinculo = new Entornosmuni();
-//				vinculo.setEntornos(listaEspaciosNaturales[i]);
-//				vinculo.setMunicipios(listaEspaciosNaturales[i].getMunicipios());
-//				try
-//				{
-//					InsertarBorrar.insertar(vinculo);
-//				}
-//				catch (ConstraintViolationException e)
-//				{
-//					System.out.println("Espacio natural repetido.");
-//				}
-//				catch (HibernateException o)
-//				{
-//					System.out.println("Espacio natural repetido.");
-//				}
-//				catch (Exception a)
-//				{
-//					a.printStackTrace();
-//				}
-//			}
-//			
-//		} catch (Exception e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-		
+		}
 		
 		Calendar tiempo2 = Calendar.getInstance();
 		System.out.println(Duration.between(tiempo1.toInstant(), tiempo2.toInstant()));
