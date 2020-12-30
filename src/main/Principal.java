@@ -79,12 +79,13 @@ public class Principal {
 				// TODO Auto-generated catch block
 				e2.printStackTrace();
 			}
+			//Cargamos los arrays con todos los datos de los json
 			Estaciones[] listaEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/estaciones.json"), Estaciones[].class);
 			listaMunicipios = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/pueblos_euskadi_turismo/opendata/herriak.json"), Municipios[].class);
 			listaEspaciosNaturales = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/playas_de_euskadi/opendata/espacios-naturales.json"), Entornos[].class);
 			String[] nombres;
 			
-			//Insertar municipios
+			//Insertartamos todos los municipios
 			for(int i = 0 ; i < listaMunicipios.length ; i++)
 			{
 				InsertarBorrar.insertar(listaMunicipios[i],sesion,session);
@@ -93,49 +94,7 @@ public class Principal {
 			//Insertar espacios naturales
 			for (int i = 0 ; i < listaEspaciosNaturales.length; i++)
 			{
-				for(int y = 0 ; y < listaMunicipios.length ; y++)
-				{
-					try
-					{
-						for(int x = 0 ; x < caracteresDeSeparacion.length ; x++)
-						{
-							try {
-								nombres = listaEspaciosNaturales[i].getMunicipio().trim().split(caracteresDeSeparacion[x]);
-								for(int valor = 0 ; valor < nombres.length ; valor++)
-								{
-									String muni = listaMunicipios[y].getNombre().toLowerCase().trim();
-									if(nombres[valor].toLowerCase().trim().equals(muni))
-									{
-										System.out.println(listaEspaciosNaturales[i].getMunicipio() + "  ---------  " + muni);
-										listaEspaciosNaturales[i].setMunicipios(listaMunicipios[y]);
-										InsertarBorrar.insertar(listaEspaciosNaturales[i],sesion,session);
-									}
-								}
-							}
-							catch (PatternSyntaxException a)
-							{
-	//							System.out.println("La estacion no tiene ese municipio");
-							}
-						}
-						if(listaMunicipios[y].getNombre().toLowerCase().equals(listaEspaciosNaturales[i].getMunicipio()))
-						{
-							listaEspaciosNaturales[i].setMunicipios(listaMunicipios[y]);
-							InsertarBorrar.insertar(listaEspaciosNaturales[i],sesion,session);
-						}
-					}
-					catch (ConstraintViolationException e)
-					{
-						System.out.println("Espacio natural repetido.");
-					}
-					catch (HibernateException o)
-					{
-						System.out.println("Espacio natural repetido.");
-					}
-					catch (Exception f)
-					{
-						System.out.println(f.getMessage());
-					}
-				}
+				InsertarBorrar.insertar(listaEspaciosNaturales[i],sesion,session);						
 			}
 			
 			//Insertar estaciones
@@ -301,22 +260,58 @@ public class Principal {
 				}
 			}
 			
-			String hql = "from Entornos";
-			Query q = session.createQuery(hql);
-			Iterator it = q.list().iterator();
-			while(it.hasNext())
+			
+			for (int i = 0 ; i < listaEspaciosNaturales.length; i++)
 			{
-				Entornos entorno = (Entornos) it.next();
-				Municipios muni = entorno.getMunicipios();
-				EntornosmuniId yoquese = new EntornosmuniId(entorno.getId(),muni.getId());
-				Entornosmuni vinculo = new Entornosmuni(yoquese,entorno,muni);
-				try
+				for(int y = 0 ; y < listaMunicipios.length ; y++)
 				{
-					InsertarBorrar.insertar(vinculo, sesion, session);
-				}
-				catch (Exception a)
-				{
-					a.printStackTrace();
+					try
+					{
+						//Como un espacio natural puede tener mas de un municipio comprobamos si puede tener mas de un 
+						for(int x = 0 ; x < caracteresDeSeparacion.length ; x++)
+						{
+							try {
+								nombres = listaEspaciosNaturales[i].getMunicipio().trim().split(caracteresDeSeparacion[x]);
+								for(int valor = 0 ; valor < nombres.length ; valor++)
+								{
+									String nombreMuni = listaMunicipios[y].getNombre().toLowerCase().trim();
+									if(nombres[valor].toLowerCase().trim().equals(nombreMuni))
+									{
+										Entornos entorno = (Entornos) listaEspaciosNaturales[i];
+										Municipios muni = listaMunicipios[y];
+					
+										String hql = "from Entornos where nombre = '"+entorno.getNombre()+"'";
+										Query q = session.createQuery(hql);
+										entorno = (Entornos) q.uniqueResult();
+										
+										String hql1 = "from Municipios where nombre = '"+muni.getNombre()+"'";
+										Query q1 = session.createQuery(hql1);
+										muni = (Municipios) q1.uniqueResult();
+
+										EntornosmuniId clave = new EntornosmuniId(entorno.getId(),muni.getId());
+										Entornosmuni vinculo = new Entornosmuni(clave,entorno,muni);
+										InsertarBorrar.insertar(vinculo,sesion,session);
+									}
+								}
+							}
+							catch (PatternSyntaxException a)
+							{
+	//							System.out.println("La estacion no tiene ese municipio");
+							}
+						}
+					}
+					catch (ConstraintViolationException e)
+					{
+						System.out.println("Espacio natural repetido.");
+					}
+					catch (HibernateException o)
+					{
+						System.out.println("Espacio natural repetido.");
+					}
+					catch (Exception f)
+					{
+						System.out.println(f.getMessage());
+					}
 				}
 			}
 			

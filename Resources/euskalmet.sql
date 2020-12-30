@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 26, 2020 at 07:57 PM
+-- Generation Time: Dec 29, 2020 at 07:26 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.1
 
@@ -34,7 +34,6 @@ CREATE TABLE `entornos` (
   `Descripcion` varchar(5000) DEFAULT NULL,
   `Tipo` varchar(100) DEFAULT NULL,
   `Territorio` varchar(100) DEFAULT NULL,
-  `Municipio` int(11) NOT NULL,
   `Latitud` double DEFAULT NULL,
   `Longitud` double DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -129,10 +128,9 @@ CREATE TABLE `municipios` (
 -- Indexes for table `entornos`
 --
 ALTER TABLE `entornos`
-  ADD PRIMARY KEY (`Id`) USING BTREE,
+  ADD PRIMARY KEY (`Id`),
   ADD UNIQUE KEY `Nombre` (`Nombre`),
-  ADD KEY `Id` (`Id`),
-  ADD KEY `Municipio` (`Municipio`);
+  ADD KEY `Id` (`Id`);
 
 --
 -- Indexes for table `entornosmuni`
@@ -182,41 +180,35 @@ ALTER TABLE `municipios`
 -- AUTO_INCREMENT for table `entornos`
 --
 ALTER TABLE `entornos`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `estaciones`
 --
 ALTER TABLE `estaciones`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `horario`
 --
 ALTER TABLE `horario`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `informes`
 --
 ALTER TABLE `informes`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `municipios`
 --
 ALTER TABLE `municipios`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=76;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- Constraints for dumped tables
 --
-
---
--- Constraints for table `entornos`
---
-ALTER TABLE `entornos`
-  ADD CONSTRAINT `entornos_ibfk_1` FOREIGN KEY (`Municipio`) REFERENCES `municipios` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `entornosmuni`

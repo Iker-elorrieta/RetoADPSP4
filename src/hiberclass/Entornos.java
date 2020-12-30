@@ -1,5 +1,5 @@
 package hiberclass;
-// Generated Dec 25, 2020, 5:48:11 AM by Hibernate Tools 5.4.18.Final
+// Generated Dec 29, 2020, 7:27:47 PM by Hibernate Tools 5.4.18.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -10,7 +10,6 @@ import java.util.Set;
 public class Entornos implements java.io.Serializable {
 
 	private Integer id;
-	private Municipios municipios;
 	private String municipio;
 	private String nombre;
 	private String descripcion;
@@ -23,14 +22,12 @@ public class Entornos implements java.io.Serializable {
 	public Entornos() {
 	}
 
-	public Entornos(Municipios municipios, String nombre) {
-		this.municipios = municipios;
+	public Entornos(String nombre) {
 		this.nombre = nombre;
 	}
 
-	public Entornos(Municipios municipios, String nombre, String descripcion, String tipo, String territorio,
-			Double latitud, Double longitud, Set entornosmunis) {
-		this.municipios = municipios;
+	public Entornos(String nombre, String descripcion, String tipo, String territorio, Double latitud, Double longitud,
+			Set entornosmunis) {
 		this.nombre = nombre;
 		this.descripcion = descripcion;
 		this.tipo = tipo;
@@ -38,14 +35,6 @@ public class Entornos implements java.io.Serializable {
 		this.latitud = latitud;
 		this.longitud = longitud;
 		this.entornosmunis = entornosmunis;
-	}
-
-	public Integer getId() {
-		return this.id;
-	}
-
-	public void setId(Integer id) {
-		this.id = id;
 	}
 	
 	public void setLatitud(Double latitud) {
@@ -56,6 +45,14 @@ public class Entornos implements java.io.Serializable {
 		this.longitud = longitud;
 	}
 
+	public Integer getId() {
+		return this.id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
 	public String getMunicipio() {
 		return municipio;
 	}
@@ -64,14 +61,6 @@ public class Entornos implements java.io.Serializable {
 		this.municipio = municipio;
 	}
 	
-	public Municipios getMunicipios() {
-		return this.municipios;
-	}
-
-	public void setMunicipios(Municipios municipios) {
-		this.municipios = municipios;
-	}
-
 	public String getNombre() {
 		return this.nombre;
 	}

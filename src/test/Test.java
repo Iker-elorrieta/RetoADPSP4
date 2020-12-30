@@ -84,8 +84,8 @@ public class Test {
 	public void testInsercionEntorno() {
 		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set, set);
 		InsertarBorrar.insertar(municipio, sesion, session);
-		entorno = new Entornos(municipio, nombrePruebas);
-		entorno = new Entornos(municipio, nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
+		entorno = new Entornos(nombrePruebas);
+		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
 		assertEquals(true, InsertarBorrar.insertar(entorno, sesion, session));
 		InsertarBorrar.borrar(entorno);
 		InsertarBorrar.borrar(municipio);
@@ -128,7 +128,7 @@ public class Test {
 	@org.junit.Test
     public void testInsercionEntornosMuni() {
 		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set, set);
-		entorno = new Entornos(municipio, nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);	
+		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);	
 		InsertarBorrar.insertar(municipio, sesion, session);
 		InsertarBorrar.insertar(entorno, sesion, session);
 		entorno.setId(InsertarBorrar.obtenerEntornoId(entorno));
