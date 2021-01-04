@@ -1,5 +1,5 @@
 package hiberclass;
-// Generated Dec 29, 2020, 7:27:47 PM by Hibernate Tools 5.4.18.Final
+// Generated Jan 3, 2021, 9:45:27 PM by Hibernate Tools 5.4.18.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -10,8 +10,8 @@ import java.util.Set;
 public class Entornos implements java.io.Serializable {
 
 	private Integer id;
-	private String municipio;
 	private String nombre;
+	private String municipio;
 	private String descripcion;
 	private String tipo;
 	private String territorio;

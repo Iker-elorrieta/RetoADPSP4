@@ -1,5 +1,5 @@
 package hiberclass;
-// Generated Dec 25, 2020, 5:48:11 AM by Hibernate Tools 5.4.18.Final
+// Generated Jan 3, 2021, 9:45:27 PM by Hibernate Tools 5.4.18.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -15,7 +15,6 @@ public class Municipios implements java.io.Serializable {
 	private Double latitud;
 	private Double longitud;
 	private String codigo;
-	private Set entornoses = new HashSet(0);
 	private Set estacioneses = new HashSet(0);
 	private Set entornosmunis = new HashSet(0);
 
@@ -26,14 +25,13 @@ public class Municipios implements java.io.Serializable {
 		this.nombre = nombre;
 	}
 
-	public Municipios(String nombre, String descripcion, Double latitud, Double longitud, String codigo, Set entornoses,
+	public Municipios(String nombre, String descripcion, Double latitud, Double longitud, String codigo,
 			Set estacioneses, Set entornosmunis) {
 		this.nombre = nombre;
 		this.descripcion = descripcion;
 		this.latitud = latitud;
 		this.longitud = longitud;
 		this.codigo = codigo;
-		this.entornoses = entornoses;
 		this.estacioneses = estacioneses;
 		this.entornosmunis = entornosmunis;
 	}
@@ -45,7 +43,29 @@ public class Municipios implements java.io.Serializable {
 	public void setId(Integer id) {
 		this.id = id;
 	}
+	
+	public void setLatitud(String latitud) {
+		try
+		{
+			this.latitud = Double.parseDouble(latitud.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.latitud = null;
+		}
+	}
 
+	public void setLongitud(String longitud) {
+		try
+		{
+			this.longitud = Double.parseDouble(longitud.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.longitud = null;
+		}
+	}
+	
 	public String getNombre() {
 		return this.nombre;
 	}
@@ -62,42 +82,20 @@ public class Municipios implements java.io.Serializable {
 		this.descripcion = descripcion;
 	}
 
-	public void setLatitud(Double latitud) {
-		this.latitud = latitud;
-	}
-
-	public void setLongitud(Double longitud) {
-		this.longitud = longitud;
-	}
-
 	public Double getLatitud() {
 		return this.latitud;
 	}
 
-	public void setLatitud(String latitud) {
-		try
-		{
-			this.latitud = Double.parseDouble(latitud.replace(",", "."));
-		}
-		catch(NumberFormatException a)
-		{
-			this.latitud = null;
-		}
+	public void setLatitud(Double latitud) {
+		this.latitud = latitud;
 	}
 
 	public Double getLongitud() {
 		return this.longitud;
 	}
 
-	public void setLongitud(String longitud) {
-		try
-		{
-			this.longitud = Double.parseDouble(longitud.replace(",", "."));
-		}
-		catch(NumberFormatException a)
-		{
-			this.longitud = null;
-		}
+	public void setLongitud(Double longitud) {
+		this.longitud = longitud;
 	}
 
 	public String getCodigo() {
@@ -106,14 +104,6 @@ public class Municipios implements java.io.Serializable {
 
 	public void setCodigo(String codigo) {
 		this.codigo = codigo;
-	}
-
-	public Set getEntornoses() {
-		return this.entornoses;
-	}
-
-	public void setEntornoses(Set entornoses) {
-		this.entornoses = entornoses;
 	}
 
 	public Set getEstacioneses() {
@@ -131,14 +121,14 @@ public class Municipios implements java.io.Serializable {
 	public void setEntornosmunis(Set entornosmunis) {
 		this.entornosmunis = entornosmunis;
 	}
-
+	
 	@Override
 	public String toString() {
 		return "Municipios [id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + ", latitud=" + latitud
 				+ ", longitud=" + longitud + ", codigo=" + codigo + ", estacioneses=" + estacioneses
 				+ ", entornosmunis=" + entornosmunis + "]";
 	}
-	
+
 	public boolean isNull()
 	{
 		if(nombre != null)

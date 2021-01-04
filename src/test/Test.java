@@ -5,10 +5,8 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
-
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-
 import hiberclass.Entornos;
 import hiberclass.Entornosmuni;
 import hiberclass.EntornosmuniId;
@@ -40,7 +38,7 @@ public class Test {
 	
 	//Valores de prueba
 	String nombrePruebas = "prueba";
-	double valor = 1.2;
+	Double valor = (double) 1;
 	Calendar fecha = Calendar.getInstance(); // para pasar a date llamar al metodo toDate(Calendar)
 	
 	@SuppressWarnings("rawtypes")
@@ -48,27 +46,27 @@ public class Test {
 	
 	@org.junit.Test
 	public void testInsercionEstacion() {
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set, set);
+		
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
 		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas);
 		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		estacion.toString();
 		InsertarBorrar.insertar(municipio, sesion, session);
 		assertEquals(true, InsertarBorrar.insertar(estacion, sesion, session));
-		InsertarBorrar.borrar(estacion);
 		InsertarBorrar.borrar(municipio);
 	}
 	
 	@org.junit.Test
 	public void testInsercionMunicipio() {
 		municipio = new Municipios(nombrePruebas);
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set, set);
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
 		assertEquals(true, InsertarBorrar.insertar(municipio, sesion, session));
 		InsertarBorrar.borrar(municipio);
 	}
 	
 	@org.junit.Test
 	public void testInsercionInformes() {
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set, set);
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
 		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		informe = new Informes(estacion, nombrePruebas);
 		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
@@ -82,22 +80,20 @@ public class Test {
 	
 	@org.junit.Test
 	public void testInsercionEntorno() {
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set, set);
-		InsertarBorrar.insertar(municipio, sesion, session);
+		
 		entorno = new Entornos(nombrePruebas);
 		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
 		assertEquals(true, InsertarBorrar.insertar(entorno, sesion, session));
 		InsertarBorrar.borrar(entorno);
-		InsertarBorrar.borrar(municipio);
 	}
 	
 	@org.junit.Test
     public void testInsercionHorarios() {
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set, set);
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
 		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
         informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
 
-        horario.setFecha("10/10/1000");
+        horario.setFecha(toDate(fecha));
         horario.setHora("10:00");
         horario.setInformes(informe);
         horario.setComgm3(valor);
@@ -114,23 +110,19 @@ public class Test {
         horario.setIcaestacion(nombrePruebas);
 
         horario = new Horario(informe,toDate(fecha),"10:00",valor, valor, valor, nombrePruebas, valor, valor, nombrePruebas, valor, nombrePruebas, valor, nombrePruebas, nombrePruebas);
-        InsertarBorrar.insertar((Object)municipio, sesion, session);
-        InsertarBorrar.insertar((Object)estacion, sesion, session);
-        InsertarBorrar.insertar((Object)informe, sesion, session);
+        InsertarBorrar.insertar(municipio, sesion, session);
+        InsertarBorrar.insertar(estacion, sesion, session);
+        InsertarBorrar.insertar(informe, sesion, session);
         assertEquals(true, InsertarBorrar.insertar(horario, sesion, session));
-        InsertarBorrar.borrar(horario);
-        InsertarBorrar.borrar(informe);
-        InsertarBorrar.borrar(estacion);
         InsertarBorrar.borrar(municipio);
-
     }
 	
 	@org.junit.Test
     public void testInsercionEntornosMuni() {
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set, set);
 		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);	
-		InsertarBorrar.insertar(municipio, sesion, session);
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);		
 		InsertarBorrar.insertar(entorno, sesion, session);
+		InsertarBorrar.insertar(municipio, sesion, session);
 		entorno.setId(InsertarBorrar.obtenerEntornoId(entorno));
 		municipio.setId(InsertarBorrar.obtenerMunicipioId(municipio));
 		entornosmuniId = new EntornosmuniId(entorno.getId(), municipio.getId());
@@ -139,6 +131,7 @@ public class Test {
 		entornosmuni = new Entornosmuni(entornosmuniId, entorno, municipio);
 		InsertarBorrar.insertar(entornosmuni, sesion, session);
 		InsertarBorrar.borrar(municipio);
+		InsertarBorrar.borrar(entorno);
 		
 		session.close();
 		sesion.close();

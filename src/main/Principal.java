@@ -60,7 +60,7 @@ public class Principal {
 		{
 			int contadorPaginasNoEncontradas = 0;
 			//Comprobar los certificados de la pagina
-			comprobarPagina("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/index.json");
+			comprobarPagina("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2021/es_def/adjuntos/index.json");
 			
 			ObjectMapper mapper = new ObjectMapper();
 			
@@ -68,7 +68,7 @@ public class Principal {
 			mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
 			Informes[] horariosEstaciones = null;
 			try {
-				horariosEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/index.json"), Informes[].class);
+				horariosEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2021/es_def/adjuntos/index.json"), Informes[].class);
 			} catch (JsonMappingException e2) {
 				// TODO Auto-generated catch block
 				e2.printStackTrace();
@@ -150,29 +150,6 @@ public class Principal {
 				String url = horariosEstaciones[i].getUrl();
 				try
 				{	
-					try
-					{
-						//Como no nos interesa los dadots horarios, lo ignoramos.
-						if(url.contains("datos_indice") || url.contains("datos_diarios"))
-						{
-							//Si en un dato horario se pillara todo hasta el dia anterior hasta la hora 10:00
-							horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[i].getUrl()), Horario[].class);
-							for(int x = 0 ; x < horario.length; x++)
-							{
-								
-								horario[x].setInformes(horariosEstaciones[i]);
-//								InsertarBorrar.insertar(horario[x],sesion,session);
-							}
-						}
-					}
-					catch (IOException a)
-					{
-						//Si la pagina no se encuentra muestra el error
-						System.out.println("Pagina no encontrada");
-						//Contador de paginas no encotradas.
-						paginasNoEncontrada.add(horariosEstaciones[i]);
-					}
-					
 					for(int y = 0 ; y < listaEstaciones.length ; y++)
 					{
 						nombres = horariosEstaciones[i].getNombre().toLowerCase().split("_");
@@ -224,39 +201,6 @@ public class Principal {
 				catch (Exception f)
 				{
 					f.printStackTrace();
-				}
-			}
-
-			for(int y = 0 ; y < horariosEstaciones.length ;y++)
-			{
-				try
-				{
-					String url = horariosEstaciones[y].getUrl();
-					if(url.contains("datos_indice") || url.contains("datos_diarios"))
-					{
-						String hql = "from Informes where url = '"+url+"'";
-						Query q = session.createQuery(hql);
-						Informes informe = (Informes) q.uniqueResult();
-						horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[y].getUrl()), Horario[].class);
-						for(int x = 0 ; x < horario.length; x++)
-						{
-							horario[x].setInformes(informe);
-							if(!horario[x].isNull() && horario[x].getInformes() != null)
-								InsertarBorrar.insertar(horario[x],sesion,session);
-						}
-					}
-				}
-				catch (IOException a)
-				{
-					
-				}
-				catch(PropertyValueException b)
-				{
-					
-				}
-				catch (ConstraintViolationException c)
-				{
-					
 				}
 			}
 			
@@ -312,6 +256,39 @@ public class Principal {
 					{
 						System.out.println(f.getMessage());
 					}
+				}
+			}
+			
+			for(int y = 0 ; y < horariosEstaciones.length ;y++)
+			{
+				try
+				{
+					String url = horariosEstaciones[y].getUrl();
+					if(url.contains("datos_indice") || url.contains("datos_diarios"))
+					{
+						String hql = "from Informes where url = '"+url+"'";
+						Query q = session.createQuery(hql);
+						Informes informe = (Informes) q.uniqueResult();
+						horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[y].getUrl()), Horario[].class);
+						for(int x = 0 ; x < horario.length; x++)
+						{
+							horario[x].setInformes(informe);
+							if(!horario[x].isNull() && horario[x].getInformes() != null)
+								InsertarBorrar.insertar(horario[x],sesion,session);
+						}
+					}
+				}
+				catch (IOException a)
+				{
+					
+				}
+				catch(PropertyValueException b)
+				{
+					
+				}
+				catch (ConstraintViolationException c)
+				{
+					
 				}
 			}
 			
@@ -477,9 +454,8 @@ public class Principal {
 					//Comprobar si la ultima fecha es del mismo mes y año
 					if(result.lastIndexOf(date.substring(2)) != -1)
 						//comprobar que la ultima fecha que se ha encontrado es menor que la fecha que quieremos
-						if(Integer.parseInt(result.substring(result.lastIndexOf(date.substring(2))-2,result.lastIndexOf(date.substring(2)))) < Integer.parseInt(date.substring(0,2)))
+						if(Integer.parseInt(result.substring(result.lastIndexOf(date.substring(2))-2,result.lastIndexOf(date.substring(2))).replace("/", "")) < Integer.parseInt(date.substring(0,2).replace("/","")))
 							if(sb.contains("Hour") && url.contains("datos_indice"))
-							{
 								if(sb.contains("09:00"))
 								{
 									result = sb.substring(sb.indexOf("["),sb.lastIndexOf("}")+1) + " ]";
@@ -488,7 +464,6 @@ public class Principal {
 									result = replace(result,url);
 									return result;
 								}
-							}
 							else if(url.contains("datos_diarios"))
 							{
 								date = fechaAnterior(2);
@@ -497,7 +472,7 @@ public class Principal {
 								//comprobamos que tenga una fecha en el mismo mes y año
 								if(result.lastIndexOf(date.substring(2)) != -1)
 									//comprobamos que el ultimo dia elegido es menor a la fecha que quieremos
-									if(Integer.parseInt(result.substring(result.lastIndexOf(date.substring(2))-2,result.lastIndexOf(date.substring(2)))) < Integer.parseInt(date.substring(0,2)))
+									if(Integer.parseInt(result.substring(result.lastIndexOf(date.substring(2))-2,result.lastIndexOf(date.substring(2))).replace("/", "")) < Integer.parseInt(date.substring(0,2).replace("/", "")))
 									{
 										try
 										{
@@ -516,6 +491,7 @@ public class Principal {
 										
 									}
 							}
+					
 				}
 				catch (StringIndexOutOfBoundsException a)
 				{
