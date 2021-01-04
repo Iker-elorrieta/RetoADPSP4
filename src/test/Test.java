@@ -23,16 +23,16 @@ import main.Principal;
  */
 public class Test {
 	
-	Principal principal = new Principal();
-	InsertarBorrar insertado = new InsertarBorrar();
-	Entornos entorno = new Entornos();
-	Municipios municipio = new Municipios();
-	Horario horario = new Horario();
-	Informes informe = new Informes();
-	Estaciones estacion = new Estaciones();
-	Entornosmuni entornosmuni = new Entornosmuni();
-	EntornosmuniId entornosmuniId = new EntornosmuniId();
-	HibernateUtil hibernate = new HibernateUtil();
+	private Principal principal = new Principal();
+	private InsertarBorrar insertado = new InsertarBorrar();
+	private Entornos entorno = new Entornos();
+	private Municipios municipio = new Municipios();
+	private Horario horario = new Horario();
+	private Informes informe = new Informes();
+	private Estaciones estacion = new Estaciones();
+	private Entornosmuni entornosmuni = new Entornosmuni();
+	private EntornosmuniId entornosmuniId = new EntornosmuniId();
+	private HibernateUtil hibernate = new HibernateUtil();
 	SessionFactory sesion = HibernateUtil.getSessionFactory();
 	Session session = sesion.openSession();
 	
@@ -45,54 +45,52 @@ public class Test {
 	Set set = new HashSet(0);
 	
 	@org.junit.Test
-	public void testInsercionEstacion() {
-		
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
-		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas);
-		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
-		estacion.toString();
-		InsertarBorrar.insertar(municipio, sesion, session);
-		assertEquals(true, InsertarBorrar.insertar(estacion, sesion, session));
-		InsertarBorrar.borrar(municipio);
-	}
-	
-	@org.junit.Test
 	public void testInsercionMunicipio() {
 		municipio = new Municipios(nombrePruebas);
 		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
 		assertEquals(true, InsertarBorrar.insertar(municipio, sesion, session));
-		InsertarBorrar.borrar(municipio);
+		InsertarBorrar.borrar(municipio, sesion, session);
+	}
+	
+	@org.junit.Test
+	public void testInsercionEntorno() {
+		entorno = new Entornos(nombrePruebas);
+		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
+		assertEquals(true, InsertarBorrar.insertar(entorno, sesion, session));
+		InsertarBorrar.borrar(entorno, sesion, session);
+	}
+	
+	@org.junit.Test
+	public void testInsercionEstacion() {
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
+		InsertarBorrar.insertar(municipio, sesion, session);
+		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas);
+		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
+		assertEquals(true, InsertarBorrar.insertar(estacion, sesion, session));
+		InsertarBorrar.borrar(municipio, sesion, session);
 	}
 	
 	@org.junit.Test
 	public void testInsercionInformes() {
 		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
+		InsertarBorrar.insertar(municipio, sesion, session);
 		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
+		InsertarBorrar.insertar(estacion, sesion, session);
 		informe = new Informes(estacion, nombrePruebas);
 		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
-		InsertarBorrar.insertar(municipio, sesion, session);
-		InsertarBorrar.insertar(estacion, sesion, session);
 		assertEquals(true, InsertarBorrar.insertar(informe, sesion, session));
-		InsertarBorrar.borrar(informe);
-		InsertarBorrar.borrar(estacion);
-		InsertarBorrar.borrar(municipio);
-	}
-	
-	@org.junit.Test
-	public void testInsercionEntorno() {
-		
-		entorno = new Entornos(nombrePruebas);
-		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
-		assertEquals(true, InsertarBorrar.insertar(entorno, sesion, session));
-		InsertarBorrar.borrar(entorno);
+		InsertarBorrar.borrar(municipio, sesion, session);
 	}
 	
 	@org.junit.Test
     public void testInsercionHorarios() {
 		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
 		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
-        informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
-
+		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
+		InsertarBorrar.insertar(municipio, sesion, session);
+		InsertarBorrar.insertar(estacion, sesion, session);
+		InsertarBorrar.insertar(informe, sesion, session);
+		
         horario.setFecha(toDate(fecha));
         horario.setHora("10:00");
         horario.setInformes(informe);
@@ -110,28 +108,27 @@ public class Test {
         horario.setIcaestacion(nombrePruebas);
 
         horario = new Horario(informe,toDate(fecha),"10:00",valor, valor, valor, nombrePruebas, valor, valor, nombrePruebas, valor, nombrePruebas, valor, nombrePruebas, nombrePruebas);
-        InsertarBorrar.insertar(municipio, sesion, session);
-        InsertarBorrar.insertar(estacion, sesion, session);
-        InsertarBorrar.insertar(informe, sesion, session);
+        
         assertEquals(true, InsertarBorrar.insertar(horario, sesion, session));
-        InsertarBorrar.borrar(municipio);
+        InsertarBorrar.borrar(municipio, sesion, session);
     }
 	
 	@org.junit.Test
     public void testInsercionEntornosMuni() {
-		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);	
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);		
-		InsertarBorrar.insertar(entorno, sesion, session);
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
+		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
 		InsertarBorrar.insertar(municipio, sesion, session);
-		entorno.setId(InsertarBorrar.obtenerEntornoId(entorno));
-		municipio.setId(InsertarBorrar.obtenerMunicipioId(municipio));
+		InsertarBorrar.insertar(entorno, sesion, session);
+		
+		entorno.setId(InsertarBorrar.obtenerEntornoId(entorno, sesion, session));
+		municipio.setId(InsertarBorrar.obtenerMunicipioId(municipio, sesion, session));
 		entornosmuniId = new EntornosmuniId(entorno.getId(), municipio.getId());
 		entornosmuni.setEntornos(entorno);
 		entornosmuni.setMunicipios(municipio);
 		entornosmuni = new Entornosmuni(entornosmuniId, entorno, municipio);
-		InsertarBorrar.insertar(entornosmuni, sesion, session);
-		InsertarBorrar.borrar(municipio);
-		InsertarBorrar.borrar(entorno);
+		assertEquals(true, InsertarBorrar.insertar(entornosmuni, sesion, session));
+		InsertarBorrar.borrar(entorno, sesion, session);
+		InsertarBorrar.borrar(municipio, sesion, session);
 		
 		session.close();
 		sesion.close();

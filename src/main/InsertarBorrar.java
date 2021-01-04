@@ -38,28 +38,22 @@ public class InsertarBorrar {
 	 * Metodo para borrar un objeto de la base de datos.
 	 * @param object
 	 */
-	public static void borrar(Object object) {
+	public static void borrar(Object object,SessionFactory sesion,Session session) {
 		
 		Transaction tx = null;
-		SessionFactory sesion = HibernateUtil.getSessionFactory();
-		Session session = sesion.openSession();
 		tx = session.beginTransaction();
 
 		// Insertar nueva estación
 
 		session.delete(object);
 		tx.commit();
-
-		session.close();
 	}
 	
-	public static int obtenerEntornoId(Entornos entorno) {
+	public static int obtenerEntornoId(Entornos entorno,SessionFactory sesion,Session session) {
 		
 		String hql = new String();
 		Transaction tx = null;
-		SessionFactory sesion = HibernateUtil.getSessionFactory();
-		Session session = sesion.openSession();
-		tx = session.beginTransaction();		
+		tx = session.beginTransaction();		  
 		hql = "from Entornos where Nombre = '" + entorno.getNombre() + "'";
 		Query q = session.createQuery(hql);
 		
@@ -69,12 +63,10 @@ public class InsertarBorrar {
 		
 	}
 	
-	public static int obtenerMunicipioId(Municipios municipio) {
+	public static int obtenerMunicipioId(Municipios municipio,SessionFactory sesion,Session session) {
 		
 		String hql = new String();
 		Transaction tx = null;
-		SessionFactory sesion = HibernateUtil.getSessionFactory();
-		Session session = sesion.openSession();
 		tx = session.beginTransaction();		
 		hql = "from Municipios where Nombre = '" + municipio.getNombre() + "'";
 		Query q = session.createQuery(hql);

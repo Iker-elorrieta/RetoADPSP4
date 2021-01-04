@@ -1,0 +1,33 @@
+[ {
+  "Date" : "03/01/2021",
+  "Bencenogm3" : "0,15",
+  "COmgm3" : "0,48",
+  "CO8hmgm3" : "0,5",
+  "Etilbencenogm3" : "0,21",
+  "NOgm3" : "2",
+  "NO2gm3" : "10",
+  "NOXgm3" : "13",
+  "O3gm3" : "47",
+  "O38hgm3" : "40",
+  "Ortoxilenogm3" : "0,43",
+  "PM10gm3" : "6",
+  "PM25gm3" : "4",
+  "SO2gm3" : "4",
+  "Toluenogm3" : "0,39"
+}, {
+  "Date" : "02/01/2021",
+  "Bencenogm3" : "0,25",
+  "COmgm3" : "0,5",
+  "CO8hmgm3" : "0,47",
+  "Etilbencenogm3" : "0,22",
+  "NOgm3" : "2",
+  "NO2gm3" : "13",
+  "NOXgm3" : "16",
+  "O3gm3" : "45",
+  "O38hgm3" : "53",
+  "Ortoxilenogm3" : "0,5",
+  "PM10gm3" : "11",
+  "PM25gm3" : "7",
+  "SO2gm3" : "4",
+  "Toluenogm3" : "0,8"
+} ]

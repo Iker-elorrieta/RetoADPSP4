@@ -264,6 +264,7 @@ public class Principal {
 				try
 				{
 					String url = horariosEstaciones[y].getUrl();
+					System.out.println(url);
 					if(url.contains("datos_indice") || url.contains("datos_diarios"))
 					{
 						String hql = "from Informes where url = '"+url+"'";
@@ -400,7 +401,7 @@ public class Principal {
 		int dia = fecha.get(Calendar.DAY_OF_MONTH);
 		int mes = fecha.get(Calendar.MONTH);
 		int anio = fecha.get(Calendar.YEAR);
-		String date = dia + "/" + (mes+1) + "/" + anio;
+		String date = String.format("%02d", dia) + "/" + String.format("%02d", (mes+1)) + "/" + anio;
 		return date;
 	}
 	
@@ -450,12 +451,13 @@ public class Principal {
 				{
 					//Recoger el string entero
 					String result = sb.substring(sb.indexOf("["));
-					String date = fechaAnterior(0);
+					String date = fechaAnterior(1);
 					//Comprobar si la ultima fecha es del mismo mes y año
 					if(result.lastIndexOf(date.substring(2)) != -1)
 						//comprobar que la ultima fecha que se ha encontrado es menor que la fecha que quieremos
-						if(Integer.parseInt(result.substring(result.lastIndexOf(date.substring(2))-2,result.lastIndexOf(date.substring(2))).replace("/", "")) < Integer.parseInt(date.substring(0,2).replace("/","")))
+						if(Integer.parseInt(result.substring(result.lastIndexOf(date.substring(2))-2,result.lastIndexOf(date.substring(2)))) < Integer.parseInt(date.substring(0,2)))
 							if(sb.contains("Hour") && url.contains("datos_indice"))
+							{
 								if(sb.contains("09:00"))
 								{
 									result = sb.substring(sb.indexOf("["),sb.lastIndexOf("}")+1) + " ]";
@@ -464,6 +466,7 @@ public class Principal {
 									result = replace(result,url);
 									return result;
 								}
+							}
 							else if(url.contains("datos_diarios"))
 							{
 								date = fechaAnterior(2);
@@ -472,7 +475,7 @@ public class Principal {
 								//comprobamos que tenga una fecha en el mismo mes y año
 								if(result.lastIndexOf(date.substring(2)) != -1)
 									//comprobamos que el ultimo dia elegido es menor a la fecha que quieremos
-									if(Integer.parseInt(result.substring(result.lastIndexOf(date.substring(2))-2,result.lastIndexOf(date.substring(2))).replace("/", "")) < Integer.parseInt(date.substring(0,2).replace("/", "")))
+									if(Integer.parseInt(result.substring(result.lastIndexOf(date.substring(2))-2,result.lastIndexOf(date.substring(2)))) < Integer.parseInt(date.substring(0,2)))
 									{
 										try
 										{
