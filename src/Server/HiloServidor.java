@@ -28,7 +28,7 @@ public class HiloServidor extends Thread {
 
 		try {
 		String usuario  = oentrada.readUTF();
-		String contraseña = oentrada.readUTF();
+		String contrasena = oentrada.readUTF();
 	
 		
 		
