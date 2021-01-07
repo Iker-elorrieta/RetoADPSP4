@@ -7,23 +7,24 @@ import java.util.HashSet;
 import java.util.Set;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import hiberclass.Entornos;
-import hiberclass.Entornosmuni;
-import hiberclass.EntornosmuniId;
-import hiberclass.Estaciones;
-import hiberclass.Horario;
-import hiberclass.Informes;
-import hiberclass.Municipios;
-import main.HibernateUtil;
-import main.InsertarBorrar;
-import main.Principal;
+
+import modelo.Entornos;
+import modelo.Entornosmuni;
+import modelo.EntornosmuniId;
+import modelo.Estaciones;
+import modelo.HibernateUtil;
+import modelo.Horario;
+import modelo.Informes;
+import modelo.InsertarBorrar;
+import modelo.Municipios;
+import modelo.Json;
 
 /**
  * Clase para comprobar que el programa funciona correctamente.
  */
 public class Test {
 	
-	private Principal principal = new Principal();
+	private Json principal = new Json();
 	private InsertarBorrar insertado = new InsertarBorrar();
 	private Entornos entorno = new Entornos();
 	private Municipios municipio = new Municipios();
@@ -58,28 +59,6 @@ public class Test {
 		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
 		assertEquals(true, InsertarBorrar.insertar(entorno, sesion, session));
 		InsertarBorrar.borrar(entorno, sesion, session);
-	}
-	
-	@org.junit.Test
-	public void testInsercionEstacion() {
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
-		InsertarBorrar.insertar(municipio, sesion, session);
-		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas);
-		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
-		assertEquals(true, InsertarBorrar.insertar(estacion, sesion, session));
-		InsertarBorrar.borrar(municipio, sesion, session);
-	}
-	
-	@org.junit.Test
-	public void testInsercionInformes() {
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
-		InsertarBorrar.insertar(municipio, sesion, session);
-		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
-		InsertarBorrar.insertar(estacion, sesion, session);
-		informe = new Informes(estacion, nombrePruebas);
-		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
-		assertEquals(true, InsertarBorrar.insertar(informe, sesion, session));
-		InsertarBorrar.borrar(municipio, sesion, session);
 	}
 	
 	@org.junit.Test
@@ -128,6 +107,28 @@ public class Test {
 		entornosmuni = new Entornosmuni(entornosmuniId, entorno, municipio);
 		assertEquals(true, InsertarBorrar.insertar(entornosmuni, sesion, session));
 		InsertarBorrar.borrar(entorno, sesion, session);
+		InsertarBorrar.borrar(municipio, sesion, session);
+	}
+	
+	@org.junit.Test
+	public void testInsercionInformes() {
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
+		InsertarBorrar.insertar(municipio, sesion, session);
+		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
+		InsertarBorrar.insertar(estacion, sesion, session);
+		informe = new Informes(estacion, nombrePruebas);
+		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
+		assertEquals(true, InsertarBorrar.insertar(informe, sesion, session));
+		InsertarBorrar.borrar(municipio, sesion, session);
+	}
+	
+	@org.junit.Test
+	public void testInsercionEstacion() {
+		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
+		InsertarBorrar.insertar(municipio, sesion, session);
+		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas);
+		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
+		assertEquals(true, InsertarBorrar.insertar(estacion, sesion, session));
 		InsertarBorrar.borrar(municipio, sesion, session);
 		
 		session.close();
