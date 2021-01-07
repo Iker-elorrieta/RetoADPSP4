@@ -37,7 +37,7 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class Principal {
+public class Json {
 	
 	public static boolean cargarTodosLosDatos()
 	{
