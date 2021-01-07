@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-HERNANI>
+    <datos_diarios-HERNANI-1>
+        <Date>03/01/2021</Date>
+        <NOgm3>4</NOgm3>
+        <NOXgm3>26</NOXgm3>
+        <PM10gm3>8</PM10gm3>
+        <SH2gm3>2</SH2gm3>
+        <SO2gm3>1</SO2gm3>
+    </datos_diarios-HERNANI-1>
+    <datos_diarios-HERNANI-2>
+        <Date>02/01/2021</Date>
+        <NOgm3>11</NOgm3>
+        <NOXgm3>43</NOXgm3>
+        <PM10gm3>12</PM10gm3>
+        <SH2gm3>2</SH2gm3>
+        <SO2gm3>1</SO2gm3>
+    </datos_diarios-HERNANI-2>
+</datos_diarios-HERNANI>

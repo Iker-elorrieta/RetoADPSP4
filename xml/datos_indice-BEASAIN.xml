@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_indice-BEASAIN>
+    <datos_indice-BEASAIN-1>
+        <Date>04/01/2021</Date>
+        <Hour>24:00</Hour>
+    </datos_indice-BEASAIN-1>
+    <datos_indice-BEASAIN-2>
+        <Date>04/01/2021</Date>
+        <Hour>23:00</Hour>
+    </datos_indice-BEASAIN-2>
+    <datos_indice-BEASAIN-3>
+        <Date>04/01/2021</Date>
+        <Hour>22:00</Hour>
+    </datos_indice-BEASAIN-3>
+    <datos_indice-BEASAIN-4>
+        <Date>04/01/2021</Date>
+        <Hour>21:00</Hour>
+    </datos_indice-BEASAIN-4>
+    <datos_indice-BEASAIN-5>
+        <Date>04/01/2021</Date>
+        <Hour>20:00</Hour>
+    </datos_indice-BEASAIN-5>
+    <datos_indice-BEASAIN-6>
+        <Date>04/01/2021</Date>
+        <Hour>19:00</Hour>
+        <Bencenogm3>0,71</Bencenogm3>
+        <COmgm3>0,22</COmgm3>
+        <CO8hmgm3>0,19</CO8hmgm3>
+        <Etilbencenogm3>0,14</Etilbencenogm3>
+        <NOgm3>14</NOgm3>
+        <NO2>50</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>71</NOXgm3>
+        <PM10>11,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,83</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,52</Toluenogm3>
+        <Dviengrados>192</Dviengrados>
+        <H>91</H>
+        <PmBar>987,6</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>1,5</TC>
+        <Vvienms>1,24</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-BEASAIN-6>
+    <datos_indice-BEASAIN-7>
+        <Date>04/01/2021</Date>
+        <Hour>18:00</Hour>
+        <Bencenogm3>0,84</Bencenogm3>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,19</CO8hmgm3>
+        <Etilbencenogm3>0,17</Etilbencenogm3>
+        <NOgm3>13</NOgm3>
+        <NO2>53</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>73</NOXgm3>
+        <PM10>11,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,83</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,75</Toluenogm3>
+        <Dviengrados>202</Dviengrados>
+        <H>89</H>
+        <PmBar>987,1</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,3</TC>
+        <Vvienms>2,11</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-BEASAIN-7>
+    <datos_indice-BEASAIN-8>
+        <Date>04/01/2021</Date>
+        <Hour>17:00</Hour>
+        <Bencenogm3>0,56</Bencenogm3>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,14</Etilbencenogm3>
+        <NOgm3>11</NOgm3>
+        <NO2>48</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>65</NOXgm3>
+        <PM10>11,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,67</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,57</Toluenogm3>
+        <Dviengrados>205</Dviengrados>
+        <H>89</H>
+        <PmBar>986,7</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>2,2</Rwm2>
+        <TC>2,8</TC>
+        <Vvienms>1,42</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-BEASAIN-8>
+    <datos_indice-BEASAIN-9>
+        <Date>04/01/2021</Date>
+        <Hour>16:00</Hour>
+        <Bencenogm3>0,63</Bencenogm3>
+        <COmgm3>0,19</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,11</Etilbencenogm3>
+        <NOgm3>8</NOgm3>
+        <NO2>38</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>51</NOXgm3>
+        <PM10>11,42</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,58</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,57</Toluenogm3>
+        <Dviengrados>217</Dviengrados>
+        <H>86</H>
+        <PmBar>986,2</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>19,3</Rwm2>
+        <TC>3,1</TC>
+        <Vvienms>2</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-9>
+    <datos_indice-BEASAIN-10>
+        <Date>04/01/2021</Date>
+        <Hour>15:00</Hour>
+        <Bencenogm3>0,55</Bencenogm3>
+        <COmgm3>0,2</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>11</NOgm3>
+        <NO2>38</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>55</NOXgm3>
+        <PM10>11,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,47</Toluenogm3>
+        <Dviengrados>198</Dviengrados>
+        <H>87</H>
+        <PmBar>985,6</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>58,8</Rwm2>
+        <TC>3,7</TC>
+        <Vvienms>1,78</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-10>
+    <datos_indice-BEASAIN-11>
+        <Date>04/01/2021</Date>
+        <Hour>14:00</Hour>
+        <Bencenogm3>0,49</Bencenogm3>
+        <COmgm3>0,17</COmgm3>
+        <CO8hmgm3>0,17</CO8hmgm3>
+        <Etilbencenogm3>0,16</Etilbencenogm3>
+        <NOgm3>10</NOgm3>
+        <NO2>43</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>58</NOXgm3>
+        <PM10>11,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,67</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,48</Toluenogm3>
+        <Dviengrados>196</Dviengrados>
+        <H>86</H>
+        <PmBar>985,2</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>55</Rwm2>
+        <TC>3,8</TC>
+        <Vvienms>0,92</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-BEASAIN-11>
+    <datos_indice-BEASAIN-12>
+        <Date>04/01/2021</Date>
+        <Hour>13:00</Hour>
+        <Bencenogm3>0,45</Bencenogm3>
+        <COmgm3>0,16</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,15</Etilbencenogm3>
+        <NOgm3>8</NOgm3>
+        <NO2>34</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>46</NOXgm3>
+        <PM10>11,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,83</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,4</Toluenogm3>
+        <Dviengrados>219</Dviengrados>
+        <H>84</H>
+        <PmBar>985,3</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>63,9</Rwm2>
+        <TC>3,9</TC>
+        <Vvienms>1,55</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-12>
+    <datos_indice-BEASAIN-13>
+        <Date>04/01/2021</Date>
+        <Hour>12:00</Hour>
+        <Bencenogm3>0,46</Bencenogm3>
+        <COmgm3>0,16</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,17</Etilbencenogm3>
+        <NOgm3>5</NOgm3>
+        <NO2>24</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>32</NOXgm3>
+        <PM10>11,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,92</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,38</Toluenogm3>
+        <Dviengrados>213</Dviengrados>
+        <H>79</H>
+        <PmBar>985,5</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>107,4</Rwm2>
+        <TC>5,2</TC>
+        <Vvienms>0,85</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-13>
+    <datos_indice-BEASAIN-14>
+        <Date>04/01/2021</Date>
+        <Hour>11:00</Hour>
+        <Bencenogm3>0,61</Bencenogm3>
+        <COmgm3>0,18</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,39</Etilbencenogm3>
+        <NOgm3>17</NOgm3>
+        <NO2>41</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>67</NOXgm3>
+        <PM10>11,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,66</Toluenogm3>
+        <Dviengrados>203</Dviengrados>
+        <H>83</H>
+        <PmBar>985,6</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>163,4</Rwm2>
+        <TC>4,4</TC>
+        <Vvienms>1,18</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-BEASAIN-14>
+    <datos_indice-BEASAIN-15>
+        <Date>04/01/2021</Date>
+        <Hour>10:00</Hour>
+        <Bencenogm3>0,54</Bencenogm3>
+        <COmgm3>0,2</COmgm3>
+        <CO8hmgm3>0,17</CO8hmgm3>
+        <Etilbencenogm3>0,4</Etilbencenogm3>
+        <NOgm3>27</NOgm3>
+        <NO2>52</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>93</NOXgm3>
+        <PM10>11,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,61</Toluenogm3>
+        <Dviengrados>233</Dviengrados>
+        <H>91</H>
+        <PmBar>985,6</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>102,5</Rwm2>
+        <TC>5,7</TC>
+        <Vvienms>1,36</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-BEASAIN-15>
+    <datos_indice-BEASAIN-16>
+        <Date>04/01/2021</Date>
+        <Hour>09:00</Hour>
+        <Bencenogm3>0,57</Bencenogm3>
+        <COmgm3>0,18</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,14</Etilbencenogm3>
+        <NOgm3>28</NOgm3>
+        <NO2>58</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>101</NOXgm3>
+        <PM10>11,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,21</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,73</Toluenogm3>
+        <Dviengrados>220</Dviengrados>
+        <H>90</H>
+        <PmBar>985,4</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>34</Rwm2>
+        <TC>2,3</TC>
+        <Vvienms>1,08</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-BEASAIN-16>
+    <datos_indice-BEASAIN-17>
+        <Date>04/01/2021</Date>
+        <Hour>08:00</Hour>
+        <Bencenogm3>0,46</Bencenogm3>
+        <COmgm3>0,19</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,12</Etilbencenogm3>
+        <NOgm3>35</NOgm3>
+        <NO2>66</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>120</NOXgm3>
+        <PM10>11,54</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,25</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,63</Toluenogm3>
+        <Dviengrados>206</Dviengrados>
+        <H>89</H>
+        <PmBar>985,3</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>0,9</Rwm2>
+        <TC>2,4</TC>
+        <Vvienms>0,44</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-BEASAIN-17>
+    <datos_indice-BEASAIN-18>
+        <Date>04/01/2021</Date>
+        <Hour>07:00</Hour>
+        <Bencenogm3>0,34</Bencenogm3>
+        <COmgm3>0,15</COmgm3>
+        <CO8hmgm3>0,19</CO8hmgm3>
+        <Etilbencenogm3>0,1</Etilbencenogm3>
+        <NOgm3>6</NOgm3>
+        <NO2>42</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>51</NOXgm3>
+        <PM10>11,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,39</Toluenogm3>
+        <Dviengrados>210</Dviengrados>
+        <H>90</H>
+        <PmBar>985,5</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,4</TC>
+        <Vvienms>0,11</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-BEASAIN-18>
+    <datos_indice-BEASAIN-19>
+        <Date>04/01/2021</Date>
+        <Hour>06:00</Hour>
+        <Bencenogm3>0,41</Bencenogm3>
+        <COmgm3>0,16</COmgm3>
+        <CO8hmgm3>0,19</CO8hmgm3>
+        <Etilbencenogm3>0,14</Etilbencenogm3>
+        <NOgm3>6</NOgm3>
+        <NO2>38</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>47</NOXgm3>
+        <PM10>11,46</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,42</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,48</Toluenogm3>
+        <Dviengrados>229</Dviengrados>
+        <H>91</H>
+        <PmBar>985,6</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,8</TC>
+        <Vvienms>0,57</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-19>
+    <datos_indice-BEASAIN-20>
+        <Date>04/01/2021</Date>
+        <Hour>05:00</Hour>
+        <Bencenogm3>0,44</Bencenogm3>
+        <COmgm3>0,17</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
+        <Etilbencenogm3>0,14</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>18</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>20</NOXgm3>
+        <PM10>11,46</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,46</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,51</Toluenogm3>
+        <Dviengrados>244</Dviengrados>
+        <H>89</H>
+        <PmBar>985,8</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3</TC>
+        <Vvienms>0,39</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-20>
+    <datos_indice-BEASAIN-21>
+        <Date>04/01/2021</Date>
+        <Hour>04:00</Hour>
+        <Bencenogm3>0,5</Bencenogm3>
+        <COmgm3>0,19</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <Etilbencenogm3>0,16</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>18</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>21</NOXgm3>
+        <PM10>11,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,46</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,47</Toluenogm3>
+        <Dviengrados>239</Dviengrados>
+        <H>90</H>
+        <PmBar>986,3</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,7</TC>
+        <Vvienms>0,51</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-21>
+    <datos_indice-BEASAIN-22>
+        <Date>04/01/2021</Date>
+        <Hour>03:00</Hour>
+        <Bencenogm3>0,49</Bencenogm3>
+        <COmgm3>0,18</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <Etilbencenogm3>0,32</Etilbencenogm3>
+        <NOgm3>3</NOgm3>
+        <NO2>23</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>27</NOXgm3>
+        <PM10>11,17</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,46</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,46</Toluenogm3>
+        <Dviengrados>212</Dviengrados>
+        <H>91</H>
+        <PmBar>986,6</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,3</TC>
+        <Vvienms>1,04</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-22>
+    <datos_indice-BEASAIN-23>
+        <Date>04/01/2021</Date>
+        <Hour>02:00</Hour>
+        <Bencenogm3>0,55</Bencenogm3>
+        <COmgm3>0,18</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <Etilbencenogm3>0,24</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>21</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>24</NOXgm3>
+        <PM10>11</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,45</Toluenogm3>
+        <Dviengrados>234</Dviengrados>
+        <H>91</H>
+        <PmBar>986,6</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,1</TC>
+        <Vvienms>0,99</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-23>
+    <datos_indice-BEASAIN-24>
+        <Date>04/01/2021</Date>
+        <Hour>01:00</Hour>
+        <Bencenogm3>0,78</Bencenogm3>
+        <COmgm3>0,2</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <Etilbencenogm3>0,32</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>18</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>20</NOXgm3>
+        <PM10>11,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,47</Toluenogm3>
+        <Dviengrados>241</Dviengrados>
+        <H>90</H>
+        <PmBar>987</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,5</TC>
+        <Vvienms>0,85</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-24>
+    <datos_indice-BEASAIN-25>
+        <Date>03/01/2021</Date>
+        <Hour>24:00</Hour>
+        <Bencenogm3>0,61</Bencenogm3>
+        <COmgm3>0,22</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
+        <Etilbencenogm3>0,78</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>21</NOXgm3>
+        <PM10>11,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,75</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>1,14</Toluenogm3>
+        <Dviengrados>287</Dviengrados>
+        <H>90</H>
+        <PmBar>987,5</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3</TC>
+        <Vvienms>0,23</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-25>
+    <datos_indice-BEASAIN-26>
+        <Date>03/01/2021</Date>
+        <Hour>23:00</Hour>
+        <Bencenogm3>0,47</Bencenogm3>
+        <COmgm3>0,19</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
+        <Etilbencenogm3>0,09</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>17</NOXgm3>
+        <PM10>11,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,31</Toluenogm3>
+        <Dviengrados>254</Dviengrados>
+        <H>91</H>
+        <PmBar>987,9</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,5</TC>
+        <Vvienms>1,12</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-26>
+    <datos_indice-BEASAIN-27>
+        <Date>03/01/2021</Date>
+        <Hour>22:00</Hour>
+        <Bencenogm3>0,82</Bencenogm3>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
+        <Etilbencenogm3>0,14</Etilbencenogm3>
+        <NOgm3>3</NOgm3>
+        <NOXgm3>29</NOXgm3>
+        <PM10>12,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,75</Toluenogm3>
+        <Dviengrados>234</Dviengrados>
+        <H>90</H>
+        <PmBar>988,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,1</TC>
+        <Vvienms>0,92</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-27>
+    <datos_indice-BEASAIN-28>
+        <Date>03/01/2021</Date>
+        <Hour>21:00</Hour>
+        <Bencenogm3>0,91</Bencenogm3>
+        <COmgm3>0,26</COmgm3>
+        <CO8hmgm3>0,19</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>7</NOgm3>
+        <NOXgm3>51</NOXgm3>
+        <PM10>12,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,88</Toluenogm3>
+        <Dviengrados>268</Dviengrados>
+        <H>89</H>
+        <PmBar>988,5</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,9</TC>
+        <Vvienms>0,41</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-28>
+    <datos_indice-BEASAIN-29>
+        <Date>03/01/2021</Date>
+        <Hour>20:00</Hour>
+        <Bencenogm3>0,69</Bencenogm3>
+        <COmgm3>0,24</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,09</Etilbencenogm3>
+        <NOgm3>8</NOgm3>
+        <NOXgm3>57</NOXgm3>
+        <PM10>12,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,25</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,57</Toluenogm3>
+        <Dviengrados>252</Dviengrados>
+        <H>89</H>
+        <PmBar>988,7</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4</TC>
+        <Vvienms>0,52</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-29>
+    <datos_indice-BEASAIN-30>
+        <Date>03/01/2021</Date>
+        <Hour>19:00</Hour>
+        <Bencenogm3>0,61</Bencenogm3>
+        <COmgm3>0,2</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,07</Etilbencenogm3>
+        <NOgm3>4</NOgm3>
+        <NOXgm3>40</NOXgm3>
+        <PM10>12,75</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,5</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,39</Toluenogm3>
+        <Dviengrados>240</Dviengrados>
+        <H>88</H>
+        <PmBar>988,5</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4</TC>
+        <Vvienms>0,38</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-30>
+    <datos_indice-BEASAIN-31>
+        <Date>03/01/2021</Date>
+        <Hour>18:00</Hour>
+        <Bencenogm3>0,54</Bencenogm3>
+        <COmgm3>0,18</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,07</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NOXgm3>25</NOXgm3>
+        <PM10>13,17</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,75</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,3</Toluenogm3>
+        <Dviengrados>212</Dviengrados>
+        <H>86</H>
+        <PmBar>988,4</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4,2</TC>
+        <Vvienms>0,71</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-31>
+    <datos_indice-BEASAIN-32>
+        <Date>03/01/2021</Date>
+        <Hour>17:00</Hour>
+        <Bencenogm3>0,71</Bencenogm3>
+        <COmgm3>0,17</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,07</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NOXgm3>23</NOXgm3>
+        <PM10>13,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,92</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,49</Toluenogm3>
+        <Dviengrados>223</Dviengrados>
+        <H>84</H>
+        <PmBar>988,5</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>2,2</Rwm2>
+        <TC>4,8</TC>
+        <Vvienms>0,99</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-32>
+    <datos_indice-BEASAIN-33>
+        <Date>03/01/2021</Date>
+        <Hour>16:00</Hour>
+        <Bencenogm3>0,68</Bencenogm3>
+        <COmgm3>0,19</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,09</Etilbencenogm3>
+        <NOgm3>3</NOgm3>
+        <NOXgm3>24</NOXgm3>
+        <PM10>13,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,5</Toluenogm3>
+        <Dviengrados>240</Dviengrados>
+        <H>83</H>
+        <PmBar>987,9</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>41</Rwm2>
+        <TC>5,8</TC>
+        <Vvienms>1,29</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-33>
+    <datos_indice-BEASAIN-34>
+        <Date>03/01/2021</Date>
+        <Hour>15:00</Hour>
+        <Bencenogm3>0,59</Bencenogm3>
+        <COmgm3>0,18</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,04</Etilbencenogm3>
+        <NOgm3>4</NOgm3>
+        <NOXgm3>26</NOXgm3>
+        <PM10>13,75</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,25</Toluenogm3>
+        <Dviengrados>253</Dviengrados>
+        <H>79</H>
+        <PmBar>988</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>94</Rwm2>
+        <TC>6,8</TC>
+        <Vvienms>0,27</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-34>
+    <datos_indice-BEASAIN-35>
+        <Date>03/01/2021</Date>
+        <Hour>14:00</Hour>
+        <Bencenogm3>0,67</Bencenogm3>
+        <COmgm3>0,16</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,11</Etilbencenogm3>
+        <NOgm3>5</NOgm3>
+        <NOXgm3>31</NOXgm3>
+        <PM10>13,96</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,58</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,38</Toluenogm3>
+        <Dviengrados>211</Dviengrados>
+        <H>80</H>
+        <PmBar>988,5</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>93,8</Rwm2>
+        <TC>5,6</TC>
+        <Vvienms>1,06</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-35>
+    <datos_indice-BEASAIN-36>
+        <Date>03/01/2021</Date>
+        <Hour>13:00</Hour>
+        <Bencenogm3>0,97</Bencenogm3>
+        <COmgm3>0,19</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,16</Etilbencenogm3>
+        <NOgm3>7</NOgm3>
+        <NOXgm3>35</NOXgm3>
+        <PM10>14,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,75</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,82</Toluenogm3>
+        <Dviengrados>226</Dviengrados>
+        <H>84</H>
+        <PmBar>989</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>162,7</Rwm2>
+        <TC>5,4</TC>
+        <Vvienms>0,74</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-36>
+    <datos_indice-BEASAIN-37>
+        <Date>03/01/2021</Date>
+        <Hour>12:00</Hour>
+        <Bencenogm3>0,7</Bencenogm3>
+        <COmgm3>0,2</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <Etilbencenogm3>0,11</Etilbencenogm3>
+        <NOgm3>8</NOgm3>
+        <NOXgm3>36</NOXgm3>
+        <PM10>14,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,83</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,48</Toluenogm3>
+        <Dviengrados>242</Dviengrados>
+        <H>86</H>
+        <PmBar>989,8</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>104,7</Rwm2>
+        <TC>4,5</TC>
+        <Vvienms>0,9</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-37>
+    <datos_indice-BEASAIN-38>
+        <Date>03/01/2021</Date>
+        <Hour>11:00</Hour>
+        <Bencenogm3>0,59</Bencenogm3>
+        <COmgm3>0,18</COmgm3>
+        <CO8hmgm3>0,19</CO8hmgm3>
+        <Etilbencenogm3>0,1</Etilbencenogm3>
+        <NOgm3>8</NOgm3>
+        <NOXgm3>33</NOXgm3>
+        <PM10>14,17</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,79</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,47</Toluenogm3>
+        <Dviengrados>241</Dviengrados>
+        <H>86</H>
+        <PmBar>990,3</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>121,5</Rwm2>
+        <TC>3,6</TC>
+        <Vvienms>0,97</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-38>
+    <datos_indice-BEASAIN-39>
+        <Date>03/01/2021</Date>
+        <Hour>10:00</Hour>
+        <Bencenogm3>0,66</Bencenogm3>
+        <COmgm3>0,17</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>6</NOgm3>
+        <NOXgm3>32</NOXgm3>
+        <PM10>14,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,58</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,49</Toluenogm3>
+        <Dviengrados>249</Dviengrados>
+        <H>89</H>
+        <PmBar>990,6</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>77,8</Rwm2>
+        <TC>2,6</TC>
+        <Vvienms>0,81</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-39>
+    <datos_indice-BEASAIN-40>
+        <Date>03/01/2021</Date>
+        <Hour>09:00</Hour>
+        <Bencenogm3>0,58</Bencenogm3>
+        <COmgm3>0,17</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <Etilbencenogm3>0,11</Etilbencenogm3>
+        <NOgm3>4</NOgm3>
+        <NOXgm3>28</NOXgm3>
+        <PM10>13,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,46</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,65</Toluenogm3>
+        <Dviengrados>255</Dviengrados>
+        <H>91</H>
+        <PmBar>990,7</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>10,1</Rwm2>
+        <TC>1,9</TC>
+        <Vvienms>1,44</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-40>
+    <datos_indice-BEASAIN-41>
+        <Date>03/01/2021</Date>
+        <Hour>08:00</Hour>
+        <Bencenogm3>0,59</Bencenogm3>
+        <COmgm3>0,17</COmgm3>
+        <CO8hmgm3>0,22</CO8hmgm3>
+        <Etilbencenogm3>0,11</Etilbencenogm3>
+        <NOgm3>3</NOgm3>
+        <NOXgm3>23</NOXgm3>
+        <PM10>13,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,25</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,63</Toluenogm3>
+        <Dviengrados>253</Dviengrados>
+        <H>89</H>
+        <PmBar>990,5</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>2,9</Rwm2>
+        <TC>2,1</TC>
+        <Vvienms>0,93</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-41>
+    <datos_indice-BEASAIN-42>
+        <Date>03/01/2021</Date>
+        <Hour>07:00</Hour>
+        <Bencenogm3>0,55</Bencenogm3>
+        <COmgm3>0,17</COmgm3>
+        <CO8hmgm3>0,23</CO8hmgm3>
+        <Etilbencenogm3>0,11</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NOXgm3>19</NOXgm3>
+        <PM10>13,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,08</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,54</Toluenogm3>
+        <Dviengrados>268</Dviengrados>
+        <H>89</H>
+        <PmBar>990,6</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,2</TC>
+        <Vvienms>0,59</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-42>
+    <datos_indice-BEASAIN-43>
+        <Date>03/01/2021</Date>
+        <Hour>06:00</Hour>
+        <Bencenogm3>0,62</Bencenogm3>
+        <COmgm3>0,19</COmgm3>
+        <CO8hmgm3>0,23</CO8hmgm3>
+        <Etilbencenogm3>0,14</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NOXgm3>16</NOXgm3>
+        <PM10>13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,88</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,62</Toluenogm3>
+        <Dviengrados>258</Dviengrados>
+        <H>89</H>
+        <PmBar>991</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,3</TC>
+        <Vvienms>0,68</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-43>
+    <datos_indice-BEASAIN-44>
+        <Date>03/01/2021</Date>
+        <Hour>05:00</Hour>
+        <Bencenogm3>0,66</Bencenogm3>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,24</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NOXgm3>16</NOXgm3>
+        <PM10>12,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,75</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,59</Toluenogm3>
+        <Dviengrados>252</Dviengrados>
+        <H>88</H>
+        <PmBar>991,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,3</TC>
+        <Vvienms>0,81</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-44>
+    <datos_indice-BEASAIN-45>
+        <Date>03/01/2021</Date>
+        <Hour>04:00</Hour>
+        <Bencenogm3>0,7</Bencenogm3>
+        <COmgm3>0,22</COmgm3>
+        <CO8hmgm3>0,24</CO8hmgm3>
+        <Etilbencenogm3>0,11</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NOXgm3>17</NOXgm3>
+        <PM10>12,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,59</Toluenogm3>
+        <Dviengrados>243</Dviengrados>
+        <H>89</H>
+        <PmBar>991,8</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2</TC>
+        <Vvienms>0,86</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-45>
+    <datos_indice-BEASAIN-46>
+        <Date>03/01/2021</Date>
+        <Hour>03:00</Hour>
+        <Bencenogm3>0,81</Bencenogm3>
+        <COmgm3>0,22</COmgm3>
+        <CO8hmgm3>0,24</CO8hmgm3>
+        <Etilbencenogm3>0,11</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NOXgm3>19</NOXgm3>
+        <PM10>12,04</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,57</Toluenogm3>
+        <Dviengrados>238</Dviengrados>
+        <H>89</H>
+        <PmBar>992,3</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>1,5</TC>
+        <Vvienms>1,13</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-46>
+    <datos_indice-BEASAIN-47>
+        <Date>03/01/2021</Date>
+        <Hour>02:00</Hour>
+        <Bencenogm3>0,86</Bencenogm3>
+        <COmgm3>0,26</COmgm3>
+        <CO8hmgm3>0,24</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NOXgm3>24</NOXgm3>
+        <PM10>11,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,08</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,57</Toluenogm3>
+        <Dviengrados>235</Dviengrados>
+        <H>89</H>
+        <PmBar>992,6</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>1,5</TC>
+        <Vvienms>0,75</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-47>
+    <datos_indice-BEASAIN-48>
+        <Date>03/01/2021</Date>
+        <Hour>01:00</Hour>
+        <Bencenogm3>0,87</Bencenogm3>
+        <COmgm3>0,26</COmgm3>
+        <CO8hmgm3>0,24</CO8hmgm3>
+        <Etilbencenogm3>0,11</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>24</NOXgm3>
+        <PM10>11,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,75</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,53</Toluenogm3>
+        <Dviengrados>246</Dviengrados>
+        <H>93</H>
+        <PmBar>992,8</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>1,1</TC>
+        <Vvienms>1,04</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BEASAIN-48>
+</datos_indice-BEASAIN>

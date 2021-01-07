@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_indice-MUNDAKA>
+    <datos_indice-MUNDAKA-1>
+        <Date>04/01/2021</Date>
+        <Hour>24:00</Hour>
+    </datos_indice-MUNDAKA-1>
+    <datos_indice-MUNDAKA-2>
+        <Date>04/01/2021</Date>
+        <Hour>23:00</Hour>
+    </datos_indice-MUNDAKA-2>
+    <datos_indice-MUNDAKA-3>
+        <Date>04/01/2021</Date>
+        <Hour>22:00</Hour>
+    </datos_indice-MUNDAKA-3>
+    <datos_indice-MUNDAKA-4>
+        <Date>04/01/2021</Date>
+        <Hour>21:00</Hour>
+    </datos_indice-MUNDAKA-4>
+    <datos_indice-MUNDAKA-5>
+        <Date>04/01/2021</Date>
+        <Hour>20:00</Hour>
+    </datos_indice-MUNDAKA-5>
+    <datos_indice-MUNDAKA-6>
+        <Date>04/01/2021</Date>
+        <Hour>19:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>60</O3gm3>
+        <OZONO>60</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>62</O38hgm3>
+        <PM10>12,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,17</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>216</Dviengrados>
+        <H>87</H>
+        <PmBar>1000,5</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,5</TC>
+        <Vvienms>0,5</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-6>
+    <datos_indice-MUNDAKA-7>
+        <Date>04/01/2021</Date>
+        <Hour>18:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <O3gm3>56</O3gm3>
+        <OZONO>56</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>11,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,08</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>197</Dviengrados>
+        <H>84</H>
+        <PmBar>1000,1</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4,4</TC>
+        <Vvienms>0,4</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-7>
+    <datos_indice-MUNDAKA-8>
+        <Date>04/01/2021</Date>
+        <Hour>17:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>62</O3gm3>
+        <OZONO>62</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>62</O38hgm3>
+        <PM10>11,1</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>322</Dviengrados>
+        <H>84</H>
+        <PmBar>999,6</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>2,5</Rwm2>
+        <TC>4,4</TC>
+        <Vvienms>1,25</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-8>
+    <datos_indice-MUNDAKA-9>
+        <Date>04/01/2021</Date>
+        <Hour>16:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>3</NOXgm3>
+        <O3gm3>65</O3gm3>
+        <OZONO>65</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>62</O38hgm3>
+        <PM10>8,62</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,04</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>283</Dviengrados>
+        <H>84</H>
+        <PmBar>999,1</PmBar>
+        <Precipitacionlm2>0,5</Precipitacionlm2>
+        <Rwm2>7,2</Rwm2>
+        <TC>4,6</TC>
+        <Vvienms>1,52</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-9>
+    <datos_indice-MUNDAKA-10>
+        <Date>04/01/2021</Date>
+        <Hour>15:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>3</NOXgm3>
+        <O3gm3>63</O3gm3>
+        <OZONO>63</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>8,36</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,17</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>277</Dviengrados>
+        <H>85</H>
+        <PmBar>998,6</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>24,1</Rwm2>
+        <TC>4,7</TC>
+        <Vvienms>2,12</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-10>
+    <datos_indice-MUNDAKA-11>
+        <Date>04/01/2021</Date>
+        <Hour>14:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>67</O3gm3>
+        <OZONO>67</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>8,36</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,17</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>319</Dviengrados>
+        <H>84</H>
+        <PmBar>998,2</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>73,3</Rwm2>
+        <TC>5,1</TC>
+        <Vvienms>1,67</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-11>
+    <datos_indice-MUNDAKA-12>
+        <Date>04/01/2021</Date>
+        <Hour>13:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>6</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <O3gm3>61</O3gm3>
+        <OZONO>61</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>8,36</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,17</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>264</Dviengrados>
+        <H>87</H>
+        <PmBar>998,2</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>148,2</Rwm2>
+        <TC>4,7</TC>
+        <Vvienms>0,28</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-12>
+    <datos_indice-MUNDAKA-13>
+        <Date>04/01/2021</Date>
+        <Hour>12:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>8</NOXgm3>
+        <O3gm3>59</O3gm3>
+        <OZONO>59</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>8,36</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,17</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>209</Dviengrados>
+        <H>88</H>
+        <PmBar>998,4</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>68,3</Rwm2>
+        <TC>3,8</TC>
+        <Vvienms>1,34</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-13>
+    <datos_indice-MUNDAKA-14>
+        <Date>04/01/2021</Date>
+        <Hour>11:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>8</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>9</NOXgm3>
+        <O3gm3>58</O3gm3>
+        <OZONO>58</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>62</O38hgm3>
+        <PM10>8,09</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,17</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>221</Dviengrados>
+        <H>87</H>
+        <PmBar>998,7</PmBar>
+        <Precipitacionlm2>1,1</Precipitacionlm2>
+        <Rwm2>12,6</Rwm2>
+        <TC>3,5</TC>
+        <Vvienms>1,75</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-14>
+    <datos_indice-MUNDAKA-15>
+        <Date>04/01/2021</Date>
+        <Hour>10:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>6</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <O3gm3>62</O3gm3>
+        <OZONO>62</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>64</O38hgm3>
+        <PM10>7,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,17</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>224</Dviengrados>
+        <H>87</H>
+        <PmBar>998,1</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>75,4</Rwm2>
+        <TC>4,1</TC>
+        <Vvienms>1,35</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-15>
+    <datos_indice-MUNDAKA-16>
+        <Date>04/01/2021</Date>
+        <Hour>09:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>6</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <O3gm3>58</O3gm3>
+        <OZONO>58</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>65</O38hgm3>
+        <PM10>7,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,21</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>217</Dviengrados>
+        <H>89</H>
+        <PmBar>997,8</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>15,1</Rwm2>
+        <TC>3,3</TC>
+        <Vvienms>1,51</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-16>
+    <datos_indice-MUNDAKA-17>
+        <Date>04/01/2021</Date>
+        <Hour>08:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>6</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <O3gm3>59</O3gm3>
+        <OZONO>59</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>66</O38hgm3>
+        <PM10>7,96</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,21</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>187</Dviengrados>
+        <H>90</H>
+        <PmBar>997,4</PmBar>
+        <Precipitacionlm2>0,6</Precipitacionlm2>
+        <Rwm2>0,3</Rwm2>
+        <TC>2,4</TC>
+        <Vvienms>1,26</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-17>
+    <datos_indice-MUNDAKA-18>
+        <Date>04/01/2021</Date>
+        <Hour>07:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <O3gm3>62</O3gm3>
+        <OZONO>62</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>68</O38hgm3>
+        <PM10>8,08</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,29</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>181</Dviengrados>
+        <H>89</H>
+        <PmBar>997,3</PmBar>
+        <Precipitacionlm2>0,5</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,2</TC>
+        <Vvienms>2,34</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-18>
+    <datos_indice-MUNDAKA-19>
+        <Date>04/01/2021</Date>
+        <Hour>06:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>65</O3gm3>
+        <OZONO>65</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>68</O38hgm3>
+        <PM10>8,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,38</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>190</Dviengrados>
+        <H>88</H>
+        <PmBar>997</PmBar>
+        <Precipitacionlm2>0,4</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,4</TC>
+        <Vvienms>4,04</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-19>
+    <datos_indice-MUNDAKA-20>
+        <Date>04/01/2021</Date>
+        <Hour>05:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>2</NOXgm3>
+        <O3gm3>68</O3gm3>
+        <OZONO>68</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>68</O38hgm3>
+        <PM10>9,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>193</Dviengrados>
+        <H>86</H>
+        <PmBar>997,3</PmBar>
+        <Precipitacionlm2>0,9</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,1</TC>
+        <Vvienms>3,81</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-20>
+    <datos_indice-MUNDAKA-21>
+        <Date>04/01/2021</Date>
+        <Hour>04:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>67</O3gm3>
+        <OZONO>67</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>68</O38hgm3>
+        <PM10>11,17</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>184</Dviengrados>
+        <H>87</H>
+        <PmBar>997,6</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3</TC>
+        <Vvienms>3,87</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-21>
+    <datos_indice-MUNDAKA-22>
+        <Date>04/01/2021</Date>
+        <Hour>03:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>2</NOXgm3>
+        <O3gm3>70</O3gm3>
+        <OZONO>70</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>68</O38hgm3>
+        <PM10>13,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>186</Dviengrados>
+        <H>86</H>
+        <PmBar>998,3</PmBar>
+        <Precipitacionlm2>0,4</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,2</TC>
+        <Vvienms>3,7</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-22>
+    <datos_indice-MUNDAKA-23>
+        <Date>04/01/2021</Date>
+        <Hour>02:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>2</NOXgm3>
+        <O3gm3>71</O3gm3>
+        <OZONO>71</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>67</O38hgm3>
+        <PM10>14,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,58</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>209</Dviengrados>
+        <H>85</H>
+        <PmBar>998,4</PmBar>
+        <Precipitacionlm2>0,4</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,8</TC>
+        <Vvienms>2,79</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-23>
+    <datos_indice-MUNDAKA-24>
+        <Date>04/01/2021</Date>
+        <Hour>01:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>2</NOXgm3>
+        <O3gm3>68</O3gm3>
+        <OZONO>68</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>67</O38hgm3>
+        <PM10>14,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,75</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>191</Dviengrados>
+        <H>86</H>
+        <PmBar>999,1</PmBar>
+        <Precipitacionlm2>0,7</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,5</TC>
+        <Vvienms>3,79</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-24>
+    <datos_indice-MUNDAKA-25>
+        <Date>03/01/2021</Date>
+        <Hour>24:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>2</NOXgm3>
+        <O3gm3>70</O3gm3>
+        <OZONO>70</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>67</O38hgm3>
+        <PM10>14,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,88</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>182</Dviengrados>
+        <H>87</H>
+        <PmBar>999,4</PmBar>
+        <Precipitacionlm2>0,4</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,2</TC>
+        <Vvienms>2,99</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-25>
+    <datos_indice-MUNDAKA-26>
+        <Date>03/01/2021</Date>
+        <Hour>23:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>68</O3gm3>
+        <OZONO>68</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>67</O38hgm3>
+        <PM10>14,42</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>194</Dviengrados>
+        <H>86</H>
+        <PmBar>1000</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,8</TC>
+        <Vvienms>2,06</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-26>
+    <datos_indice-MUNDAKA-27>
+        <Date>03/01/2021</Date>
+        <Hour>22:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>65</O3gm3>
+        <OZONO>65</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>67</O38hgm3>
+        <PM10>11,75</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,08</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>204</Dviengrados>
+        <H>85</H>
+        <PmBar>1000,2</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4,2</TC>
+        <Vvienms>2,46</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-27>
+    <datos_indice-MUNDAKA-28>
+        <Date>03/01/2021</Date>
+        <Hour>21:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <O3gm3>63</O3gm3>
+        <OZONO>63</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>67</O38hgm3>
+        <PM10>9,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,17</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>205</Dviengrados>
+        <H>85</H>
+        <PmBar>1000,1</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4,1</TC>
+        <Vvienms>2,14</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-28>
+    <datos_indice-MUNDAKA-29>
+        <Date>03/01/2021</Date>
+        <Hour>20:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>3</NOXgm3>
+        <O3gm3>66</O3gm3>
+        <OZONO>66</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>67</O38hgm3>
+        <PM10>9,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,29</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>210</Dviengrados>
+        <H>86</H>
+        <PmBar>1000,4</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,9</TC>
+        <Vvienms>2,11</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-29>
+    <datos_indice-MUNDAKA-30>
+        <Date>03/01/2021</Date>
+        <Hour>19:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>68</O3gm3>
+        <OZONO>68</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>66</O38hgm3>
+        <PM10>9,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>219</Dviengrados>
+        <H>87</H>
+        <PmBar>1000,8</PmBar>
+        <Precipitacionlm2>0,9</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,7</TC>
+        <Vvienms>2,91</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-30>
+    <datos_indice-MUNDAKA-31>
+        <Date>03/01/2021</Date>
+        <Hour>18:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>68</O3gm3>
+        <OZONO>68</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>64</O38hgm3>
+        <PM10>9,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,38</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>240</Dviengrados>
+        <H>84</H>
+        <PmBar>1000,8</PmBar>
+        <Precipitacionlm2>0,7</Precipitacionlm2>
+        <Rwm2>0,1</Rwm2>
+        <TC>4,3</TC>
+        <Vvienms>1,99</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-31>
+    <datos_indice-MUNDAKA-32>
+        <Date>03/01/2021</Date>
+        <Hour>17:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>69</O3gm3>
+        <OZONO>69</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>9,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>215</Dviengrados>
+        <H>85</H>
+        <PmBar>1000,4</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>5,8</Rwm2>
+        <TC>4,5</TC>
+        <Vvienms>2,29</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-32>
+    <datos_indice-MUNDAKA-33>
+        <Date>03/01/2021</Date>
+        <Hour>16:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>68</O3gm3>
+        <OZONO>68</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>57</O38hgm3>
+        <PM10>9,42</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,58</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>222</Dviengrados>
+        <H>85</H>
+        <PmBar>1000,3</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>32,4</Rwm2>
+        <TC>4,8</TC>
+        <Vvienms>2,51</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-33>
+    <datos_indice-MUNDAKA-34>
+        <Date>03/01/2021</Date>
+        <Hour>15:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>67</O3gm3>
+        <OZONO>67</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>55</O38hgm3>
+        <PM10>9,54</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,5</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>221</Dviengrados>
+        <H>85</H>
+        <PmBar>1000,3</PmBar>
+        <Precipitacionlm2>0,6</Precipitacionlm2>
+        <Rwm2>55,3</Rwm2>
+        <TC>4,8</TC>
+        <Vvienms>3,32</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-34>
+    <datos_indice-MUNDAKA-35>
+        <Date>03/01/2021</Date>
+        <Hour>14:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3ICA>Sin datos / Daturik gabe</O3ICA>
+        <O38hgm3>52</O38hgm3>
+        <PM10>9,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,46</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>223</Dviengrados>
+        <H>85</H>
+        <PmBar>1000,7</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>222,2</Rwm2>
+        <TC>5</TC>
+        <Vvienms>1,75</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-35>
+    <datos_indice-MUNDAKA-36>
+        <Date>03/01/2021</Date>
+        <Hour>13:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>61</O3gm3>
+        <OZONO>61</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>51</O38hgm3>
+        <PM10>9,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>230</Dviengrados>
+        <H>84</H>
+        <PmBar>1001,5</PmBar>
+        <Precipitacionlm2>0,7</Precipitacionlm2>
+        <Rwm2>105</Rwm2>
+        <TC>5</TC>
+        <Vvienms>1,7</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-36>
+    <datos_indice-MUNDAKA-37>
+        <Date>03/01/2021</Date>
+        <Hour>12:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>58</O3gm3>
+        <OZONO>58</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>49</O38hgm3>
+        <PM10>9,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>190</Dviengrados>
+        <H>84</H>
+        <PmBar>1002</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>191,7</Rwm2>
+        <TC>4,8</TC>
+        <Vvienms>2,46</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-37>
+    <datos_indice-MUNDAKA-38>
+        <Date>03/01/2021</Date>
+        <Hour>11:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>55</O3gm3>
+        <OZONO>55</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>48</O38hgm3>
+        <PM10>9,96</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,58</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>191</Dviengrados>
+        <H>85</H>
+        <PmBar>1002,6</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>58,9</Rwm2>
+        <TC>4,5</TC>
+        <Vvienms>2,72</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-38>
+    <datos_indice-MUNDAKA-39>
+        <Date>03/01/2021</Date>
+        <Hour>10:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <O3gm3>48</O3gm3>
+        <OZONO>48</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>48</O38hgm3>
+        <PM10>9,96</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,79</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>178</Dviengrados>
+        <H>87</H>
+        <PmBar>1002,7</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>170,8</Rwm2>
+        <TC>4,4</TC>
+        <Vvienms>3,51</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-39>
+    <datos_indice-MUNDAKA-40>
+        <Date>03/01/2021</Date>
+        <Hour>09:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <O3gm3>44</O3gm3>
+        <OZONO>44</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>49</O38hgm3>
+        <PM10>9,96</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,75</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>175</Dviengrados>
+        <H>88</H>
+        <PmBar>1002,9</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>14,4</Rwm2>
+        <TC>3,9</TC>
+        <Vvienms>2,6</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-40>
+    <datos_indice-MUNDAKA-41>
+        <Date>03/01/2021</Date>
+        <Hour>08:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>49</O3gm3>
+        <OZONO>49</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>48</O38hgm3>
+        <PM10>10,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,92</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>193</Dviengrados>
+        <H>89</H>
+        <PmBar>1002,8</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,9</Rwm2>
+        <TC>4</TC>
+        <Vvienms>1,8</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-41>
+    <datos_indice-MUNDAKA-42>
+        <Date>03/01/2021</Date>
+        <Hour>07:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>46</O3gm3>
+        <OZONO>46</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>47</O38hgm3>
+        <PM10>11,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,92</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>175</Dviengrados>
+        <H>91</H>
+        <PmBar>1002,9</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,2</TC>
+        <Vvienms>3</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-42>
+    <datos_indice-MUNDAKA-43>
+        <Date>03/01/2021</Date>
+        <Hour>06:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>47</O3gm3>
+        <OZONO>47</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>48</O38hgm3>
+        <PM10>11,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,92</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>167</Dviengrados>
+        <H>91</H>
+        <PmBar>1003,2</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,1</TC>
+        <Vvienms>2,08</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-43>
+    <datos_indice-MUNDAKA-44>
+        <Date>03/01/2021</Date>
+        <Hour>05:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>46</O3gm3>
+        <OZONO>46</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>50</O38hgm3>
+        <PM10>12,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,08</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>172</Dviengrados>
+        <H>91</H>
+        <PmBar>1003,8</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3</TC>
+        <Vvienms>1,14</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-44>
+    <datos_indice-MUNDAKA-45>
+        <Date>03/01/2021</Date>
+        <Hour>04:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>49</O3gm3>
+        <OZONO>49</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>52</O38hgm3>
+        <PM10>14,17</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>172</Dviengrados>
+        <H>91</H>
+        <PmBar>1004,2</PmBar>
+        <Precipitacionlm2>0,4</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3</TC>
+        <Vvienms>2,52</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-45>
+    <datos_indice-MUNDAKA-46>
+        <Date>03/01/2021</Date>
+        <Hour>03:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>3</NOXgm3>
+        <O3gm3>53</O3gm3>
+        <OZONO>53</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>54</O38hgm3>
+        <PM10>13,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>174</Dviengrados>
+        <H>90</H>
+        <PmBar>1004,7</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,1</TC>
+        <Vvienms>2,9</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-46>
+    <datos_indice-MUNDAKA-47>
+        <Date>03/01/2021</Date>
+        <Hour>02:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>1</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>2</NOXgm3>
+        <O3gm3>54</O3gm3>
+        <OZONO>54</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>55</O38hgm3>
+        <PM10>12,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,04</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>200</Dviengrados>
+        <H>88</H>
+        <PmBar>1005,1</PmBar>
+        <Precipitacionlm2>0,4</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,6</TC>
+        <Vvienms>1,74</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-47>
+    <datos_indice-MUNDAKA-48>
+        <Date>03/01/2021</Date>
+        <Hour>01:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>40</O3gm3>
+        <OZONO>40</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>57</O38hgm3>
+        <PM10>12,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,83</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <Dviengrados>175</Dviengrados>
+        <H>89</H>
+        <PmBar>1005,5</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,7</TC>
+        <Vvienms>1,52</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUNDAKA-48>
+</datos_indice-MUNDAKA>

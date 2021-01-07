@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-LAS_CARRERAS>
+    <datos_diarios-LAS_CARRERAS-1>
+        <Date>03/01/2021</Date>
+        <Bencenogm3>0,57</Bencenogm3>
+        <MPXILENOgm3>0,02</MPXILENOgm3>
+        <NOgm3>2</NOgm3>
+        <NO2gm3>5</NO2gm3>
+        <NOXgm3>8</NOXgm3>
+        <O3gm3>66</O3gm3>
+        <O38hgm3>65</O38hgm3>
+        <PM10gm3>5</PM10gm3>
+        <SH2gm3>3</SH2gm3>
+        <SO2gm3>6</SO2gm3>
+        <Toluenogm3>0,22</Toluenogm3>
+    </datos_diarios-LAS_CARRERAS-1>
+    <datos_diarios-LAS_CARRERAS-2>
+        <Date>02/01/2021</Date>
+        <Bencenogm3>1,34</Bencenogm3>
+        <MPXILENOgm3>0,5</MPXILENOgm3>
+        <NOgm3>3</NOgm3>
+        <NO2gm3>7</NO2gm3>
+        <NOXgm3>12</NOXgm3>
+        <O3gm3>70</O3gm3>
+        <O38hgm3>70</O38hgm3>
+        <PM10gm3>10</PM10gm3>
+        <SH2gm3>3</SH2gm3>
+        <SO2gm3>27</SO2gm3>
+        <Toluenogm3>1,11</Toluenogm3>
+    </datos_diarios-LAS_CARRERAS-2>
+</datos_diarios-LAS_CARRERAS>

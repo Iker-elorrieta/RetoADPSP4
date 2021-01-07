@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-LASARTE-ORIA>
+    <datos_diarios-LASARTE-ORIA-1>
+        <Date>03/01/2021</Date>
+        <Bencenogm3>0,31</Bencenogm3>
+        <Etilbencenogm3>0,08</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2gm3>12</NO2gm3>
+        <NOXgm3>15</NOXgm3>
+        <O3gm3>44</O3gm3>
+        <O38hgm3>37</O38hgm3>
+        <PM10gm3>6</PM10gm3>
+        <PM25gm3>6</PM25gm3>
+        <SO2gm3>6</SO2gm3>
+        <Toluenogm3>0,47</Toluenogm3>
+    </datos_diarios-LASARTE-ORIA-1>
+    <datos_diarios-LASARTE-ORIA-2>
+        <Date>02/01/2021</Date>
+        <Bencenogm3>0,32</Bencenogm3>
+        <Etilbencenogm3>0,07</Etilbencenogm3>
+        <NOgm3>4</NOgm3>
+        <NO2gm3>17</NO2gm3>
+        <NOXgm3>22</NOXgm3>
+        <O3gm3>40</O3gm3>
+        <O38hgm3>48</O38hgm3>
+        <PM10gm3>10</PM10gm3>
+        <PM25gm3>7</PM25gm3>
+        <SO2gm3>6</SO2gm3>
+        <Toluenogm3>0,45</Toluenogm3>
+    </datos_diarios-LASARTE-ORIA-2>
+</datos_diarios-LASARTE-ORIA>

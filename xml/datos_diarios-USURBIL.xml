@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-USURBIL>
+    <datos_diarios-USURBIL-1>
+        <Date>03/01/2021</Date>
+        <Bencenogm3>0,65</Bencenogm3>
+        <Etilbencenogm3>0,08</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2gm3>9</NO2gm3>
+        <NOXgm3>11</NOXgm3>
+        <O3gm3>41</O3gm3>
+        <O38hgm3>35</O38hgm3>
+        <PM10gm3>9</PM10gm3>
+        <PM25gm3>6</PM25gm3>
+        <SO2gm3>2</SO2gm3>
+        <Toluenogm3>0,69</Toluenogm3>
+    </datos_diarios-USURBIL-1>
+    <datos_diarios-USURBIL-2>
+        <Date>02/01/2021</Date>
+        <Bencenogm3>0,52</Bencenogm3>
+        <Etilbencenogm3>0,06</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2gm3>11</NO2gm3>
+        <NOXgm3>15</NOXgm3>
+        <O3gm3>43</O3gm3>
+        <O38hgm3>51</O38hgm3>
+        <PM10gm3>12</PM10gm3>
+        <PM25gm3>10</PM25gm3>
+        <SO2gm3>2</SO2gm3>
+        <Toluenogm3>0,49</Toluenogm3>
+    </datos_diarios-USURBIL-2>
+</datos_diarios-USURBIL>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-ARRAIZ_Monte>
+    <datos_diarios-ARRAIZ_Monte-1>
+        <Date>03/01/2021</Date>
+        <NOgm3>3</NOgm3>
+        <NO2gm3>3</NO2gm3>
+        <NOXgm3>7</NOXgm3>
+        <O3gm3>63</O3gm3>
+        <O38hgm3>61</O38hgm3>
+        <SO2gm3>5</SO2gm3>
+    </datos_diarios-ARRAIZ_Monte-1>
+    <datos_diarios-ARRAIZ_Monte-2>
+        <Date>02/01/2021</Date>
+        <NOgm3>3</NOgm3>
+        <NO2gm3>7</NO2gm3>
+        <NOXgm3>10</NOXgm3>
+        <O3gm3>63</O3gm3>
+        <O38hgm3>66</O38hgm3>
+        <SO2gm3>5</SO2gm3>
+    </datos_diarios-ARRAIZ_Monte-2>
+</datos_diarios-ARRAIZ_Monte>

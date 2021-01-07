@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-BEASAIN>
+    <datos_diarios-BEASAIN-1>
+        <Date>03/01/2021</Date>
+        <Bencenogm3>0,69</Bencenogm3>
+        <COmgm3>0,2</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
+        <Etilbencenogm3>0,14</Etilbencenogm3>
+        <NOgm3>4</NOgm3>
+        <NOXgm3>28</NOXgm3>
+        <PM10gm3>11</PM10gm3>
+        <PM25gm3>6</PM25gm3>
+        <SO2gm3>2</SO2gm3>
+        <Toluenogm3>0,56</Toluenogm3>
+    </datos_diarios-BEASAIN-1>
+    <datos_diarios-BEASAIN-2>
+        <Date>02/01/2021</Date>
+        <Bencenogm3>0,61</Bencenogm3>
+        <COmgm3>0,18</COmgm3>
+        <CO8hmgm3>0,17</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>5</NOgm3>
+        <NOXgm3>35</NOXgm3>
+        <PM10gm3>10</PM10gm3>
+        <PM25gm3>5</PM25gm3>
+        <SO2gm3>2</SO2gm3>
+        <Toluenogm3>0,86</Toluenogm3>
+    </datos_diarios-BEASAIN-2>
+</datos_diarios-BEASAIN>

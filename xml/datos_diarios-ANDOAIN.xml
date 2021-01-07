@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-ANDOAIN>
+    <datos_diarios-ANDOAIN-1>
+        <Date>03/01/2021</Date>
+        <NOgm3>2</NOgm3>
+        <NO2gm3>17</NO2gm3>
+        <NOXgm3>20</NOXgm3>
+        <O3gm3>39</O3gm3>
+        <O38hgm3>33</O38hgm3>
+        <PM10gm3>8</PM10gm3>
+        <PM25gm3>5</PM25gm3>
+        <SO2gm3>3</SO2gm3>
+    </datos_diarios-ANDOAIN-1>
+    <datos_diarios-ANDOAIN-2>
+        <Date>02/01/2021</Date>
+        <NOgm3>2</NOgm3>
+        <NO2gm3>17</NO2gm3>
+        <NOXgm3>20</NOXgm3>
+        <O3gm3>43</O3gm3>
+        <O38hgm3>50</O38hgm3>
+        <PM10gm3>8</PM10gm3>
+        <PM25gm3>6</PM25gm3>
+        <SO2gm3>2</SO2gm3>
+    </datos_diarios-ANDOAIN-2>
+</datos_diarios-ANDOAIN>

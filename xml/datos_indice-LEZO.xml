@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_indice-LEZO>
+    <datos_indice-LEZO-1>
+        <Date>04/01/2021</Date>
+        <Hour>24:00</Hour>
+    </datos_indice-LEZO-1>
+    <datos_indice-LEZO-2>
+        <Date>04/01/2021</Date>
+        <Hour>23:00</Hour>
+    </datos_indice-LEZO-2>
+    <datos_indice-LEZO-3>
+        <Date>04/01/2021</Date>
+        <Hour>22:00</Hour>
+    </datos_indice-LEZO-3>
+    <datos_indice-LEZO-4>
+        <Date>04/01/2021</Date>
+        <Hour>21:00</Hour>
+    </datos_indice-LEZO-4>
+    <datos_indice-LEZO-5>
+        <Date>04/01/2021</Date>
+        <Hour>20:00</Hour>
+    </datos_indice-LEZO-5>
+    <datos_indice-LEZO-6>
+        <Date>04/01/2021</Date>
+        <Hour>19:00</Hour>
+        <PM10>5,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>88</H>
+        <PmBar>1011,1</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>4,5</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-6>
+    <datos_indice-LEZO-7>
+        <Date>04/01/2021</Date>
+        <Hour>18:00</Hour>
+        <PM10>5,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>87</H>
+        <PmBar>1010,7</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>5,3</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-7>
+    <datos_indice-LEZO-8>
+        <Date>04/01/2021</Date>
+        <Hour>17:00</Hour>
+        <PM10>5,42</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>90</H>
+        <PmBar>1010</PmBar>
+        <Rwm2>2,1</Rwm2>
+        <TC>4,8</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-8>
+    <datos_indice-LEZO-9>
+        <Date>04/01/2021</Date>
+        <Hour>16:00</Hour>
+        <PM10>5,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>91</H>
+        <PmBar>1009,6</PmBar>
+        <Rwm2>4,2</Rwm2>
+        <TC>4,1</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-9>
+    <datos_indice-LEZO-10>
+        <Date>04/01/2021</Date>
+        <Hour>15:00</Hour>
+        <PM10>5,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>90</H>
+        <PmBar>1009,1</PmBar>
+        <Rwm2>23,5</Rwm2>
+        <TC>4,4</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-10>
+    <datos_indice-LEZO-11>
+        <Date>04/01/2021</Date>
+        <Hour>14:00</Hour>
+        <PM10>5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>89</H>
+        <PmBar>1008,7</PmBar>
+        <Rwm2>24,3</Rwm2>
+        <TC>4,7</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-11>
+    <datos_indice-LEZO-12>
+        <Date>04/01/2021</Date>
+        <Hour>13:00</Hour>
+        <PM10>4,92</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>88</H>
+        <PmBar>1008,9</PmBar>
+        <Rwm2>85,4</Rwm2>
+        <TC>4,9</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-12>
+    <datos_indice-LEZO-13>
+        <Date>04/01/2021</Date>
+        <Hour>12:00</Hour>
+        <PM10>4,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>87</H>
+        <PmBar>1009,4</PmBar>
+        <Rwm2>71,5</Rwm2>
+        <TC>4,8</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-13>
+    <datos_indice-LEZO-14>
+        <Date>04/01/2021</Date>
+        <Hour>11:00</Hour>
+        <PM10>4,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>87</H>
+        <PmBar>1009,6</PmBar>
+        <Rwm2>67,6</Rwm2>
+        <TC>4,9</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-14>
+    <datos_indice-LEZO-15>
+        <Date>04/01/2021</Date>
+        <Hour>10:00</Hour>
+        <PM10>4,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>88</H>
+        <PmBar>1009,4</PmBar>
+        <Rwm2>73,2</Rwm2>
+        <TC>4,7</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-15>
+    <datos_indice-LEZO-16>
+        <Date>04/01/2021</Date>
+        <Hour>09:00</Hour>
+        <PM10>4,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>90</H>
+        <PmBar>1009,1</PmBar>
+        <Rwm2>10,2</Rwm2>
+        <TC>4</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-16>
+    <datos_indice-LEZO-17>
+        <Date>04/01/2021</Date>
+        <Hour>08:00</Hour>
+        <PM10>4,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>91</H>
+        <PmBar>1008,9</PmBar>
+        <Rwm2>0,6</Rwm2>
+        <TC>3,8</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-17>
+    <datos_indice-LEZO-18>
+        <Date>04/01/2021</Date>
+        <Hour>07:00</Hour>
+        <PM10>4,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>91</H>
+        <PmBar>1009</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>3,7</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-18>
+    <datos_indice-LEZO-19>
+        <Date>04/01/2021</Date>
+        <Hour>06:00</Hour>
+        <PM10>4,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>92</H>
+        <PmBar>1009,1</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>3,7</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-19>
+    <datos_indice-LEZO-20>
+        <Date>04/01/2021</Date>
+        <Hour>05:00</Hour>
+        <PM10>5,08</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>92</H>
+        <PmBar>1009,2</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>3,9</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-20>
+    <datos_indice-LEZO-21>
+        <Date>04/01/2021</Date>
+        <Hour>04:00</Hour>
+        <PM10>5,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>92</H>
+        <PmBar>1009,9</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>3,5</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-21>
+    <datos_indice-LEZO-22>
+        <Date>04/01/2021</Date>
+        <Hour>03:00</Hour>
+        <PM10>5,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>91</H>
+        <PmBar>1010,6</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>3,3</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-22>
+    <datos_indice-LEZO-23>
+        <Date>04/01/2021</Date>
+        <Hour>02:00</Hour>
+        <PM10>6,08</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>90</H>
+        <PmBar>1010,9</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>3,5</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-23>
+    <datos_indice-LEZO-24>
+        <Date>04/01/2021</Date>
+        <Hour>01:00</Hour>
+        <PM10>6,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>89</H>
+        <PmBar>1011,2</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>4</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-24>
+    <datos_indice-LEZO-25>
+        <Date>03/01/2021</Date>
+        <Hour>24:00</Hour>
+        <PM10>6,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>88</H>
+        <PmBar>1011,5</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>4,3</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-25>
+    <datos_indice-LEZO-26>
+        <Date>03/01/2021</Date>
+        <Hour>23:00</Hour>
+        <PM10>7,08</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>87</H>
+        <PmBar>1011,6</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>4,6</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-26>
+    <datos_indice-LEZO-27>
+        <Date>03/01/2021</Date>
+        <Hour>22:00</Hour>
+        <PM10>7,46</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>85</H>
+        <PmBar>1011,9</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>5</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-27>
+    <datos_indice-LEZO-28>
+        <Date>03/01/2021</Date>
+        <Hour>21:00</Hour>
+        <PM10>7,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>82</H>
+        <PmBar>1012</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>5,4</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-28>
+    <datos_indice-LEZO-29>
+        <Date>03/01/2021</Date>
+        <Hour>20:00</Hour>
+        <PM10>8,46</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>82</H>
+        <PmBar>1012</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>5,7</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-29>
+    <datos_indice-LEZO-30>
+        <Date>03/01/2021</Date>
+        <Hour>19:00</Hour>
+        <PM10>9,04</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>86</H>
+        <PmBar>1011,9</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>5,8</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-30>
+    <datos_indice-LEZO-31>
+        <Date>03/01/2021</Date>
+        <Hour>18:00</Hour>
+        <PM10>9,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>87</H>
+        <PmBar>1011,8</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>5,8</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-31>
+    <datos_indice-LEZO-32>
+        <Date>03/01/2021</Date>
+        <Hour>17:00</Hour>
+        <PM10>9,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>86</H>
+        <PmBar>1011,6</PmBar>
+        <Rwm2>3,5</Rwm2>
+        <TC>5,7</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-32>
+    <datos_indice-LEZO-33>
+        <Date>03/01/2021</Date>
+        <Hour>16:00</Hour>
+        <PM10>10,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>85</H>
+        <PmBar>1011,6</PmBar>
+        <Rwm2>15,9</Rwm2>
+        <TC>6,4</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-33>
+    <datos_indice-LEZO-34>
+        <Date>03/01/2021</Date>
+        <Hour>15:00</Hour>
+        <PM10>10,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>84</H>
+        <PmBar>1011,7</PmBar>
+        <Rwm2>53,6</Rwm2>
+        <TC>6,5</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-34>
+    <datos_indice-LEZO-35>
+        <Date>03/01/2021</Date>
+        <Hour>14:00</Hour>
+        <PM10>10,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>85</H>
+        <PmBar>1012,5</PmBar>
+        <Rwm2>45,1</Rwm2>
+        <TC>6,8</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-35>
+    <datos_indice-LEZO-36>
+        <Date>03/01/2021</Date>
+        <Hour>13:00</Hour>
+        <PM10>11,17</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>90</H>
+        <PmBar>1013,6</PmBar>
+        <Rwm2>94,8</Rwm2>
+        <TC>6,7</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-36>
+    <datos_indice-LEZO-37>
+        <Date>03/01/2021</Date>
+        <Hour>12:00</Hour>
+        <PM10>11,42</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>92</H>
+        <PmBar>1014</PmBar>
+        <Rwm2>54,5</Rwm2>
+        <TC>6</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-37>
+    <datos_indice-LEZO-38>
+        <Date>03/01/2021</Date>
+        <Hour>11:00</Hour>
+        <PM10>11,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>93</H>
+        <PmBar>1014,6</PmBar>
+        <Rwm2>88,2</Rwm2>
+        <TC>5,2</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-38>
+    <datos_indice-LEZO-39>
+        <Date>03/01/2021</Date>
+        <Hour>10:00</Hour>
+        <PM10>11,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>93</H>
+        <PmBar>1015,1</PmBar>
+        <Rwm2>41</Rwm2>
+        <TC>4,1</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-39>
+    <datos_indice-LEZO-40>
+        <Date>03/01/2021</Date>
+        <Hour>09:00</Hour>
+        <PM10>12</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>94</H>
+        <PmBar>1014,4</PmBar>
+        <Rwm2>24,3</Rwm2>
+        <TC>3,4</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-40>
+    <datos_indice-LEZO-41>
+        <Date>03/01/2021</Date>
+        <Hour>08:00</Hour>
+        <PM10>12,17</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>94</H>
+        <PmBar>1014,5</PmBar>
+        <Rwm2>1,3</Rwm2>
+        <TC>2,9</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-41>
+    <datos_indice-LEZO-42>
+        <Date>03/01/2021</Date>
+        <Hour>07:00</Hour>
+        <PM10>12,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>94</H>
+        <PmBar>1014,4</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>2,6</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-42>
+    <datos_indice-LEZO-43>
+        <Date>03/01/2021</Date>
+        <Hour>06:00</Hour>
+        <PM10>12,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>94</H>
+        <PmBar>1014,7</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>2,1</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-43>
+    <datos_indice-LEZO-44>
+        <Date>03/01/2021</Date>
+        <Hour>05:00</Hour>
+        <PM10>12</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>94</H>
+        <PmBar>1015,2</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>1,5</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-44>
+    <datos_indice-LEZO-45>
+        <Date>03/01/2021</Date>
+        <Hour>04:00</Hour>
+        <PM10>11,75</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>94</H>
+        <PmBar>1015,9</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>1,1</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-45>
+    <datos_indice-LEZO-46>
+        <Date>03/01/2021</Date>
+        <Hour>03:00</Hour>
+        <PM10>11,46</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>93</H>
+        <PmBar>1016,4</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>1,1</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-46>
+    <datos_indice-LEZO-47>
+        <Date>03/01/2021</Date>
+        <Hour>02:00</Hour>
+        <PM10>11,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>93</H>
+        <PmBar>1016,6</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>1,1</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-47>
+    <datos_indice-LEZO-48>
+        <Date>03/01/2021</Date>
+        <Hour>01:00</Hour>
+        <PM10>10,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <H>92</H>
+        <PmBar>1017,3</PmBar>
+        <Rwm2>0,5</Rwm2>
+        <TC>1,4</TC>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-LEZO-48>
+</datos_indice-LEZO>

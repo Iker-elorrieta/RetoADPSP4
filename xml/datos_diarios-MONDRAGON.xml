@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-MONDRAGON>
+    <datos_diarios-MONDRAGON-1>
+        <Date>03/01/2021</Date>
+        <COmgm3>0,36</COmgm3>
+        <CO8hmgm3>0,38</CO8hmgm3>
+        <NOgm3>4</NOgm3>
+        <NOXgm3>26</NOXgm3>
+        <PM10gm3>6</PM10gm3>
+    </datos_diarios-MONDRAGON-1>
+    <datos_diarios-MONDRAGON-2>
+        <Date>02/01/2021</Date>
+        <COmgm3>0,38</COmgm3>
+        <CO8hmgm3>0,34</CO8hmgm3>
+        <NOgm3>4</NOgm3>
+        <NOXgm3>28</NOXgm3>
+        <PM10gm3>7</PM10gm3>
+    </datos_diarios-MONDRAGON-2>
+</datos_diarios-MONDRAGON>

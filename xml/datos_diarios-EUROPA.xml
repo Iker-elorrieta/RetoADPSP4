@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-EUROPA>
+    <datos_diarios-EUROPA-1>
+        <Date>03/01/2021</Date>
+        <NOgm3>2</NOgm3>
+        <NO2gm3>23</NO2gm3>
+        <NOXgm3>26</NOXgm3>
+        <O3gm3>37</O3gm3>
+        <O38hgm3>35</O38hgm3>
+        <PM25gm3>3</PM25gm3>
+        <SO2gm3>3</SO2gm3>
+    </datos_diarios-EUROPA-1>
+    <datos_diarios-EUROPA-2>
+        <Date>02/01/2021</Date>
+        <NOgm3>2</NOgm3>
+        <NO2gm3>16</NO2gm3>
+        <NOXgm3>19</NOXgm3>
+        <O3gm3>50</O3gm3>
+        <O38hgm3>56</O38hgm3>
+        <PM10gm3>16</PM10gm3>
+        <PM25gm3>5</PM25gm3>
+        <SO2gm3>3</SO2gm3>
+    </datos_diarios-EUROPA-2>
+</datos_diarios-EUROPA>

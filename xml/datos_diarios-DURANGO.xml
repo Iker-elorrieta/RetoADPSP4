@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-DURANGO>
+    <datos_diarios-DURANGO-1>
+        <Date>03/01/2021</Date>
+        <Bencenogm3>0,44</Bencenogm3>
+        <Etilbencenogm3>0,21</Etilbencenogm3>
+        <NOgm3>3</NOgm3>
+        <NOXgm3>23</NOXgm3>
+        <O3gm3>39</O3gm3>
+        <O38hgm3>33</O38hgm3>
+        <Ortoxilenogm3>1,09</Ortoxilenogm3>
+        <PM10gm3>4</PM10gm3>
+        <PM25gm3>5</PM25gm3>
+        <SO2gm3>2</SO2gm3>
+        <Toluenogm3>0,83</Toluenogm3>
+    </datos_diarios-DURANGO-1>
+    <datos_diarios-DURANGO-2>
+        <Date>02/01/2021</Date>
+        <Bencenogm3>0,61</Bencenogm3>
+        <Etilbencenogm3>0,24</Etilbencenogm3>
+        <NOgm3>5</NOgm3>
+        <NOXgm3>29</NOXgm3>
+        <O3gm3>42</O3gm3>
+        <O38hgm3>52</O38hgm3>
+        <Ortoxilenogm3>1,24</Ortoxilenogm3>
+        <PM10gm3>6</PM10gm3>
+        <PM25gm3>5</PM25gm3>
+        <SO2gm3>2</SO2gm3>
+        <Toluenogm3>1,19</Toluenogm3>
+    </datos_diarios-DURANGO-2>
+</datos_diarios-DURANGO>

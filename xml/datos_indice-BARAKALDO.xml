@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_indice-BARAKALDO>
+    <datos_indice-BARAKALDO-1>
+        <Date>04/01/2021</Date>
+        <Hour>24:00</Hour>
+    </datos_indice-BARAKALDO-1>
+    <datos_indice-BARAKALDO-2>
+        <Date>04/01/2021</Date>
+        <Hour>23:00</Hour>
+    </datos_indice-BARAKALDO-2>
+    <datos_indice-BARAKALDO-3>
+        <Date>04/01/2021</Date>
+        <Hour>22:00</Hour>
+    </datos_indice-BARAKALDO-3>
+    <datos_indice-BARAKALDO-4>
+        <Date>04/01/2021</Date>
+        <Hour>21:00</Hour>
+    </datos_indice-BARAKALDO-4>
+    <datos_indice-BARAKALDO-5>
+        <Date>04/01/2021</Date>
+        <Hour>20:00</Hour>
+    </datos_indice-BARAKALDO-5>
+    <datos_indice-BARAKALDO-6>
+        <Date>04/01/2021</Date>
+        <Hour>19:00</Hour>
+        <COmgm3>0,25</COmgm3>
+        <CO8hmgm3>0,24</CO8hmgm3>
+        <NOgm3>5</NOgm3>
+        <NO2>42</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>49</NOXgm3>
+        <PM10>4</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,96</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>129</Dviengrados>
+        <H>94</H>
+        <TC>4,1</TC>
+        <Vvienms>0,74</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-BARAKALDO-6>
+    <datos_indice-BARAKALDO-7>
+        <Date>04/01/2021</Date>
+        <Hour>18:00</Hour>
+        <COmgm3>0,23</COmgm3>
+        <CO8hmgm3>0,24</CO8hmgm3>
+        <NOgm3>3</NOgm3>
+        <NO2>30</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>34</NOXgm3>
+        <PM10>3,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,79</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>7</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>330</Dviengrados>
+        <H>94</H>
+        <TC>4,3</TC>
+        <Vvienms>0,81</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-7>
+    <datos_indice-BARAKALDO-8>
+        <Date>04/01/2021</Date>
+        <Hour>17:00</Hour>
+        <COmgm3>0,26</COmgm3>
+        <CO8hmgm3>0,24</CO8hmgm3>
+        <NOgm3>6</NOgm3>
+        <NO2>40</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>49</NOXgm3>
+        <PM10>3,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>8</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>342</Dviengrados>
+        <H>90</H>
+        <TC>5,2</TC>
+        <Vvienms>0,52</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-8>
+    <datos_indice-BARAKALDO-9>
+        <Date>04/01/2021</Date>
+        <Hour>16:00</Hour>
+        <COmgm3>0,24</COmgm3>
+        <CO8hmgm3>0,23</CO8hmgm3>
+        <NOgm3>5</NOgm3>
+        <NO2>37</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>45</NOXgm3>
+        <PM10>3,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,42</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>310</Dviengrados>
+        <H>93</H>
+        <TC>5,2</TC>
+        <Vvienms>0,65</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-9>
+    <datos_indice-BARAKALDO-10>
+        <Date>04/01/2021</Date>
+        <Hour>15:00</Hour>
+        <COmgm3>0,25</COmgm3>
+        <CO8hmgm3>0,22</CO8hmgm3>
+        <NOgm3>5</NOgm3>
+        <NO2>28</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>35</NOXgm3>
+        <PM10>3,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,46</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>6</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>316</Dviengrados>
+        <H>92</H>
+        <TC>4,9</TC>
+        <Vvienms>1,79</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-10>
+    <datos_indice-BARAKALDO-11>
+        <Date>04/01/2021</Date>
+        <Hour>14:00</Hour>
+        <COmgm3>0,23</COmgm3>
+        <CO8hmgm3>0,22</CO8hmgm3>
+        <NOgm3>4</NOgm3>
+        <NO2>28</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>34</NOXgm3>
+        <PM10>3,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,38</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>7</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>316</Dviengrados>
+        <H>91</H>
+        <TC>4,9</TC>
+        <Vvienms>1,46</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-11>
+    <datos_indice-BARAKALDO-12>
+        <Date>04/01/2021</Date>
+        <Hour>13:00</Hour>
+        <COmgm3>0,23</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <NOgm3>4</NOgm3>
+        <NO2>24</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>30</NOXgm3>
+        <PM10>3,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>318</Dviengrados>
+        <H>90</H>
+        <TC>5</TC>
+        <Vvienms>1,81</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-12>
+    <datos_indice-BARAKALDO-13>
+        <Date>04/01/2021</Date>
+        <Hour>12:00</Hour>
+        <COmgm3>0,22</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
+        <NOgm3>3</NOgm3>
+        <NO2>20</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>24</NOXgm3>
+        <PM10>3,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,42</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>316</Dviengrados>
+        <H>85</H>
+        <TC>5,6</TC>
+        <Vvienms>1,89</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-13>
+    <datos_indice-BARAKALDO-14>
+        <Date>04/01/2021</Date>
+        <Hour>11:00</Hour>
+        <COmgm3>0,23</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
+        <NOgm3>5</NOgm3>
+        <NO2>26</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>33</NOXgm3>
+        <PM10>3,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,38</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>300</Dviengrados>
+        <H>80</H>
+        <TC>6,5</TC>
+        <Vvienms>1,22</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-14>
+    <datos_indice-BARAKALDO-15>
+        <Date>04/01/2021</Date>
+        <Hour>10:00</Hour>
+        <COmgm3>0,22</COmgm3>
+        <CO8hmgm3>0,19</CO8hmgm3>
+        <NOgm3>4</NOgm3>
+        <NO2>24</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>29</NOXgm3>
+        <PM10>3,04</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,21</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>313</Dviengrados>
+        <H>83</H>
+        <TC>6,1</TC>
+        <Vvienms>1,03</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-15>
+    <datos_indice-BARAKALDO-16>
+        <Date>04/01/2021</Date>
+        <Hour>09:00</Hour>
+        <COmgm3>0,2</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <NOgm3>4</NOgm3>
+        <NO2>25</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>31</NOXgm3>
+        <PM10>2,92</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>318</Dviengrados>
+        <H>83</H>
+        <TC>5,5</TC>
+        <Vvienms>0,92</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-16>
+    <datos_indice-BARAKALDO-17>
+        <Date>04/01/2021</Date>
+        <Hour>08:00</Hour>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,17</CO8hmgm3>
+        <NOgm3>3</NOgm3>
+        <NO2>21</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>25</NOXgm3>
+        <PM10>2,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>304</Dviengrados>
+        <H>82</H>
+        <TC>5,3</TC>
+        <Vvienms>1,09</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-17>
+    <datos_indice-BARAKALDO-18>
+        <Date>04/01/2021</Date>
+        <Hour>07:00</Hour>
+        <COmgm3>0,22</COmgm3>
+        <CO8hmgm3>0,17</CO8hmgm3>
+        <NOgm3>2</NOgm3>
+        <NO2>26</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>28</NOXgm3>
+        <PM10>2,92</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,17</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>360</Dviengrados>
+        <H>88</H>
+        <TC>5,1</TC>
+        <Vvienms>0,48</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-18>
+    <datos_indice-BARAKALDO-19>
+        <Date>04/01/2021</Date>
+        <Hour>06:00</Hour>
+        <COmgm3>0,18</COmgm3>
+        <CO8hmgm3>0,16</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NO2>13</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>14</NOXgm3>
+        <PM10>2,96</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,25</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>331</Dviengrados>
+        <H>88</H>
+        <TC>5</TC>
+        <Vvienms>0,55</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-19>
+    <datos_indice-BARAKALDO-20>
+        <Date>04/01/2021</Date>
+        <Hour>05:00</Hour>
+        <COmgm3>0,16</COmgm3>
+        <CO8hmgm3>0,16</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <PM10>3,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,38</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>291</Dviengrados>
+        <H>81</H>
+        <TC>5,6</TC>
+        <Vvienms>1,06</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-20>
+    <datos_indice-BARAKALDO-21>
+        <Date>04/01/2021</Date>
+        <Hour>04:00</Hour>
+        <COmgm3>0,16</COmgm3>
+        <CO8hmgm3>0,17</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>3</NOXgm3>
+        <PM10>3,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,5</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>306</Dviengrados>
+        <H>81</H>
+        <TC>5,1</TC>
+        <Vvienms>0,61</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-21>
+    <datos_indice-BARAKALDO-22>
+        <Date>04/01/2021</Date>
+        <Hour>03:00</Hour>
+        <COmgm3>0,16</COmgm3>
+        <CO8hmgm3>0,17</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>3</NOXgm3>
+        <PM10>3,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,63</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>342</Dviengrados>
+        <H>85</H>
+        <TC>4,8</TC>
+        <Vvienms>0,48</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-22>
+    <datos_indice-BARAKALDO-23>
+        <Date>04/01/2021</Date>
+        <Hour>02:00</Hour>
+        <COmgm3>0,16</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <PM10>3,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,92</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>303</Dviengrados>
+        <H>84</H>
+        <TC>5,3</TC>
+        <Vvienms>0,92</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-23>
+    <datos_indice-BARAKALDO-24>
+        <Date>04/01/2021</Date>
+        <Hour>01:00</Hour>
+        <COmgm3>0,16</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <PM10>3,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,08</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>305</Dviengrados>
+        <H>82</H>
+        <TC>5,3</TC>
+        <Vvienms>1,43</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-24>
+    <datos_indice-BARAKALDO-25>
+        <Date>03/01/2021</Date>
+        <Hour>24:00</Hour>
+        <COmgm3>0,17</COmgm3>
+        <CO8hmgm3>0,19</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NOXgm3>6</NOXgm3>
+        <PM10>3,75</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,17</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>103</Dviengrados>
+        <H>86</H>
+        <TC>4,9</TC>
+        <Vvienms>0,7</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-25>
+    <datos_indice-BARAKALDO-26>
+        <Date>03/01/2021</Date>
+        <Hour>23:00</Hour>
+        <COmgm3>0,17</COmgm3>
+        <CO8hmgm3>0,19</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NOXgm3>8</NOXgm3>
+        <PM10>3,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,21</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>131</Dviengrados>
+        <H>87</H>
+        <TC>5</TC>
+        <Vvienms>0,87</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-26>
+    <datos_indice-BARAKALDO-27>
+        <Date>03/01/2021</Date>
+        <Hour>22:00</Hour>
+        <COmgm3>0,17</COmgm3>
+        <CO8hmgm3>0,19</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>9</NOXgm3>
+        <PM10>3,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>304</Dviengrados>
+        <H>83</H>
+        <TC>5,3</TC>
+        <Vvienms>0,54</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-27>
+    <datos_indice-BARAKALDO-28>
+        <Date>03/01/2021</Date>
+        <Hour>21:00</Hour>
+        <COmgm3>0,2</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>15</NOXgm3>
+        <PM10>4,08</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,5</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>202</Dviengrados>
+        <H>83</H>
+        <TC>5,3</TC>
+        <Vvienms>0,28</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-28>
+    <datos_indice-BARAKALDO-29>
+        <Date>03/01/2021</Date>
+        <Hour>20:00</Hour>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>22</NOXgm3>
+        <PM10>4,46</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,83</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>220</Dviengrados>
+        <H>85</H>
+        <TC>5,2</TC>
+        <Vvienms>0,48</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-29>
+    <datos_indice-BARAKALDO-30>
+        <Date>03/01/2021</Date>
+        <Hour>19:00</Hour>
+        <COmgm3>0,2</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>14</NOXgm3>
+        <PM10>4,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,92</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>281</Dviengrados>
+        <H>86</H>
+        <TC>5,1</TC>
+        <Vvienms>0,7</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-30>
+    <datos_indice-BARAKALDO-31>
+        <Date>03/01/2021</Date>
+        <Hour>18:00</Hour>
+        <COmgm3>0,19</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>18</NOXgm3>
+        <PM10>4,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>340</Dviengrados>
+        <H>85</H>
+        <TC>5,3</TC>
+        <Vvienms>0,37</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-31>
+    <datos_indice-BARAKALDO-32>
+        <Date>03/01/2021</Date>
+        <Hour>17:00</Hour>
+        <COmgm3>0,19</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>18</NOXgm3>
+        <PM10>5,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>296</Dviengrados>
+        <H>83</H>
+        <TC>5,6</TC>
+        <Vvienms>1,16</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-32>
+    <datos_indice-BARAKALDO-33>
+        <Date>03/01/2021</Date>
+        <Hour>16:00</Hour>
+        <COmgm3>0,18</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <NOgm3>2</NOgm3>
+        <NOXgm3>18</NOXgm3>
+        <PM10>5,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,29</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>306</Dviengrados>
+        <H>85</H>
+        <TC>5,7</TC>
+        <Vvienms>1,41</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-33>
+    <datos_indice-BARAKALDO-34>
+        <Date>03/01/2021</Date>
+        <Hour>15:00</Hour>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>16</NOXgm3>
+        <PM10>5,54</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,38</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>312</Dviengrados>
+        <H>87</H>
+        <TC>6,3</TC>
+        <Vvienms>0,79</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-34>
+    <datos_indice-BARAKALDO-35>
+        <Date>03/01/2021</Date>
+        <Hour>14:00</Hour>
+        <COmgm3>0,22</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <NOgm3>2</NOgm3>
+        <NOXgm3>21</NOXgm3>
+        <PM10>5,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>291</Dviengrados>
+        <H>87</H>
+        <TC>6,5</TC>
+        <Vvienms>0,46</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-35>
+    <datos_indice-BARAKALDO-36>
+        <Date>03/01/2021</Date>
+        <Hour>13:00</Hour>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>17</NOXgm3>
+        <PM10>5,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>321</Dviengrados>
+        <H>87</H>
+        <TC>6,8</TC>
+        <Vvienms>0,56</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-36>
+    <datos_indice-BARAKALDO-37>
+        <Date>03/01/2021</Date>
+        <Hour>12:00</Hour>
+        <COmgm3>0,22</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <NOgm3>3</NOgm3>
+        <NOXgm3>20</NOXgm3>
+        <PM10>5,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>200</Dviengrados>
+        <H>87</H>
+        <TC>6,7</TC>
+        <Vvienms>0,69</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-37>
+    <datos_indice-BARAKALDO-38>
+        <Date>03/01/2021</Date>
+        <Hour>11:00</Hour>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <NOgm3>2</NOgm3>
+        <NOXgm3>21</NOXgm3>
+        <PM10>5,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,46</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>323</Dviengrados>
+        <H>91</H>
+        <TC>5,7</TC>
+        <Vvienms>0,95</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-38>
+    <datos_indice-BARAKALDO-39>
+        <Date>03/01/2021</Date>
+        <Hour>10:00</Hour>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>16</NOXgm3>
+        <PM10>6</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,58</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>331</Dviengrados>
+        <H>88</H>
+        <TC>5,9</TC>
+        <Vvienms>0,72</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-39>
+    <datos_indice-BARAKALDO-40>
+        <Date>03/01/2021</Date>
+        <Hour>09:00</Hour>
+        <COmgm3>0,2</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>14</NOXgm3>
+        <PM10>6,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,83</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>156</Dviengrados>
+        <H>88</H>
+        <TC>5,2</TC>
+        <Vvienms>0,72</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-40>
+    <datos_indice-BARAKALDO-41>
+        <Date>03/01/2021</Date>
+        <Hour>08:00</Hour>
+        <COmgm3>0,2</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>16</NOXgm3>
+        <PM10>6,54</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,96</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>100</Dviengrados>
+        <H>92</H>
+        <TC>4,9</TC>
+        <Vvienms>0,88</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-41>
+    <datos_indice-BARAKALDO-42>
+        <Date>03/01/2021</Date>
+        <Hour>07:00</Hour>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>17</NOXgm3>
+        <PM10>6,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,04</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>112</Dviengrados>
+        <H>93</H>
+        <TC>4,7</TC>
+        <Vvienms>0,63</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-42>
+    <datos_indice-BARAKALDO-43>
+        <Date>03/01/2021</Date>
+        <Hour>06:00</Hour>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>16</NOXgm3>
+        <PM10>7,04</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,17</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>107</Dviengrados>
+        <H>94</H>
+        <TC>4,2</TC>
+        <Vvienms>1,5</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-43>
+    <datos_indice-BARAKALDO-44>
+        <Date>03/01/2021</Date>
+        <Hour>05:00</Hour>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>15</NOXgm3>
+        <PM10>7</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,08</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>147</Dviengrados>
+        <H>96</H>
+        <TC>4,4</TC>
+        <Vvienms>0,67</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-44>
+    <datos_indice-BARAKALDO-45>
+        <Date>03/01/2021</Date>
+        <Hour>04:00</Hour>
+        <COmgm3>0,2</COmgm3>
+        <CO8hmgm3>0,22</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NOXgm3>14</NOXgm3>
+        <PM10>7,04</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>151</Dviengrados>
+        <H>92</H>
+        <TC>4,1</TC>
+        <Vvienms>1,81</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-45>
+    <datos_indice-BARAKALDO-46>
+        <Date>03/01/2021</Date>
+        <Hour>03:00</Hour>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,23</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NOXgm3>13</NOXgm3>
+        <PM10>7,08</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,08</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>89</Dviengrados>
+        <H>94</H>
+        <TC>4,1</TC>
+        <Vvienms>0,81</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-46>
+    <datos_indice-BARAKALDO-47>
+        <Date>03/01/2021</Date>
+        <Hour>02:00</Hour>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,23</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NOXgm3>8</NOXgm3>
+        <PM10>6,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,75</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>154</Dviengrados>
+        <H>92</H>
+        <TC>4,5</TC>
+        <Vvienms>1,35</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-47>
+    <datos_indice-BARAKALDO-48>
+        <Date>03/01/2021</Date>
+        <Hour>01:00</Hour>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,23</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NOXgm3>8</NOXgm3>
+        <PM10>6,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>169</Dviengrados>
+        <H>94</H>
+        <TC>4,8</TC>
+        <Vvienms>0,97</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BARAKALDO-48>
+</datos_indice-BARAKALDO>

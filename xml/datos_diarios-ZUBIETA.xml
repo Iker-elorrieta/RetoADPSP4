@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-ZUBIETA>
+    <datos_diarios-ZUBIETA-1>
+        <Date>03/01/2021</Date>
+        <Bencenogm3>0,87</Bencenogm3>
+        <Etilbencenogm3>0,31</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2gm3>9</NO2gm3>
+        <NOXgm3>10</NOXgm3>
+        <O3gm3>40</O3gm3>
+        <O38hgm3>34</O38hgm3>
+        <PM10gm3>11</PM10gm3>
+        <PM25gm3>7</PM25gm3>
+        <Toluenogm3>0,85</Toluenogm3>
+    </datos_diarios-ZUBIETA-1>
+    <datos_diarios-ZUBIETA-2>
+        <Date>02/01/2021</Date>
+        <Bencenogm3>0,9</Bencenogm3>
+        <Etilbencenogm3>0,22</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2gm3>10</NO2gm3>
+        <NOXgm3>11</NOXgm3>
+        <O3gm3>43</O3gm3>
+        <O38hgm3>50</O38hgm3>
+        <PM10gm3>10</PM10gm3>
+        <PM25gm3>9</PM25gm3>
+        <Toluenogm3>0,61</Toluenogm3>
+    </datos_diarios-ZUBIETA-2>
+</datos_diarios-ZUBIETA>

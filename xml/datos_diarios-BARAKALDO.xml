@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-BARAKALDO>
+    <datos_diarios-BARAKALDO-1>
+        <Date>03/01/2021</Date>
+        <COmgm3>0,2</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>15</NOXgm3>
+        <PM10gm3>4</PM10gm3>
+        <PM25gm3>3</PM25gm3>
+        <SO2gm3>3</SO2gm3>
+    </datos_diarios-BARAKALDO-1>
+    <datos_diarios-BARAKALDO-2>
+        <Date>02/01/2021</Date>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
+        <NOgm3>2</NOgm3>
+        <NOXgm3>17</NOXgm3>
+        <PM10gm3>7</PM10gm3>
+        <PM25gm3>4</PM25gm3>
+        <SO2gm3>3</SO2gm3>
+    </datos_diarios-BARAKALDO-2>
+</datos_diarios-BARAKALDO>

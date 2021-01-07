@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_indice-PUYO>
+    <datos_indice-PUYO-1>
+        <Date>04/01/2021</Date>
+        <Hour>24:00</Hour>
+    </datos_indice-PUYO-1>
+    <datos_indice-PUYO-2>
+        <Date>04/01/2021</Date>
+        <Hour>23:00</Hour>
+    </datos_indice-PUYO-2>
+    <datos_indice-PUYO-3>
+        <Date>04/01/2021</Date>
+        <Hour>22:00</Hour>
+    </datos_indice-PUYO-3>
+    <datos_indice-PUYO-4>
+        <Date>04/01/2021</Date>
+        <Hour>21:00</Hour>
+    </datos_indice-PUYO-4>
+    <datos_indice-PUYO-5>
+        <Date>04/01/2021</Date>
+        <Hour>20:00</Hour>
+    </datos_indice-PUYO-5>
+    <datos_indice-PUYO-6>
+        <Date>04/01/2021</Date>
+        <Hour>19:00</Hour>
+        <NOgm3>3</NOgm3>
+        <NO2>35</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>39</NOXgm3>
+        <O3gm3>29</O3gm3>
+        <OZONO>29</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>46</O38hgm3>
+        <PM10>4</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,5</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>157</Dviengrados>
+        <H>83</H>
+        <PmBar>998,3</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4,2</TC>
+        <Vvienms>0,91</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-6>
+    <datos_indice-PUYO-7>
+        <Date>04/01/2021</Date>
+        <Hour>18:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>16</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>18</NOXgm3>
+        <O3gm3>49</O3gm3>
+        <OZONO>49</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>49</O38hgm3>
+        <PM10>4,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,83</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>355</Dviengrados>
+        <H>82</H>
+        <PmBar>997,9</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4,8</TC>
+        <Vvienms>1,35</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-7>
+    <datos_indice-PUYO-8>
+        <Date>04/01/2021</Date>
+        <Hour>17:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>10</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>11</NOXgm3>
+        <O3gm3>58</O3gm3>
+        <OZONO>58</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>48</O38hgm3>
+        <PM10>4,54</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>311</Dviengrados>
+        <H>82</H>
+        <PmBar>997,3</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>3,8</Rwm2>
+        <TC>4,6</TC>
+        <Vvienms>1,93</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-8>
+    <datos_indice-PUYO-9>
+        <Date>04/01/2021</Date>
+        <Hour>16:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>22</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>25</NOXgm3>
+        <O3gm3>48</O3gm3>
+        <OZONO>48</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>47</O38hgm3>
+        <PM10>4,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,25</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>228</Dviengrados>
+        <H>86</H>
+        <PmBar>996,8</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>10,3</Rwm2>
+        <TC>3,9</TC>
+        <Vvienms>2,24</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-9>
+    <datos_indice-PUYO-10>
+        <Date>04/01/2021</Date>
+        <Hour>15:00</Hour>
+        <NOgm3>4</NOgm3>
+        <NO2>25</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>30</NOXgm3>
+        <O3gm3>42</O3gm3>
+        <OZONO>42</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>47</O38hgm3>
+        <PM10>4,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,38</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>219</Dviengrados>
+        <H>85</H>
+        <PmBar>996,3</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>16,6</Rwm2>
+        <TC>3,9</TC>
+        <Vvienms>2,85</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-10>
+    <datos_indice-PUYO-11>
+        <Date>04/01/2021</Date>
+        <Hour>14:00</Hour>
+        <NOgm3>3</NOgm3>
+        <NO2>17</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>21</NOXgm3>
+        <O3gm3>47</O3gm3>
+        <OZONO>47</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>50</O38hgm3>
+        <PM10>4,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,46</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>238</Dviengrados>
+        <H>84</H>
+        <PmBar>995,9</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>43,4</Rwm2>
+        <TC>4,2</TC>
+        <Vvienms>2,37</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-11>
+    <datos_indice-PUYO-12>
+        <Date>04/01/2021</Date>
+        <Hour>13:00</Hour>
+        <NOgm3>4</NOgm3>
+        <NO2>21</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>27</NOXgm3>
+        <O3ICA>Sin datos / Daturik gabe</O3ICA>
+        <O38hgm3>52</O38hgm3>
+        <PM10>4,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,42</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>219</Dviengrados>
+        <H>85</H>
+        <PmBar>996,1</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>6,6</Rwm2>
+        <TC>4,2</TC>
+        <Vvienms>1,85</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-12>
+    <datos_indice-PUYO-13>
+        <Date>04/01/2021</Date>
+        <Hour>12:00</Hour>
+        <NOgm3>4</NOgm3>
+        <NO2>18</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>23</NOXgm3>
+        <O3gm3>47</O3gm3>
+        <OZONO>47</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>53</O38hgm3>
+        <PM10>4,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>220</Dviengrados>
+        <H>85</H>
+        <PmBar>996,6</PmBar>
+        <Precipitacionlm2>0,4</Precipitacionlm2>
+        <Rwm2>0,1</Rwm2>
+        <TC>3,7</TC>
+        <Vvienms>2,6</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-13>
+    <datos_indice-PUYO-14>
+        <Date>04/01/2021</Date>
+        <Hour>11:00</Hour>
+        <NOgm3>5</NOgm3>
+        <NO2>20</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>28</NOXgm3>
+        <O3ICA>Sin datos / Daturik gabe</O3ICA>
+        <O38hgm3>55</O38hgm3>
+        <PM10>4,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,38</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>211</Dviengrados>
+        <H>84</H>
+        <PmBar>996,8</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>0,1</Rwm2>
+        <TC>3,8</TC>
+        <Vvienms>2,61</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-14>
+    <datos_indice-PUYO-15>
+        <Date>04/01/2021</Date>
+        <Hour>10:00</Hour>
+        <NOgm3>3</NOgm3>
+        <NO2>18</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>23</NOXgm3>
+        <O3gm3>47</O3gm3>
+        <OZONO>47</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>56</O38hgm3>
+        <PM10>4,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>216</Dviengrados>
+        <H>83</H>
+        <PmBar>996,5</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>0,1</Rwm2>
+        <TC>3,7</TC>
+        <Vvienms>2,67</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-15>
+    <datos_indice-PUYO-16>
+        <Date>04/01/2021</Date>
+        <Hour>09:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>19</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>22</NOXgm3>
+        <O3gm3>48</O3gm3>
+        <OZONO>48</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>58</O38hgm3>
+        <PM10>4,92</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,79</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>211</Dviengrados>
+        <H>84</H>
+        <PmBar>996,1</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,1</Rwm2>
+        <TC>3,1</TC>
+        <Vvienms>2,31</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-16>
+    <datos_indice-PUYO-17>
+        <Date>04/01/2021</Date>
+        <Hour>08:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>15</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>17</NOXgm3>
+        <O3gm3>50</O3gm3>
+        <OZONO>50</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>60</O38hgm3>
+        <PM10>5,17</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,04</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>201</Dviengrados>
+        <H>86</H>
+        <PmBar>995,9</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,7</TC>
+        <Vvienms>1,72</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-17>
+    <datos_indice-PUYO-18>
+        <Date>04/01/2021</Date>
+        <Hour>07:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>9</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>11</NOXgm3>
+        <O3gm3>58</O3gm3>
+        <OZONO>58</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>5,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,25</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>198</Dviengrados>
+        <H>86</H>
+        <PmBar>995,9</PmBar>
+        <Precipitacionlm2>0,6</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,6</TC>
+        <Vvienms>2</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-18>
+    <datos_indice-PUYO-19>
+        <Date>04/01/2021</Date>
+        <Hour>06:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>6</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <O3gm3>61</O3gm3>
+        <OZONO>61</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>5,54</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,42</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>199</Dviengrados>
+        <H>85</H>
+        <PmBar>996,1</PmBar>
+        <Precipitacionlm2>0,5</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3</TC>
+        <Vvienms>2,03</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-19>
+    <datos_indice-PUYO-20>
+        <Date>04/01/2021</Date>
+        <Hour>05:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <O3gm3>63</O3gm3>
+        <OZONO>63</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>5,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,67</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>203</Dviengrados>
+        <H>84</H>
+        <PmBar>996,3</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,3</TC>
+        <Vvienms>2,34</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-20>
+    <datos_indice-PUYO-21>
+        <Date>04/01/2021</Date>
+        <Hour>04:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <O3gm3>57</O3gm3>
+        <OZONO>57</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>6,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,08</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>191</Dviengrados>
+        <H>87</H>
+        <PmBar>996,9</PmBar>
+        <Precipitacionlm2>0,4</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,9</TC>
+        <Vvienms>1,61</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-21>
+    <datos_indice-PUYO-22>
+        <Date>04/01/2021</Date>
+        <Hour>03:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>60</O3gm3>
+        <OZONO>60</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>6,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,5</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>154</Dviengrados>
+        <H>87</H>
+        <PmBar>997,6</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,6</TC>
+        <Vvienms>1,14</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-22>
+    <datos_indice-PUYO-23>
+        <Date>04/01/2021</Date>
+        <Hour>02:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>3</NOXgm3>
+        <O3gm3>64</O3gm3>
+        <OZONO>64</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>60</O38hgm3>
+        <PM10>7,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,96</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>212</Dviengrados>
+        <H>86</H>
+        <PmBar>997,9</PmBar>
+        <Precipitacionlm2>1</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,8</TC>
+        <Vvienms>1,1</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-23>
+    <datos_indice-PUYO-24>
+        <Date>04/01/2021</Date>
+        <Hour>01:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>63</O3gm3>
+        <OZONO>63</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>57</O38hgm3>
+        <PM10>7,46</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,29</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>229</Dviengrados>
+        <H>85</H>
+        <PmBar>998,3</PmBar>
+        <Precipitacionlm2>0,8</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,3</TC>
+        <Vvienms>1,15</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-24>
+    <datos_indice-PUYO-25>
+        <Date>03/01/2021</Date>
+        <Hour>24:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>64</O3gm3>
+        <OZONO>64</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>56</O38hgm3>
+        <PM10>7,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,58</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>225</Dviengrados>
+        <H>83</H>
+        <PmBar>998,6</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,6</TC>
+        <Vvienms>2,42</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-25>
+    <datos_indice-PUYO-26>
+        <Date>03/01/2021</Date>
+        <Hour>23:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>8</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>10</NOXgm3>
+        <O3gm3>57</O3gm3>
+        <OZONO>57</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>54</O38hgm3>
+        <PM10>8,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,96</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>208</Dviengrados>
+        <H>81</H>
+        <PmBar>998,7</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4</TC>
+        <Vvienms>1,72</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-26>
+    <datos_indice-PUYO-27>
+        <Date>03/01/2021</Date>
+        <Hour>22:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>9</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>10</NOXgm3>
+        <O3gm3>57</O3gm3>
+        <OZONO>57</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>54</O38hgm3>
+        <PM10>8,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,25</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>204</Dviengrados>
+        <H>81</H>
+        <PmBar>998,9</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4,1</TC>
+        <Vvienms>1,24</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-27>
+    <datos_indice-PUYO-28>
+        <Date>03/01/2021</Date>
+        <Hour>21:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>9</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>11</NOXgm3>
+        <O3gm3>63</O3gm3>
+        <OZONO>63</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>52</O38hgm3>
+        <PM10>9,17</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,75</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>234</Dviengrados>
+        <H>78</H>
+        <PmBar>999,2</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4,7</TC>
+        <Vvienms>2,12</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-28>
+    <datos_indice-PUYO-29>
+        <Date>03/01/2021</Date>
+        <Hour>20:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <O3gm3>58</O3gm3>
+        <OZONO>58</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>50</O38hgm3>
+        <PM10>9,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>240</Dviengrados>
+        <H>78</H>
+        <PmBar>999,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4,9</TC>
+        <Vvienms>2,06</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-29>
+    <datos_indice-PUYO-30>
+        <Date>03/01/2021</Date>
+        <Hour>19:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>15</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>17</NOXgm3>
+        <O3gm3>50</O3gm3>
+        <OZONO>50</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>47</O38hgm3>
+        <PM10>10,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,83</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>229</Dviengrados>
+        <H>80</H>
+        <PmBar>999,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4,8</TC>
+        <Vvienms>1,97</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-30>
+    <datos_indice-PUYO-31>
+        <Date>03/01/2021</Date>
+        <Hour>18:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>17</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>19</NOXgm3>
+        <O3gm3>46</O3gm3>
+        <OZONO>46</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>46</O38hgm3>
+        <PM10>10,75</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,92</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>211</Dviengrados>
+        <H>81</H>
+        <PmBar>998,9</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4,9</TC>
+        <Vvienms>1,42</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-31>
+    <datos_indice-PUYO-32>
+        <Date>03/01/2021</Date>
+        <Hour>17:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>15</NOXgm3>
+        <O3gm3>53</O3gm3>
+        <OZONO>53</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>43</O38hgm3>
+        <PM10>10,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,88</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>204</Dviengrados>
+        <H>83</H>
+        <PmBar>998,9</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>4,3</Rwm2>
+        <TC>4,9</TC>
+        <Vvienms>1,71</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-32>
+    <datos_indice-PUYO-33>
+        <Date>03/01/2021</Date>
+        <Hour>16:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>15</NOXgm3>
+        <O3gm3>50</O3gm3>
+        <OZONO>50</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>40</O38hgm3>
+        <PM10>10,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,79</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>234</Dviengrados>
+        <H>81</H>
+        <PmBar>998,9</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>14,4</Rwm2>
+        <TC>5,6</TC>
+        <Vvienms>2,13</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-33>
+    <datos_indice-PUYO-34>
+        <Date>03/01/2021</Date>
+        <Hour>15:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>9</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>12</NOXgm3>
+        <O3gm3>51</O3gm3>
+        <OZONO>51</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>37</O38hgm3>
+        <PM10>11,08</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,83</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>202</Dviengrados>
+        <H>81</H>
+        <PmBar>998,9</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>58,5</Rwm2>
+        <TC>5,7</TC>
+        <Vvienms>1,64</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-34>
+    <datos_indice-PUYO-35>
+        <Date>03/01/2021</Date>
+        <Hour>14:00</Hour>
+        <NOgm3>3</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>17</NOXgm3>
+        <O3gm3>48</O3gm3>
+        <OZONO>48</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>36</O38hgm3>
+        <PM10>11,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,88</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>227</Dviengrados>
+        <H>79</H>
+        <PmBar>999,4</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>59,2</Rwm2>
+        <TC>6,1</TC>
+        <Vvienms>1,88</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-35>
+    <datos_indice-PUYO-36>
+        <Date>03/01/2021</Date>
+        <Hour>13:00</Hour>
+        <NOgm3>3</NOgm3>
+        <NO2>10</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>15</NOXgm3>
+        <O3gm3>42</O3gm3>
+        <OZONO>42</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>34</O38hgm3>
+        <PM10>11,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>9,04</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>203</Dviengrados>
+        <H>81</H>
+        <PmBar>1000</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>103,2</Rwm2>
+        <TC>5,9</TC>
+        <Vvienms>1,34</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-36>
+    <datos_indice-PUYO-37>
+        <Date>03/01/2021</Date>
+        <Hour>12:00</Hour>
+        <NOgm3>4</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>18</NOXgm3>
+        <O3gm3>36</O3gm3>
+        <OZONO>36</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>33</O38hgm3>
+        <PM10>11,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>9,08</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>203</Dviengrados>
+        <H>83</H>
+        <PmBar>1000,8</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>92,2</Rwm2>
+        <TC>5,5</TC>
+        <Vvienms>1,14</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-37>
+    <datos_indice-PUYO-38>
+        <Date>03/01/2021</Date>
+        <Hour>11:00</Hour>
+        <NOgm3>3</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>15</NOXgm3>
+        <O3gm3>38</O3gm3>
+        <OZONO>38</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>31</O38hgm3>
+        <PM10>12,04</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>9,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>201</Dviengrados>
+        <H>82</H>
+        <PmBar>1001,3</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>95,4</Rwm2>
+        <TC>5,1</TC>
+        <Vvienms>1,53</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-38>
+    <datos_indice-PUYO-39>
+        <Date>03/01/2021</Date>
+        <Hour>10:00</Hour>
+        <NOgm3>3</NOgm3>
+        <NO2>19</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>24</NOXgm3>
+        <O3gm3>25</O3gm3>
+        <OZONO>25</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>30</O38hgm3>
+        <PM10>12,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>9,08</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>173</Dviengrados>
+        <H>86</H>
+        <PmBar>1001,4</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>50,1</Rwm2>
+        <TC>3,8</TC>
+        <Vvienms>1,27</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-39>
+    <datos_indice-PUYO-40>
+        <Date>03/01/2021</Date>
+        <Hour>09:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>18</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>20</NOXgm3>
+        <O3gm3>26</O3gm3>
+        <OZONO>26</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>30</O38hgm3>
+        <PM10>12,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>9,04</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>161</Dviengrados>
+        <H>86</H>
+        <PmBar>1001,4</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>19,7</Rwm2>
+        <TC>3,4</TC>
+        <Vvienms>1,09</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-40>
+    <datos_indice-PUYO-41>
+        <Date>03/01/2021</Date>
+        <Hour>08:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>15</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>16</NOXgm3>
+        <O3gm3>30</O3gm3>
+        <OZONO>30</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>31</O38hgm3>
+        <PM10>12,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>9</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>160</Dviengrados>
+        <H>84</H>
+        <PmBar>1001,4</PmBar>
+        <Precipitacionlm2>0,4</Precipitacionlm2>
+        <Rwm2>0,5</Rwm2>
+        <TC>3,2</TC>
+        <Vvienms>1,1</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-41>
+    <datos_indice-PUYO-42>
+        <Date>03/01/2021</Date>
+        <Hour>07:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <O3gm3>41</O3gm3>
+        <OZONO>41</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>28</O38hgm3>
+        <PM10>12,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>9</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>183</Dviengrados>
+        <H>81</H>
+        <PmBar>1001,4</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,4</TC>
+        <Vvienms>1,07</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-42>
+    <datos_indice-PUYO-43>
+        <Date>03/01/2021</Date>
+        <Hour>06:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>8</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>9</NOXgm3>
+        <O3gm3>37</O3gm3>
+        <OZONO>37</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>27</O38hgm3>
+        <PM10>12,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,83</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>196</Dviengrados>
+        <H>82</H>
+        <PmBar>1001,6</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,1</TC>
+        <Vvienms>1,46</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-43>
+    <datos_indice-PUYO-44>
+        <Date>03/01/2021</Date>
+        <Hour>05:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>13</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <O3gm3>29</O3gm3>
+        <OZONO>29</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>26</O38hgm3>
+        <PM10>11,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>195</Dviengrados>
+        <H>83</H>
+        <PmBar>1002,1</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,6</TC>
+        <Vvienms>1,26</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-44>
+    <datos_indice-PUYO-45>
+        <Date>03/01/2021</Date>
+        <Hour>04:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>13</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <O3gm3>24</O3gm3>
+        <OZONO>24</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>24</O38hgm3>
+        <PM10>11,42</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>170</Dviengrados>
+        <H>86</H>
+        <PmBar>1002,9</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>1,8</TC>
+        <Vvienms>0,98</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-45>
+    <datos_indice-PUYO-46>
+        <Date>03/01/2021</Date>
+        <Hour>03:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>13</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>14</NOXgm3>
+        <O3gm3>25</O3gm3>
+        <OZONO>25</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>22</O38hgm3>
+        <PM10>11,08</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,83</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>169</Dviengrados>
+        <H>87</H>
+        <PmBar>1003,3</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>1,1</TC>
+        <Vvienms>0,88</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-46>
+    <datos_indice-PUYO-47>
+        <Date>03/01/2021</Date>
+        <Hour>02:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>16</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>16</NOXgm3>
+        <O3gm3>26</O3gm3>
+        <OZONO>26</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>21</O38hgm3>
+        <PM10>10,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,46</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>187</Dviengrados>
+        <H>86</H>
+        <PmBar>1003,5</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>1,1</TC>
+        <Vvienms>0,84</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-47>
+    <datos_indice-PUYO-48>
+        <Date>03/01/2021</Date>
+        <Hour>01:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>14</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>14</NOXgm3>
+        <O3gm3>32</O3gm3>
+        <OZONO>32</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>22</O38hgm3>
+        <PM10>10,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>170</Dviengrados>
+        <H>86</H>
+        <PmBar>1004,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>1,6</TC>
+        <Vvienms>1,32</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-PUYO-48>
+</datos_indice-PUYO>
