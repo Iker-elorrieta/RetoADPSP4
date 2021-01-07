@@ -15,6 +15,5 @@
         <mapping resource="modelo/Entornosmuni.hbm.xml"/>
         <mapping resource="modelo/Municipios.hbm.xml"/>
         <mapping resource="modelo/Estaciones.hbm.xml"/>
-        <mapping resource="modelo/Usuario.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>
