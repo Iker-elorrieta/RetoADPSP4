@@ -9,7 +9,10 @@
 		<sql-type jdbc-type="VARCHAR" hibernate-type="string"></sql-type>
 		<sql-type jdbc-type="VARCHAR" hibernate-type="string"></sql-type>
 		<sql-type jdbc-type="VARCHAR" hibernate-type="string"></sql-type>
+		<sql-type jdbc-type="VARCHAR" hibernate-type="string"></sql-type>
 	</type-mapping>
+
+
 
 
 	<table-filter match-catalog="euskalmet" match-name="entornos" />
@@ -21,11 +24,11 @@
 	<table catalog="euskalmet" name="entornos">
 		<column name="Id"></column>
 		<column name="Longitud"></column>
-		<column name="Descripcion"></column>
+		<column name="Tipo"></column>
 		<column name="Latitud"></column>
+		<column name="Descripcion"></column>
 		<column name="Nombre"></column>
 		<column name="Territorio"></column>
-		<column name="Tipo"></column>
 	</table>
 	<table catalog="euskalmet" name="entornosmuni">
 		<column name="Entorno"></column>
@@ -33,45 +36,50 @@
 	</table>
 	<table catalog="euskalmet" name="estaciones">
 		<column name="Id"></column>
-		<column name="Provincia"></column>
-		<column name="Municipio"></column>
-		<column name="CoordenadaX"></column>
-		<column name="Direccion"></column>
-		<column name="Nombre"></column>
-		<column name="CoordenadaY"></column>
-		<column name="Latitud"></column>
 		<column name="Longitud"></column>
+		<column name="Provincia"></column>
+		<column name="Direccion"></column>
+		<column name="CoordenadaX"></column>
+		<column name="Latitud"></column>
+		<column name="Municipio"></column>
+		<column name="CoordenadaY"></column>
+		<column name="Nombre"></column>
 	</table>
 	<table catalog="euskalmet" name="horario">
 		<column name="Id"></column>
-		<column name="PM10"></column>
-		<column name="NOgm3"></column>
-		<column name="COmgm3"></column>
-		<column name="PM10ICA"></column>
-		<column name="NOXgm3"></column>
-		<column name="PM25"></column>
-		<column name="SO2"></column>
-		<column name="NO2"></column>
-		<column name="NO2ICA"></column>
-		<column name="PM25ICA"></column>
-		<column name="Hora"></column>
-		<column name="ICAEstacion"></column>
-		<column name="SO2ICA"></column>
-		<column name="Informe"></column>
 		<column name="Fecha"></column>
+		<column name="NOgm3"></column>
+		<column name="NO2ICA"></column>
+		<column name="COmgm3"></column>
+		<column name="SO2ICA"></column>
+		<column name="PM10"></column>
+		<column name="NOXgm3"></column>
+		<column name="SO2"></column>
+		<column name="PM25"></column>
+		<column name="ICAEstacion"></column>
+		<column name="Hora"></column>
+		<column name="NO2"></column>
+		<column name="PM25ICA"></column>
+		<column name="Informe"></column>
+		<column name="PM10ICA"></column>
 	</table>
 	<table catalog="euskalmet" name="informes">
 		<column name="Id"></column>
+		<column name="Formato"></column>
 		<column name="Url"></column>
 		<column name="Estacion"></column>
-		<column name="Formato"></column>
 	</table>
 	<table catalog="euskalmet" name="municipios">
 		<column name="Id"></column>
-		<column name="Nombre"></column>
 		<column name="Latitud"></column>
-		<column name="Codigo"></column>
-		<column name="Descripcion"></column>
 		<column name="Longitud"></column>
+		<column name="Descripcion"></column>
+		<column name="Codigo"></column>
+		<column name="Nombre"></column>
+	</table>
+	<table catalog="euskalmet" name="usuario">
+		<column name="usuario"></column>
+		<column name="contrasena"></column>
+		<column name="e-mail"></column>
 	</table>
 </hibernate-reverse-engineering>

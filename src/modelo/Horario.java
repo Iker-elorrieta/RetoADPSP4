@@ -1,5 +1,5 @@
 package modelo;
-// Generated 7 ene. 2021 20:38:51 by Hibernate Tools 5.4.21.Final
+// Generated 7 ene. 2021 20:25:56 by Hibernate Tools 5.4.21.Final
 
 import java.util.Date;
 
@@ -12,24 +12,28 @@ public class Horario implements java.io.Serializable {
 	private Informes informes;
 	private Date fecha;
 	private String hora;
-	private double comgm3;
-	private double nogm3;
-	private double no2;
+	private Double comgm3;
+	private Double nogm3;
+	private Double no2;
 	private String no2ica;
-	private double noxgm3;
-	private double pm10;
+	private Double noxgm3;
+	private Double pm10;
 	private String pm10ica;
-	private double pm25;
+	private Double pm25;
 	private String pm25ica;
-	private double so2;
+	private Double so2;
 	private String so2ica;
 	private String icaestacion;
 
 	public Horario() {
 	}
 
-	public Horario(Informes informes, Date fecha, String hora, double comgm3, double nogm3, double no2, String no2ica,
-			double noxgm3, double pm10, String pm10ica, double pm25, String pm25ica, double so2, String so2ica,
+	public Horario(Informes informes) {
+		this.informes = informes;
+	}
+
+	public Horario(Informes informes, Date fecha, String hora, Double comgm3, Double nogm3, Double no2, String no2ica,
+			Double noxgm3, Double pm10, String pm10ica, Double pm25, String pm25ica, Double so2, String so2ica,
 			String icaestacion) {
 		this.informes = informes;
 		this.fecha = fecha;
@@ -80,27 +84,27 @@ public class Horario implements java.io.Serializable {
 		this.hora = hora;
 	}
 
-	public double getComgm3() {
+	public Double getComgm3() {
 		return this.comgm3;
 	}
 
-	public void setComgm3(double comgm3) {
+	public void setComgm3(Double comgm3) {
 		this.comgm3 = comgm3;
 	}
 
-	public double getNogm3() {
+	public Double getNogm3() {
 		return this.nogm3;
 	}
 
-	public void setNogm3(double nogm3) {
+	public void setNogm3(Double nogm3) {
 		this.nogm3 = nogm3;
 	}
 
-	public double getNo2() {
+	public Double getNo2() {
 		return this.no2;
 	}
 
-	public void setNo2(double no2) {
+	public void setNo2(Double no2) {
 		this.no2 = no2;
 	}
 
@@ -112,19 +116,19 @@ public class Horario implements java.io.Serializable {
 		this.no2ica = no2ica;
 	}
 
-	public double getNoxgm3() {
+	public Double getNoxgm3() {
 		return this.noxgm3;
 	}
 
-	public void setNoxgm3(double noxgm3) {
+	public void setNoxgm3(Double noxgm3) {
 		this.noxgm3 = noxgm3;
 	}
 
-	public double getPm10() {
+	public Double getPm10() {
 		return this.pm10;
 	}
 
-	public void setPm10(double pm10) {
+	public void setPm10(Double pm10) {
 		this.pm10 = pm10;
 	}
 
@@ -136,11 +140,11 @@ public class Horario implements java.io.Serializable {
 		this.pm10ica = pm10ica;
 	}
 
-	public double getPm25() {
+	public Double getPm25() {
 		return this.pm25;
 	}
 
-	public void setPm25(double pm25) {
+	public void setPm25(Double pm25) {
 		this.pm25 = pm25;
 	}
 
@@ -152,11 +156,11 @@ public class Horario implements java.io.Serializable {
 		this.pm25ica = pm25ica;
 	}
 
-	public double getSo2() {
+	public Double getSo2() {
 		return this.so2;
 	}
 
-	public void setSo2(double so2) {
+	public void setSo2(Double so2) {
 		this.so2 = so2;
 	}
 
