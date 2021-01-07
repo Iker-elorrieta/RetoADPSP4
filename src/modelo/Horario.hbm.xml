@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generated Jan 3, 2021, 9:45:27 PM by Hibernate Tools 5.4.18.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 7 ene. 2021 20:38:51 by Hibernate Tools 5.4.21.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
-    <class catalog="euskalmet" dynamic-insert="false" dynamic-update="false" mutable="true" name="hiberclass.Horario" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="horario">
+    <class catalog="euskalmet" dynamic-insert="false" dynamic-update="false" mutable="true" name="modelo.Horario" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="horario">
         <id name="id" type="java.lang.Integer">
             <column name="Id"/>
             <generator class="identity"/>
         </id>
-        <many-to-one class="hiberclass.Informes" embed-xml="true" fetch="select" insert="true" name="informes" not-found="exception" optimistic-lock="true" unique="false" update="true">
+        <many-to-one class="modelo.Informes" embed-xml="true" fetch="select" insert="true" name="informes" not-found="exception" optimistic-lock="true" unique="false" update="true">
             <column name="Informe" not-null="true"/>
         </many-to-one>
         <property generated="never" lazy="false" name="fecha" optimistic-lock="true" type="date" unique="false">
-            <column length="10" name="Fecha"/>
+            <column length="10" name="Fecha" not-null="true"/>
         </property>
         <property generated="never" lazy="false" name="hora" optimistic-lock="true" type="string" unique="false">
-            <column length="10" name="Hora"/>
+            <column length="10" name="Hora" not-null="true"/>
         </property>
-        <property generated="never" lazy="false" name="comgm3" optimistic-lock="true" type="java.lang.Double" unique="false">
-            <column name="COmgm3" precision="22" scale="0"/>
+        <property generated="never" lazy="false" name="comgm3" optimistic-lock="true" type="double" unique="false">
+            <column name="COmgm3" not-null="true" precision="22" scale="0"/>
         </property>
-        <property generated="never" lazy="false" name="nogm3" optimistic-lock="true" type="java.lang.Double" unique="false">
-            <column name="NOgm3" precision="22" scale="0"/>
+        <property generated="never" lazy="false" name="nogm3" optimistic-lock="true" type="double" unique="false">
+            <column name="NOgm3" not-null="true" precision="22" scale="0"/>
         </property>
-        <property generated="never" lazy="false" name="no2" optimistic-lock="true" type="java.lang.Double" unique="false">
-            <column name="NO2" precision="22" scale="0"/>
+        <property generated="never" lazy="false" name="no2" optimistic-lock="true" type="double" unique="false">
+            <column name="NO2" not-null="true" precision="22" scale="0"/>
         </property>
         <property generated="never" lazy="false" name="no2ica" optimistic-lock="true" type="string" unique="false">
-            <column length="50" name="NO2ICA"/>
+            <column length="50" name="NO2ICA" not-null="true"/>
         </property>
-        <property generated="never" lazy="false" name="noxgm3" optimistic-lock="true" type="java.lang.Double" unique="false">
-            <column name="NOXgm3" precision="22" scale="0"/>
+        <property generated="never" lazy="false" name="noxgm3" optimistic-lock="true" type="double" unique="false">
+            <column name="NOXgm3" not-null="true" precision="22" scale="0"/>
         </property>
-        <property generated="never" lazy="false" name="pm10" optimistic-lock="true" type="java.lang.Double" unique="false">
-            <column name="PM10" precision="22" scale="0"/>
+        <property generated="never" lazy="false" name="pm10" optimistic-lock="true" type="double" unique="false">
+            <column name="PM10" not-null="true" precision="22" scale="0"/>
         </property>
         <property generated="never" lazy="false" name="pm10ica" optimistic-lock="true" type="string" unique="false">
-            <column length="50" name="PM10ICA"/>
+            <column length="50" name="PM10ICA" not-null="true"/>
         </property>
-        <property generated="never" lazy="false" name="pm25" optimistic-lock="true" type="java.lang.Double" unique="false">
-            <column name="PM25" precision="22" scale="0"/>
+        <property generated="never" lazy="false" name="pm25" optimistic-lock="true" type="double" unique="false">
+            <column name="PM25" not-null="true" precision="22" scale="0"/>
         </property>
         <property generated="never" lazy="false" name="pm25ica" optimistic-lock="true" type="string" unique="false">
-            <column length="50" name="PM25ICA"/>
+            <column length="50" name="PM25ICA" not-null="true"/>
         </property>
-        <property generated="never" lazy="false" name="so2" optimistic-lock="true" type="java.lang.Double" unique="false">
-            <column name="SO2" precision="22" scale="0"/>
+        <property generated="never" lazy="false" name="so2" optimistic-lock="true" type="double" unique="false">
+            <column name="SO2" not-null="true" precision="22" scale="0"/>
         </property>
         <property generated="never" lazy="false" name="so2ica" optimistic-lock="true" type="string" unique="false">
-            <column length="50" name="SO2ICA"/>
+            <column length="50" name="SO2ICA" not-null="true"/>
         </property>
         <property generated="never" lazy="false" name="icaestacion" optimistic-lock="true" type="string" unique="false">
-            <column length="50" name="ICAEstacion"/>
+            <column length="50" name="ICAEstacion" not-null="true"/>
         </property>
     </class>
 </hibernate-mapping>

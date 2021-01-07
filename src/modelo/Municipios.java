@@ -1,5 +1,5 @@
 package modelo;
-// Generated Jan 3, 2021, 9:45:27 PM by Hibernate Tools 5.4.18.Final
+// Generated 7 ene. 2021 20:38:51 by Hibernate Tools 5.4.21.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -14,7 +14,7 @@ public class Municipios implements java.io.Serializable {
 	private String descripcion;
 	private Double latitud;
 	private Double longitud;
-	private String codigo;
+	private Integer codigo;
 	private Set estacioneses = new HashSet(0);
 	private Set entornosmunis = new HashSet(0);
 
@@ -25,7 +25,7 @@ public class Municipios implements java.io.Serializable {
 		this.nombre = nombre;
 	}
 
-	public Municipios(String nombre, String descripcion, Double latitud, Double longitud, String codigo,
+	public Municipios(String nombre, String descripcion, Double latitud, Double longitud, Integer codigo,
 			Set estacioneses, Set entornosmunis) {
 		this.nombre = nombre;
 		this.descripcion = descripcion;
@@ -43,29 +43,7 @@ public class Municipios implements java.io.Serializable {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	
-	public void setLatitud(String latitud) {
-		try
-		{
-			this.latitud = Double.parseDouble(latitud.replace(",", "."));
-		}
-		catch(NumberFormatException a)
-		{
-			this.latitud = null;
-		}
-	}
 
-	public void setLongitud(String longitud) {
-		try
-		{
-			this.longitud = Double.parseDouble(longitud.replace(",", "."));
-		}
-		catch(NumberFormatException a)
-		{
-			this.longitud = null;
-		}
-	}
-	
 	public String getNombre() {
 		return this.nombre;
 	}
@@ -98,11 +76,11 @@ public class Municipios implements java.io.Serializable {
 		this.longitud = longitud;
 	}
 
-	public String getCodigo() {
+	public Integer getCodigo() {
 		return this.codigo;
 	}
 
-	public void setCodigo(String codigo) {
+	public void setCodigo(Integer codigo) {
 		this.codigo = codigo;
 	}
 
@@ -121,26 +99,5 @@ public class Municipios implements java.io.Serializable {
 	public void setEntornosmunis(Set entornosmunis) {
 		this.entornosmunis = entornosmunis;
 	}
-	
-	@Override
-	public String toString() {
-		return "Municipios [id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + ", latitud=" + latitud
-				+ ", longitud=" + longitud + ", codigo=" + codigo + ", estacioneses=" + estacioneses
-				+ ", entornosmunis=" + entornosmunis + "]";
-	}
 
-	public boolean isNull()
-	{
-		if(nombre != null)
-			return false;
-		if(descripcion != null)
-			return false;
-		if(latitud != null)
-			return false;
-		if(longitud != null)
-			return false;
-		if(codigo != null)
-			return false;
-		return true;
-	}
 }

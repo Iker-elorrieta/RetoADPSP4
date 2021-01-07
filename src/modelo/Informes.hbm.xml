@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generated Jan 3, 2021, 9:45:27 PM by Hibernate Tools 5.4.18.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 7 ene. 2021 20:38:51 by Hibernate Tools 5.4.21.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
-    <class catalog="euskalmet" dynamic-insert="false" dynamic-update="false" mutable="true" name="hiberclass.Informes" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="informes">
+    <class catalog="euskalmet" dynamic-insert="false" dynamic-update="false" mutable="true" name="modelo.Informes" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="informes">
         <id name="id" type="java.lang.Integer">
             <column name="Id"/>
             <generator class="identity"/>
         </id>
-        <many-to-one class="hiberclass.Estaciones" embed-xml="true" fetch="select" insert="true" name="estaciones" not-found="exception" optimistic-lock="true" unique="false" update="true">
+        <many-to-one class="modelo.Estaciones" embed-xml="true" fetch="select" insert="true" name="estaciones" not-found="exception" optimistic-lock="true" unique="false" update="true">
             <column name="Estacion" not-null="true"/>
         </many-to-one>
         <property generated="never" lazy="false" name="formato" optimistic-lock="true" type="string" unique="false">
@@ -19,7 +19,7 @@
             <key on-delete="noaction">
                 <column name="Informe" not-null="true"/>
             </key>
-            <one-to-many class="hiberclass.Horario" embed-xml="true" not-found="exception"/>
+            <one-to-many class="modelo.Horario" embed-xml="true" not-found="exception"/>
         </set>
     </class>
 </hibernate-mapping>
