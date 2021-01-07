@@ -9,14 +9,18 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 import javax.swing.JTextField;
+import javax.swing.JButton;
 
 public class Login extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField nombre;
 	private JTextField contrasena;
+	private VentanaCliente frame;
+	private JButton botonAcceptar;
 	
-	public Login() {
+	public Login(VentanaCliente frame) {
+		this.frame = frame;
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 507, 226);
 		contentPane = new JPanel();
@@ -43,5 +47,40 @@ public class Login extends JFrame {
 		labelContrasena.setHorizontalAlignment(SwingConstants.CENTER);
 		labelContrasena.setBounds(199, 72, 86, 22);
 		contentPane.add(labelContrasena);
+		
+		botonAcceptar = new JButton("Acceptar");
+		botonAcceptar.setBounds(199, 153, 89, 23);
+		contentPane.add(botonAcceptar);
 	}
+
+	public JFrame getSuper()
+	{
+		return frame;
+	}
+	
+	public JTextField getNombre() {
+		return nombre;
+	}
+
+	public JTextField getContrasena() {
+		return contrasena;
+	}
+	
+	public JButton getBotonAcceptar() {
+		return botonAcceptar;
+	}
+
+	public void setBotonAcceptar(JButton botonAcceptar) {
+		this.botonAcceptar = botonAcceptar;
+	}
+
+	public void setNombre(JTextField nombre) {
+		this.nombre = nombre;
+	}
+
+	public void setContrasena(JTextField contrasena) {
+		this.contrasena = contrasena;
+	}
+	
+	
 }

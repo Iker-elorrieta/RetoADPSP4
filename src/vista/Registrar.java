@@ -9,6 +9,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 import javax.swing.JTextField;
+import javax.swing.JButton;
 
 public class Registrar extends JFrame {
 
@@ -17,10 +18,13 @@ public class Registrar extends JFrame {
 	private JTextField contrasena;
 	private JTextField repetirContrasena;
 	private JTextField email;
+	private VentanaCliente frame;
+	private JButton botonAcceptar;
 	
-	public Registrar() {
+	public Registrar(VentanaCliente frame) {
+		this.frame = frame;
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
+		setBounds(100, 100, 450, 334);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -65,6 +69,56 @@ public class Registrar extends JFrame {
 		email.setColumns(10);
 		email.setBounds(152, 216, 115, 20);
 		contentPane.add(email);
+		
+		botonAcceptar = new JButton("Acceptar");
+		botonAcceptar.setBounds(162, 261, 89, 23);
+		contentPane.add(botonAcceptar);
+	}
+	
+	public JFrame getSuper()
+	{
+		return frame;
 	}
 
+	public JTextField getNombre() {
+		return nombre;
+	}
+
+	public JTextField getContrasena() {
+		return contrasena;
+	}
+
+	public JTextField getRepetirContrasena() {
+		return repetirContrasena;
+	}
+
+	public JTextField getEmail() {
+		return email;
+	}
+	
+	public JButton getBotonAcceptar() {
+		return botonAcceptar;
+	}
+
+	public void setBotonAcceptar(JButton botonAcceptar) {
+		this.botonAcceptar = botonAcceptar;
+	}
+
+	public void setNombre(JTextField nombre) {
+		this.nombre = nombre;
+	}
+
+	public void setContrasena(JTextField contrasena) {
+		this.contrasena = contrasena;
+	}
+
+	public void setRepetirContrasena(JTextField repetirContrasena) {
+		this.repetirContrasena = repetirContrasena;
+	}
+
+	public void setEmail(JTextField email) {
+		this.email = email;
+	}
+
+	
 }

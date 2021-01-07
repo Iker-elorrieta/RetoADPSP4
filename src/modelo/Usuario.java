@@ -1,12 +1,17 @@
 package modelo;
 
-public class Usuario {
+import java.io.Serializable;
 
+public class Usuario implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8354612374655264274L;
 	private String usuario;
 	private String email;
 	private String contrasena;
 	
-
 	public Usuario() {
 	}
 	public Usuario(String usuario, String email, String contrasena) {

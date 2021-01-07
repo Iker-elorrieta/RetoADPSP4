@@ -10,10 +10,14 @@ import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.JLabel;
 import javax.swing.JButton;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class VentanaCliente extends JFrame {
 
 	private JPanel contentPane;
+	private JButton botonLogin;
+	private JButton botonRegistrar;
 
 	/**
 	 * Create the frame.
@@ -27,9 +31,9 @@ public class VentanaCliente extends JFrame {
 		
 		JLabel icono = new JLabel("");
 		
-		JButton botonLogin = new JButton("Login");
+		botonLogin = new JButton("Login");
 		
-		JButton botonRegistrar = new JButton("Registrar");
+		botonRegistrar = new JButton("Registrar");
 		GroupLayout gl_contentPane = new GroupLayout(contentPane);
 		gl_contentPane.setHorizontalGroup(
 			gl_contentPane.createParallelGroup(Alignment.TRAILING)
@@ -57,5 +61,21 @@ public class VentanaCliente extends JFrame {
 					.addContainerGap(183, Short.MAX_VALUE))
 		);
 		contentPane.setLayout(gl_contentPane);
+	}
+
+	public JButton getBotonLogin() {
+		return botonLogin;
+	}
+
+	public JButton getBotonRegistrar() {
+		return botonRegistrar;
+	}
+
+	public void setBotonLogin(JButton botonLogin) {
+		this.botonLogin = botonLogin;
+	}
+
+	public void setBotonRegistrar(JButton botonRegistrar) {
+		this.botonRegistrar = botonRegistrar;
 	}
 }
