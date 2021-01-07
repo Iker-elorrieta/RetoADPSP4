@@ -47,9 +47,9 @@ import hiberclass.Informes;
 import hiberclass.Municipios;
 
 public class Principal {
-	static String[] caracteresDeSeparacion = {"-","/","|"};
 	
 	public static void main(String[] args) {
+		String[] caracteresDeSeparacion = {"-","/","|"};
 		Calendar tiempo1 = Calendar.getInstance();
 		Horario[] horario = null;
 		Entornos[] listaEspaciosNaturales = null;

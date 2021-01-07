@@ -6,22 +6,22 @@
   "NO2gm3" : "5",
   "NOXgm3" : "8",
   "O3gm3" : "66",
-  "O38hgm3" : "64",
+  "O38hgm3" : "65",
   "PM10gm3" : "5",
   "SH2gm3" : "3",
   "SO2gm3" : "6",
-  "Toluenogm3" : "0,23"
+  "Toluenogm3" : "0,22"
 }, {
   "Date" : "02/01/2021",
-  "Bencenogm3" : "1,37",
-  "MPXILENOgm3" : "0,52",
+  "Bencenogm3" : "1,34",
+  "MPXILENOgm3" : "0,5",
   "NOgm3" : "3",
-  "NO2gm3" : "8",
-  "NOXgm3" : "13",
+  "NO2gm3" : "7",
+  "NOXgm3" : "12",
   "O3gm3" : "70",
   "O38hgm3" : "70",
-  "PM10gm3" : "11",
+  "PM10gm3" : "10",
   "SH2gm3" : "3",
-  "SO2gm3" : "28",
-  "Toluenogm3" : "1,15"
+  "SO2gm3" : "27",
+  "Toluenogm3" : "1,11"
 } ]
