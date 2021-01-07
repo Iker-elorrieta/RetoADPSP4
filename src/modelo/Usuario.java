@@ -1,6 +1,16 @@
 package modelo;
 
-public class Usuario {
+
+
+public class Usuario implements java.io.Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4188035944807949080L;
+	/**
+	 * 
+	 */
 
 	private String usuario;
 	private String email;
@@ -32,6 +42,10 @@ public class Usuario {
 	}
 	public void setContrasena(String contrasena) {
 		this.contrasena = contrasena;
+	}
+	@Override
+	public String toString() {
+		return "Usuario [usuario=" + usuario + ", email=" + email + ", contrasena=" + contrasena + "]";
 	}
 	
 

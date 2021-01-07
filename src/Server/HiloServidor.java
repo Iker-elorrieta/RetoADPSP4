@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
+import modelo.Usuario;
+
 public class HiloServidor extends Thread {
 
 	JTextArea textArea = null;
@@ -14,6 +16,7 @@ public class HiloServidor extends Thread {
 	ObjectOutputStream osalida = null;
 	ObjectInputStream oentrada = null;
 	ArrayList<ObjectOutputStream> lista = null;
+	int ventana; //1-Login //2-Registro
 
 	public HiloServidor(JTextArea textArea, JTextField texto, ObjectOutputStream osalida, ObjectInputStream oentrada,
 			ArrayList<ObjectOutputStream> lista) {
@@ -22,54 +25,66 @@ public class HiloServidor extends Thread {
 		this.osalida = osalida;
 		this.oentrada = oentrada;
 		this.lista = lista;
+		
 	}
 
 	public void run() {
-
-		try {
-		String usuario  = oentrada.readUTF();
-		String contrasena = oentrada.readUTF();
+		
+		while(true) {
 	
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		String texto = "";
-		while (!texto.equals("*")) {
+		try {
 			
-				texto = (String) oentrada.readObject();
-				if (!texto.equals("*")) {
-				textArea.append(texto);
-					for (int i = 0; i < lista.size(); i++) {
-						ObjectOutputStream os = lista.get(i);
-						os.writeObject(texto);
-					}
-				}
-				else{
-					lista.remove(osalida);
-					
-				}
+		Usuario user = new Usuario();
+		
+		ventana = (int) oentrada.readObject();
+		
+		switch(ventana) {
 			
-		}
+		
+		case 1:		
 				
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+				osalida.writeObject("Has entrado al servidor desde Login");
+				user = (Usuario) oentrada.readObject();
+				System.out.println(user.toString());
+				
+				
+				
+		break;
+		
+		
+		
+		
+		case 2:
+			osalida.writeObject("Has entrado al servidor desde Registro");
+			user = (Usuario) oentrada.readObject();
+			System.out.println(user.toString());
+			
+		break;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		}
+		
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		}
+		
+		}
 
-		
-		
-		this.textoF.setText("Conexiones actuales: "+lista.size());
-		
-		
-		System.out.println("Termino recibir ser");
-
-	}
+	
 
 }
 
