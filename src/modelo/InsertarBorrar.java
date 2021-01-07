@@ -25,7 +25,7 @@ public class InsertarBorrar {
 		session.save(object);
 		tx.commit();
 //		System.out.println();
-		System.out.println("Estación insertada");
+		System.out.println("Objeto insertado");
 //		System.out.println();
 
 		return true;

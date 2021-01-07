@@ -1,5 +1,5 @@
 package modelo;
-// Generated Jan 3, 2021, 9:45:27 PM by Hibernate Tools 5.4.18.Final
+// Generated 7 ene. 2021 20:25:56 by Hibernate Tools 5.4.21.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -12,7 +12,6 @@ public class Informes implements java.io.Serializable {
 	private Integer id;
 	private Estaciones estaciones;
 	private String formato;
-	private String nombre;
 	private String url;
 	private Set horarios = new HashSet(0);
 
@@ -39,14 +38,6 @@ public class Informes implements java.io.Serializable {
 		this.id = id;
 	}
 
-	public String getNombre() {
-		return nombre;
-	}
-
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-	
 	public Estaciones getEstaciones() {
 		return this.estaciones;
 	}
@@ -79,10 +70,4 @@ public class Informes implements java.io.Serializable {
 		this.horarios = horarios;
 	}
 
-	@Override
-	public String toString() {
-		return "Informes [id=" + id + ", estaciones=" + estaciones + ", formato=" + formato + ", nombre=" + nombre
-				+ ", url=" + url + ", horarios=" + horarios + "]";
-	}
-	
 }

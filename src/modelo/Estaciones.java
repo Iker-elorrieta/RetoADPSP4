@@ -1,5 +1,5 @@
 package modelo;
-// Generated Jan 3, 2021, 9:45:27 PM by Hibernate Tools 5.4.18.Final
+// Generated 7 ene. 2021 20:25:56 by Hibernate Tools 5.4.21.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -11,7 +11,6 @@ public class Estaciones implements java.io.Serializable {
 
 	private Integer id;
 	private Municipios municipios;
-	private String municipio;
 	private String nombre;
 	private String provincia;
 	private String direccion;
@@ -50,31 +49,7 @@ public class Estaciones implements java.io.Serializable {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	
-	public void setCoordenadaX(Double coordenadaX) {
-		this.coordenadaX = coordenadaX;
-	}
 
-	public void setCoordenadaY(Double coordenadaY) {
-		this.coordenadaY = coordenadaY;
-	}
-
-	public void setLatitud(Double latitud) {
-		this.latitud = latitud;
-	}
-
-	public void setLongitud(Double longitud) {
-		this.longitud = longitud;
-	}
-
-	public String getMunicipio() {
-		return this.municipio;
-	}
-	
-	public void setMunicipio(String municipio) {
-		this.municipio = municipio;
-	}
-	
 	public Municipios getMunicipios() {
 		return this.municipios;
 	}
@@ -111,32 +86,32 @@ public class Estaciones implements java.io.Serializable {
 		return this.coordenadaX;
 	}
 
-	public void setCoordenadaX(String coordenadaX) {
-		this.coordenadaX = Double.parseDouble(coordenadaX.replace(",", "."));
+	public void setCoordenadaX(Double coordenadaX) {
+		this.coordenadaX = coordenadaX;
 	}
 
 	public Double getCoordenadaY() {
 		return this.coordenadaY;
 	}
 
-	public void setCoordenadaY(String coordenadaY) {
-		this.coordenadaY = Double.parseDouble(coordenadaY.replace(",", "."));
+	public void setCoordenadaY(Double coordenadaY) {
+		this.coordenadaY = coordenadaY;
 	}
 
 	public Double getLatitud() {
 		return this.latitud;
 	}
-	
-	public void setLatitud(String latitud) {
-		this.latitud = Double.parseDouble(latitud.replace(",", "."));
+
+	public void setLatitud(Double latitud) {
+		this.latitud = latitud;
 	}
 
 	public Double getLongitud() {
 		return this.longitud;
 	}
 
-	public void setLongitud(String longitud) {
-		this.longitud = Double.parseDouble(longitud.replace(",", "."));
+	public void setLongitud(Double longitud) {
+		this.longitud = longitud;
 	}
 
 	public Set getInformeses() {
@@ -146,30 +121,5 @@ public class Estaciones implements java.io.Serializable {
 	public void setInformeses(Set informeses) {
 		this.informeses = informeses;
 	}
-	
-	@Override
-	public String toString() {
-		return "Estaciones [id=" + id + ", municipios=" + municipios + ", nombre=" + nombre + ", provincia=" + provincia
-				+ ", direccion=" + direccion + ", coordenadaX=" + coordenadaX + ", coordenadaY=" + coordenadaY
-				+ ", latitud=" + latitud + ", longitud=" + longitud + ", informeses=" + informeses + "]";
-	}
-	
-	public boolean isNull()
-	{
-		if(nombre != null)
-			return false;
-		if(provincia != null)
-			return false;
-		if(direccion != null)
-			return false;
-		if(coordenadaX != null)
-			return false;
-		if(coordenadaY != null)
-			return false;
-		if(latitud != null)
-			return false;
-		if(longitud != null)
-			return false;
-		return true;
-	}
+
 }

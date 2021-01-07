@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generated Jan 3, 2021, 9:45:27 PM by Hibernate Tools 5.4.18.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 7 ene. 2021 20:25:56 by Hibernate Tools 5.4.21.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
-    <class catalog="euskalmet" dynamic-insert="false" dynamic-update="false" mutable="true" name="hiberclass.Horario" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="horario">
+    <class catalog="euskalmet" dynamic-insert="false" dynamic-update="false" mutable="true" name="modelo.Horario" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="horario">
         <id name="id" type="java.lang.Integer">
             <column name="Id"/>
             <generator class="identity"/>
         </id>
-        <many-to-one class="hiberclass.Informes" embed-xml="true" fetch="select" insert="true" name="informes" not-found="exception" optimistic-lock="true" unique="false" update="true">
+        <many-to-one class="modelo.Informes" embed-xml="true" fetch="select" insert="true" name="informes" not-found="exception" optimistic-lock="true" unique="false" update="true">
             <column name="Informe" not-null="true"/>
         </many-to-one>
         <property generated="never" lazy="false" name="fecha" optimistic-lock="true" type="date" unique="false">
