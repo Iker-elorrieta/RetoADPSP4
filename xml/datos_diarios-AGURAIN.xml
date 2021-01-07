@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-AGURAIN>
+    <datos_diarios-AGURAIN-1>
+        <Date>03/01/2021</Date>
+        <NOXgm3>18</NOXgm3>
+        <O3gm3>48</O3gm3>
+        <O38hgm3>51</O38hgm3>
+        <PM10gm3>5</PM10gm3>
+    </datos_diarios-AGURAIN-1>
+    <datos_diarios-AGURAIN-2>
+        <Date>02/01/2021</Date>
+        <O3gm3>70</O3gm3>
+        <O38hgm3>71</O38hgm3>
+        <PM10gm3>4</PM10gm3>
+    </datos_diarios-AGURAIN-2>
+</datos_diarios-AGURAIN>

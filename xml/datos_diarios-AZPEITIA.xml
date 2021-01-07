@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-AZPEITIA>
+    <datos_diarios-AZPEITIA-1>
+        <Date>03/01/2021</Date>
+        <NOgm3>4</NOgm3>
+        <NOXgm3>22</NOXgm3>
+        <O3gm3>32</O3gm3>
+        <O38hgm3>30</O38hgm3>
+        <PM10gm3>7</PM10gm3>
+    </datos_diarios-AZPEITIA-1>
+    <datos_diarios-AZPEITIA-2>
+        <Date>02/01/2021</Date>
+        <NOgm3>3</NOgm3>
+        <NOXgm3>18</NOXgm3>
+        <O3gm3>47</O3gm3>
+        <O38hgm3>52</O38hgm3>
+        <PM10gm3>9</PM10gm3>
+    </datos_diarios-AZPEITIA-2>
+</datos_diarios-AZPEITIA>

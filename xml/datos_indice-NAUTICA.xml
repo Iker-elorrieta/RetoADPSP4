@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_indice-NAUTICA>
+    <datos_indice-NAUTICA-1>
+        <Date>04/01/2021</Date>
+        <Hour>24:00</Hour>
+    </datos_indice-NAUTICA-1>
+    <datos_indice-NAUTICA-2>
+        <Date>04/01/2021</Date>
+        <Hour>23:00</Hour>
+    </datos_indice-NAUTICA-2>
+    <datos_indice-NAUTICA-3>
+        <Date>04/01/2021</Date>
+        <Hour>22:00</Hour>
+    </datos_indice-NAUTICA-3>
+    <datos_indice-NAUTICA-4>
+        <Date>04/01/2021</Date>
+        <Hour>21:00</Hour>
+    </datos_indice-NAUTICA-4>
+    <datos_indice-NAUTICA-5>
+        <Date>04/01/2021</Date>
+        <Hour>20:00</Hour>
+    </datos_indice-NAUTICA-5>
+    <datos_indice-NAUTICA-6>
+        <Date>04/01/2021</Date>
+        <Hour>19:00</Hour>
+        <Dviengrados>188</Dviengrados>
+        <H>88</H>
+        <PmBar>1007,2</PmBar>
+        <Vvienms>0,46</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-6>
+    <datos_indice-NAUTICA-7>
+        <Date>04/01/2021</Date>
+        <Hour>18:00</Hour>
+        <Dviengrados>287</Dviengrados>
+        <H>87</H>
+        <PmBar>1007</PmBar>
+        <Vvienms>3,85</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-7>
+    <datos_indice-NAUTICA-8>
+        <Date>04/01/2021</Date>
+        <Hour>17:00</Hour>
+        <Dviengrados>286</Dviengrados>
+        <H>82</H>
+        <PmBar>1006,3</PmBar>
+        <Vvienms>3,46</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-8>
+    <datos_indice-NAUTICA-9>
+        <Date>04/01/2021</Date>
+        <Hour>16:00</Hour>
+        <Dviengrados>277</Dviengrados>
+        <H>86</H>
+        <PmBar>1006</PmBar>
+        <Vvienms>3,02</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-9>
+    <datos_indice-NAUTICA-10>
+        <Date>04/01/2021</Date>
+        <Hour>15:00</Hour>
+        <Dviengrados>284</Dviengrados>
+        <H>86</H>
+        <PmBar>1005,8</PmBar>
+        <Vvienms>3,96</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-10>
+    <datos_indice-NAUTICA-11>
+        <Date>04/01/2021</Date>
+        <Hour>14:00</Hour>
+        <Dviengrados>278</Dviengrados>
+        <H>87</H>
+        <PmBar>1005,3</PmBar>
+        <Vvienms>4,43</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-11>
+    <datos_indice-NAUTICA-12>
+        <Date>04/01/2021</Date>
+        <Hour>13:00</Hour>
+        <Dviengrados>275</Dviengrados>
+        <H>87</H>
+        <PmBar>1005,3</PmBar>
+        <Vvienms>3,02</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-12>
+    <datos_indice-NAUTICA-13>
+        <Date>04/01/2021</Date>
+        <Hour>12:00</Hour>
+        <Dviengrados>278</Dviengrados>
+        <H>83</H>
+        <PmBar>1005,5</PmBar>
+        <Vvienms>4,2</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-13>
+    <datos_indice-NAUTICA-14>
+        <Date>04/01/2021</Date>
+        <Hour>11:00</Hour>
+        <Dviengrados>272</Dviengrados>
+        <H>80</H>
+        <PmBar>1005,3</PmBar>
+        <Vvienms>4,35</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-14>
+    <datos_indice-NAUTICA-15>
+        <Date>04/01/2021</Date>
+        <Hour>10:00</Hour>
+        <Dviengrados>272</Dviengrados>
+        <H>82</H>
+        <PmBar>1005,2</PmBar>
+        <Vvienms>3,77</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-15>
+    <datos_indice-NAUTICA-16>
+        <Date>04/01/2021</Date>
+        <Hour>09:00</Hour>
+        <Dviengrados>270</Dviengrados>
+        <H>83</H>
+        <PmBar>1004,6</PmBar>
+        <Vvienms>4,91</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-16>
+    <datos_indice-NAUTICA-17>
+        <Date>04/01/2021</Date>
+        <Hour>08:00</Hour>
+        <Dviengrados>271</Dviengrados>
+        <H>84</H>
+        <PmBar>1004,4</PmBar>
+        <Vvienms>4</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-17>
+    <datos_indice-NAUTICA-18>
+        <Date>04/01/2021</Date>
+        <Hour>07:00</Hour>
+        <Dviengrados>275</Dviengrados>
+        <H>85</H>
+        <PmBar>1004,2</PmBar>
+        <Vvienms>4,07</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-18>
+    <datos_indice-NAUTICA-19>
+        <Date>04/01/2021</Date>
+        <Hour>06:00</Hour>
+        <Dviengrados>285</Dviengrados>
+        <H>85</H>
+        <PmBar>1004,1</PmBar>
+        <Vvienms>2,83</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-19>
+    <datos_indice-NAUTICA-20>
+        <Date>04/01/2021</Date>
+        <Hour>05:00</Hour>
+        <Dviengrados>280</Dviengrados>
+        <H>81</H>
+        <PmBar>1004,2</PmBar>
+        <Vvienms>2,92</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-20>
+    <datos_indice-NAUTICA-21>
+        <Date>04/01/2021</Date>
+        <Hour>04:00</Hour>
+        <Dviengrados>283</Dviengrados>
+        <H>79</H>
+        <PmBar>1004,6</PmBar>
+        <Vvienms>3,64</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-21>
+    <datos_indice-NAUTICA-22>
+        <Date>04/01/2021</Date>
+        <Hour>03:00</Hour>
+        <Dviengrados>281</Dviengrados>
+        <H>82</H>
+        <PmBar>1005,3</PmBar>
+        <Vvienms>2,2</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-22>
+    <datos_indice-NAUTICA-23>
+        <Date>04/01/2021</Date>
+        <Hour>02:00</Hour>
+        <Dviengrados>270</Dviengrados>
+        <H>83</H>
+        <PmBar>1005,6</PmBar>
+        <Vvienms>2,7</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-23>
+    <datos_indice-NAUTICA-24>
+        <Date>04/01/2021</Date>
+        <Hour>01:00</Hour>
+        <Dviengrados>277</Dviengrados>
+        <H>81</H>
+        <PmBar>1006</PmBar>
+        <Vvienms>3,51</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-24>
+    <datos_indice-NAUTICA-25>
+        <Date>03/01/2021</Date>
+        <Hour>24:00</Hour>
+        <Dviengrados>274</Dviengrados>
+        <H>80</H>
+        <PmBar>1006,2</PmBar>
+        <Vvienms>2,74</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-25>
+    <datos_indice-NAUTICA-26>
+        <Date>03/01/2021</Date>
+        <Hour>23:00</Hour>
+        <Dviengrados>256</Dviengrados>
+        <H>82</H>
+        <PmBar>1006,8</PmBar>
+        <Vvienms>1,17</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-26>
+    <datos_indice-NAUTICA-27>
+        <Date>03/01/2021</Date>
+        <Hour>22:00</Hour>
+        <Dviengrados>270</Dviengrados>
+        <H>81</H>
+        <PmBar>1007</PmBar>
+        <Vvienms>3,31</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-27>
+    <datos_indice-NAUTICA-28>
+        <Date>03/01/2021</Date>
+        <Hour>21:00</Hour>
+        <Dviengrados>269</Dviengrados>
+        <H>80</H>
+        <PmBar>1007,1</PmBar>
+        <Vvienms>3,66</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-28>
+    <datos_indice-NAUTICA-29>
+        <Date>03/01/2021</Date>
+        <Hour>20:00</Hour>
+        <Dviengrados>274</Dviengrados>
+        <H>81</H>
+        <PmBar>1007,5</PmBar>
+        <Vvienms>3,58</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-29>
+    <datos_indice-NAUTICA-30>
+        <Date>03/01/2021</Date>
+        <Hour>19:00</Hour>
+        <Dviengrados>265</Dviengrados>
+        <H>84</H>
+        <PmBar>1007,6</PmBar>
+        <Vvienms>3,21</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-30>
+    <datos_indice-NAUTICA-31>
+        <Date>03/01/2021</Date>
+        <Hour>18:00</Hour>
+        <Dviengrados>277</Dviengrados>
+        <H>83</H>
+        <PmBar>1007,7</PmBar>
+        <Vvienms>4,16</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-31>
+    <datos_indice-NAUTICA-32>
+        <Date>03/01/2021</Date>
+        <Hour>17:00</Hour>
+        <Dviengrados>266</Dviengrados>
+        <H>83</H>
+        <PmBar>1007,5</PmBar>
+        <Vvienms>4,56</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-32>
+    <datos_indice-NAUTICA-33>
+        <Date>03/01/2021</Date>
+        <Hour>16:00</Hour>
+        <Dviengrados>267</Dviengrados>
+        <H>83</H>
+        <PmBar>1007,5</PmBar>
+        <Vvienms>4,49</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-33>
+    <datos_indice-NAUTICA-34>
+        <Date>03/01/2021</Date>
+        <Hour>15:00</Hour>
+        <Dviengrados>275</Dviengrados>
+        <H>85</H>
+        <PmBar>1007,6</PmBar>
+        <Vvienms>3,49</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-34>
+    <datos_indice-NAUTICA-35>
+        <Date>03/01/2021</Date>
+        <Hour>14:00</Hour>
+        <Dviengrados>283</Dviengrados>
+        <H>84</H>
+        <PmBar>1007,9</PmBar>
+        <Vvienms>2,59</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-35>
+    <datos_indice-NAUTICA-36>
+        <Date>03/01/2021</Date>
+        <Hour>13:00</Hour>
+        <Dviengrados>286</Dviengrados>
+        <H>83</H>
+        <PmBar>1008,4</PmBar>
+        <Vvienms>2,17</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-36>
+    <datos_indice-NAUTICA-37>
+        <Date>03/01/2021</Date>
+        <Hour>12:00</Hour>
+        <Dviengrados>254</Dviengrados>
+        <H>82</H>
+        <PmBar>1009</PmBar>
+        <Vvienms>1,5</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-37>
+    <datos_indice-NAUTICA-38>
+        <Date>03/01/2021</Date>
+        <Hour>11:00</Hour>
+        <Dviengrados>271</Dviengrados>
+        <H>89</H>
+        <PmBar>1010</PmBar>
+        <Vvienms>2,37</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-38>
+    <datos_indice-NAUTICA-39>
+        <Date>03/01/2021</Date>
+        <Hour>10:00</Hour>
+        <Dviengrados>269</Dviengrados>
+        <H>87</H>
+        <PmBar>1010</PmBar>
+        <Vvienms>3,03</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-39>
+    <datos_indice-NAUTICA-40>
+        <Date>03/01/2021</Date>
+        <Hour>09:00</Hour>
+        <Dviengrados>162</Dviengrados>
+        <H>92</H>
+        <PmBar>1009,7</PmBar>
+        <Vvienms>1,27</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-40>
+    <datos_indice-NAUTICA-41>
+        <Date>03/01/2021</Date>
+        <Hour>08:00</Hour>
+        <Dviengrados>166</Dviengrados>
+        <H>92</H>
+        <PmBar>1009,8</PmBar>
+        <Vvienms>1,85</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-41>
+    <datos_indice-NAUTICA-42>
+        <Date>03/01/2021</Date>
+        <Hour>07:00</Hour>
+        <Dviengrados>147</Dviengrados>
+        <H>94</H>
+        <PmBar>1009,9</PmBar>
+        <Vvienms>2,16</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-42>
+    <datos_indice-NAUTICA-43>
+        <Date>03/01/2021</Date>
+        <Hour>06:00</Hour>
+        <Dviengrados>147</Dviengrados>
+        <H>94</H>
+        <PmBar>1009,9</PmBar>
+        <Vvienms>2,45</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-43>
+    <datos_indice-NAUTICA-44>
+        <Date>03/01/2021</Date>
+        <Hour>05:00</Hour>
+        <Dviengrados>164</Dviengrados>
+        <H>93</H>
+        <PmBar>1010,6</PmBar>
+        <Vvienms>1,79</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-44>
+    <datos_indice-NAUTICA-45>
+        <Date>03/01/2021</Date>
+        <Hour>04:00</Hour>
+        <Dviengrados>158</Dviengrados>
+        <H>92</H>
+        <PmBar>1010,9</PmBar>
+        <Vvienms>2,54</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-45>
+    <datos_indice-NAUTICA-46>
+        <Date>03/01/2021</Date>
+        <Hour>03:00</Hour>
+        <Dviengrados>152</Dviengrados>
+        <H>92</H>
+        <PmBar>1011,6</PmBar>
+        <Vvienms>2,76</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-46>
+    <datos_indice-NAUTICA-47>
+        <Date>03/01/2021</Date>
+        <Hour>02:00</Hour>
+        <Dviengrados>140</Dviengrados>
+        <H>92</H>
+        <PmBar>1011,7</PmBar>
+        <Vvienms>1,99</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-47>
+    <datos_indice-NAUTICA-48>
+        <Date>03/01/2021</Date>
+        <Hour>01:00</Hour>
+        <Dviengrados>172</Dviengrados>
+        <H>93</H>
+        <PmBar>1012,3</PmBar>
+        <Vvienms>1,55</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-NAUTICA-48>
+</datos_indice-NAUTICA>

@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_indice-ABANTO>
+    <datos_indice-ABANTO-1>
+        <Date>04/01/2021</Date>
+        <Hour>24:00</Hour>
+    </datos_indice-ABANTO-1>
+    <datos_indice-ABANTO-2>
+        <Date>04/01/2021</Date>
+        <Hour>23:00</Hour>
+    </datos_indice-ABANTO-2>
+    <datos_indice-ABANTO-3>
+        <Date>04/01/2021</Date>
+        <Hour>22:00</Hour>
+    </datos_indice-ABANTO-3>
+    <datos_indice-ABANTO-4>
+        <Date>04/01/2021</Date>
+        <Hour>21:00</Hour>
+    </datos_indice-ABANTO-4>
+    <datos_indice-ABANTO-5>
+        <Date>04/01/2021</Date>
+        <Hour>20:00</Hour>
+    </datos_indice-ABANTO-5>
+    <datos_indice-ABANTO-6>
+        <Date>04/01/2021</Date>
+        <Hour>19:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>13</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <PM10>2,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>285</Dviengrados>
+        <H>90</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>3,1</TC>
+        <Vvienms>2,22</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-6>
+    <datos_indice-ABANTO-7>
+        <Date>04/01/2021</Date>
+        <Hour>18:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>14</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>15</NOXgm3>
+        <PM10>2,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>277</Dviengrados>
+        <H>91</H>
+        <Precipitacionlm2>0,7</Precipitacionlm2>
+        <TC>3,1</TC>
+        <Vvienms>4,11</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-7>
+    <datos_indice-ABANTO-8>
+        <Date>04/01/2021</Date>
+        <Hour>17:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>18</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>19</NOXgm3>
+        <PM10>2,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>284</Dviengrados>
+        <H>88</H>
+        <Precipitacionlm2>0,4</Precipitacionlm2>
+        <TC>3,7</TC>
+        <Vvienms>2,78</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-8>
+    <datos_indice-ABANTO-9>
+        <Date>04/01/2021</Date>
+        <Hour>16:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>12</NOXgm3>
+        <PM10>2,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>282</Dviengrados>
+        <H>89</H>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <TC>3,8</TC>
+        <Vvienms>3,06</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-9>
+    <datos_indice-ABANTO-10>
+        <Date>04/01/2021</Date>
+        <Hour>15:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>14</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>15</NOXgm3>
+        <PM10>2,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>286</Dviengrados>
+        <H>90</H>
+        <Precipitacionlm2>0,4</Precipitacionlm2>
+        <TC>3,7</TC>
+        <Vvienms>4,32</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-10>
+    <datos_indice-ABANTO-11>
+        <Date>04/01/2021</Date>
+        <Hour>14:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>13</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>14</NOXgm3>
+        <PM10>2,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>282</Dviengrados>
+        <H>92</H>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <TC>3,6</TC>
+        <Vvienms>3,09</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-11>
+    <datos_indice-ABANTO-12>
+        <Date>04/01/2021</Date>
+        <Hour>13:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>8</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>9</NOXgm3>
+        <PM10>2,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>281</Dviengrados>
+        <H>90</H>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <TC>3,5</TC>
+        <Vvienms>3,47</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-12>
+    <datos_indice-ABANTO-13>
+        <Date>04/01/2021</Date>
+        <Hour>12:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>8</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>10</NOXgm3>
+        <PM10>2,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>284</Dviengrados>
+        <H>87</H>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <TC>3,9</TC>
+        <Vvienms>4,08</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-13>
+    <datos_indice-ABANTO-14>
+        <Date>04/01/2021</Date>
+        <Hour>11:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>6</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <PM10>2,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>282</Dviengrados>
+        <H>85</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>4,3</TC>
+        <Vvienms>4,32</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-14>
+    <datos_indice-ABANTO-15>
+        <Date>04/01/2021</Date>
+        <Hour>10:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>8</NOXgm3>
+        <PM10>2,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>282</Dviengrados>
+        <H>85</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>4,3</TC>
+        <Vvienms>3,79</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-15>
+    <datos_indice-ABANTO-16>
+        <Date>04/01/2021</Date>
+        <Hour>09:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>6</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <PM10>2,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>280</Dviengrados>
+        <H>86</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>3,8</TC>
+        <Vvienms>3,84</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-16>
+    <datos_indice-ABANTO-17>
+        <Date>04/01/2021</Date>
+        <Hour>08:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>6</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <PM10>2,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>284</Dviengrados>
+        <H>87</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>3,3</TC>
+        <Vvienms>4,77</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-17>
+    <datos_indice-ABANTO-18>
+        <Date>04/01/2021</Date>
+        <Hour>07:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <PM10>2,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>284</Dviengrados>
+        <H>88</H>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <TC>3,4</TC>
+        <Vvienms>4,11</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-18>
+    <datos_indice-ABANTO-19>
+        <Date>04/01/2021</Date>
+        <Hour>06:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <PM10>2,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>286</Dviengrados>
+        <H>89</H>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <TC>3,2</TC>
+        <Vvienms>4,04</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-19>
+    <datos_indice-ABANTO-20>
+        <Date>04/01/2021</Date>
+        <Hour>05:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>3</NOXgm3>
+        <PM10>2,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>278</Dviengrados>
+        <H>85</H>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <TC>3,5</TC>
+        <Vvienms>2,9</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-20>
+    <datos_indice-ABANTO-21>
+        <Date>04/01/2021</Date>
+        <Hour>04:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>2</NOXgm3>
+        <PM10>2,46</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>261</Dviengrados>
+        <H>83</H>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <TC>3,7</TC>
+        <Vvienms>3,49</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-21>
+    <datos_indice-ABANTO-22>
+        <Date>04/01/2021</Date>
+        <Hour>03:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>2</NOXgm3>
+        <PM10>2,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>261</Dviengrados>
+        <H>86</H>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <TC>3,3</TC>
+        <Vvienms>3,17</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-22>
+    <datos_indice-ABANTO-23>
+        <Date>04/01/2021</Date>
+        <Hour>02:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>2</NOXgm3>
+        <PM10>2,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>272</Dviengrados>
+        <H>87</H>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <TC>3,3</TC>
+        <Vvienms>2,55</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-23>
+    <datos_indice-ABANTO-24>
+        <Date>04/01/2021</Date>
+        <Hour>01:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>2</NOXgm3>
+        <PM10>2,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>280</Dviengrados>
+        <H>86</H>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <TC>3,6</TC>
+        <Vvienms>3,13</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-24>
+    <datos_indice-ABANTO-25>
+        <Date>03/01/2021</Date>
+        <Hour>24:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>2</NOXgm3>
+        <PM10>2,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>285</Dviengrados>
+        <H>85</H>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <TC>3,6</TC>
+        <Vvienms>3,03</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-25>
+    <datos_indice-ABANTO-26>
+        <Date>03/01/2021</Date>
+        <Hour>23:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <PM10>2,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>286</Dviengrados>
+        <H>86</H>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <TC>3,6</TC>
+        <Vvienms>2,37</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-26>
+    <datos_indice-ABANTO-27>
+        <Date>03/01/2021</Date>
+        <Hour>22:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <PM10>2,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>0</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>283</Dviengrados>
+        <H>86</H>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <TC>3,6</TC>
+        <Vvienms>3,13</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-27>
+    <datos_indice-ABANTO-28>
+        <Date>03/01/2021</Date>
+        <Hour>21:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <PM10>2,75</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>289</Dviengrados>
+        <H>85</H>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <TC>3,8</TC>
+        <Vvienms>3,06</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-28>
+    <datos_indice-ABANTO-29>
+        <Date>03/01/2021</Date>
+        <Hour>20:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <PM10>2,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>280</Dviengrados>
+        <H>86</H>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <TC>3,7</TC>
+        <Vvienms>3,14</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-29>
+    <datos_indice-ABANTO-30>
+        <Date>03/01/2021</Date>
+        <Hour>19:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <PM10>2,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>278</Dviengrados>
+        <H>88</H>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <TC>3,5</TC>
+        <Vvienms>2,61</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-30>
+    <datos_indice-ABANTO-31>
+        <Date>03/01/2021</Date>
+        <Hour>18:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <PM10>2,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>285</Dviengrados>
+        <H>87</H>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <TC>3,5</TC>
+        <Vvienms>3,53</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-31>
+    <datos_indice-ABANTO-32>
+        <Date>03/01/2021</Date>
+        <Hour>17:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <PM10>2,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>282</Dviengrados>
+        <H>87</H>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <TC>3,5</TC>
+        <Vvienms>3,45</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-32>
+    <datos_indice-ABANTO-33>
+        <Date>03/01/2021</Date>
+        <Hour>16:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <PM10>3</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>275</Dviengrados>
+        <H>87</H>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <TC>3,8</TC>
+        <Vvienms>3,03</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-33>
+    <datos_indice-ABANTO-34>
+        <Date>03/01/2021</Date>
+        <Hour>15:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>6</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <PM10>3,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>286</Dviengrados>
+        <H>89</H>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <TC>4,4</TC>
+        <Vvienms>2,72</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-34>
+    <datos_indice-ABANTO-35>
+        <Date>03/01/2021</Date>
+        <Hour>14:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <PM10>3,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>284</Dviengrados>
+        <H>88</H>
+        <Precipitacionlm2>0,4</Precipitacionlm2>
+        <TC>4,7</TC>
+        <Vvienms>2,95</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-35>
+    <datos_indice-ABANTO-36>
+        <Date>03/01/2021</Date>
+        <Hour>13:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>9</NOXgm3>
+        <PM10>3,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>280</Dviengrados>
+        <H>87</H>
+        <Precipitacionlm2>0,5</Precipitacionlm2>
+        <TC>4,7</TC>
+        <Vvienms>1,89</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-36>
+    <datos_indice-ABANTO-37>
+        <Date>03/01/2021</Date>
+        <Hour>12:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <PM10>3,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>280</Dviengrados>
+        <H>85</H>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <TC>5</TC>
+        <Vvienms>2,87</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-37>
+    <datos_indice-ABANTO-38>
+        <Date>03/01/2021</Date>
+        <Hour>11:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>8</NOXgm3>
+        <PM10>3,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>278</Dviengrados>
+        <H>91</H>
+        <Precipitacionlm2>1</Precipitacionlm2>
+        <TC>3,7</TC>
+        <Vvienms>2,15</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-38>
+    <datos_indice-ABANTO-39>
+        <Date>03/01/2021</Date>
+        <Hour>10:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <PM10>3,75</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>277</Dviengrados>
+        <H>88</H>
+        <Precipitacionlm2>0,5</Precipitacionlm2>
+        <TC>3,9</TC>
+        <Vvienms>2,51</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-39>
+    <datos_indice-ABANTO-40>
+        <Date>03/01/2021</Date>
+        <Hour>09:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>3</NOXgm3>
+        <PM10>3,96</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>289</Dviengrados>
+        <H>84</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>4,2</TC>
+        <Vvienms>4,32</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-40>
+    <datos_indice-ABANTO-41>
+        <Date>03/01/2021</Date>
+        <Hour>08:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <PM10>4,08</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>288</Dviengrados>
+        <H>86</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>4</TC>
+        <Vvienms>3,76</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-41>
+    <datos_indice-ABANTO-42>
+        <Date>03/01/2021</Date>
+        <Hour>07:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <PM10>4,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>282</Dviengrados>
+        <H>85</H>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <TC>4,3</TC>
+        <Vvienms>3,28</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-42>
+    <datos_indice-ABANTO-43>
+        <Date>03/01/2021</Date>
+        <Hour>06:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <PM10>4,54</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>285</Dviengrados>
+        <H>88</H>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <TC>4,2</TC>
+        <Vvienms>3,01</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-43>
+    <datos_indice-ABANTO-44>
+        <Date>03/01/2021</Date>
+        <Hour>05:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>17</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>17</NOXgm3>
+        <PM10>4,92</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>266</Dviengrados>
+        <H>94</H>
+        <Precipitacionlm2>0,5</Precipitacionlm2>
+        <TC>3,5</TC>
+        <Vvienms>0,6</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-44>
+    <datos_indice-ABANTO-45>
+        <Date>03/01/2021</Date>
+        <Hour>04:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>22</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>22</NOXgm3>
+        <PM10>5,17</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>77</Dviengrados>
+        <H>95</H>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <TC>3</TC>
+        <Vvienms>0,86</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-45>
+    <datos_indice-ABANTO-46>
+        <Date>03/01/2021</Date>
+        <Hour>03:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>14</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>14</NOXgm3>
+        <PM10>5,08</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>105</Dviengrados>
+        <H>93</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>3,2</TC>
+        <Vvienms>1,55</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-46>
+    <datos_indice-ABANTO-47>
+        <Date>03/01/2021</Date>
+        <Hour>02:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>8</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>8</NOXgm3>
+        <PM10>5,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>292</Dviengrados>
+        <H>91</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>3,3</TC>
+        <Vvienms>1,93</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-47>
+    <datos_indice-ABANTO-48>
+        <Date>03/01/2021</Date>
+        <Hour>01:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>11</NOXgm3>
+        <PM10>5,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>101</Dviengrados>
+        <H>93</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>3,7</TC>
+        <Vvienms>1,05</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ABANTO-48>
+</datos_indice-ABANTO>

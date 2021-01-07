@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-MUSKIZ>
+    <datos_diarios-MUSKIZ-1>
+        <Date>03/01/2021</Date>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>5</NOXgm3>
+        <O3gm3>62</O3gm3>
+        <O38hgm3>61</O38hgm3>
+        <PM10gm3>2</PM10gm3>
+        <SH2gm3>1</SH2gm3>
+        <SO2gm3>3</SO2gm3>
+    </datos_diarios-MUSKIZ-1>
+    <datos_diarios-MUSKIZ-2>
+        <Date>02/01/2021</Date>
+        <NOgm3>1</NOgm3>
+        <NOXgm3>9</NOXgm3>
+        <O3gm3>68</O3gm3>
+        <O38hgm3>70</O38hgm3>
+        <PM10gm3>9</PM10gm3>
+        <SH2gm3>1</SH2gm3>
+        <SO2gm3>5</SO2gm3>
+    </datos_diarios-MUSKIZ-2>
+</datos_diarios-MUSKIZ>

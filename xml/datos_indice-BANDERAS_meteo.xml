@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_indice-BANDERAS_meteo>
+    <datos_indice-BANDERAS_meteo-1>
+        <Date>04/01/2021</Date>
+        <Hour>24:00</Hour>
+    </datos_indice-BANDERAS_meteo-1>
+    <datos_indice-BANDERAS_meteo-2>
+        <Date>04/01/2021</Date>
+        <Hour>23:00</Hour>
+    </datos_indice-BANDERAS_meteo-2>
+    <datos_indice-BANDERAS_meteo-3>
+        <Date>04/01/2021</Date>
+        <Hour>22:00</Hour>
+    </datos_indice-BANDERAS_meteo-3>
+    <datos_indice-BANDERAS_meteo-4>
+        <Date>04/01/2021</Date>
+        <Hour>21:00</Hour>
+    </datos_indice-BANDERAS_meteo-4>
+    <datos_indice-BANDERAS_meteo-5>
+        <Date>04/01/2021</Date>
+        <Hour>20:00</Hour>
+    </datos_indice-BANDERAS_meteo-5>
+    <datos_indice-BANDERAS_meteo-6>
+        <Date>04/01/2021</Date>
+        <Hour>19:00</Hour>
+        <Dviengrados>238</Dviengrados>
+        <H>94</H>
+        <TC>2</TC>
+        <Vvienms>1,44</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-6>
+    <datos_indice-BANDERAS_meteo-7>
+        <Date>04/01/2021</Date>
+        <Hour>18:00</Hour>
+        <Dviengrados>270</Dviengrados>
+        <H>93</H>
+        <TC>2</TC>
+        <Vvienms>4,02</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-7>
+    <datos_indice-BANDERAS_meteo-8>
+        <Date>04/01/2021</Date>
+        <Hour>17:00</Hour>
+        <Dviengrados>277</Dviengrados>
+        <H>90</H>
+        <TC>3,1</TC>
+        <Vvienms>1,05</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-8>
+    <datos_indice-BANDERAS_meteo-9>
+        <Date>04/01/2021</Date>
+        <Hour>16:00</Hour>
+        <Dviengrados>250</Dviengrados>
+        <H>93</H>
+        <TC>2,6</TC>
+        <Vvienms>3,99</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-9>
+    <datos_indice-BANDERAS_meteo-10>
+        <Date>04/01/2021</Date>
+        <Hour>15:00</Hour>
+        <Dviengrados>266</Dviengrados>
+        <H>93</H>
+        <TC>2,9</TC>
+        <Vvienms>5,88</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-10>
+    <datos_indice-BANDERAS_meteo-11>
+        <Date>04/01/2021</Date>
+        <Hour>14:00</Hour>
+        <Dviengrados>275</Dviengrados>
+        <H>93</H>
+        <TC>2,8</TC>
+        <Vvienms>5,15</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-11>
+    <datos_indice-BANDERAS_meteo-12>
+        <Date>04/01/2021</Date>
+        <Hour>13:00</Hour>
+        <Dviengrados>258</Dviengrados>
+        <H>90</H>
+        <TC>3</TC>
+        <Vvienms>5,72</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-12>
+    <datos_indice-BANDERAS_meteo-13>
+        <Date>04/01/2021</Date>
+        <Hour>12:00</Hour>
+        <Dviengrados>247</Dviengrados>
+        <H>88</H>
+        <TC>3,6</TC>
+        <Vvienms>7,46</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-13>
+    <datos_indice-BANDERAS_meteo-14>
+        <Date>04/01/2021</Date>
+        <Hour>11:00</Hour>
+        <Dviengrados>232</Dviengrados>
+        <H>87</H>
+        <TC>3,7</TC>
+        <Vvienms>7,85</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-14>
+    <datos_indice-BANDERAS_meteo-15>
+        <Date>04/01/2021</Date>
+        <Hour>10:00</Hour>
+        <Dviengrados>236</Dviengrados>
+        <H>88</H>
+        <TC>3,3</TC>
+        <Vvienms>6,51</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-15>
+    <datos_indice-BANDERAS_meteo-16>
+        <Date>04/01/2021</Date>
+        <Hour>09:00</Hour>
+        <Dviengrados>231</Dviengrados>
+        <H>88</H>
+        <TC>2,9</TC>
+        <Vvienms>7,06</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-16>
+    <datos_indice-BANDERAS_meteo-17>
+        <Date>04/01/2021</Date>
+        <Hour>08:00</Hour>
+        <Dviengrados>232</Dviengrados>
+        <H>89</H>
+        <TC>2,5</TC>
+        <Vvienms>7,08</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-17>
+    <datos_indice-BANDERAS_meteo-18>
+        <Date>04/01/2021</Date>
+        <Hour>07:00</Hour>
+        <Dviengrados>224</Dviengrados>
+        <H>90</H>
+        <TC>2,4</TC>
+        <Vvienms>4,73</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-18>
+    <datos_indice-BANDERAS_meteo-19>
+        <Date>04/01/2021</Date>
+        <Hour>06:00</Hour>
+        <Dviengrados>224</Dviengrados>
+        <H>89</H>
+        <TC>2,5</TC>
+        <Vvienms>5,86</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-19>
+    <datos_indice-BANDERAS_meteo-20>
+        <Date>04/01/2021</Date>
+        <Hour>05:00</Hour>
+        <Dviengrados>214</Dviengrados>
+        <H>88</H>
+        <TC>2,6</TC>
+        <Vvienms>7,59</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-20>
+    <datos_indice-BANDERAS_meteo-21>
+        <Date>04/01/2021</Date>
+        <Hour>04:00</Hour>
+        <Dviengrados>215</Dviengrados>
+        <H>88</H>
+        <TC>2,7</TC>
+        <Vvienms>8,51</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-21>
+    <datos_indice-BANDERAS_meteo-22>
+        <Date>04/01/2021</Date>
+        <Hour>03:00</Hour>
+        <Dviengrados>215</Dviengrados>
+        <H>88</H>
+        <TC>2,6</TC>
+        <Vvienms>8,12</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-22>
+    <datos_indice-BANDERAS_meteo-23>
+        <Date>04/01/2021</Date>
+        <Hour>02:00</Hour>
+        <Dviengrados>224</Dviengrados>
+        <H>88</H>
+        <TC>2,7</TC>
+        <Vvienms>5,97</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-23>
+    <datos_indice-BANDERAS_meteo-24>
+        <Date>04/01/2021</Date>
+        <Hour>01:00</Hour>
+        <Dviengrados>229</Dviengrados>
+        <H>85</H>
+        <TC>3,3</TC>
+        <Vvienms>7,92</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-24>
+    <datos_indice-BANDERAS_meteo-25>
+        <Date>03/01/2021</Date>
+        <Hour>24:00</Hour>
+        <Dviengrados>219</Dviengrados>
+        <H>83</H>
+        <TC>3,6</TC>
+        <Vvienms>6,31</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-25>
+    <datos_indice-BANDERAS_meteo-26>
+        <Date>03/01/2021</Date>
+        <Hour>23:00</Hour>
+        <Dviengrados>214</Dviengrados>
+        <H>85</H>
+        <TC>3,3</TC>
+        <Vvienms>4,75</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-26>
+    <datos_indice-BANDERAS_meteo-27>
+        <Date>03/01/2021</Date>
+        <Hour>22:00</Hour>
+        <Dviengrados>226</Dviengrados>
+        <H>87</H>
+        <TC>3,1</TC>
+        <Vvienms>6,37</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-27>
+    <datos_indice-BANDERAS_meteo-28>
+        <Date>03/01/2021</Date>
+        <Hour>21:00</Hour>
+        <Dviengrados>221</Dviengrados>
+        <H>87</H>
+        <TC>3,2</TC>
+        <Vvienms>5,49</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-28>
+    <datos_indice-BANDERAS_meteo-29>
+        <Date>03/01/2021</Date>
+        <Hour>20:00</Hour>
+        <Dviengrados>230</Dviengrados>
+        <H>86</H>
+        <TC>3,4</TC>
+        <Vvienms>4,78</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-29>
+    <datos_indice-BANDERAS_meteo-30>
+        <Date>03/01/2021</Date>
+        <Hour>19:00</Hour>
+        <Dviengrados>240</Dviengrados>
+        <H>88</H>
+        <TC>3,1</TC>
+        <Vvienms>4,45</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-30>
+    <datos_indice-BANDERAS_meteo-31>
+        <Date>03/01/2021</Date>
+        <Hour>18:00</Hour>
+        <Dviengrados>230</Dviengrados>
+        <H>88</H>
+        <TC>3,2</TC>
+        <Vvienms>5,08</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-31>
+    <datos_indice-BANDERAS_meteo-32>
+        <Date>03/01/2021</Date>
+        <Hour>17:00</Hour>
+        <Dviengrados>233</Dviengrados>
+        <H>88</H>
+        <TC>3,3</TC>
+        <Vvienms>7,16</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-32>
+    <datos_indice-BANDERAS_meteo-33>
+        <Date>03/01/2021</Date>
+        <Hour>16:00</Hour>
+        <Dviengrados>233</Dviengrados>
+        <H>88</H>
+        <TC>3,6</TC>
+        <Vvienms>8</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-33>
+    <datos_indice-BANDERAS_meteo-34>
+        <Date>03/01/2021</Date>
+        <Hour>15:00</Hour>
+        <Dviengrados>242</Dviengrados>
+        <H>89</H>
+        <TC>3,9</TC>
+        <Vvienms>4,89</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-34>
+    <datos_indice-BANDERAS_meteo-35>
+        <Date>03/01/2021</Date>
+        <Hour>14:00</Hour>
+        <Dviengrados>237</Dviengrados>
+        <H>88</H>
+        <TC>3,9</TC>
+        <Vvienms>5,29</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-35>
+    <datos_indice-BANDERAS_meteo-36>
+        <Date>03/01/2021</Date>
+        <Hour>13:00</Hour>
+        <Dviengrados>228</Dviengrados>
+        <H>87</H>
+        <TC>4,1</TC>
+        <Vvienms>4,02</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-36>
+    <datos_indice-BANDERAS_meteo-37>
+        <Date>03/01/2021</Date>
+        <Hour>12:00</Hour>
+        <Dviengrados>210</Dviengrados>
+        <H>88</H>
+        <TC>3,6</TC>
+        <Vvienms>4,68</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-37>
+    <datos_indice-BANDERAS_meteo-38>
+        <Date>03/01/2021</Date>
+        <Hour>11:00</Hour>
+        <Dviengrados>240</Dviengrados>
+        <H>90</H>
+        <TC>3,2</TC>
+        <Vvienms>4,65</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-38>
+    <datos_indice-BANDERAS_meteo-39>
+        <Date>03/01/2021</Date>
+        <Hour>10:00</Hour>
+        <Dviengrados>227</Dviengrados>
+        <H>88</H>
+        <TC>3,4</TC>
+        <Vvienms>5,81</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-39>
+    <datos_indice-BANDERAS_meteo-40>
+        <Date>03/01/2021</Date>
+        <Hour>09:00</Hour>
+        <Dviengrados>218</Dviengrados>
+        <H>88</H>
+        <TC>3,2</TC>
+        <Vvienms>5,74</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-40>
+    <datos_indice-BANDERAS_meteo-41>
+        <Date>03/01/2021</Date>
+        <Hour>08:00</Hour>
+        <Dviengrados>210</Dviengrados>
+        <H>90</H>
+        <TC>2,7</TC>
+        <Vvienms>4,07</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-41>
+    <datos_indice-BANDERAS_meteo-42>
+        <Date>03/01/2021</Date>
+        <Hour>07:00</Hour>
+        <Dviengrados>210</Dviengrados>
+        <H>91</H>
+        <TC>2,8</TC>
+        <Vvienms>4,61</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-42>
+    <datos_indice-BANDERAS_meteo-43>
+        <Date>03/01/2021</Date>
+        <Hour>06:00</Hour>
+        <Dviengrados>203</Dviengrados>
+        <H>91</H>
+        <TC>3</TC>
+        <Vvienms>2,46</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-43>
+    <datos_indice-BANDERAS_meteo-44>
+        <Date>03/01/2021</Date>
+        <Hour>05:00</Hour>
+        <Dviengrados>214</Dviengrados>
+        <H>92</H>
+        <TC>2,9</TC>
+        <Vvienms>2,5</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-44>
+    <datos_indice-BANDERAS_meteo-45>
+        <Date>03/01/2021</Date>
+        <Hour>04:00</Hour>
+        <Dviengrados>144</Dviengrados>
+        <H>93</H>
+        <TC>2,4</TC>
+        <Vvienms>1,89</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-45>
+    <datos_indice-BANDERAS_meteo-46>
+        <Date>03/01/2021</Date>
+        <Hour>03:00</Hour>
+        <Dviengrados>119</Dviengrados>
+        <H>93</H>
+        <TC>2,3</TC>
+        <Vvienms>2,8</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-46>
+    <datos_indice-BANDERAS_meteo-47>
+        <Date>03/01/2021</Date>
+        <Hour>02:00</Hour>
+        <Dviengrados>188</Dviengrados>
+        <H>92</H>
+        <TC>2,6</TC>
+        <Vvienms>1,5</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-47>
+    <datos_indice-BANDERAS_meteo-48>
+        <Date>03/01/2021</Date>
+        <Hour>01:00</Hour>
+        <Dviengrados>208</Dviengrados>
+        <H>92</H>
+        <TC>2,8</TC>
+        <Vvienms>2,07</Vvienms>
+        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
+    </datos_indice-BANDERAS_meteo-48>
+</datos_indice-BANDERAS_meteo>

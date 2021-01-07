@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-LOS_HERRAN>
+    <datos_diarios-LOS_HERRAN-1>
+        <Date>03/01/2021</Date>
+        <NOgm3>2</NOgm3>
+        <NOXgm3>14</NOXgm3>
+        <PM10gm3>4</PM10gm3>
+        <PM25gm3>4</PM25gm3>
+    </datos_diarios-LOS_HERRAN-1>
+    <datos_diarios-LOS_HERRAN-2>
+        <Date>02/01/2021</Date>
+        <NOgm3>3</NOgm3>
+        <NOXgm3>19</NOXgm3>
+        <PM10gm3>7</PM10gm3>
+        <PM25gm3>6</PM25gm3>
+    </datos_diarios-LOS_HERRAN-2>
+</datos_diarios-LOS_HERRAN>

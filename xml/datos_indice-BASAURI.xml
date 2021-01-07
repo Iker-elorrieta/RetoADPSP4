@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_indice-BASAURI>
+    <datos_indice-BASAURI-1>
+        <Date>04/01/2021</Date>
+        <Hour>24:00</Hour>
+    </datos_indice-BASAURI-1>
+    <datos_indice-BASAURI-2>
+        <Date>04/01/2021</Date>
+        <Hour>23:00</Hour>
+    </datos_indice-BASAURI-2>
+    <datos_indice-BASAURI-3>
+        <Date>04/01/2021</Date>
+        <Hour>22:00</Hour>
+    </datos_indice-BASAURI-3>
+    <datos_indice-BASAURI-4>
+        <Date>04/01/2021</Date>
+        <Hour>21:00</Hour>
+    </datos_indice-BASAURI-4>
+    <datos_indice-BASAURI-5>
+        <Date>04/01/2021</Date>
+        <Hour>20:00</Hour>
+    </datos_indice-BASAURI-5>
+    <datos_indice-BASAURI-6>
+        <Date>04/01/2021</Date>
+        <Hour>19:00</Hour>
+        <NO2ICA>Sin datos / Daturik gabe</NO2ICA>
+        <PM10>3,65</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2ICA>Sin datos / Daturik gabe</SO2ICA>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-6>
+    <datos_indice-BASAURI-7>
+        <Date>04/01/2021</Date>
+        <Hour>18:00</Hour>
+        <NO2ICA>Sin datos / Daturik gabe</NO2ICA>
+        <PM10>3,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2ICA>Sin datos / Daturik gabe</SO2ICA>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-7>
+    <datos_indice-BASAURI-8>
+        <Date>04/01/2021</Date>
+        <Hour>17:00</Hour>
+        <NO2ICA>Sin datos / Daturik gabe</NO2ICA>
+        <PM10>3,59</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2ICA>Sin datos / Daturik gabe</SO2ICA>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-8>
+    <datos_indice-BASAURI-9>
+        <Date>04/01/2021</Date>
+        <Hour>16:00</Hour>
+        <NO2ICA>Sin datos / Daturik gabe</NO2ICA>
+        <PM10>3,52</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2ICA>Sin datos / Daturik gabe</SO2ICA>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-9>
+    <datos_indice-BASAURI-10>
+        <Date>04/01/2021</Date>
+        <Hour>15:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>28</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>30</NOXgm3>
+        <PM10>3,46</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>285</Dviengrados>
+        <H>88</H>
+        <PmBar>997,8</PmBar>
+        <Rwm2>28,7</Rwm2>
+        <TC>4,9</TC>
+        <Vvienms>0,5</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-10>
+    <datos_indice-BASAURI-11>
+        <Date>04/01/2021</Date>
+        <Hour>14:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>20</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>21</NOXgm3>
+        <PM10>3,54</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>283</Dviengrados>
+        <H>87</H>
+        <PmBar>997,4</PmBar>
+        <Rwm2>39,5</Rwm2>
+        <TC>4,4</TC>
+        <Vvienms>1,84</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-11>
+    <datos_indice-BASAURI-12>
+        <Date>04/01/2021</Date>
+        <Hour>13:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>16</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>17</NOXgm3>
+        <PM10>3,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>285</Dviengrados>
+        <H>83</H>
+        <PmBar>997,2</PmBar>
+        <Rwm2>102,4</Rwm2>
+        <TC>5,1</TC>
+        <Vvienms>1,93</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-12>
+    <datos_indice-BASAURI-13>
+        <Date>04/01/2021</Date>
+        <Hour>12:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>11</NOXgm3>
+        <PM10>3,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>271</Dviengrados>
+        <H>77</H>
+        <PmBar>997,2</PmBar>
+        <Rwm2>103,8</Rwm2>
+        <TC>5,8</TC>
+        <Vvienms>2</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-13>
+    <datos_indice-BASAURI-14>
+        <Date>04/01/2021</Date>
+        <Hour>11:00</Hour>
+        <NOgm3>8</NOgm3>
+        <NO2>40</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>52</NOXgm3>
+        <PM10>3,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>178</Dviengrados>
+        <H>82</H>
+        <PmBar>997,4</PmBar>
+        <Rwm2>86,5</Rwm2>
+        <TC>5,2</TC>
+        <Vvienms>0,78</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-14>
+    <datos_indice-BASAURI-15>
+        <Date>04/01/2021</Date>
+        <Hour>10:00</Hour>
+        <NOgm3>8</NOgm3>
+        <NO2>49</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>61</NOXgm3>
+        <PM10>3,75</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>163</Dviengrados>
+        <H>87</H>
+        <PmBar>997,2</PmBar>
+        <Rwm2>82,9</Rwm2>
+        <TC>4,2</TC>
+        <Vvienms>1,33</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-BASAURI-15>
+    <datos_indice-BASAURI-16>
+        <Date>04/01/2021</Date>
+        <Hour>09:00</Hour>
+        <NOgm3>4</NOgm3>
+        <NO2>48</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>54</NOXgm3>
+        <PM10>3,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>173</Dviengrados>
+        <H>89</H>
+        <PmBar>996,8</PmBar>
+        <Rwm2>24,6</Rwm2>
+        <TC>3</TC>
+        <Vvienms>2,68</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-BASAURI-16>
+    <datos_indice-BASAURI-17>
+        <Date>04/01/2021</Date>
+        <Hour>08:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>40</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>42</NOXgm3>
+        <PM10>3,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>167</Dviengrados>
+        <H>90</H>
+        <PmBar>996,5</PmBar>
+        <Rwm2>0,8</Rwm2>
+        <TC>2,4</TC>
+        <Vvienms>3,19</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-17>
+    <datos_indice-BASAURI-18>
+        <Date>04/01/2021</Date>
+        <Hour>07:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>32</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>32</NOXgm3>
+        <PM10>3,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>148</Dviengrados>
+        <H>88</H>
+        <PmBar>996,5</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>3,5</TC>
+        <Vvienms>1,56</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-18>
+    <datos_indice-BASAURI-19>
+        <Date>04/01/2021</Date>
+        <Hour>06:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>29</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>30</NOXgm3>
+        <PM10>3,75</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>163</Dviengrados>
+        <H>86</H>
+        <PmBar>996,4</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>3,9</TC>
+        <Vvienms>1,86</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-19>
+    <datos_indice-BASAURI-20>
+        <Date>04/01/2021</Date>
+        <Hour>05:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>24</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>24</NOXgm3>
+        <PM10>3,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>148</Dviengrados>
+        <H>87</H>
+        <PmBar>996,5</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>3,6</TC>
+        <Vvienms>2,01</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-20>
+    <datos_indice-BASAURI-21>
+        <Date>04/01/2021</Date>
+        <Hour>04:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>27</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>27</NOXgm3>
+        <PM10>3,96</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>139</Dviengrados>
+        <H>87</H>
+        <PmBar>996,9</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>3,4</TC>
+        <Vvienms>1,88</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-21>
+    <datos_indice-BASAURI-22>
+        <Date>04/01/2021</Date>
+        <Hour>03:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>17</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>17</NOXgm3>
+        <PM10>4,08</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>150</Dviengrados>
+        <H>86</H>
+        <PmBar>997,6</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>3,7</TC>
+        <Vvienms>1,9</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-22>
+    <datos_indice-BASAURI-23>
+        <Date>04/01/2021</Date>
+        <Hour>02:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>27</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>27</NOXgm3>
+        <PM10>4,04</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>155</Dviengrados>
+        <H>88</H>
+        <PmBar>998,2</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>3,8</TC>
+        <Vvienms>1,46</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-23>
+    <datos_indice-BASAURI-24>
+        <Date>04/01/2021</Date>
+        <Hour>01:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>25</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>25</NOXgm3>
+        <PM10>4,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>132</Dviengrados>
+        <H>86</H>
+        <PmBar>998,2</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>4,2</TC>
+        <Vvienms>1,16</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-24>
+    <datos_indice-BASAURI-25>
+        <Date>03/01/2021</Date>
+        <Hour>24:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>26</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>26</NOXgm3>
+        <PM10>4,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>127</Dviengrados>
+        <H>87</H>
+        <PmBar>998,4</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>3,7</TC>
+        <Vvienms>1,86</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-25>
+    <datos_indice-BASAURI-26>
+        <Date>03/01/2021</Date>
+        <Hour>23:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>25</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>26</NOXgm3>
+        <PM10>4,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>122</Dviengrados>
+        <H>87</H>
+        <PmBar>999,1</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>4,1</TC>
+        <Vvienms>1,02</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-26>
+    <datos_indice-BASAURI-27>
+        <Date>03/01/2021</Date>
+        <Hour>22:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>27</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>28</NOXgm3>
+        <PM10>4,42</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>158</Dviengrados>
+        <H>88</H>
+        <PmBar>999,3</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>3,8</TC>
+        <Vvienms>1,38</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-27>
+    <datos_indice-BASAURI-28>
+        <Date>03/01/2021</Date>
+        <Hour>21:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>36</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>39</NOXgm3>
+        <PM10>4,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>147</Dviengrados>
+        <H>87</H>
+        <PmBar>999,4</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>3,7</TC>
+        <Vvienms>1,72</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-28>
+    <datos_indice-BASAURI-29>
+        <Date>03/01/2021</Date>
+        <Hour>20:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>36</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>36</NOXgm3>
+        <PM10>5,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>132</Dviengrados>
+        <H>88</H>
+        <PmBar>999,6</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>3,8</TC>
+        <Vvienms>1,34</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-29>
+    <datos_indice-BASAURI-30>
+        <Date>03/01/2021</Date>
+        <Hour>19:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>11</NOXgm3>
+        <PM10>5,92</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>250</Dviengrados>
+        <H>84</H>
+        <PmBar>1000,1</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>4,5</TC>
+        <Vvienms>1,38</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-30>
+    <datos_indice-BASAURI-31>
+        <Date>03/01/2021</Date>
+        <Hour>18:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>25</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>25</NOXgm3>
+        <PM10>6,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>123</Dviengrados>
+        <H>85</H>
+        <PmBar>999,9</PmBar>
+        <Rwm2>0,3</Rwm2>
+        <TC>4,5</TC>
+        <Vvienms>0,69</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-31>
+    <datos_indice-BASAURI-32>
+        <Date>03/01/2021</Date>
+        <Hour>17:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>13</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <PM10>6,54</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>351</Dviengrados>
+        <H>83</H>
+        <PmBar>999,9</PmBar>
+        <Rwm2>5,7</Rwm2>
+        <TC>5</TC>
+        <Vvienms>0,38</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-32>
+    <datos_indice-BASAURI-33>
+        <Date>03/01/2021</Date>
+        <Hour>16:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>9</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>9</NOXgm3>
+        <PM10>6,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>277</Dviengrados>
+        <H>84</H>
+        <PmBar>999,9</PmBar>
+        <Rwm2>27,4</Rwm2>
+        <TC>5,2</TC>
+        <Vvienms>1,26</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-33>
+    <datos_indice-BASAURI-34>
+        <Date>03/01/2021</Date>
+        <Hour>15:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>18</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>19</NOXgm3>
+        <PM10>7,04</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>302</Dviengrados>
+        <H>84</H>
+        <PmBar>999,7</PmBar>
+        <Rwm2>58,1</Rwm2>
+        <TC>6,1</TC>
+        <Vvienms>0,72</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-34>
+    <datos_indice-BASAURI-35>
+        <Date>03/01/2021</Date>
+        <Hour>14:00</Hour>
+        <NOgm3>9</NOgm3>
+        <NO2>39</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>52</NOXgm3>
+        <PM10>7,08</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>6</Dviengrados>
+        <H>89</H>
+        <PmBar>1000</PmBar>
+        <Rwm2>80,3</Rwm2>
+        <TC>6</TC>
+        <Vvienms>0,27</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-35>
+    <datos_indice-BASAURI-36>
+        <Date>03/01/2021</Date>
+        <Hour>13:00</Hour>
+        <NOgm3>6</NOgm3>
+        <NO2>37</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>46</NOXgm3>
+        <PM10>6,92</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>125</Dviengrados>
+        <H>87</H>
+        <PmBar>1000,7</PmBar>
+        <Rwm2>67,9</Rwm2>
+        <TC>5,8</TC>
+        <Vvienms>0,57</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-36>
+    <datos_indice-BASAURI-37>
+        <Date>03/01/2021</Date>
+        <Hour>12:00</Hour>
+        <NOgm3>6</NOgm3>
+        <NO2>29</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>39</NOXgm3>
+        <PM10>7,04</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>133</Dviengrados>
+        <H>92</H>
+        <PmBar>1001,2</PmBar>
+        <Rwm2>139,9</Rwm2>
+        <TC>4,8</TC>
+        <Vvienms>0,94</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-37>
+    <datos_indice-BASAURI-38>
+        <Date>03/01/2021</Date>
+        <Hour>11:00</Hour>
+        <NOgm3>4</NOgm3>
+        <NO2>36</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>42</NOXgm3>
+        <PM10>6,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>149</Dviengrados>
+        <H>93</H>
+        <PmBar>1002,3</PmBar>
+        <Rwm2>42,5</Rwm2>
+        <TC>4,3</TC>
+        <Vvienms>0,58</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-38>
+    <datos_indice-BASAURI-39>
+        <Date>03/01/2021</Date>
+        <Hour>10:00</Hour>
+        <NOgm3>3</NOgm3>
+        <NO2>28</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>32</NOXgm3>
+        <PM10>6,96</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>125</Dviengrados>
+        <H>92</H>
+        <PmBar>1002,1</PmBar>
+        <Rwm2>32,5</Rwm2>
+        <TC>4</TC>
+        <Vvienms>0,82</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-39>
+    <datos_indice-BASAURI-40>
+        <Date>03/01/2021</Date>
+        <Hour>09:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>25</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>27</NOXgm3>
+        <PM10>7,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>144</Dviengrados>
+        <H>92</H>
+        <PmBar>1001,9</PmBar>
+        <Rwm2>31,1</Rwm2>
+        <TC>3,3</TC>
+        <Vvienms>1,49</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-40>
+    <datos_indice-BASAURI-41>
+        <Date>03/01/2021</Date>
+        <Hour>08:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>21</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>21</NOXgm3>
+        <PM10>7,46</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>119</Dviengrados>
+        <H>93</H>
+        <PmBar>1002,2</PmBar>
+        <Rwm2>1,3</Rwm2>
+        <TC>3,5</TC>
+        <Vvienms>0,93</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-41>
+    <datos_indice-BASAURI-42>
+        <Date>03/01/2021</Date>
+        <Hour>07:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>19</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>20</NOXgm3>
+        <PM10>7,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>123</Dviengrados>
+        <H>93</H>
+        <PmBar>1002</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>3,1</TC>
+        <Vvienms>1,57</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-42>
+    <datos_indice-BASAURI-43>
+        <Date>03/01/2021</Date>
+        <Hour>06:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>14</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>14</NOXgm3>
+        <PM10>7,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>138</Dviengrados>
+        <H>95</H>
+        <PmBar>1002,2</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>3,1</TC>
+        <Vvienms>1,22</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-43>
+    <datos_indice-BASAURI-44>
+        <Date>03/01/2021</Date>
+        <Hour>05:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>9</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>10</NOXgm3>
+        <PM10>7,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>135</Dviengrados>
+        <H>94</H>
+        <PmBar>1002,8</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>3,1</TC>
+        <Vvienms>1,47</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-44>
+    <datos_indice-BASAURI-45>
+        <Date>03/01/2021</Date>
+        <Hour>04:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <PM10>7,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>132</Dviengrados>
+        <H>94</H>
+        <PmBar>1003</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>2,9</TC>
+        <Vvienms>1,54</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-45>
+    <datos_indice-BASAURI-46>
+        <Date>03/01/2021</Date>
+        <Hour>03:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>11</NOXgm3>
+        <PM10>7,54</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>144</Dviengrados>
+        <H>95</H>
+        <PmBar>1003,8</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>3,1</TC>
+        <Vvienms>1,25</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-46>
+    <datos_indice-BASAURI-47>
+        <Date>03/01/2021</Date>
+        <Hour>02:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>15</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>15</NOXgm3>
+        <PM10>7,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>153</Dviengrados>
+        <H>94</H>
+        <PmBar>1004,1</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>2,9</TC>
+        <Vvienms>1,71</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-47>
+    <datos_indice-BASAURI-48>
+        <Date>03/01/2021</Date>
+        <Hour>01:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>23</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>23</NOXgm3>
+        <PM10>7,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>159</Dviengrados>
+        <H>94</H>
+        <PmBar>1004,5</PmBar>
+        <Rwm2>0,2</Rwm2>
+        <TC>3,1</TC>
+        <Vvienms>1,52</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-BASAURI-48>
+</datos_indice-BASAURI>

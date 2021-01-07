@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_indice-SESTAO>
+    <datos_indice-SESTAO-1>
+        <Date>04/01/2021</Date>
+        <Hour>24:00</Hour>
+    </datos_indice-SESTAO-1>
+    <datos_indice-SESTAO-2>
+        <Date>04/01/2021</Date>
+        <Hour>23:00</Hour>
+    </datos_indice-SESTAO-2>
+    <datos_indice-SESTAO-3>
+        <Date>04/01/2021</Date>
+        <Hour>22:00</Hour>
+    </datos_indice-SESTAO-3>
+    <datos_indice-SESTAO-4>
+        <Date>04/01/2021</Date>
+        <Hour>21:00</Hour>
+    </datos_indice-SESTAO-4>
+    <datos_indice-SESTAO-5>
+        <Date>04/01/2021</Date>
+        <Hour>20:00</Hour>
+    </datos_indice-SESTAO-5>
+    <datos_indice-SESTAO-6>
+        <Date>04/01/2021</Date>
+        <Hour>19:00</Hour>
+        <NOgm3>5</NOgm3>
+        <NO2>52</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>59</NOXgm3>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-SESTAO-6>
+    <datos_indice-SESTAO-7>
+        <Date>04/01/2021</Date>
+        <Hour>18:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>34</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>37</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-7>
+    <datos_indice-SESTAO-8>
+        <Date>04/01/2021</Date>
+        <Hour>17:00</Hour>
+        <NOgm3>5</NOgm3>
+        <NO2>40</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>46</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-8>
+    <datos_indice-SESTAO-9>
+        <Date>04/01/2021</Date>
+        <Hour>16:00</Hour>
+        <NOgm3>4</NOgm3>
+        <NO2>35</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>42</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-9>
+    <datos_indice-SESTAO-10>
+        <Date>04/01/2021</Date>
+        <Hour>15:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>24</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>28</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-10>
+    <datos_indice-SESTAO-11>
+        <Date>04/01/2021</Date>
+        <Hour>14:00</Hour>
+        <NOgm3>5</NOgm3>
+        <NO2>30</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>37</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-11>
+    <datos_indice-SESTAO-12>
+        <Date>04/01/2021</Date>
+        <Hour>13:00</Hour>
+        <NOgm3>4</NOgm3>
+        <NO2>27</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>34</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-12>
+    <datos_indice-SESTAO-13>
+        <Date>04/01/2021</Date>
+        <Hour>12:00</Hour>
+        <NOgm3>3</NOgm3>
+        <NO2>27</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>32</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-13>
+    <datos_indice-SESTAO-14>
+        <Date>04/01/2021</Date>
+        <Hour>11:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>21</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>23</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-14>
+    <datos_indice-SESTAO-15>
+        <Date>04/01/2021</Date>
+        <Hour>10:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>22</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>25</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-15>
+    <datos_indice-SESTAO-16>
+        <Date>04/01/2021</Date>
+        <Hour>09:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>23</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>23</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-16>
+    <datos_indice-SESTAO-17>
+        <Date>04/01/2021</Date>
+        <Hour>08:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>19</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>18</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-17>
+    <datos_indice-SESTAO-18>
+        <Date>04/01/2021</Date>
+        <Hour>07:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>14</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-18>
+    <datos_indice-SESTAO-19>
+        <Date>04/01/2021</Date>
+        <Hour>06:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>8</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-19>
+    <datos_indice-SESTAO-20>
+        <Date>04/01/2021</Date>
+        <Hour>05:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>2</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-20>
+    <datos_indice-SESTAO-21>
+        <Date>04/01/2021</Date>
+        <Hour>04:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>1</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-21>
+    <datos_indice-SESTAO-22>
+        <Date>04/01/2021</Date>
+        <Hour>03:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>0</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-22>
+    <datos_indice-SESTAO-23>
+        <Date>04/01/2021</Date>
+        <Hour>02:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>1</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-23>
+    <datos_indice-SESTAO-24>
+        <Date>04/01/2021</Date>
+        <Hour>01:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>0</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-24>
+    <datos_indice-SESTAO-25>
+        <Date>03/01/2021</Date>
+        <Hour>24:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>3</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-25>
+    <datos_indice-SESTAO-26>
+        <Date>03/01/2021</Date>
+        <Hour>23:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>8</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-26>
+    <datos_indice-SESTAO-27>
+        <Date>03/01/2021</Date>
+        <Hour>22:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>8</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-27>
+    <datos_indice-SESTAO-28>
+        <Date>03/01/2021</Date>
+        <Hour>21:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>13</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-28>
+    <datos_indice-SESTAO-29>
+        <Date>03/01/2021</Date>
+        <Hour>20:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>17</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>16</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-29>
+    <datos_indice-SESTAO-30>
+        <Date>03/01/2021</Date>
+        <Hour>19:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>13</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>12</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-30>
+    <datos_indice-SESTAO-31>
+        <Date>03/01/2021</Date>
+        <Hour>18:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>13</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>12</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-31>
+    <datos_indice-SESTAO-32>
+        <Date>03/01/2021</Date>
+        <Hour>17:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>9</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>8</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-32>
+    <datos_indice-SESTAO-33>
+        <Date>03/01/2021</Date>
+        <Hour>16:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>9</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-33>
+    <datos_indice-SESTAO-34>
+        <Date>03/01/2021</Date>
+        <Hour>15:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>10</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>10</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-34>
+    <datos_indice-SESTAO-35>
+        <Date>03/01/2021</Date>
+        <Hour>14:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>16</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>19</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-35>
+    <datos_indice-SESTAO-36>
+        <Date>03/01/2021</Date>
+        <Hour>13:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>17</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>17</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-36>
+    <datos_indice-SESTAO-37>
+        <Date>03/01/2021</Date>
+        <Hour>12:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>11</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-37>
+    <datos_indice-SESTAO-38>
+        <Date>03/01/2021</Date>
+        <Hour>11:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>17</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>20</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-38>
+    <datos_indice-SESTAO-39>
+        <Date>03/01/2021</Date>
+        <Hour>10:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>9</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-39>
+    <datos_indice-SESTAO-40>
+        <Date>03/01/2021</Date>
+        <Hour>09:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>18</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>17</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-40>
+    <datos_indice-SESTAO-41>
+        <Date>03/01/2021</Date>
+        <Hour>08:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>15</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-41>
+    <datos_indice-SESTAO-42>
+        <Date>03/01/2021</Date>
+        <Hour>07:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>18</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>15</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-42>
+    <datos_indice-SESTAO-43>
+        <Date>03/01/2021</Date>
+        <Hour>06:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>19</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>17</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-43>
+    <datos_indice-SESTAO-44>
+        <Date>03/01/2021</Date>
+        <Hour>05:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>21</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>18</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-44>
+    <datos_indice-SESTAO-45>
+        <Date>03/01/2021</Date>
+        <Hour>04:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>17</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>16</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-45>
+    <datos_indice-SESTAO-46>
+        <Date>03/01/2021</Date>
+        <Hour>03:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>14</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>10</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-46>
+    <datos_indice-SESTAO-47>
+        <Date>03/01/2021</Date>
+        <Hour>02:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>8</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-47>
+    <datos_indice-SESTAO-48>
+        <Date>03/01/2021</Date>
+        <Hour>01:00</Hour>
+        <NOgm3>0</NOgm3>
+        <NO2>13</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>9</NOXgm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-SESTAO-48>
+</datos_indice-SESTAO>

@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_indice-USURBIL>
+    <datos_indice-USURBIL-1>
+        <Date>04/01/2021</Date>
+        <Hour>24:00</Hour>
+    </datos_indice-USURBIL-1>
+    <datos_indice-USURBIL-2>
+        <Date>04/01/2021</Date>
+        <Hour>23:00</Hour>
+    </datos_indice-USURBIL-2>
+    <datos_indice-USURBIL-3>
+        <Date>04/01/2021</Date>
+        <Hour>22:00</Hour>
+    </datos_indice-USURBIL-3>
+    <datos_indice-USURBIL-4>
+        <Date>04/01/2021</Date>
+        <Hour>21:00</Hour>
+    </datos_indice-USURBIL-4>
+    <datos_indice-USURBIL-5>
+        <Date>04/01/2021</Date>
+        <Hour>20:00</Hour>
+    </datos_indice-USURBIL-5>
+    <datos_indice-USURBIL-6>
+        <Date>04/01/2021</Date>
+        <Hour>19:00</Hour>
+        <Bencenogm3>0,47</Bencenogm3>
+        <Etilbencenogm3>0,05</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>14</NOXgm3>
+        <O3gm3>53</O3gm3>
+        <OZONO>53</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>54</O38hgm3>
+        <PM10>2,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,75</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,33</Toluenogm3>
+        <Dviengrados>270</Dviengrados>
+        <H>87</H>
+        <PmBar>1001,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,9</TC>
+        <Vvienms>0,5</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-6>
+    <datos_indice-USURBIL-7>
+        <Date>04/01/2021</Date>
+        <Hour>18:00</Hour>
+        <Bencenogm3>0,81</Bencenogm3>
+        <Etilbencenogm3>0,12</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>10</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>14</NOXgm3>
+        <O3gm3>53</O3gm3>
+        <OZONO>53</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>54</O38hgm3>
+        <PM10>2,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,5</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,54</Toluenogm3>
+        <Dviengrados>281</Dviengrados>
+        <H>88</H>
+        <PmBar>1000,8</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4,1</TC>
+        <Vvienms>1,18</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-7>
+    <datos_indice-USURBIL-8>
+        <Date>04/01/2021</Date>
+        <Hour>17:00</Hour>
+        <Bencenogm3>0,38</Bencenogm3>
+        <Etilbencenogm3>0,09</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>16</NOXgm3>
+        <O3gm3>49</O3gm3>
+        <OZONO>49</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>54</O38hgm3>
+        <PM10>2,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,35</Toluenogm3>
+        <Dviengrados>285</Dviengrados>
+        <H>87</H>
+        <PmBar>1000,4</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>7,9</Rwm2>
+        <TC>4,4</TC>
+        <Vvienms>0,76</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-8>
+    <datos_indice-USURBIL-9>
+        <Date>04/01/2021</Date>
+        <Hour>16:00</Hour>
+        <Bencenogm3>0,5</Bencenogm3>
+        <Etilbencenogm3>0,1</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>10</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>14</NOXgm3>
+        <O3gm3>55</O3gm3>
+        <OZONO>55</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>55</O38hgm3>
+        <PM10>2,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,25</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,27</Toluenogm3>
+        <Dviengrados>260</Dviengrados>
+        <H>89</H>
+        <PmBar>999,9</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>24,3</Rwm2>
+        <TC>3,6</TC>
+        <Vvienms>1,54</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-9>
+    <datos_indice-USURBIL-10>
+        <Date>04/01/2021</Date>
+        <Hour>15:00</Hour>
+        <Bencenogm3>0,42</Bencenogm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>10</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <O3gm3>55</O3gm3>
+        <OZONO>55</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>55</O38hgm3>
+        <PM10>2,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,25</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,33</Toluenogm3>
+        <Dviengrados>260</Dviengrados>
+        <H>88</H>
+        <PmBar>999,4</PmBar>
+        <Precipitacionlm2>0,5</Precipitacionlm2>
+        <Rwm2>21,9</Rwm2>
+        <TC>4</TC>
+        <Vvienms>1,17</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-10>
+    <datos_indice-USURBIL-11>
+        <Date>04/01/2021</Date>
+        <Hour>14:00</Hour>
+        <Bencenogm3>0,34</Bencenogm3>
+        <Etilbencenogm3>0,17</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>10</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <O3gm3>57</O3gm3>
+        <OZONO>57</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>55</O38hgm3>
+        <PM10>2,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,31</Toluenogm3>
+        <Dviengrados>253</Dviengrados>
+        <H>86</H>
+        <PmBar>998,9</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>77,8</Rwm2>
+        <TC>4,1</TC>
+        <Vvienms>1,91</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-11>
+    <datos_indice-USURBIL-12>
+        <Date>04/01/2021</Date>
+        <Hour>13:00</Hour>
+        <Bencenogm3>0,93</Bencenogm3>
+        <Etilbencenogm3>0,31</Etilbencenogm3>
+        <NOgm3>3</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>18</NOXgm3>
+        <O3gm3>54</O3gm3>
+        <OZONO>54</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>56</O38hgm3>
+        <PM10>2,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,44</Toluenogm3>
+        <Dviengrados>246</Dviengrados>
+        <H>85</H>
+        <PmBar>999,1</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>99,5</Rwm2>
+        <TC>4,6</TC>
+        <Vvienms>1,64</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-12>
+    <datos_indice-USURBIL-13>
+        <Date>04/01/2021</Date>
+        <Hour>12:00</Hour>
+        <Bencenogm3>9,25</Bencenogm3>
+        <Etilbencenogm3>13,83</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>10</NOXgm3>
+        <O3gm3>59</O3gm3>
+        <OZONO>59</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>57</O38hgm3>
+        <PM10>2,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,92</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>11,6</Toluenogm3>
+        <Dviengrados>258</Dviengrados>
+        <H>84</H>
+        <PmBar>999,6</PmBar>
+        <Precipitacionlm2>0,4</Precipitacionlm2>
+        <Rwm2>85,1</Rwm2>
+        <TC>4,5</TC>
+        <Vvienms>1,25</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-13>
+    <datos_indice-USURBIL-14>
+        <Date>04/01/2021</Date>
+        <Hour>11:00</Hour>
+        <NO2ICA>Sin datos / Daturik gabe</NO2ICA>
+        <O3gm3>52</O3gm3>
+        <OZONO>52</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>57</O38hgm3>
+        <PM10>3,04</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,29</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>252</Dviengrados>
+        <H>84</H>
+        <PmBar>999,8</PmBar>
+        <Precipitacionlm2>0,4</Precipitacionlm2>
+        <Rwm2>110,2</Rwm2>
+        <TC>4,8</TC>
+        <Vvienms>0,65</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-14>
+    <datos_indice-USURBIL-15>
+        <Date>04/01/2021</Date>
+        <Hour>10:00</Hour>
+        <Bencenogm3>0,28</Bencenogm3>
+        <Etilbencenogm3>0,02</Etilbencenogm3>
+        <NOgm3>3</NOgm3>
+        <NO2>15</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>21</NOXgm3>
+        <O3gm3>51</O3gm3>
+        <OZONO>51</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>58</O38hgm3>
+        <PM10>3,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,58</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,21</Toluenogm3>
+        <Dviengrados>258</Dviengrados>
+        <H>82</H>
+        <PmBar>999,5</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>105,3</Rwm2>
+        <TC>4,6</TC>
+        <Vvienms>0,83</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-15>
+    <datos_indice-USURBIL-16>
+        <Date>04/01/2021</Date>
+        <Hour>09:00</Hour>
+        <Bencenogm3>0,38</Bencenogm3>
+        <Etilbencenogm3>0,08</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>15</NOXgm3>
+        <O3gm3>54</O3gm3>
+        <OZONO>54</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>59</O38hgm3>
+        <PM10>3,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,96</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,6</Toluenogm3>
+        <Dviengrados>247</Dviengrados>
+        <H>83</H>
+        <PmBar>999,1</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>39,2</Rwm2>
+        <TC>4,2</TC>
+        <Vvienms>0,94</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-16>
+    <datos_indice-USURBIL-17>
+        <Date>04/01/2021</Date>
+        <Hour>08:00</Hour>
+        <Bencenogm3>0,2</Bencenogm3>
+        <Etilbencenogm3>0,03</Etilbencenogm3>
+        <NOgm3>3</NOgm3>
+        <NO2>9</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>15</NOXgm3>
+        <O3gm3>54</O3gm3>
+        <OZONO>54</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>60</O38hgm3>
+        <PM10>3,96</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,15</Toluenogm3>
+        <Dviengrados>100</Dviengrados>
+        <H>84</H>
+        <PmBar>998,7</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,5</Rwm2>
+        <TC>3,4</TC>
+        <Vvienms>0,49</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-17>
+    <datos_indice-USURBIL-18>
+        <Date>04/01/2021</Date>
+        <Hour>07:00</Hour>
+        <Bencenogm3>0,2</Bencenogm3>
+        <Etilbencenogm3>0,01</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>10</NOXgm3>
+        <O3gm3>59</O3gm3>
+        <OZONO>59</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>4,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,67</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,12</Toluenogm3>
+        <Dviengrados>165</Dviengrados>
+        <H>86</H>
+        <PmBar>998,8</PmBar>
+        <Precipitacionlm2>0,3</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,2</TC>
+        <Vvienms>1,37</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-18>
+    <datos_indice-USURBIL-19>
+        <Date>04/01/2021</Date>
+        <Hour>06:00</Hour>
+        <Bencenogm3>0,17</Bencenogm3>
+        <Etilbencenogm3>0</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <O3gm3>63</O3gm3>
+        <OZONO>63</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>4,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,04</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,12</Toluenogm3>
+        <Dviengrados>158</Dviengrados>
+        <H>84</H>
+        <PmBar>999</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,5</TC>
+        <Vvienms>1,48</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-19>
+    <datos_indice-USURBIL-20>
+        <Date>04/01/2021</Date>
+        <Hour>05:00</Hour>
+        <Bencenogm3>0,17</Bencenogm3>
+        <Etilbencenogm3>0,03</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <O3gm3>61</O3gm3>
+        <OZONO>61</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>60</O38hgm3>
+        <PM10>5,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,17</Toluenogm3>
+        <Dviengrados>257</Dviengrados>
+        <H>82</H>
+        <PmBar>999,2</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4,2</TC>
+        <Vvienms>0,3</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-20>
+    <datos_indice-USURBIL-21>
+        <Date>04/01/2021</Date>
+        <Hour>04:00</Hour>
+        <Bencenogm3>0,17</Bencenogm3>
+        <Etilbencenogm3>0,01</Etilbencenogm3>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <O3gm3>59</O3gm3>
+        <OZONO>59</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>5,92</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,5</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,15</Toluenogm3>
+        <Dviengrados>190</Dviengrados>
+        <H>86</H>
+        <PmBar>999,9</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,9</TC>
+        <Vvienms>0,69</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-21>
+    <datos_indice-USURBIL-22>
+        <Date>04/01/2021</Date>
+        <Hour>03:00</Hour>
+        <Bencenogm3>0,18</Bencenogm3>
+        <Etilbencenogm3>0,03</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>59</O3gm3>
+        <OZONO>59</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>62</O38hgm3>
+        <PM10>6,54</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,88</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,21</Toluenogm3>
+        <Dviengrados>76</Dviengrados>
+        <H>88</H>
+        <PmBar>1000,5</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,5</TC>
+        <Vvienms>0,54</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-22>
+    <datos_indice-USURBIL-23>
+        <Date>04/01/2021</Date>
+        <Hour>02:00</Hour>
+        <Bencenogm3>0,21</Bencenogm3>
+        <Etilbencenogm3>0,03</Etilbencenogm3>
+        <NOgm3>0</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>3</NOXgm3>
+        <O3gm3>60</O3gm3>
+        <OZONO>60</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>62</O38hgm3>
+        <PM10>7,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,21</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,21</Toluenogm3>
+        <Dviengrados>66</Dviengrados>
+        <H>88</H>
+        <PmBar>1000,8</PmBar>
+        <Precipitacionlm2>0,6</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>3,7</TC>
+        <Vvienms>0,28</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-23>
+    <datos_indice-USURBIL-24>
+        <Date>04/01/2021</Date>
+        <Hour>01:00</Hour>
+        <Bencenogm3>0,21</Bencenogm3>
+        <Etilbencenogm3>0</Etilbencenogm3>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>61</O3gm3>
+        <OZONO>61</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>62</O38hgm3>
+        <PM10>8,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,71</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,14</Toluenogm3>
+        <Dviengrados>45</Dviengrados>
+        <H>86</H>
+        <PmBar>1001,1</PmBar>
+        <Precipitacionlm2>0,6</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4</TC>
+        <Vvienms>0,48</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-24>
+    <datos_indice-USURBIL-25>
+        <Date>03/01/2021</Date>
+        <Hour>24:00</Hour>
+        <Bencenogm3>0,26</Bencenogm3>
+        <Etilbencenogm3>0,02</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>65</O3gm3>
+        <OZONO>65</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>62</O38hgm3>
+        <PM10>9,08</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,21</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,14</Toluenogm3>
+        <Dviengrados>248</Dviengrados>
+        <H>84</H>
+        <PmBar>1001,5</PmBar>
+        <Precipitacionlm2>0,6</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4</TC>
+        <Vvienms>0,67</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-25>
+    <datos_indice-USURBIL-26>
+        <Date>03/01/2021</Date>
+        <Hour>23:00</Hour>
+        <Bencenogm3>0,31</Bencenogm3>
+        <Etilbencenogm3>0,03</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <O3gm3>57</O3gm3>
+        <OZONO>57</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>62</O38hgm3>
+        <PM10>9,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,67</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,22</Toluenogm3>
+        <Dviengrados>268</Dviengrados>
+        <H>79</H>
+        <PmBar>1001,6</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4,8</TC>
+        <Vvienms>0,57</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-26>
+    <datos_indice-USURBIL-27>
+        <Date>03/01/2021</Date>
+        <Hour>22:00</Hour>
+        <Bencenogm3>0,41</Bencenogm3>
+        <Etilbencenogm3>0,03</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <O3gm3>58</O3gm3>
+        <OZONO>58</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>62</O38hgm3>
+        <PM10>10,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,17</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,23</Toluenogm3>
+        <Dviengrados>24</Dviengrados>
+        <H>82</H>
+        <PmBar>1001,8</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>4,5</TC>
+        <Vvienms>0,77</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-27>
+    <datos_indice-USURBIL-28>
+        <Date>03/01/2021</Date>
+        <Hour>21:00</Hour>
+        <Bencenogm3>0,93</Bencenogm3>
+        <Etilbencenogm3>0,02</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>8</NOXgm3>
+        <O3gm3>66</O3gm3>
+        <OZONO>66</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>62</O38hgm3>
+        <PM10>11,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,83</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,25</Toluenogm3>
+        <Dviengrados>247</Dviengrados>
+        <H>77</H>
+        <PmBar>1002,1</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>5,2</TC>
+        <Vvienms>1</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-28>
+    <datos_indice-USURBIL-29>
+        <Date>03/01/2021</Date>
+        <Hour>20:00</Hour>
+        <Bencenogm3>0,21</Bencenogm3>
+        <Etilbencenogm3>0</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <O3gm3>68</O3gm3>
+        <OZONO>68</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>11,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,09</Toluenogm3>
+        <Dviengrados>252</Dviengrados>
+        <H>75</H>
+        <PmBar>1002,1</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>5,4</TC>
+        <Vvienms>1,83</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-29>
+    <datos_indice-USURBIL-30>
+        <Date>03/01/2021</Date>
+        <Hour>19:00</Hour>
+        <Bencenogm3>0,22</Bencenogm3>
+        <Etilbencenogm3>0,01</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>6</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>8</NOXgm3>
+        <O3gm3>62</O3gm3>
+        <OZONO>62</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>57</O38hgm3>
+        <PM10>12,46</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>9,17</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,09</Toluenogm3>
+        <Dviengrados>252</Dviengrados>
+        <H>77</H>
+        <PmBar>1002</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>5,4</TC>
+        <Vvienms>1,69</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-30>
+    <datos_indice-USURBIL-31>
+        <Date>03/01/2021</Date>
+        <Hour>18:00</Hour>
+        <Bencenogm3>0,29</Bencenogm3>
+        <Etilbencenogm3>0,01</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>9</NOXgm3>
+        <O3gm3>60</O3gm3>
+        <OZONO>60</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>54</O38hgm3>
+        <PM10>13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>9,67</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,13</Toluenogm3>
+        <Dviengrados>253</Dviengrados>
+        <H>78</H>
+        <PmBar>1001,8</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>5,6</TC>
+        <Vvienms>0,82</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-31>
+    <datos_indice-USURBIL-32>
+        <Date>03/01/2021</Date>
+        <Hour>17:00</Hour>
+        <Bencenogm3>0,26</Bencenogm3>
+        <Etilbencenogm3>0</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <O3gm3>60</O3gm3>
+        <OZONO>60</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>50</O38hgm3>
+        <PM10>13,54</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>10</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,11</Toluenogm3>
+        <Dviengrados>255</Dviengrados>
+        <H>81</H>
+        <PmBar>1001,7</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>11,9</Rwm2>
+        <TC>5,7</TC>
+        <Vvienms>0,66</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-32>
+    <datos_indice-USURBIL-33>
+        <Date>03/01/2021</Date>
+        <Hour>16:00</Hour>
+        <Bencenogm3>0,29</Bencenogm3>
+        <Etilbencenogm3>0,02</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <O3gm3>61</O3gm3>
+        <OZONO>61</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>46</O38hgm3>
+        <PM10>14,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25ICA>Sin datos / Daturik gabe</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,17</Toluenogm3>
+        <Dviengrados>247</Dviengrados>
+        <H>79</H>
+        <PmBar>1001,8</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>25,5</Rwm2>
+        <TC>6,3</TC>
+        <Vvienms>1,22</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-33>
+    <datos_indice-USURBIL-34>
+        <Date>03/01/2021</Date>
+        <Hour>15:00</Hour>
+        <Bencenogm3>0,28</Bencenogm3>
+        <Etilbencenogm3>0</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>8</NOXgm3>
+        <O3gm3>59</O3gm3>
+        <OZONO>59</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>41</O38hgm3>
+        <PM10>14,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25ICA>Sin datos / Daturik gabe</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,13</Toluenogm3>
+        <Dviengrados>258</Dviengrados>
+        <H>79</H>
+        <PmBar>1001,7</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>97,6</Rwm2>
+        <TC>6,7</TC>
+        <Vvienms>0,31</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-34>
+    <datos_indice-USURBIL-35>
+        <Date>03/01/2021</Date>
+        <Hour>14:00</Hour>
+        <Bencenogm3>0,29</Bencenogm3>
+        <Etilbencenogm3>0,02</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <O3gm3>60</O3gm3>
+        <OZONO>60</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>36</O38hgm3>
+        <PM10>15,04</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25ICA>Sin datos / Daturik gabe</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,15</Toluenogm3>
+        <Dviengrados>236</Dviengrados>
+        <H>77</H>
+        <PmBar>1002,3</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>113,6</Rwm2>
+        <TC>6,4</TC>
+        <Vvienms>1,22</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-35>
+    <datos_indice-USURBIL-36>
+        <Date>03/01/2021</Date>
+        <Hour>13:00</Hour>
+        <Bencenogm3>0,97</Bencenogm3>
+        <Etilbencenogm3>0,07</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <O3gm3>54</O3gm3>
+        <OZONO>54</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>31</O38hgm3>
+        <PM10>15,42</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25ICA>Sin datos / Daturik gabe</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,54</Toluenogm3>
+        <Dviengrados>246</Dviengrados>
+        <H>75</H>
+        <PmBar>1002,9</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>136,5</Rwm2>
+        <TC>7,1</TC>
+        <Vvienms>0,88</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-36>
+    <datos_indice-USURBIL-37>
+        <Date>03/01/2021</Date>
+        <Hour>12:00</Hour>
+        <Bencenogm3>3,55</Bencenogm3>
+        <Etilbencenogm3>0,11</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>9</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>12</NOXgm3>
+        <O3gm3>42</O3gm3>
+        <OZONO>42</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>26</O38hgm3>
+        <PM10>15,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>11,08</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>1,38</Toluenogm3>
+        <Dviengrados>149</Dviengrados>
+        <H>79</H>
+        <PmBar>1003,6</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>174,6</Rwm2>
+        <TC>7,1</TC>
+        <Vvienms>0,26</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-USURBIL-37>
+    <datos_indice-USURBIL-38>
+        <Date>03/01/2021</Date>
+        <Hour>11:00</Hour>
+        <Bencenogm3>0,86</Bencenogm3>
+        <Etilbencenogm3>0,16</Etilbencenogm3>
+        <NOgm3>3</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>16</NOXgm3>
+        <O3gm3>37</O3gm3>
+        <OZONO>37</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>22</O38hgm3>
+        <PM10>15,96</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>11,38</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>1,26</Toluenogm3>
+        <Dviengrados>124</Dviengrados>
+        <H>79</H>
+        <PmBar>1004,2</PmBar>
+        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <Rwm2>215,5</Rwm2>
+        <TC>7</TC>
+        <Vvienms>0,42</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-USURBIL-38>
+    <datos_indice-USURBIL-39>
+        <Date>03/01/2021</Date>
+        <Hour>10:00</Hour>
+        <Bencenogm3>1,31</Bencenogm3>
+        <Etilbencenogm3>0,15</Etilbencenogm3>
+        <NOgm3>5</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>20</NOXgm3>
+        <O3gm3>29</O3gm3>
+        <OZONO>29</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>19</O38hgm3>
+        <PM10>16,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>11,92</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>1,36</Toluenogm3>
+        <Dviengrados>42</Dviengrados>
+        <H>89</H>
+        <PmBar>1004,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>174,5</Rwm2>
+        <TC>5,1</TC>
+        <Vvienms>0,47</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-USURBIL-39>
+    <datos_indice-USURBIL-40>
+        <Date>03/01/2021</Date>
+        <Hour>09:00</Hour>
+        <Bencenogm3>0,55</Bencenogm3>
+        <Etilbencenogm3>0,08</Etilbencenogm3>
+        <NOgm3>3</NOgm3>
+        <NO2>14</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>19</NOXgm3>
+        <O3gm3>23</O3gm3>
+        <OZONO>23</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>17</O38hgm3>
+        <PM10>16,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>12,13</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,79</Toluenogm3>
+        <Dviengrados>25</Dviengrados>
+        <H>90</H>
+        <PmBar>1004,3</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>62,9</Rwm2>
+        <TC>3,9</TC>
+        <Vvienms>0,33</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-USURBIL-40>
+    <datos_indice-USURBIL-41>
+        <Date>03/01/2021</Date>
+        <Hour>08:00</Hour>
+        <Bencenogm3>0,58</Bencenogm3>
+        <Etilbencenogm3>0,1</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <O3gm3>22</O3gm3>
+        <OZONO>22</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>16</O38hgm3>
+        <PM10>16,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>12,04</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,76</Toluenogm3>
+        <Dviengrados>40</Dviengrados>
+        <H>91</H>
+        <PmBar>1004,3</PmBar>
+        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Rwm2>2,4</Rwm2>
+        <TC>2,8</TC>
+        <Vvienms>0,19</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-USURBIL-41>
+    <datos_indice-USURBIL-42>
+        <Date>03/01/2021</Date>
+        <Hour>07:00</Hour>
+        <Bencenogm3>0,52</Bencenogm3>
+        <Etilbencenogm3>0,12</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <O3gm3>18</O3gm3>
+        <OZONO>18</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>14</O38hgm3>
+        <PM10>16,17</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>11,92</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,81</Toluenogm3>
+        <Dviengrados>272</Dviengrados>
+        <H>91</H>
+        <PmBar>1004,3</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2,2</TC>
+        <Vvienms>0,23</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-USURBIL-42>
+    <datos_indice-USURBIL-43>
+        <Date>03/01/2021</Date>
+        <Hour>06:00</Hour>
+        <Bencenogm3>0,6</Bencenogm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>10</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>11</NOXgm3>
+        <O3gm3>22</O3gm3>
+        <OZONO>22</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>14</O38hgm3>
+        <PM10>15,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>11,63</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,93</Toluenogm3>
+        <Dviengrados>311</Dviengrados>
+        <H>91</H>
+        <PmBar>1004,5</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>2</TC>
+        <Vvienms>0,36</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-USURBIL-43>
+    <datos_indice-USURBIL-44>
+        <Date>03/01/2021</Date>
+        <Hour>05:00</Hour>
+        <Bencenogm3>0,72</Bencenogm3>
+        <Etilbencenogm3>0,19</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <O3gm3>14</O3gm3>
+        <OZONO>14</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>12</O38hgm3>
+        <PM10>15,42</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>11,29</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>2,02</Toluenogm3>
+        <Dviengrados>306</Dviengrados>
+        <H>91</H>
+        <PmBar>1005,1</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>1,7</TC>
+        <Vvienms>0,39</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-USURBIL-44>
+    <datos_indice-USURBIL-45>
+        <Date>03/01/2021</Date>
+        <Hour>04:00</Hour>
+        <Bencenogm3>0,43</Bencenogm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>14</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>17</NOXgm3>
+        <O3gm3>12</O3gm3>
+        <OZONO>12</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>13</O38hgm3>
+        <PM10>14,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>11</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>1,25</Toluenogm3>
+        <Dviengrados>247</Dviengrados>
+        <H>91</H>
+        <PmBar>1005,8</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>1,1</TC>
+        <Vvienms>0,14</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-USURBIL-45>
+    <datos_indice-USURBIL-46>
+        <Date>03/01/2021</Date>
+        <Hour>03:00</Hour>
+        <Bencenogm3>0,5</Bencenogm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>14</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>16</NOXgm3>
+        <O3gm3>15</O3gm3>
+        <OZONO>15</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>15</O38hgm3>
+        <PM10>14,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25ICA>Sin datos / Daturik gabe</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>1,18</Toluenogm3>
+        <Dviengrados>71</Dviengrados>
+        <H>91</H>
+        <PmBar>1006,3</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>0,5</TC>
+        <Vvienms>0,29</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-46>
+    <datos_indice-USURBIL-47>
+        <Date>03/01/2021</Date>
+        <Hour>02:00</Hour>
+        <Bencenogm3>0,57</Bencenogm3>
+        <Etilbencenogm3>0,17</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>17</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>19</NOXgm3>
+        <O3gm3>11</O3gm3>
+        <OZONO>11</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>17</O38hgm3>
+        <PM10>13,46</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25ICA>Sin datos / Daturik gabe</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>1,59</Toluenogm3>
+        <Dviengrados>274</Dviengrados>
+        <H>91</H>
+        <PmBar>1006,5</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>0,4</TC>
+        <Vvienms>0,2</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-47>
+    <datos_indice-USURBIL-48>
+        <Date>03/01/2021</Date>
+        <Hour>01:00</Hour>
+        <Bencenogm3>0,58</Bencenogm3>
+        <Etilbencenogm3>0,11</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>17</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>20</NOXgm3>
+        <O3gm3>11</O3gm3>
+        <OZONO>11</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>21</O38hgm3>
+        <PM10>12,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25ICA>Sin datos / Daturik gabe</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,95</Toluenogm3>
+        <Dviengrados>209</Dviengrados>
+        <H>91</H>
+        <PmBar>1007,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>0,5</TC>
+        <Vvienms>0,1</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-USURBIL-48>
+</datos_indice-USURBIL>

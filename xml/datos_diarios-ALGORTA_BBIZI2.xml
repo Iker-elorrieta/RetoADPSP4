@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-ALGORTA_BBIZI2>
+    <datos_diarios-ALGORTA_BBIZI2-1>
+        <Date>03/01/2021</Date>
+        <COmgm3>0,34</COmgm3>
+        <CO8hmgm3>0,27</CO8hmgm3>
+        <NOgm3>2</NOgm3>
+        <NO2gm3>13</NO2gm3>
+        <NOXgm3>16</NOXgm3>
+        <O3gm3>69</O3gm3>
+        <O38hgm3>68</O38hgm3>
+        <PM10gm3>4</PM10gm3>
+        <PM25gm3>2</PM25gm3>
+        <SO2gm3>13</SO2gm3>
+    </datos_diarios-ALGORTA_BBIZI2-1>
+    <datos_diarios-ALGORTA_BBIZI2-2>
+        <Date>02/01/2021</Date>
+        <COmgm3>0,15</COmgm3>
+        <CO8hmgm3>0,17</CO8hmgm3>
+        <NOgm3>3</NOgm3>
+        <NO2gm3>6</NO2gm3>
+        <NOXgm3>12</NOXgm3>
+        <O3gm3>78</O3gm3>
+        <O38hgm3>79</O38hgm3>
+        <PM10gm3>12</PM10gm3>
+        <PM25gm3>3</PM25gm3>
+        <SO2gm3>9</SO2gm3>
+    </datos_diarios-ALGORTA_BBIZI2-2>
+</datos_diarios-ALGORTA_BBIZI2>

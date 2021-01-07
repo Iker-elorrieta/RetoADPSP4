@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-ZELAIETA_PARQUE>
+    <datos_diarios-ZELAIETA_PARQUE-1>
+        <Date>03/01/2021</Date>
+        <Bencenogm3>0,15</Bencenogm3>
+        <COmgm3>0,48</COmgm3>
+        <CO8hmgm3>0,5</CO8hmgm3>
+        <Etilbencenogm3>0,21</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2gm3>10</NO2gm3>
+        <NOXgm3>13</NOXgm3>
+        <O3gm3>47</O3gm3>
+        <O38hgm3>40</O38hgm3>
+        <Ortoxilenogm3>0,43</Ortoxilenogm3>
+        <PM10gm3>6</PM10gm3>
+        <PM25gm3>4</PM25gm3>
+        <SO2gm3>4</SO2gm3>
+        <Toluenogm3>0,39</Toluenogm3>
+    </datos_diarios-ZELAIETA_PARQUE-1>
+    <datos_diarios-ZELAIETA_PARQUE-2>
+        <Date>02/01/2021</Date>
+        <Bencenogm3>0,25</Bencenogm3>
+        <COmgm3>0,5</COmgm3>
+        <CO8hmgm3>0,47</CO8hmgm3>
+        <Etilbencenogm3>0,22</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2gm3>13</NO2gm3>
+        <NOXgm3>16</NOXgm3>
+        <O3gm3>45</O3gm3>
+        <O38hgm3>53</O38hgm3>
+        <Ortoxilenogm3>0,5</Ortoxilenogm3>
+        <PM10gm3>11</PM10gm3>
+        <PM25gm3>7</PM25gm3>
+        <SO2gm3>4</SO2gm3>
+        <Toluenogm3>0,8</Toluenogm3>
+    </datos_diarios-ZELAIETA_PARQUE-2>
+</datos_diarios-ZELAIETA_PARQUE>

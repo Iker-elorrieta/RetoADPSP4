@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_indice-ZELAIETA_PARQUE>
+    <datos_indice-ZELAIETA_PARQUE-1>
+        <Date>04/01/2021</Date>
+        <Hour>24:00</Hour>
+    </datos_indice-ZELAIETA_PARQUE-1>
+    <datos_indice-ZELAIETA_PARQUE-2>
+        <Date>04/01/2021</Date>
+        <Hour>23:00</Hour>
+    </datos_indice-ZELAIETA_PARQUE-2>
+    <datos_indice-ZELAIETA_PARQUE-3>
+        <Date>04/01/2021</Date>
+        <Hour>22:00</Hour>
+    </datos_indice-ZELAIETA_PARQUE-3>
+    <datos_indice-ZELAIETA_PARQUE-4>
+        <Date>04/01/2021</Date>
+        <Hour>21:00</Hour>
+    </datos_indice-ZELAIETA_PARQUE-4>
+    <datos_indice-ZELAIETA_PARQUE-5>
+        <Date>04/01/2021</Date>
+        <Hour>20:00</Hour>
+    </datos_indice-ZELAIETA_PARQUE-5>
+    <datos_indice-ZELAIETA_PARQUE-6>
+        <Date>04/01/2021</Date>
+        <Hour>19:00</Hour>
+        <Bencenogm3>0,1</Bencenogm3>
+        <COmgm3>0,38</COmgm3>
+        <CO8hmgm3>0,39</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>18</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>22</NOXgm3>
+        <O3gm3>40</O3gm3>
+        <OZONO>40</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>47</O38hgm3>
+        <Ortoxilenogm3>0,13</Ortoxilenogm3>
+        <PM10>3</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,43</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,11</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-6>
+    <datos_indice-ZELAIETA_PARQUE-7>
+        <Date>04/01/2021</Date>
+        <Hour>18:00</Hour>
+        <Bencenogm3>0,1</Bencenogm3>
+        <COmgm3>0,38</COmgm3>
+        <CO8hmgm3>0,4</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>20</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>24</NOXgm3>
+        <O3gm3>40</O3gm3>
+        <OZONO>40</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>49</O38hgm3>
+        <Ortoxilenogm3>0,13</Ortoxilenogm3>
+        <PM10>2,78</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,22</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,11</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-7>
+    <datos_indice-ZELAIETA_PARQUE-8>
+        <Date>04/01/2021</Date>
+        <Hour>17:00</Hour>
+        <Bencenogm3>0,1</Bencenogm3>
+        <COmgm3>0,38</COmgm3>
+        <CO8hmgm3>0,41</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>17</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>19</NOXgm3>
+        <O3gm3>47</O3gm3>
+        <OZONO>47</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>51</O38hgm3>
+        <Ortoxilenogm3>0,13</Ortoxilenogm3>
+        <PM10>2,65</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,17</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,11</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-8>
+    <datos_indice-ZELAIETA_PARQUE-9>
+        <Date>04/01/2021</Date>
+        <Hour>16:00</Hour>
+        <Bencenogm3>0,1</Bencenogm3>
+        <COmgm3>0,37</COmgm3>
+        <CO8hmgm3>0,42</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>16</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>19</NOXgm3>
+        <O3gm3>48</O3gm3>
+        <OZONO>48</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>52</O38hgm3>
+        <Ortoxilenogm3>0,13</Ortoxilenogm3>
+        <PM10>2,57</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,09</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,11</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-9>
+    <datos_indice-ZELAIETA_PARQUE-10>
+        <Date>04/01/2021</Date>
+        <Hour>15:00</Hour>
+        <Bencenogm3>0,1</Bencenogm3>
+        <COmgm3>0,37</COmgm3>
+        <CO8hmgm3>0,43</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>14</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>18</NOXgm3>
+        <O3gm3>52</O3gm3>
+        <OZONO>52</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>54</O38hgm3>
+        <Ortoxilenogm3>0,13</Ortoxilenogm3>
+        <PM10>2,43</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,11</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-10>
+    <datos_indice-ZELAIETA_PARQUE-11>
+        <Date>04/01/2021</Date>
+        <Hour>14:00</Hour>
+        <Bencenogm3>0,1</Bencenogm3>
+        <COmgm3>0,39</COmgm3>
+        <CO8hmgm3>0,45</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>3</NOgm3>
+        <NO2>21</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>25</NOXgm3>
+        <O3gm3>46</O3gm3>
+        <OZONO>46</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>56</O38hgm3>
+        <Ortoxilenogm3>0,13</Ortoxilenogm3>
+        <PM10>2,39</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,09</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,11</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-11>
+    <datos_indice-ZELAIETA_PARQUE-12>
+        <Date>04/01/2021</Date>
+        <Hour>13:00</Hour>
+        <CO8hmgm3>0,46</CO8hmgm3>
+        <NO2ICA>Sin datos / Daturik gabe</NO2ICA>
+        <O3ICA>Sin datos / Daturik gabe</O3ICA>
+        <O38hgm3>58</O38hgm3>
+        <PM10>2,43</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,35</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2ICA>Sin datos / Daturik gabe</SO2ICA>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-12>
+    <datos_indice-ZELAIETA_PARQUE-13>
+        <Date>04/01/2021</Date>
+        <Hour>12:00</Hour>
+        <Bencenogm3>0,11</Bencenogm3>
+        <COmgm3>0,46</COmgm3>
+        <CO8hmgm3>0,45</CO8hmgm3>
+        <Etilbencenogm3>0,22</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>9</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>12</NOXgm3>
+        <O3gm3>58</O3gm3>
+        <OZONO>58</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>59</O38hgm3>
+        <Ortoxilenogm3>0,17</Ortoxilenogm3>
+        <PM10>2,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,42</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,55</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-13>
+    <datos_indice-ZELAIETA_PARQUE-14>
+        <Date>04/01/2021</Date>
+        <Hour>11:00</Hour>
+        <Bencenogm3>0,11</Bencenogm3>
+        <COmgm3>0,46</COmgm3>
+        <CO8hmgm3>0,45</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>4</NOgm3>
+        <NO2>13</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>18</NOXgm3>
+        <O3gm3>54</O3gm3>
+        <OZONO>54</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>60</O38hgm3>
+        <Ortoxilenogm3>0,28</Ortoxilenogm3>
+        <PM10>2,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,5</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,36</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-14>
+    <datos_indice-ZELAIETA_PARQUE-15>
+        <Date>04/01/2021</Date>
+        <Hour>10:00</Hour>
+        <Bencenogm3>0,13</Bencenogm3>
+        <COmgm3>0,47</COmgm3>
+        <CO8hmgm3>0,45</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>3</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>15</NOXgm3>
+        <O3ICA>Sin datos / Daturik gabe</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <Ortoxilenogm3>0,41</Ortoxilenogm3>
+        <PM10>2,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,67</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,32</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-15>
+    <datos_indice-ZELAIETA_PARQUE-16>
+        <Date>04/01/2021</Date>
+        <Hour>09:00</Hour>
+        <Bencenogm3>0,15</Bencenogm3>
+        <COmgm3>0,46</COmgm3>
+        <CO8hmgm3>0,44</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>14</NOXgm3>
+        <O3gm3>55</O3gm3>
+        <OZONO>55</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>62</O38hgm3>
+        <Ortoxilenogm3>0,47</Ortoxilenogm3>
+        <PM10>3</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>1,83</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,38</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-16>
+    <datos_indice-ZELAIETA_PARQUE-17>
+        <Date>04/01/2021</Date>
+        <Hour>08:00</Hour>
+        <Bencenogm3>0,1</Bencenogm3>
+        <COmgm3>0,45</COmgm3>
+        <CO8hmgm3>0,44</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>9</NOXgm3>
+        <O3gm3>61</O3gm3>
+        <OZONO>61</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <Ortoxilenogm3>0,4</Ortoxilenogm3>
+        <PM10>3,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,04</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,22</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-17>
+    <datos_indice-ZELAIETA_PARQUE-18>
+        <Date>04/01/2021</Date>
+        <Hour>07:00</Hour>
+        <Bencenogm3>0,15</Bencenogm3>
+        <COmgm3>0,45</COmgm3>
+        <CO8hmgm3>0,45</CO8hmgm3>
+        <Etilbencenogm3>0,33</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>9</NOXgm3>
+        <O3gm3>61</O3gm3>
+        <OZONO>61</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <Ortoxilenogm3>0,61</Ortoxilenogm3>
+        <PM10>3,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,25</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,38</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-18>
+    <datos_indice-ZELAIETA_PARQUE-19>
+        <Date>04/01/2021</Date>
+        <Hour>06:00</Hour>
+        <Bencenogm3>0,13</Bencenogm3>
+        <COmgm3>0,46</COmgm3>
+        <CO8hmgm3>0,45</CO8hmgm3>
+        <Etilbencenogm3>0,25</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>10</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>12</NOXgm3>
+        <O3gm3>58</O3gm3>
+        <OZONO>58</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>60</O38hgm3>
+        <Ortoxilenogm3>0,45</Ortoxilenogm3>
+        <PM10>3,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,42</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,31</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-19>
+    <datos_indice-ZELAIETA_PARQUE-20>
+        <Date>04/01/2021</Date>
+        <Hour>05:00</Hour>
+        <COmgm3>0,44</COmgm3>
+        <CO8hmgm3>0,45</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <O3gm3>64</O3gm3>
+        <OZONO>64</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <PM10>3,96</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,63</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-20>
+    <datos_indice-ZELAIETA_PARQUE-21>
+        <Date>04/01/2021</Date>
+        <Hour>04:00</Hour>
+        <Bencenogm3>0,12</Bencenogm3>
+        <COmgm3>0,43</COmgm3>
+        <CO8hmgm3>0,45</CO8hmgm3>
+        <Etilbencenogm3>0,2</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>65</O3gm3>
+        <OZONO>65</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>60</O38hgm3>
+        <Ortoxilenogm3>0,56</Ortoxilenogm3>
+        <PM10>4,17</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>2,88</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,3</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-21>
+    <datos_indice-ZELAIETA_PARQUE-22>
+        <Date>04/01/2021</Date>
+        <Hour>03:00</Hour>
+        <Bencenogm3>0,12</Bencenogm3>
+        <COmgm3>0,44</COmgm3>
+        <CO8hmgm3>0,46</CO8hmgm3>
+        <Etilbencenogm3>0,26</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>2</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>66</O3gm3>
+        <OZONO>66</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>60</O38hgm3>
+        <Ortoxilenogm3>0,41</Ortoxilenogm3>
+        <PM10>4,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,04</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2ICA>Sin datos / Daturik gabe</SO2ICA>
+        <Toluenogm3>0,29</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-22>
+    <datos_indice-ZELAIETA_PARQUE-23>
+        <Date>04/01/2021</Date>
+        <Hour>02:00</Hour>
+        <Bencenogm3>0,15</Bencenogm3>
+        <COmgm3>0,44</COmgm3>
+        <CO8hmgm3>0,46</CO8hmgm3>
+        <Etilbencenogm3>0,19</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>62</O3gm3>
+        <OZONO>62</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>59</O38hgm3>
+        <Ortoxilenogm3>0,38</Ortoxilenogm3>
+        <PM10>4,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,25</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,49</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-23>
+    <datos_indice-ZELAIETA_PARQUE-24>
+        <Date>04/01/2021</Date>
+        <Hour>01:00</Hour>
+        <Bencenogm3>0,14</Bencenogm3>
+        <COmgm3>0,47</COmgm3>
+        <CO8hmgm3>0,46</CO8hmgm3>
+        <Etilbencenogm3>0,22</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>8</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>9</NOXgm3>
+        <O3gm3>51</O3gm3>
+        <OZONO>51</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>60</O38hgm3>
+        <Ortoxilenogm3>0,66</Ortoxilenogm3>
+        <PM10>5,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>3,5</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,33</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-24>
+    <datos_indice-ZELAIETA_PARQUE-25>
+        <Date>03/01/2021</Date>
+        <Hour>24:00</Hour>
+        <Bencenogm3>0,1</Bencenogm3>
+        <COmgm3>0,46</COmgm3>
+        <CO8hmgm3>0,46</CO8hmgm3>
+        <Etilbencenogm3>0,19</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>6</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <O3gm3>57</O3gm3>
+        <OZONO>57</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>62</O38hgm3>
+        <Ortoxilenogm3>0,35</Ortoxilenogm3>
+        <PM10>5,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,33</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-25>
+    <datos_indice-ZELAIETA_PARQUE-26>
+        <Date>03/01/2021</Date>
+        <Hour>23:00</Hour>
+        <Bencenogm3>0,15</Bencenogm3>
+        <COmgm3>0,46</COmgm3>
+        <CO8hmgm3>0,46</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>8</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>10</NOXgm3>
+        <O3gm3>58</O3gm3>
+        <OZONO>58</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>61</O38hgm3>
+        <Ortoxilenogm3>0,37</Ortoxilenogm3>
+        <PM10>6,75</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>4,71</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,23</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-26>
+    <datos_indice-ZELAIETA_PARQUE-27>
+        <Date>03/01/2021</Date>
+        <Hour>22:00</Hour>
+        <Bencenogm3>0,13</Bencenogm3>
+        <COmgm3>0,45</COmgm3>
+        <CO8hmgm3>0,46</CO8hmgm3>
+        <Etilbencenogm3>0,35</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>6</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <O3gm3>63</O3gm3>
+        <OZONO>63</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>60</O38hgm3>
+        <Ortoxilenogm3>0,32</Ortoxilenogm3>
+        <PM10>7,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,5</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,36</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-27>
+    <datos_indice-ZELAIETA_PARQUE-28>
+        <Date>03/01/2021</Date>
+        <Hour>21:00</Hour>
+        <Bencenogm3>0,13</Bencenogm3>
+        <COmgm3>0,47</COmgm3>
+        <CO8hmgm3>0,47</CO8hmgm3>
+        <Etilbencenogm3>0,15</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>8</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>10</NOXgm3>
+        <O3gm3>60</O3gm3>
+        <OZONO>60</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>57</O38hgm3>
+        <Ortoxilenogm3>0,44</Ortoxilenogm3>
+        <PM10>8,63</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,33</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,31</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-28>
+    <datos_indice-ZELAIETA_PARQUE-29>
+        <Date>03/01/2021</Date>
+        <Hour>20:00</Hour>
+        <Bencenogm3>0,12</Bencenogm3>
+        <COmgm3>0,47</COmgm3>
+        <CO8hmgm3>0,46</CO8hmgm3>
+        <Etilbencenogm3>0,19</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <O3gm3>59</O3gm3>
+        <OZONO>59</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>56</O38hgm3>
+        <Ortoxilenogm3>0,5</Ortoxilenogm3>
+        <PM10>9,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,92</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,11</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-29>
+    <datos_indice-ZELAIETA_PARQUE-30>
+        <Date>03/01/2021</Date>
+        <Hour>19:00</Hour>
+        <Bencenogm3>0,12</Bencenogm3>
+        <COmgm3>0,45</COmgm3>
+        <CO8hmgm3>0,46</CO8hmgm3>
+        <Etilbencenogm3>0,2</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>8</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>10</NOXgm3>
+        <O3gm3>65</O3gm3>
+        <OZONO>65</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>55</O38hgm3>
+        <Ortoxilenogm3>0,32</Ortoxilenogm3>
+        <PM10>9,92</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,25</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,21</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-30>
+    <datos_indice-ZELAIETA_PARQUE-31>
+        <Date>03/01/2021</Date>
+        <Hour>18:00</Hour>
+        <Bencenogm3>0,13</Bencenogm3>
+        <COmgm3>0,45</COmgm3>
+        <CO8hmgm3>0,47</CO8hmgm3>
+        <Etilbencenogm3>0,42</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>8</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>10</NOXgm3>
+        <O3gm3>65</O3gm3>
+        <OZONO>65</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>51</O38hgm3>
+        <Ortoxilenogm3>0,13</Ortoxilenogm3>
+        <PM10>10,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,46</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,19</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-31>
+    <datos_indice-ZELAIETA_PARQUE-32>
+        <Date>03/01/2021</Date>
+        <Hour>17:00</Hour>
+        <Bencenogm3>0,15</Bencenogm3>
+        <COmgm3>0,45</COmgm3>
+        <CO8hmgm3>0,48</CO8hmgm3>
+        <Etilbencenogm3>0,22</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>6</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>8</NOXgm3>
+        <O3gm3>65</O3gm3>
+        <OZONO>65</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>46</O38hgm3>
+        <Ortoxilenogm3>0,35</Ortoxilenogm3>
+        <PM10>10,83</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,75</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,25</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-32>
+    <datos_indice-ZELAIETA_PARQUE-33>
+        <Date>03/01/2021</Date>
+        <Hour>16:00</Hour>
+        <Bencenogm3>0,14</Bencenogm3>
+        <COmgm3>0,46</COmgm3>
+        <CO8hmgm3>0,48</CO8hmgm3>
+        <Etilbencenogm3>0,19</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>10</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>13</NOXgm3>
+        <O3gm3>55</O3gm3>
+        <OZONO>55</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>43</O38hgm3>
+        <Ortoxilenogm3>0,44</Ortoxilenogm3>
+        <PM10>11,17</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,21</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,39</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-33>
+    <datos_indice-ZELAIETA_PARQUE-34>
+        <Date>03/01/2021</Date>
+        <Hour>15:00</Hour>
+        <Bencenogm3>0,17</Bencenogm3>
+        <COmgm3>0,49</COmgm3>
+        <CO8hmgm3>0,49</CO8hmgm3>
+        <Etilbencenogm3>0,21</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>15</NOXgm3>
+        <O3gm3>44</O3gm3>
+        <OZONO>44</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>39</O38hgm3>
+        <Ortoxilenogm3>0,17</Ortoxilenogm3>
+        <PM10>11,46</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,45</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-34>
+    <datos_indice-ZELAIETA_PARQUE-35>
+        <Date>03/01/2021</Date>
+        <Hour>14:00</Hour>
+        <Bencenogm3>0,22</Bencenogm3>
+        <COmgm3>0,5</COmgm3>
+        <CO8hmgm3>0,49</CO8hmgm3>
+        <Etilbencenogm3>0,21</Etilbencenogm3>
+        <NOgm3>3</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>16</NOXgm3>
+        <O3gm3>45</O3gm3>
+        <OZONO>45</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>37</O38hgm3>
+        <Ortoxilenogm3>0,37</Ortoxilenogm3>
+        <PM10>11,67</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,67</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,3</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-35>
+    <datos_indice-ZELAIETA_PARQUE-36>
+        <Date>03/01/2021</Date>
+        <Hour>13:00</Hour>
+        <Bencenogm3>0,15</Bencenogm3>
+        <COmgm3>0,46</COmgm3>
+        <CO8hmgm3>0,49</CO8hmgm3>
+        <Etilbencenogm3>0,28</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>6</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>9</NOXgm3>
+        <O3gm3>52</O3gm3>
+        <OZONO>52</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>36</O38hgm3>
+        <Ortoxilenogm3>0,38</Ortoxilenogm3>
+        <PM10>11,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,75</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,11</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-36>
+    <datos_indice-ZELAIETA_PARQUE-37>
+        <Date>03/01/2021</Date>
+        <Hour>12:00</Hour>
+        <Bencenogm3>0,16</Bencenogm3>
+        <COmgm3>0,47</COmgm3>
+        <CO8hmgm3>0,49</CO8hmgm3>
+        <Etilbencenogm3>0,21</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>9</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>12</NOXgm3>
+        <O3gm3>48</O3gm3>
+        <OZONO>48</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>34</O38hgm3>
+        <Ortoxilenogm3>0,48</Ortoxilenogm3>
+        <PM10>11,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,75</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,29</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-37>
+    <datos_indice-ZELAIETA_PARQUE-38>
+        <Date>03/01/2021</Date>
+        <Hour>11:00</Hour>
+        <Bencenogm3>0,2</Bencenogm3>
+        <COmgm3>0,5</COmgm3>
+        <CO8hmgm3>0,49</CO8hmgm3>
+        <Etilbencenogm3>0,15</Etilbencenogm3>
+        <NOgm3>4</NOgm3>
+        <NO2>14</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>20</NOXgm3>
+        <O3gm3>37</O3gm3>
+        <OZONO>37</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>32</O38hgm3>
+        <Ortoxilenogm3>0,61</Ortoxilenogm3>
+        <PM10>12</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,71</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,89</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-38>
+    <datos_indice-ZELAIETA_PARQUE-39>
+        <Date>03/01/2021</Date>
+        <Hour>10:00</Hour>
+        <Bencenogm3>0,14</Bencenogm3>
+        <COmgm3>0,5</COmgm3>
+        <CO8hmgm3>0,49</CO8hmgm3>
+        <Etilbencenogm3>0,34</Etilbencenogm3>
+        <NOgm3>4</NOgm3>
+        <NO2>24</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>31</NOXgm3>
+        <O3gm3>23</O3gm3>
+        <OZONO>23</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>32</O38hgm3>
+        <Ortoxilenogm3>0,6</Ortoxilenogm3>
+        <PM10>12,04</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,58</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,64</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-39>
+    <datos_indice-ZELAIETA_PARQUE-40>
+        <Date>03/01/2021</Date>
+        <Hour>09:00</Hour>
+        <Bencenogm3>0,19</Bencenogm3>
+        <COmgm3>0,49</COmgm3>
+        <CO8hmgm3>0,49</CO8hmgm3>
+        <Etilbencenogm3>0,22</Etilbencenogm3>
+        <NOgm3>3</NOgm3>
+        <NO2>19</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>23</NOXgm3>
+        <O3ICA>Sin datos / Daturik gabe</O3ICA>
+        <O38hgm3>35</O38hgm3>
+        <Ortoxilenogm3>0,46</Ortoxilenogm3>
+        <PM10>12,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,42</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,48</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-40>
+    <datos_indice-ZELAIETA_PARQUE-41>
+        <Date>03/01/2021</Date>
+        <Hour>08:00</Hour>
+        <Bencenogm3>0,16</Bencenogm3>
+        <COmgm3>0,49</COmgm3>
+        <CO8hmgm3>0,49</CO8hmgm3>
+        <Etilbencenogm3>0,19</Etilbencenogm3>
+        <NOgm3>2</NOgm3>
+        <NO2>20</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>23</NOXgm3>
+        <O3gm3>25</O3gm3>
+        <OZONO>25</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>36</O38hgm3>
+        <Ortoxilenogm3>0,6</Ortoxilenogm3>
+        <PM10>12,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,25</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,67</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-41>
+    <datos_indice-ZELAIETA_PARQUE-42>
+        <Date>03/01/2021</Date>
+        <Hour>07:00</Hour>
+        <Bencenogm3>0,12</Bencenogm3>
+        <COmgm3>0,5</COmgm3>
+        <CO8hmgm3>0,5</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>15</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>17</NOXgm3>
+        <O3gm3>31</O3gm3>
+        <OZONO>31</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>35</O38hgm3>
+        <Ortoxilenogm3>0,67</Ortoxilenogm3>
+        <PM10>12,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,21</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,5</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-42>
+    <datos_indice-ZELAIETA_PARQUE-43>
+        <Date>03/01/2021</Date>
+        <Hour>06:00</Hour>
+        <Bencenogm3>0,14</Bencenogm3>
+        <COmgm3>0,48</COmgm3>
+        <CO8hmgm3>0,52</CO8hmgm3>
+        <Etilbencenogm3>0,19</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>8</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>10</NOXgm3>
+        <O3gm3>35</O3gm3>
+        <OZONO>35</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>32</O38hgm3>
+        <Ortoxilenogm3>0,45</Ortoxilenogm3>
+        <PM10>12,46</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,21</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,54</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-43>
+    <datos_indice-ZELAIETA_PARQUE-44>
+        <Date>03/01/2021</Date>
+        <Hour>05:00</Hour>
+        <Bencenogm3>0,16</Bencenogm3>
+        <COmgm3>0,48</COmgm3>
+        <CO8hmgm3>0,54</CO8hmgm3>
+        <Etilbencenogm3>0,22</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>9</NOXgm3>
+        <O3gm3>36</O3gm3>
+        <OZONO>36</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>29</O38hgm3>
+        <Ortoxilenogm3>0,59</Ortoxilenogm3>
+        <PM10>12,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,13</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,46</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-44>
+    <datos_indice-ZELAIETA_PARQUE-45>
+        <Date>03/01/2021</Date>
+        <Hour>04:00</Hour>
+        <COmgm3>0,48</COmgm3>
+        <CO8hmgm3>0,56</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <O3gm3>38</O3gm3>
+        <OZONO>38</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>26</O38hgm3>
+        <PM10>12,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8,08</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-45>
+    <datos_indice-ZELAIETA_PARQUE-46>
+        <Date>03/01/2021</Date>
+        <Hour>03:00</Hour>
+        <Bencenogm3>0,11</Bencenogm3>
+        <COmgm3>0,5</COmgm3>
+        <CO8hmgm3>0,57</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <O3gm3>38</O3gm3>
+        <OZONO>38</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>23</O38hgm3>
+        <Ortoxilenogm3>0,49</Ortoxilenogm3>
+        <PM10>12,46</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>8</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2ICA>Sin datos / Daturik gabe</SO2ICA>
+        <Toluenogm3>0,32</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-46>
+    <datos_indice-ZELAIETA_PARQUE-47>
+        <Date>03/01/2021</Date>
+        <Hour>02:00</Hour>
+        <Bencenogm3>0,16</Bencenogm3>
+        <COmgm3>0,49</COmgm3>
+        <CO8hmgm3>0,58</CO8hmgm3>
+        <Etilbencenogm3>0,13</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>7</NOXgm3>
+        <O3gm3>42</O3gm3>
+        <OZONO>42</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>20</O38hgm3>
+        <Ortoxilenogm3>0,48</Ortoxilenogm3>
+        <PM10>12,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,88</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,22</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-47>
+    <datos_indice-ZELAIETA_PARQUE-48>
+        <Date>03/01/2021</Date>
+        <Hour>01:00</Hour>
+        <Bencenogm3>0,25</Bencenogm3>
+        <COmgm3>0,51</COmgm3>
+        <CO8hmgm3>0,58</CO8hmgm3>
+        <Etilbencenogm3>0,25</Etilbencenogm3>
+        <NOgm3>1</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>9</NOXgm3>
+        <O3gm3>39</O3gm3>
+        <OZONO>39</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>19</O38hgm3>
+        <Ortoxilenogm3>0,39</Ortoxilenogm3>
+        <PM10>11,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>7,5</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>0,76</Toluenogm3>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZELAIETA_PARQUE-48>
+</datos_indice-ZELAIETA_PARQUE>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-EASO>
+    <datos_diarios-EASO-1>
+        <Date>03/01/2021</Date>
+        <COmgm3>0,39</COmgm3>
+        <CO8hmgm3>0,41</CO8hmgm3>
+        <NOgm3>6</NOgm3>
+        <NO2gm3>27</NO2gm3>
+        <NOXgm3>35</NOXgm3>
+        <PM10gm3>5</PM10gm3>
+        <SO2gm3>2</SO2gm3>
+    </datos_diarios-EASO-1>
+    <datos_diarios-EASO-2>
+        <Date>02/01/2021</Date>
+        <COmgm3>0,4</COmgm3>
+        <CO8hmgm3>0,36</CO8hmgm3>
+        <NOgm3>12</NOgm3>
+        <NO2gm3>27</NO2gm3>
+        <NOXgm3>46</NOXgm3>
+        <PM10gm3>11</PM10gm3>
+        <SO2gm3>2</SO2gm3>
+    </datos_diarios-EASO-2>
+</datos_diarios-EASO>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-M_DIAZ_HARO>
+    <datos_diarios-M_DIAZ_HARO-1>
+        <Date>03/01/2021</Date>
+        <COmgm3>0,3</COmgm3>
+        <CO8hmgm3>0,32</CO8hmgm3>
+        <NOgm3>4</NOgm3>
+        <NO2gm3>28</NO2gm3>
+        <NOXgm3>34</NOXgm3>
+        <O3gm3>36</O3gm3>
+        <O38hgm3>32</O38hgm3>
+        <PM10gm3>4</PM10gm3>
+        <PM25gm3>3</PM25gm3>
+        <SO2gm3>1</SO2gm3>
+    </datos_diarios-M_DIAZ_HARO-1>
+    <datos_diarios-M_DIAZ_HARO-2>
+        <Date>02/01/2021</Date>
+        <COmgm3>0,29</COmgm3>
+        <CO8hmgm3>0,26</CO8hmgm3>
+        <NOgm3>12</NOgm3>
+        <NO2gm3>28</NO2gm3>
+        <NOXgm3>46</NOXgm3>
+        <O3gm3>43</O3gm3>
+        <O38hgm3>50</O38hgm3>
+        <PM10gm3>7</PM10gm3>
+        <PM25gm3>4</PM25gm3>
+        <SO2gm3>1</SO2gm3>
+    </datos_diarios-M_DIAZ_HARO-2>
+</datos_diarios-M_DIAZ_HARO>

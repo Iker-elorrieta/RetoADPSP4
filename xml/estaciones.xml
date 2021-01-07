@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<estaciones>
+    <estaciones-1>
+        <Name>3 DE MARZO</Name>
+        <Province>Araba/Álava</Province>
+        <Town>Vitoria-Gasteiz</Town>
+        <Address>Plaza Tres de Marzo, s/n</Address>
+        <CoordenatesXETRS89>527141,4365</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4744882,8893</CoordenatesYETRS89>
+        <Latitude>42,85604797053618</Latitude>
+        <Longitude>-2,667784994714487</Longitude>
+    </estaciones-1>
+    <estaciones-2>
+        <Name>ABANTO</Name>
+        <Province>Bizkaia</Province>
+        <Town>Abanto y Ciérvana-Abanto Zierbena</Town>
+        <Address>Avda. del Minero, 2. Ayuntamiento</Address>
+        <CoordenatesXETRS89>493987,175</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4796406,558</CoordenatesYETRS89>
+        <Latitude>43,32047399433485</Latitude>
+        <Longitude>-3,0741559961978044</Longitude>
+    </estaciones-2>
+    <estaciones-3>
+        <Name>AGURAIN</Name>
+        <Province>Araba/Álava</Province>
+        <Town>Agurain/Salvatierra</Town>
+        <Address>C/ Fueros, 11. Subcomisaría de la Ertzaintza.</Address>
+        <CoordenatesXETRS89>549539,1393</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4744226,3688</CoordenatesYETRS89>
+        <Latitude>42,84901250588428</Latitude>
+        <Longitude>-2,3937033896081683</Longitude>
+    </estaciones-3>
+    <estaciones-4>
+        <Name>ALGORTA (BBIZI2)</Name>
+        <Province>Bizkaia</Province>
+        <Town>Getxo</Town>
+        <Address>Carretera de Galea, s/n </Address>
+        <CoordenatesXETRS89>498154</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4801022</CoordenatesYETRS89>
+        <Latitude>43,362055748944286</Latitude>
+        <Longitude>-3,0227822073211765</Longitude>
+    </estaciones-4>
+    <estaciones-5>
+        <Name>ALONSOTEGI</Name>
+        <Province>Bizkaia</Province>
+        <Town>Alonsotegi</Town>
+        <Address>C/ Baztieta, s/n. Bº Irauregi</Address>
+        <CoordenatesXETRS89>500972,2158</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4788307,4677</CoordenatesYETRS89>
+        <Latitude>43,247567997964374</Latitude>
+        <Longitude>-2,988024000380936</Longitude>
+    </estaciones-5>
+    <estaciones-6>
+        <Name>ANDOAIN</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Andoain</Town>
+        <Address>Ikastola Aita larramendi</Address>
+        <CoordenatesXETRS89>579321</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4785862</CoordenatesYETRS89>
+        <Latitude>43,22137866586519</Latitude>
+        <Longitude>-2,02332524753123</Longitude>
+    </estaciones-6>
+    <estaciones-7>
+        <Name>ARRAIZ (Monte)</Name>
+        <Province>Bizkaia</Province>
+        <Town>Bilbao</Town>
+        <Address>Camino de Arraiz, s/n</Address>
+        <CoordenatesXETRS89>503208,6894</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4788084,4656</CoordenatesYETRS89>
+        <Latitude>43,245553729819484</Latitude>
+        <Longitude>-2,960475856567045</Longitude>
+    </estaciones-7>
+    <estaciones-8>
+        <Name>ATEGORRIETA</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Donostia / San Sebastián</Town>
+        <Address>Avda. Ategorrieta, 71</Address>
+        <CoordenatesXETRS89>584272,2271</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4797096,9139</CoordenatesYETRS89>
+        <Latitude>43,32199194732484</Latitude>
+        <Longitude>-1,960650618338729</Longitude>
+    </estaciones-8>
+    <estaciones-9>
+        <Name>AV. GASTEIZ</Name>
+        <Province>Araba/Álava</Province>
+        <Town>Vitoria-Gasteiz</Town>
+        <Address>Avda. Gasteiz, 97</Address>
+        <CoordenatesXETRS89>526086,031</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4744738,1348</CoordenatesYETRS89>
+        <Latitude>42,85478118366939</Latitude>
+        <Longitude>-2,6807098224581067</Longitude>
+    </estaciones-9>
+    <estaciones-10>
+        <Name>AVDA. TOLOSA</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Donostia / San Sebastián</Town>
+        <Address>C/ Andrestegi, 2 </Address>
+        <CoordenatesXETRS89>580211,325</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4795650,4773</CoordenatesYETRS89>
+        <Latitude>43,30941344063433</Latitude>
+        <Longitude>-2,010938423674493</Longitude>
+    </estaciones-10>
+    <estaciones-11>
+        <Name>AZPEITIA</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Azpeitia</Town>
+        <Address>C/ Perdillegi, s/n</Address>
+        <CoordenatesXETRS89>559472,3</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4781104,8</CoordenatesYETRS89>
+        <Latitude>43,180370053194196</Latitude>
+        <Longitude>-2,2682104189344456</Longitude>
+    </estaciones-11>
+    <estaciones-12>
+        <Name>AÑORGA</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Donostia / San Sebastián</Town>
+        <Address>Avda. de Añorga, 12 (Añorga Txiki)</Address>
+        <CoordenatesXETRS89>581469,0172</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4793568,2345</CoordenatesYETRS89>
+        <Latitude>43,29053138556358</Latitude>
+        <Longitude>-1,9957411467011474</Longitude>
+    </estaciones-12>
+    <estaciones-13>
+        <Name>BANDERAS (meteo)</Name>
+        <Province>Bizkaia</Province>
+        <Town>Bilbao</Town>
+        <Address>Monte Banderas, s/n</Address>
+        <CoordenatesXETRS89>503790,8</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4792020,1</CoordenatesYETRS89>
+        <Latitude>43,28099012364825</Latitude>
+        <Longitude>-2,953278416670214</Longitude>
+    </estaciones-13>
+    <estaciones-14>
+        <Name>BARAKALDO</Name>
+        <Province>Bizkaia</Province>
+        <Town>Barakaldo</Town>
+        <Address>C/ Hogar propio, 7. CIFP Nicolás Larburu</Address>
+        <CoordenatesXETRS89>501043,6789</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4793950,2238</CoordenatesYETRS89>
+        <Latitude>43,298378997955</Latitude>
+        <Longitude>-2,987132999827669</Longitude>
+    </estaciones-14>
+    <estaciones-15>
+        <Name>BASAURI</Name>
+        <Province>Bizkaia</Province>
+        <Town>Basauri</Town>
+        <Address>C/ Uribarri, 5. CEIP Bizkotxalde.</Address>
+        <CoordenatesXETRS89>509437,3144</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4787599,1408</CoordenatesYETRS89>
+        <Latitude>43,24113129588412</Latitude>
+        <Longitude>-2,8837610228035238</Longitude>
+    </estaciones-15>
+    <estaciones-16>
+        <Name>BEASAIN</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Beasain</Town>
+        <Address>Plaza Gipuzkoa, 1</Address>
+        <CoordenatesXETRS89>565857,9851</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4766472,8521</CoordenatesYETRS89>
+        <Latitude>43,04809432240711</Latitude>
+        <Longitude>-2,191380269702985</Longitude>
+    </estaciones-16>
+    <estaciones-17>
+        <Name>BOROA METEO</Name>
+        <Province>Bizkaia</Province>
+        <Town>Amorebieta-Etxano</Town>
+        <Address>Parque Empresarial Boroa, s/n</Address>
+        <CoordenatesXETRS89>520243,146</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4787042,3114</CoordenatesYETRS89>
+        <Latitude>43,23590459584916</Latitude>
+        <Longitude>-2,7506874305174405</Longitude>
+    </estaciones-17>
+    <estaciones-18>
+        <Name>CASTREJANA</Name>
+        <Province>Bizkaia</Province>
+        <Town>Barakaldo</Town>
+        <Address>C/ Larrazabal, 1. Bº Castrejana</Address>
+        <CoordenatesXETRS89>502154,4326</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4789475,0682</CoordenatesYETRS89>
+        <Latitude>43,25807942736176</Latitude>
+        <Longitude>-2,973456590856772</Longitude>
+    </estaciones-18>
+    <estaciones-19>
+        <Name>DURANGO</Name>
+        <Province>Bizkaia</Province>
+        <Town>Durango</Town>
+        <Address>C/ San Roque, 20 bajo. E.S. Roque</Address>
+        <CoordenatesXETRS89>529428,7974</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4779566,5562</CoordenatesYETRS89>
+        <Latitude>43,168285997690994</Latitude>
+        <Longitude>-2,6379580009450136</Longitude>
+    </estaciones-19>
+    <estaciones-20>
+        <Name>EASO</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Donostia / San Sebastián</Town>
+        <Address>Plaza del Centenario, s/n</Address>
+        <CoordenatesXETRS89>582643,6267</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4795983,9845</CoordenatesYETRS89>
+        <Latitude>43,31215280742268</Latitude>
+        <Longitude>-1,9809008637096939</Longitude>
+    </estaciones-20>
+    <estaciones-21>
+        <Name>ELCIEGO</Name>
+        <Province>Araba/Álava</Province>
+        <Town>Elciego</Town>
+        <Address>C/ Gabriel Celaya, 8</Address>
+        <CoordenatesXETRS89>531257,1773</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4707389,4714</CoordenatesYETRS89>
+        <Latitude>42,51824807424149</Latitude>
+        <Longitude>-2,61947521199466</Longitude>
+    </estaciones-21>
+    <estaciones-22>
+        <Name>ERANDIO</Name>
+        <Province>Bizkaia</Province>
+        <Town>Erandio</Town>
+        <Address>Avda. José Luis Goyoaga, s/n (Pasaje de Altzaga)</Address>
+        <CoordenatesXETRS89>501846</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4794425</CoordenatesYETRS89>
+        <Latitude>43,3026526345891</Latitude>
+        <Longitude>-2,9772399863752486</Longitude>
+    </estaciones-22>
+    <estaciones-23>
+        <Name>EUROPA</Name>
+        <Province>Bizkaia</Province>
+        <Town>Bilbao</Town>
+        <Address>Parque Europa. Bº Txurdinaga</Address>
+        <CoordenatesXETRS89>507924,189</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4789127,4396</CoordenatesYETRS89>
+        <Latitude>43,25491056506432</Latitude>
+        <Longitude>-2,902376115931137</Longitude>
+    </estaciones-23>
+    <estaciones-24>
+        <Name>FARMACIA</Name>
+        <Province>Araba/Álava</Province>
+        <Town>Vitoria-Gasteiz</Town>
+        <Address>Paseo Universidad, 7. Fac. Farmacia UPV</Address>
+        <CoordenatesXETRS89>526757,9486</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4743110,3681</CoordenatesYETRS89>
+        <Latitude>42,840099615592926</Latitude>
+        <Longitude>-2,672563184280286</Longitude>
+    </estaciones-24>
+    <estaciones-25>
+        <Name>FERIA (meteo)</Name>
+        <Province>Bizkaia</Province>
+        <Town>Bilbao</Town>
+        <Address>C/ Rafael Moreno Pitxitxi, s/n</Address>
+        <CoordenatesXETRS89>504257,1663</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4790269,2685</CoordenatesYETRS89>
+        <Latitude>43,26522199716327</Latitude>
+        <Longitude>-2,9475439999557134</Longitude>
+    </estaciones-25>
+    <estaciones-26>
+        <Name>HERNANI</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Hernani</Town>
+        <Address>C/ Aristizabal, s/n. Centro de salud Hernani.</Address>
+        <CoordenatesXETRS89>582962,7015</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4791020,6066</CoordenatesYETRS89>
+        <Latitude>43,26743142273141</Latitude>
+        <Longitude>-1,977715640356133</Longitude>
+    </estaciones-26>
+    <estaciones-27>
+        <Name>JAIZKIBEL</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Hondarribia</Town>
+        <Address>Monte Jaizkibel, s/n</Address>
+        <CoordenatesXETRS89>592449,2822</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4799512,1706</CoordenatesYETRS89>
+        <Latitude>43,342775184321106</Latitude>
+        <Longitude>-1,8594129027945114</Longitude>
+    </estaciones-27>
+    <estaciones-28>
+        <Name>LARRABETZU</Name>
+        <Province>Bizkaia</Province>
+        <Town>Larrabetzu</Town>
+        <Address>Barrio Berrezoaga, 3</Address>
+        <CoordenatesXETRS89>516281,215</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4789843,71</CoordenatesYETRS89>
+        <Latitude>43,261226121618066</Latitude>
+        <Longitude>-2,799399084312731</Longitude>
+    </estaciones-28>
+    <estaciones-29>
+        <Name>LAS CARRERAS</Name>
+        <Province>Bizkaia</Province>
+        <Town>Abanto y Ciérvana-Abanto Zierbena</Town>
+        <Address>Plaza Trinidad, s/n. Bº Las Carreras</Address>
+        <CoordenatesXETRS89>492102,56</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4796311,78</CoordenatesYETRS89>
+        <Latitude>43,31960312849335</Latitude>
+        <Longitude>-3,0973975060209376</Longitude>
+    </estaciones-29>
+    <estaciones-30>
+        <Name>LASARTE-ORIA</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Lasarte-Oria</Town>
+        <Address>Parque Tximistarreta</Address>
+        <CoordenatesXETRS89>579600,13</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4791121,24</CoordenatesYETRS89>
+        <Latitude>43,26870022418793</Latitude>
+        <Longitude>-2,0191293415933154</Longitude>
+    </estaciones-30>
+    <estaciones-31>
+        <Name>LEZO</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Lezo</Town>
+        <Address>Plaza Polantzarene, s/n</Address>
+        <CoordenatesXETRS89>589179,9795</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4797107,63</CoordenatesYETRS89>
+        <Latitude>43,32152243586307</Latitude>
+        <Longitude>-1,900131049811533</Longitude>
+    </estaciones-31>
+    <estaciones-32>
+        <Name>LLODIO</Name>
+        <Province>Araba/Álava</Province>
+        <Town>Laudio/Llodio</Town>
+        <Address>C/ Lamuza, s/n</Address>
+        <CoordenatesXETRS89>502977,4251</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4776809,8177</CoordenatesYETRS89>
+        <Latitude>43,1440289422417</Latitude>
+        <Longitude>-2,9633852821260223</Longitude>
+    </estaciones-32>
+    <estaciones-33>
+        <Name>LOS HERRAN</Name>
+        <Province>Araba/Álava</Province>
+        <Town>Vitoria-Gasteiz</Town>
+        <Address>Parque Judizmendi. Bº Judizmendi</Address>
+        <CoordenatesXETRS89>527682,4365</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4743514,1634</CoordenatesYETRS89>
+        <Latitude>42,84370295644861</Latitude>
+        <Longitude>-2,661230556636825</Longitude>
+    </estaciones-33>
+    <estaciones-34>
+        <Name>MAZARREDO</Name>
+        <Province>Bizkaia</Province>
+        <Town>Bilbao</Town>
+        <Address>C/ Alameda Mazarredo, s/n (Guggenheim)</Address>
+        <CoordenatesXETRS89>505259,7354</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4790523,5641</CoordenatesYETRS89>
+        <Latitude>43,26750551179745</Latitude>
+        <Longitude>-2,935188110338201</Longitude>
+    </estaciones-34>
+    <estaciones-35>
+        <Name>MONDRAGON</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Arrasate/Mondragón</Town>
+        <Address>Plaza Jose María Arizmendiarrieta, s/n</Address>
+        <CoordenatesXETRS89>541493,746</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4768061,3417</CoordenatesYETRS89>
+        <Latitude>43,06412079434686</Latitude>
+        <Longitude>-2,4903966831445423</Longitude>
+    </estaciones-35>
+    <estaciones-36>
+        <Name>MONTORRA</Name>
+        <Province>Bizkaia</Province>
+        <Town>Amorebieta-Etxano</Town>
+        <Address>Barrio Montorra fte. nº5</Address>
+        <CoordenatesXETRS89>523021,9544</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4784064,8793</CoordenatesYETRS89>
+        <Latitude>43,209014222504145</Latitude>
+        <Longitude>-2,7165885073623226</Longitude>
+    </estaciones-36>
+    <estaciones-37>
+        <Name>MUNDAKA</Name>
+        <Province>Bizkaia</Province>
+        <Town>Mundaka</Town>
+        <Address>Camino Goitiz, s/n. Depósito de Agua</Address>
+        <CoordenatesXETRS89>524035,1288</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4805932,4502</CoordenatesYETRS89>
+        <Latitude>43,40588884294258</Latitude>
+        <Longitude>-2,7031593675211343</Longitude>
+    </estaciones-37>
+    <estaciones-38>
+        <Name>MUNOA</Name>
+        <Province>Bizkaia</Province>
+        <Town>Barakaldo</Town>
+        <Address>C/ Llano, 55. CEP Munoa. Bº Lutxana</Address>
+        <CoordenatesXETRS89>501728,39</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4792529,8721</CoordenatesYETRS89>
+        <Latitude>43,28558799716144</Latitude>
+        <Longitude>-2,978696000976749</Longitude>
+    </estaciones-38>
+    <estaciones-39>
+        <Name>MUSKIZ</Name>
+        <Province>Bizkaia</Province>
+        <Town>Muskiz</Town>
+        <Address>C/ Giba Fregenal, s/n. Estación de Renfe</Address>
+        <CoordenatesXETRS89>490860,6099</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4796436,6121</CoordenatesYETRS89>
+        <Latitude>43,32071311956527</Latitude>
+        <Longitude>-3,1127162723783197</Longitude>
+    </estaciones-39>
+    <estaciones-40>
+        <Name>Mª DIAZ HARO</Name>
+        <Province>Bizkaia</Province>
+        <Town>Bilbao</Town>
+        <Address>C/ Mª Díaz de Haro, 60</Address>
+        <CoordenatesXETRS89>504410,8</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4789556,5</CoordenatesYETRS89>
+        <Latitude>43,25880286639215</Latitude>
+        <Longitude>-2,945656664175787</Longitude>
+    </estaciones-40>
+    <estaciones-41>
+        <Name>NAUTICA</Name>
+        <Province>Bizkaia</Province>
+        <Town>Portugalete</Town>
+        <Address>C/ Mª Díaz de Haro, 68 (Esc. Náutica)</Address>
+        <CoordenatesXETRS89>498108,2533</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4797122,7258</CoordenatesYETRS89>
+        <Latitude>43,32694444265417</Latitude>
+        <Longitude>-3,023333333735672</Longitude>
+    </estaciones-41>
+    <estaciones-42>
+        <Name>PAGOETA</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Aia</Town>
+        <Address>Jardín Botánico de Iturraran. Parque Natural de Pagoeta. </Address>
+        <CoordenatesXETRS89>568603,2817</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4788991,3758</CoordenatesYETRS89>
+        <Latitude>43,25060521979407</Latitude>
+        <Longitude>-2,1548873966664503</Longitude>
+    </estaciones-42>
+    <estaciones-43>
+        <Name>PUYO</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Donostia / San Sebastián</Town>
+        <Address>Camino de Puyo, 14</Address>
+        <CoordenatesXETRS89>582404,0515</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4794939,6966</CoordenatesYETRS89>
+        <Latitude>43,302777170621106</Latitude>
+        <Longitude>-1,9840112864449164</Longitude>
+    </estaciones-43>
+    <estaciones-44>
+        <Name>SAN JULIAN</Name>
+        <Province>Bizkaia</Province>
+        <Town>Muskiz</Town>
+        <Address>Camino a Valles, s/n. Bº San Julian</Address>
+        <CoordenatesXETRS89>490839,8223</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4797762,3066</CoordenatesYETRS89>
+        <Latitude>43,33265015831669</Latitude>
+        <Longitude>-3,112994770178107</Longitude>
+    </estaciones-44>
+    <estaciones-45>
+        <Name>SAN MIGUEL</Name>
+        <Province>Bizkaia</Province>
+        <Town>Basauri</Town>
+        <Address>Parque pinceles. Bº San Miguel</Address>
+        <CoordenatesXETRS89>509217,21</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4785388,01</CoordenatesYETRS89>
+        <Latitude>43,2212234317361</Latitude>
+        <Longitude>-2,886508983250916</Longitude>
+    </estaciones-45>
+    <estaciones-46>
+        <Name>SANGRONIZ</Name>
+        <Province>Bizkaia</Province>
+        <Town>Sondika</Town>
+        <Address>C/ Iturrikosolo, s/n</Address>
+        <CoordenatesXETRS89>505646,6</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4793957,2</CoordenatesYETRS89>
+        <Latitude>43,29842135635236</Latitude>
+        <Longitude>-2,93038581833024</Longitude>
+    </estaciones-46>
+    <estaciones-47>
+        <Name>SANTURCE</Name>
+        <Province>Bizkaia</Province>
+        <Town>Santurtzi</Town>
+        <Address>C/ Vista Alegre, 29 </Address>
+        <CoordenatesXETRS89>496549,7975</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4797797,1715</CoordenatesYETRS89>
+        <Latitude>43,33301199742545</Latitude>
+        <Longitude>-3,042560000349237</Longitude>
+    </estaciones-47>
+    <estaciones-48>
+        <Name>SERANTES</Name>
+        <Province>Bizkaia</Province>
+        <Town>Santurtzi</Town>
+        <Address>Camino Serantes igoera, s/n</Address>
+        <CoordenatesXETRS89>494893,6762</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4797956,4394</CoordenatesYETRS89>
+        <Latitude>43,3344367083824</Latitude>
+        <Longitude>-3,0629905698856272</Longitude>
+    </estaciones-48>
+    <estaciones-49>
+        <Name>SESTAO</Name>
+        <Province>Bizkaia</Province>
+        <Town>Sestao</Town>
+        <Address>Parque Portopin</Address>
+        <CoordenatesXETRS89>500328,4875</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4794988,1863</CoordenatesYETRS89>
+        <Latitude>43,307726099387494</Latitude>
+        <Longitude>-2,9959496198447484</Longitude>
+    </estaciones-49>
+    <estaciones-50>
+        <Name>TOLOSA</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Tolosa</Town>
+        <Address>Avda. Martin Jose Iraola, 23</Address>
+        <CoordenatesXETRS89>574991,16</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4775750,46</CoordenatesYETRS89>
+        <Latitude>43,13078067861342</Latitude>
+        <Longitude>-2,078002156707588</Longitude>
+    </estaciones-50>
+    <estaciones-51>
+        <Name>URKIOLA</Name>
+        <Province>Bizkaia</Province>
+        <Town>Abadiño</Town>
+        <Address>Urkiola auzoa, 8</Address>
+        <CoordenatesXETRS89>528410,62</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4772028</CoordenatesYETRS89>
+        <Latitude>43,100442429429606</Latitude>
+        <Longitude>-2,6508700717196243</Longitude>
+    </estaciones-51>
+    <estaciones-52>
+        <Name>USURBIL</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Usurbil</Town>
+        <Address>San Inazio</Address>
+        <CoordenatesXETRS89>577047</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4791656</CoordenatesYETRS89>
+        <Latitude>43,27378032307657</Latitude>
+        <Longitude>-2,0505110667115676</Longitude>
+    </estaciones-52>
+    <estaciones-53>
+        <Name>VALDEREJO</Name>
+        <Province>Araba/Álava</Province>
+        <Town>Valdegovía/Gaubea</Town>
+        <Address>Ctro. de Interpretación. Parque Natural de Valderejo</Address>
+        <CoordenatesXETRS89>481073,6693</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4746978,5075</CoordenatesYETRS89>
+        <Latitude>42,87516709375477</Latitude>
+        <Longitude>-3,231732505322038</Longitude>
+    </estaciones-53>
+    <estaciones-54>
+        <Name>ZALLA</Name>
+        <Province>Bizkaia</Province>
+        <Town>Zalla</Town>
+        <Address>Avda. Kosme Bibanko Etxebarria, 2</Address>
+        <CoordenatesXETRS89>489078,1917</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4784461,4469</CoordenatesYETRS89>
+        <Latitude>43,2128572411877</Latitude>
+        <Longitude>-3,134461258966499</Longitude>
+    </estaciones-54>
+    <estaciones-55>
+        <Name>ZELAIETA PARQUE</Name>
+        <Province>Bizkaia</Province>
+        <Town>Amorebieta-Etxano</Town>
+        <Address>Parque Zelaieta </Address>
+        <CoordenatesXETRS89>521563,7353</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4785158,5803</CoordenatesYETRS89>
+        <Latitude>43,21890568490462</Latitude>
+        <Longitude>-2,7344969803118295</Longitude>
+    </estaciones-55>
+    <estaciones-56>
+        <Name>ZIERBENA (Puerto)</Name>
+        <Province>Bizkaia</Province>
+        <Town>Zierbena</Town>
+        <Address>Puerto de Zierbena, s/n. Bº El Puerto</Address>
+        <CoordenatesXETRS89>493436,7</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4800025,4</CoordenatesYETRS89>
+        <Latitude>43,35305543364201</Latitude>
+        <Longitude>-3,080988277376953</Longitude>
+    </estaciones-56>
+    <estaciones-57>
+        <Name>ZUBIETA</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Donostia / San Sebastián</Town>
+        <Address>URIBITARTE IBILBIDEA</Address>
+        <CoordenatesXETRS89>578604</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4791483</CoordenatesYETRS89>
+        <Latitude>43,272061873363164</Latitude>
+        <Longitude>-2,0313507420960284</Longitude>
+    </estaciones-57>
+    <estaciones-58>
+        <Name>ZUBIETA METEO</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Donostia / San Sebastián</Town>
+        <Address>ZUBIETA</Address>
+        <CoordenatesXETRS89>578595</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4789696</CoordenatesYETRS89>
+        <Latitude>43,25597376352475</Latitude>
+        <Longitude>-2,0317166856330036</Longitude>
+    </estaciones-58>
+    <estaciones-59>
+        <Name>ZUMARRAGA</Name>
+        <Province>Gipuzkoa</Province>
+        <Town>Zumarraga</Town>
+        <Address>Grupo Izazpi 3, 6 </Address>
+        <CoordenatesXETRS89>555656,194</CoordenatesXETRS89>
+        <CoordenatesYETRS89>4770489,269</CoordenatesYETRS89>
+        <Latitude>43,08507598449891</Latitude>
+        <Longitude>-2,316228856182885</Longitude>
+    </estaciones-59>
+</estaciones>

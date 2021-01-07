@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<datos_diarios-SESTAO>
+    <datos_diarios-SESTAO-1>
+        <Date>03/01/2021</Date>
+        <NOgm3>0</NOgm3>
+        <NO2gm3>14</NO2gm3>
+        <NOXgm3>12</NOXgm3>
+    </datos_diarios-SESTAO-1>
+    <datos_diarios-SESTAO-2>
+        <Date>02/01/2021</Date>
+        <NOgm3>1</NOgm3>
+        <NO2gm3>13</NO2gm3>
+        <NOXgm3>13</NOXgm3>
+    </datos_diarios-SESTAO-2>
+</datos_diarios-SESTAO>
