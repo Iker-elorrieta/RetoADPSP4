@@ -1,4 +1,4 @@
-package hiberclass;
+package modelo;
 // Generated Jan 3, 2021, 9:45:27 PM by Hibernate Tools 5.4.18.Final
 
 import java.util.HashSet;

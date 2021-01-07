@@ -1,4 +1,4 @@
-package main;
+package modelo;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -18,7 +18,6 @@ import java.security.cert.X509Certificate;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Iterator;
 import java.util.regex.PatternSyntaxException;
 
 import javax.net.ssl.HttpsURLConnection;
@@ -38,20 +37,13 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import hiberclass.Entornos;
-import hiberclass.Entornosmuni;
-import hiberclass.EntornosmuniId;
-import hiberclass.Estaciones;
-import hiberclass.Horario;
-import hiberclass.Informes;
-import hiberclass.Municipios;
-
 public class Principal {
 	
-	public static void main(String[] args) {
+	public static boolean cargarTodosLosDatos()
+	{
+		boolean result = false;
 		String[] caracteresDeSeparacion = {"-","/","|"};
 		Calendar tiempo1 = Calendar.getInstance();
-		Horario[] horario = null;
 		Entornos[] listaEspaciosNaturales = null;
 		Municipios[] listaMunicipios = null;
 		ArrayList<Informes> paginasNoEncontrada = new ArrayList<Informes>();
@@ -71,13 +63,13 @@ public class Principal {
 				horariosEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2021/es_def/adjuntos/index.json"), Informes[].class);
 			} catch (JsonMappingException e2) {
 				// TODO Auto-generated catch block
-				e2.printStackTrace();
+//				e2.printStackTrace();
 			} catch (JsonProcessingException e2) {
 				// TODO Auto-generated catch block
-				e2.printStackTrace();
+//				e2.printStackTrace();
 			} catch (IOException e2) {
 				// TODO Auto-generated catch block
-				e2.printStackTrace();
+//				e2.printStackTrace();
 			}
 			//Cargamos los arrays con todos los datos de los json
 			Estaciones[] listaEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/estaciones.json"), Estaciones[].class);
@@ -200,7 +192,7 @@ public class Principal {
 				}
 				catch (Exception f)
 				{
-					f.printStackTrace();
+//					f.printStackTrace();
 				}
 			}
 			
@@ -258,47 +250,53 @@ public class Principal {
 					}
 				}
 			}
-			
-			for(int y = 0 ; y < horariosEstaciones.length ;y++)
-			{
-				try
-				{
-					String url = horariosEstaciones[y].getUrl();
-					System.out.println(url);
-					if(url.contains("datos_indice") || url.contains("datos_diarios"))
-					{
-						String hql = "from Informes where url = '"+url+"'";
-						Query q = session.createQuery(hql);
-						Informes informe = (Informes) q.uniqueResult();
-						horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[y].getUrl()), Horario[].class);
-						for(int x = 0 ; x < horario.length; x++)
-						{
-							horario[x].setInformes(informe);
-							if(!horario[x].isNull() && horario[x].getInformes() != null)
-								InsertarBorrar.insertar(horario[x],sesion,session);
-						}
-					}
-				}
-				catch (IOException a)
-				{
-					
-				}
-				catch(PropertyValueException b)
-				{
-					
-				}
-				catch (ConstraintViolationException c)
-				{
-					
-				}
-			}
-			
+			cargarHorarios(horariosEstaciones, sesion, session, mapper);
 		} catch (Exception e) {
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
 		
 		Calendar tiempo2 = Calendar.getInstance();
 		System.out.println(Duration.between(tiempo1.toInstant(), tiempo2.toInstant()));
+		return true;
+	}
+	
+	public static boolean cargarHorarios(Informes[] horariosEstaciones,SessionFactory sesion, Session session, ObjectMapper mapper)
+	{
+		Horario[] horario;
+		for(int y = 0 ; y < horariosEstaciones.length ;y++)
+		{
+			try
+			{
+				String url = horariosEstaciones[y].getUrl();
+				System.out.println(url);
+				if(url.contains("datos_indice") || url.contains("datos_diarios"))
+				{
+					String hql = "from Informes where url = '"+url+"'";
+					Query q = session.createQuery(hql);
+					Informes informe = (Informes) q.uniqueResult();
+					horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[y].getUrl()), Horario[].class);
+					for(int x = 0 ; x < horario.length; x++)
+					{
+						horario[x].setInformes(informe);
+						if(!horario[x].isNull() && horario[x].getInformes() != null)
+							InsertarBorrar.insertar(horario[x],sesion,session);
+					}
+				}
+			}
+			catch (IOException a)
+			{
+				//Seguir al siguiente objeto en caso de fallo
+			}
+			catch(PropertyValueException b)
+			{
+				//Seguir al siguiente objeto en caso de fallo
+			}
+			catch (ConstraintViolationException c)
+			{
+				//Seguir al siguiente objeto en caso de fallo
+			}
+		}
+		return true;
 	}
 	
 	/**
@@ -364,7 +362,7 @@ public class Principal {
 		catch (FileNotFoundException fn) {
 			System.out.println("No se encuentra el fichero");
 		} catch (IOException e) {
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
 		return false;
 	}
@@ -432,12 +430,12 @@ public class Principal {
 			huc = (HttpsURLConnection) (new URL(url).openConnection());
 			huc.getResponseCode();
 		} catch (NoSuchAlgorithmException e) {
-			e.printStackTrace();
+//			e.printStackTrace();
 		} catch (KeyManagementException e) {
-			e.printStackTrace();
+//			e.printStackTrace();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
 	}
 

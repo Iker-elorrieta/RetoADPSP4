@@ -1,12 +1,9 @@
-package main;
+package modelo;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-
-import hiberclass.Entornos;
-import hiberclass.Municipios;
 
 /**
  * Clase de modificacion BDD
