@@ -1,5 +1,5 @@
 package modelo;
-// Generated 7 ene. 2021 20:25:56 by Hibernate Tools 5.4.21.Final
+// Generated Jan 3, 2021, 9:45:27 PM by Hibernate Tools 5.4.18.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -43,7 +43,29 @@ public class Municipios implements java.io.Serializable {
 	public void setId(Integer id) {
 		this.id = id;
 	}
+	
+	public void setLatitud(String latitud) {
+		try
+		{
+			this.latitud = Double.parseDouble(latitud.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.latitud = null;
+		}
+	}
 
+	public void setLongitud(String longitud) {
+		try
+		{
+			this.longitud = Double.parseDouble(longitud.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.longitud = null;
+		}
+	}
+	
 	public String getNombre() {
 		return this.nombre;
 	}
@@ -99,5 +121,26 @@ public class Municipios implements java.io.Serializable {
 	public void setEntornosmunis(Set entornosmunis) {
 		this.entornosmunis = entornosmunis;
 	}
+	
+	@Override
+	public String toString() {
+		return "Municipios [id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + ", latitud=" + latitud
+				+ ", longitud=" + longitud + ", codigo=" + codigo + ", estacioneses=" + estacioneses
+				+ ", entornosmunis=" + entornosmunis + "]";
+	}
 
+	public boolean isNull()
+	{
+		if(nombre != null)
+			return false;
+		if(descripcion != null)
+			return false;
+		if(latitud != null)
+			return false;
+		if(longitud != null)
+			return false;
+		if(codigo != null)
+			return false;
+		return true;
+	}
 }

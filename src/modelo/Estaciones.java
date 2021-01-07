@@ -149,7 +149,7 @@ public class Estaciones implements java.io.Serializable {
 	
 	@Override
 	public String toString() {
-		return "Estaciones [id=" + id + ", municipios= " + municipios + ", nombre=" + nombre + ", provincia=" + provincia
+		return "Estaciones [id=" + id + ", municipios=" + municipios + ", nombre=" + nombre + ", provincia=" + provincia
 				+ ", direccion=" + direccion + ", coordenadaX=" + coordenadaX + ", coordenadaY=" + coordenadaY
 				+ ", latitud=" + latitud + ", longitud=" + longitud + ", informeses=" + informeses + "]";
 	}

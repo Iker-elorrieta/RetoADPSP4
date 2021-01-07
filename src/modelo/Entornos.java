@@ -1,5 +1,5 @@
 package modelo;
-// Generated 7 ene. 2021 20:25:56 by Hibernate Tools 5.4.21.Final
+// Generated Jan 3, 2021, 9:45:27 PM by Hibernate Tools 5.4.18.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -11,6 +11,7 @@ public class Entornos implements java.io.Serializable {
 
 	private Integer id;
 	private String nombre;
+	private String municipio;
 	private String descripcion;
 	private String tipo;
 	private String territorio;
@@ -35,6 +36,14 @@ public class Entornos implements java.io.Serializable {
 		this.longitud = longitud;
 		this.entornosmunis = entornosmunis;
 	}
+	
+	public void setLatitud(Double latitud) {
+		this.latitud = latitud;
+	}
+
+	public void setLongitud(Double longitud) {
+		this.longitud = longitud;
+	}
 
 	public Integer getId() {
 		return this.id;
@@ -44,6 +53,14 @@ public class Entornos implements java.io.Serializable {
 		this.id = id;
 	}
 
+	public String getMunicipio() {
+		return municipio;
+	}
+
+	public void setMunicipio(String municipio) {
+		this.municipio = municipio;
+	}
+	
 	public String getNombre() {
 		return this.nombre;
 	}
@@ -80,16 +97,30 @@ public class Entornos implements java.io.Serializable {
 		return this.latitud;
 	}
 
-	public void setLatitud(Double latitud) {
-		this.latitud = latitud;
+	public void setLatitud(String latitud) {
+		try
+		{
+			this.latitud = Double.parseDouble(latitud.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.latitud = null;
+		}
 	}
 
 	public Double getLongitud() {
 		return this.longitud;
 	}
 
-	public void setLongitud(Double longitud) {
-		this.longitud = longitud;
+	public void setLongitud(String longitud) {
+		try
+		{
+			this.longitud = Double.parseDouble(longitud.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.longitud = null;
+		}
 	}
 
 	public Set getEntornosmunis() {
@@ -99,5 +130,28 @@ public class Entornos implements java.io.Serializable {
 	public void setEntornosmunis(Set entornosmunis) {
 		this.entornosmunis = entornosmunis;
 	}
-
+	
+	@Override
+	public String toString() {
+		return "Entornos [id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + ", tipo=" + tipo
+				+ ", territorio=" + territorio + ", latitud=" + latitud + ", longitud=" + longitud + ", entornosmunis="
+				+ entornosmunis + "]";
+	}
+	
+	public boolean isNull()
+	{
+		if(nombre != null)
+			return false;
+		if(descripcion != null)
+			return false;
+		if(tipo != null)
+			return false;
+		if(territorio != null)
+			return false;
+		if(latitud != null)
+			return false;
+		if(longitud != null)
+			return false;
+		return true;
+	}
 }
