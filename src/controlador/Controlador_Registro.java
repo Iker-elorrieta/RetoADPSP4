@@ -26,7 +26,7 @@ public class Controlador_Registro {
 		frame.getBotonAcceptar().addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				if(!frame.getNombre().getText().equals(""))
+				if(!frame.getNombre().getText().equals("") && (frame.getContrasena().getText().equals(frame.getRepetirContrasena().getText())) && frame.getEmail().getText().contains("@") && frame.getEmail().getText().contains("."))
 				{
 					frame.getSuper().setVisible(true);
 					frame.dispose();

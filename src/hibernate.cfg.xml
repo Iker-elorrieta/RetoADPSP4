@@ -9,11 +9,11 @@
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.search.autoregister_listeners">true</property>
         <property name="hibernate.validator.apply_to_ddl">false</property>
-        <mapping resource="hiberclass/Informes.hbm.xml"/>
-        <mapping resource="hiberclass/Entornos.hbm.xml"/>
-        <mapping resource="hiberclass/Municipios.hbm.xml"/>
-        <mapping resource="hiberclass/Entornosmuni.hbm.xml"/>
-        <mapping resource="hiberclass/Estaciones.hbm.xml"/>
-        <mapping resource="hiberclass/Horario.hbm.xml"/>
+        <mapping resource="modelo/Horario.hbm.xml"/>
+        <mapping resource="modelo/Entornos.hbm.xml"/>
+        <mapping resource="modelo/Informes.hbm.xml"/>
+        <mapping resource="modelo/Entornosmuni.hbm.xml"/>
+        <mapping resource="modelo/Municipios.hbm.xml"/>
+        <mapping resource="modelo/Estaciones.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>
