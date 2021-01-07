@@ -17,14 +17,14 @@ import modelo.Horario;
 import modelo.Informes;
 import modelo.InsertarBorrar;
 import modelo.Municipios;
-import modelo.Principal;
+import modelo.Json;
 
 /**
  * Clase para comprobar que el programa funciona correctamente.
  */
 public class Test {
 	
-	private Principal principal = new Principal();
+	private Json principal = new Json();
 	private InsertarBorrar insertado = new InsertarBorrar();
 	private Entornos entorno = new Entornos();
 	private Municipios municipio = new Municipios();

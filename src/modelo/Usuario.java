@@ -1,18 +1,17 @@
 package modelo;
 
+import java.io.Serializable;
 
+public class Usuario implements Serializable{
 
-public class Usuario implements java.io.Serializable {
-
-	
-	private static final long serialVersionUID = -4188035944807949080L;
-
-	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8354612374655264274L;
 	private String usuario;
 	private String email;
 	private String contrasena;
 	
-
 	public Usuario() {
 	}
 	public Usuario(String usuario, String email, String contrasena) {
@@ -38,10 +37,6 @@ public class Usuario implements java.io.Serializable {
 	}
 	public void setContrasena(String contrasena) {
 		this.contrasena = contrasena;
-	}
-	@Override
-	public String toString() {
-		return "Usuario [usuario=" + usuario + ", email=" + email + ", contrasena=" + contrasena + "]";
 	}
 	
 
