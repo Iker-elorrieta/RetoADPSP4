@@ -1,8 +1,5 @@
 package vista;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
@@ -13,16 +10,21 @@ import javax.swing.JButton;
 
 public class Registrar extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2409533816211087023L;
+	private JFrame frame;
 	private JPanel contentPane;
 	private JTextField nombre;
 	private JTextField contrasena;
 	private JTextField repetirContrasena;
 	private JTextField email;
-	private VentanaCliente frame;
 	private JButton botonAcceptar;
 	
-	public Registrar(VentanaCliente frame) {
-		this.frame = frame;
+	public Registrar() {
+		
+		frame = new JFrame();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 334);
 		contentPane = new JPanel();
