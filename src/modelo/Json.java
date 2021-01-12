@@ -39,44 +39,59 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Json {
 	
-	public static boolean cargarTodosLosDatos()
+	public ArrayList<Object> cargarJsons()
 	{
-		boolean result = false;
-		String[] caracteresDeSeparacion = {"-","/","|"};
-		Calendar tiempo1 = Calendar.getInstance();
 		Entornos[] listaEspaciosNaturales = null;
 		Municipios[] listaMunicipios = null;
 		ArrayList<Informes> paginasNoEncontrada = new ArrayList<Informes>();
-		try (SessionFactory sesion = HibernateUtil.getSessionFactory();
-			 Session session = sesion.openSession();)
-		{
-			int contadorPaginasNoEncontradas = 0;
-			//Comprobar los certificados de la pagina
-			comprobarPagina("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2021/es_def/adjuntos/index.json");
-			
-			ObjectMapper mapper = new ObjectMapper();
-			
-			//Esta linea sirve para ignorar los elementos que encuentra y que el objeto no tenga
-			mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
-			Informes[] horariosEstaciones = null;
-			try {
-				horariosEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2021/es_def/adjuntos/index.json"), Informes[].class);
-			} catch (JsonMappingException e2) {
-				// TODO Auto-generated catch block
+		
+		//Comprobar los certificados de la pagina
+		comprobarPagina("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2021/es_def/adjuntos/index.json");
+		
+		ObjectMapper mapper = new ObjectMapper();
+		
+		//Esta linea sirve para ignorar los elementos que encuentra y que el objeto no tenga
+		mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+		Informes[] horariosEstaciones = null;
+		try {
+			horariosEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2021/es_def/adjuntos/index.json"), Informes[].class);
+		} catch (JsonMappingException e2) {
 //				e2.printStackTrace();
-			} catch (JsonProcessingException e2) {
-				// TODO Auto-generated catch block
+		} catch (JsonProcessingException e2) {
 //				e2.printStackTrace();
-			} catch (IOException e2) {
-				// TODO Auto-generated catch block
+		} catch (IOException e2) {
 //				e2.printStackTrace();
-			}
-			//Cargamos los arrays con todos los datos de los json
-			Estaciones[] listaEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/estaciones.json"), Estaciones[].class);
+		}
+		//Cargamos los arrays con todos los datos de los json
+		Estaciones[] listaEstaciones = null;
+		try {
+			listaEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/estaciones.json"), Estaciones[].class);
 			listaMunicipios = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/pueblos_euskadi_turismo/opendata/herriak.json"), Municipios[].class);
 			listaEspaciosNaturales = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/playas_de_euskadi/opendata/espacios-naturales.json"), Entornos[].class);
-			String[] nombres;
-			
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		
+		ArrayList<Object> result = new ArrayList<Object>();
+		result.add(cargarHorarios(horariosEstaciones, mapper).get(2));
+		result.add(mapper);
+		result.add(listaMunicipios);
+		result.add(listaEspaciosNaturales);
+		result.add(listaEstaciones);
+		result.add(horariosEstaciones);
+		return result;
+	}
+	
+	public boolean cargarTodosLosDatos(ArrayList<Informes> paginasNoEncontrada,
+									  ObjectMapper mapper, Municipios[] listaMunicipios, 
+									  Entornos[] listaEspaciosNaturales,Estaciones[] listaEstaciones, 
+									  Informes[] horariosEstaciones, SessionFactory sesion,Session session)
+	{
+		String[] caracteresDeSeparacion = {"-","/","|"};
+		String[] nombres;
+		try
+		{
 			//Insertartamos todos los municipios
 			for(int i = 0 ; i < listaMunicipios.length ; i++)
 			{
@@ -134,7 +149,6 @@ public class Json {
 					}
 				}
 			}
-			
 			
 			//Insertar informes y horarios
 			for(int i = 0 ; i < horariosEstaciones.length ;i++)
@@ -250,31 +264,64 @@ public class Json {
 					}
 				}
 			}
-			cargarHorarios(horariosEstaciones, sesion, session, mapper);
+			insertarHorarios((Horario[]) cargarHorarios(horariosEstaciones, mapper).get(0), horariosEstaciones, sesion, session);
 		} catch (Exception e) {
 //			e.printStackTrace();
 		}
-		
-		Calendar tiempo2 = Calendar.getInstance();
-		System.out.println(Duration.between(tiempo1.toInstant(), tiempo2.toInstant()));
 		return true;
 	}
 	
-	public static boolean cargarHorarios(Informes[] horariosEstaciones,SessionFactory sesion, Session session, ObjectMapper mapper)
+	public ArrayList<Object> cargarHorarios(Informes[] horariosEstaciones, ObjectMapper mapper)
 	{
-		Horario[] horario;
+		ArrayList<Informes> paginasNoEncontrada = new ArrayList<Informes>();
+		ArrayList<Object> result = new ArrayList<Object>();
+		Horario[] horario = null;
 		for(int y = 0 ; y < horariosEstaciones.length ;y++)
 		{
 			try
 			{
 				String url = horariosEstaciones[y].getUrl();
-				System.out.println(url);
+				if(url.contains("datos_indice") || url.contains("datos_diarios"))
+				{
+					horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[y].getUrl()), Horario[].class);
+				}
+			}
+			catch(FileNotFoundException d)
+			{
+				paginasNoEncontrada.add(horariosEstaciones[y]);
+			}
+			catch (IOException a)
+			{
+				//Seguir al siguiente objeto en caso de fallo
+			}
+			catch(PropertyValueException b)
+			{
+				//Seguir al siguiente objeto en caso de fallo
+			}
+			catch (ConstraintViolationException c)
+			{
+				//Seguir al siguiente objeto en caso de fallo
+			}
+		}
+		result.add(horario);
+		result.add(horariosEstaciones);
+		result.add(paginasNoEncontrada);
+		return result;
+	}
+	
+	public boolean insertarHorarios(Horario[] horario, Informes[] horariosEstaciones, 
+										   SessionFactory sesion, Session session )
+	{
+		for(int y = 0 ; y < horariosEstaciones.length ;y++)
+		{
+			try
+			{
+				String url = horariosEstaciones[y].getUrl();
 				if(url.contains("datos_indice") || url.contains("datos_diarios"))
 				{
 					String hql = "from Informes where url = '"+url+"'";
 					Query q = session.createQuery(hql);
 					Informes informe = (Informes) q.uniqueResult();
-					horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[y].getUrl()), Horario[].class);
 					for(int x = 0 ; x < horario.length; x++)
 					{
 						horario[x].setInformes(informe);
@@ -282,10 +329,6 @@ public class Json {
 							InsertarBorrar.insertar(horario[x],sesion,session);
 					}
 				}
-			}
-			catch (IOException a)
-			{
-				//Seguir al siguiente objeto en caso de fallo
 			}
 			catch(PropertyValueException b)
 			{
@@ -307,7 +350,7 @@ public class Json {
 	 * @return
 	 * @throws IOException
 	 */
-	private static String readAll(Reader rd, String url) throws IOException {
+	private String readAll(Reader rd, String url) throws IOException {
 		StringBuilder sb = new StringBuilder();
 		int cp;
 		String result = "";
@@ -352,7 +395,7 @@ public class Json {
 	 * @param json
 	 * @return
 	 */
-	public static boolean escribirJson(String contenido,String nombre)
+	public boolean escribirJson(String contenido,String nombre)
 	{
 		try (BufferedWriter fichero = new BufferedWriter(new FileWriter("."+File.separatorChar+"json"+File.separatorChar+nombre, false));)
 		{
@@ -375,7 +418,7 @@ public class Json {
 	 * @return
 	 * @throws IOException
 	 */
-	public static String readJsonDesdeUrl(String url) throws IOException {
+	public String readJsonDesdeUrl(String url) throws IOException {
 		//Abrir entrada de la pagina para empezar ha leerlo.
 		InputStream is = new URL(url).openStream();
 		try {
@@ -392,7 +435,7 @@ public class Json {
 	 * @param cantidadDiasAnteriores ; cantidad de dias anteriores
 	 * @return fecha adecuada.
 	 */
-	public static String fechaAnterior(int cantidadDiasAnteriores)
+	public String fechaAnterior(int cantidadDiasAnteriores)
 	{
 		Calendar fecha = Calendar.getInstance();
 		fecha.add(Calendar.DAY_OF_YEAR, -cantidadDiasAnteriores);
@@ -407,7 +450,7 @@ public class Json {
 	 * Este metodo sirve para comprobar el certificado de la cierta pagina.
 	 * @param url
 	 */
-	public static void comprobarPagina(String url)
+	public void comprobarPagina(String url)
 	{
 		try {
 			SSLContext ssl_ctx = SSLContext.getInstance("TLS");
@@ -439,7 +482,7 @@ public class Json {
 		}
 	}
 
-	private static String comprobarHoraDia(String sb ,String url)
+	private String comprobarHoraDia(String sb ,String url)
 	{
 		String nombreFichero;
 		//Que siga rellenando hasta la fecha anterior y hasta la hora 10 de esa fecha
@@ -502,7 +545,7 @@ public class Json {
 			return "continuar";
 	}
 	
-	public static String replace(String cadena,String tipo)
+	public String replace(String cadena,String tipo)
 	{
 		if(tipo.toLowerCase().contains("estaciones.json"))
 		{
