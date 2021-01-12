@@ -9,17 +9,18 @@ import java.io.ObjectOutputStream;
 import javax.swing.JOptionPane;
 
 import modelo.Usuario;
+import vista.Login;
 import vista.Registrar;
 
 public class Controlador_Registro implements MouseListener {
 	
-	private Registrar registrar;
+	private Registrar ventanaRegistro;
 	private ObjectInputStream entrada;
 	private ObjectOutputStream salida;
 	
 	public Controlador_Registro(Registrar registrar, ObjectInputStream entrada, ObjectOutputStream salida) {
 		
-		this.registrar = registrar;
+		this.ventanaRegistro = registrar;
 		this.entrada = entrada;
 		this.salida = salida;
 		iniciarControlador();
@@ -28,8 +29,11 @@ public class Controlador_Registro implements MouseListener {
 	
 	public void iniciarControlador() {
 		
-		this.registrar.getBotonAcceptar().addMouseListener(this);
-		this.registrar.getBotonAcceptar().setName("registrar");
+		this.ventanaRegistro.getFrame().setVisible(true);
+		this.ventanaRegistro.getBotonAcceptar().addMouseListener(this);
+		this.ventanaRegistro.getBotonAcceptar().setName("registrar");
+		this.ventanaRegistro.getBotonVolver().addMouseListener(this);
+		this.ventanaRegistro.getBotonVolver().setName("volver");
 		
 	}
 
@@ -38,14 +42,14 @@ public class Controlador_Registro implements MouseListener {
 		// TODO Auto-generated method stub
 		
 		switch (e.getComponent().getName()) {
+		
 		case "registrar":
 			try {
 				Usuario usuario = new Usuario();
-				usuario.setUsuario(this.registrar.getNombre().getText());
-				usuario.setContrasena(this.registrar.getContrasena().getText());
-				usuario.setEMail(this.registrar.getEmail().getText());
+				usuario.setUsuario(this.ventanaRegistro.getNombre().getText());
+				usuario.setContrasena(this.ventanaRegistro.getContrasena().getText());
+				usuario.setEMail(this.ventanaRegistro.getEmail().getText());
 				this.salida.writeObject(2);
-				System.out.println(this.entrada.readObject());
 				this.salida.writeObject(usuario);
 				String respuesta = this.entrada.readObject().toString();
 				if (respuesta.equals("bien")){
@@ -67,6 +71,12 @@ public class Controlador_Registro implements MouseListener {
 				e1.printStackTrace();
 			}
 			break;
+			
+		case "volver":
+			
+			Login ventanaLogin = new Login();
+			@SuppressWarnings("unused") Controlador_Login controladorLogin = new Controlador_Login(ventanaLogin, this.entrada, this.salida);
+			this.ventanaRegistro.dispose();
 
 		default:
 			break;
