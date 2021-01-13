@@ -1,13 +1,32 @@
 package test;
 
 import static org.junit.Assert.*;
+
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.net.Socket;
+import java.time.Duration;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
+
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import Server.Servidor;
+import main.Principal;
 import modelo.Entornos;
 import modelo.Entornosmuni;
 import modelo.EntornosmuniId;
@@ -17,6 +36,7 @@ import modelo.Horario;
 import modelo.Informes;
 import modelo.InsertarBorrar;
 import modelo.Municipios;
+import modelo.Usuario;
 import modelo.Json;
 
 /**
@@ -49,6 +69,8 @@ public class Test {
 	public void testInsercionMunicipio() {
 		municipio = new Municipios(nombrePruebas);
 		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
+		municipio.toString();
+		municipio.isNull();
 		assertEquals(true, InsertarBorrar.insertar(municipio, sesion, session));
 		InsertarBorrar.borrar(municipio, sesion, session);
 	}
@@ -57,6 +79,8 @@ public class Test {
 	public void testInsercionEntorno() {
 		entorno = new Entornos(nombrePruebas);
 		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
+		entorno.toString();
+		entorno.isNull();
 		assertEquals(true, InsertarBorrar.insertar(entorno, sesion, session));
 		InsertarBorrar.borrar(entorno, sesion, session);
 	}
@@ -86,6 +110,9 @@ public class Test {
         horario.setSo2ica(nombrePruebas);
         horario.setIcaestacion(nombrePruebas);
 
+        horario.toString();
+        horario.isNull();
+        
         horario = new Horario(informe,toDate(fecha),"10:00",valor, valor, valor, nombrePruebas, valor, valor, nombrePruebas, valor, nombrePruebas, valor, nombrePruebas, nombrePruebas);
         
         assertEquals(true, InsertarBorrar.insertar(horario, sesion, session));
@@ -102,6 +129,12 @@ public class Test {
 		entorno.setId(InsertarBorrar.obtenerEntornoId(entorno, sesion, session));
 		municipio.setId(InsertarBorrar.obtenerMunicipioId(municipio, sesion, session));
 		entornosmuniId = new EntornosmuniId(entorno.getId(), municipio.getId());
+		entornosmuniId.setEntorno(entorno.getId());
+		entornosmuniId.setMunicipio(municipio.getId());
+		entornosmuniId.equals("a");
+		entornosmuniId.equals(null);
+		entornosmuniId.equals(entornosmuniId);
+		entornosmuniId.hashCode();
 		entornosmuni.setEntornos(entorno);
 		entornosmuni.setMunicipios(municipio);
 		entornosmuni = new Entornosmuni(entornosmuniId, entorno, municipio);
@@ -118,6 +151,7 @@ public class Test {
 		InsertarBorrar.insertar(estacion, sesion, session);
 		informe = new Informes(estacion, nombrePruebas);
 		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
+		informe.toString();
 		assertEquals(true, InsertarBorrar.insertar(informe, sesion, session));
 		InsertarBorrar.borrar(municipio, sesion, session);
 	}
@@ -130,15 +164,71 @@ public class Test {
 		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		assertEquals(true, InsertarBorrar.insertar(estacion, sesion, session));
 		InsertarBorrar.borrar(municipio, sesion, session);
-		
-		session.close();
-		sesion.close();
+		estacion.toString();
+		estacion.isNull();
 	}
-
+	
+	//Json
+	
+//	@org.junit.Test
+//	@SuppressWarnings({ "unchecked" })
+//	public void testJsonTotal()
+//	{
+//		Calendar tiempo1 = Calendar.getInstance();
+//		//Hay que borrar todos los datos de la BDD para hacer esta prueba
+//
+//		Json hijoDeJ = new Json();
+//		ArrayList<Object> lista = hijoDeJ.cargarJsons();
+//		assertEquals(true,hijoDeJ.cargarTodosLosDatos((ArrayList<Informes>) lista.get(0),(ObjectMapper) lista.get(1),(Municipios[]) lista.get(2),(Entornos[]) lista.get(3),(Estaciones[]) lista.get(4), (Informes[]) lista.get(5), sesion, session));
+//		Calendar tiempo2 = Calendar.getInstance();
+//		System.out.println(Duration.between(tiempo1.toInstant(), tiempo2.toInstant()));
+//	}
+	
+	//Principal
+	
+	@org.junit.Test
+	public void testPrincipal() {
+		Servidor server = new Servidor(new JTextArea(), new JTextField(), new JLabel());
+		server.start();
+		Principal main = new Principal();
+		main.main(null);
+		assertEquals(true,main.start());
+		server.desconectar();
+	}
+	
+	//Server
+	
+	@org.junit.Test
+	public void testServidor()
+	{
+		Servidor server = new Servidor(new JTextArea(), new JTextField(), new JLabel());
+		server.start();
+		try {
+			Socket socket = new Socket("127.0.0.1",44444);
+			ObjectInputStream entrada = new ObjectInputStream(socket.getInputStream());
+			ObjectOutputStream salida = new ObjectOutputStream(socket.getOutputStream());
+			Usuario nuevo = new Usuario();
+			nuevo.setUsuario("prueba");
+			nuevo.setContrasena("prueba");
+			nuevo.setEMail("a@b.c");
+			salida.writeObject(2);
+			salida.writeObject(nuevo);
+			salida.writeObject(1);
+			salida.writeObject(nuevo);
+			InsertarBorrar.borrar(nuevo, sesion, session);
+		} catch (IOException e) {
+			
+		}
+		
+		assertEquals(true,server.desconectar());
+	}
+	
     public Date toDate(Calendar calendar)
     {
         Date result;
         result = calendar.getTime();
         return result;
     }
+    
+    
 }

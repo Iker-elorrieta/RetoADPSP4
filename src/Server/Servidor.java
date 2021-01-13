@@ -31,7 +31,6 @@ public class Servidor extends Thread {
 		this.textArea = textArea;
 		this.hora = hora;
 		texto.setText("0");
-		
 	}
 
 	public void run() {
@@ -54,9 +53,6 @@ public class Servidor extends Thread {
 				}
 				else
 					socket.close();
-				
-			
-				
 			}
 
 			socket.close();
@@ -68,11 +64,9 @@ public class Servidor extends Thread {
 			System.out.println("Servidor cerrado");
 			System.exit(0);
 		}
-		
-
 	}
 
-	public void desconectar() {
+	public boolean desconectar() {
 		continuar = false;
 		try {
 			for(int i = 0;i<lista.size();i++)
@@ -83,9 +77,10 @@ public class Servidor extends Thread {
 			servidor.close();
 		} catch (IOException e) {
 			e.printStackTrace();
+			return false;
 		}
 		
-		
+		return true;
 	}
 
 

@@ -17,33 +17,34 @@ import vista.Login;
 
 public class Principal {
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		
+		start();
+		
+	}
+	
+	public boolean start()
+	{
 		Login cliente = new Login();
 		cliente.setVisible(true);
 		try {
-			ObjectOutputStream salida;
-			ObjectInputStream entrada;
 			@SuppressWarnings("resource")
 			Socket socket = new Socket("127.0.0.1",44444);
-			entrada = new ObjectInputStream(socket.getInputStream());
-			salida = new ObjectOutputStream(socket.getOutputStream());
+			ObjectInputStream entrada = new ObjectInputStream(socket.getInputStream());
+			ObjectOutputStream salida = new ObjectOutputStream(socket.getOutputStream());
 			@SuppressWarnings("unused")
 			Controlador_Login  controlador = new Controlador_Login(cliente, entrada, salida);
 //			System.err.println(entrada.readObject());
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			return false;
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			return false;
 		}
-		
-		
-		
-		
-		
-		
+		return true;
 	}
 
 }
