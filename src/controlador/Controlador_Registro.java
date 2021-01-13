@@ -76,7 +76,7 @@ public class Controlador_Registro implements MouseListener {
 			
 			Login ventanaLogin = new Login();
 			@SuppressWarnings("unused") Controlador_Login controladorLogin = new Controlador_Login(ventanaLogin, this.entrada, this.salida);
-			this.ventanaRegistro.dispose();
+			this.ventanaRegistro.getFrame().dispose();
 
 		default:
 			break;

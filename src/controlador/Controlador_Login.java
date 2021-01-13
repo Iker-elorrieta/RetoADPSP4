@@ -28,13 +28,15 @@ public class Controlador_Login implements MouseListener {
 		
 	}
 	
-	public void iniciarcontrolador() {
+	public boolean iniciarcontrolador() {
 		
 		this.ventanaLogin.getFrame().setVisible(true);
 		this.ventanaLogin.getBotonIniciar().addMouseListener(this);
 		this.ventanaLogin.getBotonIniciar().setName("entrar");
 		this.ventanaLogin.getBotonRegistrar().addMouseListener(this);
 		this.ventanaLogin.getBotonRegistrar().setName("registrar");
+		
+		return true;
 	
 	}
 
@@ -63,6 +65,7 @@ public class Controlador_Login implements MouseListener {
 					
 					JOptionPane.showMessageDialog(null,"Ha iniciado sesión", "Información", JOptionPane.INFORMATION_MESSAGE);
 					Logeado ventanaLogeado = new Logeado();
+					@SuppressWarnings("unused")
 					ControladorLogeado controladorLogeado = new ControladorLogeado(ventanaLogeado, nuevo);
 					
 					
@@ -86,7 +89,7 @@ public class Controlador_Login implements MouseListener {
 			
 			Registrar registrar = new Registrar();
 			@SuppressWarnings("unused") Controlador_Registro controlador = new Controlador_Registro(registrar, this.entrada, this.salida);
-			this.ventanaLogin.dispose();
+			this.ventanaLogin.getFrame().dispose();
 
 			break;
 			
@@ -114,4 +117,5 @@ public class Controlador_Login implements MouseListener {
 		// TODO Auto-generated method stub
 		
 	}
+	
 }

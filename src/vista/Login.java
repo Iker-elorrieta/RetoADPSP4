@@ -6,12 +6,8 @@ import javax.swing.SwingConstants;
 import javax.swing.JTextField;
 import javax.swing.JButton;
 
-public class Login extends JFrame {
+public class Login {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 5803146381028577298L;
 	private JFrame frame;
 	private JTextField nombre;
 	private JTextField contrasena;
@@ -28,7 +24,7 @@ public class Login extends JFrame {
 		
 	}
 	
-	public void cargarVentana() {
+	public boolean cargarVentana() {
 		
 		frame = new JFrame();
 		frame.setResizable(false);
@@ -38,9 +34,11 @@ public class Login extends JFrame {
 		frame.setLocationRelativeTo(null);
 		frame.getContentPane().setLayout(null);
 		
+		return true;
+		
 	}
 	
-	public void cargarEtiquetas() {
+	public boolean cargarEtiquetas() {
 		
 		JLabel labelNombre = new JLabel("Nombre");
 		labelNombre.setBounds(197, 126, 81, 22);
@@ -56,6 +54,8 @@ public class Login extends JFrame {
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel.setBounds(200, 32, 254, 14);
 		frame.getContentPane().add(lblNewLabel);
+		
+		return true;
 		
 	}
 	

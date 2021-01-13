@@ -6,12 +6,8 @@ import javax.swing.SwingConstants;
 import javax.swing.JTextField;
 import javax.swing.JButton;
 
-public class Registrar extends JFrame {
+public class Registrar {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 2409533816211087023L;
 	private JFrame frame;
 	private JTextField nombre;
 	private JTextField contrasena;
@@ -97,6 +93,11 @@ public class Registrar extends JFrame {
 		botonVolver = new JButton("Volver");
 		botonVolver.setBounds(107, 334, 168, 52);
 		frame.getContentPane().add(botonVolver);
+		
+	}
+	
+	public static void correrTest() {
+		
 		
 	}
 	

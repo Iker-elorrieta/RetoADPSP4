@@ -1,6 +1,13 @@
 package test;
 
 import static org.junit.Assert.*;
+
+import java.awt.event.MouseEvent;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.net.Socket;
+import java.net.UnknownHostException;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashSet;
@@ -8,6 +15,8 @@ import java.util.Set;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
+import Server.VentanaServidor;
+import controlador.Controlador_Login;
 import modelo.Entornos;
 import modelo.Entornosmuni;
 import modelo.EntornosmuniId;
@@ -17,6 +26,9 @@ import modelo.Horario;
 import modelo.Informes;
 import modelo.InsertarBorrar;
 import modelo.Municipios;
+import vista.Logeado;
+import vista.Login;
+import vista.Registrar;
 import modelo.Json;
 
 /**
@@ -34,9 +46,14 @@ public class Test {
 	private Entornosmuni entornosmuni = new Entornosmuni();
 	private EntornosmuniId entornosmuniId = new EntornosmuniId();
 	private HibernateUtil hibernate = new HibernateUtil();
+	private Login login = new Login();
+	private Registrar registrar = new Registrar();
+	private Logeado logeado = new Logeado();
+	
+	
 	SessionFactory sesion = HibernateUtil.getSessionFactory();
 	Session session = sesion.openSession();
-	
+
 	//Valores de prueba
 	String nombrePruebas = "prueba";
 	Double valor = (double) 1;
@@ -131,8 +148,25 @@ public class Test {
 		assertEquals(true, InsertarBorrar.insertar(estacion, sesion, session));
 		InsertarBorrar.borrar(municipio, sesion, session);
 		
-		session.close();
-		sesion.close();
+	}
+	
+	@org.junit.Test
+	public void testControlador() {
+		VentanaServidor.main(null);
+		ObjectOutputStream salida;
+		ObjectInputStream entrada;
+		try {
+			Socket socket = new Socket("127.0.0.1",44444);
+			entrada = new ObjectInputStream(socket.getInputStream());
+			salida = new ObjectOutputStream(socket.getOutputStream());
+			Login login = new Login();
+			Controlador_Login controlador = new Controlador_Login(login, entrada, salida);
+			MouseEvent e = new MouseEvent(this.login.getBotonIniciar(), 0, 0, 0, 0, 0, 0, false);
+			e.getComponent().setName("entrar");
+			controlador.mousePressed(e);
+		} catch (IOException e) {
+		}
+	
 	}
 
     public Date toDate(Calendar calendar)
