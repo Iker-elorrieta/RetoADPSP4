@@ -1,18 +1,18 @@
 package Server;
 
-import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import org.hibernate.exception.ConstraintViolationException;
-
 import modelo.Usuario;
 
 public class HiloServidor extends Thread {
@@ -40,27 +40,39 @@ public class HiloServidor extends Thread {
 
 			try {
 
-				Usuario user = new Usuario();
+				Usuario usuario = new Usuario();
 
 				ventana = (int) oentrada.readObject();
 
 				switch (ventana) {
 
 				case 1:
-
-					osalida.writeObject("Has entrado al servidor desde Login");
-					Usuario usuario = (Usuario) oentrada.readObject();
-					System.out.println(usuario.getUsuario());
-
+					
+					Transaction tx = null;	
+					SessionFactory sesion = modelo.HibernateUtil.getSessionFactory();
+					Session session = sesion.openSession();	
+					tx = session.beginTransaction();
+					
+					usuario = (Usuario) oentrada.readObject();
+					usuario.setContrasena(crearHash(usuario.getContrasena()));
+					tx = session.beginTransaction();		
+					String hql = "from Usuario where usuario = '" + usuario.getUsuario() + "' and contrasena = '" + usuario.getContrasena() + "'";
+					Query q = session.createQuery(hql);
+					
+					usuario = (Usuario) q.uniqueResult();
+					
+					osalida.writeObject(usuario);
+					
 					break;
 
 				case 2:
-					osalida.writeObject("Has entrado al servidor desde Registro");
-					String hql = new String();
-					SessionFactory sesion = modelo.HibernateUtil.getSessionFactory();
-					Session session = sesion.openSession();
+					
+					sesion = modelo.HibernateUtil.getSessionFactory();
+					session = sesion.openSession();
 					
 					usuario = (Usuario) oentrada.readObject();
+					
+					usuario.setContrasena(crearHash(usuario.getContrasena()));
 					if (modelo.InsertarBorrar.insertar(usuario, sesion, session)) {
 						
 						osalida.writeObject("bien");
@@ -69,7 +81,6 @@ public class HiloServidor extends Thread {
 						
 						osalida.writeObject("mal");
 					}
-					
 				
 
 					break;
@@ -84,5 +95,25 @@ public class HiloServidor extends Thread {
 		}
 
 	}
+	
+	public static String crearHash (String texto){
+        Byte [] hash = null;
+        String resumenAString = "";
+        MessageDigest md;
+        try {
+
+            md = MessageDigest.getInstance("SHA");
+
+            byte dataBytes[] = texto.getBytes();
+            md.update(dataBytes);
+            byte resumen[] = md.digest();
+            resumenAString = new String(resumen);
+
+        } catch (NoSuchAlgorithmException e) {
+            System.out.println("Error hash");
+        }
+        return resumenAString;
+
+    }
 
 }

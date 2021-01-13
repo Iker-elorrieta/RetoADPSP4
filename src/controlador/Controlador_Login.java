@@ -6,19 +6,22 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
+import javax.swing.JOptionPane;
+
 import modelo.Usuario;
+import vista.Logeado;
 import vista.Login;
 import vista.Registrar;
 
 public class Controlador_Login implements MouseListener {
 	
-	private Login frame;
+	private Login ventanaLogin;
 	private ObjectOutputStream salida;
 	private ObjectInputStream entrada;
 	
 	public Controlador_Login(Login frame, ObjectInputStream entrada, ObjectOutputStream salida) {
 		
-		this.frame = frame;
+		this.ventanaLogin = frame;
 		this.entrada = entrada;
 		this.salida = salida;
 		iniciarcontrolador();		
@@ -27,10 +30,11 @@ public class Controlador_Login implements MouseListener {
 	
 	public void iniciarcontrolador() {
 		
-		this.frame.getBotonIniciar().addMouseListener(this);
-		this.frame.getBotonIniciar().setName("entrar");
-		this.frame.getBotonRegistrar().addMouseListener(this);
-		this.frame.getBotonRegistrar().setName("registrar");
+		this.ventanaLogin.getFrame().setVisible(true);
+		this.ventanaLogin.getBotonIniciar().addMouseListener(this);
+		this.ventanaLogin.getBotonIniciar().setName("entrar");
+		this.ventanaLogin.getBotonRegistrar().addMouseListener(this);
+		this.ventanaLogin.getBotonRegistrar().setName("registrar");
 	
 	}
 
@@ -48,12 +52,30 @@ public class Controlador_Login implements MouseListener {
 		case "entrar":
 			
 			Usuario nuevo = new Usuario();
-			nuevo.setUsuario(frame.getNombre().getText());
-			nuevo.setContrasena(frame.getContrasena().getText());
+			nuevo.setUsuario(ventanaLogin.getNombre().getText());
+			nuevo.setContrasena(ventanaLogin.getContrasena().getText());
 			try {
 				salida.writeObject(1);
 				salida.writeObject(nuevo);
+				nuevo = (Usuario) entrada.readObject();
+				
+				if (nuevo != null) {
+					
+					JOptionPane.showMessageDialog(null,"Ha iniciado sesión", "Información", JOptionPane.INFORMATION_MESSAGE);
+					Logeado ventanaLogeado = new Logeado();
+					ControladorLogeado controladorLogeado = new ControladorLogeado(ventanaLogeado, nuevo);
+					
+					
+				} else {
+					
+					JOptionPane.showMessageDialog(null,"Los datos introducidos no son correctos", "Información", JOptionPane.ERROR_MESSAGE);
+					
+				}
+				
 			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			} catch (ClassNotFoundException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
@@ -64,8 +86,7 @@ public class Controlador_Login implements MouseListener {
 			
 			Registrar registrar = new Registrar();
 			@SuppressWarnings("unused") Controlador_Registro controlador = new Controlador_Registro(registrar, this.entrada, this.salida);
-			registrar.setVisible(true);
-			this.frame.dispose();
+			this.ventanaLogin.dispose();
 
 			break;
 			
