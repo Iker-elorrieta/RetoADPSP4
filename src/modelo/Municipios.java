@@ -19,6 +19,7 @@ public class Municipios implements java.io.Serializable {
 	private Set entornosmunis = new HashSet(0);
 
 	public Municipios() {
+		
 	}
 
 	public Municipios(String nombre) {

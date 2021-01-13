@@ -135,17 +135,10 @@ public class Json {
 							InsertarBorrar.insertar(listaEstaciones[i],sesion,session);
 						}
 					}
-					catch (ConstraintViolationException e)
-					{
-						System.out.println("Estacion repetida.");
-					}
-					catch (HibernateException o)
-					{
-						System.out.println("Estacion repetida.");
-					}
 					catch (Exception f)
 					{
 						System.out.println(f.getMessage());
+						return false;
 					}
 				}
 			}
@@ -176,18 +169,6 @@ public class Json {
 										InsertarBorrar.insertar(horariosEstaciones[i],sesion,session);
 								}
 							}
-							catch (ConstraintViolationException e)
-							{
-								System.out.println("Objeto repetido.");
-							}
-							catch (HibernateException o)
-							{
-								System.out.println("Objeto repetido.");
-							}
-							catch (PatternSyntaxException a)
-							{
-	//							System.out.println("La estacion no tiene ese municipio");
-							}
 							catch (Exception f)
 							{
 //								f.printStackTrace();
@@ -195,14 +176,6 @@ public class Json {
 							}
 						}
 					}
-				}
-				catch (ConstraintViolationException e)
-				{
-					System.out.println("Objeto repetido.");
-				}
-				catch (HibernateException o)
-				{
-					System.out.println("Objeto repetido.");
 				}
 				catch (Exception f)
 				{
@@ -248,19 +221,16 @@ public class Json {
 							{
 	//							System.out.println("La estacion no tiene ese municipio");
 							}
+							catch(Exception b)
+							{
+//								b.printStackTrace();
+							}
 						}
-					}
-					catch (ConstraintViolationException e)
-					{
-						System.out.println("Espacio natural repetido.");
-					}
-					catch (HibernateException o)
-					{
-						System.out.println("Espacio natural repetido.");
 					}
 					catch (Exception f)
 					{
 						System.out.println(f.getMessage());
+						return false;
 					}
 				}
 			}
@@ -290,15 +260,7 @@ public class Json {
 			{
 				paginasNoEncontrada.add(horariosEstaciones[y]);
 			}
-			catch (IOException a)
-			{
-				//Seguir al siguiente objeto en caso de fallo
-			}
-			catch(PropertyValueException b)
-			{
-				//Seguir al siguiente objeto en caso de fallo
-			}
-			catch (ConstraintViolationException c)
+			catch (Exception a)
 			{
 				//Seguir al siguiente objeto en caso de fallo
 			}
@@ -330,11 +292,7 @@ public class Json {
 					}
 				}
 			}
-			catch(PropertyValueException b)
-			{
-				//Seguir al siguiente objeto en caso de fallo
-			}
-			catch (ConstraintViolationException c)
+			catch(Exception b)
 			{
 				//Seguir al siguiente objeto en caso de fallo
 			}
@@ -472,12 +430,7 @@ public class Json {
 			HttpsURLConnection huc = null;
 			huc = (HttpsURLConnection) (new URL(url).openConnection());
 			huc.getResponseCode();
-		} catch (NoSuchAlgorithmException e) {
-//			e.printStackTrace();
-		} catch (KeyManagementException e) {
-//			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
+		} catch (Exception e) {
 //			e.printStackTrace();
 		}
 	}
