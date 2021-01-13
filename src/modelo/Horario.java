@@ -262,15 +262,32 @@ public class Horario implements java.io.Serializable {
 	public void setIcaestacion(String icaestacion) {
 		this.icaestacion = icaestacion;
 	}
-
+	
 	@Override
 	public String toString() {
-		return "Horario [id=" + id + ", fecha=" + fecha + ", hora=" + hora + ", comgm3="
+		
+		this.informes = informes;
+		this.fecha = fecha;
+		this.hora = hora;
+		this.comgm3 = comgm3;
+		this.nogm3 = nogm3;
+		this.no2 = no2;
+		this.no2ica = no2ica;
+		this.noxgm3 = noxgm3;
+		this.pm10 = pm10;
+		this.pm10ica = pm10ica;
+		this.pm25 = pm25;
+		this.pm25ica = pm25ica;
+		this.so2 = so2;
+		this.so2ica = so2ica;
+		this.icaestacion = icaestacion;
+		
+		return "Horario informes=" + informes + ", fecha=" + fecha + ", hora=" + hora + ", comgm3="
 				+ comgm3 + ", nogm3=" + nogm3 + ", no2=" + no2 + ", no2ica=" + no2ica + ", noxgm3=" + noxgm3 + ", pm10="
 				+ pm10 + ", pm10ica=" + pm10ica + ", pm25=" + pm25 + ", pm25ica=" + pm25ica + ", so2=" + so2
 				+ ", so2ica=" + so2ica + ", icaestacion=" + icaestacion + "]";
 	}
-	
+
 	public boolean isNull()
 	{
 		if(comgm3 != null)
