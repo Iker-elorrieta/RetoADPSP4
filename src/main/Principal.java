@@ -17,13 +17,13 @@ import vista.Login;
 
 public class Principal {
 
-	public void main(String[] args) {
+	public static void main(String[] args) {
 		
 		start();
 		
 	}
 	
-	public boolean start()
+	public static boolean start()
 	{
 		Login cliente = new Login();
 		cliente.getFrame().setVisible(true);
