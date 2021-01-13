@@ -194,64 +194,6 @@ public class Test {
 //		Calendar tiempo2 = Calendar.getInstance();
 //		System.out.println(Duration.between(tiempo1.toInstant(), tiempo2.toInstant()));
 //	}
-//	
-//	//Principal
-//	
-//	@org.junit.Test
-//	public void testPrincipal() {
-//		Servidor server = new Servidor(new JTextArea(), new JTextField(), new JLabel());
-//		server.start();
-//		Principal main = new Principal();
-//		Principal.main(null);
-//		assertEquals(true,Principal.start());
-//		server.desconectar();
-//	}
-//	
-//	//Server
-//	
-//	@org.junit.Test
-//	public void testServidor()
-//	{
-//		Servidor server = new Servidor(new JTextArea(), new JTextField(), new JLabel());
-//		server.start();
-//		try {
-//			Socket socket = new Socket("127.0.0.1",44444);
-//			ObjectInputStream entrada = new ObjectInputStream(socket.getInputStream());
-//			ObjectOutputStream salida = new ObjectOutputStream(socket.getOutputStream());
-//			Usuario nuevo = new Usuario();
-//			nuevo.setUsuario("prueba");
-//			nuevo.setContrasena("prueba");
-//			nuevo.setEMail("a@b.c");
-//			salida.writeObject(2);
-//			salida.writeObject(nuevo);
-//			salida.writeObject(1);
-//			salida.writeObject(nuevo);
-//			InsertarBorrar.borrar(nuevo, sesion, session);
-//		} catch (IOException e) {
-//			
-//		}
-//		
-//		assertEquals(true,server.desconectar());
-//	}
-//	
-//	@org.junit.Test
-//	public void testControlador() {
-//		VentanaServidor.main(null);
-//		ObjectOutputStream salida;
-//		ObjectInputStream entrada;
-//		try {
-//			Socket socket = new Socket("127.0.0.1",44444);
-//			entrada = new ObjectInputStream(socket.getInputStream());
-//			salida = new ObjectOutputStream(socket.getOutputStream());
-//			Login login = new Login();
-//			Controlador_Login controlador = new Controlador_Login(login, entrada, salida);
-//			MouseEvent e = new MouseEvent(this.login.getBotonIniciar(), 0, 0, 0, 0, 0, 0, false);
-//			e.getComponent().setName("entrar");
-//			controlador.mousePressed(e);
-//		} catch (IOException e) {
-//		}
-//	
-//	}
 	
 	@org.junit.Test
 	public void testControladorRegistro() {
