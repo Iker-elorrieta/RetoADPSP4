@@ -29,6 +29,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import Server.Servidor;
 import Server.VentanaServidor;
 import controlador.Controlador_Login;
+import controlador.Controlador_Registro;
 import main.Principal;
 import modelo.Entornos;
 import modelo.Entornosmuni;
@@ -60,11 +61,13 @@ public class Test {
 	private Entornosmuni entornosmuni = new Entornosmuni();
 	private EntornosmuniId entornosmuniId = new EntornosmuniId();
 	private HibernateUtil hibernate = new HibernateUtil();
-	SessionFactory sesion = HibernateUtil.getSessionFactory();
-	Session session = sesion.openSession();
+	private SessionFactory sesion = HibernateUtil.getSessionFactory();
+	private Session session = sesion.openSession();
 	private Login login = new Login();
 	private Registrar registrar = new Registrar();
 	private Logeado logeado = new Logeado();
+	private Controlador_Login controladorLogin;
+	private Controlador_Registro controladorRegistro;
 	
 	//Valores de prueba
 	String nombrePruebas = "prueba";
@@ -74,26 +77,26 @@ public class Test {
 	@SuppressWarnings("rawtypes")
 	Set set = new HashSet(0);
 	
-	@org.junit.Test
-	public void testInsercionMunicipio() {
-		municipio = new Municipios(nombrePruebas);
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
-		municipio.toString();
-		municipio.isNull();
-		assertEquals(true, InsertarBorrar.insertar(municipio, sesion, session));
-		InsertarBorrar.borrar(municipio, sesion, session);
-	}
-	
-	@org.junit.Test
-	public void testInsercionEntorno() {
-		entorno = new Entornos(nombrePruebas);
-		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
-		entorno.toString();
-		entorno.isNull();
-		assertEquals(true, InsertarBorrar.insertar(entorno, sesion, session));
-		InsertarBorrar.borrar(entorno, sesion, session);
-	}
-	
+//	@org.junit.Test
+//	public void testInsercionMunicipio() {
+//		municipio = new Municipios(nombrePruebas);
+//		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
+//		municipio.toString();
+//		municipio.isNull();
+//		assertEquals(true, InsertarBorrar.insertar(municipio, sesion, session));
+//		InsertarBorrar.borrar(municipio, sesion, session);
+//	}
+//	
+//	@org.junit.Test
+//	public void testInsercionEntorno() {
+//		entorno = new Entornos(nombrePruebas);
+//		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
+//		entorno.toString();
+//		entorno.isNull();
+//		assertEquals(true, InsertarBorrar.insertar(entorno, sesion, session));
+//		InsertarBorrar.borrar(entorno, sesion, session);
+//	}
+//	
 //	@org.junit.Test
 //    public void testInsercionHorarios() {
 //		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
@@ -192,48 +195,48 @@ public class Test {
 //		Calendar tiempo2 = Calendar.getInstance();
 //		System.out.println(Duration.between(tiempo1.toInstant(), tiempo2.toInstant()));
 //	}
-	
+//	
 	//Principal
+//	
+//	@org.junit.Test
+//	public void testPrincipal() {
+//		Servidor server = new Servidor(new JTextArea(), new JTextField(), new JLabel());
+//		server.start();
+//		Principal main = new Principal();
+//		main.main(null);
+//		assertEquals(true,main.start());
+//		server.desconectar();
+//	}
+//	
+//	//Server
+//	
+//	@org.junit.Test
+//	public void testServidor()
+//	{
+//		Servidor server = new Servidor(new JTextArea(), new JTextField(), new JLabel());
+//		server.start();
+//		try {
+//			Socket socket = new Socket("127.0.0.1",44444);
+//			ObjectInputStream entrada = new ObjectInputStream(socket.getInputStream());
+//			ObjectOutputStream salida = new ObjectOutputStream(socket.getOutputStream());
+//			Usuario nuevo = new Usuario();
+//			nuevo.setUsuario("prueba");
+//			nuevo.setContrasena("prueba");
+//			nuevo.setEMail("a@b.c");
+//			salida.writeObject(2);
+//			salida.writeObject(nuevo);
+//			salida.writeObject(1);
+//			salida.writeObject(nuevo);
+//			InsertarBorrar.borrar(nuevo, sesion, session);
+//		} catch (IOException e) {
+//			
+//		}
+//		
+//		assertEquals(true,server.desconectar());
+//	}
 	
 	@org.junit.Test
-	public void testPrincipal() {
-		Servidor server = new Servidor(new JTextArea(), new JTextField(), new JLabel());
-		server.start();
-		Principal main = new Principal();
-		main.main(null);
-		assertEquals(true,main.start());
-		server.desconectar();
-	}
-	
-	//Server
-	
-	@org.junit.Test
-	public void testServidor()
-	{
-		Servidor server = new Servidor(new JTextArea(), new JTextField(), new JLabel());
-		server.start();
-		try {
-			Socket socket = new Socket("127.0.0.1",44444);
-			ObjectInputStream entrada = new ObjectInputStream(socket.getInputStream());
-			ObjectOutputStream salida = new ObjectOutputStream(socket.getOutputStream());
-			Usuario nuevo = new Usuario();
-			nuevo.setUsuario("prueba");
-			nuevo.setContrasena("prueba");
-			nuevo.setEMail("a@b.c");
-			salida.writeObject(2);
-			salida.writeObject(nuevo);
-			salida.writeObject(1);
-			salida.writeObject(nuevo);
-			InsertarBorrar.borrar(nuevo, sesion, session);
-		} catch (IOException e) {
-			
-		}
-		
-		assertEquals(true,server.desconectar());
-	}
-	
-	@org.junit.Test
-	public void testControlador() {
+	public void testControladorLogin() {
 		VentanaServidor.main(null);
 		ObjectOutputStream salida;
 		ObjectInputStream entrada;
@@ -241,11 +244,22 @@ public class Test {
 			Socket socket = new Socket("127.0.0.1",44444);
 			entrada = new ObjectInputStream(socket.getInputStream());
 			salida = new ObjectOutputStream(socket.getOutputStream());
-			Login login = new Login();
-			Controlador_Login controlador = new Controlador_Login(login, entrada, salida);
-			MouseEvent e = new MouseEvent(this.login.getBotonIniciar(), 0, 0, 0, 0, 0, 0, false);
+			MouseEvent e = new MouseEvent(login.getBotonRegistrar(), 0, 0, 0, 0, 0, 0, false);
+			login = new Login();
+			controladorLogin = new Controlador_Login(login, entrada, salida);
+			e.getComponent().setName("registrar");
+			controladorLogin.mousePressed(e);
+			e.getComponent().setName("volver");
+			controladorRegistro = new Controlador_Registro(registrar, entrada, salida);
+			controladorRegistro.mousePressed(e);
 			e.getComponent().setName("entrar");
-			controlador.mousePressed(e);
+			login.getNombre().setText("test");
+			login.getContrasena().setText("no");
+			controladorLogin.mousePressed(e);
+			login.getNombre().setText("test");
+			login.getContrasena().setText("test");
+			controladorLogin.mousePressed(e);
+			assertEquals(true, controladorLogin.isBooleanPrueba());
 		} catch (IOException e) {
 		}
 	

@@ -18,17 +18,18 @@ public class Controlador_Login implements MouseListener {
 	private Login ventanaLogin;
 	private ObjectOutputStream salida;
 	private ObjectInputStream entrada;
+	private boolean booleanPrueba = false;
 	
 	public Controlador_Login(Login frame, ObjectInputStream entrada, ObjectOutputStream salida) {
 		
 		this.ventanaLogin = frame;
 		this.entrada = entrada;
 		this.salida = salida;
-		iniciarcontrolador();		
+		iniciarControlador();		
 		
 	}
 	
-	public boolean iniciarcontrolador() {
+	public void iniciarControlador() {
 		
 		this.ventanaLogin.getFrame().setVisible(true);
 		this.ventanaLogin.getBotonIniciar().addMouseListener(this);
@@ -36,8 +37,8 @@ public class Controlador_Login implements MouseListener {
 		this.ventanaLogin.getBotonRegistrar().addMouseListener(this);
 		this.ventanaLogin.getBotonRegistrar().setName("registrar");
 		
-		return true;
-	
+		booleanPrueba = true;
+		
 	}
 
 	@Override
@@ -63,7 +64,7 @@ public class Controlador_Login implements MouseListener {
 				
 				if (nuevo != null) {
 					
-					JOptionPane.showMessageDialog(null,"Ha iniciado sesión", "Información", JOptionPane.INFORMATION_MESSAGE);
+					JOptionPane.showMessageDialog(this.ventanaLogin.getFrame(),"Ha iniciado sesión", "Información", JOptionPane.INFORMATION_MESSAGE);
 					Logeado ventanaLogeado = new Logeado();
 					@SuppressWarnings("unused")
 					ControladorLogeado controladorLogeado = new ControladorLogeado(ventanaLogeado, nuevo);
@@ -98,6 +99,8 @@ public class Controlador_Login implements MouseListener {
 			break;
 		}
 		
+		booleanPrueba = true;
+		
 	}
 
 	@Override
@@ -116,6 +119,14 @@ public class Controlador_Login implements MouseListener {
 	public void mouseExited(MouseEvent e) {
 		// TODO Auto-generated method stub
 		
+	}
+
+	public boolean isBooleanPrueba() {
+		return booleanPrueba;
+	}
+
+	public void setBooleanPrueba(boolean booleanPrueba) {
+		this.booleanPrueba = booleanPrueba;
 	}
 	
 }
