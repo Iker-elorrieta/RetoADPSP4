@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-PAGOETA>
     <datos_diarios-PAGOETA-1>
-        <Date>03/01/2021</Date>
-        <COmgm3>0,14</COmgm3>
-        <CO8hmgm3>0,15</CO8hmgm3>
+        <Date>12/01/2021</Date>
+        <COmgm3>0,21</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
         <NOgm3>1</NOgm3>
-        <NO2gm3>2</NO2gm3>
-        <NOXgm3>4</NOXgm3>
-        <O3gm3>65</O3gm3>
-        <O38hgm3>63</O38hgm3>
-        <PM10gm3>3</PM10gm3>
-        <PM25gm3>2</PM25gm3>
-    </datos_diarios-PAGOETA-1>
-    <datos_diarios-PAGOETA-2>
-        <Date>02/01/2021</Date>
-        <COmgm3>0,19</COmgm3>
-        <CO8hmgm3>0,19</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2gm3>3</NO2gm3>
-        <NOXgm3>5</NOXgm3>
-        <O3gm3>61</O3gm3>
-        <O38hgm3>64</O38hgm3>
+        <NO2gm3>5</NO2gm3>
+        <NOXgm3>7</NOXgm3>
+        <O3gm3>68</O3gm3>
+        <O38hgm3>69</O38hgm3>
         <PM10gm3>5</PM10gm3>
         <PM25gm3>3</PM25gm3>
-    </datos_diarios-PAGOETA-2>
+    </datos_diarios-PAGOETA-1>
 </datos_diarios-PAGOETA>

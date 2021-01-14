@@ -1,1240 +1,593 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_indice-DURANGO>
     <datos_indice-DURANGO-1>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>24:00</Hour>
     </datos_indice-DURANGO-1>
     <datos_indice-DURANGO-2>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>23:00</Hour>
     </datos_indice-DURANGO-2>
     <datos_indice-DURANGO-3>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>22:00</Hour>
     </datos_indice-DURANGO-3>
     <datos_indice-DURANGO-4>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>21:00</Hour>
     </datos_indice-DURANGO-4>
     <datos_indice-DURANGO-5>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>20:00</Hour>
     </datos_indice-DURANGO-5>
     <datos_indice-DURANGO-6>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>19:00</Hour>
-        <Bencenogm3>0,55</Bencenogm3>
-        <Etilbencenogm3>0,32</Etilbencenogm3>
-        <NOgm3>8</NOgm3>
-        <NO2>50</NO2>
+        <Bencenogm3>1,45</Bencenogm3>
+        <Etilbencenogm3>0,63</Etilbencenogm3>
+        <NOgm3>62</NOgm3>
+        <NO2>42</NO2>
         <NO2ICA>Bueno / Ona</NO2ICA>
-        <NOXgm3>61</NOXgm3>
-        <O3gm3>17</O3gm3>
-        <OZONO>17</OZONO>
+        <NOXgm3>137</NOXgm3>
+        <O3gm3>2</O3gm3>
+        <OZONO>2</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>40</O38hgm3>
-        <Ortoxilenogm3>1,66</Ortoxilenogm3>
-        <PM10>3,65</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,57</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
+        <O38hgm3>17</O38hgm3>
+        <Ortoxilenogm3>3,1</Ortoxilenogm3>
+        <PM10>27,71</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>14,13</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>3</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>1,6</Toluenogm3>
-        <Dviengrados>271</Dviengrados>
-        <H>99</H>
-        <PmBar>996,2</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>2,3</TC>
-        <Vvienms>0,29</Vvienms>
+        <Toluenogm3>5,16</Toluenogm3>
+        <Dviengrados>303</Dviengrados>
+        <H>86</H>
+        <PmBar>1015,4</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>7,2</TC>
+        <Vvienms>0,17</Vvienms>
         <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-DURANGO-6>
     <datos_indice-DURANGO-7>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>18:00</Hour>
-        <Bencenogm3>0,55</Bencenogm3>
-        <Etilbencenogm3>0,32</Etilbencenogm3>
-        <NOgm3>6</NOgm3>
-        <NO2>42</NO2>
+        <Bencenogm3>1,46</Bencenogm3>
+        <Etilbencenogm3>1,03</Etilbencenogm3>
+        <NOgm3>63</NOgm3>
+        <NO2>50</NO2>
         <NO2ICA>Bueno / Ona</NO2ICA>
-        <NOXgm3>51</NOXgm3>
-        <O3gm3>25</O3gm3>
-        <OZONO>25</OZONO>
+        <NOXgm3>146</NOXgm3>
+        <O3gm3>2</O3gm3>
+        <OZONO>2</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>45</O38hgm3>
-        <Ortoxilenogm3>1,55</Ortoxilenogm3>
-        <PM10>3,48</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,48</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <O38hgm3>17</O38hgm3>
+        <Ortoxilenogm3>4,5</Ortoxilenogm3>
+        <PM10>28,08</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>14,21</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
         <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>1,53</Toluenogm3>
-        <Dviengrados>132</Dviengrados>
-        <H>98</H>
-        <PmBar>995,6</PmBar>
+        <Toluenogm3>5,55</Toluenogm3>
+        <Dviengrados>153</Dviengrados>
+        <H>79</H>
+        <PmBar>1015</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>2,4</TC>
-        <Vvienms>0,77</Vvienms>
+        <Rwm2>0,2</Rwm2>
+        <TC>8,7</TC>
+        <Vvienms>0,9</Vvienms>
         <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-DURANGO-7>
     <datos_indice-DURANGO-8>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>17:00</Hour>
-        <Bencenogm3>0,36</Bencenogm3>
-        <Etilbencenogm3>0,52</Etilbencenogm3>
-        <NOgm3>7</NOgm3>
-        <NO2>37</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>47</NOXgm3>
-        <O3gm3>33</O3gm3>
-        <OZONO>33</OZONO>
+        <Bencenogm3>1,08</Bencenogm3>
+        <Etilbencenogm3>0,42</Etilbencenogm3>
+        <NOgm3>41</NOgm3>
+        <NO2>55</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>118</NOXgm3>
+        <O3gm3>4</O3gm3>
+        <OZONO>4</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>42</O38hgm3>
-        <Ortoxilenogm3>2,28</Ortoxilenogm3>
-        <PM10>3,43</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,35</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
+        <O38hgm3>17</O38hgm3>
+        <Ortoxilenogm3>2,15</Ortoxilenogm3>
+        <PM10>28,25</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>14,29</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>1</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>1,22</Toluenogm3>
-        <Dviengrados>288</Dviengrados>
-        <H>97</H>
-        <PmBar>995,3</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>5,5</Rwm2>
-        <TC>2,7</TC>
-        <Vvienms>0,79</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+        <Toluenogm3>2,74</Toluenogm3>
+        <Dviengrados>132</Dviengrados>
+        <H>71</H>
+        <PmBar>1014,9</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>12,4</Rwm2>
+        <TC>10,1</TC>
+        <Vvienms>0,7</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-DURANGO-8>
     <datos_indice-DURANGO-9>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>16:00</Hour>
-        <Bencenogm3>0,35</Bencenogm3>
-        <Etilbencenogm3>0,48</Etilbencenogm3>
-        <NOgm3>3</NOgm3>
-        <NO2>27</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>31</NOXgm3>
-        <O3gm3>45</O3gm3>
-        <OZONO>45</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>39</O38hgm3>
-        <Ortoxilenogm3>2,19</Ortoxilenogm3>
-        <PM10>3,43</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,13</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,84</Toluenogm3>
-        <Dviengrados>335</Dviengrados>
-        <H>95</H>
-        <PmBar>994,7</PmBar>
-        <Precipitacionlm2>0,7</Precipitacionlm2>
-        <Rwm2>40,6</Rwm2>
-        <TC>3,6</TC>
-        <Vvienms>2,3</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-9>
-    <datos_indice-DURANGO-10>
-        <Date>04/01/2021</Date>
-        <Hour>15:00</Hour>
-        <Bencenogm3>0,35</Bencenogm3>
-        <Etilbencenogm3>0,67</Etilbencenogm3>
-        <NOgm3>4</NOgm3>
-        <NO2>21</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>26</NOXgm3>
-        <O3gm3>53</O3gm3>
-        <OZONO>53</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>36</O38hgm3>
-        <Ortoxilenogm3>2,82</Ortoxilenogm3>
-        <PM10>3,43</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,04</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>1,12</Toluenogm3>
-        <Dviengrados>305</Dviengrados>
-        <H>96</H>
-        <PmBar>994,1</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>119,8</Rwm2>
-        <TC>3,6</TC>
-        <Vvienms>1,83</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-10>
-    <datos_indice-DURANGO-11>
-        <Date>04/01/2021</Date>
-        <Hour>14:00</Hour>
-        <Bencenogm3>0,36</Bencenogm3>
-        <Etilbencenogm3>0,61</Etilbencenogm3>
-        <NOgm3>2</NOgm3>
-        <NO2>25</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>28</NOXgm3>
-        <O3gm3>47</O3gm3>
-        <OZONO>47</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>35</O38hgm3>
-        <Ortoxilenogm3>2,61</Ortoxilenogm3>
-        <PM10>3,43</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,04</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>1,13</Toluenogm3>
-        <Dviengrados>321</Dviengrados>
-        <H>95</H>
-        <PmBar>993,8</PmBar>
-        <Precipitacionlm2>0,6</Precipitacionlm2>
-        <Rwm2>36,7</Rwm2>
-        <TC>3,8</TC>
-        <Vvienms>2,67</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-11>
-    <datos_indice-DURANGO-12>
-        <Date>04/01/2021</Date>
-        <Hour>13:00</Hour>
-        <Bencenogm3>4,79</Bencenogm3>
-        <Etilbencenogm3>7,84</Etilbencenogm3>
-        <NOgm3>3</NOgm3>
-        <NO2>18</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>23</NOXgm3>
-        <O3gm3>54</O3gm3>
-        <OZONO>54</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>36</O38hgm3>
-        <Ortoxilenogm3>28,83</Ortoxilenogm3>
-        <PM10>3,43</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,13</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>9,34</Toluenogm3>
-        <Dviengrados>306</Dviengrados>
-        <H>86</H>
-        <PmBar>993,8</PmBar>
-        <Precipitacionlm2>0,5</Precipitacionlm2>
-        <Rwm2>62,1</Rwm2>
-        <TC>4,8</TC>
-        <Vvienms>2,22</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-12>
-    <datos_indice-DURANGO-13>
-        <Date>04/01/2021</Date>
-        <Hour>12:00</Hour>
-        <NO2ICA>Sin datos / Daturik gabe</NO2ICA>
-        <O3ICA>Sin datos / Daturik gabe</O3ICA>
-        <O38hgm3>36</O38hgm3>
-        <PM10>2,7</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,17</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2ICA>Sin datos / Daturik gabe</SO2ICA>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-13>
-    <datos_indice-DURANGO-14>
-        <Date>04/01/2021</Date>
-        <Hour>11:00</Hour>
-        <NOgm3>16</NOgm3>
-        <NO2>49</NO2>
-        <NO2ICA>Bueno / Ona</NO2ICA>
-        <NOXgm3>74</NOXgm3>
-        <O3gm3>21</O3gm3>
-        <OZONO>21</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>39</O38hgm3>
-        <PM10>2,67</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,21</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>133</Dviengrados>
-        <H>98</H>
-        <PmBar>994,1</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>99,1</Rwm2>
-        <TC>4,1</TC>
-        <Vvienms>1,04</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-DURANGO-14>
-    <datos_indice-DURANGO-15>
-        <Date>04/01/2021</Date>
-        <Hour>10:00</Hour>
-        <Bencenogm3>0,53</Bencenogm3>
-        <Etilbencenogm3>0,56</Etilbencenogm3>
-        <NOgm3>21</NOgm3>
-        <NO2>57</NO2>
-        <NO2ICA>Bueno / Ona</NO2ICA>
-        <NOXgm3>89</NOXgm3>
-        <O3gm3>15</O3gm3>
-        <OZONO>15</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>41</O38hgm3>
-        <Ortoxilenogm3>2,38</Ortoxilenogm3>
-        <PM10>2,54</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,13</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>3,07</Toluenogm3>
-        <Dviengrados>127</Dviengrados>
-        <H>98</H>
-        <PmBar>993,9</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>80,6</Rwm2>
-        <TC>3,6</TC>
-        <Vvienms>1,02</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-DURANGO-15>
-    <datos_indice-DURANGO-16>
-        <Date>04/01/2021</Date>
-        <Hour>09:00</Hour>
-        <Bencenogm3>0,42</Bencenogm3>
-        <Etilbencenogm3>0,7</Etilbencenogm3>
+        <Bencenogm3>0,89</Bencenogm3>
+        <Etilbencenogm3>0,4</Etilbencenogm3>
         <NOgm3>19</NOgm3>
-        <NO2>61</NO2>
+        <NO2>44</NO2>
         <NO2ICA>Bueno / Ona</NO2ICA>
-        <NOXgm3>89</NOXgm3>
-        <O3gm3>12</O3gm3>
-        <OZONO>12</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>46</O38hgm3>
-        <Ortoxilenogm3>2,88</Ortoxilenogm3>
-        <PM10>2,29</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,08</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>1,56</Toluenogm3>
-        <Dviengrados>134</Dviengrados>
-        <H>98</H>
-        <PmBar>993,6</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>23,2</Rwm2>
-        <TC>2,8</TC>
-        <Vvienms>1,35</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-DURANGO-16>
-    <datos_indice-DURANGO-17>
-        <Date>04/01/2021</Date>
-        <Hour>08:00</Hour>
-        <Bencenogm3>0,31</Bencenogm3>
-        <Etilbencenogm3>0,21</Etilbencenogm3>
-        <NOgm3>7</NOgm3>
-        <NO2>45</NO2>
-        <NO2ICA>Bueno / Ona</NO2ICA>
-        <NOXgm3>56</NOXgm3>
-        <O3gm3>26</O3gm3>
-        <OZONO>26</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>51</O38hgm3>
-        <Ortoxilenogm3>1,12</Ortoxilenogm3>
-        <PM10>2,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,13</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,79</Toluenogm3>
-        <Dviengrados>101</Dviengrados>
-        <H>98</H>
-        <PmBar>993,2</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>1,7</Rwm2>
-        <TC>2,8</TC>
-        <Vvienms>1,3</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-DURANGO-17>
-    <datos_indice-DURANGO-18>
-        <Date>04/01/2021</Date>
-        <Hour>07:00</Hour>
-        <Bencenogm3>0,25</Bencenogm3>
-        <Etilbencenogm3>0,03</Etilbencenogm3>
-        <NOgm3>3</NOgm3>
-        <NO2>25</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>29</NOXgm3>
-        <O3gm3>45</O3gm3>
-        <OZONO>45</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>54</O38hgm3>
-        <Ortoxilenogm3>0,61</Ortoxilenogm3>
-        <PM10>2,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,21</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,5</Toluenogm3>
-        <Dviengrados>128</Dviengrados>
-        <H>97</H>
-        <PmBar>993,1</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>2,7</TC>
-        <Vvienms>1,15</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-18>
-    <datos_indice-DURANGO-19>
-        <Date>04/01/2021</Date>
-        <Hour>06:00</Hour>
-        <Bencenogm3>0,22</Bencenogm3>
-        <Etilbencenogm3>0,13</Etilbencenogm3>
-        <NOgm3>0</NOgm3>
-        <NO2>18</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>19</NOXgm3>
-        <O3gm3>49</O3gm3>
-        <OZONO>49</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>53</O38hgm3>
-        <Ortoxilenogm3>0,83</Ortoxilenogm3>
-        <PM10>2,17</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,33</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,49</Toluenogm3>
-        <Dviengrados>132</Dviengrados>
-        <H>97</H>
-        <PmBar>993</PmBar>
-        <Precipitacionlm2>0,5</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>3,2</TC>
-        <Vvienms>1,43</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-19>
-    <datos_indice-DURANGO-20>
-        <Date>04/01/2021</Date>
-        <Hour>05:00</Hour>
-        <Bencenogm3>0,22</Bencenogm3>
-        <Etilbencenogm3>0,02</Etilbencenogm3>
-        <NOgm3>0</NOgm3>
-        <NO2>11</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>11</NOXgm3>
-        <O3gm3>57</O3gm3>
-        <OZONO>57</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>52</O38hgm3>
-        <Ortoxilenogm3>0,6</Ortoxilenogm3>
-        <PM10>2,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,54</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,43</Toluenogm3>
-        <Dviengrados>135</Dviengrados>
-        <H>99</H>
-        <PmBar>993,3</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>3,1</TC>
-        <Vvienms>1,5</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-20>
-    <datos_indice-DURANGO-21>
-        <Date>04/01/2021</Date>
-        <Hour>04:00</Hour>
-        <Bencenogm3>0,21</Bencenogm3>
-        <Etilbencenogm3>0</Etilbencenogm3>
-        <NOgm3>1</NOgm3>
-        <NO2>9</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>11</NOXgm3>
-        <O3gm3>57</O3gm3>
-        <OZONO>57</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>50</O38hgm3>
-        <Ortoxilenogm3>0,63</Ortoxilenogm3>
-        <PM10>2,42</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,79</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,44</Toluenogm3>
-        <Dviengrados>139</Dviengrados>
-        <H>98</H>
-        <PmBar>993,9</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>2,9</TC>
-        <Vvienms>2,03</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-21>
-    <datos_indice-DURANGO-22>
-        <Date>04/01/2021</Date>
-        <Hour>03:00</Hour>
-        <Bencenogm3>0,23</Bencenogm3>
-        <Etilbencenogm3>0,13</Etilbencenogm3>
-        <NOgm3>0</NOgm3>
-        <NO2>9</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>10</NOXgm3>
-        <O3gm3>56</O3gm3>
-        <OZONO>56</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>50</O38hgm3>
-        <Ortoxilenogm3>0,89</Ortoxilenogm3>
-        <PM10>2,58</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>3,04</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,5</Toluenogm3>
-        <Dviengrados>128</Dviengrados>
-        <H>98</H>
-        <PmBar>994,5</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>3,2</TC>
-        <Vvienms>1,58</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-22>
-    <datos_indice-DURANGO-23>
-        <Date>04/01/2021</Date>
-        <Hour>02:00</Hour>
-        <Bencenogm3>0,23</Bencenogm3>
-        <Etilbencenogm3>0,1</Etilbencenogm3>
-        <NOgm3>0</NOgm3>
-        <NO2>9</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>9</NOXgm3>
-        <O3gm3>54</O3gm3>
-        <OZONO>54</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>50</O38hgm3>
-        <Ortoxilenogm3>0,7</Ortoxilenogm3>
-        <PM10>2,75</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>3,38</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,47</Toluenogm3>
-        <Dviengrados>138</Dviengrados>
-        <H>98</H>
-        <PmBar>994,7</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>3,4</TC>
-        <Vvienms>0,48</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-23>
-    <datos_indice-DURANGO-24>
-        <Date>04/01/2021</Date>
-        <Hour>01:00</Hour>
-        <Bencenogm3>0,26</Bencenogm3>
-        <Etilbencenogm3>0,11</Etilbencenogm3>
-        <NOgm3>0</NOgm3>
-        <NO2>9</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>10</NOXgm3>
-        <O3gm3>54</O3gm3>
-        <OZONO>54</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>51</O38hgm3>
-        <Ortoxilenogm3>0,73</Ortoxilenogm3>
-        <PM10>3,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>3,92</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,57</Toluenogm3>
-        <Dviengrados>132</Dviengrados>
-        <H>98</H>
-        <PmBar>994,9</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>3,4</TC>
-        <Vvienms>0,71</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-24>
-    <datos_indice-DURANGO-25>
-        <Date>03/01/2021</Date>
-        <Hour>24:00</Hour>
-        <Bencenogm3>0,32</Bencenogm3>
-        <Etilbencenogm3>0,15</Etilbencenogm3>
-        <NOgm3>0</NOgm3>
-        <NOXgm3>18</NOXgm3>
-        <O3gm3>46</O3gm3>
-        <OZONO>46</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>51</O38hgm3>
-        <Ortoxilenogm3>0,8</Ortoxilenogm3>
-        <PM10>3,54</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,5</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,64</Toluenogm3>
-        <Dviengrados>142</Dviengrados>
-        <H>97</H>
-        <PmBar>995,4</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>3,5</TC>
-        <Vvienms>0,91</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-25>
-    <datos_indice-DURANGO-26>
-        <Date>03/01/2021</Date>
-        <Hour>23:00</Hour>
-        <Bencenogm3>0,43</Bencenogm3>
-        <Etilbencenogm3>0,11</Etilbencenogm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>17</NOXgm3>
-        <O3gm3>47</O3gm3>
-        <OZONO>47</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>51</O38hgm3>
-        <Ortoxilenogm3>0,66</Ortoxilenogm3>
-        <PM10>4,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,83</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,68</Toluenogm3>
-        <Dviengrados>125</Dviengrados>
-        <H>97</H>
-        <PmBar>995,9</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>3,6</TC>
-        <Vvienms>0,63</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-26>
-    <datos_indice-DURANGO-27>
-        <Date>03/01/2021</Date>
-        <Hour>22:00</Hour>
-        <Bencenogm3>0,39</Bencenogm3>
-        <Etilbencenogm3>0,23</Etilbencenogm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>21</NOXgm3>
-        <O3gm3>48</O3gm3>
-        <OZONO>48</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>51</O38hgm3>
-        <Ortoxilenogm3>1,17</Ortoxilenogm3>
-        <PM10>4,67</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,13</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,79</Toluenogm3>
-        <Dviengrados>153</Dviengrados>
-        <H>97</H>
-        <PmBar>995,9</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>3,5</TC>
-        <Vvienms>1,17</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-27>
-    <datos_indice-DURANGO-28>
-        <Date>03/01/2021</Date>
-        <Hour>21:00</Hour>
-        <Bencenogm3>0,6</Bencenogm3>
-        <Etilbencenogm3>0,29</Etilbencenogm3>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>33</NOXgm3>
-        <O3gm3>40</O3gm3>
-        <OZONO>40</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>50</O38hgm3>
-        <Ortoxilenogm3>1,36</Ortoxilenogm3>
-        <PM10>5,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,58</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,73</Toluenogm3>
-        <Dviengrados>122</Dviengrados>
-        <H>96</H>
-        <PmBar>996,4</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>3,2</TC>
-        <Vvienms>1,17</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-28>
-    <datos_indice-DURANGO-29>
-        <Date>03/01/2021</Date>
-        <Hour>20:00</Hour>
-        <Bencenogm3>0,3</Bencenogm3>
-        <Etilbencenogm3>0,05</Etilbencenogm3>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>28</NOXgm3>
-        <O3gm3>51</O3gm3>
-        <OZONO>51</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>51</O38hgm3>
-        <Ortoxilenogm3>0,63</Ortoxilenogm3>
-        <PM10>5,54</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,96</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,61</Toluenogm3>
-        <Dviengrados>4</Dviengrados>
-        <H>93</H>
-        <PmBar>996,4</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>3,3</TC>
-        <Vvienms>0,28</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-29>
-    <datos_indice-DURANGO-30>
-        <Date>03/01/2021</Date>
-        <Hour>19:00</Hour>
-        <Bencenogm3>0,31</Bencenogm3>
-        <Etilbencenogm3>0,05</Etilbencenogm3>
-        <NOgm3>3</NOgm3>
-        <NOXgm3>27</NOXgm3>
-        <O3gm3>54</O3gm3>
-        <OZONO>54</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>47</O38hgm3>
-        <Ortoxilenogm3>0,55</Ortoxilenogm3>
-        <PM10>5,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>6,13</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,61</Toluenogm3>
-        <Dviengrados>306</Dviengrados>
-        <H>90</H>
-        <PmBar>996,6</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,3</TC>
-        <Vvienms>1,63</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-30>
-    <datos_indice-DURANGO-31>
-        <Date>03/01/2021</Date>
-        <Hour>18:00</Hour>
-        <Bencenogm3>0,25</Bencenogm3>
-        <Etilbencenogm3>0,06</Etilbencenogm3>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>23</NOXgm3>
-        <O3gm3>58</O3gm3>
-        <OZONO>58</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>44</O38hgm3>
-        <Ortoxilenogm3>0,72</Ortoxilenogm3>
-        <PM10>6,13</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>6,29</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,35</Toluenogm3>
-        <Dviengrados>336</Dviengrados>
-        <H>87</H>
-        <PmBar>996,4</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,6</TC>
-        <Vvienms>1,34</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-31>
-    <datos_indice-DURANGO-32>
-        <Date>03/01/2021</Date>
-        <Hour>17:00</Hour>
-        <Bencenogm3>0,32</Bencenogm3>
-        <Etilbencenogm3>0,1</Etilbencenogm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>15</NOXgm3>
-        <O3gm3>63</O3gm3>
-        <OZONO>63</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>39</O38hgm3>
-        <Ortoxilenogm3>0,74</Ortoxilenogm3>
-        <PM10>6,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>6,46</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,44</Toluenogm3>
-        <Dviengrados>303</Dviengrados>
-        <H>90</H>
-        <PmBar>996,4</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>11,6</Rwm2>
-        <TC>4,7</TC>
-        <Vvienms>1,5</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-32>
-    <datos_indice-DURANGO-33>
-        <Date>03/01/2021</Date>
-        <Hour>16:00</Hour>
-        <Bencenogm3>0,37</Bencenogm3>
-        <Etilbencenogm3>0</Etilbencenogm3>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>23</NOXgm3>
-        <O3gm3>49</O3gm3>
-        <OZONO>49</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>35</O38hgm3>
-        <Ortoxilenogm3>0,67</Ortoxilenogm3>
-        <PM10>6,33</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>6,54</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,52</Toluenogm3>
-        <Dviengrados>287</Dviengrados>
-        <H>96</H>
-        <PmBar>996,5</PmBar>
-        <Precipitacionlm2>0,7</Precipitacionlm2>
-        <Rwm2>12,4</Rwm2>
-        <TC>4,9</TC>
-        <Vvienms>1,56</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-33>
-    <datos_indice-DURANGO-34>
-        <Date>03/01/2021</Date>
-        <Hour>15:00</Hour>
-        <Bencenogm3>0,51</Bencenogm3>
-        <Etilbencenogm3>0,09</Etilbencenogm3>
-        <NOgm3>5</NOgm3>
-        <NOXgm3>28</NOXgm3>
-        <O3gm3>46</O3gm3>
-        <OZONO>46</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>33</O38hgm3>
-        <Ortoxilenogm3>0,79</Ortoxilenogm3>
-        <PM10>6,5</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>6,67</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,69</Toluenogm3>
-        <Dviengrados>331</Dviengrados>
-        <H>95</H>
-        <PmBar>996,3</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>67,1</Rwm2>
-        <TC>5,5</TC>
-        <Vvienms>0,7</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-34>
-    <datos_indice-DURANGO-35>
-        <Date>03/01/2021</Date>
-        <Hour>14:00</Hour>
-        <Bencenogm3>0,52</Bencenogm3>
-        <Etilbencenogm3>0,23</Etilbencenogm3>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>32</NOXgm3>
-        <O3gm3>38</O3gm3>
-        <OZONO>38</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>32</O38hgm3>
-        <Ortoxilenogm3>1,1</Ortoxilenogm3>
-        <PM10>6,63</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>6,75</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,68</Toluenogm3>
-        <Dviengrados>84</Dviengrados>
-        <H>96</H>
-        <PmBar>996,4</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>55,9</Rwm2>
-        <TC>5,5</TC>
-        <Vvienms>0,36</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-35>
-    <datos_indice-DURANGO-36>
-        <Date>03/01/2021</Date>
-        <Hour>13:00</Hour>
-        <Bencenogm3>0,39</Bencenogm3>
-        <Etilbencenogm3>0,12</Etilbencenogm3>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>24</NOXgm3>
-        <O3gm3>46</O3gm3>
-        <OZONO>46</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>31</O38hgm3>
-        <Ortoxilenogm3>1,1</Ortoxilenogm3>
-        <PM10>6,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>6,83</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,75</Toluenogm3>
-        <Dviengrados>95</Dviengrados>
-        <H>99</H>
-        <PmBar>997,1</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>179,9</Rwm2>
-        <TC>5,2</TC>
-        <Vvienms>0,72</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-36>
-    <datos_indice-DURANGO-37>
-        <Date>03/01/2021</Date>
-        <Hour>12:00</Hour>
-        <Bencenogm3>0,55</Bencenogm3>
-        <Etilbencenogm3>0,32</Etilbencenogm3>
-        <NOgm3>6</NOgm3>
-        <NOXgm3>35</NOXgm3>
-        <O3gm3>33</O3gm3>
-        <OZONO>33</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>29</O38hgm3>
-        <Ortoxilenogm3>1,56</Ortoxilenogm3>
-        <PM10>7</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>6,96</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>1,11</Toluenogm3>
-        <Dviengrados>307</Dviengrados>
-        <H>100</H>
-        <PmBar>998,1</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>91,6</Rwm2>
-        <TC>4,6</TC>
-        <Vvienms>0,19</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-37>
-    <datos_indice-DURANGO-38>
-        <Date>03/01/2021</Date>
-        <Hour>11:00</Hour>
-        <Bencenogm3>0,64</Bencenogm3>
-        <Etilbencenogm3>0,43</Etilbencenogm3>
-        <NOgm3>6</NOgm3>
-        <NOXgm3>36</NOXgm3>
+        <NOXgm3>72</NOXgm3>
         <O3gm3>23</O3gm3>
         <OZONO>23</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>29</O38hgm3>
-        <Ortoxilenogm3>1,78</Ortoxilenogm3>
-        <PM10>7</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>7,04</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <O38hgm3>16</O38hgm3>
+        <Ortoxilenogm3>2,09</Ortoxilenogm3>
+        <PM10>28,54</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>14,5</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
         <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>1,14</Toluenogm3>
-        <Dviengrados>136</Dviengrados>
-        <H>100</H>
-        <PmBar>998,7</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>84,1</Rwm2>
-        <TC>4,2</TC>
-        <Vvienms>0,37</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-38>
-    <datos_indice-DURANGO-39>
-        <Date>03/01/2021</Date>
-        <Hour>10:00</Hour>
-        <NOgm3>5</NOgm3>
-        <NOXgm3>27</NOXgm3>
-        <O3gm3>27</O3gm3>
-        <OZONO>27</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>31</O38hgm3>
-        <PM10>7,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>7,08</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>135</Dviengrados>
-        <H>100</H>
-        <PmBar>998,8</PmBar>
+        <Toluenogm3>2,73</Toluenogm3>
+        <Dviengrados>171</Dviengrados>
+        <H>66</H>
+        <PmBar>1015</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>75,4</Rwm2>
-        <TC>3,4</TC>
-        <Vvienms>0,77</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-39>
-    <datos_indice-DURANGO-40>
-        <Date>03/01/2021</Date>
-        <Hour>09:00</Hour>
-        <Bencenogm3>0,35</Bencenogm3>
-        <Etilbencenogm3>0,31</Etilbencenogm3>
-        <NOgm3>3</NOgm3>
-        <NOXgm3>26</NOXgm3>
-        <O3gm3>28</O3gm3>
-        <OZONO>28</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>31</O38hgm3>
-        <Ortoxilenogm3>1,33</Ortoxilenogm3>
-        <PM10>7,42</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>7,08</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,66</Toluenogm3>
-        <Dviengrados>116</Dviengrados>
-        <H>100</H>
-        <PmBar>998,8</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>25,3</Rwm2>
-        <TC>2,8</TC>
-        <Vvienms>0,93</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-40>
-    <datos_indice-DURANGO-41>
-        <Date>03/01/2021</Date>
-        <Hour>08:00</Hour>
-        <Bencenogm3>0,35</Bencenogm3>
-        <Etilbencenogm3>0,21</Etilbencenogm3>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>21</NOXgm3>
-        <O3gm3>30</O3gm3>
-        <OZONO>30</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>28</O38hgm3>
-        <Ortoxilenogm3>0,96</Ortoxilenogm3>
-        <PM10>7,58</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>7,04</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,81</Toluenogm3>
-        <Dviengrados>138</Dviengrados>
-        <H>100</H>
-        <PmBar>998,8</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>0,9</Rwm2>
-        <TC>2,6</TC>
+        <Rwm2>34,6</Rwm2>
+        <TC>10,5</TC>
         <Vvienms>0,61</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-41>
-    <datos_indice-DURANGO-42>
-        <Date>03/01/2021</Date>
-        <Hour>07:00</Hour>
-        <Bencenogm3>0,36</Bencenogm3>
-        <Etilbencenogm3>0,26</Etilbencenogm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>15</NOXgm3>
-        <O3gm3>32</O3gm3>
-        <OZONO>32</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>27</O38hgm3>
-        <Ortoxilenogm3>1,16</Ortoxilenogm3>
-        <PM10>7,71</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>7,08</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,76</Toluenogm3>
-        <Dviengrados>100</Dviengrados>
-        <H>100</H>
-        <PmBar>998,8</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>2,5</TC>
-        <Vvienms>0,87</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-42>
-    <datos_indice-DURANGO-43>
-        <Date>03/01/2021</Date>
-        <Hour>06:00</Hour>
-        <Bencenogm3>0,37</Bencenogm3>
-        <Etilbencenogm3>0,33</Etilbencenogm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>14</NOXgm3>
-        <O3gm3>34</O3gm3>
-        <OZONO>34</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>23</O38hgm3>
-        <Ortoxilenogm3>1,44</Ortoxilenogm3>
-        <PM10>7,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>7,08</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,76</Toluenogm3>
-        <Dviengrados>118</Dviengrados>
-        <H>100</H>
-        <PmBar>999,1</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>2,6</TC>
-        <Vvienms>1,03</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-43>
-    <datos_indice-DURANGO-44>
-        <Date>03/01/2021</Date>
-        <Hour>05:00</Hour>
-        <Bencenogm3>0,4</Bencenogm3>
-        <Etilbencenogm3>0,36</Etilbencenogm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>16</NOXgm3>
-        <O3gm3>32</O3gm3>
-        <OZONO>32</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>19</O38hgm3>
-        <Ortoxilenogm3>1,57</Ortoxilenogm3>
-        <PM10>7,75</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>6,96</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,87</Toluenogm3>
-        <Dviengrados>138</Dviengrados>
-        <H>100</H>
-        <PmBar>999,7</PmBar>
-        <Precipitacionlm2>0,7</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>2,9</TC>
-        <Vvienms>0,56</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-44>
-    <datos_indice-DURANGO-45>
-        <Date>03/01/2021</Date>
-        <Hour>04:00</Hour>
-        <Bencenogm3>0,39</Bencenogm3>
-        <Etilbencenogm3>0,33</Etilbencenogm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>17</NOXgm3>
-        <O3gm3>27</O3gm3>
-        <OZONO>27</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>15</O38hgm3>
-        <Ortoxilenogm3>1,42</Ortoxilenogm3>
-        <PM10>7,54</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>6,83</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,9</Toluenogm3>
-        <Dviengrados>121</Dviengrados>
-        <H>100</H>
-        <PmBar>1000</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>3,2</TC>
-        <Vvienms>0,9</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-45>
-    <datos_indice-DURANGO-46>
-        <Date>03/01/2021</Date>
-        <Hour>03:00</Hour>
-        <Bencenogm3>0,39</Bencenogm3>
-        <Etilbencenogm3>0,21</Etilbencenogm3>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>13</NOXgm3>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-9>
+    <datos_indice-DURANGO-10>
+        <Date>13/01/2021</Date>
+        <Hour>15:00</Hour>
+        <Bencenogm3>0,8</Bencenogm3>
+        <Etilbencenogm3>0,42</Etilbencenogm3>
+        <NOgm3>5</NOgm3>
+        <NO2>30</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>38</NOXgm3>
         <O3gm3>38</O3gm3>
         <OZONO>38</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>13</O38hgm3>
-        <Ortoxilenogm3>1,11</Ortoxilenogm3>
-        <PM10>7,38</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>6,71</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <O38hgm3>12</O38hgm3>
+        <Ortoxilenogm3>2,13</Ortoxilenogm3>
+        <PM10>28,88</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>14,96</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>2,71</Toluenogm3>
+        <Dviengrados>138</Dviengrados>
+        <H>65</H>
+        <PmBar>1014,9</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>74,8</Rwm2>
+        <TC>10,6</TC>
+        <Vvienms>0,73</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-10>
+    <datos_indice-DURANGO-11>
+        <Date>13/01/2021</Date>
+        <Hour>14:00</Hour>
+        <Bencenogm3>1,1</Bencenogm3>
+        <Etilbencenogm3>0,52</Etilbencenogm3>
+        <NOgm3>7</NOgm3>
+        <NO2>34</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>45</NOXgm3>
+        <O3gm3>33</O3gm3>
+        <OZONO>33</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>7</O38hgm3>
+        <Ortoxilenogm3>2,55</Ortoxilenogm3>
+        <PM10>29,71</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>15,38</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>5</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>3,53</Toluenogm3>
+        <Dviengrados>159</Dviengrados>
+        <H>68</H>
+        <PmBar>1015</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>97,8</Rwm2>
+        <TC>10,5</TC>
+        <Vvienms>0,62</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-11>
+    <datos_indice-DURANGO-12>
+        <Date>13/01/2021</Date>
+        <Hour>13:00</Hour>
+        <Bencenogm3>1,7</Bencenogm3>
+        <Etilbencenogm3>0,77</Etilbencenogm3>
+        <NOgm3>11</NOgm3>
+        <NO2>38</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>56</NOXgm3>
+        <O3gm3>24</O3gm3>
+        <OZONO>24</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>4</O38hgm3>
+        <Ortoxilenogm3>3,82</Ortoxilenogm3>
+        <PM10>30,63</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>15,92</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>5,06</Toluenogm3>
+        <Dviengrados>121</Dviengrados>
+        <H>73</H>
+        <PmBar>1015,6</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>129,9</Rwm2>
+        <TC>10,1</TC>
+        <Vvienms>0,82</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-12>
+    <datos_indice-DURANGO-13>
+        <Date>13/01/2021</Date>
+        <Hour>12:00</Hour>
+        <Bencenogm3>1,67</Bencenogm3>
+        <Etilbencenogm3>0,8</Etilbencenogm3>
+        <NOgm3>41</NOgm3>
+        <NO2>47</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>110</NOXgm3>
+        <O3gm3>6</O3gm3>
+        <OZONO>6</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>1</O38hgm3>
+        <Ortoxilenogm3>3,87</Ortoxilenogm3>
+        <PM10>31</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,17</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>5,08</Toluenogm3>
+        <Dviengrados>125</Dviengrados>
+        <H>81</H>
+        <PmBar>1016,4</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>118,7</Rwm2>
+        <TC>9</TC>
+        <Vvienms>0,71</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-13>
+    <datos_indice-DURANGO-14>
+        <Date>13/01/2021</Date>
+        <Hour>11:00</Hour>
+        <Bencenogm3>1,84</Bencenogm3>
+        <Etilbencenogm3>0,98</Etilbencenogm3>
+        <NOgm3>59</NOgm3>
+        <NO2>48</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>138</NOXgm3>
+        <O3gm3>2</O3gm3>
+        <OZONO>2</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>1</O38hgm3>
+        <Ortoxilenogm3>4,8</Ortoxilenogm3>
+        <PM10>31,08</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,25</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>6,45</Toluenogm3>
+        <Dviengrados>131</Dviengrados>
+        <H>86</H>
+        <PmBar>1016,6</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>77,7</Rwm2>
+        <TC>7,9</TC>
+        <Vvienms>0,76</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-14>
+    <datos_indice-DURANGO-15>
+        <Date>13/01/2021</Date>
+        <Hour>10:00</Hour>
+        <Bencenogm3>2,31</Bencenogm3>
+        <Etilbencenogm3>0,87</Etilbencenogm3>
+        <NOgm3>81</NOgm3>
+        <NO2>47</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>171</NOXgm3>
+        <O3gm3>1</O3gm3>
+        <OZONO>1</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>2</O38hgm3>
+        <Ortoxilenogm3>4,32</Ortoxilenogm3>
+        <PM10>30,88</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,17</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>8,06</Toluenogm3>
+        <Dviengrados>156</Dviengrados>
+        <H>91</H>
+        <PmBar>1016,6</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>55,2</Rwm2>
+        <TC>7,3</TC>
+        <Vvienms>0,43</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-15>
+    <datos_indice-DURANGO-16>
+        <Date>13/01/2021</Date>
+        <Hour>09:00</Hour>
+        <Bencenogm3>2,38</Bencenogm3>
+        <Etilbencenogm3>0,62</Etilbencenogm3>
+        <NOgm3>92</NOgm3>
+        <NO2>45</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>185</NOXgm3>
+        <O3gm3>0</O3gm3>
+        <OZONO>0</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>2</O38hgm3>
+        <Ortoxilenogm3>3,25</Ortoxilenogm3>
+        <PM10>30,71</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,13</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>7,05</Toluenogm3>
+        <Dviengrados>143</Dviengrados>
+        <H>93</H>
+        <PmBar>1016,3</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>19,6</Rwm2>
+        <TC>6,7</TC>
+        <Vvienms>0,55</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-16>
+    <datos_indice-DURANGO-17>
+        <Date>13/01/2021</Date>
+        <Hour>08:00</Hour>
+        <Bencenogm3>3,19</Bencenogm3>
+        <Etilbencenogm3>0,68</Etilbencenogm3>
+        <NOgm3>107</NOgm3>
+        <NO2>44</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>207</NOXgm3>
+        <O3gm3>0</O3gm3>
+        <OZONO>0</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>2</O38hgm3>
+        <Ortoxilenogm3>3,48</Ortoxilenogm3>
+        <PM10>30,79</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,21</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>8,3</Toluenogm3>
+        <Dviengrados>173</Dviengrados>
+        <H>93</H>
+        <PmBar>1016</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>1,4</Rwm2>
+        <TC>6,5</TC>
+        <Vvienms>0,52</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-17>
+    <datos_indice-DURANGO-18>
+        <Date>13/01/2021</Date>
+        <Hour>07:00</Hour>
+        <Bencenogm3>3,99</Bencenogm3>
+        <Etilbencenogm3>0,64</Etilbencenogm3>
+        <NOgm3>61</NOgm3>
+        <NO2>35</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>127</NOXgm3>
+        <O3gm3>0</O3gm3>
+        <OZONO>0</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>2</O38hgm3>
+        <Ortoxilenogm3>3,17</Ortoxilenogm3>
+        <PM10>30,71</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,13</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
         <SO2>1</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>0,83</Toluenogm3>
-        <Dviengrados>167</Dviengrados>
-        <H>100</H>
-        <PmBar>1000,6</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>3,3</TC>
-        <Vvienms>0,47</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-46>
-    <datos_indice-DURANGO-47>
-        <Date>03/01/2021</Date>
-        <Hour>02:00</Hour>
-        <Bencenogm3>0,67</Bencenogm3>
-        <Etilbencenogm3>0,19</Etilbencenogm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>16</NOXgm3>
-        <O3gm3>28</O3gm3>
-        <OZONO>28</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>10</O38hgm3>
-        <Ortoxilenogm3>1,04</Ortoxilenogm3>
-        <PM10>7,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>6,5</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>1,48</Toluenogm3>
-        <Dviengrados>244</Dviengrados>
-        <H>100</H>
-        <PmBar>1001</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>3,3</TC>
-        <Vvienms>0,54</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-47>
-    <datos_indice-DURANGO-48>
-        <Date>03/01/2021</Date>
-        <Hour>01:00</Hour>
-        <Bencenogm3>1,01</Bencenogm3>
-        <Etilbencenogm3>0,32</Etilbencenogm3>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>28</NOXgm3>
-        <O3gm3>9</O3gm3>
-        <OZONO>9</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>11</O38hgm3>
-        <Ortoxilenogm3>1,5</Ortoxilenogm3>
-        <PM10>6,88</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>6,08</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Toluenogm3>2,28</Toluenogm3>
-        <Dviengrados>253</Dviengrados>
-        <H>99</H>
-        <PmBar>1001,2</PmBar>
+        <Toluenogm3>10,92</Toluenogm3>
+        <Dviengrados>184</Dviengrados>
+        <H>93</H>
+        <PmBar>1015,8</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
         <Rwm2>0,1</Rwm2>
-        <TC>3</TC>
-        <Vvienms>0,16</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-DURANGO-48>
+        <TC>6,4</TC>
+        <Vvienms>0,38</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-18>
+    <datos_indice-DURANGO-19>
+        <Date>13/01/2021</Date>
+        <Hour>06:00</Hour>
+        <Bencenogm3>11,4</Bencenogm3>
+        <Etilbencenogm3>1,05</Etilbencenogm3>
+        <NOgm3>23</NOgm3>
+        <NO2>29</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>64</NOXgm3>
+        <O3gm3>1</O3gm3>
+        <OZONO>1</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>2</O38hgm3>
+        <Ortoxilenogm3>5,44</Ortoxilenogm3>
+        <PM10>30,63</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,17</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>29,03</Toluenogm3>
+        <Dviengrados>147</Dviengrados>
+        <H>92</H>
+        <PmBar>1015,5</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,1</Rwm2>
+        <TC>6,5</TC>
+        <Vvienms>0,38</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-19>
+    <datos_indice-DURANGO-20>
+        <Date>13/01/2021</Date>
+        <Hour>05:00</Hour>
+        <Bencenogm3>9,77</Bencenogm3>
+        <Etilbencenogm3>0,76</Etilbencenogm3>
+        <NOgm3>13</NOgm3>
+        <NO2>26</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>47</NOXgm3>
+        <O3gm3>3</O3gm3>
+        <OZONO>3</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>2</O38hgm3>
+        <Ortoxilenogm3>3,42</Ortoxilenogm3>
+        <PM10>30,71</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,25</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>24,15</Toluenogm3>
+        <Dviengrados>283</Dviengrados>
+        <H>91</H>
+        <PmBar>1015,3</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,1</Rwm2>
+        <TC>6,5</TC>
+        <Vvienms>0,13</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-20>
+    <datos_indice-DURANGO-21>
+        <Date>13/01/2021</Date>
+        <Hour>04:00</Hour>
+        <Bencenogm3>5,53</Bencenogm3>
+        <Etilbencenogm3>0,57</Etilbencenogm3>
+        <NOgm3>5</NOgm3>
+        <NO2>23</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>31</NOXgm3>
+        <O3gm3>5</O3gm3>
+        <OZONO>5</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>2</O38hgm3>
+        <Ortoxilenogm3>2,57</Ortoxilenogm3>
+        <PM10>30,71</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,21</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>14,23</Toluenogm3>
+        <Dviengrados>278</Dviengrados>
+        <H>91</H>
+        <PmBar>1015,5</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,2</Rwm2>
+        <TC>6,4</TC>
+        <Vvienms>0,1</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-21>
+    <datos_indice-DURANGO-22>
+        <Date>13/01/2021</Date>
+        <Hour>03:00</Hour>
+        <Bencenogm3>8,12</Bencenogm3>
+        <Etilbencenogm3>0,72</Etilbencenogm3>
+        <NOgm3>5</NOgm3>
+        <NO2>26</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>33</NOXgm3>
+        <O3gm3>3</O3gm3>
+        <OZONO>3</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>2</O38hgm3>
+        <Ortoxilenogm3>3,2</Ortoxilenogm3>
+        <PM10>30,54</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,08</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>21,34</Toluenogm3>
+        <Dviengrados>187</Dviengrados>
+        <H>91</H>
+        <PmBar>1015,4</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,1</Rwm2>
+        <TC>6,5</TC>
+        <Vvienms>0,34</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-22>
+    <datos_indice-DURANGO-23>
+        <Date>13/01/2021</Date>
+        <Hour>02:00</Hour>
+        <Bencenogm3>5,26</Bencenogm3>
+        <Etilbencenogm3>0,55</Etilbencenogm3>
+        <NOgm3>7</NOgm3>
+        <NO2>28</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>40</NOXgm3>
+        <O3gm3>2</O3gm3>
+        <OZONO>2</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>2</O38hgm3>
+        <Ortoxilenogm3>2,5</Ortoxilenogm3>
+        <PM10>30,42</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>15,96</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>12,8</Toluenogm3>
+        <Dviengrados>321</Dviengrados>
+        <H>90</H>
+        <PmBar>1015,4</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,1</Rwm2>
+        <TC>6,5</TC>
+        <Vvienms>0,15</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-23>
+    <datos_indice-DURANGO-24>
+        <Date>13/01/2021</Date>
+        <Hour>01:00</Hour>
+        <Bencenogm3>3,41</Bencenogm3>
+        <Etilbencenogm3>0,52</Etilbencenogm3>
+        <NOgm3>7</NOgm3>
+        <NO2>29</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>40</NOXgm3>
+        <O3gm3>1</O3gm3>
+        <OZONO>1</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>2</O38hgm3>
+        <Ortoxilenogm3>2,31</Ortoxilenogm3>
+        <PM10>30,17</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>15,92</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Toluenogm3>7,85</Toluenogm3>
+        <Dviengrados>165</Dviengrados>
+        <H>88</H>
+        <PmBar>1015,7</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,1</Rwm2>
+        <TC>6,6</TC>
+        <Vvienms>0,19</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-DURANGO-24>
 </datos_indice-DURANGO>

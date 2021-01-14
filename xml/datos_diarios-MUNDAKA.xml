@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-MUNDAKA>
     <datos_diarios-MUNDAKA-1>
-        <Date>03/01/2021</Date>
-        <NOgm3>0</NOgm3>
-        <NO2gm3>3</NO2gm3>
-        <NOXgm3>4</NOXgm3>
-        <O3gm3>57</O3gm3>
-        <O38hgm3>56</O38hgm3>
-        <PM10gm3>14</PM10gm3>
-        <PM25gm3>3</PM25gm3>
+        <Date>12/01/2021</Date>
+        <NOgm3>1</NOgm3>
+        <NO2gm3>9</NO2gm3>
+        <NOXgm3>10</NOXgm3>
+        <O3gm3>52</O3gm3>
+        <O38hgm3>50</O38hgm3>
+        <PM10gm3>8</PM10gm3>
+        <PM25gm3>5</PM25gm3>
     </datos_diarios-MUNDAKA-1>
-    <datos_diarios-MUNDAKA-2>
-        <Date>02/01/2021</Date>
-        <NOgm3>0</NOgm3>
-        <NO2gm3>1</NO2gm3>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>65</O3gm3>
-        <O38hgm3>67</O38hgm3>
-        <PM10gm3>13</PM10gm3>
-        <PM25gm3>3</PM25gm3>
-    </datos_diarios-MUNDAKA-2>
 </datos_diarios-MUNDAKA>

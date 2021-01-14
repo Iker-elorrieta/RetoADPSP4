@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-AVDA_TOLOSA>
     <datos_diarios-AVDA_TOLOSA-1>
-        <Date>03/01/2021</Date>
-        <NOgm3>3</NOgm3>
-        <NO2gm3>13</NO2gm3>
-        <NOXgm3>18</NOXgm3>
-        <O3gm3>41</O3gm3>
-        <O38hgm3>32</O38hgm3>
-        <PM10gm3>7</PM10gm3>
-        <PM25gm3>5</PM25gm3>
+        <Date>12/01/2021</Date>
+        <NOgm3>32</NOgm3>
+        <NO2gm3>41</NO2gm3>
+        <NOXgm3>90</NOXgm3>
+        <O3gm3>20</O3gm3>
+        <O38hgm3>12</O38hgm3>
+        <PM10gm3>24</PM10gm3>
+        <PM25gm3>14</PM25gm3>
         <SO2gm3>1</SO2gm3>
     </datos_diarios-AVDA_TOLOSA-1>
-    <datos_diarios-AVDA_TOLOSA-2>
-        <Date>02/01/2021</Date>
-        <NOgm3>5</NOgm3>
-        <NO2gm3>17</NO2gm3>
-        <NOXgm3>24</NOXgm3>
-        <O3gm3>39</O3gm3>
-        <O38hgm3>49</O38hgm3>
-        <PM10gm3>11</PM10gm3>
-        <PM25gm3>7</PM25gm3>
-        <SO2gm3>2</SO2gm3>
-    </datos_diarios-AVDA_TOLOSA-2>
 </datos_diarios-AVDA_TOLOSA>

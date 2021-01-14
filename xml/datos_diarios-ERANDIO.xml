@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-ERANDIO>
     <datos_diarios-ERANDIO-1>
-        <Date>03/01/2021</Date>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,19</CO8hmgm3>
-        <NH3gm3>0</NH3gm3>
-        <NOgm3>2</NOgm3>
-        <NO2gm3>13</NO2gm3>
-        <NOXgm3>15</NOXgm3>
-        <PM10gm3>2</PM10gm3>
-        <PM25gm3>2</PM25gm3>
-        <SO2gm3>4</SO2gm3>
+        <Date>12/01/2021</Date>
+        <COmgm3>0,33</COmgm3>
+        <CO8hmgm3>0,35</CO8hmgm3>
+        <NH3gm3>3</NH3gm3>
+        <NOgm3>34</NOgm3>
+        <NO2gm3>49</NO2gm3>
+        <NOXgm3>100</NOXgm3>
+        <PM10gm3>24</PM10gm3>
+        <PM25gm3>14</PM25gm3>
+        <SO2gm3>6</SO2gm3>
     </datos_diarios-ERANDIO-1>
-    <datos_diarios-ERANDIO-2>
-        <Date>02/01/2021</Date>
-        <COmgm3>0,2</COmgm3>
-        <CO8hmgm3>0,19</CO8hmgm3>
-        <NH3gm3>1</NH3gm3>
-        <NOgm3>3</NOgm3>
-        <NO2gm3>13</NO2gm3>
-        <NOXgm3>18</NOXgm3>
-        <PM10gm3>5</PM10gm3>
-        <PM25gm3>3</PM25gm3>
-        <SO2gm3>4</SO2gm3>
-    </datos_diarios-ERANDIO-2>
 </datos_diarios-ERANDIO>

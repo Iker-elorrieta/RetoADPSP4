@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-SANTURCE>
     <datos_diarios-SANTURCE-1>
-        <Date>03/01/2021</Date>
-        <NOgm3>0</NOgm3>
-        <NO2gm3>8</NO2gm3>
-        <NOXgm3>8</NOXgm3>
-        <PM10gm3>3</PM10gm3>
-        <PM25gm3>3</PM25gm3>
-        <SO2gm3>8</SO2gm3>
+        <Date>12/01/2021</Date>
+        <NOgm3>28</NOgm3>
+        <NO2gm3>30</NO2gm3>
+        <NOXgm3>73</NOXgm3>
+        <PM10gm3>21</PM10gm3>
+        <PM25gm3>18</PM25gm3>
+        <SO2gm3>10</SO2gm3>
     </datos_diarios-SANTURCE-1>
-    <datos_diarios-SANTURCE-2>
-        <Date>02/01/2021</Date>
-        <NOgm3>1</NOgm3>
-        <NO2gm3>11</NO2gm3>
-        <NOXgm3>12</NOXgm3>
-        <PM10gm3>8</PM10gm3>
-        <PM25gm3>3</PM25gm3>
-        <SO2gm3>6</SO2gm3>
-    </datos_diarios-SANTURCE-2>
 </datos_diarios-SANTURCE>

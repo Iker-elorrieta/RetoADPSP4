@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-CASTREJANA>
     <datos_diarios-CASTREJANA-1>
-        <Date>03/01/2021</Date>
-        <NOgm3>5</NOgm3>
-        <NO2gm3>4</NO2gm3>
-        <NOXgm3>12</NOXgm3>
-        <O3gm3>55</O3gm3>
-        <O38hgm3>51</O38hgm3>
-        <PM10gm3>2</PM10gm3>
-    </datos_diarios-CASTREJANA-1>
-    <datos_diarios-CASTREJANA-2>
-        <Date>02/01/2021</Date>
+        <Date>12/01/2021</Date>
         <NOgm3>6</NOgm3>
-        <NO2gm3>11</NO2gm3>
-        <NOXgm3>19</NOXgm3>
-        <O3gm3>47</O3gm3>
-        <O38hgm3>52</O38hgm3>
-        <PM10gm3>9</PM10gm3>
-    </datos_diarios-CASTREJANA-2>
+        <NO2gm3>18</NO2gm3>
+        <NOXgm3>26</NOXgm3>
+        <O3gm3>32</O3gm3>
+        <O38hgm3>28</O38hgm3>
+        <PM10gm3>10</PM10gm3>
+    </datos_diarios-CASTREJANA-1>
 </datos_diarios-CASTREJANA>

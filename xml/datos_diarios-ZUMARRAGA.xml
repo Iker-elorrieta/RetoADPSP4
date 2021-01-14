@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-ZUMARRAGA>
     <datos_diarios-ZUMARRAGA-1>
-        <Date>03/01/2021</Date>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,17</CO8hmgm3>
-        <NOgm3>3</NOgm3>
-        <NOXgm3>18</NOXgm3>
-        <O3gm3>47</O3gm3>
-        <O38hgm3>47</O38hgm3>
-        <PM10gm3>6</PM10gm3>
-        <PM25gm3>5</PM25gm3>
-        <SO2gm3>3</SO2gm3>
+        <Date>12/01/2021</Date>
+        <COmgm3>0,34</COmgm3>
+        <CO8hmgm3>0,34</CO8hmgm3>
+        <NOgm3>24</NOgm3>
+        <NO2gm3>41</NO2gm3>
+        <NOXgm3>78</NOXgm3>
+        <O3gm3>17</O3gm3>
+        <O38hgm3>18</O38hgm3>
+        <PM10gm3>22</PM10gm3>
+        <PM25gm3>16</PM25gm3>
+        <SO2gm3>4</SO2gm3>
     </datos_diarios-ZUMARRAGA-1>
-    <datos_diarios-ZUMARRAGA-2>
-        <Date>02/01/2021</Date>
-        <COmgm3>0,15</COmgm3>
-        <CO8hmgm3>0,15</CO8hmgm3>
-        <NOgm3>3</NOgm3>
-        <NOXgm3>15</NOXgm3>
-        <O3gm3>61</O3gm3>
-        <O38hgm3>64</O38hgm3>
-        <PM10gm3>5</PM10gm3>
-        <PM25gm3>4</PM25gm3>
-        <SO2gm3>3</SO2gm3>
-    </datos_diarios-ZUMARRAGA-2>
 </datos_diarios-ZUMARRAGA>

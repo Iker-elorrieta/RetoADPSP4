@@ -1,114 +1,114 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_indice-VALDEREJO>
     <datos_indice-VALDEREJO-1>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>24:00</Hour>
     </datos_indice-VALDEREJO-1>
     <datos_indice-VALDEREJO-2>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>23:00</Hour>
     </datos_indice-VALDEREJO-2>
     <datos_indice-VALDEREJO-3>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>22:00</Hour>
     </datos_indice-VALDEREJO-3>
     <datos_indice-VALDEREJO-4>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>21:00</Hour>
     </datos_indice-VALDEREJO-4>
     <datos_indice-VALDEREJO-5>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>20:00</Hour>
     </datos_indice-VALDEREJO-5>
     <datos_indice-VALDEREJO-6>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>19:00</Hour>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
+        <COmgm3>0,23</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
         <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
+        <NO2>4</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>78</O3gm3>
-        <OZONO>78</OZONO>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>71</O3gm3>
+        <OZONO>71</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>82</O38hgm3>
-        <PM10>2,04</PM10>
+        <O38hgm3>83</O38hgm3>
+        <PM10>5,08</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,08</PM25>
+        <PM25>6,25</PM25>
         <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
+        <SO2>1</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>352</Dviengrados>
-        <H>97</H>
-        <PmBar>904,7</PmBar>
+        <Dviengrados>102</Dviengrados>
+        <H>95</H>
+        <PmBar>923,7</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
         <Rwm2>0,2</Rwm2>
-        <TC>-2,1</TC>
-        <Vvienms>0,71</Vvienms>
+        <TC>-1,2</TC>
+        <Vvienms>0,57</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-VALDEREJO-6>
     <datos_indice-VALDEREJO-7>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>18:00</Hour>
-        <COmgm3>0,19</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
+        <COmgm3>0,26</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
         <NOgm3>0</NOgm3>
-        <NO2>3</NO2>
+        <NO2>4</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>3</NOXgm3>
-        <O3gm3>80</O3gm3>
-        <OZONO>80</OZONO>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>71</O3gm3>
+        <OZONO>71</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>82</O38hgm3>
-        <PM10>2,04</PM10>
+        <O38hgm3>83</O38hgm3>
+        <PM10>5,08</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,04</PM25>
+        <PM25>6,33</PM25>
         <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
+        <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>45</Dviengrados>
-        <H>97</H>
-        <PmBar>904,4</PmBar>
+        <Dviengrados>117</Dviengrados>
+        <H>91</H>
+        <PmBar>923,5</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,4</Rwm2>
-        <TC>-2,1</TC>
-        <Vvienms>0,7</Vvienms>
+        <Rwm2>1,1</Rwm2>
+        <TC>0,1</TC>
+        <Vvienms>0,29</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-VALDEREJO-7>
     <datos_indice-VALDEREJO-8>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>17:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
+        <COmgm3>0,22</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
         <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
+        <NO2>3</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>84</O3gm3>
-        <OZONO>84</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>82</O38hgm3>
-        <PM10>2,04</PM10>
+        <NOXgm3>3</NOXgm3>
+        <O3gm3>75</O3gm3>
+        <OZONO>75</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>83</O38hgm3>
+        <PM10>4,83</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,08</PM25>
+        <PM25>6,42</PM25>
         <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
+        <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>2</Dviengrados>
-        <H>96</H>
-        <PmBar>904,2</PmBar>
+        <Dviengrados>155</Dviengrados>
+        <H>77</H>
+        <PmBar>923,4</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>10,2</Rwm2>
-        <TC>-1,6</TC>
-        <Vvienms>1,51</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
+        <Rwm2>13,4</Rwm2>
+        <TC>3,8</TC>
+        <Vvienms>0,04</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-VALDEREJO-8>
     <datos_indice-VALDEREJO-9>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>16:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
+        <COmgm3>0,18</COmgm3>
+        <CO8hmgm3>0,19</CO8hmgm3>
         <NOgm3>0</NOgm3>
         <NO2>2</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
@@ -116,1108 +116,438 @@
         <O3gm3>83</O3gm3>
         <OZONO>83</OZONO>
         <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>82</O38hgm3>
-        <PM10>2,04</PM10>
+        <O38hgm3>83</O38hgm3>
+        <PM10>4,83</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,21</PM25>
+        <PM25>6,5</PM25>
         <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
+        <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>352</Dviengrados>
-        <H>96</H>
-        <PmBar>903,8</PmBar>
+        <Dviengrados>317</Dviengrados>
+        <H>69</H>
+        <PmBar>923,5</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>65,2</Rwm2>
-        <TC>-1</TC>
-        <Vvienms>2,66</Vvienms>
+        <Rwm2>189,9</Rwm2>
+        <TC>6,7</TC>
+        <Vvienms>0,59</Vvienms>
         <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-VALDEREJO-9>
     <datos_indice-VALDEREJO-10>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>15:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
+        <COmgm3>0,22</COmgm3>
+        <CO8hmgm3>0,19</CO8hmgm3>
         <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
+        <NO2>3</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>84</O3gm3>
-        <OZONO>84</OZONO>
+        <NOXgm3>3</NOXgm3>
+        <O3gm3>94</O3gm3>
+        <OZONO>94</OZONO>
         <O3ICA>Bueno / Ona</O3ICA>
         <O38hgm3>81</O38hgm3>
-        <PM10>2,08</PM10>
+        <PM10>4,83</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,29</PM25>
+        <PM25>6,58</PM25>
         <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
+        <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>346</Dviengrados>
-        <H>96</H>
-        <PmBar>903,2</PmBar>
+        <Dviengrados>255</Dviengrados>
+        <H>67</H>
+        <PmBar>923,3</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>114,8</Rwm2>
-        <TC>-0,8</TC>
-        <Vvienms>2,59</Vvienms>
+        <Rwm2>316,6</Rwm2>
+        <TC>6,5</TC>
+        <Vvienms>0,23</Vvienms>
         <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-VALDEREJO-10>
     <datos_indice-VALDEREJO-11>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>14:00</Hour>
         <COmgm3>0,19</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>82</O3gm3>
-        <OZONO>82</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>81</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,25</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>334</Dviengrados>
-        <H>94</H>
-        <PmBar>902,9</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>163,7</Rwm2>
-        <TC>-0,6</TC>
-        <Vvienms>3,14</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-11>
-    <datos_indice-VALDEREJO-12>
-        <Date>04/01/2021</Date>
-        <Hour>13:00</Hour>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>83</O3gm3>
-        <OZONO>83</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>81</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,08</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>331</Dviengrados>
-        <H>92</H>
-        <PmBar>903,1</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>209,6</Rwm2>
-        <TC>-0,5</TC>
-        <Vvienms>3,36</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-12>
-    <datos_indice-VALDEREJO-13>
-        <Date>04/01/2021</Date>
-        <Hour>12:00</Hour>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>79</O3gm3>
-        <OZONO>79</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>82</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,08</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>300</Dviengrados>
-        <H>94</H>
-        <PmBar>903,5</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>116,4</Rwm2>
-        <TC>-1,2</TC>
-        <Vvienms>3,01</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-13>
-    <datos_indice-VALDEREJO-14>
-        <Date>04/01/2021</Date>
-        <Hour>11:00</Hour>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3ICA>Sin datos / Daturik gabe</O3ICA>
-        <O38hgm3>83</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,21</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>290</Dviengrados>
-        <H>95</H>
-        <PmBar>903,8</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>68,9</Rwm2>
-        <TC>-1,8</TC>
-        <Vvienms>2,35</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-14>
-    <datos_indice-VALDEREJO-15>
-        <Date>04/01/2021</Date>
-        <Hour>10:00</Hour>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,17</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>79</O3gm3>
-        <OZONO>79</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>84</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,42</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>285</Dviengrados>
-        <H>95</H>
-        <PmBar>903,6</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>77,3</Rwm2>
-        <TC>-2</TC>
-        <Vvienms>3,14</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-15>
-    <datos_indice-VALDEREJO-16>
-        <Date>04/01/2021</Date>
-        <Hour>09:00</Hour>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,17</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>81</O3gm3>
-        <OZONO>81</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>85</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,42</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>301</Dviengrados>
-        <H>96</H>
-        <PmBar>903,2</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>19,5</Rwm2>
-        <TC>-2,4</TC>
-        <Vvienms>3,45</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-16>
-    <datos_indice-VALDEREJO-17>
-        <Date>04/01/2021</Date>
-        <Hour>08:00</Hour>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,17</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>82</O3gm3>
-        <OZONO>82</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>86</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,42</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>298</Dviengrados>
-        <H>92</H>
-        <PmBar>902,9</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>1</Rwm2>
-        <TC>-2,1</TC>
-        <Vvienms>3,78</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-17>
-    <datos_indice-VALDEREJO-18>
-        <Date>04/01/2021</Date>
-        <Hour>07:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,17</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>81</O3gm3>
-        <OZONO>81</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>87</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,58</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>292</Dviengrados>
-        <H>88</H>
-        <PmBar>902,9</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-2,1</TC>
-        <Vvienms>3,34</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-18>
-    <datos_indice-VALDEREJO-19>
-        <Date>04/01/2021</Date>
-        <Hour>06:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,17</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>84</O3gm3>
-        <OZONO>84</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>87</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,54</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>288</Dviengrados>
-        <H>88</H>
-        <PmBar>902,8</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-1,6</TC>
-        <Vvienms>3,93</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-19>
-    <datos_indice-VALDEREJO-20>
-        <Date>04/01/2021</Date>
-        <Hour>05:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,17</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>88</O3gm3>
-        <OZONO>88</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>88</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,46</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>303</Dviengrados>
-        <H>92</H>
-        <PmBar>903</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-1,7</TC>
-        <Vvienms>3,41</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-20>
-    <datos_indice-VALDEREJO-21>
-        <Date>04/01/2021</Date>
-        <Hour>04:00</Hour>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,17</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>88</O3gm3>
-        <OZONO>88</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>87</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,42</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>305</Dviengrados>
-        <H>93</H>
-        <PmBar>903,5</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-1,6</TC>
-        <Vvienms>3,85</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-21>
-    <datos_indice-VALDEREJO-22>
-        <Date>04/01/2021</Date>
-        <Hour>03:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,17</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>88</O3gm3>
-        <OZONO>88</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>87</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,5</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>321</Dviengrados>
-        <H>91</H>
-        <PmBar>903,8</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-1,5</TC>
-        <Vvienms>3,82</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-22>
-    <datos_indice-VALDEREJO-23>
-        <Date>04/01/2021</Date>
-        <Hour>02:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,17</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>88</O3gm3>
-        <OZONO>88</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>87</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,54</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>318</Dviengrados>
-        <H>90</H>
-        <PmBar>904</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-1,4</TC>
-        <Vvienms>3,84</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-23>
-    <datos_indice-VALDEREJO-24>
-        <Date>04/01/2021</Date>
-        <Hour>01:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,17</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>88</O3gm3>
-        <OZONO>88</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>88</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,54</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>321</Dviengrados>
-        <H>92</H>
-        <PmBar>904,3</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-1,4</TC>
-        <Vvienms>3,94</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-24>
-    <datos_indice-VALDEREJO-25>
-        <Date>03/01/2021</Date>
-        <Hour>24:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,17</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>87</O3gm3>
-        <OZONO>87</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>88</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,54</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>325</Dviengrados>
-        <H>94</H>
-        <PmBar>904,8</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-1,4</TC>
-        <Vvienms>3,38</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-25>
-    <datos_indice-VALDEREJO-26>
-        <Date>03/01/2021</Date>
-        <Hour>23:00</Hour>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,17</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>86</O3gm3>
-        <OZONO>86</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>86</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,63</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>306</Dviengrados>
-        <H>94</H>
-        <PmBar>905,2</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-1,2</TC>
-        <Vvienms>3,46</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-26>
-    <datos_indice-VALDEREJO-27>
-        <Date>03/01/2021</Date>
-        <Hour>22:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>87</O3gm3>
-        <OZONO>87</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>84</O38hgm3>
-        <PM10>2,13</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,71</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>321</Dviengrados>
-        <H>93</H>
-        <PmBar>905,5</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-1,1</TC>
-        <Vvienms>2,85</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-27>
-    <datos_indice-VALDEREJO-28>
-        <Date>03/01/2021</Date>
-        <Hour>21:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>86</O3gm3>
-        <OZONO>86</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>82</O38hgm3>
-        <PM10>2,13</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,75</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>332</Dviengrados>
-        <H>92</H>
-        <PmBar>905,7</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-1</TC>
-        <Vvienms>2,44</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-28>
-    <datos_indice-VALDEREJO-29>
-        <Date>03/01/2021</Date>
-        <Hour>20:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>87</O3gm3>
-        <OZONO>87</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>82</O38hgm3>
-        <PM10>2,13</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,83</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>334</Dviengrados>
-        <H>92</H>
-        <PmBar>905,6</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-0,8</TC>
-        <Vvienms>3,23</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-29>
-    <datos_indice-VALDEREJO-30>
-        <Date>03/01/2021</Date>
-        <Hour>19:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>90</O3gm3>
-        <OZONO>90</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>81</O38hgm3>
-        <PM10>2,17</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,92</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>337</Dviengrados>
-        <H>93</H>
-        <PmBar>905,5</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-0,5</TC>
-        <Vvienms>3,49</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-30>
-    <datos_indice-VALDEREJO-31>
-        <Date>03/01/2021</Date>
-        <Hour>18:00</Hour>
-        <COmgm3>0,17</COmgm3>
         <CO8hmgm3>0,19</CO8hmgm3>
         <NOgm3>0</NOgm3>
         <NO2>2</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>91</O3gm3>
-        <OZONO>91</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>79</O38hgm3>
-        <PM10>2,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,96</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>336</Dviengrados>
-        <H>94</H>
-        <PmBar>905,4</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,3</Rwm2>
-        <TC>-0,3</TC>
-        <Vvienms>3,04</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-31>
-    <datos_indice-VALDEREJO-32>
-        <Date>03/01/2021</Date>
-        <Hour>17:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,19</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>88</O3gm3>
-        <OZONO>88</OZONO>
+        <NOXgm3>3</NOXgm3>
+        <O3gm3>93</O3gm3>
+        <OZONO>93</OZONO>
         <O3ICA>Bueno / Ona</O3ICA>
         <O38hgm3>77</O38hgm3>
-        <PM10>2,25</PM10>
+        <PM10>4,83</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,96</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>338</Dviengrados>
-        <H>94</H>
-        <PmBar>905,5</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>8,6</Rwm2>
-        <TC>-0,1</TC>
-        <Vvienms>2,58</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-32>
-    <datos_indice-VALDEREJO-33>
-        <Date>03/01/2021</Date>
-        <Hour>16:00</Hour>
-        <COmgm3>0,19</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>73</O3gm3>
-        <OZONO>73</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>75</O38hgm3>
-        <PM10>2,33</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,83</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>308</Dviengrados>
-        <H>96</H>
-        <PmBar>905,6</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>27,4</Rwm2>
-        <TC>-0,3</TC>
-        <Vvienms>2,5</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-33>
-    <datos_indice-VALDEREJO-34>
-        <Date>03/01/2021</Date>
-        <Hour>15:00</Hour>
-        <COmgm3>0,2</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>69</O3gm3>
-        <OZONO>69</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>74</O38hgm3>
-        <PM10>2,38</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,79</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>277</Dviengrados>
-        <H>95</H>
-        <PmBar>905,7</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>60,8</Rwm2>
-        <TC>-0,5</TC>
-        <Vvienms>2,75</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-34>
-    <datos_indice-VALDEREJO-35>
-        <Date>03/01/2021</Date>
-        <Hour>14:00</Hour>
-        <COmgm3>0,2</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>74</O3gm3>
-        <OZONO>74</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>74</O38hgm3>
-        <PM10>2,42</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>1,96</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>272</Dviengrados>
-        <H>95</H>
-        <PmBar>905,9</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>116,7</Rwm2>
-        <TC>-0,2</TC>
-        <Vvienms>2,99</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-35>
-    <datos_indice-VALDEREJO-36>
-        <Date>03/01/2021</Date>
-        <Hour>13:00</Hour>
-        <COmgm3>0,19</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>83</O3gm3>
-        <OZONO>83</OZONO>
-        <O3ICA>Bueno / Ona</O3ICA>
-        <O38hgm3>73</O38hgm3>
-        <PM10>2,5</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,21</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>309</Dviengrados>
-        <H>98</H>
-        <PmBar>906,5</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>187,2</Rwm2>
-        <TC>0,3</TC>
-        <Vvienms>2,99</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-VALDEREJO-36>
-    <datos_indice-VALDEREJO-37>
-        <Date>03/01/2021</Date>
-        <Hour>12:00</Hour>
-        <COmgm3>0,19</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3ICA>Sin datos / Daturik gabe</O3ICA>
-        <O38hgm3>71</O38hgm3>
-        <PM10>2,63</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,33</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>321</Dviengrados>
-        <H>98</H>
-        <PmBar>907,3</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>112,3</Rwm2>
-        <TC>0,3</TC>
-        <Vvienms>3,02</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-37>
-    <datos_indice-VALDEREJO-38>
-        <Date>03/01/2021</Date>
-        <Hour>11:00</Hour>
-        <COmgm3>0,2</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>77</O3gm3>
-        <OZONO>77</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>71</O38hgm3>
-        <PM10>2,67</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,38</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>318</Dviengrados>
-        <H>99</H>
-        <PmBar>907,7</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>91,8</Rwm2>
-        <TC>0,2</TC>
-        <Vvienms>2,44</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-38>
-    <datos_indice-VALDEREJO-39>
-        <Date>03/01/2021</Date>
-        <Hour>10:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>3</NOXgm3>
-        <O3gm3>73</O3gm3>
-        <OZONO>73</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>69</O38hgm3>
-        <PM10>2,71</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,33</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>303</Dviengrados>
-        <H>100</H>
-        <PmBar>907,8</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>26,9</Rwm2>
-        <TC>-0,2</TC>
-        <Vvienms>1,97</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-39>
-    <datos_indice-VALDEREJO-40>
-        <Date>03/01/2021</Date>
-        <Hour>09:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>3</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>3</NOXgm3>
-        <O3gm3>73</O3gm3>
-        <OZONO>73</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>69</O38hgm3>
-        <PM10>2,75</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,29</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>332</Dviengrados>
-        <H>100</H>
-        <PmBar>907,7</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>7</Rwm2>
-        <TC>-0,4</TC>
-        <Vvienms>1,3</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-40>
-    <datos_indice-VALDEREJO-41>
-        <Date>03/01/2021</Date>
-        <Hour>08:00</Hour>
-        <COmgm3>0,22</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>70</O3gm3>
-        <OZONO>70</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>70</O38hgm3>
-        <PM10>2,79</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,25</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>328</Dviengrados>
-        <H>100</H>
-        <PmBar>907,6</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>-0,5</TC>
-        <Vvienms>0,96</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-41>
-    <datos_indice-VALDEREJO-42>
-        <Date>03/01/2021</Date>
-        <Hour>07:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>70</O3gm3>
-        <OZONO>70</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>70</O38hgm3>
-        <PM10>2,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,17</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>329</Dviengrados>
-        <H>100</H>
-        <PmBar>907,6</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-0,8</TC>
-        <Vvienms>1,04</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-42>
-    <datos_indice-VALDEREJO-43>
-        <Date>03/01/2021</Date>
-        <Hour>06:00</Hour>
-        <COmgm3>0,22</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>3</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>3</NOXgm3>
-        <O3gm3>65</O3gm3>
-        <OZONO>65</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>71</O38hgm3>
-        <PM10>2,88</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,21</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>2</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>166</Dviengrados>
-        <H>100</H>
-        <PmBar>907,7</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-1,8</TC>
-        <Vvienms>0,39</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-43>
-    <datos_indice-VALDEREJO-44>
-        <Date>03/01/2021</Date>
-        <Hour>05:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>69</O3gm3>
-        <OZONO>69</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>73</O38hgm3>
-        <PM10>2,88</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,25</PM25>
+        <PM25>6,67</PM25>
         <PM25ICA>Muy bueno / Oso ona</PM25ICA>
         <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
         <Dviengrados>63</Dviengrados>
-        <H>100</H>
-        <PmBar>908</PmBar>
+        <H>71</H>
+        <PmBar>923,5</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-1,8</TC>
-        <Vvienms>0,62</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-44>
-    <datos_indice-VALDEREJO-45>
-        <Date>03/01/2021</Date>
-        <Hour>04:00</Hour>
-        <COmgm3>0,22</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
-        <NOgm3>0</NOgm3>
+        <Rwm2>241,5</Rwm2>
+        <TC>6</TC>
+        <Vvienms>0,36</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-VALDEREJO-11>
+    <datos_indice-VALDEREJO-12>
+        <Date>13/01/2021</Date>
+        <Hour>13:00</Hour>
+        <COmgm3>0,24</COmgm3>
+        <CO8hmgm3>0,19</CO8hmgm3>
+        <NOgm3>1</NOgm3>
         <NO2>2</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>67</O3gm3>
-        <OZONO>67</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <NOXgm3>3</NOXgm3>
+        <O3gm3>93</O3gm3>
+        <OZONO>93</OZONO>
+        <O3ICA>Bueno / Ona</O3ICA>
         <O38hgm3>74</O38hgm3>
-        <PM10>2,88</PM10>
+        <PM10>4,83</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,29</PM25>
+        <PM25>6,83</PM25>
         <PM25ICA>Muy bueno / Oso ona</PM25ICA>
         <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>104</Dviengrados>
-        <H>100</H>
-        <PmBar>908,5</PmBar>
+        <Dviengrados>147</Dviengrados>
+        <H>75</H>
+        <PmBar>924,1</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-1,5</TC>
-        <Vvienms>0,35</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-45>
-    <datos_indice-VALDEREJO-46>
-        <Date>03/01/2021</Date>
-        <Hour>03:00</Hour>
-        <COmgm3>0,22</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
+        <Rwm2>316,5</Rwm2>
+        <TC>5,3</TC>
+        <Vvienms>0,66</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-VALDEREJO-12>
+    <datos_indice-VALDEREJO-13>
+        <Date>13/01/2021</Date>
+        <Hour>12:00</Hour>
+        <COmgm3>0,19</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NO2>1</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
         <NOXgm3>2</NOXgm3>
-        <O3gm3>67</O3gm3>
-        <OZONO>67</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>76</O38hgm3>
-        <PM10>2,92</PM10>
+        <O3gm3>86</O3gm3>
+        <OZONO>86</OZONO>
+        <O3ICA>Bueno / Ona</O3ICA>
+        <O38hgm3>71</O38hgm3>
+        <PM10>4,79</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,21</PM25>
+        <PM25>6,63</PM25>
         <PM25ICA>Muy bueno / Oso ona</PM25ICA>
         <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>138</Dviengrados>
-        <H>100</H>
-        <PmBar>909</PmBar>
+        <Dviengrados>341</Dviengrados>
+        <H>82</H>
+        <PmBar>924,7</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-1,7</TC>
-        <Vvienms>0,19</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-46>
-    <datos_indice-VALDEREJO-47>
-        <Date>03/01/2021</Date>
-        <Hour>02:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,19</CO8hmgm3>
-        <NOgm3>0</NOgm3>
+        <Rwm2>303,9</Rwm2>
+        <TC>4,3</TC>
+        <Vvienms>0,4</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-VALDEREJO-13>
+    <datos_indice-VALDEREJO-14>
+        <Date>13/01/2021</Date>
+        <Hour>11:00</Hour>
+        <COmgm3>0,19</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <NOgm3>1</NOgm3>
         <NO2>2</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>73</O3gm3>
-        <OZONO>73</OZONO>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>71</O3gm3>
+        <OZONO>71</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>78</O38hgm3>
-        <PM10>2,96</PM10>
+        <O38hgm3>69</O38hgm3>
+        <PM10>4,79</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,21</PM25>
+        <PM25>6,38</PM25>
         <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>1</SO2>
+        <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>45</Dviengrados>
-        <H>100</H>
-        <PmBar>909,1</PmBar>
+        <Dviengrados>310</Dviengrados>
+        <H>91</H>
+        <PmBar>925</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>-1,6</TC>
-        <Vvienms>0,55</Vvienms>
+        <Rwm2>184,5</Rwm2>
+        <TC>2,4</TC>
+        <Vvienms>0,14</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-47>
-    <datos_indice-VALDEREJO-48>
-        <Date>03/01/2021</Date>
-        <Hour>01:00</Hour>
-        <COmgm3>0,2</COmgm3>
-        <CO8hmgm3>0,19</CO8hmgm3>
+    </datos_indice-VALDEREJO-14>
+    <datos_indice-VALDEREJO-15>
+        <Date>13/01/2021</Date>
+        <Hour>10:00</Hour>
+        <COmgm3>0,17</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
         <NOgm3>0</NOgm3>
-        <NO2>2</NO2>
+        <NO2>3</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
+        <NOXgm3>3</NOXgm3>
+        <O3gm3>68</O3gm3>
+        <OZONO>68</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>69</O38hgm3>
+        <PM10>4,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,29</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>309</Dviengrados>
+        <H>93</H>
+        <PmBar>925,1</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>99,8</Rwm2>
+        <TC>1,5</TC>
+        <Vvienms>0,36</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-VALDEREJO-15>
+    <datos_indice-VALDEREJO-16>
+        <Date>13/01/2021</Date>
+        <Hour>09:00</Hour>
+        <COmgm3>0,17</COmgm3>
+        <CO8hmgm3>0,18</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>3</NOXgm3>
         <O3gm3>75</O3gm3>
         <OZONO>75</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>79</O38hgm3>
-        <PM10>3</PM10>
+        <O38hgm3>69</O38hgm3>
+        <PM10>4,71</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>2,25</PM25>
+        <PM25>6,38</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>315</Dviengrados>
+        <H>95</H>
+        <PmBar>924,6</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>30,6</Rwm2>
+        <TC>0,8</TC>
+        <Vvienms>0,62</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-VALDEREJO-16>
+    <datos_indice-VALDEREJO-17>
+        <Date>13/01/2021</Date>
+        <Hour>08:00</Hour>
+        <COmgm3>0,18</COmgm3>
+        <CO8hmgm3>0,19</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <O3gm3>66</O3gm3>
+        <OZONO>66</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>68</O38hgm3>
+        <PM10>4,71</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,29</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>85</Dviengrados>
+        <H>97</H>
+        <PmBar>924,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>2,2</Rwm2>
+        <TC>-0,7</TC>
+        <Vvienms>0,05</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-VALDEREJO-17>
+    <datos_indice-VALDEREJO-18>
+        <Date>13/01/2021</Date>
+        <Hour>07:00</Hour>
+        <COmgm3>0,19</COmgm3>
+        <CO8hmgm3>0,2</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <O3gm3>62</O3gm3>
+        <OZONO>62</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>68</O38hgm3>
+        <PM10>4,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6,17</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>155</Dviengrados>
+        <H>97</H>
+        <PmBar>924,1</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,2</Rwm2>
+        <TC>-1,5</TC>
+        <Vvienms>0,11</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-VALDEREJO-18>
+    <datos_indice-VALDEREJO-19>
+        <Date>13/01/2021</Date>
+        <Hour>06:00</Hour>
+        <COmgm3>0,17</COmgm3>
+        <CO8hmgm3>0,21</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>67</O3gm3>
+        <OZONO>67</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>69</O38hgm3>
+        <PM10>4,42</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>6</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>170</Dviengrados>
+        <H>98</H>
+        <PmBar>923,9</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,2</Rwm2>
+        <TC>-2,1</TC>
+        <Vvienms>0,11</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-VALDEREJO-19>
+    <datos_indice-VALDEREJO-20>
+        <Date>13/01/2021</Date>
+        <Hour>05:00</Hour>
+        <COmgm3>0,17</COmgm3>
+        <CO8hmgm3>0,23</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>3</NOXgm3>
+        <O3gm3>73</O3gm3>
+        <OZONO>73</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>68</O38hgm3>
+        <PM10>4,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,79</PM25>
         <PM25ICA>Muy bueno / Oso ona</PM25ICA>
         <SO2>1</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>34</Dviengrados>
-        <H>100</H>
-        <PmBar>909,5</PmBar>
+        <Dviengrados>115</Dviengrados>
+        <H>97</H>
+        <PmBar>924</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
         <Rwm2>0,2</Rwm2>
-        <TC>-1,4</TC>
-        <Vvienms>1,25</Vvienms>
+        <TC>-2,8</TC>
+        <Vvienms>0,38</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-VALDEREJO-48>
+    </datos_indice-VALDEREJO-20>
+    <datos_indice-VALDEREJO-21>
+        <Date>13/01/2021</Date>
+        <Hour>04:00</Hour>
+        <COmgm3>0,18</COmgm3>
+        <CO8hmgm3>0,24</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>3</NOXgm3>
+        <O3gm3>72</O3gm3>
+        <OZONO>72</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>68</O38hgm3>
+        <PM10>4,33</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,58</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>114</Dviengrados>
+        <H>98</H>
+        <PmBar>924</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,2</Rwm2>
+        <TC>-3,9</TC>
+        <Vvienms>0,55</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-VALDEREJO-21>
+    <datos_indice-VALDEREJO-22>
+        <Date>13/01/2021</Date>
+        <Hour>03:00</Hour>
+        <COmgm3>0,17</COmgm3>
+        <CO8hmgm3>0,25</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <O3gm3>67</O3gm3>
+        <OZONO>67</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>67</O38hgm3>
+        <PM10>4,29</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,54</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>1</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>141</Dviengrados>
+        <H>98</H>
+        <PmBar>923,8</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,2</Rwm2>
+        <TC>-4</TC>
+        <Vvienms>0,45</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-VALDEREJO-22>
+    <datos_indice-VALDEREJO-23>
+        <Date>13/01/2021</Date>
+        <Hour>02:00</Hour>
+        <COmgm3>0,2</COmgm3>
+        <CO8hmgm3>0,25</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3ICA>Sin datos / Daturik gabe</O3ICA>
+        <O38hgm3>68</O38hgm3>
+        <PM10>4,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,42</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>128</Dviengrados>
+        <H>98</H>
+        <PmBar>923,8</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,2</Rwm2>
+        <TC>-3,9</TC>
+        <Vvienms>0,5</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-VALDEREJO-23>
+    <datos_indice-VALDEREJO-24>
+        <Date>13/01/2021</Date>
+        <Hour>01:00</Hour>
+        <COmgm3>0,26</COmgm3>
+        <CO8hmgm3>0,26</CO8hmgm3>
+        <NOgm3>0</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>4</NOXgm3>
+        <O3gm3>67</O3gm3>
+        <OZONO>67</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>68</O38hgm3>
+        <PM10>4,21</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM25>5,21</PM25>
+        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>147</Dviengrados>
+        <H>100</H>
+        <PmBar>924</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,2</Rwm2>
+        <TC>-4,6</TC>
+        <Vvienms>0,33</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-VALDEREJO-24>
 </datos_indice-VALDEREJO>

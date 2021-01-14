@@ -1,29 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-VALDEREJO>
     <datos_diarios-VALDEREJO-1>
-        <Date>03/01/2021</Date>
-        <COmgm3>0,19</COmgm3>
+        <Date>12/01/2021</Date>
+        <COmgm3>0,21</COmgm3>
         <CO8hmgm3>0,2</CO8hmgm3>
         <NOgm3>0</NOgm3>
-        <NO2gm3>2</NO2gm3>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>77</O3gm3>
-        <O38hgm3>76</O38hgm3>
-        <PM10gm3>2</PM10gm3>
-        <PM25gm3>2</PM25gm3>
-        <SO2gm3>1</SO2gm3>
-    </datos_diarios-VALDEREJO-1>
-    <datos_diarios-VALDEREJO-2>
-        <Date>02/01/2021</Date>
-        <COmgm3>0,19</COmgm3>
-        <CO8hmgm3>0,19</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2gm3>2</NO2gm3>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>83</O3gm3>
+        <NO2gm3>3</NO2gm3>
+        <NOXgm3>3</NOXgm3>
+        <O3gm3>82</O3gm3>
         <O38hgm3>85</O38hgm3>
-        <PM10gm3>3</PM10gm3>
-        <PM25gm3>2</PM25gm3>
-        <SO2gm3>1</SO2gm3>
-    </datos_diarios-VALDEREJO-2>
+        <PM10gm3>4</PM10gm3>
+        <PM25gm3>5</PM25gm3>
+        <SO2gm3>2</SO2gm3>
+    </datos_diarios-VALDEREJO-1>
 </datos_diarios-VALDEREJO>

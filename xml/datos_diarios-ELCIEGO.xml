@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-ELCIEGO>
     <datos_diarios-ELCIEGO-1>
-        <Date>03/01/2021</Date>
+        <Date>12/01/2021</Date>
         <NOgm3>0</NOgm3>
-        <NO2gm3>5</NO2gm3>
-        <NOXgm3>5</NOXgm3>
-        <O3gm3>56</O3gm3>
-        <O38hgm3>56</O38hgm3>
-        <PM10gm3>3</PM10gm3>
+        <NO2gm3>7</NO2gm3>
+        <NOXgm3>7</NOXgm3>
+        <O3gm3>66</O3gm3>
+        <O38hgm3>66</O38hgm3>
+        <PM10gm3>8</PM10gm3>
     </datos_diarios-ELCIEGO-1>
-    <datos_diarios-ELCIEGO-2>
-        <Date>02/01/2021</Date>
-        <NOgm3>0</NOgm3>
-        <NO2gm3>4</NO2gm3>
-        <NOXgm3>4</NOXgm3>
-        <O3gm3>67</O3gm3>
-        <O38hgm3>68</O38hgm3>
-        <PM10gm3>5</PM10gm3>
-    </datos_diarios-ELCIEGO-2>
 </datos_diarios-ELCIEGO>

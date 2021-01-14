@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-SAN_JULIAN>
     <datos_diarios-SAN_JULIAN-1>
-        <Date>03/01/2021</Date>
-        <NOgm3>5</NOgm3>
-        <NO2gm3>6</NO2gm3>
-        <NOXgm3>13</NOXgm3>
-        <O3gm3>52</O3gm3>
-        <O38hgm3>50</O38hgm3>
-        <PM10gm3>7</PM10gm3>
-        <SH2gm3>2</SH2gm3>
-        <SO2gm3>3</SO2gm3>
-    </datos_diarios-SAN_JULIAN-1>
-    <datos_diarios-SAN_JULIAN-2>
-        <Date>02/01/2021</Date>
-        <Bencenogm3>1,48</Bencenogm3>
-        <MPXILENOgm3>1,13</MPXILENOgm3>
+        <Date>12/01/2021</Date>
+        <Bencenogm3>1,95</Bencenogm3>
+        <MPXILENOgm3>0,31</MPXILENOgm3>
         <NOgm3>3</NOgm3>
-        <NO2gm3>5</NO2gm3>
-        <NOXgm3>10</NOXgm3>
-        <O3gm3>57</O3gm3>
-        <O38hgm3>59</O38hgm3>
-        <PM10gm3>17</PM10gm3>
+        <NO2gm3>9</NO2gm3>
+        <NOXgm3>13</NOXgm3>
+        <O3gm3>43</O3gm3>
+        <O38hgm3>41</O38hgm3>
+        <PM10gm3>16</PM10gm3>
         <SH2gm3>2</SH2gm3>
         <SO2gm3>3</SO2gm3>
-        <Toluenogm3>2,76</Toluenogm3>
-    </datos_diarios-SAN_JULIAN-2>
+        <Toluenogm3>0,96</Toluenogm3>
+    </datos_diarios-SAN_JULIAN-1>
 </datos_diarios-SAN_JULIAN>

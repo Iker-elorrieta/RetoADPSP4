@@ -1,835 +1,400 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_indice-HERNANI>
     <datos_indice-HERNANI-1>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>24:00</Hour>
     </datos_indice-HERNANI-1>
     <datos_indice-HERNANI-2>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>23:00</Hour>
     </datos_indice-HERNANI-2>
     <datos_indice-HERNANI-3>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>22:00</Hour>
     </datos_indice-HERNANI-3>
     <datos_indice-HERNANI-4>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>21:00</Hour>
     </datos_indice-HERNANI-4>
     <datos_indice-HERNANI-5>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>20:00</Hour>
     </datos_indice-HERNANI-5>
     <datos_indice-HERNANI-6>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>19:00</Hour>
-        <NOgm3>4</NOgm3>
-        <NO2>38</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>43</NOXgm3>
-        <PM10>5,92</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
+        <NOgm3>18</NOgm3>
+        <NO2>57</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>85</NOXgm3>
+        <PM10ICA>Sin datos / Daturik gabe</PM10ICA>
+        <SH2gm3>3</SH2gm3>
+        <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>224</Dviengrados>
-        <H>92</H>
-        <PmBar>1006,5</PmBar>
+        <Dviengrados>216</Dviengrados>
+        <H>91</H>
+        <PmBar>1026,7</PmBar>
         <Rwm2>1,5</Rwm2>
-        <TC>3</TC>
-        <Vvienms>2,75</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+        <TC>8,8</TC>
+        <Vvienms>0,79</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-HERNANI-6>
     <datos_indice-HERNANI-7>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>18:00</Hour>
         <NOgm3>7</NOgm3>
-        <NO2>45</NO2>
-        <NO2ICA>Bueno / Ona</NO2ICA>
-        <NOXgm3>55</NOXgm3>
-        <PM10>5,71</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <NO2>36</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>47</NOXgm3>
+        <PM10ICA>Sin datos / Daturik gabe</PM10ICA>
         <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
+        <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>220</Dviengrados>
-        <H>92</H>
-        <PmBar>1006</PmBar>
+        <Dviengrados>298</Dviengrados>
+        <H>87</H>
+        <PmBar>1026,7</PmBar>
         <Rwm2>1,5</Rwm2>
-        <TC>3,6</TC>
-        <Vvienms>2,37</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
+        <TC>9,3</TC>
+        <Vvienms>0,13</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-HERNANI-7>
     <datos_indice-HERNANI-8>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>17:00</Hour>
-        <NOgm3>17</NOgm3>
-        <NO2>46</NO2>
+        <NOgm3>12</NOgm3>
+        <NO2>43</NO2>
         <NO2ICA>Bueno / Ona</NO2ICA>
-        <NOXgm3>72</NOXgm3>
-        <PM10>5,5</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <NOXgm3>61</NOXgm3>
+        <PM10ICA>Sin datos / Daturik gabe</PM10ICA>
         <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
+        <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>219</Dviengrados>
-        <H>93</H>
-        <PmBar>1005,5</PmBar>
-        <Rwm2>5,4</Rwm2>
-        <TC>3,9</TC>
-        <Vvienms>1,66</Vvienms>
+        <Dviengrados>257</Dviengrados>
+        <H>84</H>
+        <PmBar>1026,5</PmBar>
+        <Rwm2>6,8</Rwm2>
+        <TC>9,7</TC>
+        <Vvienms>0,65</Vvienms>
         <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-HERNANI-8>
     <datos_indice-HERNANI-9>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>16:00</Hour>
-        <NOgm3>4</NOgm3>
-        <NO2>32</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>39</NOXgm3>
-        <PM10>5,5</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>229</Dviengrados>
-        <H>92</H>
-        <PmBar>1005,1</PmBar>
-        <Rwm2>12,7</Rwm2>
-        <TC>3,3</TC>
-        <Vvienms>1,89</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-9>
-    <datos_indice-HERNANI-10>
-        <Date>04/01/2021</Date>
-        <Hour>15:00</Hour>
-        <NOgm3>3</NOgm3>
-        <NO2>24</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>30</NOXgm3>
-        <PM10>5,42</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>229</Dviengrados>
-        <H>89</H>
-        <PmBar>1004,6</PmBar>
-        <Rwm2>17,2</Rwm2>
-        <TC>4</TC>
-        <Vvienms>2</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-10>
-    <datos_indice-HERNANI-11>
-        <Date>04/01/2021</Date>
-        <Hour>14:00</Hour>
-        <NOgm3>4</NOgm3>
-        <NO2>22</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>28</NOXgm3>
-        <PM10>5,5</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>222</Dviengrados>
-        <H>88</H>
-        <PmBar>1004,1</PmBar>
-        <Rwm2>53,6</Rwm2>
-        <TC>4,5</TC>
-        <Vvienms>2,39</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-11>
-    <datos_indice-HERNANI-12>
-        <Date>04/01/2021</Date>
-        <Hour>13:00</Hour>
-        <NOgm3>7</NOgm3>
-        <NO2>25</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>36</NOXgm3>
-        <PM10>5,58</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>222</Dviengrados>
-        <H>90</H>
-        <PmBar>1004,3</PmBar>
-        <Rwm2>112,1</Rwm2>
-        <TC>4,5</TC>
-        <Vvienms>2,23</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-12>
-    <datos_indice-HERNANI-13>
-        <Date>04/01/2021</Date>
-        <Hour>12:00</Hour>
-        <NOgm3>5</NOgm3>
-        <NO2>21</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>28</NOXgm3>
-        <PM10>5,58</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>230</Dviengrados>
-        <H>89</H>
-        <PmBar>1004,8</PmBar>
-        <Rwm2>62,5</Rwm2>
-        <TC>4,4</TC>
-        <Vvienms>1,95</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-13>
-    <datos_indice-HERNANI-14>
-        <Date>04/01/2021</Date>
-        <Hour>11:00</Hour>
-        <NOgm3>3</NOgm3>
-        <NO2>18</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>22</NOXgm3>
-        <PM10>5,54</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>239</Dviengrados>
-        <H>87</H>
-        <PmBar>1005</PmBar>
-        <Rwm2>94,7</Rwm2>
-        <TC>4,4</TC>
-        <Vvienms>1,82</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-14>
-    <datos_indice-HERNANI-15>
-        <Date>04/01/2021</Date>
-        <Hour>10:00</Hour>
-        <NOgm3>3</NOgm3>
-        <NO2>19</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>24</NOXgm3>
-        <PM10>5,5</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>229</Dviengrados>
-        <H>87</H>
-        <PmBar>1004,8</PmBar>
-        <Rwm2>70,4</Rwm2>
-        <TC>4,3</TC>
-        <Vvienms>2,83</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-15>
-    <datos_indice-HERNANI-16>
-        <Date>04/01/2021</Date>
-        <Hour>09:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>20</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>22</NOXgm3>
-        <PM10>5,63</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>237</Dviengrados>
-        <H>91</H>
-        <PmBar>1004,4</PmBar>
-        <Rwm2>30,8</Rwm2>
-        <TC>3,9</TC>
-        <Vvienms>1,8</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-16>
-    <datos_indice-HERNANI-17>
-        <Date>04/01/2021</Date>
-        <Hour>08:00</Hour>
-        <NOgm3>7</NOgm3>
-        <NO2>39</NO2>
+        <NOgm3>8</NOgm3>
+        <NO2>38</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
         <NOXgm3>50</NOXgm3>
-        <PM10>5,71</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>229</Dviengrados>
-        <H>92</H>
-        <PmBar>1004</PmBar>
-        <Rwm2>1,6</Rwm2>
-        <TC>3,5</TC>
-        <Vvienms>0,37</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-17>
-    <datos_indice-HERNANI-18>
-        <Date>04/01/2021</Date>
-        <Hour>07:00</Hour>
-        <NOgm3>4</NOgm3>
-        <NO2>22</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>29</NOXgm3>
-        <PM10>5,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>217</Dviengrados>
-        <H>90</H>
-        <PmBar>1004,2</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>3,2</TC>
-        <Vvienms>1,55</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-18>
-    <datos_indice-HERNANI-19>
-        <Date>04/01/2021</Date>
-        <Hour>06:00</Hour>
-        <NOgm3>2</NOgm3>
-        <NO2>13</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>16</NOXgm3>
-        <PM10>6,04</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>218</Dviengrados>
-        <H>89</H>
-        <PmBar>1004,3</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>3,8</TC>
-        <Vvienms>1,53</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-19>
-    <datos_indice-HERNANI-20>
-        <Date>04/01/2021</Date>
-        <Hour>05:00</Hour>
-        <NOgm3>0</NOgm3>
-        <NO2>10</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>10</NOXgm3>
-        <PM10>6,25</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>226</Dviengrados>
-        <H>92</H>
-        <PmBar>1004,4</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>3,9</TC>
-        <Vvienms>1,54</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-20>
-    <datos_indice-HERNANI-21>
-        <Date>04/01/2021</Date>
-        <Hour>04:00</Hour>
-        <NOgm3>0</NOgm3>
-        <NO2>10</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>10</NOXgm3>
-        <PM10>6,46</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>211</Dviengrados>
-        <H>93</H>
-        <PmBar>1005,2</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>3,8</TC>
-        <Vvienms>0,48</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-21>
-    <datos_indice-HERNANI-22>
-        <Date>04/01/2021</Date>
-        <Hour>03:00</Hour>
-        <NOgm3>0</NOgm3>
-        <NO2>4</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>4</NOXgm3>
-        <PM10>6,71</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>204</Dviengrados>
-        <H>92</H>
-        <PmBar>1005,8</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>3,7</TC>
-        <Vvienms>0,33</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-22>
-    <datos_indice-HERNANI-23>
-        <Date>04/01/2021</Date>
-        <Hour>02:00</Hour>
-        <NOgm3>0</NOgm3>
-        <NO2>4</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>5</NOXgm3>
-        <PM10>7,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>300</Dviengrados>
-        <H>90</H>
-        <PmBar>1006,1</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>3,9</TC>
-        <Vvienms>0,24</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-23>
-    <datos_indice-HERNANI-24>
-        <Date>04/01/2021</Date>
-        <Hour>01:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>4</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>5</NOXgm3>
-        <PM10>7,38</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>251</Dviengrados>
-        <H>88</H>
-        <PmBar>1006,3</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>4,2</TC>
-        <Vvienms>0,45</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-24>
-    <datos_indice-HERNANI-25>
-        <Date>03/01/2021</Date>
-        <Hour>24:00</Hour>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>7</NOXgm3>
-        <PM10>7,63</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>235</Dviengrados>
-        <H>86</H>
-        <PmBar>1006,8</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>4,3</TC>
-        <Vvienms>1,61</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-25>
-    <datos_indice-HERNANI-26>
-        <Date>03/01/2021</Date>
-        <Hour>23:00</Hour>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>11</NOXgm3>
-        <PM10>7,92</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>236</Dviengrados>
-        <H>83</H>
-        <PmBar>1006,9</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>4,8</TC>
-        <Vvienms>0,83</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-26>
-    <datos_indice-HERNANI-27>
-        <Date>03/01/2021</Date>
-        <Hour>22:00</Hour>
-        <NOgm3>3</NOgm3>
-        <NOXgm3>22</NOXgm3>
-        <PM10>8,38</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>235</Dviengrados>
-        <H>84</H>
-        <PmBar>1007,1</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>4,8</TC>
-        <Vvienms>0,78</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-27>
-    <datos_indice-HERNANI-28>
-        <Date>03/01/2021</Date>
-        <Hour>21:00</Hour>
-        <NOgm3>3</NOgm3>
-        <NOXgm3>15</NOXgm3>
-        <PM10>8,67</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>234</Dviengrados>
-        <H>81</H>
-        <PmBar>1007,4</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>5,3</TC>
-        <Vvienms>1,36</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-28>
-    <datos_indice-HERNANI-29>
-        <Date>03/01/2021</Date>
-        <Hour>20:00</Hour>
-        <NOgm3>5</NOgm3>
-        <NOXgm3>24</NOXgm3>
-        <PM10>9,25</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM10>23,78</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
         <SH2gm3>2</SH2gm3>
         <SO2>1</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
         <Dviengrados>228</Dviengrados>
-        <H>78</H>
-        <PmBar>1007,4</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>5,7</TC>
-        <Vvienms>1,19</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-29>
-    <datos_indice-HERNANI-30>
-        <Date>03/01/2021</Date>
-        <Hour>19:00</Hour>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>18</NOXgm3>
-        <PM10>9,79</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>230</Dviengrados>
-        <H>80</H>
-        <PmBar>1007,3</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>5,6</TC>
-        <Vvienms>1,95</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-30>
-    <datos_indice-HERNANI-31>
-        <Date>03/01/2021</Date>
-        <Hour>18:00</Hour>
-        <NOgm3>3</NOgm3>
-        <NOXgm3>20</NOXgm3>
-        <PM10>10,71</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>238</Dviengrados>
-        <H>85</H>
-        <PmBar>1007,1</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>5,5</TC>
-        <Vvienms>1,52</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-31>
-    <datos_indice-HERNANI-32>
-        <Date>03/01/2021</Date>
-        <Hour>17:00</Hour>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>29</NOXgm3>
-        <PM10>11,25</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>224</Dviengrados>
-        <H>86</H>
-        <PmBar>1007</PmBar>
-        <Rwm2>6,8</Rwm2>
-        <TC>5,8</TC>
-        <Vvienms>0,95</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-32>
-    <datos_indice-HERNANI-33>
-        <Date>03/01/2021</Date>
-        <Hour>16:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>11</NOXgm3>
-        <PM10>11,38</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>233</Dviengrados>
-        <H>83</H>
-        <PmBar>1007</PmBar>
-        <Rwm2>17,9</Rwm2>
-        <TC>6,2</TC>
-        <Vvienms>1,78</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-33>
-    <datos_indice-HERNANI-34>
-        <Date>03/01/2021</Date>
-        <Hour>15:00</Hour>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>21</NOXgm3>
-        <PM10>11,67</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>224</Dviengrados>
-        <H>85</H>
-        <PmBar>1007</PmBar>
-        <Rwm2>77,8</Rwm2>
-        <TC>6,4</TC>
-        <Vvienms>1,35</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-34>
-    <datos_indice-HERNANI-35>
-        <Date>03/01/2021</Date>
-        <Hour>14:00</Hour>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>13</NOXgm3>
-        <PM10>11,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>230</Dviengrados>
-        <H>79</H>
-        <PmBar>1007,5</PmBar>
-        <Rwm2>86,5</Rwm2>
-        <TC>6,7</TC>
-        <Vvienms>2,18</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-35>
-    <datos_indice-HERNANI-36>
-        <Date>03/01/2021</Date>
-        <Hour>13:00</Hour>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>18</NOXgm3>
-        <PM10>12,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>224</Dviengrados>
         <H>81</H>
-        <PmBar>1008,1</PmBar>
-        <Rwm2>122,6</Rwm2>
-        <TC>6,5</TC>
-        <Vvienms>2,23</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-36>
-    <datos_indice-HERNANI-37>
-        <Date>03/01/2021</Date>
-        <Hour>12:00</Hour>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>18</NOXgm3>
-        <PM10>12,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PmBar>1026,3</PmBar>
+        <Rwm2>31,4</Rwm2>
+        <TC>10,1</TC>
+        <Vvienms>1,04</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-9>
+    <datos_indice-HERNANI-10>
+        <Date>13/01/2021</Date>
+        <Hour>15:00</Hour>
+        <NOgm3>3</NOgm3>
+        <NO2>11</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>15</NOXgm3>
+        <PM10>24,63</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
         <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
+        <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>230</Dviengrados>
-        <H>83</H>
-        <PmBar>1008,8</PmBar>
-        <Rwm2>135,3</Rwm2>
-        <TC>6,4</TC>
-        <Vvienms>1,52</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-37>
-    <datos_indice-HERNANI-38>
-        <Date>03/01/2021</Date>
-        <Hour>11:00</Hour>
-        <NOgm3>7</NOgm3>
+        <Dviengrados>267</Dviengrados>
+        <H>80</H>
+        <PmBar>1026,2</PmBar>
+        <Rwm2>91</Rwm2>
+        <TC>10</TC>
+        <Vvienms>1,54</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-10>
+    <datos_indice-HERNANI-11>
+        <Date>13/01/2021</Date>
+        <Hour>14:00</Hour>
+        <NOgm3>6</NOgm3>
+        <NO2>24</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
         <NOXgm3>33</NOXgm3>
-        <PM10>12,42</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <PM10>25,15</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
         <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>273</Dviengrados>
+        <H>80</H>
+        <PmBar>1026,4</PmBar>
+        <Rwm2>110,8</Rwm2>
+        <TC>10,5</TC>
+        <Vvienms>1,16</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-11>
+    <datos_indice-HERNANI-12>
+        <Date>13/01/2021</Date>
+        <Hour>13:00</Hour>
+        <NOgm3>8</NOgm3>
+        <NO2>33</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>45</NOXgm3>
+        <PM10>25,62</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <SH2gm3>3</SH2gm3>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>241</Dviengrados>
+        <H>83</H>
+        <PmBar>1027,1</PmBar>
+        <Rwm2>157,7</Rwm2>
+        <TC>9,9</TC>
+        <Vvienms>1,24</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-12>
+    <datos_indice-HERNANI-13>
+        <Date>13/01/2021</Date>
+        <Hour>12:00</Hour>
+        <NOgm3>17</NOgm3>
+        <NO2>43</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>69</NOXgm3>
+        <PM10>25,95</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <SH2gm3>3</SH2gm3>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>220</Dviengrados>
+        <H>84</H>
+        <PmBar>1027,8</PmBar>
+        <Rwm2>138,9</Rwm2>
+        <TC>9,5</TC>
+        <Vvienms>1,42</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-13>
+    <datos_indice-HERNANI-14>
+        <Date>13/01/2021</Date>
+        <Hour>11:00</Hour>
+        <NOgm3>40</NOgm3>
+        <NO2>46</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>106</NOXgm3>
+        <PM10>26,26</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <SH2gm3>3</SH2gm3>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>217</Dviengrados>
+        <H>88</H>
+        <PmBar>1028</PmBar>
+        <Rwm2>243</Rwm2>
+        <TC>8,8</TC>
+        <Vvienms>1,75</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-14>
+    <datos_indice-HERNANI-15>
+        <Date>13/01/2021</Date>
+        <Hour>10:00</Hour>
+        <NOgm3>41</NOgm3>
+        <NO2>49</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>112</NOXgm3>
+        <PM10>26,5</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <SH2gm3>3</SH2gm3>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>211</Dviengrados>
+        <H>92</H>
+        <PmBar>1028,1</PmBar>
+        <Rwm2>82,5</Rwm2>
+        <TC>7,4</TC>
+        <Vvienms>2,4</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-15>
+    <datos_indice-HERNANI-16>
+        <Date>13/01/2021</Date>
+        <Hour>09:00</Hour>
+        <NOgm3>59</NOgm3>
+        <NO2>55</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>145</NOXgm3>
+        <PM10>26,58</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <SH2gm3>3</SH2gm3>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>215</Dviengrados>
+        <H>92</H>
+        <PmBar>1027,7</PmBar>
+        <Rwm2>22,6</Rwm2>
+        <TC>6,9</TC>
+        <Vvienms>2,12</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-16>
+    <datos_indice-HERNANI-17>
+        <Date>13/01/2021</Date>
+        <Hour>08:00</Hour>
+        <NOgm3>61</NOgm3>
+        <NO2>58</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>151</NOXgm3>
+        <PM10>26,54</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <SH2gm3>3</SH2gm3>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>211</Dviengrados>
+        <H>92</H>
+        <PmBar>1027,2</PmBar>
+        <Rwm2>2,7</Rwm2>
+        <TC>6,6</TC>
+        <Vvienms>2,02</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-17>
+    <datos_indice-HERNANI-18>
+        <Date>13/01/2021</Date>
+        <Hour>07:00</Hour>
+        <NOgm3>46</NOgm3>
+        <NO2>53</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>123</NOXgm3>
+        <PM10>26,54</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <SH2gm3>3</SH2gm3>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>210</Dviengrados>
+        <H>91</H>
+        <PmBar>1026,9</PmBar>
+        <Rwm2>1,5</Rwm2>
+        <TC>6,6</TC>
+        <Vvienms>1,96</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-18>
+    <datos_indice-HERNANI-19>
+        <Date>13/01/2021</Date>
+        <Hour>06:00</Hour>
+        <NOgm3>13</NOgm3>
+        <NO2>42</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>62</NOXgm3>
+        <PM10>26,83</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <SH2gm3>3</SH2gm3>
+        <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
         <Dviengrados>208</Dviengrados>
         <H>88</H>
-        <PmBar>1009,3</PmBar>
-        <Rwm2>156,7</Rwm2>
-        <TC>5,9</TC>
-        <Vvienms>1,28</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-38>
-    <datos_indice-HERNANI-39>
-        <Date>03/01/2021</Date>
-        <Hour>10:00</Hour>
-        <NOgm3>9</NOgm3>
-        <NOXgm3>46</NOXgm3>
-        <PM10>12,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>186</Dviengrados>
-        <H>93</H>
-        <PmBar>1009,5</PmBar>
-        <Rwm2>89,3</Rwm2>
-        <TC>4,5</TC>
-        <Vvienms>0,94</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-39>
-    <datos_indice-HERNANI-40>
-        <Date>03/01/2021</Date>
-        <Hour>09:00</Hour>
-        <NOgm3>9</NOgm3>
-        <NOXgm3>44</NOXgm3>
-        <PM10>12,96</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>198</Dviengrados>
-        <H>93</H>
-        <PmBar>1009,6</PmBar>
-        <Rwm2>34,7</Rwm2>
-        <TC>4,1</TC>
-        <Vvienms>0,67</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-40>
-    <datos_indice-HERNANI-41>
-        <Date>03/01/2021</Date>
-        <Hour>08:00</Hour>
-        <NOgm3>9</NOgm3>
-        <NOXgm3>49</NOXgm3>
-        <PM10>13,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>214</Dviengrados>
-        <H>93</H>
-        <PmBar>1009,6</PmBar>
-        <Rwm2>2</Rwm2>
-        <TC>3,4</TC>
-        <Vvienms>0,85</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-41>
-    <datos_indice-HERNANI-42>
-        <Date>03/01/2021</Date>
-        <Hour>07:00</Hour>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>33</NOXgm3>
-        <PM10>13,17</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>213</Dviengrados>
-        <H>95</H>
-        <PmBar>1009,6</PmBar>
+        <PmBar>1026,8</PmBar>
         <Rwm2>1,5</Rwm2>
-        <TC>3,2</TC>
-        <Vvienms>0,61</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-42>
-    <datos_indice-HERNANI-43>
-        <Date>03/01/2021</Date>
-        <Hour>06:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>29</NOXgm3>
-        <PM10>13,42</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>219</Dviengrados>
-        <H>96</H>
-        <PmBar>1009,8</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>2,8</TC>
-        <Vvienms>1,12</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-43>
-    <datos_indice-HERNANI-44>
-        <Date>03/01/2021</Date>
+        <TC>6,9</TC>
+        <Vvienms>1,87</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-19>
+    <datos_indice-HERNANI-20>
+        <Date>13/01/2021</Date>
         <Hour>05:00</Hour>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>32</NOXgm3>
-        <PM10>13,33</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <NOgm3>8</NOgm3>
+        <NO2>37</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>50</NOXgm3>
+        <PM10>27,08</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
         <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>204</Dviengrados>
-        <H>97</H>
-        <PmBar>1010,4</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>2,7</TC>
-        <Vvienms>1,1</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-44>
-    <datos_indice-HERNANI-45>
-        <Date>03/01/2021</Date>
-        <Hour>04:00</Hour>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>29</NOXgm3>
-        <PM10>13,17</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>204</Dviengrados>
-        <H>97</H>
-        <PmBar>1011,1</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>2</TC>
-        <Vvienms>1,05</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-45>
-    <datos_indice-HERNANI-46>
-        <Date>03/01/2021</Date>
-        <Hour>03:00</Hour>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>25</NOXgm3>
-        <PM10>13</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>202</Dviengrados>
-        <H>97</H>
-        <PmBar>1011,5</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>1,4</TC>
-        <Vvienms>1,36</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-46>
-    <datos_indice-HERNANI-47>
-        <Date>03/01/2021</Date>
-        <Hour>02:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>32</NOXgm3>
-        <PM10>12,67</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>204</Dviengrados>
-        <H>96</H>
-        <PmBar>1011,8</PmBar>
-        <Rwm2>1,5</Rwm2>
-        <TC>0,9</TC>
-        <Vvienms>1,63</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-47>
-    <datos_indice-HERNANI-48>
-        <Date>03/01/2021</Date>
-        <Hour>01:00</Hour>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>38</NOXgm3>
-        <PM10>12,38</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>2</SH2gm3>
-        <SO2>1</SO2>
+        <SO2>2</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
         <Dviengrados>215</Dviengrados>
-        <H>94</H>
-        <PmBar>1012,5</PmBar>
+        <H>85</H>
+        <PmBar>1026,8</PmBar>
         <Rwm2>1,5</Rwm2>
-        <TC>0,9</TC>
-        <Vvienms>2,27</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-HERNANI-48>
+        <TC>7</TC>
+        <Vvienms>2,38</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-20>
+    <datos_indice-HERNANI-21>
+        <Date>13/01/2021</Date>
+        <Hour>04:00</Hour>
+        <NOgm3>7</NOgm3>
+        <NO2>33</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>43</NOXgm3>
+        <PM10>27,21</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <SH2gm3>2</SH2gm3>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>216</Dviengrados>
+        <H>83</H>
+        <PmBar>1026,8</PmBar>
+        <Rwm2>1,5</Rwm2>
+        <TC>7,1</TC>
+        <Vvienms>1,94</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-21>
+    <datos_indice-HERNANI-22>
+        <Date>13/01/2021</Date>
+        <Hour>03:00</Hour>
+        <NOgm3>5</NOgm3>
+        <NO2>33</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>41</NOXgm3>
+        <PM10>27,04</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <SH2gm3>2</SH2gm3>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>215</Dviengrados>
+        <H>82</H>
+        <PmBar>1026,7</PmBar>
+        <Rwm2>1,5</Rwm2>
+        <TC>7,2</TC>
+        <Vvienms>1,85</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-22>
+    <datos_indice-HERNANI-23>
+        <Date>13/01/2021</Date>
+        <Hour>02:00</Hour>
+        <NOgm3>4</NOgm3>
+        <NO2>38</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>45</NOXgm3>
+        <PM10>26,75</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <SH2gm3>2</SH2gm3>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>216</Dviengrados>
+        <H>80</H>
+        <PmBar>1026,4</PmBar>
+        <Rwm2>1,5</Rwm2>
+        <TC>7,4</TC>
+        <Vvienms>1,74</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-23>
+    <datos_indice-HERNANI-24>
+        <Date>13/01/2021</Date>
+        <Hour>01:00</Hour>
+        <NOgm3>5</NOgm3>
+        <NO2>42</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>50</NOXgm3>
+        <PM10>26,46</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <SH2gm3>3</SH2gm3>
+        <SO2>2</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>213</Dviengrados>
+        <H>79</H>
+        <PmBar>1026,8</PmBar>
+        <Rwm2>1,5</Rwm2>
+        <TC>7,4</TC>
+        <Vvienms>1,85</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-HERNANI-24>
 </datos_indice-HERNANI>

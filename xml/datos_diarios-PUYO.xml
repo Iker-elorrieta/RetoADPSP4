@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-PUYO>
     <datos_diarios-PUYO-1>
-        <Date>03/01/2021</Date>
-        <NOgm3>1</NOgm3>
-        <NO2gm3>12</NO2gm3>
-        <NOXgm3>14</NOXgm3>
-        <O3gm3>42</O3gm3>
-        <O38hgm3>36</O38hgm3>
-        <PM10gm3>8</PM10gm3>
-        <PM25gm3>7</PM25gm3>
-        <SO2gm3>2</SO2gm3>
+        <Date>12/01/2021</Date>
+        <NOgm3>11</NOgm3>
+        <NO2gm3>41</NO2gm3>
+        <NOXgm3>58</NOXgm3>
+        <O3gm3>20</O3gm3>
+        <O38hgm3>17</O38hgm3>
+        <SO2gm3>4</SO2gm3>
     </datos_diarios-PUYO-1>
-    <datos_diarios-PUYO-2>
-        <Date>02/01/2021</Date>
-        <NOgm3>1</NOgm3>
-        <NO2gm3>15</NO2gm3>
-        <NOXgm3>17</NOXgm3>
-        <O3gm3>41</O3gm3>
-        <O38hgm3>48</O38hgm3>
-        <PM10gm3>10</PM10gm3>
-        <PM25gm3>7</PM25gm3>
-        <SO2gm3>2</SO2gm3>
-    </datos_diarios-PUYO-2>
 </datos_diarios-PUYO>

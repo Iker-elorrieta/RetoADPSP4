@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-ATEGORRIETA>
     <datos_diarios-ATEGORRIETA-1>
-        <Date>03/01/2021</Date>
-        <COmgm3>0,51</COmgm3>
-        <CO8hmgm3>0,55</CO8hmgm3>
-        <NOgm3>7</NOgm3>
-        <NO2gm3>27</NO2gm3>
-        <NOXgm3>36</NOXgm3>
-        <PM10gm3>9</PM10gm3>
-        <PM25gm3>5</PM25gm3>
+        <Date>12/01/2021</Date>
+        <COmgm3>0,86</COmgm3>
+        <CO8hmgm3>0,83</CO8hmgm3>
+        <NOgm3>36</NOgm3>
+        <NO2gm3>54</NO2gm3>
+        <NOXgm3>108</NOXgm3>
+        <PM10gm3>27</PM10gm3>
+        <PM25gm3>12</PM25gm3>
     </datos_diarios-ATEGORRIETA-1>
-    <datos_diarios-ATEGORRIETA-2>
-        <Date>02/01/2021</Date>
-        <COmgm3>0,53</COmgm3>
-        <CO8hmgm3>0,49</CO8hmgm3>
-        <NOgm3>13</NOgm3>
-        <NO2gm3>30</NO2gm3>
-        <NOXgm3>42</NOXgm3>
-        <PM10gm3>15</PM10gm3>
-        <PM25gm3>7</PM25gm3>
-    </datos_diarios-ATEGORRIETA-2>
 </datos_diarios-ATEGORRIETA>

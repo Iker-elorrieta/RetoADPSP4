@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-BASAURI>
     <datos_diarios-BASAURI-1>
-        <Date>03/01/2021</Date>
-        <NOgm3>2</NOgm3>
-        <NO2gm3>23</NO2gm3>
-        <NOXgm3>25</NOXgm3>
-        <PM10gm3>4</PM10gm3>
-        <SO2gm3>2</SO2gm3>
+        <Date>12/01/2021</Date>
+        <NOgm3>33</NOgm3>
+        <NO2gm3>49</NO2gm3>
+        <NOXgm3>100</NOXgm3>
+        <PM10gm3>32</PM10gm3>
+        <SO2gm3>4</SO2gm3>
     </datos_diarios-BASAURI-1>
-    <datos_diarios-BASAURI-2>
-        <Date>02/01/2021</Date>
-        <NOXgm3>20</NOXgm3>
-        <PM10gm3>7</PM10gm3>
-        <SO2gm3>2</SO2gm3>
-    </datos_diarios-BASAURI-2>
 </datos_diarios-BASAURI>

@@ -1,453 +1,213 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_indice-FERIA_meteo>
     <datos_indice-FERIA_meteo-1>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>24:00</Hour>
     </datos_indice-FERIA_meteo-1>
     <datos_indice-FERIA_meteo-2>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>23:00</Hour>
     </datos_indice-FERIA_meteo-2>
     <datos_indice-FERIA_meteo-3>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>22:00</Hour>
     </datos_indice-FERIA_meteo-3>
     <datos_indice-FERIA_meteo-4>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>21:00</Hour>
     </datos_indice-FERIA_meteo-4>
     <datos_indice-FERIA_meteo-5>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>20:00</Hour>
     </datos_indice-FERIA_meteo-5>
     <datos_indice-FERIA_meteo-6>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>19:00</Hour>
-        <Dviengrados>134</Dviengrados>
-        <H>87</H>
-        <Precipitacionlm2>0,6</Precipitacionlm2>
-        <TC>3,4</TC>
-        <Vvienms>1,6</Vvienms>
+        <Dviengrados>112</Dviengrados>
+        <H>70</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>9,7</TC>
+        <Vvienms>0,3</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-6>
     <datos_indice-FERIA_meteo-7>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>18:00</Hour>
-        <Dviengrados>339</Dviengrados>
-        <H>86</H>
-        <Precipitacionlm2>1,1</Precipitacionlm2>
-        <TC>3,8</TC>
-        <Vvienms>0,38</Vvienms>
+        <Dviengrados>229</Dviengrados>
+        <H>67</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>10,3</TC>
+        <Vvienms>0,39</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-7>
     <datos_indice-FERIA_meteo-8>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>17:00</Hour>
-        <Dviengrados>146</Dviengrados>
-        <H>84</H>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <TC>4,8</TC>
-        <Vvienms>1,04</Vvienms>
+        <Dviengrados>3</Dviengrados>
+        <H>62</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>11,6</TC>
+        <Vvienms>0,66</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-8>
     <datos_indice-FERIA_meteo-9>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>16:00</Hour>
-        <Dviengrados>249</Dviengrados>
-        <H>84</H>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <TC>4,4</TC>
-        <Vvienms>1,16</Vvienms>
+        <Dviengrados>43</Dviengrados>
+        <H>59</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>12,5</TC>
+        <Vvienms>0,7</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-9>
     <datos_indice-FERIA_meteo-10>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>15:00</Hour>
-        <Dviengrados>281</Dviengrados>
-        <H>83</H>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <TC>4,7</TC>
-        <Vvienms>3</Vvienms>
+        <Dviengrados>148</Dviengrados>
+        <H>62</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>11,4</TC>
+        <Vvienms>0,34</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-10>
     <datos_indice-FERIA_meteo-11>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>14:00</Hour>
-        <Dviengrados>274</Dviengrados>
-        <H>81</H>
-        <Precipitacionlm2>0,6</Precipitacionlm2>
-        <TC>4,6</TC>
-        <Vvienms>1,04</Vvienms>
+        <Dviengrados>189</Dviengrados>
+        <H>64</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>11</TC>
+        <Vvienms>0,29</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-11>
     <datos_indice-FERIA_meteo-12>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>13:00</Hour>
-        <Dviengrados>271</Dviengrados>
-        <H>80</H>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <TC>5</TC>
-        <Vvienms>2,64</Vvienms>
+        <Dviengrados>334</Dviengrados>
+        <H>66</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>10,4</TC>
+        <Vvienms>0,43</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-12>
     <datos_indice-FERIA_meteo-13>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>12:00</Hour>
-        <Dviengrados>257</Dviengrados>
-        <H>79</H>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <TC>5,6</TC>
-        <Vvienms>2,05</Vvienms>
+        <Dviengrados>342</Dviengrados>
+        <H>68</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>9,7</TC>
+        <Vvienms>0,23</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-13>
     <datos_indice-FERIA_meteo-14>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>11:00</Hour>
-        <Dviengrados>253</Dviengrados>
-        <H>82</H>
+        <Dviengrados>28</Dviengrados>
+        <H>69</H>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <TC>5,3</TC>
-        <Vvienms>2,19</Vvienms>
+        <TC>9,1</TC>
+        <Vvienms>0,54</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-14>
     <datos_indice-FERIA_meteo-15>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>10:00</Hour>
-        <Dviengrados>224</Dviengrados>
-        <H>84</H>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <TC>4,6</TC>
-        <Vvienms>1,68</Vvienms>
+        <Dviengrados>140</Dviengrados>
+        <H>70</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>8,6</TC>
+        <Vvienms>0,86</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-15>
     <datos_indice-FERIA_meteo-16>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>09:00</Hour>
-        <Dviengrados>205</Dviengrados>
-        <H>85</H>
+        <Dviengrados>132</Dviengrados>
+        <H>70</H>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <TC>3,7</TC>
-        <Vvienms>1,62</Vvienms>
+        <TC>8,3</TC>
+        <Vvienms>0,95</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-16>
     <datos_indice-FERIA_meteo-17>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>08:00</Hour>
-        <Dviengrados>205</Dviengrados>
-        <H>85</H>
+        <Dviengrados>126</Dviengrados>
+        <H>71</H>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <TC>3,3</TC>
-        <Vvienms>1,79</Vvienms>
+        <TC>8,1</TC>
+        <Vvienms>0,91</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-17>
     <datos_indice-FERIA_meteo-18>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>07:00</Hour>
-        <Dviengrados>216</Dviengrados>
-        <H>84</H>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <TC>3,7</TC>
-        <Vvienms>2,05</Vvienms>
+        <Dviengrados>118</Dviengrados>
+        <H>71</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>8,1</TC>
+        <Vvienms>0,87</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-18>
     <datos_indice-FERIA_meteo-19>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>06:00</Hour>
-        <Dviengrados>221</Dviengrados>
-        <H>84</H>
-        <Precipitacionlm2>0,7</Precipitacionlm2>
-        <TC>3,9</TC>
-        <Vvienms>1,38</Vvienms>
+        <Dviengrados>148</Dviengrados>
+        <H>71</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>8,1</TC>
+        <Vvienms>0,97</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-19>
     <datos_indice-FERIA_meteo-20>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>05:00</Hour>
-        <Dviengrados>196</Dviengrados>
-        <H>84</H>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <TC>3,9</TC>
-        <Vvienms>1,82</Vvienms>
+        <Dviengrados>164</Dviengrados>
+        <H>70</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>8,1</TC>
+        <Vvienms>0,94</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-20>
     <datos_indice-FERIA_meteo-21>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>04:00</Hour>
-        <Dviengrados>189</Dviengrados>
-        <H>84</H>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <TC>3,9</TC>
-        <Vvienms>2,07</Vvienms>
+        <Dviengrados>158</Dviengrados>
+        <H>70</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>8,1</TC>
+        <Vvienms>0,71</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-21>
     <datos_indice-FERIA_meteo-22>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>03:00</Hour>
-        <Dviengrados>193</Dviengrados>
-        <H>83</H>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <TC>3,9</TC>
-        <Vvienms>1,62</Vvienms>
+        <Dviengrados>187</Dviengrados>
+        <H>70</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>8,2</TC>
+        <Vvienms>0,48</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-22>
     <datos_indice-FERIA_meteo-23>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>02:00</Hour>
-        <Dviengrados>190</Dviengrados>
-        <H>83</H>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <TC>4</TC>
-        <Vvienms>1,83</Vvienms>
+        <Dviengrados>175</Dviengrados>
+        <H>70</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>8,4</TC>
+        <Vvienms>0,73</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-23>
     <datos_indice-FERIA_meteo-24>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>01:00</Hour>
-        <Dviengrados>193</Dviengrados>
-        <H>82</H>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <TC>4,3</TC>
-        <Vvienms>1,79</Vvienms>
+        <Dviengrados>87</Dviengrados>
+        <H>69</H>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <TC>8,5</TC>
+        <Vvienms>0,18</Vvienms>
         <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
     </datos_indice-FERIA_meteo-24>
-    <datos_indice-FERIA_meteo-25>
-        <Date>03/01/2021</Date>
-        <Hour>24:00</Hour>
-        <Dviengrados>191</Dviengrados>
-        <H>82</H>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <TC>4,4</TC>
-        <Vvienms>1,41</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-25>
-    <datos_indice-FERIA_meteo-26>
-        <Date>03/01/2021</Date>
-        <Hour>23:00</Hour>
-        <Dviengrados>181</Dviengrados>
-        <H>82</H>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <TC>4,5</TC>
-        <Vvienms>1,72</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-26>
-    <datos_indice-FERIA_meteo-27>
-        <Date>03/01/2021</Date>
-        <Hour>22:00</Hour>
-        <Dviengrados>206</Dviengrados>
-        <H>82</H>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <TC>4,4</TC>
-        <Vvienms>1,77</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-27>
-    <datos_indice-FERIA_meteo-28>
-        <Date>03/01/2021</Date>
-        <Hour>21:00</Hour>
-        <Dviengrados>212</Dviengrados>
-        <H>83</H>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <TC>4,5</TC>
-        <Vvienms>1,16</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-28>
-    <datos_indice-FERIA_meteo-29>
-        <Date>03/01/2021</Date>
-        <Hour>20:00</Hour>
-        <Dviengrados>200</Dviengrados>
-        <H>82</H>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <TC>4,4</TC>
-        <Vvienms>1,43</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-29>
-    <datos_indice-FERIA_meteo-30>
-        <Date>03/01/2021</Date>
-        <Hour>19:00</Hour>
-        <Dviengrados>238</Dviengrados>
-        <H>82</H>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <TC>4,5</TC>
-        <Vvienms>1,29</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-30>
-    <datos_indice-FERIA_meteo-31>
-        <Date>03/01/2021</Date>
-        <Hour>18:00</Hour>
-        <Dviengrados>229</Dviengrados>
-        <H>83</H>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <TC>4,3</TC>
-        <Vvienms>1,4</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-31>
-    <datos_indice-FERIA_meteo-32>
-        <Date>03/01/2021</Date>
-        <Hour>17:00</Hour>
-        <Dviengrados>223</Dviengrados>
-        <H>82</H>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <TC>4,6</TC>
-        <Vvienms>1,9</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-32>
-    <datos_indice-FERIA_meteo-33>
-        <Date>03/01/2021</Date>
-        <Hour>16:00</Hour>
-        <Dviengrados>220</Dviengrados>
-        <H>82</H>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <TC>5,1</TC>
-        <Vvienms>1,69</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-33>
-    <datos_indice-FERIA_meteo-34>
-        <Date>03/01/2021</Date>
-        <Hour>15:00</Hour>
-        <Dviengrados>227</Dviengrados>
-        <H>83</H>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <TC>5,8</TC>
-        <Vvienms>1,38</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-34>
-    <datos_indice-FERIA_meteo-35>
-        <Date>03/01/2021</Date>
-        <Hour>14:00</Hour>
-        <Dviengrados>229</Dviengrados>
-        <H>84</H>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <TC>5,8</TC>
-        <Vvienms>1,05</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-35>
-    <datos_indice-FERIA_meteo-36>
-        <Date>03/01/2021</Date>
-        <Hour>13:00</Hour>
-        <Dviengrados>198</Dviengrados>
-        <H>85</H>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <TC>5,7</TC>
-        <Vvienms>1,28</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-36>
-    <datos_indice-FERIA_meteo-37>
-        <Date>03/01/2021</Date>
-        <Hour>12:00</Hour>
-        <Dviengrados>158</Dviengrados>
-        <H>85</H>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <TC>5,6</TC>
-        <Vvienms>0,45</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-37>
-    <datos_indice-FERIA_meteo-38>
-        <Date>03/01/2021</Date>
-        <Hour>11:00</Hour>
-        <Dviengrados>200</Dviengrados>
-        <H>86</H>
-        <Precipitacionlm2>0,6</Precipitacionlm2>
-        <TC>4,5</TC>
-        <Vvienms>1,13</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-38>
-    <datos_indice-FERIA_meteo-39>
-        <Date>03/01/2021</Date>
-        <Hour>10:00</Hour>
-        <Dviengrados>199</Dviengrados>
-        <H>87</H>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <TC>4,5</TC>
-        <Vvienms>1,67</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-39>
-    <datos_indice-FERIA_meteo-40>
-        <Date>03/01/2021</Date>
-        <Hour>09:00</Hour>
-        <Dviengrados>188</Dviengrados>
-        <H>88</H>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <TC>4,4</TC>
-        <Vvienms>1,38</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-40>
-    <datos_indice-FERIA_meteo-41>
-        <Date>03/01/2021</Date>
-        <Hour>08:00</Hour>
-        <Dviengrados>179</Dviengrados>
-        <H>88</H>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <TC>4</TC>
-        <Vvienms>2,08</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-41>
-    <datos_indice-FERIA_meteo-42>
-        <Date>03/01/2021</Date>
-        <Hour>07:00</Hour>
-        <Dviengrados>168</Dviengrados>
-        <H>89</H>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <TC>4</TC>
-        <Vvienms>0,74</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-42>
-    <datos_indice-FERIA_meteo-43>
-        <Date>03/01/2021</Date>
-        <Hour>06:00</Hour>
-        <Dviengrados>137</Dviengrados>
-        <H>88</H>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <TC>3,9</TC>
-        <Vvienms>1,79</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-43>
-    <datos_indice-FERIA_meteo-44>
-        <Date>03/01/2021</Date>
-        <Hour>05:00</Hour>
-        <Dviengrados>136</Dviengrados>
-        <H>87</H>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <TC>3,9</TC>
-        <Vvienms>1,13</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-44>
-    <datos_indice-FERIA_meteo-45>
-        <Date>03/01/2021</Date>
-        <Hour>04:00</Hour>
-        <Dviengrados>139</Dviengrados>
-        <H>87</H>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <TC>3,9</TC>
-        <Vvienms>1,45</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-45>
-    <datos_indice-FERIA_meteo-46>
-        <Date>03/01/2021</Date>
-        <Hour>03:00</Hour>
-        <Dviengrados>120</Dviengrados>
-        <H>86</H>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <TC>3,9</TC>
-        <Vvienms>1,82</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-46>
-    <datos_indice-FERIA_meteo-47>
-        <Date>03/01/2021</Date>
-        <Hour>02:00</Hour>
-        <Dviengrados>124</Dviengrados>
-        <H>85</H>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <TC>4,3</TC>
-        <Vvienms>1,5</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-47>
-    <datos_indice-FERIA_meteo-48>
-        <Date>03/01/2021</Date>
-        <Hour>01:00</Hour>
-        <Dviengrados>170</Dviengrados>
-        <H>83</H>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <TC>4,5</TC>
-        <Vvienms>1,02</Vvienms>
-        <ICAEstacion>Sin datos / Daturik gabe</ICAEstacion>
-    </datos_indice-FERIA_meteo-48>
 </datos_indice-FERIA_meteo>

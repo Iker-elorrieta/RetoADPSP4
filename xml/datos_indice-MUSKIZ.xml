@@ -1,1048 +1,496 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_indice-MUSKIZ>
     <datos_indice-MUSKIZ-1>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>24:00</Hour>
     </datos_indice-MUSKIZ-1>
     <datos_indice-MUSKIZ-2>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>23:00</Hour>
     </datos_indice-MUSKIZ-2>
     <datos_indice-MUSKIZ-3>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>22:00</Hour>
     </datos_indice-MUSKIZ-3>
     <datos_indice-MUSKIZ-4>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>21:00</Hour>
     </datos_indice-MUSKIZ-4>
     <datos_indice-MUSKIZ-5>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>20:00</Hour>
     </datos_indice-MUSKIZ-5>
     <datos_indice-MUSKIZ-6>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>19:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>7</NO2>
+        <NOgm3>2</NOgm3>
+        <NO2>20</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>9</NOXgm3>
-        <O3gm3>59</O3gm3>
-        <OZONO>59</OZONO>
+        <NOXgm3>24</NOXgm3>
+        <O3gm3>37</O3gm3>
+        <OZONO>37</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>62</O38hgm3>
-        <PM10>2,25</PM10>
+        <O38hgm3>37</O38hgm3>
+        <PM10>8,75</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
         <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
+        <SO2>6</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>264</Dviengrados>
-        <H>93</H>
-        <PmBar>1008,8</PmBar>
+        <Dviengrados>244</Dviengrados>
+        <H>89</H>
+        <PmBar>1028</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
         <Rwm2>0</Rwm2>
-        <TC>4,2</TC>
-        <Vvienms>1,5</Vvienms>
+        <TC>7,9</TC>
+        <Vvienms>0,29</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-MUSKIZ-6>
     <datos_indice-MUSKIZ-7>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>18:00</Hour>
-        <NOgm3>2</NOgm3>
-        <NO2>9</NO2>
+        <NOgm3>6</NOgm3>
+        <NO2>32</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>12</NOXgm3>
-        <O3gm3>61</O3gm3>
-        <OZONO>61</OZONO>
+        <NOXgm3>41</NOXgm3>
+        <O3gm3>33</O3gm3>
+        <OZONO>33</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>62</O38hgm3>
-        <PM10>2,21</PM10>
+        <O38hgm3>39</O38hgm3>
+        <PM10>8,75</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
+        <SH2gm3>2</SH2gm3>
+        <SO2>6</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>289</Dviengrados>
-        <H>92</H>
-        <PmBar>1008,6</PmBar>
-        <Precipitacionlm2>0,6</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,2</TC>
-        <Vvienms>2,55</Vvienms>
+        <Dviengrados>248</Dviengrados>
+        <H>86</H>
+        <PmBar>1027,7</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,7</Rwm2>
+        <TC>9,2</TC>
+        <Vvienms>0,75</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-MUSKIZ-7>
     <datos_indice-MUSKIZ-8>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>17:00</Hour>
         <NOgm3>9</NOgm3>
-        <NO2>7</NO2>
+        <NO2>38</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>20</NOXgm3>
-        <O3gm3>57</O3gm3>
-        <OZONO>57</OZONO>
+        <NOXgm3>52</NOXgm3>
+        <O3gm3>31</O3gm3>
+        <OZONO>31</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>64</O38hgm3>
-        <PM10>2,17</PM10>
+        <O38hgm3>43</O38hgm3>
+        <PM10>8,42</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
+        <SH2gm3>2</SH2gm3>
+        <SO2>6</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>267</Dviengrados>
-        <H>93</H>
-        <PmBar>1008</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>2,8</Rwm2>
-        <TC>4,7</TC>
-        <Vvienms>2,16</Vvienms>
+        <Dviengrados>266</Dviengrados>
+        <H>80</H>
+        <PmBar>1027,7</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>32,3</Rwm2>
+        <TC>10,8</TC>
+        <Vvienms>1,21</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-MUSKIZ-8>
     <datos_indice-MUSKIZ-9>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>16:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>7</NO2>
+        <NOgm3>8</NOgm3>
+        <NO2>36</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>9</NOXgm3>
-        <O3gm3>62</O3gm3>
-        <OZONO>62</OZONO>
+        <NOXgm3>47</NOXgm3>
+        <O3gm3>45</O3gm3>
+        <OZONO>45</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>64</O38hgm3>
-        <PM10>2,08</PM10>
+        <O38hgm3>45</O38hgm3>
+        <PM10>8,04</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
+        <SH2gm3>2</SH2gm3>
+        <SO2>11</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>289</Dviengrados>
-        <H>90</H>
-        <PmBar>1007,6</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>120,8</Rwm2>
-        <TC>5,1</TC>
-        <Vvienms>2,56</Vvienms>
+        <Dviengrados>354</Dviengrados>
+        <H>70</H>
+        <PmBar>1027,7</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>460,3</Rwm2>
+        <TC>12,4</TC>
+        <Vvienms>1,18</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-MUSKIZ-9>
     <datos_indice-MUSKIZ-10>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>15:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>10</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>12</NOXgm3>
-        <O3gm3>61</O3gm3>
-        <OZONO>61</OZONO>
+        <NOgm3>20</NOgm3>
+        <NO2>50</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>80</NOXgm3>
+        <O3gm3>27</O3gm3>
+        <OZONO>27</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>65</O38hgm3>
-        <PM10>2,08</PM10>
+        <O38hgm3>49</O38hgm3>
+        <PM10>7,67</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
+        <SH2gm3>2</SH2gm3>
+        <SO2>13</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>304</Dviengrados>
-        <H>93</H>
-        <PmBar>1007,4</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>58,1</Rwm2>
-        <TC>4,9</TC>
-        <Vvienms>2,57</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+        <Dviengrados>160</Dviengrados>
+        <H>70</H>
+        <PmBar>1027,4</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>512,6</Rwm2>
+        <TC>11,9</TC>
+        <Vvienms>0,76</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-MUSKIZ-10>
     <datos_indice-MUSKIZ-11>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>14:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>7</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>9</NOXgm3>
-        <O3gm3>62</O3gm3>
-        <OZONO>62</OZONO>
+        <NOgm3>25</NOgm3>
+        <NO2>47</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>86</NOXgm3>
+        <O3gm3>26</O3gm3>
+        <OZONO>26</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>67</O38hgm3>
-        <PM10>2,04</PM10>
+        <O38hgm3>55</O38hgm3>
+        <PM10>6,96</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
+        <SH2gm3>2</SH2gm3>
+        <SO2>7</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>282</Dviengrados>
-        <H>93</H>
-        <PmBar>1006,9</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>65,8</Rwm2>
-        <TC>4,8</TC>
-        <Vvienms>2</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+        <Dviengrados>174</Dviengrados>
+        <H>74</H>
+        <PmBar>1027,6</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>103,9</Rwm2>
+        <TC>11,1</TC>
+        <Vvienms>0,75</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-MUSKIZ-11>
     <datos_indice-MUSKIZ-12>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>13:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>6</NO2>
+        <NOgm3>2</NOgm3>
+        <NO2>8</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>9</NOXgm3>
-        <O3gm3>64</O3gm3>
-        <OZONO>64</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>68</O38hgm3>
-        <PM10>2,04</PM10>
+        <NOXgm3>11</NOXgm3>
+        <O3ICA>Sin datos / Daturik gabe</O3ICA>
+        <O38hgm3>57</O38hgm3>
+        <PM10>6,33</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
         <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
+        <SO2>4</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>267</Dviengrados>
-        <H>92</H>
-        <PmBar>1007</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>62,8</Rwm2>
-        <TC>4,7</TC>
+        <Dviengrados>243</Dviengrados>
+        <H>75</H>
+        <PmBar>1028,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>100,5</Rwm2>
+        <TC>10,3</TC>
         <Vvienms>2,49</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-MUSKIZ-12>
     <datos_indice-MUSKIZ-13>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>12:00</Hour>
         <NOgm3>2</NOgm3>
-        <NO2>7</NO2>
+        <NO2>8</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>10</NOXgm3>
-        <O3gm3>64</O3gm3>
-        <OZONO>64</OZONO>
+        <NOXgm3>11</NOXgm3>
+        <O3gm3>54</O3gm3>
+        <OZONO>54</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>69</O38hgm3>
-        <PM10>2,04</PM10>
+        <O38hgm3>57</O38hgm3>
+        <PM10>6,38</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
         <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
+        <SO2>4</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>278</Dviengrados>
-        <H>91</H>
-        <PmBar>1007,1</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>51,7</Rwm2>
-        <TC>5,1</TC>
-        <Vvienms>2,39</Vvienms>
+        <Dviengrados>240</Dviengrados>
+        <H>75</H>
+        <PmBar>1028,9</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>82,3</Rwm2>
+        <TC>9,6</TC>
+        <Vvienms>2,41</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-MUSKIZ-13>
     <datos_indice-MUSKIZ-14>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>11:00</Hour>
         <NOgm3>1</NOgm3>
-        <NO2>4</NO2>
+        <NO2>8</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>6</NOXgm3>
-        <O3gm3>66</O3gm3>
-        <OZONO>66</OZONO>
+        <NOXgm3>10</NOXgm3>
+        <O3gm3>55</O3gm3>
+        <OZONO>55</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>70</O38hgm3>
-        <PM10>2,08</PM10>
+        <O38hgm3>58</O38hgm3>
+        <PM10>6,46</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
         <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
+        <SO2>4</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>250</Dviengrados>
-        <H>90</H>
-        <PmBar>1007</PmBar>
+        <Dviengrados>238</Dviengrados>
+        <H>75</H>
+        <PmBar>1029,3</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>110,1</Rwm2>
-        <TC>5</TC>
-        <Vvienms>3,65</Vvienms>
+        <Rwm2>63,1</Rwm2>
+        <TC>8,8</TC>
+        <Vvienms>2,24</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-MUSKIZ-14>
     <datos_indice-MUSKIZ-15>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>10:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>9</NOXgm3>
+        <O3gm3>56</O3gm3>
+        <OZONO>56</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>58</O38hgm3>
+        <PM10>6,5</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SH2gm3>1</SH2gm3>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>236</Dviengrados>
+        <H>75</H>
+        <PmBar>1029,3</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>31,6</Rwm2>
+        <TC>8,4</TC>
+        <Vvienms>2,83</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUSKIZ-15>
+    <datos_indice-MUSKIZ-16>
+        <Date>13/01/2021</Date>
+        <Hour>09:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>7</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>9</NOXgm3>
+        <O3gm3>58</O3gm3>
+        <OZONO>58</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>59</O38hgm3>
+        <PM10>6,88</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SH2gm3>1</SH2gm3>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>233</Dviengrados>
+        <H>75</H>
+        <PmBar>1028,9</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>9,8</Rwm2>
+        <TC>8,4</TC>
+        <Vvienms>1,89</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUSKIZ-16>
+    <datos_indice-MUSKIZ-17>
+        <Date>13/01/2021</Date>
+        <Hour>08:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>6</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>8</NOXgm3>
+        <O3gm3>58</O3gm3>
+        <OZONO>58</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>60</O38hgm3>
+        <PM10>7,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SH2gm3>1</SH2gm3>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>237</Dviengrados>
+        <H>76</H>
+        <PmBar>1028,5</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,7</Rwm2>
+        <TC>8,2</TC>
+        <Vvienms>1,89</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUSKIZ-17>
+    <datos_indice-MUSKIZ-18>
+        <Date>13/01/2021</Date>
+        <Hour>07:00</Hour>
+        <NOgm3>2</NOgm3>
+        <NO2>5</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>8</NOXgm3>
+        <O3gm3>57</O3gm3>
+        <OZONO>57</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>60</O38hgm3>
+        <PM10>7,25</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SH2gm3>1</SH2gm3>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>230</Dviengrados>
+        <H>77</H>
+        <PmBar>1028,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>8,2</TC>
+        <Vvienms>1,44</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUSKIZ-18>
+    <datos_indice-MUSKIZ-19>
+        <Date>13/01/2021</Date>
+        <Hour>06:00</Hour>
         <NOgm3>1</NOgm3>
         <NO2>4</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
         <NOXgm3>6</NOXgm3>
-        <O3gm3>66</O3gm3>
-        <OZONO>66</OZONO>
+        <O3gm3>58</O3gm3>
+        <OZONO>58</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>70</O38hgm3>
-        <PM10>2,08</PM10>
+        <O38hgm3>61</O38hgm3>
+        <PM10>7,54</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
         <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
+        <SO2>4</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>249</Dviengrados>
-        <H>92</H>
-        <PmBar>1006,8</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>146,2</Rwm2>
-        <TC>4,9</TC>
-        <Vvienms>3,57</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-15>
-    <datos_indice-MUSKIZ-16>
-        <Date>04/01/2021</Date>
-        <Hour>09:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>4</NOXgm3>
-        <O3gm3>67</O3gm3>
-        <OZONO>67</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>71</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>247</Dviengrados>
-        <H>92</H>
-        <PmBar>1006,3</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>64,7</Rwm2>
-        <TC>4,2</TC>
-        <Vvienms>4,06</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-16>
-    <datos_indice-MUSKIZ-17>
-        <Date>04/01/2021</Date>
-        <Hour>08:00</Hour>
-        <NOgm3>2</NOgm3>
-        <NO2>3</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>6</NOXgm3>
-        <O3gm3>67</O3gm3>
-        <OZONO>67</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>72</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>249</Dviengrados>
-        <H>92</H>
-        <PmBar>1005,9</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>1,3</Rwm2>
-        <TC>3,9</TC>
-        <Vvienms>4,75</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-17>
-    <datos_indice-MUSKIZ-18>
-        <Date>04/01/2021</Date>
-        <Hour>07:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>2</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>4</NOXgm3>
-        <O3gm3>70</O3gm3>
-        <OZONO>70</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>71</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>249</Dviengrados>
-        <H>91</H>
-        <PmBar>1005,7</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
+        <Dviengrados>244</Dviengrados>
+        <H>77</H>
+        <PmBar>1028</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
         <Rwm2>0</Rwm2>
-        <TC>4,4</TC>
-        <Vvienms>5,23</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-18>
-    <datos_indice-MUSKIZ-19>
-        <Date>04/01/2021</Date>
-        <Hour>06:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>0</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>3</NOXgm3>
-        <O3gm3>71</O3gm3>
-        <OZONO>71</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>72</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>257</Dviengrados>
-        <H>91</H>
-        <PmBar>1005,3</PmBar>
-        <Precipitacionlm2>0,6</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,4</TC>
-        <Vvienms>3,76</Vvienms>
+        <TC>8,1</TC>
+        <Vvienms>2,7</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-MUSKIZ-19>
     <datos_indice-MUSKIZ-20>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>05:00</Hour>
         <NOgm3>1</NOgm3>
-        <NO2>1</NO2>
+        <NO2>3</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>3</NOXgm3>
-        <O3gm3>72</O3gm3>
-        <OZONO>72</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>71</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>248</Dviengrados>
-        <H>91</H>
-        <PmBar>1005,5</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,2</TC>
-        <Vvienms>3,73</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-20>
-    <datos_indice-MUSKIZ-21>
-        <Date>04/01/2021</Date>
-        <Hour>04:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>0</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>73</O3gm3>
-        <OZONO>73</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>71</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>247</Dviengrados>
-        <H>91</H>
-        <PmBar>1006</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,1</TC>
-        <Vvienms>4,86</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-21>
-    <datos_indice-MUSKIZ-22>
-        <Date>04/01/2021</Date>
-        <Hour>03:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>0</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>72</O3gm3>
-        <OZONO>72</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>72</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>247</Dviengrados>
-        <H>91</H>
-        <PmBar>1006,7</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,1</TC>
-        <Vvienms>4,26</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-22>
-    <datos_indice-MUSKIZ-23>
-        <Date>04/01/2021</Date>
-        <Hour>02:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>0</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>73</O3gm3>
-        <OZONO>73</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>72</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>248</Dviengrados>
-        <H>91</H>
-        <PmBar>1007</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,2</TC>
-        <Vvienms>4,24</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-23>
-    <datos_indice-MUSKIZ-24>
-        <Date>04/01/2021</Date>
-        <Hour>01:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>0</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>2</NOXgm3>
-        <O3gm3>72</O3gm3>
-        <OZONO>72</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>73</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>249</Dviengrados>
-        <H>90</H>
-        <PmBar>1007,4</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,5</TC>
-        <Vvienms>4,09</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-24>
-    <datos_indice-MUSKIZ-25>
-        <Date>03/01/2021</Date>
-        <Hour>24:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>3</NOXgm3>
-        <O3gm3>71</O3gm3>
-        <OZONO>71</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>73</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>246</Dviengrados>
-        <H>88</H>
-        <PmBar>1007,6</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,6</TC>
-        <Vvienms>5,42</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-25>
-    <datos_indice-MUSKIZ-26>
-        <Date>03/01/2021</Date>
-        <Hour>23:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>3</NOXgm3>
-        <O3ICA>Sin datos / Daturik gabe</O3ICA>
-        <O38hgm3>74</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>243</Dviengrados>
-        <H>90</H>
-        <PmBar>1008,2</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,6</TC>
-        <Vvienms>2,99</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-26>
-    <datos_indice-MUSKIZ-27>
-        <Date>03/01/2021</Date>
-        <Hour>22:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>4</NOXgm3>
-        <O3gm3>71</O3gm3>
-        <OZONO>71</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>74</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>247</Dviengrados>
-        <H>91</H>
-        <PmBar>1008,5</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,5</TC>
-        <Vvienms>3,38</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-27>
-    <datos_indice-MUSKIZ-28>
-        <Date>03/01/2021</Date>
-        <Hour>21:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>4</NOXgm3>
-        <O3gm3>71</O3gm3>
-        <OZONO>71</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>72</O38hgm3>
-        <PM10>2,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>246</Dviengrados>
-        <H>90</H>
-        <PmBar>1008,6</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,6</TC>
-        <Vvienms>5,01</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-28>
-    <datos_indice-MUSKIZ-29>
-        <Date>03/01/2021</Date>
-        <Hour>20:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>4</NOXgm3>
-        <O3gm3>73</O3gm3>
-        <OZONO>73</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>71</O38hgm3>
-        <PM10>2,25</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>247</Dviengrados>
-        <H>89</H>
-        <PmBar>1009</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,6</TC>
-        <Vvienms>4,59</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-29>
-    <datos_indice-MUSKIZ-30>
-        <Date>03/01/2021</Date>
-        <Hour>19:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>5</NOXgm3>
-        <O3gm3>74</O3gm3>
-        <OZONO>74</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>68</O38hgm3>
-        <PM10>2,38</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>246</Dviengrados>
-        <H>93</H>
-        <PmBar>1009</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>3,9</TC>
-        <Vvienms>3,87</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-30>
-    <datos_indice-MUSKIZ-31>
-        <Date>03/01/2021</Date>
-        <Hour>18:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>5</NOXgm3>
-        <O3gm3>76</O3gm3>
-        <OZONO>76</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>66</O38hgm3>
-        <PM10>2,5</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>248</Dviengrados>
-        <H>92</H>
-        <PmBar>1009,1</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>3,9</TC>
-        <Vvienms>4,91</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-31>
-    <datos_indice-MUSKIZ-32>
-        <Date>03/01/2021</Date>
-        <Hour>17:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>4</NOXgm3>
-        <O3gm3>75</O3gm3>
-        <OZONO>75</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>63</O38hgm3>
-        <PM10>3,63</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>249</Dviengrados>
-        <H>92</H>
-        <PmBar>1009,1</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>3,8</Rwm2>
-        <TC>4,1</TC>
-        <Vvienms>4,93</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-32>
-    <datos_indice-MUSKIZ-33>
-        <Date>03/01/2021</Date>
-        <Hour>16:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>4</NOXgm3>
-        <O3gm3>74</O3gm3>
-        <OZONO>74</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>61</O38hgm3>
-        <PM10>3,92</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>249</Dviengrados>
-        <H>92</H>
-        <PmBar>1009,1</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>24,6</Rwm2>
-        <TC>4,7</TC>
-        <Vvienms>4,25</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-33>
-    <datos_indice-MUSKIZ-34>
-        <Date>03/01/2021</Date>
-        <Hour>15:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>5</NOXgm3>
-        <O3gm3>73</O3gm3>
-        <OZONO>73</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>59</O38hgm3>
-        <PM10>4,25</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>253</Dviengrados>
-        <H>91</H>
-        <PmBar>1009,1</PmBar>
-        <Precipitacionlm2>0,5</Precipitacionlm2>
-        <Rwm2>41,3</Rwm2>
-        <TC>5,5</TC>
-        <Vvienms>4,06</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-34>
-    <datos_indice-MUSKIZ-35>
-        <Date>03/01/2021</Date>
-        <Hour>14:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>7</NOXgm3>
-        <O3gm3>69</O3gm3>
-        <OZONO>69</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>56</O38hgm3>
-        <PM10>4,67</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>256</Dviengrados>
-        <H>92</H>
-        <PmBar>1009,3</PmBar>
-        <Precipitacionlm2>0,6</Precipitacionlm2>
-        <Rwm2>81,7</Rwm2>
-        <TC>5,6</TC>
-        <Vvienms>3,08</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-35>
-    <datos_indice-MUSKIZ-36>
-        <Date>03/01/2021</Date>
-        <Hour>13:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>8</NOXgm3>
-        <O3gm3>59</O3gm3>
-        <OZONO>59</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>55</O38hgm3>
-        <PM10>5,04</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>254</Dviengrados>
-        <H>93</H>
-        <PmBar>1009,8</PmBar>
-        <Precipitacionlm2>0,6</Precipitacionlm2>
-        <Rwm2>53,7</Rwm2>
-        <TC>5,7</TC>
-        <Vvienms>2,59</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-36>
-    <datos_indice-MUSKIZ-37>
-        <Date>03/01/2021</Date>
-        <Hour>12:00</Hour>
-        <NOgm3>1</NOgm3>
         <NOXgm3>5</NOXgm3>
         <O3gm3>60</O3gm3>
         <OZONO>60</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>54</O38hgm3>
-        <PM10>5,5</PM10>
+        <O38hgm3>61</O38hgm3>
+        <PM10>7,92</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
         <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
+        <SO2>4</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>243</Dviengrados>
-        <H>91</H>
-        <PmBar>1010,4</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>412,5</Rwm2>
-        <TC>5,5</TC>
-        <Vvienms>3,31</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-37>
-    <datos_indice-MUSKIZ-38>
-        <Date>03/01/2021</Date>
-        <Hour>11:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>7</NOXgm3>
-        <O3gm3>55</O3gm3>
-        <OZONO>55</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>53</O38hgm3>
-        <PM10>5,58</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>248</Dviengrados>
-        <H>95</H>
-        <PmBar>1011,5</PmBar>
-        <Precipitacionlm2>1</Precipitacionlm2>
-        <Rwm2>47,8</Rwm2>
-        <TC>4,6</TC>
-        <Vvienms>2,33</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-38>
-    <datos_indice-MUSKIZ-39>
-        <Date>03/01/2021</Date>
-        <Hour>10:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>5</NOXgm3>
-        <O3gm3>56</O3gm3>
-        <OZONO>56</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>53</O38hgm3>
-        <PM10>5,75</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>251</Dviengrados>
-        <H>92</H>
-        <PmBar>1011,6</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>22,8</Rwm2>
-        <TC>4,7</TC>
-        <Vvienms>2,46</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-39>
-    <datos_indice-MUSKIZ-40>
-        <Date>03/01/2021</Date>
-        <Hour>09:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>4</NOXgm3>
-        <O3gm3>55</O3gm3>
-        <OZONO>55</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>52</O38hgm3>
-        <PM10>6,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>237</Dviengrados>
-        <H>91</H>
-        <PmBar>1011,2</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>13,8</Rwm2>
-        <TC>4,6</TC>
-        <Vvienms>3,05</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-40>
-    <datos_indice-MUSKIZ-41>
-        <Date>03/01/2021</Date>
-        <Hour>08:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>3</NOXgm3>
-        <O3gm3>56</O3gm3>
-        <OZONO>56</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>52</O38hgm3>
-        <PM10>6,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>237</Dviengrados>
-        <H>92</H>
-        <PmBar>1011,2</PmBar>
+        <Dviengrados>241</Dviengrados>
+        <H>76</H>
+        <PmBar>1028</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,8</Rwm2>
-        <TC>4,4</TC>
-        <Vvienms>3,02</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-41>
-    <datos_indice-MUSKIZ-42>
-        <Date>03/01/2021</Date>
-        <Hour>07:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>4</NOXgm3>
-        <O3gm3>54</O3gm3>
-        <OZONO>54</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>51</O38hgm3>
-        <PM10>6,42</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>251</Dviengrados>
-        <H>91</H>
-        <PmBar>1011,3</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
         <Rwm2>0</Rwm2>
-        <TC>4,8</TC>
-        <Vvienms>1,52</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-42>
-    <datos_indice-MUSKIZ-43>
-        <Date>03/01/2021</Date>
-        <Hour>06:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>3</NOXgm3>
-        <O3gm3>51</O3gm3>
-        <OZONO>51</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>53</O38hgm3>
-        <PM10>6,75</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>262</Dviengrados>
-        <H>93</H>
-        <PmBar>1011,4</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,7</TC>
-        <Vvienms>2,8</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-43>
-    <datos_indice-MUSKIZ-44>
-        <Date>03/01/2021</Date>
-        <Hour>05:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>3</NOXgm3>
-        <O3gm3>51</O3gm3>
-        <OZONO>51</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>55</O38hgm3>
-        <PM10>7,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>248</Dviengrados>
-        <H>93</H>
-        <PmBar>1012</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,8</TC>
+        <TC>8,2</TC>
         <Vvienms>1,87</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-44>
-    <datos_indice-MUSKIZ-45>
-        <Date>03/01/2021</Date>
+    </datos_indice-MUSKIZ-20>
+    <datos_indice-MUSKIZ-21>
+        <Date>13/01/2021</Date>
         <Hour>04:00</Hour>
         <NOgm3>1</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
         <NOXgm3>5</NOXgm3>
-        <O3gm3>48</O3gm3>
-        <OZONO>48</OZONO>
+        <O3gm3>59</O3gm3>
+        <OZONO>59</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>56</O38hgm3>
-        <PM10>7,5</PM10>
+        <O38hgm3>60</O38hgm3>
+        <PM10>8</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
         <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
+        <SO2>4</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>229</Dviengrados>
-        <H>93</H>
-        <PmBar>1012,2</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,6</TC>
-        <Vvienms>1,09</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-45>
-    <datos_indice-MUSKIZ-46>
-        <Date>03/01/2021</Date>
-        <Hour>03:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>5</NOXgm3>
-        <O3gm3>50</O3gm3>
-        <OZONO>50</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>59</O38hgm3>
-        <PM10>7,88</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>238</Dviengrados>
-        <H>92</H>
-        <PmBar>1012,8</PmBar>
+        <Dviengrados>239</Dviengrados>
+        <H>76</H>
+        <PmBar>1028,2</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
         <Rwm2>0</Rwm2>
-        <TC>4,4</TC>
-        <Vvienms>1,9</Vvienms>
+        <TC>8,3</TC>
+        <Vvienms>1,97</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-46>
-    <datos_indice-MUSKIZ-47>
-        <Date>03/01/2021</Date>
+    </datos_indice-MUSKIZ-21>
+    <datos_indice-MUSKIZ-22>
+        <Date>13/01/2021</Date>
+        <Hour>03:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>3</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>5</NOXgm3>
+        <O3gm3>61</O3gm3>
+        <OZONO>61</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>60</O38hgm3>
+        <PM10>8,08</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SH2gm3>1</SH2gm3>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>237</Dviengrados>
+        <H>75</H>
+        <PmBar>1028,1</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>8,3</TC>
+        <Vvienms>1,05</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUSKIZ-22>
+    <datos_indice-MUSKIZ-23>
+        <Date>13/01/2021</Date>
         <Hour>02:00</Hour>
         <NOgm3>1</NOgm3>
-        <NOXgm3>4</NOXgm3>
-        <O3gm3>52</O3gm3>
-        <OZONO>52</OZONO>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <O3gm3>60</O3gm3>
+        <OZONO>60</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>61</O38hgm3>
+        <O38hgm3>59</O38hgm3>
+        <PM10>8,17</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <SH2gm3>1</SH2gm3>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>237</Dviengrados>
+        <H>75</H>
+        <PmBar>1027,9</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0</Rwm2>
+        <TC>8,4</TC>
+        <Vvienms>1,77</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-MUSKIZ-23>
+    <datos_indice-MUSKIZ-24>
+        <Date>13/01/2021</Date>
+        <Hour>01:00</Hour>
+        <NOgm3>1</NOgm3>
+        <NO2>4</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>6</NOXgm3>
+        <O3gm3>62</O3gm3>
+        <OZONO>62</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>57</O38hgm3>
         <PM10>8,25</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
         <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
+        <SO2>4</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>241</Dviengrados>
-        <H>93</H>
-        <PmBar>1013,2</PmBar>
+        <Dviengrados>238</Dviengrados>
+        <H>74</H>
+        <PmBar>1028,2</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
         <Rwm2>0</Rwm2>
-        <TC>4,1</TC>
-        <Vvienms>2,92</Vvienms>
+        <TC>8,6</TC>
+        <Vvienms>1,12</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-47>
-    <datos_indice-MUSKIZ-48>
-        <Date>03/01/2021</Date>
-        <Hour>01:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>4</NOXgm3>
-        <O3gm3>53</O3gm3>
-        <OZONO>53</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>63</O38hgm3>
-        <PM10>8,58</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <SH2gm3>1</SH2gm3>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>237</Dviengrados>
-        <H>93</H>
-        <PmBar>1013,7</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>4,2</TC>
-        <Vvienms>2,05</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-MUSKIZ-48>
+    </datos_indice-MUSKIZ-24>
 </datos_indice-MUSKIZ>

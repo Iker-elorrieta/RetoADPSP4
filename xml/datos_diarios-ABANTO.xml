@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-ABANTO>
     <datos_diarios-ABANTO-1>
-        <Date>03/01/2021</Date>
-        <NOgm3>0</NOgm3>
-        <NO2gm3>7</NO2gm3>
-        <NOXgm3>7</NOXgm3>
-        <PM10gm3>3</PM10gm3>
-        <SO2gm3>3</SO2gm3>
+        <Date>12/01/2021</Date>
+        <NOgm3>23</NOgm3>
+        <NO2gm3>35</NO2gm3>
+        <NOXgm3>70</NOXgm3>
+        <PM10gm3>17</PM10gm3>
+        <SO2gm3>7</SO2gm3>
     </datos_diarios-ABANTO-1>
-    <datos_diarios-ABANTO-2>
-        <Date>02/01/2021</Date>
-        <NOgm3>0</NOgm3>
-        <NO2gm3>6</NO2gm3>
-        <NOXgm3>7</NOXgm3>
-        <PM10gm3>6</PM10gm3>
-        <SO2gm3>4</SO2gm3>
-    </datos_diarios-ABANTO-2>
 </datos_diarios-ABANTO>

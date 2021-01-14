@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-SANGRONIZ>
     <datos_diarios-SANGRONIZ-1>
-        <Date>03/01/2021</Date>
-        <NOgm3>1</NOgm3>
-        <NO2gm3>11</NO2gm3>
-        <NOXgm3>12</NOXgm3>
-        <PM10gm3>8</PM10gm3>
-        <PM25gm3>3</PM25gm3>
+        <Date>12/01/2021</Date>
+        <NOgm3>27</NOgm3>
+        <NO2gm3>43</NO2gm3>
+        <NOXgm3>84</NOXgm3>
+        <PM10gm3>30</PM10gm3>
+        <PM25gm3>19</PM25gm3>
     </datos_diarios-SANGRONIZ-1>
-    <datos_diarios-SANGRONIZ-2>
-        <Date>02/01/2021</Date>
-        <NOgm3>4</NOgm3>
-        <NO2gm3>12</NO2gm3>
-        <NOXgm3>18</NOXgm3>
-        <PM10gm3>10</PM10gm3>
-        <PM25gm3>5</PM25gm3>
-    </datos_diarios-SANGRONIZ-2>
 </datos_diarios-SANGRONIZ>

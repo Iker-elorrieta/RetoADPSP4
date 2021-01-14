@@ -1,797 +1,364 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_indice-ZIERBENA_Puerto>
     <datos_indice-ZIERBENA_Puerto-1>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>24:00</Hour>
     </datos_indice-ZIERBENA_Puerto-1>
     <datos_indice-ZIERBENA_Puerto-2>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>23:00</Hour>
     </datos_indice-ZIERBENA_Puerto-2>
     <datos_indice-ZIERBENA_Puerto-3>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>22:00</Hour>
     </datos_indice-ZIERBENA_Puerto-3>
     <datos_indice-ZIERBENA_Puerto-4>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>21:00</Hour>
     </datos_indice-ZIERBENA_Puerto-4>
     <datos_indice-ZIERBENA_Puerto-5>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>20:00</Hour>
     </datos_indice-ZIERBENA_Puerto-5>
     <datos_indice-ZIERBENA_Puerto-6>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>19:00</Hour>
-        <COmgm3>0,22</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>7</NO2>
+        <COmgm3>0,09</COmgm3>
+        <CO8hmgm3>0,05</CO8hmgm3>
+        <NOgm3>2</NOgm3>
+        <NO2>27</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>7</NOXgm3>
-        <PM10>3,46</PM10>
+        <NOXgm3>30</NOXgm3>
+        <PM10>12,92</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>215</Dviengrados>
-        <H>91</H>
-        <PmBar>1012,8</PmBar>
-        <TC>4,1</TC>
-        <Vvienms>1,93</Vvienms>
+        <Dviengrados>178</Dviengrados>
+        <H>82</H>
+        <PmBar>1032,2</PmBar>
+        <TC>7,9</TC>
+        <Vvienms>1,08</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-ZIERBENA_Puerto-6>
     <datos_indice-ZIERBENA_Puerto-7>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>18:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>5</NO2>
+        <COmgm3>0,07</COmgm3>
+        <CO8hmgm3>0,04</CO8hmgm3>
+        <NOgm3>7</NOgm3>
+        <NO2>31</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>6</NOXgm3>
-        <PM10>3,46</PM10>
+        <NOXgm3>41</NOXgm3>
+        <PM10>12,58</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>199</Dviengrados>
-        <H>91</H>
-        <PmBar>1012,6</PmBar>
-        <TC>4,1</TC>
-        <Vvienms>1,98</Vvienms>
+        <Dviengrados>182</Dviengrados>
+        <H>78</H>
+        <PmBar>1031,9</PmBar>
+        <TC>8,4</TC>
+        <Vvienms>1,67</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-ZIERBENA_Puerto-7>
     <datos_indice-ZIERBENA_Puerto-8>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>17:00</Hour>
-        <COmgm3>0,22</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2>7</NO2>
+        <COmgm3>0,05</COmgm3>
+        <CO8hmgm3>0,03</CO8hmgm3>
+        <NOgm3>19</NOgm3>
+        <NO2>37</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>8</NOXgm3>
-        <PM10>3,38</PM10>
+        <NOXgm3>66</NOXgm3>
+        <PM10>12,13</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>211</Dviengrados>
-        <H>90</H>
-        <PmBar>1012</PmBar>
-        <TC>4,7</TC>
-        <Vvienms>1,76</Vvienms>
+        <Dviengrados>201</Dviengrados>
+        <H>76</H>
+        <PmBar>1031,9</PmBar>
+        <TC>9,3</TC>
+        <Vvienms>0,78</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-ZIERBENA_Puerto-8>
     <datos_indice-ZIERBENA_Puerto-9>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>16:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,22</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>6</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>7</NOXgm3>
-        <PM10>3,38</PM10>
+        <COmgm3>0,05</COmgm3>
+        <CO8hmgm3>0,03</CO8hmgm3>
+        <NOgm3>29</NOgm3>
+        <NO2>44</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>88</NOXgm3>
+        <PM10>11,46</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>193</Dviengrados>
-        <H>90</H>
-        <PmBar>1011,6</PmBar>
-        <TC>5</TC>
-        <Vvienms>2,55</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+        <Dviengrados>92</Dviengrados>
+        <H>65</H>
+        <PmBar>1032</PmBar>
+        <TC>11,2</TC>
+        <Vvienms>0,39</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-ZIERBENA_Puerto-9>
     <datos_indice-ZIERBENA_Puerto-10>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>15:00</Hour>
-        <COmgm3>0,2</COmgm3>
-        <CO8hmgm3>0,22</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2>5</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>6</NOXgm3>
-        <PM10>3,33</PM10>
+        <COmgm3>0,04</COmgm3>
+        <CO8hmgm3>0,02</CO8hmgm3>
+        <NOgm3>35</NOgm3>
+        <NO2>47</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>101</NOXgm3>
+        <PM10>11,46</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>206</Dviengrados>
-        <H>91</H>
-        <PmBar>1011,4</PmBar>
-        <TC>4,7</TC>
-        <Vvienms>1,44</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+        <Dviengrados>65</Dviengrados>
+        <H>64</H>
+        <PmBar>1031,7</PmBar>
+        <TC>11,9</TC>
+        <Vvienms>1,43</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-ZIERBENA_Puerto-10>
     <datos_indice-ZIERBENA_Puerto-11>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>14:00</Hour>
-        <COmgm3>0,22</COmgm3>
-        <CO8hmgm3>0,22</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2>7</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>8</NOXgm3>
-        <PM10>3,21</PM10>
+        <COmgm3>0</COmgm3>
+        <CO8hmgm3>0,02</CO8hmgm3>
+        <NOgm3>31</NOgm3>
+        <NO2>44</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>92</NOXgm3>
+        <PM10>11,88</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>197</Dviengrados>
-        <H>90</H>
-        <PmBar>1011</PmBar>
-        <TC>4,7</TC>
-        <Vvienms>2,29</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+        <Dviengrados>77</Dviengrados>
+        <H>64</H>
+        <PmBar>1031,8</PmBar>
+        <TC>11,3</TC>
+        <Vvienms>1,91</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-ZIERBENA_Puerto-11>
     <datos_indice-ZIERBENA_Puerto-12>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>13:00</Hour>
-        <COmgm3>0,22</COmgm3>
-        <CO8hmgm3>0,22</CO8hmgm3>
-        <NOgm3>2</NOgm3>
-        <NO2>8</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>10</NOXgm3>
-        <PM10>3,29</PM10>
+        <CO8hmgm3>0,03</CO8hmgm3>
+        <NOgm3>29</NOgm3>
+        <NO2>41</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>85</NOXgm3>
+        <PM10>12</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>206</Dviengrados>
-        <H>89</H>
-        <PmBar>1011</PmBar>
-        <TC>4,7</TC>
-        <Vvienms>1,76</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+        <Dviengrados>69</Dviengrados>
+        <H>65</H>
+        <PmBar>1032,5</PmBar>
+        <TC>11</TC>
+        <Vvienms>1,48</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-ZIERBENA_Puerto-12>
     <datos_indice-ZIERBENA_Puerto-13>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>12:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,22</CO8hmgm3>
-        <NOgm3>2</NOgm3>
-        <NO2>6</NO2>
+        <COmgm3>0,02</COmgm3>
+        <CO8hmgm3>0,03</CO8hmgm3>
+        <NOgm3>12</NOgm3>
+        <NO2>34</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>8</NOXgm3>
-        <PM10>3,42</PM10>
+        <NOXgm3>53</NOXgm3>
+        <PM10>12</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>236</Dviengrados>
-        <H>86</H>
-        <PmBar>1011,2</PmBar>
-        <TC>5</TC>
-        <Vvienms>2,06</Vvienms>
+        <Dviengrados>95</Dviengrados>
+        <H>65</H>
+        <PmBar>1033,1</PmBar>
+        <TC>11</TC>
+        <Vvienms>0,69</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-ZIERBENA_Puerto-13>
     <datos_indice-ZIERBENA_Puerto-14>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>11:00</Hour>
-        <COmgm3>0,22</COmgm3>
-        <CO8hmgm3>0,22</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>5</NO2>
+        <COmgm3>0,03</COmgm3>
+        <CO8hmgm3>0,03</CO8hmgm3>
+        <NOgm3>4</NOgm3>
+        <NO2>31</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>6</NOXgm3>
-        <PM10>3,33</PM10>
+        <NOXgm3>37</NOXgm3>
+        <PM10>12,17</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>247</Dviengrados>
-        <H>79</H>
-        <PmBar>1011,1</PmBar>
-        <TC>5,8</TC>
-        <Vvienms>2,74</Vvienms>
+        <Dviengrados>192</Dviengrados>
+        <H>66</H>
+        <PmBar>1033,4</PmBar>
+        <TC>10,4</TC>
+        <Vvienms>1,62</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-ZIERBENA_Puerto-14>
     <datos_indice-ZIERBENA_Puerto-15>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>10:00</Hour>
-        <COmgm3>0,23</COmgm3>
-        <CO8hmgm3>0,22</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>5</NO2>
+        <COmgm3>0,03</COmgm3>
+        <CO8hmgm3>0,04</CO8hmgm3>
+        <NOgm3>6</NOgm3>
+        <NO2>32</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>6</NOXgm3>
-        <PM10>3,33</PM10>
+        <NOXgm3>42</NOXgm3>
+        <PM10>12,17</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>248</Dviengrados>
-        <H>81</H>
-        <PmBar>1010,8</PmBar>
-        <TC>5,7</TC>
-        <Vvienms>2,41</Vvienms>
+        <Dviengrados>197</Dviengrados>
+        <H>68</H>
+        <PmBar>1033,4</PmBar>
+        <TC>9,7</TC>
+        <Vvienms>1,18</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-ZIERBENA_Puerto-15>
     <datos_indice-ZIERBENA_Puerto-16>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>09:00</Hour>
-        <COmgm3>0,23</COmgm3>
-        <CO8hmgm3>0,22</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>5</NO2>
+        <COmgm3>0,03</COmgm3>
+        <CO8hmgm3>0,04</CO8hmgm3>
+        <NOgm3>9</NOgm3>
+        <NO2>33</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>5</NOXgm3>
-        <PM10>3,29</PM10>
+        <NOXgm3>48</NOXgm3>
+        <PM10>12,08</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>247</Dviengrados>
-        <H>84</H>
-        <PmBar>1010,2</PmBar>
-        <TC>5,3</TC>
-        <Vvienms>2,5</Vvienms>
+        <Dviengrados>166</Dviengrados>
+        <H>71</H>
+        <PmBar>1033,1</PmBar>
+        <TC>9</TC>
+        <Vvienms>0,65</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-ZIERBENA_Puerto-16>
     <datos_indice-ZIERBENA_Puerto-17>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>08:00</Hour>
-        <COmgm3>0,23</COmgm3>
-        <CO8hmgm3>0,22</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>7</NO2>
+        <COmgm3>0,03</COmgm3>
+        <CO8hmgm3>0,05</CO8hmgm3>
+        <NOgm3>6</NOgm3>
+        <NO2>32</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>7</NOXgm3>
-        <PM10>3,25</PM10>
+        <NOXgm3>41</NOXgm3>
+        <PM10>12,25</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>242</Dviengrados>
-        <H>87</H>
-        <PmBar>1010</PmBar>
-        <TC>4,7</TC>
-        <Vvienms>1,79</Vvienms>
+        <Dviengrados>168</Dviengrados>
+        <H>70</H>
+        <PmBar>1032,7</PmBar>
+        <TC>8,8</TC>
+        <Vvienms>0,55</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-ZIERBENA_Puerto-17>
     <datos_indice-ZIERBENA_Puerto-18>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>07:00</Hour>
-        <COmgm3>0,23</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>10</NO2>
+        <COmgm3>0,04</COmgm3>
+        <CO8hmgm3>0,05</CO8hmgm3>
+        <NOgm3>2</NOgm3>
+        <NO2>26</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>10</NOXgm3>
-        <PM10>3,25</PM10>
+        <NOXgm3>30</NOXgm3>
+        <PM10>12,75</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>252</Dviengrados>
-        <H>87</H>
-        <PmBar>1009,7</PmBar>
-        <TC>4,7</TC>
-        <Vvienms>2,13</Vvienms>
+        <Dviengrados>181</Dviengrados>
+        <H>70</H>
+        <PmBar>1032,4</PmBar>
+        <TC>9</TC>
+        <Vvienms>0,89</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-ZIERBENA_Puerto-18>
     <datos_indice-ZIERBENA_Puerto-19>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>06:00</Hour>
-        <COmgm3>0,23</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>8</NO2>
+        <COmgm3>0,04</COmgm3>
+        <CO8hmgm3>0,06</CO8hmgm3>
+        <NOgm3>2</NOgm3>
+        <NO2>21</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>8</NOXgm3>
-        <PM10>3,25</PM10>
+        <NOXgm3>24</NOXgm3>
+        <PM10>13,71</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>229</Dviengrados>
-        <H>89</H>
-        <PmBar>1009,4</PmBar>
-        <TC>4,4</TC>
-        <Vvienms>1,19</Vvienms>
+        <Dviengrados>171</Dviengrados>
+        <H>69</H>
+        <PmBar>1032,2</PmBar>
+        <TC>9,3</TC>
+        <Vvienms>0,68</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-ZIERBENA_Puerto-19>
     <datos_indice-ZIERBENA_Puerto-20>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>05:00</Hour>
-        <COmgm3>0,22</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>14</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>14</NOXgm3>
-        <PM10>3,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>194</Dviengrados>
-        <H>89</H>
-        <PmBar>1009,4</PmBar>
-        <TC>4,1</TC>
-        <Vvienms>1,52</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-20>
-    <datos_indice-ZIERBENA_Puerto-21>
-        <Date>04/01/2021</Date>
-        <Hour>04:00</Hour>
-        <COmgm3>0,22</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>11</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>12</NOXgm3>
-        <PM10>3,38</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>177</Dviengrados>
-        <H>89</H>
-        <PmBar>1009,9</PmBar>
-        <TC>4,1</TC>
-        <Vvienms>2,31</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-21>
-    <datos_indice-ZIERBENA_Puerto-22>
-        <Date>04/01/2021</Date>
-        <Hour>03:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>15</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>15</NOXgm3>
-        <PM10>3,5</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>179</Dviengrados>
-        <H>89</H>
-        <PmBar>1010,6</PmBar>
-        <TC>4</TC>
-        <Vvienms>2,47</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-22>
-    <datos_indice-ZIERBENA_Puerto-23>
-        <Date>04/01/2021</Date>
-        <Hour>02:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>9</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>10</NOXgm3>
-        <PM10>3,58</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>183</Dviengrados>
-        <H>86</H>
-        <PmBar>1011</PmBar>
-        <TC>4,4</TC>
-        <Vvienms>1,46</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-23>
-    <datos_indice-ZIERBENA_Puerto-24>
-        <Date>04/01/2021</Date>
-        <Hour>01:00</Hour>
-        <COmgm3>0,2</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>7</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>8</NOXgm3>
-        <PM10>3,38</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>205</Dviengrados>
-        <H>85</H>
-        <PmBar>1011,4</PmBar>
-        <TC>4,7</TC>
-        <Vvienms>1,04</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-24>
-    <datos_indice-ZIERBENA_Puerto-25>
-        <Date>03/01/2021</Date>
-        <Hour>24:00</Hour>
-        <COmgm3>0,2</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>10</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>10</NOXgm3>
-        <PM10>3,38</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>184</Dviengrados>
-        <H>86</H>
-        <PmBar>1011,6</PmBar>
-        <TC>4,7</TC>
-        <Vvienms>1,37</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-25>
-    <datos_indice-ZIERBENA_Puerto-26>
-        <Date>03/01/2021</Date>
-        <Hour>23:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,19</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>15</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>16</NOXgm3>
-        <PM10>3,38</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>208</Dviengrados>
-        <H>86</H>
-        <PmBar>1012,2</PmBar>
-        <TC>4,6</TC>
-        <Vvienms>0,86</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-26>
-    <datos_indice-ZIERBENA_Puerto-27>
-        <Date>03/01/2021</Date>
-        <Hour>22:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,19</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>14</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>14</NOXgm3>
-        <PM10>3,42</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>196</Dviengrados>
-        <H>86</H>
-        <PmBar>1012,5</PmBar>
-        <TC>4,6</TC>
-        <Vvienms>1,58</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-27>
-    <datos_indice-ZIERBENA_Puerto-28>
-        <Date>03/01/2021</Date>
-        <Hour>21:00</Hour>
-        <COmgm3>0,23</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>15</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>15</NOXgm3>
-        <PM10>3,67</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>199</Dviengrados>
-        <H>85</H>
-        <PmBar>1012,6</PmBar>
-        <TC>4,8</TC>
-        <Vvienms>1,48</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-28>
-    <datos_indice-ZIERBENA_Puerto-29>
-        <Date>03/01/2021</Date>
-        <Hour>20:00</Hour>
-        <COmgm3>0,2</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>7</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>8</NOXgm3>
-        <PM10>3,92</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>233</Dviengrados>
-        <H>86</H>
-        <PmBar>1013</PmBar>
-        <TC>4,9</TC>
-        <Vvienms>1,59</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-29>
-    <datos_indice-ZIERBENA_Puerto-30>
-        <Date>03/01/2021</Date>
-        <Hour>19:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,19</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>9</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>10</NOXgm3>
-        <PM10>4,42</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>184</Dviengrados>
-        <H>88</H>
-        <PmBar>1012,9</PmBar>
-        <TC>4,4</TC>
-        <Vvienms>1,76</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-30>
-    <datos_indice-ZIERBENA_Puerto-31>
-        <Date>03/01/2021</Date>
-        <Hour>18:00</Hour>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,19</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2>11</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>12</NOXgm3>
-        <PM10>5</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>209</Dviengrados>
-        <H>86</H>
-        <PmBar>1013,2</PmBar>
-        <TC>4,7</TC>
-        <Vvienms>1,5</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-31>
-    <datos_indice-ZIERBENA_Puerto-32>
-        <Date>03/01/2021</Date>
-        <Hour>17:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>11</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>11</NOXgm3>
-        <PM10>5,42</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>212</Dviengrados>
-        <H>86</H>
-        <PmBar>1013,1</PmBar>
-        <TC>4,7</TC>
-        <Vvienms>1,8</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-32>
-    <datos_indice-ZIERBENA_Puerto-33>
-        <Date>03/01/2021</Date>
-        <Hour>16:00</Hour>
-        <COmgm3>0,15</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>5</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>6</NOXgm3>
-        <PM10>5,92</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>236</Dviengrados>
-        <H>84</H>
-        <PmBar>1013,1</PmBar>
-        <TC>5,4</TC>
-        <Vvienms>1,71</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-33>
-    <datos_indice-ZIERBENA_Puerto-34>
-        <Date>03/01/2021</Date>
-        <Hour>15:00</Hour>
-        <COmgm3>0,15</COmgm3>
-        <CO8hmgm3>0,22</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>4</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>5</NOXgm3>
-        <PM10>6,5</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>241</Dviengrados>
-        <H>85</H>
-        <PmBar>1013,1</PmBar>
-        <TC>5,7</TC>
-        <Vvienms>1,35</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-34>
-    <datos_indice-ZIERBENA_Puerto-35>
-        <Date>03/01/2021</Date>
-        <Hour>14:00</Hour>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,23</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>5</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>6</NOXgm3>
-        <PM10>6,75</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>235</Dviengrados>
-        <H>86</H>
-        <PmBar>1013,3</PmBar>
-        <TC>5,7</TC>
-        <Vvienms>1,68</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-35>
-    <datos_indice-ZIERBENA_Puerto-36>
-        <Date>03/01/2021</Date>
-        <Hour>13:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,24</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2>8</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>10</NOXgm3>
-        <PM10>6,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>201</Dviengrados>
-        <H>86</H>
-        <PmBar>1013,9</PmBar>
-        <TC>5,8</TC>
-        <Vvienms>1,03</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-36>
-    <datos_indice-ZIERBENA_Puerto-37>
-        <Date>03/01/2021</Date>
-        <Hour>12:00</Hour>
-        <COmgm3>0,24</COmgm3>
-        <CO8hmgm3>0,24</CO8hmgm3>
-        <NOgm3>3</NOgm3>
-        <NO2>12</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>16</NOXgm3>
-        <PM10>6,92</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>183</Dviengrados>
-        <H>88</H>
-        <PmBar>1014,5</PmBar>
-        <TC>6,5</TC>
-        <Vvienms>1,88</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-37>
-    <datos_indice-ZIERBENA_Puerto-38>
-        <Date>03/01/2021</Date>
-        <Hour>11:00</Hour>
-        <COmgm3>0,24</COmgm3>
-        <CO8hmgm3>0,24</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>5</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>7</NOXgm3>
-        <PM10>7,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>229</Dviengrados>
-        <H>88</H>
-        <PmBar>1015,5</PmBar>
-        <TC>5</TC>
-        <Vvienms>1,39</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-38>
-    <datos_indice-ZIERBENA_Puerto-39>
-        <Date>03/01/2021</Date>
-        <Hour>10:00</Hour>
-        <COmgm3>0,24</COmgm3>
-        <CO8hmgm3>0,24</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>9</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>10</NOXgm3>
-        <PM10>7,54</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>218</Dviengrados>
-        <H>87</H>
-        <PmBar>1015,5</PmBar>
-        <TC>5</TC>
-        <Vvienms>1,68</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-39>
-    <datos_indice-ZIERBENA_Puerto-40>
-        <Date>03/01/2021</Date>
-        <Hour>09:00</Hour>
-        <COmgm3>0,24</COmgm3>
-        <CO8hmgm3>0,25</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2>12</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>14</NOXgm3>
-        <PM10>7,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>192</Dviengrados>
-        <H>88</H>
-        <PmBar>1015,3</PmBar>
-        <TC>5</TC>
-        <Vvienms>2,17</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-40>
-    <datos_indice-ZIERBENA_Puerto-41>
-        <Date>03/01/2021</Date>
-        <Hour>08:00</Hour>
-        <COmgm3>0,24</COmgm3>
-        <CO8hmgm3>0,25</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2>19</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>19</NOXgm3>
-        <PM10>8,29</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>199</Dviengrados>
-        <H>88</H>
-        <PmBar>1015,3</PmBar>
-        <TC>4,9</TC>
-        <Vvienms>1,94</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-41>
-    <datos_indice-ZIERBENA_Puerto-42>
-        <Date>03/01/2021</Date>
-        <Hour>07:00</Hour>
-        <COmgm3>0,24</COmgm3>
-        <CO8hmgm3>0,26</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>5</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>6</NOXgm3>
-        <PM10>8,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>224</Dviengrados>
-        <H>87</H>
-        <PmBar>1015,3</PmBar>
-        <TC>5,3</TC>
-        <Vvienms>1,67</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-42>
-    <datos_indice-ZIERBENA_Puerto-43>
-        <Date>03/01/2021</Date>
-        <Hour>06:00</Hour>
-        <COmgm3>0,24</COmgm3>
-        <CO8hmgm3>0,26</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>8</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>8</NOXgm3>
-        <PM10>9,33</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>214</Dviengrados>
-        <H>91</H>
-        <PmBar>1015,4</PmBar>
-        <TC>5</TC>
-        <Vvienms>1,7</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-43>
-    <datos_indice-ZIERBENA_Puerto-44>
-        <Date>03/01/2021</Date>
-        <Hour>05:00</Hour>
-        <COmgm3>0,25</COmgm3>
-        <CO8hmgm3>0,26</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>20</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>21</NOXgm3>
-        <PM10>9,75</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>205</Dviengrados>
-        <H>91</H>
-        <PmBar>1016</PmBar>
-        <TC>5,1</TC>
-        <Vvienms>1,52</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-44>
-    <datos_indice-ZIERBENA_Puerto-45>
-        <Date>03/01/2021</Date>
-        <Hour>04:00</Hour>
-        <COmgm3>0,25</COmgm3>
-        <CO8hmgm3>0,26</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>20</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>21</NOXgm3>
-        <PM10>9,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>192</Dviengrados>
-        <H>91</H>
-        <PmBar>1016,4</PmBar>
-        <TC>4,6</TC>
-        <Vvienms>0,87</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-45>
-    <datos_indice-ZIERBENA_Puerto-46>
-        <Date>03/01/2021</Date>
-        <Hour>03:00</Hour>
-        <COmgm3>0,25</COmgm3>
-        <CO8hmgm3>0,26</CO8hmgm3>
-        <NOgm3>0</NOgm3>
-        <NO2>16</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>17</NOXgm3>
-        <PM10>9,71</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>99</Dviengrados>
-        <H>90</H>
-        <PmBar>1017,1</PmBar>
-        <TC>4,4</TC>
-        <Vvienms>1,59</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-46>
-    <datos_indice-ZIERBENA_Puerto-47>
-        <Date>03/01/2021</Date>
-        <Hour>02:00</Hour>
-        <COmgm3>0,28</COmgm3>
-        <CO8hmgm3>0,26</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2>29</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>31</NOXgm3>
-        <PM10>9,63</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>200</Dviengrados>
-        <H>90</H>
-        <PmBar>1017,2</PmBar>
-        <TC>4,3</TC>
-        <Vvienms>2,1</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-47>
-    <datos_indice-ZIERBENA_Puerto-48>
-        <Date>03/01/2021</Date>
-        <Hour>01:00</Hour>
-        <COmgm3>0,29</COmgm3>
-        <CO8hmgm3>0,26</CO8hmgm3>
+        <COmgm3>0,04</COmgm3>
+        <CO8hmgm3>0,07</CO8hmgm3>
         <NOgm3>1</NOgm3>
         <NO2>18</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
         <NOXgm3>19</NOXgm3>
-        <PM10>9,67</PM10>
+        <PM10>15</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>188</Dviengrados>
-        <H>90</H>
-        <PmBar>1017,9</PmBar>
-        <TC>4,4</TC>
-        <Vvienms>1,61</Vvienms>
+        <Dviengrados>212</Dviengrados>
+        <H>68</H>
+        <PmBar>1032,2</PmBar>
+        <TC>9,5</TC>
+        <Vvienms>1,76</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZIERBENA_Puerto-48>
+    </datos_indice-ZIERBENA_Puerto-20>
+    <datos_indice-ZIERBENA_Puerto-21>
+        <Date>13/01/2021</Date>
+        <Hour>04:00</Hour>
+        <COmgm3>0,04</COmgm3>
+        <CO8hmgm3>0,07</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NO2>17</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>18</NOXgm3>
+        <PM10>16,04</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <Dviengrados>213</Dviengrados>
+        <H>69</H>
+        <PmBar>1032,3</PmBar>
+        <TC>9,5</TC>
+        <Vvienms>1,57</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZIERBENA_Puerto-21>
+    <datos_indice-ZIERBENA_Puerto-22>
+        <Date>13/01/2021</Date>
+        <Hour>03:00</Hour>
+        <COmgm3>0,05</COmgm3>
+        <CO8hmgm3>0,08</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NO2>20</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>21</NOXgm3>
+        <PM10>16,38</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <Dviengrados>207</Dviengrados>
+        <H>68</H>
+        <PmBar>1032,2</PmBar>
+        <TC>9,4</TC>
+        <Vvienms>1,9</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZIERBENA_Puerto-22>
+    <datos_indice-ZIERBENA_Puerto-23>
+        <Date>13/01/2021</Date>
+        <Hour>02:00</Hour>
+        <COmgm3>0,08</COmgm3>
+        <CO8hmgm3>0,08</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NO2>18</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>19</NOXgm3>
+        <PM10>16,79</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <Dviengrados>216</Dviengrados>
+        <H>67</H>
+        <PmBar>1032</PmBar>
+        <TC>9,4</TC>
+        <Vvienms>1,66</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZIERBENA_Puerto-23>
+    <datos_indice-ZIERBENA_Puerto-24>
+        <Date>13/01/2021</Date>
+        <Hour>01:00</Hour>
+        <COmgm3>0,08</COmgm3>
+        <CO8hmgm3>0,08</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NO2>16</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>17</NOXgm3>
+        <PM10>17,58</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <Dviengrados>198</Dviengrados>
+        <H>66</H>
+        <PmBar>1032,4</PmBar>
+        <TC>9,4</TC>
+        <Vvienms>1,9</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-ZIERBENA_Puerto-24>
 </datos_indice-ZIERBENA_Puerto>

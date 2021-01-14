@@ -1,917 +1,438 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_indice-AZPEITIA>
     <datos_indice-AZPEITIA-1>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>24:00</Hour>
     </datos_indice-AZPEITIA-1>
     <datos_indice-AZPEITIA-2>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>23:00</Hour>
     </datos_indice-AZPEITIA-2>
     <datos_indice-AZPEITIA-3>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>22:00</Hour>
     </datos_indice-AZPEITIA-3>
     <datos_indice-AZPEITIA-4>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>21:00</Hour>
     </datos_indice-AZPEITIA-4>
     <datos_indice-AZPEITIA-5>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>20:00</Hour>
     </datos_indice-AZPEITIA-5>
     <datos_indice-AZPEITIA-6>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>19:00</Hour>
-        <NOgm3>7</NOgm3>
+        <NOgm3>12</NOgm3>
         <NO2>30</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>41</NOXgm3>
-        <O3gm3>36</O3gm3>
-        <OZONO>36</OZONO>
+        <NOXgm3>48</NOXgm3>
+        <O3gm3>17</O3gm3>
+        <OZONO>17</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>33</O38hgm3>
-        <PM10>7,08</PM10>
+        <O38hgm3>20</O38hgm3>
+        <PM10>16,08</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>118</Dviengrados>
-        <H>97</H>
-        <PmBar>1001,6</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
+        <Dviengrados>143</Dviengrados>
+        <H>91</H>
+        <PmBar>1021,5</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
         <Rwm2>0,5</Rwm2>
-        <TC>1,8</TC>
-        <Vvienms>0,66</Vvienms>
+        <TC>8</TC>
+        <Vvienms>0,81</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
     </datos_indice-AZPEITIA-6>
     <datos_indice-AZPEITIA-7>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>18:00</Hour>
-        <NOgm3>13</NOgm3>
-        <NO2>41</NO2>
-        <NO2ICA>Bueno / Ona</NO2ICA>
-        <NOXgm3>60</NOXgm3>
-        <O3gm3>25</O3gm3>
-        <OZONO>25</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>34</O38hgm3>
-        <PM10>7,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>239</Dviengrados>
-        <H>97</H>
-        <PmBar>1001,1</PmBar>
-        <Precipitacionlm2>0,9</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>2,2</TC>
-        <Vvienms>1,27</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-AZPEITIA-7>
-    <datos_indice-AZPEITIA-8>
-        <Date>04/01/2021</Date>
-        <Hour>17:00</Hour>
-        <NOgm3>10</NOgm3>
-        <NO2>37</NO2>
+        <NOgm3>16</NOgm3>
+        <NO2>39</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>53</NOXgm3>
-        <O3gm3>23</O3gm3>
-        <OZONO>23</OZONO>
+        <NOXgm3>62</NOXgm3>
+        <O3gm3>15</O3gm3>
+        <OZONO>15</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>34</O38hgm3>
-        <PM10>7,13</PM10>
+        <O38hgm3>19</O38hgm3>
+        <PM10>16,29</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>137</Dviengrados>
-        <H>97</H>
-        <PmBar>1000,6</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>3,1</Rwm2>
-        <TC>1,9</TC>
-        <Vvienms>0,98</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-8>
-    <datos_indice-AZPEITIA-9>
-        <Date>04/01/2021</Date>
-        <Hour>16:00</Hour>
-        <NOgm3>12</NOgm3>
-        <NO2>40</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>58</NOXgm3>
-        <O3ICA>Sin datos / Daturik gabe</O3ICA>
-        <O38hgm3>33</O38hgm3>
-        <PM10>6,92</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>126</Dviengrados>
-        <H>97</H>
-        <PmBar>1000,2</PmBar>
-        <Precipitacionlm2>0,5</Precipitacionlm2>
-        <Rwm2>7,9</Rwm2>
-        <TC>1,8</TC>
-        <Vvienms>1,36</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-9>
-    <datos_indice-AZPEITIA-10>
-        <Date>04/01/2021</Date>
-        <Hour>15:00</Hour>
-        <NOgm3>10</NOgm3>
-        <NO2>28</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>43</NOXgm3>
-        <O3gm3>35</O3gm3>
-        <OZONO>35</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>32</O38hgm3>
-        <PM10>6,71</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>135</Dviengrados>
-        <H>96</H>
-        <PmBar>999,7</PmBar>
-        <Precipitacionlm2>0,7</Precipitacionlm2>
-        <Rwm2>20,8</Rwm2>
-        <TC>2,7</TC>
-        <Vvienms>1,93</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-10>
-    <datos_indice-AZPEITIA-11>
-        <Date>04/01/2021</Date>
-        <Hour>14:00</Hour>
-        <NOgm3>7</NOgm3>
-        <NO2>25</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>36</NOXgm3>
-        <O3gm3>37</O3gm3>
-        <OZONO>37</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>33</O38hgm3>
-        <PM10>6,5</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>148</Dviengrados>
-        <H>95</H>
-        <PmBar>999,2</PmBar>
-        <Precipitacionlm2>0,5</Precipitacionlm2>
-        <Rwm2>57,2</Rwm2>
-        <TC>2,8</TC>
-        <Vvienms>1,4</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-11>
-    <datos_indice-AZPEITIA-12>
-        <Date>04/01/2021</Date>
-        <Hour>13:00</Hour>
-        <NOgm3>15</NOgm3>
-        <NO2>27</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>50</NOXgm3>
-        <O3gm3>37</O3gm3>
-        <OZONO>37</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>36</O38hgm3>
-        <PM10>6,38</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>136</Dviengrados>
-        <H>94</H>
-        <PmBar>999,5</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>85,8</Rwm2>
-        <TC>2,9</TC>
-        <Vvienms>1,26</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-12>
-    <datos_indice-AZPEITIA-13>
-        <Date>04/01/2021</Date>
-        <Hour>12:00</Hour>
-        <NOgm3>6</NOgm3>
-        <NO2>27</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>36</NOXgm3>
-        <O3gm3>41</O3gm3>
-        <OZONO>41</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>38</O38hgm3>
-        <PM10>6,17</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>185</Dviengrados>
-        <H>92</H>
-        <PmBar>999,9</PmBar>
-        <Precipitacionlm2>0,9</Precipitacionlm2>
-        <Rwm2>18,8</Rwm2>
-        <TC>3,5</TC>
-        <Vvienms>0,21</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-13>
-    <datos_indice-AZPEITIA-14>
-        <Date>04/01/2021</Date>
-        <Hour>11:00</Hour>
-        <NOgm3>8</NOgm3>
-        <NO2>26</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>38</NOXgm3>
-        <O3gm3>40</O3gm3>
-        <OZONO>40</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>40</O38hgm3>
-        <PM10>6,33</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>138</Dviengrados>
-        <H>93</H>
-        <PmBar>1000</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>62,8</Rwm2>
-        <TC>3,6</TC>
-        <Vvienms>0,53</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-14>
-    <datos_indice-AZPEITIA-15>
-        <Date>04/01/2021</Date>
-        <Hour>10:00</Hour>
-        <NOgm3>12</NOgm3>
-        <NO2>38</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>56</NOXgm3>
-        <O3gm3>25</O3gm3>
-        <OZONO>25</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>41</O38hgm3>
-        <PM10>6,42</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>139</Dviengrados>
-        <H>95</H>
-        <PmBar>999,8</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>47,8</Rwm2>
-        <TC>3</TC>
-        <Vvienms>1,08</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-15>
-    <datos_indice-AZPEITIA-16>
-        <Date>04/01/2021</Date>
-        <Hour>09:00</Hour>
-        <NOgm3>20</NOgm3>
-        <NO2>50</NO2>
-        <NO2ICA>Bueno / Ona</NO2ICA>
-        <NOXgm3>81</NOXgm3>
-        <O3gm3>13</O3gm3>
-        <OZONO>13</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>44</O38hgm3>
-        <PM10>6,33</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>153</Dviengrados>
-        <H>96</H>
-        <PmBar>999,4</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>11</Rwm2>
-        <TC>2,8</TC>
-        <Vvienms>0,48</Vvienms>
-        <ICAEstacion>Bueno / Ona</ICAEstacion>
-    </datos_indice-AZPEITIA-16>
-    <datos_indice-AZPEITIA-17>
-        <Date>04/01/2021</Date>
-        <Hour>08:00</Hour>
-        <NOgm3>8</NOgm3>
-        <NO2>38</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>50</NOXgm3>
-        <O3gm3>26</O3gm3>
-        <OZONO>26</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>49</O38hgm3>
-        <PM10>6,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>227</Dviengrados>
-        <H>95</H>
-        <PmBar>999,1</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>1,2</Rwm2>
-        <TC>2,3</TC>
-        <Vvienms>0,71</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-17>
-    <datos_indice-AZPEITIA-18>
-        <Date>04/01/2021</Date>
-        <Hour>07:00</Hour>
-        <NOgm3>4</NOgm3>
-        <NO2>25</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>30</NOXgm3>
-        <O3gm3>43</O3gm3>
-        <OZONO>43</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>51</O38hgm3>
-        <PM10>6,17</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>195</Dviengrados>
-        <H>94</H>
-        <PmBar>999,2</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>2,3</TC>
-        <Vvienms>0,13</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-18>
-    <datos_indice-AZPEITIA-19>
-        <Date>04/01/2021</Date>
-        <Hour>06:00</Hour>
-        <NOgm3>2</NOgm3>
-        <NO2>10</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>14</NOXgm3>
-        <O3gm3>59</O3gm3>
-        <OZONO>59</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>51</O38hgm3>
-        <PM10>6,17</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>267</Dviengrados>
-        <H>93</H>
-        <PmBar>999,2</PmBar>
-        <Precipitacionlm2>0,9</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>2,8</TC>
-        <Vvienms>0,67</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-19>
-    <datos_indice-AZPEITIA-20>
-        <Date>04/01/2021</Date>
-        <Hour>05:00</Hour>
-        <NOgm3>2</NOgm3>
-        <NO2>10</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>12</NOXgm3>
-        <O3gm3>57</O3gm3>
-        <OZONO>57</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>50</O38hgm3>
-        <PM10>6,25</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>248</Dviengrados>
-        <H>92</H>
-        <PmBar>999,4</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>3,2</TC>
-        <Vvienms>0,65</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-20>
-    <datos_indice-AZPEITIA-21>
-        <Date>04/01/2021</Date>
-        <Hour>04:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>4</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>6</NOXgm3>
-        <O3gm3>58</O3gm3>
-        <OZONO>58</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>48</O38hgm3>
-        <PM10>6,38</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>212</Dviengrados>
-        <H>93</H>
-        <PmBar>1000</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>3,5</TC>
-        <Vvienms>0,47</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-21>
-    <datos_indice-AZPEITIA-22>
-        <Date>04/01/2021</Date>
-        <Hour>03:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>7</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>9</NOXgm3>
-        <O3gm3>47</O3gm3>
-        <OZONO>47</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>47</O38hgm3>
-        <PM10>6,42</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>142</Dviengrados>
-        <H>95</H>
-        <PmBar>1000,4</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>3,5</TC>
-        <Vvienms>0,8</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-22>
-    <datos_indice-AZPEITIA-23>
-        <Date>04/01/2021</Date>
-        <Hour>02:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>5</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>7</NOXgm3>
-        <O3gm3>48</O3gm3>
-        <OZONO>48</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>46</O38hgm3>
-        <PM10>6,5</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>228</Dviengrados>
-        <H>95</H>
-        <PmBar>1000,4</PmBar>
+        <Dviengrados>140</Dviengrados>
+        <H>89</H>
+        <PmBar>1021,3</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>3,5</TC>
+        <Rwm2>0,6</Rwm2>
+        <TC>8,7</TC>
         <Vvienms>0,76</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-23>
-    <datos_indice-AZPEITIA-24>
-        <Date>04/01/2021</Date>
-        <Hour>01:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NO2>4</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>6</NOXgm3>
-        <O3gm3>52</O3gm3>
-        <OZONO>52</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>46</O38hgm3>
-        <PM10>6,63</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>178</Dviengrados>
-        <H>94</H>
-        <PmBar>1000,8</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>3,5</TC>
-        <Vvienms>0,32</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-24>
-    <datos_indice-AZPEITIA-25>
-        <Date>03/01/2021</Date>
-        <Hour>24:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>11</NOXgm3>
-        <O3gm3>46</O3gm3>
-        <OZONO>46</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>44</O38hgm3>
-        <PM10>6,79</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>162</Dviengrados>
-        <H>94</H>
-        <PmBar>1001,4</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>3,7</TC>
-        <Vvienms>0,6</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-25>
-    <datos_indice-AZPEITIA-26>
-        <Date>03/01/2021</Date>
-        <Hour>23:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>12</NOXgm3>
-        <O3gm3>42</O3gm3>
-        <OZONO>42</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>44</O38hgm3>
-        <PM10>6,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>221</Dviengrados>
-        <H>94</H>
-        <PmBar>1001,8</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>3,7</TC>
-        <Vvienms>0,53</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-26>
-    <datos_indice-AZPEITIA-27>
-        <Date>03/01/2021</Date>
-        <Hour>22:00</Hour>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>16</NOXgm3>
-        <O3gm3>46</O3gm3>
-        <OZONO>46</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>44</O38hgm3>
-        <PM10>6,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>163</Dviengrados>
-        <H>92</H>
-        <PmBar>1001,9</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>4</TC>
-        <Vvienms>0,67</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-27>
-    <datos_indice-AZPEITIA-28>
-        <Date>03/01/2021</Date>
-        <Hour>21:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>15</NOXgm3>
-        <O3gm3>48</O3gm3>
-        <OZONO>48</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>44</O38hgm3>
-        <PM10>7</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>133</Dviengrados>
-        <H>92</H>
-        <PmBar>1002,1</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>4,2</TC>
-        <Vvienms>1,12</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-28>
-    <datos_indice-AZPEITIA-29>
-        <Date>03/01/2021</Date>
-        <Hour>20:00</Hour>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>29</NOXgm3>
-        <O3gm3>47</O3gm3>
-        <OZONO>47</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>43</O38hgm3>
-        <PM10>7,33</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>182</Dviengrados>
-        <H>89</H>
-        <PmBar>1002,4</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>4,5</TC>
-        <Vvienms>0,86</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-29>
-    <datos_indice-AZPEITIA-30>
-        <Date>03/01/2021</Date>
-        <Hour>19:00</Hour>
-        <NOgm3>6</NOgm3>
-        <NOXgm3>41</NOXgm3>
-        <O3gm3>37</O3gm3>
-        <OZONO>37</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>39</O38hgm3>
-        <PM10>7,63</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>139</Dviengrados>
-        <H>88</H>
-        <PmBar>1002,2</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>4,8</TC>
-        <Vvienms>0,26</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-30>
-    <datos_indice-AZPEITIA-31>
-        <Date>03/01/2021</Date>
-        <Hour>18:00</Hour>
-        <NOgm3>6</NOgm3>
-        <NOXgm3>35</NOXgm3>
-        <O3gm3>46</O3gm3>
-        <OZONO>46</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>38</O38hgm3>
-        <PM10>7,71</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>173</Dviengrados>
-        <H>87</H>
-        <PmBar>1002</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,5</Rwm2>
-        <TC>4,9</TC>
-        <Vvienms>0,92</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-31>
-    <datos_indice-AZPEITIA-32>
-        <Date>03/01/2021</Date>
+    </datos_indice-AZPEITIA-7>
+    <datos_indice-AZPEITIA-8>
+        <Date>13/01/2021</Date>
         <Hour>17:00</Hour>
-        <NOgm3>5</NOgm3>
-        <NOXgm3>32</NOXgm3>
-        <O3gm3>39</O3gm3>
-        <OZONO>39</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>34</O38hgm3>
-        <PM10>7,88</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>215</Dviengrados>
-        <H>89</H>
-        <PmBar>1002,1</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>9,9</Rwm2>
-        <TC>5,2</TC>
-        <Vvienms>0,98</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-32>
-    <datos_indice-AZPEITIA-33>
-        <Date>03/01/2021</Date>
-        <Hour>16:00</Hour>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>24</NOXgm3>
-        <O3ICA>Sin datos / Daturik gabe</O3ICA>
-        <O38hgm3>31</O38hgm3>
-        <PM10>8,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>236</Dviengrados>
-        <H>87</H>
-        <PmBar>1001,9</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>19,8</Rwm2>
-        <TC>5,6</TC>
-        <Vvienms>1,57</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-33>
-    <datos_indice-AZPEITIA-34>
-        <Date>03/01/2021</Date>
-        <Hour>15:00</Hour>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>20</NOXgm3>
-        <O3gm3>46</O3gm3>
-        <OZONO>46</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>29</O38hgm3>
-        <PM10>8,33</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>250</Dviengrados>
-        <H>88</H>
-        <PmBar>1001,8</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>62,4</Rwm2>
-        <TC>5,6</TC>
-        <Vvienms>1,96</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-34>
-    <datos_indice-AZPEITIA-35>
-        <Date>03/01/2021</Date>
-        <Hour>14:00</Hour>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>20</NOXgm3>
-        <O3gm3>44</O3gm3>
-        <OZONO>44</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>26</O38hgm3>
-        <PM10>8,54</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>257</Dviengrados>
-        <H>85</H>
-        <PmBar>1002,3</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>62,5</Rwm2>
-        <TC>6</TC>
-        <Vvienms>1,35</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-35>
-    <datos_indice-AZPEITIA-36>
-        <Date>03/01/2021</Date>
-        <Hour>13:00</Hour>
-        <NOgm3>8</NOgm3>
-        <NOXgm3>31</NOXgm3>
-        <O3gm3>40</O3gm3>
-        <OZONO>40</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>23</O38hgm3>
-        <PM10>8,79</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>241</Dviengrados>
-        <H>87</H>
-        <PmBar>1003,1</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>121,6</Rwm2>
-        <TC>5,5</TC>
-        <Vvienms>1,85</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-36>
-    <datos_indice-AZPEITIA-37>
-        <Date>03/01/2021</Date>
-        <Hour>12:00</Hour>
-        <NOgm3>15</NOgm3>
-        <NOXgm3>53</NOXgm3>
-        <O3gm3>22</O3gm3>
-        <OZONO>22</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>20</O38hgm3>
-        <PM10>8,96</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>237</Dviengrados>
-        <H>93</H>
-        <PmBar>1003,6</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>82,5</Rwm2>
-        <TC>4,9</TC>
-        <Vvienms>1,31</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-37>
-    <datos_indice-AZPEITIA-38>
-        <Date>03/01/2021</Date>
-        <Hour>11:00</Hour>
-        <NOgm3>8</NOgm3>
-        <NOXgm3>34</NOXgm3>
-        <O3gm3>26</O3gm3>
-        <OZONO>26</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>20</O38hgm3>
-        <PM10>9,04</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>228</Dviengrados>
-        <H>94</H>
-        <PmBar>1004,3</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>79</Rwm2>
-        <TC>4</TC>
-        <Vvienms>0,91</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-38>
-    <datos_indice-AZPEITIA-39>
-        <Date>03/01/2021</Date>
-        <Hour>10:00</Hour>
-        <NOgm3>7</NOgm3>
-        <NOXgm3>30</NOXgm3>
-        <O3gm3>24</O3gm3>
-        <OZONO>24</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>20</O38hgm3>
-        <PM10>9,17</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>198</Dviengrados>
-        <H>95</H>
-        <PmBar>1004,5</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>47,2</Rwm2>
-        <TC>3,3</TC>
-        <Vvienms>1,08</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-39>
-    <datos_indice-AZPEITIA-40>
-        <Date>03/01/2021</Date>
-        <Hour>09:00</Hour>
-        <NOgm3>6</NOgm3>
-        <NOXgm3>28</NOXgm3>
-        <O3gm3>18</O3gm3>
-        <OZONO>18</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>20</O38hgm3>
-        <PM10>9,25</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>193</Dviengrados>
-        <H>96</H>
-        <PmBar>1004,6</PmBar>
-        <Precipitacionlm2>0,5</Precipitacionlm2>
-        <Rwm2>18,7</Rwm2>
-        <TC>2,6</TC>
-        <Vvienms>0,6</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-40>
-    <datos_indice-AZPEITIA-41>
-        <Date>03/01/2021</Date>
-        <Hour>08:00</Hour>
-        <NOgm3>6</NOgm3>
-        <NOXgm3>26</NOXgm3>
+        <NOgm3>43</NOgm3>
+        <NO2>52</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>117</NOXgm3>
         <O3gm3>14</O3gm3>
         <OZONO>14</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>20</O38hgm3>
-        <PM10>9,29</PM10>
+        <O38hgm3>17</O38hgm3>
+        <PM10>17,04</PM10>
         <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>235</Dviengrados>
-        <H>96</H>
-        <PmBar>1004,5</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>1,3</Rwm2>
-        <TC>2,3</TC>
+        <Dviengrados>134</Dviengrados>
+        <H>87</H>
+        <PmBar>1021,3</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>8,8</Rwm2>
+        <TC>9,4</TC>
+        <Vvienms>0,83</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-AZPEITIA-8>
+    <datos_indice-AZPEITIA-9>
+        <Date>13/01/2021</Date>
+        <Hour>16:00</Hour>
+        <NOgm3>18</NOgm3>
+        <NO2>42</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>69</NOXgm3>
+        <O3ICA>Sin datos / Daturik gabe</O3ICA>
+        <O38hgm3>16</O38hgm3>
+        <PM10>18,08</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <Dviengrados>164</Dviengrados>
+        <H>84</H>
+        <PmBar>1021,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>34,1</Rwm2>
+        <TC>9,9</TC>
+        <Vvienms>0,55</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-AZPEITIA-9>
+    <datos_indice-AZPEITIA-10>
+        <Date>13/01/2021</Date>
+        <Hour>15:00</Hour>
+        <NOgm3>9</NOgm3>
+        <NO2>37</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>52</NOXgm3>
+        <O3gm3>28</O3gm3>
+        <OZONO>28</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>14</O38hgm3>
+        <PM10>19,13</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <Dviengrados>260</Dviengrados>
+        <H>84</H>
+        <PmBar>1021</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>48,2</Rwm2>
+        <TC>9,6</TC>
+        <Vvienms>0,66</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-AZPEITIA-10>
+    <datos_indice-AZPEITIA-11>
+        <Date>13/01/2021</Date>
+        <Hour>14:00</Hour>
+        <NOgm3>13</NOgm3>
+        <NO2>34</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>54</NOXgm3>
+        <O3gm3>29</O3gm3>
+        <OZONO>29</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>11</O38hgm3>
+        <PM10>19,35</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <Dviengrados>266</Dviengrados>
+        <H>85</H>
+        <PmBar>1021,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>84,6</Rwm2>
+        <TC>9,4</TC>
         <Vvienms>0,8</Vvienms>
         <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-41>
-    <datos_indice-AZPEITIA-42>
-        <Date>03/01/2021</Date>
+    </datos_indice-AZPEITIA-11>
+    <datos_indice-AZPEITIA-12>
+        <Date>13/01/2021</Date>
+        <Hour>13:00</Hour>
+        <NOgm3>17</NOgm3>
+        <NO2>36</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>63</NOXgm3>
+        <O3gm3>23</O3gm3>
+        <OZONO>23</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>7</O38hgm3>
+        <PM10>20</PM10>
+        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <Dviengrados>232</Dviengrados>
+        <H>87</H>
+        <PmBar>1021,9</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>125,1</Rwm2>
+        <TC>8,8</TC>
+        <Vvienms>0,41</Vvienms>
+        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+    </datos_indice-AZPEITIA-12>
+    <datos_indice-AZPEITIA-13>
+        <Date>13/01/2021</Date>
+        <Hour>12:00</Hour>
+        <NOgm3>32</NOgm3>
+        <NO2>50</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>99</NOXgm3>
+        <O3gm3>13</O3gm3>
+        <OZONO>13</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>5</O38hgm3>
+        <PM10ICA>Sin datos / Daturik gabe</PM10ICA>
+        <Dviengrados>219</Dviengrados>
+        <H>90</H>
+        <PmBar>1022,7</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>102,7</Rwm2>
+        <TC>7,8</TC>
+        <Vvienms>0,55</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-AZPEITIA-13>
+    <datos_indice-AZPEITIA-14>
+        <Date>13/01/2021</Date>
+        <Hour>11:00</Hour>
+        <NOgm3>46</NOgm3>
+        <NO2>44</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>114</NOXgm3>
+        <O3gm3>8</O3gm3>
+        <OZONO>8</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>4</O38hgm3>
+        <PM10>21,35</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <Dviengrados>243</Dviengrados>
+        <H>90</H>
+        <PmBar>1023</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>71,8</Rwm2>
+        <TC>7,2</TC>
+        <Vvienms>0,83</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-AZPEITIA-14>
+    <datos_indice-AZPEITIA-15>
+        <Date>13/01/2021</Date>
+        <Hour>10:00</Hour>
+        <NOgm3>37</NOgm3>
+        <NO2>41</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>98</NOXgm3>
+        <O3gm3>5</O3gm3>
+        <OZONO>5</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>4</O38hgm3>
+        <PM10>21,39</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <Dviengrados>243</Dviengrados>
+        <H>91</H>
+        <PmBar>1023</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>42,7</Rwm2>
+        <TC>6,7</TC>
+        <Vvienms>0,61</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-AZPEITIA-15>
+    <datos_indice-AZPEITIA-16>
+        <Date>13/01/2021</Date>
+        <Hour>09:00</Hour>
+        <NOgm3>70</NOgm3>
+        <NO2>42</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>150</NOXgm3>
+        <O3gm3>3</O3gm3>
+        <OZONO>3</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>4</O38hgm3>
+        <PM10>21,65</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <Dviengrados>244</Dviengrados>
+        <H>92</H>
+        <PmBar>1022,6</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>19,1</Rwm2>
+        <TC>6,4</TC>
+        <Vvienms>0,67</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-AZPEITIA-16>
+    <datos_indice-AZPEITIA-17>
+        <Date>13/01/2021</Date>
+        <Hour>08:00</Hour>
+        <NOgm3>98</NOgm3>
+        <NO2>43</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>193</NOXgm3>
+        <O3gm3>2</O3gm3>
+        <OZONO>2</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>5</O38hgm3>
+        <PM10>21,96</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <Dviengrados>234</Dviengrados>
+        <H>92</H>
+        <PmBar>1022,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>1,2</Rwm2>
+        <TC>6,2</TC>
+        <Vvienms>0,57</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-AZPEITIA-17>
+    <datos_indice-AZPEITIA-18>
+        <Date>13/01/2021</Date>
         <Hour>07:00</Hour>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>19</NOXgm3>
-        <O3gm3>16</O3gm3>
-        <OZONO>16</OZONO>
+        <NOgm3>70</NOgm3>
+        <NO2>37</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>144</NOXgm3>
+        <O3gm3>2</O3gm3>
+        <OZONO>2</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>22</O38hgm3>
-        <PM10>9,38</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>218</Dviengrados>
-        <H>95</H>
-        <PmBar>1004,5</PmBar>
+        <O38hgm3>6</O38hgm3>
+        <PM10>22</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <Dviengrados>237</Dviengrados>
+        <H>91</H>
+        <PmBar>1021,9</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
         <Rwm2>0,5</Rwm2>
-        <TC>2,3</TC>
-        <Vvienms>0,72</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-42>
-    <datos_indice-AZPEITIA-43>
-        <Date>03/01/2021</Date>
+        <TC>6,3</TC>
+        <Vvienms>0,61</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-AZPEITIA-18>
+    <datos_indice-AZPEITIA-19>
+        <Date>13/01/2021</Date>
         <Hour>06:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>10</NOXgm3>
-        <O3gm3>22</O3gm3>
-        <OZONO>22</OZONO>
+        <NOgm3>29</NOgm3>
+        <NO2>31</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>75</NOXgm3>
+        <O3gm3>3</O3gm3>
+        <OZONO>3</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>24</O38hgm3>
-        <PM10>9,33</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>158</Dviengrados>
-        <H>95</H>
-        <PmBar>1004,8</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <O38hgm3>7</O38hgm3>
+        <PM10>22,04</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <Dviengrados>217</Dviengrados>
+        <H>91</H>
+        <PmBar>1021,7</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
         <Rwm2>0,5</Rwm2>
-        <TC>2,5</TC>
-        <Vvienms>0,51</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-43>
-    <datos_indice-AZPEITIA-44>
-        <Date>03/01/2021</Date>
+        <TC>6,2</TC>
+        <Vvienms>0,31</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-AZPEITIA-19>
+    <datos_indice-AZPEITIA-20>
+        <Date>13/01/2021</Date>
         <Hour>05:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>9</NOXgm3>
-        <O3gm3>21</O3gm3>
-        <OZONO>21</OZONO>
+        <NOgm3>16</NOgm3>
+        <NO2>23</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>47</NOXgm3>
+        <O3gm3>4</O3gm3>
+        <OZONO>4</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>25</O38hgm3>
-        <PM10>9,29</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>225</Dviengrados>
-        <H>94</H>
-        <PmBar>1005,4</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
+        <O38hgm3>8</O38hgm3>
+        <PM10>22,13</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <Dviengrados>244</Dviengrados>
+        <H>91</H>
+        <PmBar>1021,7</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
         <Rwm2>0,5</Rwm2>
-        <TC>2,2</TC>
-        <Vvienms>0,95</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-44>
-    <datos_indice-AZPEITIA-45>
-        <Date>03/01/2021</Date>
+        <TC>6,1</TC>
+        <Vvienms>0,57</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-AZPEITIA-20>
+    <datos_indice-AZPEITIA-21>
+        <Date>13/01/2021</Date>
         <Hour>04:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>9</NOXgm3>
-        <O3gm3>22</O3gm3>
-        <OZONO>22</OZONO>
+        <NOgm3>3</NOgm3>
+        <NO2>21</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>26</NOXgm3>
+        <O3gm3>6</O3gm3>
+        <OZONO>6</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>25</O38hgm3>
-        <PM10>9,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
+        <O38hgm3>8</O38hgm3>
+        <PM10>22,22</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
         <Dviengrados>239</Dviengrados>
-        <H>94</H>
-        <PmBar>1005,9</PmBar>
+        <H>90</H>
+        <PmBar>1021,7</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
         <Rwm2>0,5</Rwm2>
-        <TC>2</TC>
-        <Vvienms>0,68</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-45>
-    <datos_indice-AZPEITIA-46>
-        <Date>03/01/2021</Date>
+        <TC>6,1</TC>
+        <Vvienms>0,74</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-AZPEITIA-21>
+    <datos_indice-AZPEITIA-22>
+        <Date>13/01/2021</Date>
         <Hour>03:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>8</NOXgm3>
-        <O3gm3>22</O3gm3>
-        <OZONO>22</OZONO>
+        <NOgm3>4</NOgm3>
+        <NO2>21</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>27</NOXgm3>
+        <O3gm3>6</O3gm3>
+        <OZONO>6</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>26</O38hgm3>
-        <PM10>9,17</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>239</Dviengrados>
-        <H>94</H>
-        <PmBar>1006,5</PmBar>
+        <O38hgm3>9</O38hgm3>
+        <PM10>22,22</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <Dviengrados>237</Dviengrados>
+        <H>90</H>
+        <PmBar>1021,7</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
         <Rwm2>0,5</Rwm2>
-        <TC>1,7</TC>
-        <Vvienms>0,8</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-46>
-    <datos_indice-AZPEITIA-47>
-        <Date>03/01/2021</Date>
+        <TC>6,1</TC>
+        <Vvienms>0,7</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-AZPEITIA-22>
+    <datos_indice-AZPEITIA-23>
+        <Date>13/01/2021</Date>
         <Hour>02:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>9</NOXgm3>
-        <O3gm3>22</O3gm3>
-        <OZONO>22</OZONO>
+        <NOgm3>3</NOgm3>
+        <NO2>20</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>24</NOXgm3>
+        <O3gm3>8</O3gm3>
+        <OZONO>8</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>29</O38hgm3>
-        <PM10>9,04</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>226</Dviengrados>
-        <H>95</H>
-        <PmBar>1006,7</PmBar>
+        <O38hgm3>10</O38hgm3>
+        <PM10>22,3</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <Dviengrados>239</Dviengrados>
+        <H>89</H>
+        <PmBar>1021,3</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
         <Rwm2>0,5</Rwm2>
-        <TC>1,6</TC>
-        <Vvienms>0,52</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-47>
-    <datos_indice-AZPEITIA-48>
-        <Date>03/01/2021</Date>
+        <TC>6,3</TC>
+        <Vvienms>0,74</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-AZPEITIA-23>
+    <datos_indice-AZPEITIA-24>
+        <Date>13/01/2021</Date>
         <Hour>01:00</Hour>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>9</NOXgm3>
-        <O3gm3>24</O3gm3>
-        <OZONO>24</OZONO>
+        <NOgm3>2</NOgm3>
+        <NO2>24</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>27</NOXgm3>
+        <O3gm3>10</O3gm3>
+        <OZONO>10</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>31</O38hgm3>
-        <PM10>8,88</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <Dviengrados>246</Dviengrados>
-        <H>94</H>
-        <PmBar>1007</PmBar>
+        <O38hgm3>10</O38hgm3>
+        <PM10>22,39</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <Dviengrados>239</Dviengrados>
+        <H>89</H>
+        <PmBar>1021,7</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
         <Rwm2>0,5</Rwm2>
-        <TC>1,6</TC>
-        <Vvienms>0,93</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-AZPEITIA-48>
+        <TC>6,3</TC>
+        <Vvienms>0,65</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-AZPEITIA-24>
 </datos_indice-AZPEITIA>

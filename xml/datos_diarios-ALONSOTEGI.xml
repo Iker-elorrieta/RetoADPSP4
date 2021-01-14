@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-ALONSOTEGI>
     <datos_diarios-ALONSOTEGI-1>
-        <Date>03/01/2021</Date>
-        <NOgm3>1</NOgm3>
-        <NO2gm3>4</NO2gm3>
-        <NOXgm3>6</NOXgm3>
-        <PM10gm3>3</PM10gm3>
-    </datos_diarios-ALONSOTEGI-1>
-    <datos_diarios-ALONSOTEGI-2>
-        <Date>02/01/2021</Date>
+        <Date>12/01/2021</Date>
         <NOgm3>2</NOgm3>
-        <NO2gm3>10</NO2gm3>
-        <NOXgm3>13</NOXgm3>
-        <PM10gm3>10</PM10gm3>
-    </datos_diarios-ALONSOTEGI-2>
+        <NO2gm3>14</NO2gm3>
+        <NOXgm3>18</NOXgm3>
+        <PM10gm3>12</PM10gm3>
+    </datos_diarios-ALONSOTEGI-1>
 </datos_diarios-ALONSOTEGI>

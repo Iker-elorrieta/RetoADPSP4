@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-LARRABETZU>
     <datos_diarios-LARRABETZU-1>
-        <Date>03/01/2021</Date>
-        <NOgm3>1</NOgm3>
-        <NO2gm3>10</NO2gm3>
-        <NOXgm3>12</NOXgm3>
-        <O3gm3>44</O3gm3>
-        <O38hgm3>38</O38hgm3>
+        <Date>12/01/2021</Date>
+        <NOgm3>16</NOgm3>
+        <NO2gm3>31</NO2gm3>
+        <NOXgm3>55</NOXgm3>
+        <O3gm3>6</O3gm3>
+        <O38hgm3>7</O38hgm3>
     </datos_diarios-LARRABETZU-1>
-    <datos_diarios-LARRABETZU-2>
-        <Date>02/01/2021</Date>
-        <NOgm3>2</NOgm3>
-        <NO2gm3>8</NO2gm3>
-        <NOXgm3>10</NOXgm3>
-        <O3gm3>48</O3gm3>
-        <O38hgm3>55</O38hgm3>
-    </datos_diarios-LARRABETZU-2>
 </datos_diarios-LARRABETZU>

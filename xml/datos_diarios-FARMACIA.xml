@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-FARMACIA>
     <datos_diarios-FARMACIA-1>
-        <Date>03/01/2021</Date>
-        <O3gm3>45</O3gm3>
-        <O38hgm3>44</O38hgm3>
+        <Date>12/01/2021</Date>
+        <O3gm3>41</O3gm3>
+        <O38hgm3>42</O38hgm3>
     </datos_diarios-FARMACIA-1>
-    <datos_diarios-FARMACIA-2>
-        <Date>02/01/2021</Date>
-        <O3gm3>50</O3gm3>
-        <O38hgm3>54</O38hgm3>
-    </datos_diarios-FARMACIA-2>
 </datos_diarios-FARMACIA>

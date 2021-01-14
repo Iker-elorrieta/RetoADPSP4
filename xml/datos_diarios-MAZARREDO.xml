@@ -1,33 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_diarios-MAZARREDO>
     <datos_diarios-MAZARREDO-1>
-        <Date>03/01/2021</Date>
-        <Bencenogm3>0,37</Bencenogm3>
-        <COmgm3>0,22</COmgm3>
-        <CO8hmgm3>0,22</CO8hmgm3>
-        <Etilbencenogm3>0,03</Etilbencenogm3>
-        <NOgm3>1</NOgm3>
-        <NO2gm3>24</NO2gm3>
-        <NOXgm3>26</NOXgm3>
-        <Ortoxilenogm3>0,16</Ortoxilenogm3>
-        <PM10gm3>3</PM10gm3>
-        <PM25gm3>2</PM25gm3>
-        <SO2gm3>7</SO2gm3>
-        <Toluenogm3>0,35</Toluenogm3>
+        <Date>12/01/2021</Date>
+        <Bencenogm3>0,68</Bencenogm3>
+        <COmgm3>0,39</COmgm3>
+        <CO8hmgm3>0,4</CO8hmgm3>
+        <Etilbencenogm3>0,95</Etilbencenogm3>
+        <NOgm3>27</NOgm3>
+        <NO2gm3>50</NO2gm3>
+        <NOXgm3>91</NOXgm3>
+        <Ortoxilenogm3>3,03</Ortoxilenogm3>
+        <PM10gm3>23</PM10gm3>
+        <PM25gm3>13</PM25gm3>
+        <SO2gm3>13</SO2gm3>
+        <Toluenogm3>2,46</Toluenogm3>
     </datos_diarios-MAZARREDO-1>
-    <datos_diarios-MAZARREDO-2>
-        <Date>02/01/2021</Date>
-        <Bencenogm3>0,34</Bencenogm3>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
-        <Etilbencenogm3>0,03</Etilbencenogm3>
-        <NOgm3>1</NOgm3>
-        <NO2gm3>14</NO2gm3>
-        <NOXgm3>16</NOXgm3>
-        <Ortoxilenogm3>0,12</Ortoxilenogm3>
-        <PM10gm3>7</PM10gm3>
-        <PM25gm3>4</PM25gm3>
-        <SO2gm3>6</SO2gm3>
-        <Toluenogm3>0,31</Toluenogm3>
-    </datos_diarios-MAZARREDO-2>
 </datos_diarios-MAZARREDO>

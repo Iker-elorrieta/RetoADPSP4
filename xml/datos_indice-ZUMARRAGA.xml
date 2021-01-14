@@ -1,1175 +1,541 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <datos_indice-ZUMARRAGA>
     <datos_indice-ZUMARRAGA-1>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>24:00</Hour>
     </datos_indice-ZUMARRAGA-1>
     <datos_indice-ZUMARRAGA-2>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>23:00</Hour>
     </datos_indice-ZUMARRAGA-2>
     <datos_indice-ZUMARRAGA-3>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>22:00</Hour>
     </datos_indice-ZUMARRAGA-3>
     <datos_indice-ZUMARRAGA-4>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>21:00</Hour>
     </datos_indice-ZUMARRAGA-4>
     <datos_indice-ZUMARRAGA-5>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>20:00</Hour>
     </datos_indice-ZUMARRAGA-5>
     <datos_indice-ZUMARRAGA-6>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>19:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>6</NOgm3>
-        <NO2>18</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>27</NOXgm3>
-        <O3gm3>54</O3gm3>
-        <OZONO>54</OZONO>
+        <COmgm3>0,41</COmgm3>
+        <CO8hmgm3>0,35</CO8hmgm3>
+        <NOgm3>29</NOgm3>
+        <NO2>51</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>96</NOXgm3>
+        <O3gm3>5</O3gm3>
+        <OZONO>5</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>51</O38hgm3>
-        <PM10>4,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,21</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>272</Dviengrados>
-        <H>95</H>
-        <PmBar>968,2</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>1,8</TC>
-        <Vvienms>2,83</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-6>
-    <datos_indice-ZUMARRAGA-7>
-        <Date>04/01/2021</Date>
-        <Hour>18:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,24</CO8hmgm3>
-        <NOgm3>4</NOgm3>
-        <NO2>21</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>27</NOXgm3>
-        <O3gm3>51</O3gm3>
-        <OZONO>51</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>50</O38hgm3>
-        <PM10>4,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,21</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>278</Dviengrados>
-        <H>94</H>
-        <PmBar>968</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,3</Rwm2>
-        <TC>1,7</TC>
-        <Vvienms>2,97</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-7>
-    <datos_indice-ZUMARRAGA-8>
-        <Date>04/01/2021</Date>
-        <Hour>17:00</Hour>
-        <COmgm3>0,2</COmgm3>
-        <CO8hmgm3>0,25</CO8hmgm3>
-        <NOgm3>3</NOgm3>
-        <NO2>20</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>25</NOXgm3>
-        <O3gm3>53</O3gm3>
-        <OZONO>53</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>47</O38hgm3>
-        <PM10>4,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,25</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>283</Dviengrados>
-        <H>94</H>
-        <PmBar>967,5</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>3,8</Rwm2>
-        <TC>1,9</TC>
-        <Vvienms>2,58</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-8>
-    <datos_indice-ZUMARRAGA-9>
-        <Date>04/01/2021</Date>
-        <Hour>16:00</Hour>
-        <COmgm3>0,2</COmgm3>
-        <CO8hmgm3>0,25</CO8hmgm3>
-        <NOgm3>4</NOgm3>
-        <NO2>15</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>21</NOXgm3>
-        <O3gm3>57</O3gm3>
-        <OZONO>57</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>44</O38hgm3>
-        <PM10>4,88</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,29</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <O38hgm3>25</O38hgm3>
+        <PM10>30,32</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>17,71</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
         <SO2>4</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>275</Dviengrados>
-        <H>93</H>
-        <PmBar>967,1</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>39,7</Rwm2>
-        <TC>2,1</TC>
-        <Vvienms>3,66</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+        <Dviengrados>250</Dviengrados>
+        <H>87</H>
+        <PmBar>989,5</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>2,9</Rwm2>
+        <TC>5,6</TC>
+        <Vvienms>1,23</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-ZUMARRAGA-6>
+    <datos_indice-ZUMARRAGA-7>
+        <Date>13/01/2021</Date>
+        <Hour>18:00</Hour>
+        <COmgm3>0,38</COmgm3>
+        <CO8hmgm3>0,35</CO8hmgm3>
+        <NOgm3>27</NOgm3>
+        <NO2>53</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>93</NOXgm3>
+        <O3gm3>5</O3gm3>
+        <OZONO>5</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>25</O38hgm3>
+        <PM10>30,05</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>17,67</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>244</Dviengrados>
+        <H>85</H>
+        <PmBar>989,4</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>3,2</Rwm2>
+        <TC>6</TC>
+        <Vvienms>1,3</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-ZUMARRAGA-7>
+    <datos_indice-ZUMARRAGA-8>
+        <Date>13/01/2021</Date>
+        <Hour>17:00</Hour>
+        <COmgm3>0,38</COmgm3>
+        <CO8hmgm3>0,36</CO8hmgm3>
+        <NOgm3>23</NOgm3>
+        <NO2>55</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>90</NOXgm3>
+        <O3gm3>7</O3gm3>
+        <OZONO>7</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>25</O38hgm3>
+        <PM10>29,86</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>17,57</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>228</Dviengrados>
+        <H>84</H>
+        <PmBar>989,1</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>9,1</Rwm2>
+        <TC>6,9</TC>
+        <Vvienms>1,26</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-ZUMARRAGA-8>
+    <datos_indice-ZUMARRAGA-9>
+        <Date>13/01/2021</Date>
+        <Hour>16:00</Hour>
+        <COmgm3>0,34</COmgm3>
+        <CO8hmgm3>0,36</CO8hmgm3>
+        <NOgm3>16</NOgm3>
+        <NO2>49</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>74</NOXgm3>
+        <O3gm3>16</O3gm3>
+        <OZONO>16</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>25</O38hgm3>
+        <PM10>29,68</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>17,57</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>222</Dviengrados>
+        <H>83</H>
+        <PmBar>988,7</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>32,2</Rwm2>
+        <TC>7,5</TC>
+        <Vvienms>1,06</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-ZUMARRAGA-9>
     <datos_indice-ZUMARRAGA-10>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>15:00</Hour>
-        <COmgm3>0,19</COmgm3>
-        <CO8hmgm3>0,27</CO8hmgm3>
-        <NOgm3>4</NOgm3>
-        <NO2>16</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>22</NOXgm3>
-        <O3gm3>53</O3gm3>
-        <OZONO>53</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>42</O38hgm3>
-        <PM10>4,88</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,29</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>282</Dviengrados>
-        <H>93</H>
-        <PmBar>966,5</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>47,4</Rwm2>
-        <TC>2,1</TC>
-        <Vvienms>2,86</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-10>
-    <datos_indice-ZUMARRAGA-11>
-        <Date>04/01/2021</Date>
-        <Hour>14:00</Hour>
-        <COmgm3>0,22</COmgm3>
-        <CO8hmgm3>0,26</CO8hmgm3>
-        <NOgm3>6</NOgm3>
-        <NO2>21</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>29</NOXgm3>
-        <O3gm3>49</O3gm3>
-        <OZONO>49</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>42</O38hgm3>
-        <PM10>4,88</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,25</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>276</Dviengrados>
-        <H>92</H>
-        <PmBar>966,1</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>89,8</Rwm2>
-        <TC>2,3</TC>
-        <Vvienms>2,47</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-11>
-    <datos_indice-ZUMARRAGA-12>
-        <Date>04/01/2021</Date>
-        <Hour>13:00</Hour>
-        <COmgm3>0,25</COmgm3>
-        <CO8hmgm3>0,26</CO8hmgm3>
+        <COmgm3>0,33</COmgm3>
+        <CO8hmgm3>0,36</CO8hmgm3>
         <NOgm3>7</NOgm3>
         <NO2>29</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
         <NOXgm3>40</NOXgm3>
-        <O3gm3>41</O3gm3>
-        <OZONO>41</OZONO>
+        <O3gm3>42</O3gm3>
+        <OZONO>42</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>43</O38hgm3>
-        <PM10>4,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,21</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
+        <O38hgm3>23</O38hgm3>
+        <PM10>29,27</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>17,48</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>5</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>321</Dviengrados>
-        <H>91</H>
-        <PmBar>966,3</PmBar>
-        <Precipitacionlm2>0,5</Precipitacionlm2>
-        <Rwm2>68,1</Rwm2>
-        <TC>2,4</TC>
-        <Vvienms>1,08</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+        <Dviengrados>231</Dviengrados>
+        <H>82</H>
+        <PmBar>988,3</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>48,3</Rwm2>
+        <TC>8</TC>
+        <Vvienms>1,06</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-ZUMARRAGA-10>
+    <datos_indice-ZUMARRAGA-11>
+        <Date>13/01/2021</Date>
+        <Hour>14:00</Hour>
+        <COmgm3>0,33</COmgm3>
+        <CO8hmgm3>0,36</CO8hmgm3>
+        <NOgm3>6</NOgm3>
+        <NO2>26</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>36</NOXgm3>
+        <O3gm3>50</O3gm3>
+        <OZONO>50</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>17</O38hgm3>
+        <PM10>28,41</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>17,38</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>254</Dviengrados>
+        <H>85</H>
+        <PmBar>988,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>89,1</Rwm2>
+        <TC>8,4</TC>
+        <Vvienms>0,52</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-ZUMARRAGA-11>
+    <datos_indice-ZUMARRAGA-12>
+        <Date>13/01/2021</Date>
+        <Hour>13:00</Hour>
+        <COmgm3>0,27</COmgm3>
+        <CO8hmgm3>0,35</CO8hmgm3>
+        <NOgm3>9</NOgm3>
+        <NO2>26</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>39</NOXgm3>
+        <O3gm3>47</O3gm3>
+        <OZONO>47</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>12</O38hgm3>
+        <PM10>26,32</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,9</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>328</Dviengrados>
+        <H>89</H>
+        <PmBar>989</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>123,6</Rwm2>
+        <TC>7,9</TC>
+        <Vvienms>0,24</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-ZUMARRAGA-12>
     <datos_indice-ZUMARRAGA-13>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>12:00</Hour>
-        <COmgm3>0,2</COmgm3>
-        <CO8hmgm3>0,25</CO8hmgm3>
-        <NOgm3>6</NOgm3>
-        <NO2>21</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>29</NOXgm3>
-        <O3gm3>51</O3gm3>
-        <OZONO>51</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>45</O38hgm3>
-        <PM10>4,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,17</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
+        <COmgm3>0,35</COmgm3>
+        <CO8hmgm3>0,35</CO8hmgm3>
+        <NO2ICA>Sin datos / Daturik gabe</NO2ICA>
+        <O3ICA>Sin datos / Daturik gabe</O3ICA>
+        <O38hgm3>9</O38hgm3>
+        <PM10>21,64</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>15,43</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>5</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>302</Dviengrados>
-        <H>92</H>
-        <PmBar>966,8</PmBar>
-        <Precipitacionlm2>0,5</Precipitacionlm2>
-        <Rwm2>76,8</Rwm2>
-        <TC>3,3</TC>
-        <Vvienms>1,48</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+        <Dviengrados>261</Dviengrados>
+        <H>91</H>
+        <PmBar>989,7</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>101</Rwm2>
+        <TC>7,2</TC>
+        <Vvienms>0,22</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-ZUMARRAGA-13>
     <datos_indice-ZUMARRAGA-14>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>11:00</Hour>
-        <COmgm3>0,42</COmgm3>
-        <CO8hmgm3>0,25</CO8hmgm3>
-        <NOgm3>9</NOgm3>
-        <NO2>30</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>44</NOXgm3>
-        <O3gm3>41</O3gm3>
-        <OZONO>41</OZONO>
+        <COmgm3>0,48</COmgm3>
+        <CO8hmgm3>0,33</CO8hmgm3>
+        <NO2ICA>Sin datos / Daturik gabe</NO2ICA>
+        <O3gm3>6</O3gm3>
+        <OZONO>6</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>46</O38hgm3>
-        <PM10>4,83</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,17</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
+        <O38hgm3>13</O38hgm3>
+        <PM10>22,22</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>15,77</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>5</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>258</Dviengrados>
-        <H>92</H>
-        <PmBar>967,1</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>125,3</Rwm2>
-        <TC>2,8</TC>
-        <Vvienms>0,29</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+        <Dviengrados>263</Dviengrados>
+        <H>91</H>
+        <PmBar>990,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>73,1</Rwm2>
+        <TC>6,3</TC>
+        <Vvienms>0,5</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-ZUMARRAGA-14>
     <datos_indice-ZUMARRAGA-15>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>10:00</Hour>
-        <COmgm3>0,32</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>11</NOgm3>
-        <NO2>42</NO2>
-        <NO2ICA>Bueno / Ona</NO2ICA>
-        <NOXgm3>60</NOXgm3>
-        <O3gm3>30</O3gm3>
-        <OZONO>30</OZONO>
+        <COmgm3>0,43</COmgm3>
+        <CO8hmgm3>0,31</CO8hmgm3>
+        <NO2ICA>Sin datos / Daturik gabe</NO2ICA>
+        <O3gm3>5</O3gm3>
+        <OZONO>5</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>47</O38hgm3>
-        <PM10>4,88</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,21</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
+        <O38hgm3>17</O38hgm3>
+        <PM10>22,58</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>15,96</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>4</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>285</Dviengrados>
-        <H>93</H>
-        <PmBar>966,8</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>63,8</Rwm2>
-        <TC>2,7</TC>
-        <Vvienms>0,12</Vvienms>
+        <Dviengrados>241</Dviengrados>
+        <H>91</H>
+        <PmBar>990,5</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>41,7</Rwm2>
+        <TC>5,5</TC>
+        <Vvienms>0,86</Vvienms>
         <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-ZUMARRAGA-15>
     <datos_indice-ZUMARRAGA-16>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>09:00</Hour>
-        <COmgm3>0,25</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
-        <NOgm3>7</NOgm3>
-        <NO2>42</NO2>
-        <NO2ICA>Bueno / Ona</NO2ICA>
-        <NOXgm3>52</NOXgm3>
-        <O3gm3>28</O3gm3>
-        <OZONO>28</OZONO>
+        <COmgm3>0,33</COmgm3>
+        <CO8hmgm3>0,28</CO8hmgm3>
+        <NO2ICA>Sin datos / Daturik gabe</NO2ICA>
+        <O3gm3>6</O3gm3>
+        <OZONO>6</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>50</O38hgm3>
-        <PM10>4,96</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,29</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
+        <O38hgm3>20</O38hgm3>
+        <PM10>22,33</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,04</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>4</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>65</Dviengrados>
-        <H>94</H>
-        <PmBar>966,4</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>17</Rwm2>
-        <TC>2,2</TC>
-        <Vvienms>0,09</Vvienms>
+        <Dviengrados>231</Dviengrados>
+        <H>92</H>
+        <PmBar>990,7</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>21,3</Rwm2>
+        <TC>5,1</TC>
+        <Vvienms>1,71</Vvienms>
         <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-ZUMARRAGA-16>
     <datos_indice-ZUMARRAGA-17>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>08:00</Hour>
-        <COmgm3>0,28</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
+        <COmgm3>0,34</COmgm3>
+        <CO8hmgm3>0,28</CO8hmgm3>
+        <NOgm3>42</NOgm3>
+        <NO2>52</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>117</NOXgm3>
+        <O3gm3>3</O3gm3>
+        <OZONO>3</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>22</O38hgm3>
+        <PM10>22,33</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,13</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>231</Dviengrados>
+        <H>91</H>
+        <PmBar>989,6</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>2,5</Rwm2>
+        <TC>4,8</TC>
+        <Vvienms>1,01</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-ZUMARRAGA-17>
+    <datos_indice-ZUMARRAGA-18>
+        <Date>13/01/2021</Date>
+        <Hour>07:00</Hour>
+        <COmgm3>0,35</COmgm3>
+        <CO8hmgm3>0,28</CO8hmgm3>
+        <NOgm3>32</NOgm3>
+        <NO2>50</NO2>
+        <NO2ICA>Bueno / Ona</NO2ICA>
+        <NOXgm3>99</NOXgm3>
+        <O3gm3>2</O3gm3>
+        <OZONO>2</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>25</O38hgm3>
+        <PM10>22,33</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,13</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>236</Dviengrados>
+        <H>91</H>
+        <PmBar>989,3</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>1,4</Rwm2>
+        <TC>4,7</TC>
+        <Vvienms>0,99</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-ZUMARRAGA-18>
+    <datos_indice-ZUMARRAGA-19>
+        <Date>13/01/2021</Date>
+        <Hour>06:00</Hour>
+        <COmgm3>0,26</COmgm3>
+        <CO8hmgm3>0,27</CO8hmgm3>
         <NOgm3>4</NOgm3>
         <NO2>30</NO2>
         <NO2ICA>Muy bueno / Oso ona</NO2ICA>
         <NOXgm3>37</NOXgm3>
-        <O3gm3>39</O3gm3>
-        <OZONO>39</OZONO>
+        <O3gm3>18</O3gm3>
+        <OZONO>18</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>54</O38hgm3>
-        <PM10>5,13</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,38</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
+        <O38hgm3>27</O38hgm3>
+        <PM10>22,33</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,17</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>4</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>79</Dviengrados>
-        <H>94</H>
-        <PmBar>966</PmBar>
+        <Dviengrados>231</Dviengrados>
+        <H>89</H>
+        <PmBar>989,6</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,7</Rwm2>
-        <TC>1,6</TC>
-        <Vvienms>0,41</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-17>
-    <datos_indice-ZUMARRAGA-18>
-        <Date>04/01/2021</Date>
-        <Hour>07:00</Hour>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
-        <NOgm3>3</NOgm3>
-        <NO2>14</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>18</NOXgm3>
-        <O3gm3>54</O3gm3>
-        <OZONO>54</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>56</O38hgm3>
-        <PM10>5,25</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,46</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>106</Dviengrados>
-        <H>94</H>
-        <PmBar>966</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>1,4</TC>
-        <Vvienms>1,14</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-18>
-    <datos_indice-ZUMARRAGA-19>
-        <Date>04/01/2021</Date>
-        <Hour>06:00</Hour>
-        <COmgm3>0,19</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2>9</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>11</NOXgm3>
-        <O3gm3>62</O3gm3>
-        <OZONO>62</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>56</O38hgm3>
-        <PM10>5,38</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,54</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>116</Dviengrados>
-        <H>93</H>
-        <PmBar>966,2</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>1,7</TC>
-        <Vvienms>0,74</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
+        <Rwm2>2,3</Rwm2>
+        <TC>4,8</TC>
+        <Vvienms>1,7</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
     </datos_indice-ZUMARRAGA-19>
     <datos_indice-ZUMARRAGA-20>
-        <Date>04/01/2021</Date>
+        <Date>13/01/2021</Date>
         <Hour>05:00</Hour>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2>11</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>13</NOXgm3>
-        <O3gm3>56</O3gm3>
-        <OZONO>56</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>54</O38hgm3>
-        <PM10>5,63</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,67</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>122</Dviengrados>
-        <H>93</H>
-        <PmBar>966,6</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>1,6</TC>
-        <Vvienms>1,23</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-20>
-    <datos_indice-ZUMARRAGA-21>
-        <Date>04/01/2021</Date>
-        <Hour>04:00</Hour>
-        <COmgm3>0,16</COmgm3>
-        <CO8hmgm3>0,22</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2>8</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>9</NOXgm3>
-        <O3gm3>60</O3gm3>
-        <OZONO>60</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>54</O38hgm3>
-        <PM10>5,88</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,79</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>107</Dviengrados>
-        <H>91</H>
-        <PmBar>967,1</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>2,1</TC>
-        <Vvienms>0,65</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-21>
-    <datos_indice-ZUMARRAGA-22>
-        <Date>04/01/2021</Date>
-        <Hour>03:00</Hour>
-        <COmgm3>0,15</COmgm3>
-        <CO8hmgm3>0,22</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2>3</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>5</NOXgm3>
-        <O3ICA>Sin datos / Daturik gabe</O3ICA>
-        <O38hgm3>55</O38hgm3>
-        <PM10>6,04</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,92</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>297</Dviengrados>
-        <H>92</H>
-        <PmBar>967,6</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>2,4</TC>
-        <Vvienms>1,46</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-22>
-    <datos_indice-ZUMARRAGA-23>
-        <Date>04/01/2021</Date>
-        <Hour>02:00</Hour>
-        <COmgm3>0,19</COmgm3>
-        <CO8hmgm3>0,22</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2>8</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>10</NOXgm3>
-        <O3gm3>54</O3gm3>
-        <OZONO>54</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>56</O38hgm3>
-        <PM10>6,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,13</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>307</Dviengrados>
-        <H>93</H>
-        <PmBar>967,7</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>2,1</TC>
-        <Vvienms>0,3</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-23>
-    <datos_indice-ZUMARRAGA-24>
-        <Date>04/01/2021</Date>
-        <Hour>01:00</Hour>
-        <COmgm3>0,27</COmgm3>
-        <CO8hmgm3>0,22</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NO2>11</NO2>
-        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
-        <NOXgm3>13</NOXgm3>
-        <O3gm3>50</O3gm3>
-        <OZONO>50</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>58</O38hgm3>
-        <PM10>5,96</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,29</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>132</Dviengrados>
-        <H>93</H>
-        <PmBar>968</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>2,2</TC>
-        <Vvienms>0,32</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-24>
-    <datos_indice-ZUMARRAGA-25>
-        <Date>03/01/2021</Date>
-        <Hour>24:00</Hour>
         <COmgm3>0,25</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>13</NOXgm3>
-        <O3gm3>55</O3gm3>
-        <OZONO>55</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>58</O38hgm3>
-        <PM10>5,88</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,38</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>92</Dviengrados>
-        <H>93</H>
-        <PmBar>968,6</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>2,3</TC>
-        <Vvienms>0,37</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-25>
-    <datos_indice-ZUMARRAGA-26>
-        <Date>03/01/2021</Date>
-        <Hour>23:00</Hour>
-        <COmgm3>0,27</COmgm3>
-        <CO8hmgm3>0,21</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>17</NOXgm3>
-        <O3gm3>52</O3gm3>
-        <OZONO>52</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>58</O38hgm3>
-        <PM10>5,96</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,38</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>281</Dviengrados>
-        <H>92</H>
-        <PmBar>969</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>2,1</TC>
-        <Vvienms>0,24</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-26>
-    <datos_indice-ZUMARRAGA-27>
-        <Date>03/01/2021</Date>
-        <Hour>22:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>18</NOXgm3>
-        <O3gm3>54</O3gm3>
-        <OZONO>54</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>57</O38hgm3>
-        <PM10>6,17</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,42</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>126</Dviengrados>
-        <H>92</H>
-        <PmBar>969,3</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>2,1</TC>
-        <Vvienms>0,82</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-27>
-    <datos_indice-ZUMARRAGA-28>
-        <Date>03/01/2021</Date>
-        <Hour>21:00</Hour>
-        <COmgm3>0,25</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
+        <CO8hmgm3>0,29</CO8hmgm3>
         <NOgm3>2</NOgm3>
+        <NO2>20</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
         <NOXgm3>23</NOXgm3>
-        <O3gm3>52</O3gm3>
-        <OZONO>52</OZONO>
+        <O3gm3>26</O3gm3>
+        <OZONO>26</OZONO>
         <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>56</O38hgm3>
-        <PM10>6,33</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,46</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>330</Dviengrados>
-        <H>90</H>
-        <PmBar>969,6</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>2,6</TC>
-        <Vvienms>0,15</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-28>
-    <datos_indice-ZUMARRAGA-29>
-        <Date>03/01/2021</Date>
-        <Hour>20:00</Hour>
-        <COmgm3>0,18</COmgm3>
-        <CO8hmgm3>0,19</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>12</NOXgm3>
-        <O3gm3>68</O3gm3>
-        <OZONO>68</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>55</O38hgm3>
-        <PM10>6,63</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,63</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>282</Dviengrados>
-        <H>89</H>
-        <PmBar>969,7</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>2,8</TC>
-        <Vvienms>2,17</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-29>
-    <datos_indice-ZUMARRAGA-30>
-        <Date>03/01/2021</Date>
-        <Hour>19:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,19</CO8hmgm3>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>14</NOXgm3>
-        <O3gm3>66</O3gm3>
-        <OZONO>66</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>53</O38hgm3>
-        <PM10>6,92</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,75</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>276</Dviengrados>
-        <H>87</H>
-        <PmBar>969,5</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>3,3</TC>
-        <Vvienms>2,03</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-30>
-    <datos_indice-ZUMARRAGA-31>
-        <Date>03/01/2021</Date>
-        <Hour>18:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,19</CO8hmgm3>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>15</NOXgm3>
-        <O3gm3>63</O3gm3>
-        <OZONO>63</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>48</O38hgm3>
-        <PM10>7,17</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,83</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>276</Dviengrados>
-        <H>90</H>
-        <PmBar>969,5</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,1</Rwm2>
-        <TC>3,2</TC>
-        <Vvienms>2,59</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-31>
-    <datos_indice-ZUMARRAGA-32>
-        <Date>03/01/2021</Date>
-        <Hour>17:00</Hour>
-        <COmgm3>0,19</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>16</NOXgm3>
-        <O3gm3>53</O3gm3>
-        <OZONO>53</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>44</O38hgm3>
-        <PM10>7,33</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,83</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>279</Dviengrados>
-        <H>91</H>
-        <PmBar>969,6</PmBar>
-        <Precipitacionlm2>0,5</Precipitacionlm2>
-        <Rwm2>4,4</Rwm2>
-        <TC>2,8</TC>
-        <Vvienms>2,62</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-32>
-    <datos_indice-ZUMARRAGA-33>
-        <Date>03/01/2021</Date>
-        <Hour>16:00</Hour>
-        <COmgm3>0,21</COmgm3>
-        <CO8hmgm3>0,2</CO8hmgm3>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>18</NOXgm3>
-        <O3gm3>53</O3gm3>
-        <OZONO>53</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>42</O38hgm3>
-        <PM10>7,42</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,79</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>288</Dviengrados>
-        <H>88</H>
-        <PmBar>969,3</PmBar>
-        <Precipitacionlm2>0,6</Precipitacionlm2>
-        <Rwm2>25,6</Rwm2>
-        <TC>4,2</TC>
-        <Vvienms>1,47</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-33>
-    <datos_indice-ZUMARRAGA-34>
-        <Date>03/01/2021</Date>
-        <Hour>15:00</Hour>
-        <COmgm3>0,22</COmgm3>
-        <CO8hmgm3>0,19</CO8hmgm3>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>22</NOXgm3>
-        <O3gm3>48</O3gm3>
-        <OZONO>48</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>39</O38hgm3>
-        <PM10>7,42</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,75</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>278</Dviengrados>
-        <H>87</H>
-        <PmBar>969,3</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>97,9</Rwm2>
-        <TC>5</TC>
-        <Vvienms>0,37</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-34>
-    <datos_indice-ZUMARRAGA-35>
-        <Date>03/01/2021</Date>
-        <Hour>14:00</Hour>
-        <COmgm3>0,24</COmgm3>
-        <CO8hmgm3>0,18</CO8hmgm3>
-        <NOgm3>5</NOgm3>
-        <NOXgm3>26</NOXgm3>
-        <O3gm3>41</O3gm3>
-        <OZONO>41</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>37</O38hgm3>
-        <PM10>7,29</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,63</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>346</Dviengrados>
-        <H>88</H>
-        <PmBar>969,8</PmBar>
-        <Precipitacionlm2>0,4</Precipitacionlm2>
-        <Rwm2>78</Rwm2>
-        <TC>4,7</TC>
-        <Vvienms>0,34</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-35>
-    <datos_indice-ZUMARRAGA-36>
-        <Date>03/01/2021</Date>
-        <Hour>13:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,17</CO8hmgm3>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>15</NOXgm3>
-        <O3gm3>50</O3gm3>
-        <OZONO>50</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>37</O38hgm3>
-        <PM10>7,21</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,54</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>287</Dviengrados>
-        <H>90</H>
-        <PmBar>970,6</PmBar>
-        <Precipitacionlm2>0,5</Precipitacionlm2>
-        <Rwm2>135,8</Rwm2>
-        <TC>3,9</TC>
-        <Vvienms>1,76</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-36>
-    <datos_indice-ZUMARRAGA-37>
-        <Date>03/01/2021</Date>
-        <Hour>12:00</Hour>
-        <COmgm3>0,13</COmgm3>
-        <CO8hmgm3>0,16</CO8hmgm3>
-        <NOgm3>4</NOgm3>
-        <NOXgm3>17</NOXgm3>
-        <O3gm3>47</O3gm3>
-        <OZONO>47</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>36</O38hgm3>
-        <PM10>7,13</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,54</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>301</Dviengrados>
-        <H>92</H>
-        <PmBar>971,3</PmBar>
-        <Precipitacionlm2>0,5</Precipitacionlm2>
-        <Rwm2>120,8</Rwm2>
-        <TC>3,7</TC>
-        <Vvienms>1,48</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-37>
-    <datos_indice-ZUMARRAGA-38>
-        <Date>03/01/2021</Date>
-        <Hour>11:00</Hour>
-        <COmgm3>0,19</COmgm3>
-        <CO8hmgm3>0,16</CO8hmgm3>
-        <NOgm3>8</NOgm3>
-        <NOXgm3>36</NOXgm3>
-        <O3gm3>32</O3gm3>
-        <OZONO>32</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>35</O38hgm3>
-        <PM10>7,08</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,54</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>273</Dviengrados>
-        <H>92</H>
-        <PmBar>971,8</PmBar>
-        <Precipitacionlm2>0,3</Precipitacionlm2>
-        <Rwm2>114</Rwm2>
-        <TC>3,8</TC>
-        <Vvienms>0,28</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-38>
-    <datos_indice-ZUMARRAGA-39>
-        <Date>03/01/2021</Date>
-        <Hour>10:00</Hour>
-        <COmgm3>0,24</COmgm3>
-        <CO8hmgm3>0,15</CO8hmgm3>
-        <NOgm3>9</NOgm3>
-        <NOXgm3>42</NOXgm3>
-        <O3gm3>29</O3gm3>
-        <OZONO>29</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>37</O38hgm3>
-        <PM10>7,13</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,46</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>93</Dviengrados>
-        <H>93</H>
-        <PmBar>971,9</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>64,9</Rwm2>
-        <TC>2,9</TC>
-        <Vvienms>0,12</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-39>
-    <datos_indice-ZUMARRAGA-40>
-        <Date>03/01/2021</Date>
-        <Hour>09:00</Hour>
-        <COmgm3>0,19</COmgm3>
-        <CO8hmgm3>0,14</CO8hmgm3>
-        <NOgm3>3</NOgm3>
-        <NOXgm3>28</NOXgm3>
-        <O3gm3>32</O3gm3>
-        <OZONO>32</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>38</O38hgm3>
-        <PM10>7,13</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,33</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>334</Dviengrados>
-        <H>93</H>
-        <PmBar>972</PmBar>
-        <Precipitacionlm2>0,2</Precipitacionlm2>
-        <Rwm2>16,9</Rwm2>
-        <TC>2,2</TC>
-        <Vvienms>0,16</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-40>
-    <datos_indice-ZUMARRAGA-41>
-        <Date>03/01/2021</Date>
-        <Hour>08:00</Hour>
-        <COmgm3>0,17</COmgm3>
-        <CO8hmgm3>0,13</CO8hmgm3>
-        <NOgm3>2</NOgm3>
-        <NOXgm3>24</NOXgm3>
-        <O3gm3>33</O3gm3>
-        <OZONO>33</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>41</O38hgm3>
-        <PM10>7,04</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,21</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>188</Dviengrados>
-        <H>93</H>
-        <PmBar>971,9</PmBar>
-        <Precipitacionlm2>0,1</Precipitacionlm2>
-        <Rwm2>0,2</Rwm2>
-        <TC>2,2</TC>
-        <Vvienms>0,19</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-41>
-    <datos_indice-ZUMARRAGA-42>
-        <Date>03/01/2021</Date>
-        <Hour>07:00</Hour>
-        <COmgm3>0,13</COmgm3>
-        <CO8hmgm3>0,13</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>20</NOXgm3>
-        <O3gm3>32</O3gm3>
-        <OZONO>32</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>43</O38hgm3>
-        <PM10>6,92</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5,08</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>149</Dviengrados>
-        <H>93</H>
-        <PmBar>971,7</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>1,9</TC>
-        <Vvienms>0,11</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-42>
-    <datos_indice-ZUMARRAGA-43>
-        <Date>03/01/2021</Date>
-        <Hour>06:00</Hour>
-        <COmgm3>0,12</COmgm3>
-        <CO8hmgm3>0,13</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>15</NOXgm3>
-        <O3gm3>38</O3gm3>
-        <OZONO>38</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>46</O38hgm3>
-        <PM10>6,79</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>5</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>205</Dviengrados>
-        <H>93</H>
-        <PmBar>971,9</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>1,8</TC>
-        <Vvienms>0,18</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-43>
-    <datos_indice-ZUMARRAGA-44>
-        <Date>03/01/2021</Date>
-        <Hour>05:00</Hour>
-        <COmgm3>0,11</COmgm3>
-        <CO8hmgm3>0,14</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>10</NOXgm3>
-        <O3gm3>41</O3gm3>
-        <OZONO>41</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>47</O38hgm3>
-        <PM10>6,54</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,88</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>246</Dviengrados>
-        <H>92</H>
-        <PmBar>972,4</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>1,9</TC>
-        <Vvienms>0,48</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-44>
-    <datos_indice-ZUMARRAGA-45>
-        <Date>03/01/2021</Date>
-        <Hour>04:00</Hour>
-        <COmgm3>0,12</COmgm3>
-        <CO8hmgm3>0,14</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>9</NOXgm3>
-        <O3gm3>44</O3gm3>
-        <OZONO>44</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>50</O38hgm3>
-        <PM10>6,25</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,67</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>240</Dviengrados>
-        <H>92</H>
-        <PmBar>973</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>2</TC>
-        <Vvienms>0,53</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-45>
-    <datos_indice-ZUMARRAGA-46>
-        <Date>03/01/2021</Date>
-        <Hour>03:00</Hour>
-        <COmgm3>0,12</COmgm3>
-        <CO8hmgm3>0,14</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>9</NOXgm3>
-        <O3gm3>47</O3gm3>
-        <OZONO>47</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>53</O38hgm3>
-        <PM10>5,96</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,54</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>254</Dviengrados>
-        <H>92</H>
-        <PmBar>973,5</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>1,9</TC>
-        <Vvienms>0,86</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-46>
-    <datos_indice-ZUMARRAGA-47>
-        <Date>03/01/2021</Date>
-        <Hour>02:00</Hour>
-        <COmgm3>0,14</COmgm3>
-        <CO8hmgm3>0,14</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>10</NOXgm3>
-        <O3ICA>Sin datos / Daturik gabe</O3ICA>
-        <O38hgm3>55</O38hgm3>
-        <PM10>5,67</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,29</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
-        <SO2>3</SO2>
-        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
-        <Dviengrados>249</Dviengrados>
-        <H>91</H>
-        <PmBar>973,8</PmBar>
-        <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>1,8</TC>
-        <Vvienms>1,17</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-47>
-    <datos_indice-ZUMARRAGA-48>
-        <Date>03/01/2021</Date>
-        <Hour>01:00</Hour>
-        <COmgm3>0,15</COmgm3>
-        <CO8hmgm3>0,14</CO8hmgm3>
-        <NOgm3>1</NOgm3>
-        <NOXgm3>9</NOXgm3>
-        <O3gm3>50</O3gm3>
-        <OZONO>50</OZONO>
-        <O3ICA>Muy bueno / Oso ona</O3ICA>
-        <O38hgm3>56</O38hgm3>
-        <PM10>5,42</PM10>
-        <PM10ICA>Muy bueno / Oso ona</PM10ICA>
-        <PM25>4,04</PM25>
-        <PM25ICA>Muy bueno / Oso ona</PM25ICA>
+        <O38hgm3>25</O38hgm3>
+        <PM10>22,38</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,25</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
         <SO2>3</SO2>
         <SO2ICA>Muy bueno / Oso ona</SO2ICA>
         <Dviengrados>233</Dviengrados>
-        <H>91</H>
-        <PmBar>974,2</PmBar>
+        <H>87</H>
+        <PmBar>989</PmBar>
         <Precipitacionlm2>0</Precipitacionlm2>
-        <Rwm2>0</Rwm2>
-        <TC>1,2</TC>
-        <Vvienms>0,85</Vvienms>
-        <ICAEstacion>Muy bueno / Oso ona</ICAEstacion>
-    </datos_indice-ZUMARRAGA-48>
+        <Rwm2>1,4</Rwm2>
+        <TC>4,9</TC>
+        <Vvienms>1,13</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-ZUMARRAGA-20>
+    <datos_indice-ZUMARRAGA-21>
+        <Date>13/01/2021</Date>
+        <Hour>04:00</Hour>
+        <COmgm3>0,25</COmgm3>
+        <CO8hmgm3>0,31</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>14</NOXgm3>
+        <O3gm3>37</O3gm3>
+        <OZONO>37</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>23</O38hgm3>
+        <PM10>22,42</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,33</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>227</Dviengrados>
+        <H>86</H>
+        <PmBar>989,3</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>2</Rwm2>
+        <TC>4,9</TC>
+        <Vvienms>1,1</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-ZUMARRAGA-21>
+    <datos_indice-ZUMARRAGA-22>
+        <Date>13/01/2021</Date>
+        <Hour>03:00</Hour>
+        <COmgm3>0,25</COmgm3>
+        <CO8hmgm3>0,33</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NO2>12</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>14</NOXgm3>
+        <O3gm3>35</O3gm3>
+        <OZONO>35</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>19</O38hgm3>
+        <PM10>22,38</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,33</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>3</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>244</Dviengrados>
+        <H>87</H>
+        <PmBar>989,2</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>1,6</Rwm2>
+        <TC>5,1</TC>
+        <Vvienms>1,11</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-ZUMARRAGA-22>
+    <datos_indice-ZUMARRAGA-23>
+        <Date>13/01/2021</Date>
+        <Hour>02:00</Hour>
+        <COmgm3>0,26</COmgm3>
+        <CO8hmgm3>0,35</CO8hmgm3>
+        <NOgm3>1</NOgm3>
+        <NO2>14</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>16</NOXgm3>
+        <O3gm3>30</O3gm3>
+        <OZONO>30</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>16</O38hgm3>
+        <PM10>22,17</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,29</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>256</Dviengrados>
+        <H>88</H>
+        <PmBar>988,4</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>0,7</Rwm2>
+        <TC>4,9</TC>
+        <Vvienms>0,73</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-ZUMARRAGA-23>
+    <datos_indice-ZUMARRAGA-24>
+        <Date>13/01/2021</Date>
+        <Hour>01:00</Hour>
+        <COmgm3>0,29</COmgm3>
+        <CO8hmgm3>0,36</CO8hmgm3>
+        <NOgm3>2</NOgm3>
+        <NO2>19</NO2>
+        <NO2ICA>Muy bueno / Oso ona</NO2ICA>
+        <NOXgm3>22</NOXgm3>
+        <O3gm3>28</O3gm3>
+        <OZONO>28</OZONO>
+        <O3ICA>Muy bueno / Oso ona</O3ICA>
+        <O38hgm3>13</O38hgm3>
+        <PM10>21,83</PM10>
+        <PM10ICA>Bueno / Ona</PM10ICA>
+        <PM25>16,21</PM25>
+        <PM25ICA>Bueno / Ona</PM25ICA>
+        <SO2>4</SO2>
+        <SO2ICA>Muy bueno / Oso ona</SO2ICA>
+        <Dviengrados>231</Dviengrados>
+        <H>87</H>
+        <PmBar>989,5</PmBar>
+        <Precipitacionlm2>0</Precipitacionlm2>
+        <Rwm2>2,1</Rwm2>
+        <TC>4,7</TC>
+        <Vvienms>1,28</Vvienms>
+        <ICAEstacion>Bueno / Ona</ICAEstacion>
+    </datos_indice-ZUMARRAGA-24>
 </datos_indice-ZUMARRAGA>
