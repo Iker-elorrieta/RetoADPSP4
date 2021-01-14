@@ -38,7 +38,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Json {
-	
+		
 	public ArrayList<Object> cargarJsons()
 	{
 		Entornos[] listaEspaciosNaturales = null;
@@ -234,14 +234,14 @@ public class Json {
 					}
 				}
 			}
-			insertarHorarios((Horario[]) cargarHorarios(horariosEstaciones, mapper).get(0), horariosEstaciones, sesion, session);
+			insertarHorarios(horariosEstaciones, sesion, session, mapper);
 		} catch (Exception e) {
 //			e.printStackTrace();
 		}
 		return true;
 	}
 	
-	public ArrayList<Object> cargarHorarios(Informes[] horariosEstaciones, ObjectMapper mapper)
+	public  ArrayList<Object> cargarHorarios(Informes[] horariosEstaciones, ObjectMapper mapper)
 	{
 		ArrayList<Informes> paginasNoEncontrada = new ArrayList<Informes>();
 		ArrayList<Object> result = new ArrayList<Object>();
@@ -271,9 +271,10 @@ public class Json {
 		return result;
 	}
 	
-	public boolean insertarHorarios(Horario[] horario, Informes[] horariosEstaciones, 
-										   SessionFactory sesion, Session session )
+	public  boolean insertarHorarios(Informes[] horariosEstaciones, 
+										   SessionFactory sesion, Session session , ObjectMapper mapper  )
 	{
+		Horario[] horario = null;
 		for(int y = 0 ; y < horariosEstaciones.length ;y++)
 		{
 			try
@@ -281,6 +282,7 @@ public class Json {
 				String url = horariosEstaciones[y].getUrl();
 				if(url.contains("datos_indice") || url.contains("datos_diarios"))
 				{
+					horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[y].getUrl()), Horario[].class);
 					String hql = "from Informes where url = '"+url+"'";
 					Query q = session.createQuery(hql);
 					Informes informe = (Informes) q.uniqueResult();
@@ -308,7 +310,7 @@ public class Json {
 	 * @return
 	 * @throws IOException
 	 */
-	private String readAll(Reader rd, String url) throws IOException {
+	private  String readAll(Reader rd, String url) throws IOException {
 		StringBuilder sb = new StringBuilder();
 		int cp;
 		String result = "";
@@ -353,7 +355,7 @@ public class Json {
 	 * @param json
 	 * @return
 	 */
-	public boolean escribirJson(String contenido,String nombre)
+	public  boolean escribirJson(String contenido,String nombre)
 	{
 		try (BufferedWriter fichero = new BufferedWriter(new FileWriter("."+File.separatorChar+"json"+File.separatorChar+nombre, false));)
 		{
@@ -376,7 +378,7 @@ public class Json {
 	 * @return
 	 * @throws IOException
 	 */
-	public String readJsonDesdeUrl(String url) throws IOException {
+	public  String readJsonDesdeUrl(String url) throws IOException {
 		//Abrir entrada de la pagina para empezar ha leerlo.
 		InputStream is = new URL(url).openStream();
 		try {
@@ -393,7 +395,7 @@ public class Json {
 	 * @param cantidadDiasAnteriores ; cantidad de dias anteriores
 	 * @return fecha adecuada.
 	 */
-	public String fechaAnterior(int cantidadDiasAnteriores)
+	public  String fechaAnterior(int cantidadDiasAnteriores)
 	{
 		Calendar fecha = Calendar.getInstance();
 		fecha.add(Calendar.DAY_OF_YEAR, -cantidadDiasAnteriores);
@@ -408,7 +410,7 @@ public class Json {
 	 * Este metodo sirve para comprobar el certificado de la cierta pagina.
 	 * @param url
 	 */
-	public void comprobarPagina(String url)
+	public  void comprobarPagina(String url)
 	{
 		try {
 			SSLContext ssl_ctx = SSLContext.getInstance("TLS");
@@ -435,7 +437,7 @@ public class Json {
 		}
 	}
 
-	private String comprobarHoraDia(String sb ,String url)
+	private  String comprobarHoraDia(String sb ,String url)
 	{
 		String nombreFichero;
 		//Que siga rellenando hasta la fecha anterior y hasta la hora 10 de esa fecha

@@ -96,12 +96,6 @@ public class Registrar {
 		
 	}
 	
-	public static void correrTest() {
-		
-		
-	}
-	
-	
 	public JFrame getFrame()
 	{
 		return frame;

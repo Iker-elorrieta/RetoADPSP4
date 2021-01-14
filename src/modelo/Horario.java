@@ -73,7 +73,7 @@ public class Horario implements java.io.Serializable {
 		}
 		catch(NumberFormatException a)
 		{
-			this.comgm3 = (double) 0;
+			this.comgm3 = null;
 		}
 	}
 	
@@ -84,7 +84,7 @@ public class Horario implements java.io.Serializable {
 		}
 		catch(NumberFormatException a)
 		{
-			this.nogm3 = (double) 0;
+			this.nogm3 = null;
 		}
 	}
 	
@@ -95,7 +95,7 @@ public class Horario implements java.io.Serializable {
 		}
 		catch(NumberFormatException a)
 		{
-			this.no2 = (double) 0;
+			this.no2 = null;
 		}
 	}
 	
@@ -106,7 +106,7 @@ public class Horario implements java.io.Serializable {
 		}
 		catch(NumberFormatException a)
 		{
-			this.noxgm3 = (double) 0;
+			this.noxgm3 = null;
 		}
 	}
 
@@ -117,7 +117,7 @@ public class Horario implements java.io.Serializable {
 		}
 		catch(NumberFormatException a)
 		{
-			this.pm10 = (double) 0;
+			this.pm10 = null;
 		}
 	}
 	
@@ -128,7 +128,7 @@ public class Horario implements java.io.Serializable {
 		}
 		catch(NumberFormatException a)
 		{
-			this.pm25 = (double) 0;
+			this.pm25 = null;
 		}
 	}
 	
@@ -139,7 +139,7 @@ public class Horario implements java.io.Serializable {
 		}
 		catch(NumberFormatException a)
 		{
-			this.so2 = (double) 0;
+			this.so2 = null;
 		}
 	}
 
@@ -266,22 +266,6 @@ public class Horario implements java.io.Serializable {
 	@Override
 	public String toString() {
 		
-		this.informes = informes;
-		this.fecha = fecha;
-		this.hora = hora;
-		this.comgm3 = comgm3;
-		this.nogm3 = nogm3;
-		this.no2 = no2;
-		this.no2ica = no2ica;
-		this.noxgm3 = noxgm3;
-		this.pm10 = pm10;
-		this.pm10ica = pm10ica;
-		this.pm25 = pm25;
-		this.pm25ica = pm25ica;
-		this.so2 = so2;
-		this.so2ica = so2ica;
-		this.icaestacion = icaestacion;
-		
 		return "Horario informes=" + informes + ", fecha=" + fecha + ", hora=" + hora + ", comgm3="
 				+ comgm3 + ", nogm3=" + nogm3 + ", no2=" + no2 + ", no2ica=" + no2ica + ", noxgm3=" + noxgm3 + ", pm10="
 				+ pm10 + ", pm10ica=" + pm10ica + ", pm25=" + pm25 + ", pm25ica=" + pm25ica + ", so2=" + so2
@@ -293,6 +277,8 @@ public class Horario implements java.io.Serializable {
 		if(comgm3 != null)
 			return false;
 		if(nogm3 != null)
+			return false;
+		if(noxgm3 != null)
 			return false;
 		if(no2 != null)
 			return false;

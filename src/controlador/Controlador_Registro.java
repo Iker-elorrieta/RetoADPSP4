@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import javax.swing.JDialog;
 import javax.swing.JOptionPane;
 
 import modelo.Usuario;
@@ -19,8 +18,6 @@ public class Controlador_Registro implements MouseListener {
 	private ObjectInputStream entrada;
 	private ObjectOutputStream salida;
 	private boolean prueba = false;
-	private JDialog op;
-	private JOptionPane a;
 	
 	public Controlador_Registro(Registrar registrar, ObjectInputStream entrada, ObjectOutputStream salida) {
 		
@@ -59,14 +56,15 @@ public class Controlador_Registro implements MouseListener {
 				String respuesta = this.entrada.readObject().toString();
 				if (respuesta.equals("bien")){
 					
-					op = a.createDialog(ventanaRegistro.getFrame(), "Registro realizado");
+					JOptionPane.showMessageDialog(null,"Registro realizado", "Información", JOptionPane.INFORMATION_MESSAGE);
 					prueba = true;
 				} else if (respuesta.equals("mal")) {
-					op = a.createDialog(ventanaRegistro.getFrame(),"Ocurrió algún error. Registro no realizado");
+					
+					JOptionPane.showMessageDialog(null,"Ocurrió algún error. Registro no realizado", "Información", JOptionPane.ERROR_MESSAGE);
 					prueba = true;
 				}
-				prueba = true;
-
+				
+						
 			} catch (Exception e1) {
 				e1.printStackTrace();
 			}
@@ -107,10 +105,4 @@ public class Controlador_Registro implements MouseListener {
 		// TODO Auto-generated method stub
 		
 	}
-
-	public JDialog getOp() {
-		return op;
-	}
-	
-	
 }

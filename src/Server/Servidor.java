@@ -24,7 +24,6 @@ public class Servidor extends Thread {
 	ServerSocket servidor = null;
 	JLabel hora;
 
-
 	public Servidor(JTextArea textArea, JTextField texto,JLabel hora) {
 		lista = new ArrayList<ObjectOutputStream>();
 		this.texto = texto;
@@ -82,6 +81,4 @@ public class Servidor extends Thread {
 		
 		return true;
 	}
-
-
 }
