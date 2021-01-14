@@ -15,6 +15,10 @@ public class Login {
 	private JButton botonRegistrar;
 	private JButton botonRecuperar;
 	
+	/**
+	 * {@summary Constructor de la clase. Carga los distintos componentes de la ventana} 
+	 */
+	
 	public Login() {
 		
 		cargarVentana();
@@ -24,7 +28,11 @@ public class Login {
 		
 	}
 	
-	public boolean cargarVentana() {
+	/**
+	 * {@summary Método que carga el frame de la ventana} 
+	 */
+	
+	public void cargarVentana() {
 		
 		frame = new JFrame();
 		frame.setResizable(false);
@@ -34,11 +42,13 @@ public class Login {
 		frame.setLocationRelativeTo(null);
 		frame.getContentPane().setLayout(null);
 		
-		return true;
-		
 	}
 	
-	public boolean cargarEtiquetas() {
+	/**
+	 * {@summary Método que carga las etiquetas de la ventana} 
+	 */
+	
+	public void cargarEtiquetas() {
 		
 		JLabel labelNombre = new JLabel("Nombre");
 		labelNombre.setBounds(197, 126, 81, 22);
@@ -54,10 +64,12 @@ public class Login {
 		labelBienvenida.setHorizontalAlignment(SwingConstants.CENTER);
 		labelBienvenida.setBounds(200, 32, 254, 14);
 		frame.getContentPane().add(labelBienvenida);
-		
-		return true;
-		
+	
 	}
+	
+	/**
+	 * {@summary Método que carga los campos de texto de la ventana}
+	 */
 	
 	public void cargarCamposTexto() {
 		
@@ -72,6 +84,10 @@ public class Login {
 		frame.getContentPane().add(contrasena);
 		
 	}
+	
+	/**
+	 *{@summary Método que carga los botones de la ventana}
+	 */
 	
 	public void cargarBotones() {
 		

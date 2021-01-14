@@ -9,15 +9,22 @@ public class Logeado {
 	private JLabel labelHola;
 	private JLabel labelCorreo;
 	
+	/**
+	 *{@summary Constructor de la clase. Carga los distintos componentes de la ventana} 
+	 */
 	
 	public Logeado() {
-		
+	
 		cargarVentana();
 		cargarEtiquetas();
 	}
 	
+	/**
+	 * {@summary Método que carga el frame de la ventana} 
+	 */
+	
 	public void cargarVentana() {
-		
+			
 		frame = new JFrame();
 		frame.setResizable(false);
 		frame.setBounds(100, 100, 700, 525);
@@ -26,6 +33,10 @@ public class Logeado {
 		frame.getContentPane().setLayout(null);	
 	
 	}
+	
+	/**
+	 * {@summary Método que carga las etiquetas de la ventana} 
+	 */
 	
 	public void cargarEtiquetas(){
 		
