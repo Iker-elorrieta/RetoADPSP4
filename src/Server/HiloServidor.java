@@ -53,7 +53,7 @@ public class HiloServidor extends Thread {
 				case 1: //En caso de que nos llega una peticion de la ventana de login comprobamos si el usuario introducido se encuentra en la base de datos.
 
 					
-					Transaction tx = null;	
+					@SuppressWarnings("unused") Transaction tx = null;	
 					SessionFactory sesion = modelo.HibernateUtil.getSessionFactory();
 					Session session = sesion.openSession();	
 					tx = session.beginTransaction();
@@ -108,7 +108,8 @@ public class HiloServidor extends Thread {
 	 * @return hash
 	 */
 	public static String crearHash (String texto){
-        Byte [] hash = null;
+        @SuppressWarnings("unused")
+		Byte [] hash = null;
         String resumenAString = "";
         MessageDigest md;
         try {

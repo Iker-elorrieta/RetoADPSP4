@@ -30,7 +30,7 @@ public class Municipios implements java.io.Serializable {
 	}
 
 	public Municipios(String nombre, String descripcion, Double latitud, Double longitud, String codigo,
-			Set estacioneses, Set entornosmunis) {
+			@SuppressWarnings("rawtypes") Set estacioneses, @SuppressWarnings("rawtypes") Set entornosmunis) {
 		this.nombre = nombre;
 		this.descripcion = descripcion;
 		this.latitud = latitud;
