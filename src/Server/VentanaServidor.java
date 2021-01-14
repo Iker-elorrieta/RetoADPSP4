@@ -87,6 +87,7 @@ public class VentanaServidor extends JFrame implements ActionListener {
 		// TODO Auto-generated method stub
 		if (e.getSource() == botonSalir) { // SE PULSA BOTON SALIR
 			s.desconectar();
+			this.dispose();
 		}
 	}
 }

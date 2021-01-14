@@ -53,6 +53,7 @@ public class TestsInserciones {
 	//Valores de prueba
 	String nombrePruebas = "prueba";
 	Double valor = (double) 1;
+	String valorString = "0,1";
 	Calendar fecha = Calendar.getInstance(); // para pasar a date llamar al metodo toDate(Calendar)
 	String email = "a@b.c";
 	String contrasena = "preuba";
@@ -62,6 +63,10 @@ public class TestsInserciones {
 	
 	@org.junit.Test
 	public void testInsercionMunicipio() {
+		municipio.setLatitud(valorString);
+		municipio.setLongitud(valorString);
+		municipio.setLatitud("a");
+		municipio.setLongitud("b");
 		municipio = new Municipios(nombrePruebas);
 		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
 		municipio.toString();
@@ -72,6 +77,12 @@ public class TestsInserciones {
 	
 	@org.junit.Test
 	public void testInsercionEntorno() {
+		entorno.getMunicipio();
+		entorno.setMunicipio("algo");
+		entorno.setLatitud(valorString);
+		entorno.setLongitud(valorString);
+		entorno.setLatitud("a");
+		entorno.setLongitud("b");
 		entorno = new Entornos(nombrePruebas);
 		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
 		entorno.toString();
@@ -105,13 +116,13 @@ public class TestsInserciones {
         horario.setSo2(null);
         horario.setSo2ica(null);
         horario.setIcaestacion(null);
-        horario.setValor1("0,1");
-        horario.setValor2("0,1");
-        horario.setValor3("0,1");
-        horario.setValor4("0,1");
-        horario.setValor5("0,1");
-        horario.setValor6("0,1");
-        horario.setValor7("0,1");
+        horario.setValor1(valorString);
+        horario.setValor2(valorString);
+        horario.setValor3(valorString);
+        horario.setValor4(valorString);
+        horario.setValor5(valorString);
+        horario.setValor6(valorString);
+        horario.setValor7(valorString);
         horario.setValor1("a");
         horario.setValor2("b");
         horario.setValor3("c");
@@ -172,6 +183,12 @@ public class TestsInserciones {
 	public void testInsercionEstacion() {
 		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
 		InsertarBorrar.insertar(municipio, sesion, session);
+		estacion.setCoordenadaX(valorString);
+		estacion.setCoordenadaY(valorString);
+		estacion.setLatitud(valorString);
+		estacion.setLongitud(valorString);
+		estacion.setMunicipio("algo");
+		estacion.getMunicipio();
 		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas);
 		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		assertEquals(true, InsertarBorrar.insertar(estacion, sesion, session));
