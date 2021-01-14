@@ -58,6 +58,10 @@ public class Horario implements java.io.Serializable {
 		this.id = id;
 	}
 	
+	/**
+	 * Metodo modificado para poder insertar la fecha de los Json con la libreria de Jackson
+	 * @param fecha
+	 */
 	public void setFecha(String fecha) {
 		try {
 			this.fecha = new SimpleDateFormat("dd/MM/yyyy").parse(fecha);
@@ -66,6 +70,10 @@ public class Horario implements java.io.Serializable {
 		}
 	}
 	
+	/**
+	 * Metodo modificado para que se pueda extraer los datos de los json compatible con la libreria Jackson
+	 * @param comgm3
+	 */
 	public void setValor1(String comgm3) {
 		try
 		{
@@ -77,6 +85,10 @@ public class Horario implements java.io.Serializable {
 		}
 	}
 	
+	/**
+	 * Metodo modificado para que se pueda extraer los datos de los json compatible con la libreria Jackson
+	 * @param comgm3
+	 */
 	public void setValor2(String nogm3) {
 		try
 		{
@@ -88,6 +100,10 @@ public class Horario implements java.io.Serializable {
 		}
 	}
 	
+	/**
+	 * Metodo modificado para que se pueda extraer los datos de los json compatible con la libreria Jackson
+	 * @param comgm3
+	 */
 	public void setValor3(String no2) {
 		try
 		{
@@ -99,6 +115,10 @@ public class Horario implements java.io.Serializable {
 		}
 	}
 	
+	/**
+	 * Metodo modificado para que se pueda extraer los datos de los json compatible con la libreria Jackson
+	 * @param comgm3
+	 */
 	public void setValor4(String noxgm3) {
 		try
 		{
@@ -110,6 +130,10 @@ public class Horario implements java.io.Serializable {
 		}
 	}
 
+	/**
+	 * Metodo modificado para que se pueda extraer los datos de los json compatible con la libreria Jackson
+	 * @param comgm3
+	 */
 	public void setValor5(String pm10) {
 		try
 		{
@@ -121,6 +145,10 @@ public class Horario implements java.io.Serializable {
 		}
 	}
 	
+	/**
+	 * Metodo modificado para que se pueda extraer los datos de los json compatible con la libreria Jackson
+	 * @param comgm3
+	 */
 	public void setValor6(String pm25) {
 		try
 		{
@@ -132,6 +160,10 @@ public class Horario implements java.io.Serializable {
 		}
 	}
 	
+	/**
+	 * Metodo modificado para que se pueda extraer los datos de los json compatible con la libreria Jackson
+	 * @param comgm3
+	 */
 	public void setValor7(String so2) {
 		try
 		{
@@ -272,6 +304,10 @@ public class Horario implements java.io.Serializable {
 				+ ", so2ica=" + so2ica + ", icaestacion=" + icaestacion + "]";
 	}
 
+	/**
+	 * 
+	 * Metodo para comprobar si el objeto tiene datos de interes para guardar en la base de datos.
+	 */
 	public boolean isNull()
 	{
 		if(comgm3 != null)

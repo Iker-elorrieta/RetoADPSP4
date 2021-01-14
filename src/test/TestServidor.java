@@ -81,6 +81,9 @@ public class TestServidor {
 	@SuppressWarnings("rawtypes")
 	Set set = new HashSet(0);
 	
+	//Antes de probar esta clase se debe comprobar que el puerto no esta ocupado por otro servidor o proceso
+	//en otras palabras que no haya otro servidor arrancado.
+	
 	@org.junit.Test
 	public void testServidor()
 	{

@@ -38,7 +38,13 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Json {
-		
+	
+	/**
+	 * Metodo principal de sacar todos los datos de los json
+	 * Tambien es la clase donde se crean los ficheros de json de cada url menos los horarios
+	 * para sacar lo requierido de los horarios es el lista.get(0) de lo que devuelve este metodo.
+	 * @return este metodo devuelve un arraylist con los datos necesarios que se requiere en el metodo cargarTodosLosDatos en el orden correspondiente.
+	 */
 	public ArrayList<Object> cargarJsons()
 	{
 		Entornos[] listaEspaciosNaturales = null;
@@ -74,7 +80,7 @@ public class Json {
 		}
 		
 		ArrayList<Object> result = new ArrayList<Object>();
-		result.add(cargarHorarios(horariosEstaciones, mapper).get(2));
+		result.add(cargarHorarios(horariosEstaciones, mapper).get(1));
 		result.add(mapper);
 		result.add(listaMunicipios);
 		result.add(listaEspaciosNaturales);
@@ -83,6 +89,17 @@ public class Json {
 		return result;
 	}
 	
+	/**
+	 * En este metodo se inserta dodos los datos en la base de datos menos los horarios.
+	 * @param paginasNoEncontrada
+	 * @param mapper
+	 * @param listaMunicipios
+	 * @param listaEspaciosNaturales
+	 * @param listaEstaciones
+	 * @param horariosEstaciones
+	 * @param sesion
+	 * @param session
+	 */
 	public boolean cargarTodosLosDatos(ArrayList<Informes> paginasNoEncontrada,
 									  ObjectMapper mapper, Municipios[] listaMunicipios, 
 									  Entornos[] listaEspaciosNaturales,Estaciones[] listaEstaciones, 
@@ -241,7 +258,14 @@ public class Json {
 		return true;
 	}
 	
-	public  ArrayList<Object> cargarHorarios(Informes[] horariosEstaciones, ObjectMapper mapper)
+	/**
+	 * Metodo que crea los Jsones para comprobar con los hashes de la BDD.
+	 * @param horariosEstaciones
+	 * @param mapper
+	 * @return devuelve un arraylist con todas las estaciones y las paginas no encontradas
+	 * Las paginas no encontradas sirve para señalar que paginas evitar y resistencia a fallos inesperados del programa y BDD.
+	 */
+	public ArrayList<Object> cargarHorarios(Informes[] horariosEstaciones, ObjectMapper mapper)
 	{
 		ArrayList<Informes> paginasNoEncontrada = new ArrayList<Informes>();
 		ArrayList<Object> result = new ArrayList<Object>();
@@ -265,13 +289,19 @@ public class Json {
 				//Seguir al siguiente objeto en caso de fallo
 			}
 		}
-		result.add(horario);
 		result.add(horariosEstaciones);
 		result.add(paginasNoEncontrada);
 		return result;
 	}
 	
-	public  boolean insertarHorarios(Informes[] horariosEstaciones, 
+	/**
+	 * Metodo de insercion a la base de datos de todos los horarios de cada index que se encuentra en el json.
+	 * @param horariosEstaciones
+	 * @param sesion
+	 * @param session
+	 * @param mapper
+	 */
+	public boolean insertarHorarios(Informes[] horariosEstaciones, 
 										   SessionFactory sesion, Session session , ObjectMapper mapper  )
 	{
 		Horario[] horario = null;
@@ -310,7 +340,7 @@ public class Json {
 	 * @return
 	 * @throws IOException
 	 */
-	private  String readAll(Reader rd, String url) throws IOException {
+	private String readAll(Reader rd, String url) throws IOException {
 		StringBuilder sb = new StringBuilder();
 		int cp;
 		String result = "";
@@ -322,6 +352,9 @@ public class Json {
 					return result.toLowerCase();
 		}
 		
+		/**
+		 * Como el index es un json mas especial se incluye en un if especifico
+		 */
 		if(url.contains("index.json"))
 		{
 			result = sb.toString().substring(sb.toString().indexOf("["),sb.toString().lastIndexOf("]")+1);
@@ -330,6 +363,9 @@ public class Json {
 			result = replace(result, url);
 			return result;
 		}
+		/*
+		 * En caso de que no se encuentra la parentesis del principio ni del final se añaden en este caso.
+		 */
 		else if(sb.toString().indexOf("[") != -1 && sb.toString().lastIndexOf("]") != -1)
 		{
 			result = sb.toString().substring(sb.toString().indexOf("["),sb.toString().lastIndexOf("]")+1);
@@ -338,15 +374,10 @@ public class Json {
 			result = replace(result, url);
 			return result.toLowerCase();
 		}
-		else if(sb.toString().indexOf("[") != -1 && sb.toString().lastIndexOf("]") == -1)
-		{
-			result = sb.toString().substring(sb.toString().indexOf("["),sb.toString().lastIndexOf("}")) + "]";
-			String nombrefichero = url.substring(url.lastIndexOf("/")+1);
-			escribirJson(result,nombrefichero);
-			result = replace(result, url);
-			return result.toLowerCase();
-		}
-		else
+		/**
+		 * En caso de que el json no contiene suficientes datos para formar un objeto este json se devolvera vacio.
+		 */
+		else 
 			return "[{}]";
 	}
 	
@@ -355,7 +386,7 @@ public class Json {
 	 * @param json
 	 * @return
 	 */
-	public  boolean escribirJson(String contenido,String nombre)
+	public boolean escribirJson(String contenido,String nombre)
 	{
 		try (BufferedWriter fichero = new BufferedWriter(new FileWriter("."+File.separatorChar+"json"+File.separatorChar+nombre, false));)
 		{
@@ -378,7 +409,7 @@ public class Json {
 	 * @return
 	 * @throws IOException
 	 */
-	public  String readJsonDesdeUrl(String url) throws IOException {
+	public String readJsonDesdeUrl(String url) throws IOException {
 		//Abrir entrada de la pagina para empezar ha leerlo.
 		InputStream is = new URL(url).openStream();
 		try {
@@ -395,7 +426,7 @@ public class Json {
 	 * @param cantidadDiasAnteriores ; cantidad de dias anteriores
 	 * @return fecha adecuada.
 	 */
-	public  String fechaAnterior(int cantidadDiasAnteriores)
+	public String fechaAnterior(int cantidadDiasAnteriores)
 	{
 		Calendar fecha = Calendar.getInstance();
 		fecha.add(Calendar.DAY_OF_YEAR, -cantidadDiasAnteriores);
@@ -410,7 +441,7 @@ public class Json {
 	 * Este metodo sirve para comprobar el certificado de la cierta pagina.
 	 * @param url
 	 */
-	public  void comprobarPagina(String url)
+	public void comprobarPagina(String url)
 	{
 		try {
 			SSLContext ssl_ctx = SSLContext.getInstance("TLS");
@@ -437,7 +468,12 @@ public class Json {
 		}
 	}
 
-	private  String comprobarHoraDia(String sb ,String url)
+	/**
+	 * Este metodo sirve como filtro de cantidad de objetos que se recoge de los json
+	 * @param sb
+	 * @param url
+	 */
+	private String comprobarHoraDia(String sb ,String url)
 	{
 		String nombreFichero;
 		//Que siga rellenando hasta la fecha anterior y hasta la hora 10 de esa fecha
@@ -500,6 +536,14 @@ public class Json {
 			return "continuar";
 	}
 	
+	/**
+	 * Este metodo sirve para formatear los datos de los json a los que tiene el programa
+	 * Las librerias Jackson solo pilla datos si tiene el mismo nombre que el metodo set de la clase corespondiente
+	 * con lo cual es necesario renombrar los campos de los json a los que tenemos en el programa.
+	 * @param cadena
+	 * @param tipo
+	 * @return el json entero formateado.
+	 */
 	public String replace(String cadena,String tipo)
 	{
 		if(tipo.toLowerCase().contains("estaciones.json"))

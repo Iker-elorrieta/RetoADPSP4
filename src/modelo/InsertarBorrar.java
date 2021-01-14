@@ -51,6 +51,13 @@ public class InsertarBorrar {
 		tx.commit();
 	}
 	
+	/**
+	 * Para conseguir meter datos en la tabla entornomuni hace falta los id del entorno que es la funcionalidad de este metodo.
+	 * @param entorno
+	 * @param sesion
+	 * @param session
+	 * 
+	 */
 	public static int obtenerEntornoId(Entornos entorno,SessionFactory sesion,Session session) {
 		
 		String hql = new String();
@@ -65,6 +72,13 @@ public class InsertarBorrar {
 		
 	}
 	
+	/**
+	 * Para conseguir meter datos en la tabla entornomuni hace falta los id del Municipio que es la funcionalidad de este metodo.
+	 * @param entorno
+	 * @param sesion
+	 * @param session
+	 * 
+	 */
 	public static int obtenerMunicipioId(Municipios municipio,SessionFactory sesion,Session session) {
 		
 		String hql = new String();
