@@ -1,13 +1,13 @@
 [ {
-  "Date" : "11/01/2021",
-  "Bencenogm3" : "1",
-  "Etilbencenogm3" : "0,27",
-  "NOgm3" : "17",
-  "NO2gm3" : "25",
-  "NOXgm3" : "51",
-  "O3gm3" : "20",
-  "O38hgm3" : "23",
-  "PM10gm3" : "24",
-  "PM25gm3" : "18",
-  "Toluenogm3" : "2,16"
+  "Date" : "12/01/2021",
+  "Bencenogm3" : "1,35",
+  "Etilbencenogm3" : "1,4",
+  "NOgm3" : "18",
+  "NO2gm3" : "39",
+  "NOXgm3" : "67",
+  "O3gm3" : "7",
+  "O38hgm3" : "7",
+  "PM10gm3" : "36",
+  "PM25gm3" : "24",
+  "Toluenogm3" : "6,18"
 } ]
