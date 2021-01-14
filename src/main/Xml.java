@@ -32,8 +32,18 @@ import com.google.gson.JsonParser;
 import com.google.gson.JsonSyntaxException;
 
 public class Xml {
-	
-	public static boolean convertirJSONaXML () {
+
+	/**
+	 * {@summary Método que comprueba la carpeta de Json y que realiza xml con los
+	 * archivos que encuentra}
+	 * 
+	 * @return boolean
+	 */
+
+	public static boolean convertirJSONaXML() {
+
+		// Se crea un objeto file con el directorio de Json y se utiliza para recorrer
+		// todos los archivos del mismo
 
 		File directorio = new File("json");
 		for (File archivo : directorio.listFiles()) {
@@ -53,9 +63,14 @@ public class Xml {
 						archivo.getName().substring(0, archivo.getName().indexOf(".json")), null);
 				documento.setXmlVersion("1.0");
 				
-				int numero = 0;
+				// Integer que sirve para llevar la cuenta del número de objeto dentro de cada Json y dar nombre con él al elemento en el xml
 				
+				int numero = 0;
+
 				while (iter.hasNext()) {
+					
+					// Recorre todos los objetos del Json y actualiza su número
+					
 					numero++;
 					datos = iter.next();
 
@@ -63,11 +78,15 @@ public class Xml {
 
 					Set<Map.Entry<String, JsonElement>> entradas = objeto.entrySet();
 					Iterator<Map.Entry<String, JsonElement>> iter2 = entradas.iterator();
-
+					
+					// Da nombre al elemento xml en base al nombre del documento json y el número del objeto
+					
 					Element elemento = documento
 							.createElement(archivo.getName().substring(0, archivo.getName().indexOf(".json")) + "-"
 									+ String.valueOf(numero));
 					while (iter2.hasNext()) {
+						
+						// Se va leyendo cada atributo del Json y se añade al objeto
 
 						Map.Entry<String, JsonElement> datos2 = iter2.next();
 						String atributo = datos2.getKey();
@@ -78,10 +97,14 @@ public class Xml {
 						elemento.appendChild(parametro);
 
 					}
+					
+					// Se añade el objeto al xml
 
 					documento.getDocumentElement().appendChild(elemento);
 
 				}
+				
+				// Se crea el documento xml
 
 				Source source = new DOMSource(documento);
 				Result result = new StreamResult(new File(
@@ -109,7 +132,7 @@ public class Xml {
 				e.printStackTrace();
 			}
 		}
-		
+
 		return true;
 
 	}
