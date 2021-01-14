@@ -16,6 +16,10 @@ public class Registrar {
 	private JButton botonAcceptar;
 	private JButton botonVolver;
 	
+	/**
+	 * {@summary Constructor de la clase. Carga los distintos componentes de la ventana}
+	 */
+	
 	public Registrar() {
 		
 		cargarVentana();
@@ -24,6 +28,10 @@ public class Registrar {
 		cargarBotones();
 		
 	}
+	
+	/**
+	 * {@summary Método que carga el frame de la ventana}
+	 */
 	
 	public void cargarVentana() {
 		
@@ -35,6 +43,10 @@ public class Registrar {
 		frame.getContentPane().setLayout(null);
 	
 	}
+	
+	/**
+	 * {@summary Método que carga las etiquetas de la ventana}
+	 */
 	
 	public void cargarEtiquetas() {
 		
@@ -60,6 +72,10 @@ public class Registrar {
 		
 	}
 	
+	/**
+	 *{@summary Método que carga los campos de texto de la ventana}
+	 */
+	
 	public void cargarCamposTexto() {
 		
 		nombre = new JTextField();
@@ -83,6 +99,10 @@ public class Registrar {
 		frame.getContentPane().add(email);
 		
 	}
+	
+	/**
+	 *{@summary Método que carga los botones de la ventana} 
+	 */
 	
 	public void cargarBotones() {
 		

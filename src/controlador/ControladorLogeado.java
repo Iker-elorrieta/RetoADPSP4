@@ -9,6 +9,12 @@ public class ControladorLogeado {
 	private Usuario usuario;
 	public static boolean booleanTest = false;
 	
+	/**
+	 * {@summary Constructor de la clase que inicia el controlador}
+	 * @param ventanaLogeado
+	 * @param usuario
+	 */
+	
 	public ControladorLogeado(Logeado ventanaLogeado, Usuario usuario) {
 		
 		this.ventanaLogeado = ventanaLogeado;
@@ -18,6 +24,10 @@ public class ControladorLogeado {
 		booleanTest = true;
 		
 	}
+	
+	/**
+	 * {@summary Método que hace visible el frame de la ventana y que cambia las etiquetas en función de los datos del usuario que ha iniciado sesión}
+	 */
 	
 	public void iniciarControlador() {
 		

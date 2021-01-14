@@ -20,6 +20,13 @@ public class Controlador_Login implements MouseListener {
 	private ObjectInputStream entrada;
 	private boolean booleanPrueba = false;
 	
+	/**
+	 * {@summary Constructor de la clase que da inicio al controlador}
+	 * @param frame
+	 * @param entrada
+	 * @param salida
+	 */
+	
 	public Controlador_Login(Login frame, ObjectInputStream entrada, ObjectOutputStream salida) {
 		
 		this.ventanaLogin = frame;
@@ -28,6 +35,10 @@ public class Controlador_Login implements MouseListener {
 		iniciarControlador();		
 		
 	}
+	
+	/**
+	 * {@summary Método que hace visible el frame de la ventana, añade listeners a los componentes y les da nombre}
+	 */
 	
 	public void iniciarControlador() {
 		
@@ -46,7 +57,11 @@ public class Controlador_Login implements MouseListener {
 		// TODO Auto-generated method stub
 		
 	}
-
+	
+	/**
+	 * {@summary Método que contiene las acciones a realizar al pulsar un botón}
+	 */
+	
 	@Override
 	public void mousePressed(MouseEvent e) {
 		// TODO Auto-generated method stub
@@ -54,23 +69,36 @@ public class Controlador_Login implements MouseListener {
 		switch (e.getComponent().getName()) {
 		case "entrar":
 			
+			// Acción de iniciar sesión. Se crea un objeto Usuario con los datos de los campos de texto correspondientes
+
 			Usuario nuevo = new Usuario();
 			nuevo.setUsuario(ventanaLogin.getNombre().getText());
 			nuevo.setContrasena(ventanaLogin.getContrasena().getText());
 			try {
+				
+				// Se manda al servidor la instrucción de iniciar sesión junto al objeto Usuario
+				
 				salida.writeObject(1);
 				salida.writeObject(nuevo);
+				
+				// Se recibe el objeto Usuario que el servidor ha obtenido de la BDD con los datos que se enviaron previamente
+				
 				nuevo = (Usuario) entrada.readObject();
 				
+				
+				
 				if (nuevo != null) {
+					
+					// Si el usuario recibido no es nulo significa que los datos eran correctos. Se informa de ello al usuario y se da paso a la siguiente ventana
 					
 					JOptionPane.showMessageDialog(this.ventanaLogin.getFrame(),"Ha iniciado sesión", "Información", JOptionPane.INFORMATION_MESSAGE);
 					Logeado ventanaLogeado = new Logeado();
 					@SuppressWarnings("unused")
 					ControladorLogeado controladorLogeado = new ControladorLogeado(ventanaLogeado, nuevo);
 					
-					
 				} else {
+					
+					// Si el usuario recibido es nulo significa que los datos enviados no eran correctos. Se informa de ello al usuario
 					
 					JOptionPane.showMessageDialog(null,"Los datos introducidos no son correctos", "Información", JOptionPane.ERROR_MESSAGE);
 					
@@ -87,6 +115,8 @@ public class Controlador_Login implements MouseListener {
 			break;
 			
 		case "registrar":
+			
+//			Acción de realizar registro. Se da paso a la ventana de registro y se cierra la actual
 			
 			Registrar registrar = new Registrar();
 			@SuppressWarnings("unused") Controlador_Registro controlador = new Controlador_Registro(registrar, this.entrada, this.salida);
