@@ -11,6 +11,9 @@ public class Estaciones implements java.io.Serializable {
 
 	private Integer id;
 	private Municipios municipios;
+	/**
+	 * Variable para el dato de los Json ya que viene solo el nombre.
+	 */
 	private String municipio;
 	private String nombre;
 	private String provincia;
@@ -110,7 +113,11 @@ public class Estaciones implements java.io.Serializable {
 	public Double getCoordenadaX() {
 		return this.coordenadaX;
 	}
-
+	
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
 	public void setCoordenadaX(String coordenadaX) {
 		this.coordenadaX = Double.parseDouble(coordenadaX.replace(",", "."));
 	}
@@ -119,6 +126,10 @@ public class Estaciones implements java.io.Serializable {
 		return this.coordenadaY;
 	}
 
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
 	public void setCoordenadaY(String coordenadaY) {
 		this.coordenadaY = Double.parseDouble(coordenadaY.replace(",", "."));
 	}
@@ -127,6 +138,10 @@ public class Estaciones implements java.io.Serializable {
 		return this.latitud;
 	}
 	
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
 	public void setLatitud(String latitud) {
 		this.latitud = Double.parseDouble(latitud.replace(",", "."));
 	}
@@ -134,7 +149,11 @@ public class Estaciones implements java.io.Serializable {
 	public Double getLongitud() {
 		return this.longitud;
 	}
-
+	
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
 	public void setLongitud(String longitud) {
 		this.longitud = Double.parseDouble(longitud.replace(",", "."));
 	}
@@ -154,6 +173,10 @@ public class Estaciones implements java.io.Serializable {
 				+ ", latitud=" + latitud + ", longitud=" + longitud + ", informeses=" + informeses + "]";
 	}
 	
+	/**
+	 * 
+	 * Metodo para comprobar si el objeto tiene datos de interes para guardar en la base de datos.
+	 */
 	public boolean isNull()
 	{
 		if(nombre != null)

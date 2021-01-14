@@ -5,6 +5,11 @@ import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
+/**
+ * Clase necesaria para hacer la conexion a la base de datos con hibernate.
+ * @author Grupo 4
+ *
+ */
 public class HibernateUtil { 
   private static final SessionFactory sessionFactory = buildSessionFactory();
                                          

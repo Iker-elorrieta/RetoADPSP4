@@ -60,6 +60,7 @@ public class TestControladorRegistro {
 	//Valores de prueba
 	String nombrePruebas = "prueba";
 	
+	//Para hacer esta prueba el servido debe estar en funcionamiento.
 	
 	@org.junit.Test
 	public void testControladorRegistro() {

@@ -6,6 +6,10 @@ import controlador.ControladorLogeado;
 import modelo.Usuario;
 import vista.Logeado;
 
+/**
+ * Clase para hacer las pruebas en el controlador de logeado
+ * @author Grupo 4
+ */
 public class TestControladorLogeado {
 
 	ControladorLogeado controlador;

@@ -7,6 +7,11 @@ import java.net.Socket;
 import controlador.Controlador_Login;
 import vista.Login;
 
+/**
+ * Esta clase es la del cliente.
+ * @author Grupo 4
+ *
+ */
 public class Principal {
 
 	public static void main(String[] args) {
@@ -15,6 +20,9 @@ public class Principal {
 		
 	}
 	
+	/**
+	 * Main de la clase
+	 */
 	public static boolean start()
 	{
 		Login cliente = new Login();

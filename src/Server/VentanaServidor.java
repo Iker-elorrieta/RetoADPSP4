@@ -13,6 +13,11 @@ import javax.swing.JTextField;
 import javax.swing.JLabel;
 
 
+/**
+ * Ventana para manejo de conexiones y visualisación de estas.
+ * @author Grupo 4
+ *
+ */
 public class VentanaServidor extends JFrame implements ActionListener {
 	/**
 	 * 

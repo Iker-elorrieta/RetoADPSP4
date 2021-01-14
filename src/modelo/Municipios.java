@@ -45,6 +45,10 @@ public class Municipios implements java.io.Serializable {
 		this.id = id;
 	}
 	
+	/**
+	 * Metodo de set latidud modificado para que funcione con la libreria de JSon jackson.
+	 * @param latitud
+	 */
 	public void setLatitud(String latitud) {
 		try
 		{
@@ -55,7 +59,11 @@ public class Municipios implements java.io.Serializable {
 			this.latitud = null;
 		}
 	}
-
+	
+	/**
+	 * Metodo de set longitud modificado para que funcione con la libreria de JSon jackson.
+	 * @param latitud
+	 */
 	public void setLongitud(String longitud) {
 		try
 		{
@@ -130,6 +138,9 @@ public class Municipios implements java.io.Serializable {
 				+ ", entornosmunis=" + entornosmunis + "]";
 	}
 
+	/**
+	 * Metodo para comprobar si el objeto tiene datos de interes para guardar en la base de datos.
+	 */
 	public boolean isNull()
 	{
 		if(nombre != null)

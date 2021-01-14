@@ -13,6 +13,13 @@ import javax.swing.JLabel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
+/**
+ * Esta es la clase que accepta conexiones de los clientes
+ * siendo limitado a 870 conexiones
+ * El puerto de este servidor se encuentra en 44444
+ * @author Grupo 4
+ *
+ */
 public class Servidor extends Thread {
 
 	ArrayList<ObjectOutputStream> lista;
@@ -24,6 +31,12 @@ public class Servidor extends Thread {
 	ServerSocket servidor = null;
 	JLabel hora;
 
+	/**
+	 * Constructor del servidor
+	 * @param textArea
+	 * @param texto
+	 * @param hora
+	 */
 	public Servidor(JTextArea textArea, JTextField texto,JLabel hora) {
 		lista = new ArrayList<ObjectOutputStream>();
 		this.texto = texto;
@@ -65,6 +78,10 @@ public class Servidor extends Thread {
 		}
 	}
 
+	/**
+	 * Metodo para cerrar el servidor.
+	 * 
+	 */
 	public boolean desconectar() {
 		continuar = false;
 		try {
