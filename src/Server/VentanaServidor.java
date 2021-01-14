@@ -27,6 +27,7 @@ public class VentanaServidor extends JFrame implements ActionListener {
 	JButton botonSalir = new JButton("Salir");
 	Servidor s = null;
 	JLabel labelHora= null;
+	boolean prueba = false; 
 
 	/**
 	 * Launch the application.
@@ -72,14 +73,9 @@ public class VentanaServidor extends JFrame implements ActionListener {
 		labelHora.setBounds(578, 11, 46, 14);
 		getContentPane().add(labelHora);
 		
-		
-				textarea1.setEditable(false);
-				
-						s = new Servidor(textarea1,mensaje,labelHora);
-						
-						
+		textarea1.setEditable(false);				
+		s = new Servidor(textarea1,mensaje,labelHora);	
 		s.start();
-		
 	}
 
 	@Override
@@ -87,7 +83,16 @@ public class VentanaServidor extends JFrame implements ActionListener {
 		// TODO Auto-generated method stub
 		if (e.getSource() == botonSalir) { // SE PULSA BOTON SALIR
 			s.desconectar();
-			this.dispose();
+			prueba = true;
 		}
+	}
+
+	public JButton getBotonSalir() {
+		return botonSalir;
+	}
+	
+	public boolean prueba()
+	{
+		return prueba;
 	}
 }

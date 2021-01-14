@@ -88,14 +88,6 @@ public class TestControladorLogin {
 		}
 		assertEquals(true, controladorLogin.isBooleanPrueba());
 	}
-	
-	
-    public Date toDate(Calendar calendar)
-    {
-        Date result;
-        result = calendar.getTime();
-        return result;
-    }
     
     
 }

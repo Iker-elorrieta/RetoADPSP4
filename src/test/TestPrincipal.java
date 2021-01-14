@@ -85,14 +85,6 @@ public class TestPrincipal {
 		assertEquals(true,main.start());
 	}
 	
-	
-	
-    public Date toDate(Calendar calendar)
-    {
-        Date result;
-        result = calendar.getTime();
-        return result;
-    }
     
     
 }

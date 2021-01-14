@@ -2,12 +2,14 @@ package test;
 
 import static org.junit.Assert.*;
 
+import java.awt.event.ActionEvent;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.net.UnknownHostException;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -52,21 +54,22 @@ import modelo.Json;
  */
 public class TestServidor {
 	
-	private Json principal = new Json();
-	private InsertarBorrar insertado = new InsertarBorrar();
-	private Entornos entorno = new Entornos();
-	private Municipios municipio = new Municipios();
-	private Horario horario = new Horario();
-	private Informes informe = new Informes();
-	private Estaciones estacion = new Estaciones();
-	private Entornosmuni entornosmuni = new Entornosmuni();
-	private EntornosmuniId entornosmuniId = new EntornosmuniId();
-	private HibernateUtil hibernate = new HibernateUtil();
-	private Login login = new Login();
-	private Registrar registrar = new Registrar();
-	private Logeado logeado = new Logeado();
-	private Controlador_Login controladorLogin;
-	private Controlador_Registro controladorRegistro;
+																	@SuppressWarnings("unused")
+	private Json principal = new Json();							@SuppressWarnings("unused")
+	private InsertarBorrar insertado = new InsertarBorrar();		@SuppressWarnings("unused")
+	private Entornos entorno = new Entornos();						@SuppressWarnings("unused")
+	private Municipios municipio = new Municipios();				@SuppressWarnings("unused")
+	private Horario horario = new Horario();						@SuppressWarnings("unused")
+	private Informes informe = new Informes();						@SuppressWarnings("unused")
+	private Estaciones estacion = new Estaciones();					@SuppressWarnings("unused")
+	private Entornosmuni entornosmuni = new Entornosmuni();			@SuppressWarnings("unused")
+	private EntornosmuniId entornosmuniId = new EntornosmuniId();	@SuppressWarnings("unused")
+	private HibernateUtil hibernate = new HibernateUtil();			@SuppressWarnings("unused")	
+	private Login login = new Login();								@SuppressWarnings("unused")
+	private Registrar registrar = new Registrar();					@SuppressWarnings("unused")
+	private Logeado logeado = new Logeado();						@SuppressWarnings("unused")
+	private Controlador_Login controladorLogin;						@SuppressWarnings("unused")
+	private Controlador_Registro controladorRegistro;				@SuppressWarnings("unused")
 	SessionFactory sesion = HibernateUtil.getSessionFactory();
 	Session session = sesion.openSession();
 	
@@ -78,29 +81,47 @@ public class TestServidor {
 	@SuppressWarnings("rawtypes")
 	Set set = new HashSet(0);
 	
-//	@org.junit.Test
-//	public void testServidor()
-//	{
-//		Servidor server = new Servidor(new JTextArea(), new JTextField(), new JLabel());
-//		server.start();
-//		try {
-//			Socket socket = new Socket("127.0.0.1",44444);
-//			ObjectInputStream entrada = new ObjectInputStream(socket.getInputStream());
-//			ObjectOutputStream salida = new ObjectOutputStream(socket.getOutputStream());
-//			Usuario nuevo = new Usuario();
-//			nuevo.setUsuario("prueba");
-//			nuevo.setContrasena("prueba");
-//			nuevo.setEMail("a@b.c");
-//			salida.writeObject(2);
-//			salida.writeObject(nuevo);
-//			salida.writeObject(1);
-//			salida.writeObject(nuevo);
-//			InsertarBorrar.borrar(nuevo, sesion, session);
-//			socket.close();
-//		} catch (IOException e) {
-//			
-//		}
-//		
-//		assertEquals(true,server.desconectar());
-//	}
+	@org.junit.Test
+	public void testServidor()
+	{
+		Servidor server = new Servidor(new JTextArea(), new JTextField(), new JLabel());
+		server.start();
+		try {
+			Socket socket = new Socket("127.0.0.1",44444);@SuppressWarnings("unused")
+			ObjectInputStream entrada = new ObjectInputStream(socket.getInputStream()); 
+			ObjectOutputStream salida = new ObjectOutputStream(socket.getOutputStream());
+			Usuario nuevo = new Usuario();
+			nuevo.setUsuario("prueba");
+			nuevo.setContrasena("prueba");
+			nuevo.setEMail("a@b.c");
+			salida.writeObject(2);
+			salida.writeObject(nuevo);
+			salida.writeObject(1);
+			salida.writeObject(nuevo);
+			InsertarBorrar.borrar(nuevo, sesion, session);
+			socket.close();
+		} catch (IOException e) {
+			
+		}
+		
+		assertEquals(true,server.desconectar());
+	}
+	
+	@org.junit.Test
+	public void testVentanaServidor()
+	{
+		VentanaServidor frame = new VentanaServidor();
+		Socket socket;
+		try {
+			socket = new Socket("127.0.0.1",44444);
+			ObjectInputStream entrada = new ObjectInputStream(socket.getInputStream());
+			ObjectOutputStream salida = new ObjectOutputStream(socket.getOutputStream());
+			ActionEvent a = new ActionEvent(frame.getBotonSalir(), 0, nombrePruebas);
+			frame.actionPerformed(a);
+		} catch (Exception a) {
+		
+		}
+		
+		assertEquals(true,frame.prueba());
+	}
 }
