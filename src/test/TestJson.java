@@ -27,7 +27,7 @@ public class TestJson {
 	public void testJsonTotal()
 	{
 		Calendar tiempo1 = Calendar.getInstance();
-		//Hay que borrar todos los datos de la BDD para hacer esta prueba
+		//Hay que borrar todos los datos de la BDD para hacer esta prueba 
 
 		Json hijoDeJ = new Json();
 		ArrayList<Object> lista = hijoDeJ.cargarJsons();
