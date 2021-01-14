@@ -50,10 +50,10 @@ public class Login {
 		labelContrasena.setHorizontalAlignment(SwingConstants.CENTER);
 		frame.getContentPane().add(labelContrasena);
 		
-		JLabel lblNewLabel = new JLabel("Bienvenido a Euskal Weather");
-		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel.setBounds(200, 32, 254, 14);
-		frame.getContentPane().add(lblNewLabel);
+		JLabel labelBienvenida = new JLabel("Bienvenido a Euskal Weather");
+		labelBienvenida.setHorizontalAlignment(SwingConstants.CENTER);
+		labelBienvenida.setBounds(200, 32, 254, 14);
+		frame.getContentPane().add(labelBienvenida);
 		
 		return true;
 		
@@ -104,39 +104,16 @@ public class Login {
 		return contrasena;
 	}
 
-	public void setBotonAcceptar(JButton botonAcceptar) {
-		this.botonIniciar = botonAcceptar;
-	}
-
-	public void setNombre(JTextField nombre) {
-		this.nombre = nombre;
-	}
-
-	public void setContrasena(JTextField contrasena) {
-		this.contrasena = contrasena;
-	}
-
 	public JButton getBotonIniciar() {
 		return botonIniciar;
-	}
-
-	public void setBotonIniciar(JButton botonIniciar) {
-		this.botonIniciar = botonIniciar;
 	}
 
 	public JButton getBotonRegistrar() {
 		return botonRegistrar;
 	}
 
-	public void setBotonRegistrar(JButton botonRegistrar) {
-		this.botonRegistrar = botonRegistrar;
-	}
-
 	public JButton getBotonRecuperar() {
 		return botonRecuperar;
 	}
 
-	public void setBotonRecuperar(JButton botonRecuperar) {
-		this.botonRecuperar = botonRecuperar;
-	}
 }

@@ -19,8 +19,8 @@ public class ControladorLogeado {
 	public void iniciarControlador() {
 		
 		this.ventanaLogeado.getFrame().setVisible(true);
-		this.ventanaLogeado.getLblNewLabel().setText(this.ventanaLogeado.getLblNewLabel().getText() + " " + this.usuario.getUsuario());
-		this.ventanaLogeado.getLblNewLabel_1().setText(this.ventanaLogeado.getLblNewLabel_1().getText() + " " + this.usuario.getEMail());
+		this.ventanaLogeado.getlabelHola().setText(this.ventanaLogeado.getlabelHola().getText() + " " + this.usuario.getUsuario());
+		this.ventanaLogeado.getlabelCorreo().setText(this.ventanaLogeado.getlabelCorreo().getText() + " " + this.usuario.getEMail());
 		
 	}
 

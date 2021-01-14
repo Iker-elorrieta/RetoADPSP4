@@ -96,8 +96,7 @@ public class Registrar {
 		
 	}
 	
-	public JFrame getFrame()
-	{
+	public JFrame getFrame() {
 		return frame;
 	}
 
@@ -121,31 +120,8 @@ public class Registrar {
 		return botonAcceptar;
 	}
 
-	public void setBotonAcceptar(JButton botonAcceptar) {
-		this.botonAcceptar = botonAcceptar;
-	}
-
-	public void setNombre(JTextField nombre) {
-		this.nombre = nombre;
-	}
-
-	public void setContrasena(JTextField contrasena) {
-		this.contrasena = contrasena;
-	}
-
-	public void setRepetirContrasena(JTextField repetirContrasena) {
-		this.repetirContrasena = repetirContrasena;
-	}
-
-	public void setEmail(JTextField email) {
-		this.email = email;
-	}
-
 	public JButton getBotonVolver() {
 		return botonVolver;
 	}
-
-	public void setBotonVolver(JButton botonVolver) {
-		this.botonVolver = botonVolver;
-	}
+	
 }
