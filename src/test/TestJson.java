@@ -24,17 +24,17 @@ public class TestJson {
 	SessionFactory sesion = HibernateUtil.getSessionFactory();
 	Session session = sesion.openSession();
 	
-//	@org.junit.Test
-//	@SuppressWarnings({ "unchecked" })
-//	public void testJsonTotal()
-//	{
-//		Calendar tiempo1 = Calendar.getInstance();
-//		//Hay que borrar todos los datos de la BDD para hacer esta prueba
-//
-//		Json hijoDeJ = new Json();
-//		ArrayList<Object> lista = hijoDeJ.cargarJsons();
-//		assertEquals(true,hijoDeJ.cargarTodosLosDatos((ArrayList<Informes>) lista.get(0),(ObjectMapper) lista.get(1),(Municipios[]) lista.get(2),(Entornos[]) lista.get(3),(Estaciones[]) lista.get(4), (Informes[]) lista.get(5), sesion, session));
-//		Calendar tiempo2 = Calendar.getInstance();
-//		System.out.println(Duration.between(tiempo1.toInstant(), tiempo2.toInstant()));
-//	}
+	@org.junit.Test
+	@SuppressWarnings({ "unchecked" })
+	public void testJsonTotal()
+	{
+		Calendar tiempo1 = Calendar.getInstance();
+		//Hay que borrar todos los datos de la BDD para hacer esta prueba
+
+		Json hijoDeJ = new Json();
+		ArrayList<Object> lista = hijoDeJ.cargarJsons();
+		assertEquals(true,hijoDeJ.cargarTodosLosDatos((ArrayList<Informes>) lista.get(0),(ObjectMapper) lista.get(1),(Municipios[]) lista.get(2),(Entornos[]) lista.get(3),(Estaciones[]) lista.get(4), (Informes[]) lista.get(5), sesion, session));
+		Calendar tiempo2 = Calendar.getInstance();
+		System.out.println(Duration.between(tiempo1.toInstant(), tiempo2.toInstant()));
+	}
 }
