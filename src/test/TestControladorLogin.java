@@ -6,46 +6,11 @@ import java.awt.event.MouseEvent;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.net.ServerSocket;
 import java.net.Socket;
-import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.Set;
-
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JTextArea;
-import javax.swing.JTextField;
-
-import org.hibernate.Query;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import Server.Servidor;
-import Server.VentanaServidor;
 import controlador.Controlador_Login;
 import controlador.Controlador_Registro;
-import main.Principal;
-import modelo.Entornos;
-import modelo.Entornosmuni;
-import modelo.EntornosmuniId;
-import modelo.Estaciones;
-import modelo.HibernateUtil;
-import modelo.Horario;
-import modelo.Informes;
-import modelo.InsertarBorrar;
-import modelo.Municipios;
-import modelo.Usuario;
-import vista.Logeado;
 import vista.Login;
 import vista.Registrar;
-import modelo.Json;
 
 /**
  * Clase para comprobar que el programa funciona correctamente.

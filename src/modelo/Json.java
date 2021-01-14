@@ -11,11 +11,8 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.net.URL;
 import java.nio.charset.Charset;
-import java.security.KeyManagementException;
-import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.security.cert.X509Certificate;
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.regex.PatternSyntaxException;
@@ -25,12 +22,9 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
-import org.hibernate.HibernateException;
-import org.hibernate.PropertyValueException;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.exception.ConstraintViolationException;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
@@ -49,6 +43,7 @@ public class Json {
 	{
 		Entornos[] listaEspaciosNaturales = null;
 		Municipios[] listaMunicipios = null;
+		@SuppressWarnings("unused")
 		ArrayList<Informes> paginasNoEncontrada = new ArrayList<Informes>();
 		
 		//Comprobar los certificados de la pagina
@@ -269,6 +264,7 @@ public class Json {
 	{
 		ArrayList<Informes> paginasNoEncontrada = new ArrayList<Informes>();
 		ArrayList<Object> result = new ArrayList<Object>();
+		@SuppressWarnings("unused")
 		Horario[] horario = null;
 		for(int y = 0 ; y < horariosEstaciones.length ;y++)
 		{

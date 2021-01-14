@@ -4,8 +4,6 @@ import static org.junit.Assert.*;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.HashSet;
-import java.util.Set;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import com.fasterxml.jackson.databind.ObjectMapper;

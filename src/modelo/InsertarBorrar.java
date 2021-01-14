@@ -61,6 +61,7 @@ public class InsertarBorrar {
 	public static int obtenerEntornoId(Entornos entorno,SessionFactory sesion,Session session) {
 		
 		String hql = new String();
+		@SuppressWarnings("unused")
 		Transaction tx = null;
 		tx = session.beginTransaction();		  
 		hql = "from Entornos where Nombre = '" + entorno.getNombre() + "'";
@@ -82,6 +83,7 @@ public class InsertarBorrar {
 	public static int obtenerMunicipioId(Municipios municipio,SessionFactory sesion,Session session) {
 		
 		String hql = new String();
+		@SuppressWarnings("unused")
 		Transaction tx = null;
 		tx = session.beginTransaction();		
 		hql = "from Municipios where Nombre = '" + municipio.getNombre() + "'";

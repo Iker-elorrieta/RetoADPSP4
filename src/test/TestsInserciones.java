@@ -31,22 +31,22 @@ import vista.Registrar;
  * Clase para comprobar que el programa funciona correctamente.
  */
 public class TestsInserciones {
-	
-	private Json principal = new Json();
+																	@SuppressWarnings("unused")
+	private Json principal = new Json();							@SuppressWarnings("unused")
+	private HibernateUtil hibernate = new HibernateUtil();			@SuppressWarnings("unused")
+	private Login login = new Login();								@SuppressWarnings("unused")
+	private Registrar registrar = new Registrar();					@SuppressWarnings("unused")
+	private Logeado logeado = new Logeado();						@SuppressWarnings("unused")
+	private Controlador_Login controladorLogin;						@SuppressWarnings("unused")
+	private Controlador_Registro controladorRegistro;				@SuppressWarnings("unused")
 	private InsertarBorrar insertado = new InsertarBorrar();
-	private Entornos entorno = new Entornos();
-	private Municipios municipio = new Municipios();
-	private Horario horario = new Horario();
-	private Informes informe = new Informes();
-	private Estaciones estacion = new Estaciones();
-	private Entornosmuni entornosmuni = new Entornosmuni();
 	private EntornosmuniId entornosmuniId = new EntornosmuniId();
-	private HibernateUtil hibernate = new HibernateUtil();
-	private Login login = new Login();
-	private Registrar registrar = new Registrar();
-	private Logeado logeado = new Logeado();
-	private Controlador_Login controladorLogin;
-	private Controlador_Registro controladorRegistro;
+	private Entornos entorno = new Entornos();						
+	private Municipios municipio = new Municipios();				
+	private Horario horario = new Horario();						
+	private Informes informe = new Informes();						
+	private Estaciones estacion = new Estaciones();					
+	private Entornosmuni entornosmuni = new Entornosmuni();			
 	SessionFactory sesion = HibernateUtil.getSessionFactory();
 	Session session = sesion.openSession();
 	
@@ -142,6 +142,7 @@ public class TestsInserciones {
         InsertarBorrar.borrar(municipio, sesion, session);
     }
 	
+	@SuppressWarnings("unlikely-arg-type")
 	@org.junit.Test
     public void testInsercionEntornosMuni() {
 		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);

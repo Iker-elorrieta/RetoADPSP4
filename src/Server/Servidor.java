@@ -5,8 +5,6 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 import javax.swing.JLabel;
@@ -51,6 +49,7 @@ public class Servidor extends Thread {
 			servidor = new ServerSocket(PUERTO);
 
 			System.out.println("Servidor iniciado...");
+			@SuppressWarnings("resource")
 			Socket socket = new Socket();
 			texto.setText("Conexiones actuales: "+ lista.size());
 			while (continuar) {

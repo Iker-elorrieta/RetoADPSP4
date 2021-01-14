@@ -15,6 +15,11 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import modelo.Usuario;
 
+/**
+ * Clase que comunica con cada cliente que se crea al acceptar una conexion.
+ * @author Grupo 4
+ *
+ */
 public class HiloServidor extends Thread {
 
 	JTextArea textArea = null;
@@ -45,8 +50,8 @@ public class HiloServidor extends Thread {
 				ventana = (int) oentrada.readObject();
 
 				switch (ventana) {
+				case 1: //En caso de que nos llega una peticion de la ventana de login comprobamos si el usuario introducido se encuentra en la base de datos.
 
-				case 1:
 					
 					Transaction tx = null;	
 					SessionFactory sesion = modelo.HibernateUtil.getSessionFactory();
@@ -64,8 +69,8 @@ public class HiloServidor extends Thread {
 					osalida.writeObject(usuario);
 					
 					break;
-
-				case 2:
+				
+				case 2: //En caso de que nos llegue una peticion de la ventana de registro debemos crear el usuario en la base de datos comprobando si existe ya o no.
 					
 					sesion = modelo.HibernateUtil.getSessionFactory();
 					session = sesion.openSession();
@@ -96,6 +101,12 @@ public class HiloServidor extends Thread {
 
 	}
 	
+	/**
+	 * Metodo para sacar el hash de las contraseñas y posiblemente los ficheros mas adelante.
+	 * Como practicas tenemos la encryptación SHA de momento que es poco segura mas adelante en el programa cambiaremos este parametro.
+	 * @param texto
+	 * @return hash
+	 */
 	public static String crearHash (String texto){
         Byte [] hash = null;
         String resumenAString = "";
