@@ -33,7 +33,7 @@ import com.google.gson.JsonSyntaxException;
 
 public class Xml {
 	
-	public static void convertirJSONaXML () {
+	public static boolean convertirJSONaXML () {
 
 		File directorio = new File("json");
 		for (File archivo : directorio.listFiles()) {
@@ -109,6 +109,8 @@ public class Xml {
 				e.printStackTrace();
 			}
 		}
+		
+		return true;
 
 	}
 
