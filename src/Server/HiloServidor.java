@@ -5,6 +5,8 @@ import java.io.ObjectOutputStream;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
@@ -13,6 +15,9 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+
+import modelo.InsertarBorrar;
+import modelo.Municipios;
 import modelo.Usuario;
 
 /**
@@ -52,21 +57,20 @@ public class HiloServidor extends Thread {
 				switch (ventana) {
 				case 1: //En caso de que nos llega una peticion de la ventana de login comprobamos si el usuario introducido se encuentra en la base de datos.
 
-					
 					@SuppressWarnings("unused") Transaction tx = null;	
 					SessionFactory sesion = modelo.HibernateUtil.getSessionFactory();
-					Session session = sesion.openSession();	
+					Session session = sesion.openSession();
 					tx = session.beginTransaction();
 					
 					usuario = (Usuario) oentrada.readObject();
 					usuario.setContrasena(crearHash(usuario.getContrasena()));
-					tx = session.beginTransaction();		
 					String hql = "from Usuario where usuario = '" + usuario.getUsuario() + "' and contrasena = '" + usuario.getContrasena() + "'";
 					Query q = session.createQuery(hql);
 					
 					usuario = (Usuario) q.uniqueResult();
 					
 					osalida.writeObject(usuario);
+					
 					
 					break;
 				

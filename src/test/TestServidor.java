@@ -55,7 +55,7 @@ public class TestServidor {
 	private Registrar registrar = new Registrar();					@SuppressWarnings("unused")
 	private Logeado logeado = new Logeado();						@SuppressWarnings("unused")
 	private Controlador_Login controladorLogin;						@SuppressWarnings("unused")
-	private Controlador_Registro controladorRegistro;				@SuppressWarnings("unused")
+	private Controlador_Registro controladorRegistro;
 	SessionFactory sesion = HibernateUtil.getSessionFactory();
 	Session session = sesion.openSession();
 	

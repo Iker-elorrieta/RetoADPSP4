@@ -1,5 +1,11 @@
 package controlador;
 
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+import modelo.Municipios;
 import modelo.Usuario;
 import vista.Logeado;
 
@@ -31,9 +37,20 @@ public class ControladorLogeado {
 	
 	public void iniciarControlador() {
 		
+		SessionFactory sesion = modelo.HibernateUtil.getSessionFactory();
+		Session session = sesion.openSession();
+		Transaction tx = session.beginTransaction();
+		
+		String hql = "from Municipios where Nombre = 'Inicio'";
+		Query q = session.createQuery(hql);
+		
+		Municipios municipio = (Municipios) q.uniqueResult();
+		
 		this.ventanaLogeado.getFrame().setVisible(true);
-		this.ventanaLogeado.getlabelHola().setText(this.ventanaLogeado.getlabelHola().getText() + " " + this.usuario.getUsuario());
-		this.ventanaLogeado.getlabelCorreo().setText(this.ventanaLogeado.getlabelCorreo().getText() + " " + this.usuario.getEMail());
+		String contenido = "Municipio de prueba: " + municipio.toString();
+		this.ventanaLogeado.getlabelHola().setSize(contenido.length() + this.ventanaLogeado.getlabelHola().getWidth(), this.ventanaLogeado.getlabelHola().getHeight());
+		this.ventanaLogeado.getlabelHola().setText("Municipio de prueba: " + municipio.toString());
+		this.ventanaLogeado.getlabelCorreo().setText("");
 		
 		
 		

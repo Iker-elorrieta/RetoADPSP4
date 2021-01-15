@@ -2,11 +2,14 @@ package vista;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JTextArea;
+import java.awt.Color;
+import java.awt.SystemColor;
 
 public class Logeado {
 	
 	private JFrame frame;
-	private JLabel labelHola;
+	private JTextArea labelHola;
 	private JLabel labelCorreo;
 	
 	/**
@@ -40,12 +43,16 @@ public class Logeado {
 	
 	public void cargarEtiquetas(){
 		
-		labelHola = new JLabel("Hola, ");
-		labelHola.setBounds(183, 183, 312, 14);
+		labelHola = new JTextArea("Hola, ");
+		labelHola.setLineWrap(true);
+		labelHola.setBackground(SystemColor.controlHighlight);
+		labelHola.setEnabled(false);
+		labelHola.setEditable(false);
+		labelHola.setBounds(170, 135, 312, 141);
 		frame.getContentPane().add(labelHola);
 		
 		labelCorreo = new JLabel("Tu correo es");
-		labelCorreo.setBounds(183, 224, 312, 19);
+		labelCorreo.setBounds(170, 310, 312, 19);
 		frame.getContentPane().add(labelCorreo);
 		
 	}
@@ -54,7 +61,7 @@ public class Logeado {
 		return frame;
 	}
 
-	public JLabel getlabelHola() {
+	public JTextArea getlabelHola() {
 		return labelHola;
 	}
 
