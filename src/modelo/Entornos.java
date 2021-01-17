@@ -96,11 +96,7 @@ public class Entornos implements java.io.Serializable {
 	public Double getLatitud() {
 		return this.latitud;
 	}
-	
-	/**
-	 * Metodo de set latidud modificado para que funcione con la libreria de JSon jackson.
-	 * @param latitud
-	 */
+
 	public void setLatitud(String latitud) {
 		try
 		{
@@ -116,10 +112,6 @@ public class Entornos implements java.io.Serializable {
 		return this.longitud;
 	}
 
-	/**
-	 * Metodo de set longitud modificado para que funcione con la libreria de JSon jackson.
-	 * @param latitud
-	 */
 	public void setLongitud(String longitud) {
 		try
 		{
@@ -146,9 +138,6 @@ public class Entornos implements java.io.Serializable {
 				+ entornosmunis + "]";
 	}
 	
-	/**
-	 * Metodo para comprobar si el objeto tiene datos de interes para guardar en la base de datos.
-	 */
 	public boolean isNull()
 	{
 		if(nombre != null)

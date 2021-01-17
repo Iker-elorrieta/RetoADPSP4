@@ -62,41 +62,97 @@ public class Controlador_Registro implements MouseListener {
 		case "registrar":
 			
 //			Acción de registrar. 
-//			Crea un objeto usuario con los datos de los campos de texto
+//			Comprobación de que los campos de texto continenen valores correctos antes de realizar el registro
 			
-			try {
-				Usuario usuario = new Usuario();
-				usuario.setUsuario(this.ventanaRegistro.getNombre().getText());
-				usuario.setContrasena(this.ventanaRegistro.getContrasena().getText());
-				usuario.setEMail(this.ventanaRegistro.getEmail().getText());
+			if (!this.ventanaRegistro.getNombre().getText().isBlank() && !this.ventanaRegistro.getContrasena().getText().isBlank() &&
+					!this.ventanaRegistro.getContrasena().getText().isBlank() && !this.ventanaRegistro.getRepetirContrasena().getText().isBlank() &&
+					!this.ventanaRegistro.getTextFieldPregunta().getText().isBlank() && !this.ventanaRegistro.getTextFieldRespuesta().getText().isBlank() &&
+					this.ventanaRegistro.getNombre().getText().length() <= 20 && this.ventanaRegistro.getContrasena().getText().length() <= 30 &&
+					this.ventanaRegistro.getTextFieldPregunta().getText().length() <= 50 && this.ventanaRegistro.getTextFieldRespuesta().getText().length() <= 50 &&
+					this.ventanaRegistro.getContrasena().getText().equals(this.ventanaRegistro.getRepetirContrasena().getText())) {
 				
-//				Envía el usuario al servidor con la orden de registrar
+//				Si los campos de texto contienen valores correctos se crea un objeto usuario con ellos
 				
-				this.salida.writeObject(2);
-				this.salida.writeObject(usuario);
+				try {
+					Usuario usuario = new Usuario();
+					usuario.setUsuario(this.ventanaRegistro.getNombre().getText());
+					usuario.setContrasena(this.ventanaRegistro.getContrasena().getText());
+					usuario.setPregunta(this.ventanaRegistro.getTextFieldPregunta().getText());
+					usuario.setRespuesta(this.ventanaRegistro.getTextFieldRespuesta().getText());
+
+					//				Envía el usuario al servidor con la orden de registrar
+
+					this.salida.writeObject(2);
+					this.salida.writeObject(usuario);
+
+					//				Recibe la respuesta del servidor.
+
+					String respuesta = this.entrada.readObject().toString();
+					if (respuesta.equals("bien")) {
+
+						//					Si la respuesta es bien significa que el registro se ha realizado correctamente. Se informa de ello al usuario
+
+						JOptionPane.showMessageDialog(null, "Registro realizado", "Información",
+								JOptionPane.INFORMATION_MESSAGE);
+						prueba = true;
+
+					} else if (respuesta.equals("mal")) {
+
+						//					Si la respuesta es mal significa que el registro no se ha realizado. Se informa de ello al usuario
+
+						JOptionPane.showMessageDialog(null, "Ocurrió algún error. Registro no realizado", "Información",
+								JOptionPane.ERROR_MESSAGE);
+						prueba = true;
+					}
+
+				} catch (Exception e1) {
+					e1.printStackTrace();
+				} 
+			} else {
 				
-//				Recibe la respuesta del servidor.
-				
-				String respuesta = this.entrada.readObject().toString();
-				if (respuesta.equals("bien")){
+				if (this.ventanaRegistro.getNombre().getText().isBlank() || this.ventanaRegistro.getContrasena().getText().isBlank() ||
+						this.ventanaRegistro.getContrasena().getText().isBlank() || this.ventanaRegistro.getRepetirContrasena().getText().isBlank() ||
+						this.ventanaRegistro.getTextFieldPregunta().getText().isBlank() || this.ventanaRegistro.getTextFieldRespuesta().getText().isBlank()) {
 					
-//					Si la respuesta es bien significa que el registro se ha realizado correctamente. Se informa de ello al usuario
+					JOptionPane.showMessageDialog(null, "Debe rellenar todos los campos antes de realizar el registro", "Información", JOptionPane.ERROR_MESSAGE);
 					
-					JOptionPane.showMessageDialog(null,"Registro realizado", "Información", JOptionPane.INFORMATION_MESSAGE);
-					prueba = true;
-					
-				} else if (respuesta.equals("mal")) {
-					
-//					Si la respuesta es mal significa que el registro no se ha realizado. Se informa de ello al usuario
-					
-					JOptionPane.showMessageDialog(null,"Ocurrió algún error. Registro no realizado", "Información", JOptionPane.ERROR_MESSAGE);
-					prueba = true;
 				}
 				
+				if (this.ventanaRegistro.getNombre().getText().length() > 20) {
+					
+					JOptionPane.showMessageDialog(null, "El nombre no puede tener más de 20 caracteres", "Información", JOptionPane.ERROR_MESSAGE);
+					
+				}
+				
+				if (this.ventanaRegistro.getContrasena().getText().length() > 30) {
+					
+					
+					JOptionPane.showMessageDialog(null, "La contraseña no puede tener más de 30 caracteres", "Información", JOptionPane.ERROR_MESSAGE);
+					
+				}
+				
+				if (this.ventanaRegistro.getTextFieldPregunta().getText().length() > 50) {
+					
+					
+					JOptionPane.showMessageDialog(null, "La pregunta no puede tener más de 50 caracteres", "Información", JOptionPane.ERROR_MESSAGE);
+					
+				}
+				
+				if (this.ventanaRegistro.getTextFieldRespuesta().getText().length() > 50) {
+					
+					
+					JOptionPane.showMessageDialog(null, "La respuesta no puede tener más de 50 caracteres", "Información", JOptionPane.ERROR_MESSAGE);
+					
+				}
+				
+				if (!this.ventanaRegistro.getContrasena().getText().equals(this.ventanaRegistro.getRepetirContrasena().getText())) {
+					
+					JOptionPane.showMessageDialog(null, "Las contraseñas no coinciden", "Información", JOptionPane.ERROR_MESSAGE);
+					
+				}
 						
-			} catch (Exception e1) {
-				e1.printStackTrace();
 			}
+			
 			break;
 			
 		case "volver":

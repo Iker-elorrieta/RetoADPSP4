@@ -44,7 +44,7 @@ public class Logeado {
 		labelHola.setBounds(183, 183, 312, 14);
 		frame.getContentPane().add(labelHola);
 		
-		labelCorreo = new JLabel("Tu correo es");
+		labelCorreo = new JLabel("Tu pregunta es ");
 		labelCorreo.setBounds(183, 224, 312, 19);
 		frame.getContentPane().add(labelCorreo);
 		

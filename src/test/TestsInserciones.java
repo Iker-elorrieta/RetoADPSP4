@@ -95,7 +95,7 @@ public class TestsInserciones {
     public void testInsercionHorarios() {
 		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
 		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
-		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
+		informe = new Informes(estacion, nombrePruebas, nombrePruebas, nombrePruebas, set);
 		InsertarBorrar.insertar(municipio, sesion, session);
 		InsertarBorrar.insertar(estacion, sesion, session);
 		InsertarBorrar.insertar(informe, sesion, session);
@@ -172,8 +172,8 @@ public class TestsInserciones {
 		InsertarBorrar.insertar(municipio, sesion, session);
 		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		InsertarBorrar.insertar(estacion, sesion, session);
-		informe = new Informes(estacion, nombrePruebas);
-		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
+		informe = new Informes(estacion, nombrePruebas, nombrePruebas);
+		informe = new Informes(estacion, nombrePruebas, nombrePruebas, nombrePruebas, set);
 		informe.toString();
 		assertEquals(true, InsertarBorrar.insertar(informe, sesion, session));
 		InsertarBorrar.borrar(municipio, sesion, session);
@@ -202,10 +202,9 @@ public class TestsInserciones {
 		Usuario user = new Usuario();
 		
 		user.setUsuario(nombrePruebas);
-		user.setEMail(email);
 		user.setContrasena(contrasena);
 		
-		user = new Usuario(nombrePruebas,email,contrasena);
+		user = new Usuario(nombrePruebas,contrasena, nombrePruebas, nombrePruebas);
 		assertEquals(true, InsertarBorrar.insertar(user, sesion, session));
 		InsertarBorrar.borrar(user, sesion, session);
 	}

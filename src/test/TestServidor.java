@@ -96,7 +96,6 @@ public class TestServidor {
 			Usuario nuevo = new Usuario();
 			nuevo.setUsuario("prueba");
 			nuevo.setContrasena("prueba");
-			nuevo.setEMail("a@b.c");
 			salida.writeObject(2);
 			salida.writeObject(nuevo);
 			salida.writeObject(1);

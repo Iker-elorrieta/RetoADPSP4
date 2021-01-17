@@ -12,6 +12,7 @@ import modelo.Usuario;
 import vista.Logeado;
 import vista.Login;
 import vista.Registrar;
+import vista.RestaurarContrasena;
 
 public class Controlador_Login implements MouseListener {
 	
@@ -47,6 +48,8 @@ public class Controlador_Login implements MouseListener {
 		this.ventanaLogin.getBotonIniciar().setName("entrar");
 		this.ventanaLogin.getBotonRegistrar().addMouseListener(this);
 		this.ventanaLogin.getBotonRegistrar().setName("registrar");
+		this.ventanaLogin.getBotonRecuperar().addMouseListener(this);
+		this.ventanaLogin.getBotonRecuperar().setName("restaurar");
 		
 		booleanPrueba = true;
 		
@@ -69,47 +72,57 @@ public class Controlador_Login implements MouseListener {
 		switch (e.getComponent().getName()) {
 		case "entrar":
 			
-			// Acción de iniciar sesión. Se crea un objeto Usuario con los datos de los campos de texto correspondientes
-
-			Usuario nuevo = new Usuario();
-			nuevo.setUsuario(ventanaLogin.getNombre().getText());
-			nuevo.setContrasena(ventanaLogin.getContrasena().getText());
-			try {
+//			// Acción de iniciar sesión. Comprueba que los campos no están vacíos antes de continuar
+			
+			if (!this.ventanaLogin.getNombre().getText().isBlank() && !this.ventanaLogin.getNombre().getText().isBlank()) {
 				
-				// Se manda al servidor la instrucción de iniciar sesión junto al objeto Usuario
+				// Si los campos están rellenados se crea un objeto Usuario con ellos
 				
-				salida.writeObject(1);
-				salida.writeObject(nuevo);
-				
-				// Se recibe el objeto Usuario que el servidor ha obtenido de la BDD con los datos que se enviaron previamente
-				
-				nuevo = (Usuario) entrada.readObject();
-				
-				
-				
-				if (nuevo != null) {
+				Usuario nuevo = new Usuario();
+				nuevo.setUsuario(ventanaLogin.getNombre().getText());
+				nuevo.setContrasena(ventanaLogin.getContrasena().getText());
+				try {
 					
-					// Si el usuario recibido no es nulo significa que los datos eran correctos. Se informa de ello al usuario y se da paso a la siguiente ventana
+					// Se manda al servidor la instrucción de iniciar sesión junto al objeto Usuario
 					
-					JOptionPane.showMessageDialog(this.ventanaLogin.getFrame(),"Ha iniciado sesión", "Información", JOptionPane.INFORMATION_MESSAGE);
-					Logeado ventanaLogeado = new Logeado();
-					@SuppressWarnings("unused")
-					ControladorLogeado controladorLogeado = new ControladorLogeado(ventanaLogeado, nuevo);
+					salida.writeObject(1);
+					salida.writeObject(nuevo);
 					
-				} else {
+					// Se recibe el objeto Usuario que el servidor ha obtenido de la BDD con los datos que se enviaron previamente
 					
-					// Si el usuario recibido es nulo significa que los datos enviados no eran correctos. Se informa de ello al usuario
+					nuevo = (Usuario) entrada.readObject();
+						
+					if (nuevo != null) {
+						
+						// Si el usuario recibido no es nulo significa que los datos eran correctos. Se informa de ello al usuario y se da paso a la siguiente ventana
+						
+						JOptionPane.showMessageDialog(this.ventanaLogin.getFrame(),"Ha iniciado sesión", "Información", JOptionPane.INFORMATION_MESSAGE);
+						Logeado ventanaLogeado = new Logeado();
+						@SuppressWarnings("unused")
+						ControladorLogeado controladorLogeado = new ControladorLogeado(ventanaLogeado, nuevo);
+						
+					} else {
+						
+						// Si el usuario recibido es nulo significa que los datos enviados no eran correctos. Se informa de ello al usuario
+						
+						JOptionPane.showMessageDialog(null,"Los datos introducidos no son correctos", "Información", JOptionPane.ERROR_MESSAGE);
+						
+					}
 					
-					JOptionPane.showMessageDialog(null,"Los datos introducidos no son correctos", "Información", JOptionPane.ERROR_MESSAGE);
-					
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				} catch (ClassNotFoundException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
 				}
 				
-			} catch (IOException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			} catch (ClassNotFoundException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
+			} else {
+				
+				// Si no se han rellenado los campos no se puede iniciar sesión. Se avisa al usuario de ello
+				
+				JOptionPane.showMessageDialog(null,"Debe escribir un nombre y una contraseña para iniciar sesión", "Información", JOptionPane.ERROR_MESSAGE);
+				
 			}
 			
 			break;
@@ -124,7 +137,15 @@ public class Controlador_Login implements MouseListener {
 
 			break;
 			
+		case "restaurar":
 			
+//			Acción de restaurar contraseña. Se da paso a la ventana de restaurar contraseña y se cierra la actual
+			
+			RestaurarContrasena restaurar = new RestaurarContrasena();
+			@SuppressWarnings("unused") ControladorRestaurarContrasena controladorRestaurar = new ControladorRestaurarContrasena(restaurar, this.entrada, this.salida);
+			this.ventanaLogin.getFrame().dispose();
+			
+			break;
 		default:
 			break;
 		}

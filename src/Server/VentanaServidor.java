@@ -69,7 +69,7 @@ public class VentanaServidor extends JFrame implements ActionListener {
 		getContentPane().add(botonSalir);
 		botonEnviar.addActionListener(this);
 		botonSalir.addActionListener(this);
-		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		textarea1 = new JTextArea();
 		textarea1.setBounds(226, 51, 398, 298);
 		getContentPane().add(textarea1);

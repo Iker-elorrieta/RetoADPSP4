@@ -2,8 +2,6 @@ package Server;
 
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 
 import javax.swing.JTextArea;
@@ -13,6 +11,8 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+
+import comunes.CrearHash;
 import modelo.Usuario;
 
 public class HiloServidor extends Thread {
@@ -22,7 +22,12 @@ public class HiloServidor extends Thread {
 	ObjectOutputStream osalida = null;
 	ObjectInputStream oentrada = null;
 	ArrayList<ObjectOutputStream> lista = null;
-	int ventana; // 1-Login //2-Registro
+	int ventana; // 1-Login //2-Registro // 3 - RestaurarContraseña enviar usuario // 4 - RestaurarContraseña enviar nueva contraseña
+	Transaction tx;
+	SessionFactory sesion;
+	Session session;
+	String hql;
+	Query q;
 
 	public HiloServidor(JTextArea textArea, JTextField texto, ObjectOutputStream osalida, ObjectInputStream oentrada,
 			ArrayList<ObjectOutputStream> lista) {
@@ -48,16 +53,16 @@ public class HiloServidor extends Thread {
 
 				case 1:
 					
-					Transaction tx = null;	
-					SessionFactory sesion = modelo.HibernateUtil.getSessionFactory();
-					Session session = sesion.openSession();	
+					tx = null;	
+					sesion = modelo.HibernateUtil.getSessionFactory();
+					session = sesion.openSession();	
 					tx = session.beginTransaction();
 					
 					usuario = (Usuario) oentrada.readObject();
-					usuario.setContrasena(crearHash(usuario.getContrasena()));
+					usuario.setContrasena(comunes.CrearHash.crearHash(usuario.getContrasena()));
 					tx = session.beginTransaction();		
-					String hql = "from Usuario where usuario = '" + usuario.getUsuario() + "' and contrasena = '" + usuario.getContrasena() + "'";
-					Query q = session.createQuery(hql);
+					hql = "from Usuario where usuario = '" + usuario.getUsuario() + "' and contrasena = '" + usuario.getContrasena() + "'";
+					q = session.createQuery(hql);
 					
 					usuario = (Usuario) q.uniqueResult();
 					
@@ -72,7 +77,9 @@ public class HiloServidor extends Thread {
 					
 					usuario = (Usuario) oentrada.readObject();
 					
-					usuario.setContrasena(crearHash(usuario.getContrasena()));
+					usuario.setContrasena(comunes.CrearHash.crearHash(usuario.getContrasena()));
+					usuario.setRespuesta(comunes.CrearHash.crearHash(usuario.getRespuesta()));
+					
 					if (modelo.InsertarBorrar.insertar(usuario, sesion, session)) {
 						
 						osalida.writeObject("bien");
@@ -81,11 +88,43 @@ public class HiloServidor extends Thread {
 						
 						osalida.writeObject("mal");
 					}
-				
 
 					break;
+					
+				case 3:
+					
+					String nombreUsuario = (String) oentrada.readObject();
+					
+					tx = null;	
+					sesion = modelo.HibernateUtil.getSessionFactory();
+					session = sesion.openSession();	
+					tx = session.beginTransaction();	
+					hql = "from Usuario where usuario = '" + nombreUsuario + "'";
+					q = session.createQuery(hql);
+					
+					usuario = (Usuario) q.uniqueResult();
+					
+					osalida.writeObject(usuario);
+							
+					break;
+					
+				case 4:
+					
+					usuario = (Usuario) oentrada.readObject();
+					String nuevaContrasena = (String) oentrada.readObject();
+					tx = null;
+					sesion = modelo.HibernateUtil.getSessionFactory();
+					session = sesion.openSession();	
+					tx = session.beginTransaction();
+					usuario.setContrasena(CrearHash.crearHash(nuevaContrasena));
+					session.update(usuario);
+					tx.commit();
+					osalida.writeObject(true);
+					
+					break;
 
-				}
+				}	
+							
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
@@ -95,25 +134,5 @@ public class HiloServidor extends Thread {
 		}
 
 	}
-	
-	public static String crearHash (String texto){
-        Byte [] hash = null;
-        String resumenAString = "";
-        MessageDigest md;
-        try {
-
-            md = MessageDigest.getInstance("SHA");
-
-            byte dataBytes[] = texto.getBytes();
-            md.update(dataBytes);
-            byte resumen[] = md.digest();
-            resumenAString = new String(resumen);
-
-        } catch (NoSuchAlgorithmException e) {
-            System.out.println("Error hash");
-        }
-        return resumenAString;
-
-    }
 
 }

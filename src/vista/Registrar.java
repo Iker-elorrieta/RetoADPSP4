@@ -2,19 +2,22 @@ package vista;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JPasswordField;
 import javax.swing.SwingConstants;
 import javax.swing.JTextField;
 import javax.swing.JButton;
+import java.awt.Font;
 
 public class Registrar {
 
 	private JFrame frame;
 	private JTextField nombre;
-	private JTextField contrasena;
-	private JTextField repetirContrasena;
-	private JTextField email;
+	private JPasswordField contrasena;
+	private JPasswordField repetirContrasena;
 	private JButton botonAcceptar;
 	private JButton botonVolver;
+	private JTextField textFieldPregunta;
+	private JTextField textFieldRespuesta;
 	
 	/**
 	 * {@summary Constructor de la clase. Carga los distintos componentes de la ventana}
@@ -52,23 +55,28 @@ public class Registrar {
 		
 		JLabel labelNombre = new JLabel("Nombre");
 		labelNombre.setHorizontalAlignment(SwingConstants.CENTER);
-		labelNombre.setBounds(49, 91, 269, 42);
+		labelNombre.setBounds(203, 28, 269, 42);
 		frame.getContentPane().add(labelNombre);
 		
 		JLabel labelContrasena = new JLabel("Contraseña");
 		labelContrasena.setHorizontalAlignment(SwingConstants.CENTER);
-		labelContrasena.setBounds(49, 212, 269, 22);
+		labelContrasena.setBounds(50, 148, 269, 22);
 		frame.getContentPane().add(labelContrasena);
 		
 		JLabel labelRepetirContrasena = new JLabel("Repetir Contraseña");
 		labelRepetirContrasena.setHorizontalAlignment(SwingConstants.CENTER);
-		labelRepetirContrasena.setBounds(363, 212, 269, 22);
+		labelRepetirContrasena.setBounds(364, 148, 269, 22);
 		frame.getContentPane().add(labelRepetirContrasena);
 		
-		JLabel labelEmail = new JLabel("Email");
-		labelEmail.setHorizontalAlignment(SwingConstants.CENTER);
-		labelEmail.setBounds(363, 91, 269, 42);
-		frame.getContentPane().add(labelEmail);
+		JLabel lblPregunta = new JLabel("Pregunta de seguridad");
+		lblPregunta.setHorizontalAlignment(SwingConstants.CENTER);
+		lblPregunta.setBounds(50, 244, 269, 14);
+		frame.getContentPane().add(lblPregunta);
+		
+		JLabel lblRespuesta = new JLabel("Respuesta ");
+		lblRespuesta.setHorizontalAlignment(SwingConstants.CENTER);
+		lblRespuesta.setBounds(364, 244, 269, 14);
+		frame.getContentPane().add(lblRespuesta);
 		
 	}
 	
@@ -79,24 +87,34 @@ public class Registrar {
 	public void cargarCamposTexto() {
 		
 		nombre = new JTextField();
+		nombre.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		nombre.setColumns(10);
-		nombre.setBounds(49, 148, 269, 42);
+		nombre.setBounds(203, 85, 269, 42);
 		frame.getContentPane().add(nombre);
 		
-		contrasena = new JTextField();
+		contrasena = new JPasswordField();
+		contrasena.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		contrasena.setColumns(10);
-		contrasena.setBounds(49, 245, 269, 42);
+		contrasena.setBounds(50, 181, 269, 42);
 		frame.getContentPane().add(contrasena);
 		
-		repetirContrasena = new JTextField();
+		repetirContrasena = new JPasswordField();
+		repetirContrasena.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		repetirContrasena.setColumns(10);
-		repetirContrasena.setBounds(363, 245, 269, 42);
+		repetirContrasena.setBounds(364, 181, 269, 42);
 		frame.getContentPane().add(repetirContrasena);
 		
-		email = new JTextField();
-		email.setColumns(10);
-		email.setBounds(363, 148, 269, 42);
-		frame.getContentPane().add(email);
+		textFieldPregunta = new JTextField();
+		textFieldPregunta.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		textFieldPregunta.setBounds(50, 277, 269, 42);
+		frame.getContentPane().add(textFieldPregunta);
+		textFieldPregunta.setColumns(10);
+			
+		textFieldRespuesta = new JTextField();
+		textFieldRespuesta.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		textFieldRespuesta.setBounds(364, 274, 269, 45);
+		frame.getContentPane().add(textFieldRespuesta);
+		textFieldRespuesta.setColumns(10);
 		
 	}
 	
@@ -107,11 +125,11 @@ public class Registrar {
 	public void cargarBotones() {
 		
 		botonAcceptar = new JButton("Registrar");
-		botonAcceptar.setBounds(422, 334, 168, 52);
+		botonAcceptar.setBounds(422, 376, 168, 52);
 		frame.getContentPane().add(botonAcceptar);
 		
 		botonVolver = new JButton("Volver");
-		botonVolver.setBounds(107, 334, 168, 52);
+		botonVolver.setBounds(107, 376, 168, 52);
 		frame.getContentPane().add(botonVolver);
 		
 	}
@@ -131,10 +149,6 @@ public class Registrar {
 	public JTextField getRepetirContrasena() {
 		return repetirContrasena;
 	}
-
-	public JTextField getEmail() {
-		return email;
-	}
 	
 	public JButton getBotonAcceptar() {
 		return botonAcceptar;
@@ -143,5 +157,12 @@ public class Registrar {
 	public JButton getBotonVolver() {
 		return botonVolver;
 	}
-	
+
+	public JTextField getTextFieldPregunta() {
+		return textFieldPregunta;
+	}
+
+	public JTextField getTextFieldRespuesta() {
+		return textFieldRespuesta;
+	}
 }

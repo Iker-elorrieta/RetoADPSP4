@@ -2,7 +2,7 @@ package test;
 
 import static org.junit.Assert.*;
 
-import main.Xml;
+import comunes.Xml;
 
 /**
  * Clase para comprobar el correcto funcionamiento del los xml.

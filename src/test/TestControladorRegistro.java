@@ -72,7 +72,6 @@ public class TestControladorRegistro {
 			salida = new ObjectOutputStream(socket.getOutputStream());
 			registrar.getNombre().setText(nombrePruebas);
 			registrar.getContrasena().setText(nombrePruebas);
-			registrar.getEmail().setText(nombrePruebas);
 			controladorRegistro = new Controlador_Registro(registrar, entrada, salida);
 			MouseEvent e = new MouseEvent(registrar.getBotonAcceptar(), 0, 0, 0, 0, 0, 0, false);
 			e.getComponent().setName("registrar");
@@ -83,7 +82,6 @@ public class TestControladorRegistro {
 			Usuario user = new Usuario();
 			user.setUsuario(nombrePruebas);
 			user.setContrasena(nombrePruebas);
-			user.setEMail(nombrePruebas);
 			InsertarBorrar.borrar(user, sesion, session);
 			socket.close();
 		} catch (IOException e) {
