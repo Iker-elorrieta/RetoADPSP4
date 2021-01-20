@@ -44,7 +44,7 @@ public class Xml {
 
 		// Se crea un objeto file con el directorio de Json y se utiliza para recorrer
 		// todos los archivos del mismo
-
+//
 		File directorio = new File("json");
 		for (File archivo : directorio.listFiles()) {
 
