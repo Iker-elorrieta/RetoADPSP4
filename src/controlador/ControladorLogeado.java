@@ -48,7 +48,6 @@ public class ControladorLogeado {
 		
 		this.ventanaLogeado.getFrame().setVisible(true);
 		String contenido = "Municipio de prueba: " + municipio.toString();
-		this.ventanaLogeado.getlabelHola().setSize(contenido.length() + this.ventanaLogeado.getlabelHola().getWidth(), this.ventanaLogeado.getlabelHola().getHeight());
 		this.ventanaLogeado.getlabelHola().setText("Municipio de prueba: " + municipio.toString());
 		this.ventanaLogeado.getlabelCorreo().setText("");
 		

@@ -4,8 +4,15 @@ import static org.junit.Assert.*;
 import java.util.Calendar;
 import java.util.HashSet;
 import java.util.Set;
+
+import javax.swing.JLabel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+
+import Server.Servidor;
 import controlador.Controlador_Login;
 import controlador.Controlador_Registro;
 import main.Principal;
@@ -24,10 +31,9 @@ import vista.Registrar;
 import modelo.Json;
 
 /**
- * Clase para comprobar que el programa funciona correctamente.
+ * Clase para comprobar que el la clase Principal funciona correctamente.
  */
 public class TestPrincipal {
-	
 																	@SuppressWarnings("unused")
 	private Json principal = new Json();							@SuppressWarnings("unused")
 	private InsertarBorrar insertado = new InsertarBorrar();		@SuppressWarnings("unused")
@@ -46,7 +52,8 @@ public class TestPrincipal {
 	private Controlador_Registro controladorRegistro;
 	SessionFactory sesion = HibernateUtil.getSessionFactory();
 	Session session = sesion.openSession();
-	
+	Servidor server = new Servidor(new JTextArea(), new JTextField(), new JLabel());
+
 	//Valores de prueba
 	String nombrePruebas = "prueba";
 	Double valor = (double) 1;
@@ -58,8 +65,8 @@ public class TestPrincipal {
 	@SuppressWarnings("static-access")
 	@org.junit.Test
 	public void testPrincipal() {
+		server.start();
 		Principal main = new Principal();
-		main.main(null);
 		assertEquals(true,main.start());
 	}
 	

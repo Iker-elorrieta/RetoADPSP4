@@ -15,7 +15,7 @@ import modelo.Municipios;
 import modelo.Json;
 
 /**
- * Clase para comprobar que el programa funciona correctamente.
+ * Clase para comprobar que los Jsones funcionan correctamente.
  */
 public class TestJson {
 

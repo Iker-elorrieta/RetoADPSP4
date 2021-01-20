@@ -22,12 +22,13 @@ public class InsertarBorrar {
 
 		// Insertar nuevo objeto
 
+		try {
 		session.save(object);
 		
-		try {
+		
 			tx.commit();
 		} catch (Exception e) {
-
+			e.printStackTrace();
 			return false;
 		}
 		

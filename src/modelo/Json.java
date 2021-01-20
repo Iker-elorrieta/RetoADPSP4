@@ -25,6 +25,7 @@ import javax.net.ssl.X509TrustManager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.exception.ConstraintViolationException;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
@@ -59,7 +60,7 @@ public class Json {
 		} catch (JsonMappingException e2) {
 //				e2.printStackTrace();
 		} catch (JsonProcessingException e2) {
-//				e2.printStackTrace();+
+//				e2.printStackTrace();
 		} catch (IOException e2) {
 //				e2.printStackTrace();
 		}
@@ -83,7 +84,6 @@ public class Json {
 		result.add(horariosEstaciones);
 		return result;
 	}
-	
 	/**
 	 * En este metodo se inserta dodos los datos en la base de datos menos los horarios.
 	 * @param paginasNoEncontrada
@@ -100,58 +100,64 @@ public class Json {
 									  Entornos[] listaEspaciosNaturales,Estaciones[] listaEstaciones, 
 									  Informes[] horariosEstaciones, SessionFactory sesion,Session session)
 	{
-		String[] caracteresDeSeparacion = {"-","/","|"};
-		String[] nombres;
-		try
-		{
+		try{
 			//Insertartamos todos los municipios
 			for(int i = 0 ; i < listaMunicipios.length ; i++)
 			{
-				InsertarBorrar.insertar(listaMunicipios[i],sesion,session);
+				String nombreProvincia;
+				try {
+					nombreProvincia = listaMunicipios[i].getProvincia().substring(0,listaMunicipios[i].getProvincia().indexOf(" "));
+				}catch(Exception b) {
+					nombreProvincia = listaMunicipios[i].getProvincia();
+				}
+				Provincias provincia = new Provincias(nombreProvincia);
+				String hql1 = "from Provincias where lower(nombre) = '"+nombreProvincia+"'";
+				Query q1 = session.createQuery(hql1);
+				provincia = (Provincias) q1.uniqueResult();
+				
+				if (provincia == null){
+					provincia = new Provincias(nombreProvincia);
+					InsertarBorrar.insertar(provincia,sesion,session);
+				}else {
+					listaMunicipios[i].setProvincias(provincia);
+					InsertarBorrar.insertar(listaMunicipios[i],sesion,session);
+				}
 			}
 			
 			//Insertar espacios naturales
-			for (int i = 0 ; i < listaEspaciosNaturales.length; i++)
-			{
-				InsertarBorrar.insertar(listaEspaciosNaturales[i],sesion,session);						
+			for (int i = 0 ; i < listaEspaciosNaturales.length; i++){
+				InsertarBorrar.insertar(listaEspaciosNaturales[i],sesion,session);
 			}
 			
 			//Insertar estaciones
 			for(int i = 0 ; i < listaEstaciones.length ; i++)
 			{
-				for(int y = 0 ; y < listaMunicipios.length ; y++)
+				try{
+					String hql1 = "from Municipios where lower(nombre) = '"+listaEstaciones[i].getMunicipio()+"'";
+					Query q1 = session.createQuery(hql1);
+					Municipios muni = (Municipios) q1.uniqueResult();
+					
+					if(muni != null){
+						listaEstaciones[i].setMunicipios(muni);
+						
+						String nombreProvincia;
+						try {
+							nombreProvincia = listaMunicipios[i].getProvincia().substring(0,listaMunicipios[i].getProvincia().indexOf(" "));
+						}catch(Exception b) {
+							nombreProvincia = listaMunicipios[i].getProvincia();
+						}					String hql2 = "from Provincias where lower(nombre) = '"+nombreProvincia+"'";
+						Query q2 = session.createQuery(hql2);
+						Provincias provincia = (Provincias) q2.uniqueResult();
+						
+						listaEstaciones[i].setProvincias(provincia);
+						
+						InsertarBorrar.insertar(listaEstaciones[i],sesion,session);
+					}
+				}
+				catch (Exception f)
 				{
-					try
-					{
-						for(int x = 0 ; x < caracteresDeSeparacion.length ; x++)
-						{
-							try {
-								nombres = listaEstaciones[i].getMunicipio().split(caracteresDeSeparacion[x]);
-								for(int valor = 0 ; valor < nombres.length ; valor++)
-								{
-									if(listaMunicipios[y].getNombre().toLowerCase().contains(nombres[valor]));
-									{
-										listaEstaciones[i].setMunicipios(listaMunicipios[y]);
-										InsertarBorrar.insertar(listaEstaciones[i],sesion,session);
-									}
-								}
-							}
-							catch (PatternSyntaxException a)
-							{
-	//							System.out.println("La estacion no tiene ese municipio");
-							}
-						}
-						if(listaMunicipios[y].getNombre().toLowerCase().equals(listaEstaciones[i].getMunicipio()))
-						{
-							listaEstaciones[i].setMunicipios(listaMunicipios[y]);
-							InsertarBorrar.insertar(listaEstaciones[i],sesion,session);
-						}
-					}
-					catch (Exception f)
-					{
-						System.out.println(f.getMessage());
-						return false;
-					}
+					System.out.println(f.getMessage());
+					return false;
 				}
 			}
 			
@@ -159,34 +165,22 @@ public class Json {
 			for(int i = 0 ; i < horariosEstaciones.length ;i++)
 			{
 				String url = horariosEstaciones[i].getUrl();
-				try
-				{	
-					for(int y = 0 ; y < listaEstaciones.length ; y++)
+				try{	
+					String hql1 = "from Estaciones where lower(nombre) = '"+horariosEstaciones[i].getNombre()+"'";
+					Query q1 = session.createQuery(hql1);
+					Estaciones estacion = (Estaciones) q1.uniqueResult();
+					
+					if(estacion != null)
 					{
-						nombres = horariosEstaciones[i].getNombre().toLowerCase().split("_");
-						for(int x = 0 ; x < nombres.length ;x++)
+						horariosEstaciones[i].setEstaciones(estacion);
+						boolean encontrado = false;
+						for(int o = 0 ; o < paginasNoEncontrada.size() ; o++)
 						{
-							try
-							{
-								if(listaEstaciones[y].getNombre().toLowerCase().contains(nombres[x]) && (url.contains("datos_indice") || url.contains("datos_diarios")))
-								{
-									horariosEstaciones[i].setEstaciones(listaEstaciones[y]);
-									boolean encontrado = false;
-									for(int o = 0 ; o < paginasNoEncontrada.size() ; o++)
-									{
-										if(horariosEstaciones[i].equals(paginasNoEncontrada.get(o)))
-											encontrado = true;
-									}
-									if(!encontrado)
-										InsertarBorrar.insertar(horariosEstaciones[i],sesion,session);
-								}
-							}
-							catch (Exception f)
-							{
-//								f.printStackTrace();
-								System.out.println(f.getMessage());
-							}
+							if(horariosEstaciones[i].equals(paginasNoEncontrada.get(o)))
+								encontrado = true;
 						}
+						if(!encontrado)
+							InsertarBorrar.insertar(horariosEstaciones[i],sesion,session);
 					}
 				}
 				catch (Exception f)
@@ -195,55 +189,27 @@ public class Json {
 				}
 			}
 			
-			
+			//Insertar Entornos
 			for (int i = 0 ; i < listaEspaciosNaturales.length; i++)
 			{
-				for(int y = 0 ; y < listaMunicipios.length ; y++)
-				{
-					try
-					{
-						//Como un espacio natural puede tener mas de un municipio comprobamos si puede tener mas de un 
-						for(int x = 0 ; x < caracteresDeSeparacion.length ; x++)
-						{
-							try {
-								nombres = listaEspaciosNaturales[i].getMunicipio().trim().split(caracteresDeSeparacion[x]);
-								for(int valor = 0 ; valor < nombres.length ; valor++)
-								{
-									String nombreMuni = listaMunicipios[y].getNombre().toLowerCase().trim();
-									if(nombres[valor].toLowerCase().trim().equals(nombreMuni))
-									{
-										Entornos entorno = (Entornos) listaEspaciosNaturales[i];
-										Municipios muni = listaMunicipios[y];
+				try{
+					String hql = "from Entornos where lower(nombre) = '"+listaEspaciosNaturales[i].getNombre()+"'";
+					Query q = session.createQuery(hql);
+					Entornos entorno = (Entornos) q.uniqueResult();
 					
-										String hql = "from Entornos where nombre = '"+entorno.getNombre()+"'";
-										Query q = session.createQuery(hql);
-										entorno = (Entornos) q.uniqueResult();
-										
-										String hql1 = "from Municipios where nombre = '"+muni.getNombre()+"'";
-										Query q1 = session.createQuery(hql1);
-										muni = (Municipios) q1.uniqueResult();
-
-										EntornosmuniId clave = new EntornosmuniId(entorno.getId(),muni.getId());
-										Entornosmuni vinculo = new Entornosmuni(clave,entorno,muni);
-										InsertarBorrar.insertar(vinculo,sesion,session);
-									}
-								}
-							}
-							catch (PatternSyntaxException a)
-							{
-	//							System.out.println("La estacion no tiene ese municipio");
-							}
-							catch(Exception b)
-							{
-//								b.printStackTrace();
-							}
-						}
-					}
-					catch (Exception f)
+					String hql1 = "from Municipios where lower(nombre) = '"+listaEspaciosNaturales[i].getMunicipio()+"'";
+					Query q1 = session.createQuery(hql1);
+					Municipios muni = (Municipios) q1.uniqueResult();
+					if(entorno != null && muni != null)
 					{
-						System.out.println(f.getMessage());
-						return false;
+						EntornosmuniId clave = new EntornosmuniId(entorno.getId(),muni.getId());
+						Entornosmuni vinculo = new Entornosmuni(clave,entorno,muni);
+						InsertarBorrar.insertar(vinculo,sesion,session);
 					}
+				}
+				catch (Exception f){
+					System.out.println(f.getMessage());
+					return false;
 				}
 			}
 			insertarHorarios(horariosEstaciones, sesion, session, mapper);
@@ -303,8 +269,7 @@ public class Json {
 		Horario[] horario = null;
 		for(int y = 0 ; y < horariosEstaciones.length ;y++)
 		{
-			try
-			{
+			try{
 				String url = horariosEstaciones[y].getUrl();
 				if(url.contains("datos_indice") || url.contains("datos_diarios"))
 				{
@@ -316,7 +281,10 @@ public class Json {
 					{
 						horario[x].setInformes(informe);
 						if(!horario[x].isNull() && horario[x].getInformes() != null)
+						{
 							InsertarBorrar.insertar(horario[x],sesion,session);
+							System.out.println(y + ") horario insertado.");
+						}
 					}
 				}
 			}
@@ -337,6 +305,7 @@ public class Json {
 	 * @throws IOException
 	 */
 	private String readAll(Reader rd, String url) throws IOException {
+		System.out.println("Leyendo Json: " + url);
 		StringBuilder sb = new StringBuilder();
 		int cp;
 		String result = "";
@@ -583,6 +552,7 @@ public class Json {
 			cadena = cadena.replace("latwgs84", "Latitud");
 			cadena = cadena.replace("lonwgs84", "Longitud");
 			cadena = cadena.replace("municipalitycode", "Codigo");
+			cadena = cadena.replace("territory", "Provincia");
 		}
 		else if(tipo.toLowerCase().contains("espacios-naturales.json"))
 		{

@@ -21,6 +21,7 @@ import modelo.Informes;
 import modelo.InsertarBorrar;
 import modelo.Json;
 import modelo.Municipios;
+import modelo.Provincias;
 import modelo.Usuario;
 import vista.Logeado;
 import vista.Login;
@@ -28,9 +29,9 @@ import vista.Registrar;
 
 
 /**
- * Clase para comprobar que el programa funciona correctamente.
+ * Clase para comprobar que el programa inserta objectos correctamente.
  */
-public class TestsInserciones {
+public class TestInserciones {
 																	@SuppressWarnings("unused")
 	private Json principal = new Json();							@SuppressWarnings("unused")
 	private HibernateUtil hibernate = new HibernateUtil();			@SuppressWarnings("unused")
@@ -40,6 +41,7 @@ public class TestsInserciones {
 	private Controlador_Login controladorLogin;						@SuppressWarnings("unused")
 	private Controlador_Registro controladorRegistro;				@SuppressWarnings("unused")
 	private InsertarBorrar insertado = new InsertarBorrar();
+	private Provincias provincia = new Provincias();
 	private EntornosmuniId entornosmuniId = new EntornosmuniId();
 	private Entornos entorno = new Entornos();						
 	private Municipios municipio = new Municipios();				
@@ -62,17 +64,31 @@ public class TestsInserciones {
 	Set set = new HashSet(0);
 	
 	@org.junit.Test
-	public void testInsercionMunicipio() {
+	public void testInsercionProvincia(){
+		provincia.setEstacioneses(set);
+		provincia.setMunicipioses(set);
+		provincia.setNombre("prueba");
+		provincia = new Provincias(nombrePruebas, set,set);
+		provincia = new Provincias(nombrePruebas);
+		assertEquals(true, InsertarBorrar.insertar(provincia, sesion, session));
+		InsertarBorrar.borrar(provincia, sesion, session);
+	}
+	
+	@org.junit.Test
+	public void testInsercionMunicipio(){
 		municipio.setLatitud(valorString);
 		municipio.setLongitud(valorString);
 		municipio.setLatitud("a");
 		municipio.setLongitud("b");
-		municipio = new Municipios(nombrePruebas);
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
+		provincia = new Provincias(nombrePruebas);
+		municipio = new Municipios(provincia,nombrePruebas);
+		InsertarBorrar.insertar(provincia, sesion, session);
+		municipio = new Municipios(provincia, nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
 		municipio.toString();
 		municipio.isNull();
 		assertEquals(true, InsertarBorrar.insertar(municipio, sesion, session));
 		InsertarBorrar.borrar(municipio, sesion, session);
+		InsertarBorrar.borrar(provincia, sesion, session);
 	}
 	
 	@org.junit.Test
@@ -93,9 +109,11 @@ public class TestsInserciones {
 	
 	@org.junit.Test
     public void testInsercionHorarios() {
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
-		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
+		provincia = new Provincias(nombrePruebas);
+		municipio = new Municipios(provincia, nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
+		estacion = new Estaciones(municipio, provincia, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
+		InsertarBorrar.insertar(provincia, sesion, session);
 		InsertarBorrar.insertar(municipio, sesion, session);
 		InsertarBorrar.insertar(estacion, sesion, session);
 		InsertarBorrar.insertar(informe, sesion, session);
@@ -130,7 +148,6 @@ public class TestsInserciones {
         horario.setValor5("e");
         horario.setValor6("f");
         horario.setValor7("g");
-        
         horario.setHora("10:00");
 
         horario.toString();
@@ -140,13 +157,16 @@ public class TestsInserciones {
         
         assertEquals(true, InsertarBorrar.insertar(horario, sesion, session));
         InsertarBorrar.borrar(municipio, sesion, session);
+        InsertarBorrar.borrar(provincia, sesion, session);
     }
 	
 	@SuppressWarnings("unlikely-arg-type")
 	@org.junit.Test
     public void testInsercionEntornosMuni() {
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
+		provincia = new Provincias(nombrePruebas);
+		municipio = new Municipios(provincia, nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
 		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set);
+		InsertarBorrar.insertar(provincia, sesion, session);
 		InsertarBorrar.insertar(municipio, sesion, session);
 		InsertarBorrar.insertar(entorno, sesion, session);
 		
@@ -165,24 +185,30 @@ public class TestsInserciones {
 		assertEquals(true, InsertarBorrar.insertar(entornosmuni, sesion, session));
 		InsertarBorrar.borrar(entorno, sesion, session);
 		InsertarBorrar.borrar(municipio, sesion, session);
+		InsertarBorrar.borrar(provincia, sesion, session);
 	}
 	
 	@org.junit.Test
 	public void testInsercionInformes() {
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
+		provincia = new Provincias(nombrePruebas);
+		municipio = new Municipios(provincia, nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
+		InsertarBorrar.insertar(provincia, sesion, session);
 		InsertarBorrar.insertar(municipio, sesion, session);
-		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
+		estacion = new Estaciones(municipio, provincia, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		InsertarBorrar.insertar(estacion, sesion, session);
 		informe = new Informes(estacion, nombrePruebas);
 		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
 		informe.toString();
 		assertEquals(true, InsertarBorrar.insertar(informe, sesion, session));
 		InsertarBorrar.borrar(municipio, sesion, session);
+		InsertarBorrar.borrar(provincia, sesion, session);
 	}
 	
 	@org.junit.Test
 	public void testInsercionEstacion() {
-		municipio = new Municipios(nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
+		provincia = new Provincias(nombrePruebas);
+		municipio = new Municipios(provincia, nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
+		InsertarBorrar.insertar(provincia, sesion, session);
 		InsertarBorrar.insertar(municipio, sesion, session);
 		estacion.setCoordenadaX(valorString);
 		estacion.setCoordenadaY(valorString);
@@ -190,10 +216,11 @@ public class TestsInserciones {
 		estacion.setLongitud(valorString);
 		estacion.setMunicipio("algo");
 		estacion.getMunicipio();
-		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas);
-		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
+		estacion = new Estaciones(municipio, provincia, nombrePruebas, nombrePruebas);
+		estacion = new Estaciones(municipio, provincia, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		assertEquals(true, InsertarBorrar.insertar(estacion, sesion, session));
 		InsertarBorrar.borrar(municipio, sesion, session);
+		InsertarBorrar.borrar(provincia, sesion, session);
 		estacion.toString();
 		estacion.isNull();
 	}

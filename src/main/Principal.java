@@ -11,7 +11,9 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
 import controlador.Controlador_Login;
+import modelo.InsertarBorrar;
 import modelo.Municipios;
+import modelo.Provincias;
 import vista.Login;
 
 /**
@@ -34,19 +36,14 @@ public class Principal {
 		cliente.getFrame().setVisible(true);
 		SessionFactory sesion = modelo.HibernateUtil.getSessionFactory();
 		Session session = sesion.openSession();
-		Transaction tx = session.beginTransaction();
-		try
-		{
 		Set set = new HashSet(0);
-		Municipios municipio = null;
-
-			municipio = new Municipios("Inicio", "Inicio",(double) 1,(double) 1, "1", set, set);
-			session.save(municipio);
+		Provincias provincia = new Provincias("Inicio"); 
+		Municipios municipio = new Municipios(provincia,"Inicio", "Inicio",(double) 1,(double) 1, "1", set, set);
 		
-		}
-		catch(Exception a)
-		{
-		}
+		try{
+			InsertarBorrar.insertar(provincia, sesion, session);
+			InsertarBorrar.insertar(municipio, sesion, session);
+		}catch(Exception a){a.printStackTrace();}
 		try {
 			@SuppressWarnings("resource")
 			Socket socket = new Socket("127.0.0.1",44444);

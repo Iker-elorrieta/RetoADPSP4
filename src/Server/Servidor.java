@@ -28,6 +28,7 @@ public class Servidor extends Thread {
 	boolean continuar = true;
 	ServerSocket servidor = null;
 	JLabel hora;
+	boolean varPrueba = false;
 
 	/**
 	 * Constructor del servidor
@@ -61,6 +62,7 @@ public class Servidor extends Thread {
 					texto.setText("Conexiones actuales: "+ lista.size());
 					HiloServidor hilo = new HiloServidor(textArea, texto, osalida, oentrada, lista);
 					hilo.start();
+					varPrueba = true;
 				}
 				else
 					socket.close();
@@ -69,7 +71,7 @@ public class Servidor extends Thread {
 			socket.close();
 			
 			System.out.println("Servidor terminado");
-
+			varPrueba = true;
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			System.out.println("Servidor cerrado");
@@ -82,19 +84,27 @@ public class Servidor extends Thread {
 	 * 
 	 */
 	public boolean desconectar() {
-		continuar = false;
-		try {
+	continuar = false;
+	try {
 			for(int i = 0;i<lista.size();i++)
 			{
 				ObjectOutputStream os = lista.get(i);
 				os.writeObject("*");
 			}
-			servidor.close();
+			if(servidor != null)
+				servidor.close();
+			else
+				continuar = true;
 		} catch (IOException e) {
 			e.printStackTrace();
 			return false;
 		}
 		
 		return true;
+	}
+	
+	public boolean prueba()
+	{
+		return varPrueba;
 	}
 }

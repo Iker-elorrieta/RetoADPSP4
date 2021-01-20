@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import main.Xml;
 
 /**
- * Clase para comprobar el correcto funcionamiento del los xml.
+ * Clase para comprobar la clase xml funciona correctamente.
  * @author Grupo 4
  */
 public class TestXML {
