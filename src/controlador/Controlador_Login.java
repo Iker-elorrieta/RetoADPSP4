@@ -5,9 +5,7 @@ import java.awt.event.MouseListener;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-
 import javax.swing.JOptionPane;
-
 import modelo.Usuario;
 import vista.Logeado;
 import vista.Login;

@@ -91,7 +91,7 @@ public class HiloServidor extends Thread {
 					usuario.setContrasena(comunes.CrearHash.crearHash(usuario.getContrasena()));
 					usuario.setRespuesta(comunes.CrearHash.crearHash(usuario.getRespuesta()));
 					
-					if (modelo.InsertarBorrar.insertar(usuario, sesion, session)) {
+					if (comunes.InsertarBorrar.insertar(usuario, sesion, session)) {
 						
 						osalida.writeObject("bien");
 						

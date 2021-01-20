@@ -13,6 +13,7 @@
         <mapping resource="modelo/Entornos.hbm.xml"/>
         <mapping resource="modelo/Informes.hbm.xml"/>
         <mapping resource="modelo/Entornosmuni.hbm.xml"/>
+        <mapping resource="modelo/Provincias.hbm.xml"/>
         <mapping resource="modelo/Municipios.hbm.xml"/>
         <mapping resource="modelo/Estaciones.hbm.xml"/>
         <mapping resource="modelo/Usuario.hbm.xml"/>

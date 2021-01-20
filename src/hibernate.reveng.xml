@@ -10,77 +10,80 @@
 		<sql-type jdbc-type="VARCHAR" hibernate-type="string"></sql-type>
 		<sql-type jdbc-type="VARCHAR" hibernate-type="string"></sql-type>
 		<sql-type jdbc-type="VARCHAR" hibernate-type="string"></sql-type>
+		<sql-type jdbc-type="VARCHAR" hibernate-type="string"></sql-type>
 	</type-mapping>
-
-	<table-filter match-catalog="euskalmet" match-name="entornos" />
-	<table-filter match-catalog="euskalmet" match-name="entornosmuni" />
-	<table-filter match-catalog="euskalmet" match-name="estaciones" />
-	<table-filter match-catalog="euskalmet" match-name="horario" />
-	<table-filter match-catalog="euskalmet" match-name="informes" />
-	<table-filter match-catalog="euskalmet" match-name="municipios" />
-	<table-filter match-catalog="euskalmet" match-name="usuario" />
+	<table-filter match-name="entornos" match-catalog="euskalmet"></table-filter>
+	<table-filter match-name="entornosmuni" match-catalog="euskalmet"></table-filter>
+	<table-filter match-name="estaciones" match-catalog="euskalmet"></table-filter>
+	<table-filter match-name="horario" match-catalog="euskalmet"></table-filter>
+	<table-filter match-name="informes" match-catalog="euskalmet"></table-filter>
+	<table-filter match-name="municipios" match-catalog="euskalmet"></table-filter>
+	<table-filter match-name="provincias" match-catalog="euskalmet"></table-filter>
+	<table-filter match-name="usuario" match-catalog="euskalmet"></table-filter>
 	<table catalog="euskalmet" name="entornos">
 		<column name="Id"></column>
-		<column name="Tipo"></column>
 		<column name="Longitud"></column>
 		<column name="Latitud"></column>
+		<column name="Tipo"></column>
+		<column name="Nombre"></column>
 		<column name="Territorio"></column>
 		<column name="Descripcion"></column>
-		<column name="Nombre"></column>
 	</table>
 	<table catalog="euskalmet" name="entornosmuni">
-		<column name="Municipio"></column>
 		<column name="Entorno"></column>
+		<column name="Municipio"></column>
 	</table>
 	<table catalog="euskalmet" name="estaciones">
 		<column name="Id"></column>
-		<column name="CoordenadaY"></column>
-		<column name="Municipio"></column>
-		<column name="CoordenadaX"></column>
-		<column name="Nombre"></column>
-		<column name="Latitud"></column>
 		<column name="Provincia"></column>
-		<column name="Direccion"></column>
+		<column name="Latitud"></column>
+		<column name="Municipio"></column>
+		<column name="Nombre"></column>
+		<column name="CoordenadaY"></column>
 		<column name="Longitud"></column>
+		<column name="Direccion"></column>
+		<column name="CoordenadaX"></column>
 	</table>
 	<table catalog="euskalmet" name="horario">
 		<column name="Id"></column>
-		<column name="PM25ICA"></column>
-		<column name="NO2ICA"></column>
 		<column name="PM10ICA"></column>
-		<column name="Hora"></column>
-		<column name="Fecha"></column>
-		<column name="NO2"></column>
-		<column name="COmgm3"></column>
-		<column name="ICAEstacion"></column>
-		<column name="PM10"></column>
-		<column name="NOgm3"></column>
-		<column name="SO2ICA"></column>
 		<column name="SO2"></column>
-		<column name="NOXgm3"></column>
-		<column name="Informe"></column>
+		<column name="PM25ICA"></column>
+		<column name="SO2ICA"></column>
+		<column name="PM10"></column>
+		<column name="Hora"></column>
+		<column name="ICAEstacion"></column>
+		<column name="Fecha"></column>
+		<column name="NOgm3"></column>
 		<column name="PM25"></column>
+		<column name="NO2"></column>
+		<column name="NOXgm3"></column>
+		<column name="NO2ICA"></column>
+		<column name="COmgm3"></column>
+		<column name="Informe"></column>
 	</table>
 	<table catalog="euskalmet" name="informes">
 		<column name="Id"></column>
-		<column name="Estacion"></column>
-		<column name="Hash"></column>
 		<column name="Url"></column>
 		<column name="Formato"></column>
+		<column name="Estacion"></column>
 	</table>
 	<table catalog="euskalmet" name="municipios">
 		<column name="Id"></column>
-		<column name="Longitud"></column>
-		<column name="Descripcion"></column>
-		<column name="Latitud"></column>
+		<column name="Provincia"></column>
 		<column name="Codigo"></column>
+		<column name="Descripcion"></column>
+		<column name="Nombre"></column>
+		<column name="Longitud"></column>
+		<column name="Latitud"></column>
+	</table>
+	<table catalog="euskalmet" name="provincias">
+		<column name="id"></column>
 		<column name="Nombre"></column>
 	</table>
 	<table catalog="euskalmet" name="usuario">
-		<column name="Id"></column>
-		<column name="Pregunta"></column>
-		<column name="Respuesta"></column>
-		<column name="Usuario"></column>
-		<column name="Contrasena"></column>
+		<column name="usuario"></column>
+		<column name="contrasena"></column>
+		<column name="e-mail"></column>
 	</table>
 </hibernate-reverse-engineering>

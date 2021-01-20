@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generated 7 ene. 2021 20:45:20 by Hibernate Tools 5.4.18.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 19 ene. 2021 17:44:31 by Hibernate Tools 5.4.18.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
     <class catalog="euskalmet" dynamic-insert="false" dynamic-update="false" mutable="true" name="modelo.Municipios" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="municipios">
         <id name="id" type="java.lang.Integer">
             <column name="Id"/>
             <generator class="identity"/>
         </id>
+        <many-to-one class="modelo.Provincias" embed-xml="true" fetch="select" insert="true" name="provincias" not-found="exception" optimistic-lock="true" unique="false" update="true">
+            <column name="Provincia" not-null="true"/>
+        </many-to-one>
         <property generated="never" lazy="false" name="nombre" optimistic-lock="true" type="string" unique="false">
             <column length="100" name="Nombre" not-null="true" unique="true"/>
         </property>

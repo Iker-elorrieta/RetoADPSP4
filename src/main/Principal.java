@@ -3,8 +3,17 @@ package main;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
+import java.util.HashSet;
+import java.util.Set;
 
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+import comunes.InsertarBorrar;
 import controlador.Controlador_Login;
+import modelo.Municipios;
+import modelo.Provincias;
 import vista.Login;
 
 /**
@@ -15,9 +24,7 @@ import vista.Login;
 public class Principal {
 
 	public static void main(String[] args) {
-		
 		start();
-		
 	}
 	
 	/**
@@ -27,6 +34,16 @@ public class Principal {
 	{
 		Login cliente = new Login();
 		cliente.getFrame().setVisible(true);
+		SessionFactory sesion = modelo.HibernateUtil.getSessionFactory();
+		Session session = sesion.openSession();
+		Set set = new HashSet(0);
+		Provincias provincia = new Provincias("Inicio"); 
+		Municipios municipio = new Municipios(provincia,"Inicio", "Inicio",(double) 1,(double) 1, "1", set, set);
+		
+		try{
+			InsertarBorrar.insertar(provincia, sesion, session);
+			InsertarBorrar.insertar(municipio, sesion, session);
+		}catch(Exception a){a.printStackTrace();}
 		try {
 			@SuppressWarnings("resource")
 			Socket socket = new Socket("127.0.0.1",44444);
