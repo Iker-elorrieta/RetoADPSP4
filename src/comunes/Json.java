@@ -1,4 +1,4 @@
-package modelo;
+package comunes;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -31,6 +31,15 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+
+import modelo.Entornos;
+import modelo.Entornosmuni;
+import modelo.EntornosmuniId;
+import modelo.Estaciones;
+import modelo.Horario;
+import modelo.Informes;
+import modelo.Municipios;
+import modelo.Provincias;
 
 public class Json {
 	

@@ -13,6 +13,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
 import Server.Servidor;
+import comunes.InsertarBorrar;
+import comunes.Json;
 import controlador.Controlador_Login;
 import controlador.Controlador_Registro;
 import main.Principal;
@@ -23,12 +25,10 @@ import modelo.Estaciones;
 import modelo.HibernateUtil;
 import modelo.Horario;
 import modelo.Informes;
-import modelo.InsertarBorrar;
 import modelo.Municipios;
 import vista.Logeado;
 import vista.Login;
 import vista.Registrar;
-import modelo.Json;
 
 /**
  * Clase para comprobar que el la clase Principal funciona correctamente.

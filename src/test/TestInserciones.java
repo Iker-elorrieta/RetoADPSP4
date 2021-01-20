@@ -9,6 +9,8 @@ import java.util.Set;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
+import comunes.InsertarBorrar;
+import comunes.Json;
 import controlador.Controlador_Login;
 import controlador.Controlador_Registro;
 import modelo.Entornos;
@@ -18,8 +20,6 @@ import modelo.Estaciones;
 import modelo.HibernateUtil;
 import modelo.Horario;
 import modelo.Informes;
-import modelo.InsertarBorrar;
-import modelo.Json;
 import modelo.Municipios;
 import modelo.Provincias;
 import modelo.Usuario;
@@ -230,10 +230,9 @@ public class TestInserciones {
 		Usuario user = new Usuario();
 		
 		user.setUsuario(nombrePruebas);
-		user.setEMail(email);
 		user.setContrasena(contrasena);
 		
-		user = new Usuario(nombrePruebas,email,contrasena);
+		user = new Usuario(nombrePruebas,email,contrasena, contrasena);
 		assertEquals(true, InsertarBorrar.insertar(user, sesion, session));
 		InsertarBorrar.borrar(user, sesion, session);
 	}

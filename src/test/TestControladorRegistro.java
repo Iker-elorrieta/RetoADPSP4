@@ -29,6 +29,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import Server.Servidor;
 import Server.VentanaServidor;
+import comunes.InsertarBorrar;
+import comunes.Json;
 import controlador.Controlador_Login;
 import controlador.Controlador_Registro;
 import main.Principal;
@@ -39,13 +41,11 @@ import modelo.Estaciones;
 import modelo.HibernateUtil;
 import modelo.Horario;
 import modelo.Informes;
-import modelo.InsertarBorrar;
 import modelo.Municipios;
 import modelo.Usuario;
 import vista.Logeado;
 import vista.Login;
 import vista.Registrar;
-import modelo.Json;
 
 /**
  * Clase para comprobar que el programa funciona correctamente.

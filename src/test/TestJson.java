@@ -7,12 +7,13 @@ import java.util.Calendar;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import com.fasterxml.jackson.databind.ObjectMapper;
+
+import comunes.Json;
 import modelo.Entornos;
 import modelo.Estaciones;
 import modelo.HibernateUtil;
 import modelo.Informes;
 import modelo.Municipios;
-import modelo.Json;
 
 /**
  * Clase para comprobar que los Jsones funcionan correctamente.

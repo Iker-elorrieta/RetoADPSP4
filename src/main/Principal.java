@@ -10,8 +10,8 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
+import comunes.InsertarBorrar;
 import controlador.Controlador_Login;
-import modelo.InsertarBorrar;
 import modelo.Municipios;
 import modelo.Provincias;
 import vista.Login;
