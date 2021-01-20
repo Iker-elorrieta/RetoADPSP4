@@ -1,6 +1,11 @@
 [ {
-  "Date" : "12/01/2021",
-  "Bencenogm3" : "0,48",
-  "Etilbencenogm3" : "0,68",
-  "Toluenogm3" : "2,89"
+  "Date" : "17/01/2021",
+  "Bencenogm3" : "0,31",
+  "Etilbencenogm3" : "0",
+  "Toluenogm3" : "1,12"
+}, {
+  "Date" : "16/01/2021",
+  "Bencenogm3" : "0,37",
+  "Etilbencenogm3" : "0,1",
+  "Toluenogm3" : "1,66"
 } ]

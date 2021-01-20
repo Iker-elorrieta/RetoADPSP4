@@ -17,6 +17,7 @@ public class Controlador_Registro implements MouseListener {
 	private ObjectInputStream entrada;
 	private ObjectOutputStream salida;
 	private boolean prueba = false;
+
 	
 	/**
 	 * {@summary Constructor de la clase que da inicio al controlador }

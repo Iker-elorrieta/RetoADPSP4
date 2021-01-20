@@ -99,7 +99,7 @@ public class Controlador_Login implements MouseListener {
 						JOptionPane.showMessageDialog(this.ventanaLogin.getFrame(),"Ha iniciado sesión", "Información", JOptionPane.INFORMATION_MESSAGE);
 						Logeado ventanaLogeado = new Logeado();
 						@SuppressWarnings("unused")
-						ControladorLogeado controladorLogeado = new ControladorLogeado(ventanaLogeado, nuevo);
+						ControladorLogeado controladorLogeado = new ControladorLogeado(ventanaLogeado, nuevo, entrada, salida);
 						
 					} else {
 						
