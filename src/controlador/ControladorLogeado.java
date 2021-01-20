@@ -60,7 +60,6 @@ public class ControladorLogeado implements MouseListener {
 		
 		
 		
-		
 		try {
 			
 			salida.writeObject(5);
