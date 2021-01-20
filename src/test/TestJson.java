@@ -4,8 +4,6 @@ import static org.junit.Assert.*;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.HashSet;
-import java.util.Set;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -17,7 +15,7 @@ import modelo.Municipios;
 import modelo.Json;
 
 /**
- * Clase para comprobar que el programa funciona correctamente.
+ * Clase para comprobar que los Jsones funcionan correctamente.
  */
 public class TestJson {
 
@@ -29,7 +27,7 @@ public class TestJson {
 	public void testJsonTotal()
 	{
 		Calendar tiempo1 = Calendar.getInstance();
-		//Hay que borrar todos los datos de la BDD para hacer esta prueba
+		//Hay que borrar todos los datos de la BDD para hacer esta prueba 
 
 		Json hijoDeJ = new Json();
 		ArrayList<Object> lista = hijoDeJ.cargarJsons();

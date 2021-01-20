@@ -1,5 +1,5 @@
 package modelo;
-// Generated Jan 3, 2021, 9:45:27 PM by Hibernate Tools 5.4.18.Final
+// Generated 19 ene. 2021 17:44:31 by Hibernate Tools 5.4.18.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -12,8 +12,9 @@ public class Estaciones implements java.io.Serializable {
 	private Integer id;
 	private Municipios municipios;
 	private String municipio;
-	private String nombre;
+	private Provincias provincias;
 	private String provincia;
+	private String nombre;
 	private String direccion;
 	private Double coordenadaX;
 	private Double coordenadaY;
@@ -21,20 +22,20 @@ public class Estaciones implements java.io.Serializable {
 	private Double longitud;
 	private Set informeses = new HashSet(0);
 
-	public Estaciones() {
-	}
+	public Estaciones() {}
 
-	public Estaciones(Municipios municipios, String nombre, String direccion) {
+	public Estaciones(Municipios municipios, Provincias provincias, String nombre, String direccion) {
 		this.municipios = municipios;
+		this.provincias = provincias;
 		this.nombre = nombre;
 		this.direccion = direccion;
 	}
 
-	public Estaciones(Municipios municipios, String nombre, String provincia, String direccion, Double coordenadaX,
+	public Estaciones(Municipios municipios, Provincias provincias, String nombre, String direccion, Double coordenadaX,
 			Double coordenadaY, Double latitud, Double longitud, Set informeses) {
 		this.municipios = municipios;
+		this.provincias = provincias;
 		this.nombre = nombre;
-		this.provincia = provincia;
 		this.direccion = direccion;
 		this.coordenadaX = coordenadaX;
 		this.coordenadaY = coordenadaY;
@@ -50,31 +51,15 @@ public class Estaciones implements java.io.Serializable {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	
-	public void setCoordenadaX(Double coordenadaX) {
-		this.coordenadaX = coordenadaX;
+
+	public String getProvincia() {
+		return provincia;
 	}
 
-	public void setCoordenadaY(Double coordenadaY) {
-		this.coordenadaY = coordenadaY;
+	public void setProvincia(String provincia) {
+		this.provincia = provincia;
 	}
 
-	public void setLatitud(Double latitud) {
-		this.latitud = latitud;
-	}
-
-	public void setLongitud(Double longitud) {
-		this.longitud = longitud;
-	}
-
-	public String getMunicipio() {
-		return this.municipio;
-	}
-	
-	public void setMunicipio(String municipio) {
-		this.municipio = municipio;
-	}
-	
 	public Municipios getMunicipios() {
 		return this.municipios;
 	}
@@ -83,20 +68,28 @@ public class Estaciones implements java.io.Serializable {
 		this.municipios = municipios;
 	}
 
+	public String getMunicipio() {
+		return municipio;
+	}
+
+	public void setMunicipio(String municipio) {
+		this.municipio = municipio;
+	}
+
+	public Provincias getProvincias() {
+		return this.provincias;
+	}
+
+	public void setProvincias(Provincias provincias) {
+		this.provincias = provincias;
+	}
+
 	public String getNombre() {
 		return this.nombre;
 	}
 
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
-	}
-
-	public String getProvincia() {
-		return this.provincia;
-	}
-
-	public void setProvincia(String provincia) {
-		this.provincia = provincia;
 	}
 
 	public String getDireccion() {
@@ -111,6 +104,14 @@ public class Estaciones implements java.io.Serializable {
 		return this.coordenadaX;
 	}
 
+	public void setCoordenadaX(Double coordenadaX) {
+		this.coordenadaX = coordenadaX;
+	}
+	
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
 	public void setCoordenadaX(String coordenadaX) {
 		this.coordenadaX = Double.parseDouble(coordenadaX.replace(",", "."));
 	}
@@ -119,6 +120,14 @@ public class Estaciones implements java.io.Serializable {
 		return this.coordenadaY;
 	}
 
+	public void setCoordenadaY(Double coordenadaY) {
+		this.coordenadaY = coordenadaY;
+	}
+	
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
 	public void setCoordenadaY(String coordenadaY) {
 		this.coordenadaY = Double.parseDouble(coordenadaY.replace(",", "."));
 	}
@@ -126,17 +135,33 @@ public class Estaciones implements java.io.Serializable {
 	public Double getLatitud() {
 		return this.latitud;
 	}
-	
+
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
 	public void setLatitud(String latitud) {
 		this.latitud = Double.parseDouble(latitud.replace(",", "."));
+	}
+	
+	public void setLatitud(Double latitud) {
+		this.latitud = latitud;
 	}
 
 	public Double getLongitud() {
 		return this.longitud;
 	}
 
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
 	public void setLongitud(String longitud) {
 		this.longitud = Double.parseDouble(longitud.replace(",", "."));
+	}
+	
+	public void setLongitud(Double longitud) {
+		this.longitud = longitud;
 	}
 
 	public Set getInformeses() {
@@ -146,7 +171,7 @@ public class Estaciones implements java.io.Serializable {
 	public void setInformeses(Set informeses) {
 		this.informeses = informeses;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Estaciones [id=" + id + ", municipios=" + municipios + ", nombre=" + nombre + ", provincia=" + provincia
@@ -154,6 +179,10 @@ public class Estaciones implements java.io.Serializable {
 				+ ", latitud=" + latitud + ", longitud=" + longitud + ", informeses=" + informeses + "]";
 	}
 	
+	/**
+	 * 
+	 * Metodo para comprobar si el objeto tiene datos de interes para guardar en la base de datos.
+	 */
 	public boolean isNull()
 	{
 		if(nombre != null)

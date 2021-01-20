@@ -22,12 +22,18 @@ public class InsertarBorrar {
 
 		// Insertar nuevo objeto
 
+		try {
 		session.save(object);
-		tx.commit();
-//		System.out.println();
+		
+		
+			tx.commit();
+		} catch (Exception e) {
+			e.printStackTrace();
+			return false;
+		}
+		
 		System.out.println("Objeto insertado");
-//		System.out.println();
-
+		
 		return true;
 	}
 	
@@ -46,9 +52,17 @@ public class InsertarBorrar {
 		tx.commit();
 	}
 	
+	/**
+	 * Para conseguir meter datos en la tabla entornomuni hace falta los id del entorno que es la funcionalidad de este metodo.
+	 * @param entorno
+	 * @param sesion
+	 * @param session
+	 * 
+	 */
 	public static int obtenerEntornoId(Entornos entorno,SessionFactory sesion,Session session) {
 		
 		String hql = new String();
+		@SuppressWarnings("unused")
 		Transaction tx = null;
 		tx = session.beginTransaction();		  
 		hql = "from Entornos where Nombre = '" + entorno.getNombre() + "'";
@@ -60,9 +74,17 @@ public class InsertarBorrar {
 		
 	}
 	
+	/**
+	 * Para conseguir meter datos en la tabla entornomuni hace falta los id del Municipio que es la funcionalidad de este metodo.
+	 * @param entorno
+	 * @param sesion
+	 * @param session
+	 * 
+	 */
 	public static int obtenerMunicipioId(Municipios municipio,SessionFactory sesion,Session session) {
 		
 		String hql = new String();
+		@SuppressWarnings("unused")
 		Transaction tx = null;
 		tx = session.beginTransaction();		
 		hql = "from Municipios where Nombre = '" + municipio.getNombre() + "'";

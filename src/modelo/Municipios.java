@@ -1,5 +1,5 @@
 package modelo;
-// Generated Jan 3, 2021, 9:45:27 PM by Hibernate Tools 5.4.18.Final
+// Generated 19 ene. 2021 17:44:31 by Hibernate Tools 5.4.18.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -10,6 +10,8 @@ import java.util.Set;
 public class Municipios implements java.io.Serializable {
 
 	private Integer id;
+	private Provincias provincias;
+	private String provincia;
 	private String nombre;
 	private String descripcion;
 	private Double latitud;
@@ -21,12 +23,14 @@ public class Municipios implements java.io.Serializable {
 	public Municipios() {
 	}
 
-	public Municipios(String nombre) {
+	public Municipios(Provincias provincias, String nombre) {
+		this.provincias = provincias;
 		this.nombre = nombre;
 	}
 
-	public Municipios(String nombre, String descripcion, Double latitud, Double longitud, String codigo,
-			Set estacioneses, Set entornosmunis) {
+	public Municipios(Provincias provincias, String nombre, String descripcion, Double latitud, Double longitud,
+			String codigo, Set estacioneses, Set entornosmunis) {
+		this.provincias = provincias;
 		this.nombre = nombre;
 		this.descripcion = descripcion;
 		this.latitud = latitud;
@@ -43,7 +47,11 @@ public class Municipios implements java.io.Serializable {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	
+
+	/**
+	 * Metodo de set latidud modificado para que funcione con la libreria de JSon jackson.
+	 * @param latitud
+	 */
 	public void setLatitud(String latitud) {
 		try
 		{
@@ -54,7 +62,11 @@ public class Municipios implements java.io.Serializable {
 			this.latitud = null;
 		}
 	}
-
+	
+	/**
+	 * Metodo de set longitud modificado para que funcione con la libreria de JSon jackson.
+	 * @param latitud
+	 */
 	public void setLongitud(String longitud) {
 		try
 		{
@@ -66,6 +78,22 @@ public class Municipios implements java.io.Serializable {
 		}
 	}
 	
+	public String getProvincia() {
+		return provincia;
+	}
+
+	public void setProvincia(String provincia) {
+		this.provincia = provincia;
+	}
+
+	public Provincias getProvincias() {
+		return this.provincias;
+	}
+
+	public void setProvincias(Provincias provincias) {
+		this.provincias = provincias;
+	}
+
 	public String getNombre() {
 		return this.nombre;
 	}
@@ -128,7 +156,10 @@ public class Municipios implements java.io.Serializable {
 				+ ", longitud=" + longitud + ", codigo=" + codigo + ", estacioneses=" + estacioneses
 				+ ", entornosmunis=" + entornosmunis + "]";
 	}
-
+	
+	/**
+	 * Metodo para comprobar si el objeto tiene datos de interes para guardar en la base de datos.
+	 */
 	public boolean isNull()
 	{
 		if(nombre != null)

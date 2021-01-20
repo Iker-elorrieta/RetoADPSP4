@@ -4,9 +4,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-
 import javax.swing.JOptionPane;
-
 import modelo.Usuario;
 import vista.Login;
 import vista.Registrar;
