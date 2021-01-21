@@ -9,6 +9,8 @@ import java.util.Set;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
+import modelo.InsertarBorrar;
+import modelo.Json;
 import controlador.Controlador_Login;
 import controlador.Controlador_Registro;
 import modelo.Entornos;
@@ -18,8 +20,6 @@ import modelo.Estaciones;
 import modelo.HibernateUtil;
 import modelo.Horario;
 import modelo.Informes;
-import modelo.InsertarBorrar;
-import modelo.Json;
 import modelo.Municipios;
 import modelo.Provincias;
 import modelo.Usuario;
@@ -31,7 +31,7 @@ import vista.Registrar;
 /**
  * Clase para comprobar que el programa inserta objectos correctamente.
  */
-public class TestInserciones {
+public class TestsInserciones {
 																	@SuppressWarnings("unused")
 	private Json principal = new Json();							@SuppressWarnings("unused")
 	private HibernateUtil hibernate = new HibernateUtil();			@SuppressWarnings("unused")
@@ -65,10 +65,9 @@ public class TestInserciones {
 	
 	@org.junit.Test
 	public void testInsercionProvincia(){
-		provincia.setEstacioneses(set);
 		provincia.setMunicipioses(set);
 		provincia.setNombre("prueba");
-		provincia = new Provincias(nombrePruebas, set,set);
+		provincia = new Provincias(nombrePruebas, set);
 		provincia = new Provincias(nombrePruebas);
 		assertEquals(true, InsertarBorrar.insertar(provincia, sesion, session));
 		InsertarBorrar.borrar(provincia, sesion, session);
@@ -111,7 +110,7 @@ public class TestInserciones {
     public void testInsercionHorarios() {
 		provincia = new Provincias(nombrePruebas);
 		municipio = new Municipios(provincia, nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
-		estacion = new Estaciones(municipio, provincia, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
+		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
 		InsertarBorrar.insertar(provincia, sesion, session);
 		InsertarBorrar.insertar(municipio, sesion, session);
@@ -194,7 +193,7 @@ public class TestInserciones {
 		municipio = new Municipios(provincia, nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
 		InsertarBorrar.insertar(provincia, sesion, session);
 		InsertarBorrar.insertar(municipio, sesion, session);
-		estacion = new Estaciones(municipio, provincia, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
+		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		InsertarBorrar.insertar(estacion, sesion, session);
 		informe = new Informes(estacion, nombrePruebas);
 		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
@@ -216,8 +215,8 @@ public class TestInserciones {
 		estacion.setLongitud(valorString);
 		estacion.setMunicipio("algo");
 		estacion.getMunicipio();
-		estacion = new Estaciones(municipio, provincia, nombrePruebas, nombrePruebas);
-		estacion = new Estaciones(municipio, provincia, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
+		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas);
+		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		assertEquals(true, InsertarBorrar.insertar(estacion, sesion, session));
 		InsertarBorrar.borrar(municipio, sesion, session);
 		InsertarBorrar.borrar(provincia, sesion, session);
@@ -228,12 +227,11 @@ public class TestInserciones {
 	@org.junit.Test
 	public void testInsercionUsuario() {
 		Usuario user = new Usuario();
-		
-		user.setUsuario(nombrePruebas);
-		user.setEMail(email);
+		user = new Usuario(nombrePruebas,email,contrasena, contrasena);
+		user.setNombre(nombrePruebas);
 		user.setContrasena(contrasena);
 		
-		user = new Usuario(nombrePruebas,email,contrasena);
+		
 		assertEquals(true, InsertarBorrar.insertar(user, sesion, session));
 		InsertarBorrar.borrar(user, sesion, session);
 	}

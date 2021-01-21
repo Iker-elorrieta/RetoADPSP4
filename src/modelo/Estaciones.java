@@ -1,5 +1,5 @@
 package modelo;
-// Generated 19 ene. 2021 17:44:31 by Hibernate Tools 5.4.18.Final
+// Generated Jan 21, 2021, 3:38:32 AM by Hibernate Tools 5.4.18.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -12,8 +12,6 @@ public class Estaciones implements java.io.Serializable {
 	private Integer id;
 	private Municipios municipios;
 	private String municipio;
-	private Provincias provincias;
-	private String provincia;
 	private String nombre;
 	private String direccion;
 	private Double coordenadaX;
@@ -22,19 +20,18 @@ public class Estaciones implements java.io.Serializable {
 	private Double longitud;
 	private Set informeses = new HashSet(0);
 
-	public Estaciones() {}
+	public Estaciones() {
+	}
 
-	public Estaciones(Municipios municipios, Provincias provincias, String nombre, String direccion) {
+	public Estaciones(Municipios municipios, String nombre, String direccion) {
 		this.municipios = municipios;
-		this.provincias = provincias;
 		this.nombre = nombre;
 		this.direccion = direccion;
 	}
 
-	public Estaciones(Municipios municipios, Provincias provincias, String nombre, String direccion, Double coordenadaX,
-			Double coordenadaY, Double latitud, Double longitud, Set informeses) {
+	public Estaciones(Municipios municipios, String nombre, String direccion, Double coordenadaX, Double coordenadaY,
+			Double latitud, Double longitud, Set informeses) {
 		this.municipios = municipios;
-		this.provincias = provincias;
 		this.nombre = nombre;
 		this.direccion = direccion;
 		this.coordenadaX = coordenadaX;
@@ -51,23 +48,7 @@ public class Estaciones implements java.io.Serializable {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-
-	public String getProvincia() {
-		return provincia;
-	}
-
-	public void setProvincia(String provincia) {
-		this.provincia = provincia;
-	}
-
-	public Municipios getMunicipios() {
-		return this.municipios;
-	}
-
-	public void setMunicipios(Municipios municipios) {
-		this.municipios = municipios;
-	}
-
+	
 	public String getMunicipio() {
 		return municipio;
 	}
@@ -75,13 +56,45 @@ public class Estaciones implements java.io.Serializable {
 	public void setMunicipio(String municipio) {
 		this.municipio = municipio;
 	}
-
-	public Provincias getProvincias() {
-		return this.provincias;
+	
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
+	public void setCoordenadaX(String coordenadaX) {
+		this.coordenadaX = Double.parseDouble(coordenadaX.replace(",", "."));
 	}
 
-	public void setProvincias(Provincias provincias) {
-		this.provincias = provincias;
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
+	public void setCoordenadaY(String coordenadaY) {
+		this.coordenadaY = Double.parseDouble(coordenadaY.replace(",", "."));
+	}
+
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
+	public void setLatitud(String latitud) {
+		this.latitud = Double.parseDouble(latitud.replace(",", "."));
+	}
+	
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
+	public void setLongitud(String longitud) {
+		this.longitud = Double.parseDouble(longitud.replace(",", "."));
+	}
+	
+	public Municipios getMunicipios() {
+		return this.municipios;
+	}
+
+	public void setMunicipios(Municipios municipios) {
+		this.municipios = municipios;
 	}
 
 	public String getNombre() {
@@ -107,14 +120,6 @@ public class Estaciones implements java.io.Serializable {
 	public void setCoordenadaX(Double coordenadaX) {
 		this.coordenadaX = coordenadaX;
 	}
-	
-	/**
-	 * Metodo modificado para poder funcionar con la libreria de json jackson
-	 * 
-	 */
-	public void setCoordenadaX(String coordenadaX) {
-		this.coordenadaX = Double.parseDouble(coordenadaX.replace(",", "."));
-	}
 
 	public Double getCoordenadaY() {
 		return this.coordenadaY;
@@ -123,27 +128,11 @@ public class Estaciones implements java.io.Serializable {
 	public void setCoordenadaY(Double coordenadaY) {
 		this.coordenadaY = coordenadaY;
 	}
-	
-	/**
-	 * Metodo modificado para poder funcionar con la libreria de json jackson
-	 * 
-	 */
-	public void setCoordenadaY(String coordenadaY) {
-		this.coordenadaY = Double.parseDouble(coordenadaY.replace(",", "."));
-	}
 
 	public Double getLatitud() {
 		return this.latitud;
 	}
 
-	/**
-	 * Metodo modificado para poder funcionar con la libreria de json jackson
-	 * 
-	 */
-	public void setLatitud(String latitud) {
-		this.latitud = Double.parseDouble(latitud.replace(",", "."));
-	}
-	
 	public void setLatitud(Double latitud) {
 		this.latitud = latitud;
 	}
@@ -152,14 +141,6 @@ public class Estaciones implements java.io.Serializable {
 		return this.longitud;
 	}
 
-	/**
-	 * Metodo modificado para poder funcionar con la libreria de json jackson
-	 * 
-	 */
-	public void setLongitud(String longitud) {
-		this.longitud = Double.parseDouble(longitud.replace(",", "."));
-	}
-	
 	public void setLongitud(Double longitud) {
 		this.longitud = longitud;
 	}
@@ -171,14 +152,14 @@ public class Estaciones implements java.io.Serializable {
 	public void setInformeses(Set informeses) {
 		this.informeses = informeses;
 	}
-
+	
 	@Override
 	public String toString() {
-		return "Estaciones [id=" + id + ", municipios=" + municipios + ", nombre=" + nombre + ", provincia=" + provincia
-				+ ", direccion=" + direccion + ", coordenadaX=" + coordenadaX + ", coordenadaY=" + coordenadaY
-				+ ", latitud=" + latitud + ", longitud=" + longitud + ", informeses=" + informeses + "]";
+		return "Estaciones [id=" + id + ", municipios=" + municipios + ", nombre=" + nombre + ", direccion=" + direccion
+				+ ", coordenadaX=" + coordenadaX + ", coordenadaY=" + coordenadaY + ", latitud=" + latitud
+				+ ", longitud=" + longitud + ", informeses=" + informeses + "]";
 	}
-	
+
 	/**
 	 * 
 	 * Metodo para comprobar si el objeto tiene datos de interes para guardar en la base de datos.
@@ -186,8 +167,6 @@ public class Estaciones implements java.io.Serializable {
 	public boolean isNull()
 	{
 		if(nombre != null)
-			return false;
-		if(provincia != null)
 			return false;
 		if(direccion != null)
 			return false;

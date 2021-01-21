@@ -28,7 +28,7 @@ public class InsertarBorrar {
 		
 			tx.commit();
 		} catch (Exception e) {
-			e.printStackTrace();
+//			e.printStackTrace();
 			return false;
 		}
 		

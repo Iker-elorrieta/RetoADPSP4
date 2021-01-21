@@ -23,6 +23,8 @@ import org.junit.jupiter.api.Order;
 
 import Server.Servidor;
 import Server.VentanaServidor;
+import modelo.InsertarBorrar;
+import modelo.Json;
 import controlador.Controlador_Login;
 import controlador.Controlador_Registro;
 import modelo.Entornos;
@@ -32,13 +34,11 @@ import modelo.Estaciones;
 import modelo.HibernateUtil;
 import modelo.Horario;
 import modelo.Informes;
-import modelo.InsertarBorrar;
 import modelo.Municipios;
 import modelo.Usuario;
 import vista.Logeado;
 import vista.Login;
 import vista.Registrar;
-import modelo.Json;
 
 /**
  * Clase para comprobar que el servidor funciona correctamente.
@@ -84,9 +84,8 @@ public class TestServidor {
 			ObjectInputStream entrada = new ObjectInputStream(socket.getInputStream()); 
 			ObjectOutputStream salida = new ObjectOutputStream(socket.getOutputStream());
 			Usuario nuevo = new Usuario();
-			nuevo.setUsuario("prueba");
+			nuevo.setNombre("prueba");
 			nuevo.setContrasena("prueba");
-			nuevo.setEMail("a@b.c");
 			salida.writeObject(2);
 			salida.writeObject(nuevo);
 			salida.writeObject(1);
@@ -145,7 +144,6 @@ public class TestServidor {
 				salida = new ObjectOutputStream(socket.getOutputStream());
 				registrar.getNombre().setText(nombrePruebas);
 				registrar.getContrasena().setText(nombrePruebas);
-				registrar.getEmail().setText(nombrePruebas);
 				controladorRegistro = new Controlador_Registro(registrar, entrada, salida);
 				MouseEvent e = new MouseEvent(registrar.getBotonAcceptar(), 0, 0, 0, 0, 0, 0, false);
 				e.getComponent().setName("registrar");
@@ -154,9 +152,8 @@ public class TestServidor {
 				e.getComponent().setName("volver");
 				controladorRegistro.mouseClicked(e);
 				Usuario user = new Usuario();
-				user.setUsuario(nombrePruebas);
+				user.setNombre(nombrePruebas);
 				user.setContrasena(nombrePruebas);
-				user.setEMail(nombrePruebas);
 				InsertarBorrar.borrar(user, sesion, session);
 				socket.close();
 			} catch (IOException e) {

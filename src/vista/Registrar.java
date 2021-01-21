@@ -12,7 +12,6 @@ public class Registrar {
 	private JTextField nombre;
 	private JTextField contrasena;
 	private JTextField repetirContrasena;
-	private JTextField email;
 	private JButton botonAcceptar;
 	private JButton botonVolver;
 	
@@ -52,7 +51,7 @@ public class Registrar {
 		
 		JLabel labelNombre = new JLabel("Nombre");
 		labelNombre.setHorizontalAlignment(SwingConstants.CENTER);
-		labelNombre.setBounds(49, 91, 269, 42);
+		labelNombre.setBounds(200, 87, 269, 42);
 		frame.getContentPane().add(labelNombre);
 		
 		JLabel labelContrasena = new JLabel("Contraseña");
@@ -65,11 +64,6 @@ public class Registrar {
 		labelRepetirContrasena.setBounds(363, 212, 269, 22);
 		frame.getContentPane().add(labelRepetirContrasena);
 		
-		JLabel labelEmail = new JLabel("Email");
-		labelEmail.setHorizontalAlignment(SwingConstants.CENTER);
-		labelEmail.setBounds(363, 91, 269, 42);
-		frame.getContentPane().add(labelEmail);
-		
 	}
 	
 	/**
@@ -80,7 +74,7 @@ public class Registrar {
 		
 		nombre = new JTextField();
 		nombre.setColumns(10);
-		nombre.setBounds(49, 148, 269, 42);
+		nombre.setBounds(200, 144, 269, 42);
 		frame.getContentPane().add(nombre);
 		
 		contrasena = new JTextField();
@@ -92,11 +86,6 @@ public class Registrar {
 		repetirContrasena.setColumns(10);
 		repetirContrasena.setBounds(363, 245, 269, 42);
 		frame.getContentPane().add(repetirContrasena);
-		
-		email = new JTextField();
-		email.setColumns(10);
-		email.setBounds(363, 148, 269, 42);
-		frame.getContentPane().add(email);
 		
 	}
 	
@@ -130,10 +119,6 @@ public class Registrar {
 
 	public JTextField getRepetirContrasena() {
 		return repetirContrasena;
-	}
-
-	public JTextField getEmail() {
-		return email;
 	}
 	
 	public JButton getBotonAcceptar() {

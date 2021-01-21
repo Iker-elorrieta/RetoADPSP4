@@ -32,6 +32,15 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import modelo.Entornos;
+import modelo.Entornosmuni;
+import modelo.EntornosmuniId;
+import modelo.Estaciones;
+import modelo.Horario;
+import modelo.Informes;
+import modelo.Municipios;
+import modelo.Provincias;
+
 public class Json {
 	
 	/**
@@ -68,7 +77,7 @@ public class Json {
 		Estaciones[] listaEstaciones = null;
 		try {
 			listaEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2020/es_def/adjuntos/estaciones.json"), Estaciones[].class);
-			listaMunicipios = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/pueblos_euskadi_turismo/opendata/herriak.json"), Municipios[].class);
+			listaMunicipios = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/pueblos_euskadi_turismo/opendata/pueblos.json"), Municipios[].class);
 			listaEspaciosNaturales = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/playas_de_euskadi/opendata/espacios-naturales.json"), Entornos[].class);
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
@@ -100,6 +109,7 @@ public class Json {
 									  Entornos[] listaEspaciosNaturales,Estaciones[] listaEstaciones, 
 									  Informes[] horariosEstaciones, SessionFactory sesion,Session session)
 	{
+		ArrayList<Municipios> comprobarMunicipios = new ArrayList<Municipios>();
 		try{
 			//Insertartamos todos los municipios
 			for(int i = 0 ; i < listaMunicipios.length ; i++)
@@ -118,10 +128,20 @@ public class Json {
 				if (provincia == null){
 					provincia = new Provincias(nombreProvincia);
 					InsertarBorrar.insertar(provincia,sesion,session);
+					listaMunicipios[i].setProvincias(provincia);
 				}else {
 					listaMunicipios[i].setProvincias(provincia);
-					InsertarBorrar.insertar(listaMunicipios[i],sesion,session);
 				}
+				
+				InsertarBorrar.insertar(listaMunicipios[i],sesion,session);
+				try{
+					String[] municipiosRaros = listaMunicipios[i].getNombreentero().split(" ");
+					
+					if(municipiosRaros.length > 1 && !municipiosRaros[0].equals(municipiosRaros[1]))
+						comprobarMunicipios.add(listaMunicipios[i]);
+				}catch(NullPointerException d){/* En caso de que no se encuentre ningun espacio o que la primera palabra y la segunda coinciden no lo añadimos al arraylist */}
+			
+				
 			}
 			
 			//Insertar espacios naturales
@@ -133,25 +153,32 @@ public class Json {
 			for(int i = 0 ; i < listaEstaciones.length ; i++)
 			{
 				try{
-					String hql1 = "from Municipios where lower(nombre) = '"+listaEstaciones[i].getMunicipio()+"'";
-					Query q1 = session.createQuery(hql1);
-					Municipios muni = (Municipios) q1.uniqueResult();
+					String hql = "from Municipios where lower(nombre) = '"+listaEstaciones[i].getMunicipio()+"'";
+					Query q = session.createQuery(hql);
+					Municipios muni = (Municipios) q.uniqueResult();
 					
 					if(muni != null){
 						listaEstaciones[i].setMunicipios(muni);
-						
-						String nombreProvincia;
-						try {
-							nombreProvincia = listaMunicipios[i].getProvincia().substring(0,listaMunicipios[i].getProvincia().indexOf(" "));
-						}catch(Exception b) {
-							nombreProvincia = listaMunicipios[i].getProvincia();
-						}					String hql2 = "from Provincias where lower(nombre) = '"+nombreProvincia+"'";
-						Query q2 = session.createQuery(hql2);
-						Provincias provincia = (Provincias) q2.uniqueResult();
-						
-						listaEstaciones[i].setProvincias(provincia);
-						
 						InsertarBorrar.insertar(listaEstaciones[i],sesion,session);
+					}
+					else
+					{
+						int y = 0;
+						boolean encontrado = false;
+						while(y < comprobarMunicipios.size() && !encontrado)
+						{
+							if(comprobarMunicipios.get(y).getNombreentero().contains(listaEstaciones[i].getMunicipio()))
+							{
+								hql = "from Municipios where lower(nombre) = '"+comprobarMunicipios.get(y).getNombre()+"'";
+								q = session.createQuery(hql);
+								muni = (Municipios) q.uniqueResult();
+								
+								listaEstaciones[i].setMunicipios(muni);
+								InsertarBorrar.insertar(listaEstaciones[i],sesion,session);
+								encontrado = true;
+							}
+							y++;
+						}
 					}
 				}
 				catch (Exception f)
@@ -214,7 +241,7 @@ public class Json {
 			}
 			insertarHorarios(horariosEstaciones, sesion, session, mapper);
 		} catch (Exception e) {
-//			e.printStackTrace();
+			e.printStackTrace();
 		}
 		return true;
 	}
@@ -283,7 +310,6 @@ public class Json {
 						if(!horario[x].isNull() && horario[x].getInformes() != null)
 						{
 							InsertarBorrar.insertar(horario[x],sesion,session);
-							System.out.println(y + ") horario insertado.");
 						}
 					}
 				}
@@ -305,7 +331,6 @@ public class Json {
 	 * @throws IOException
 	 */
 	private String readAll(Reader rd, String url) throws IOException {
-		System.out.println("Leyendo Json: " + url);
 		StringBuilder sb = new StringBuilder();
 		int cp;
 		String result = "";
@@ -545,7 +570,7 @@ public class Json {
 			cadena = cadena.replace("PM25", "valor6");
 			cadena = cadena.replace("SO2", "valor7");
 		}
-		else if(tipo.toLowerCase().contains("herriak.json"))
+		else if(tipo.toLowerCase().contains("pueblos.json"))
 		{
 			cadena = cadena.replace("documentName", "Nombre");
 			cadena = cadena.replace("documentDescription", "Descripcion");
@@ -553,6 +578,7 @@ public class Json {
 			cadena = cadena.replace("lonwgs84", "Longitud");
 			cadena = cadena.replace("municipalitycode", "Codigo");
 			cadena = cadena.replace("territory", "Provincia");
+			cadena = cadena.replace("municipality", "nombreEntero");
 		}
 		else if(tipo.toLowerCase().contains("espacios-naturales.json"))
 		{

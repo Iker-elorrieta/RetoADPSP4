@@ -64,10 +64,10 @@ public class Controlador_Registro implements MouseListener {
 			
 			try {
 				Usuario usuario = new Usuario();
-				usuario.setUsuario(this.ventanaRegistro.getNombre().getText());
+				usuario.setNombre(this.ventanaRegistro.getNombre().getText());
 				usuario.setContrasena(this.ventanaRegistro.getContrasena().getText());
-				usuario.setEMail(this.ventanaRegistro.getEmail().getText());
-				
+				usuario.setPregunta("funcion disponible en sprint 3");
+				usuario.setRespuesta("funcion disponible en sprint 3");
 //				Envía el usuario al servidor con la orden de registrar
 				
 				this.salida.writeObject(2);

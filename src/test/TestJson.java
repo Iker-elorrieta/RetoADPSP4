@@ -7,12 +7,13 @@ import java.util.Calendar;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import com.fasterxml.jackson.databind.ObjectMapper;
+
+import modelo.Json;
 import modelo.Entornos;
 import modelo.Estaciones;
 import modelo.HibernateUtil;
 import modelo.Informes;
 import modelo.Municipios;
-import modelo.Json;
 
 /**
  * Clase para comprobar que los Jsones funcionan correctamente.
@@ -26,6 +27,7 @@ public class TestJson {
 	@SuppressWarnings({ "unchecked" })
 	public void testJsonTotal()
 	{
+		//Tiempo 6min ~
 		Calendar tiempo1 = Calendar.getInstance();
 		//Hay que borrar todos los datos de la BDD para hacer esta prueba 
 

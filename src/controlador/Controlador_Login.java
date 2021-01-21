@@ -70,7 +70,7 @@ public class Controlador_Login implements MouseListener {
 			// Acción de iniciar sesión. Se crea un objeto Usuario con los datos de los campos de texto correspondientes
 
 			Usuario nuevo = new Usuario();
-			nuevo.setUsuario(ventanaLogin.getNombre().getText());
+			nuevo.setNombre(ventanaLogin.getNombre().getText());
 			nuevo.setContrasena(ventanaLogin.getContrasena().getText());
 			try {
 				

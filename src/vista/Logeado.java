@@ -45,8 +45,7 @@ public class Logeado {
 		
 		labelHola = new JTextArea("Hola, ");
 		labelHola.setLineWrap(true);
-		labelHola.setBackground(SystemColor.controlHighlight);
-		labelHola.setEnabled(false);
+		labelHola.setBackground(Color.WHITE);
 		labelHola.setEditable(false);
 		labelHola.setBounds(170, 135, 312, 141);
 		frame.getContentPane().add(labelHola);

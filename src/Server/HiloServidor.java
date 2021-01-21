@@ -64,13 +64,12 @@ public class HiloServidor extends Thread {
 					
 					usuario = (Usuario) oentrada.readObject();
 					usuario.setContrasena(crearHash(usuario.getContrasena()));
-					String hql = "from Usuario where usuario = '" + usuario.getUsuario() + "' and contrasena = '" + usuario.getContrasena() + "'";
+					String hql = "from Usuario where nombre = '" + usuario.getNombre() + "' and contrasena = '" + usuario.getContrasena() + "'";
 					Query q = session.createQuery(hql);
 					
 					usuario = (Usuario) q.uniqueResult();
 					
 					osalida.writeObject(usuario);
-					
 					
 					break;
 				

@@ -13,7 +13,6 @@ public class Login {
 	private JTextField contrasena;
 	private JButton botonIniciar;
 	private JButton botonRegistrar;
-	private JButton botonRecuperar;
 	
 	/**
 	 * {@summary Constructor de la clase. Carga los distintos componentes de la ventana} 
@@ -100,11 +99,6 @@ public class Login {
 		botonRegistrar.setFocusPainted(false);
 		botonRegistrar.setBounds(386, 204, 194, 40);
 		frame.getContentPane().add(botonRegistrar);
-		
-		botonRecuperar = new JButton("Recuperar contraseña");
-		botonRecuperar.setFocusPainted(false);
-		botonRecuperar.setBounds(386, 262, 194, 40);
-		frame.getContentPane().add(botonRecuperar);
 			
 	}
 
@@ -126,10 +120,6 @@ public class Login {
 
 	public JButton getBotonRegistrar() {
 		return botonRegistrar;
-	}
-
-	public JButton getBotonRecuperar() {
-		return botonRecuperar;
 	}
 
 }

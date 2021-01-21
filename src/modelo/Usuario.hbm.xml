@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generated 19 ene. 2021 17:44:31 by Hibernate Tools 5.4.18.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 21, 2021, 3:55:47 AM by Hibernate Tools 5.4.18.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
     <class catalog="euskalmet" dynamic-insert="false" dynamic-update="false" mutable="true" name="modelo.Usuario" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="usuario">
-        <id name="usuario" type="string">
-            <column length="20" name="usuario"/>
-            <generator class="assigned"/>
+        <id name="id" type="java.lang.Integer">
+            <column name="Id"/>
+            <generator class="identity"/>
         </id>
-        <property generated="never" lazy="false" name="EMail" optimistic-lock="true" type="string" unique="false">
-            <column length="30" name="`e-mail`" not-null="true"/>
+        <property generated="never" lazy="false" name="nombre" optimistic-lock="true" type="string" unique="false">
+            <column length="20" name="Nombre" not-null="true"/>
         </property>
         <property generated="never" lazy="false" name="contrasena" optimistic-lock="true" type="string" unique="false">
-            <column length="30" name="contrasena" not-null="true"/>
+            <column length="30" name="Contrasena" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="pregunta" optimistic-lock="true" type="string" unique="false">
+            <column length="50" name="Pregunta" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="respuesta" optimistic-lock="true" type="string" unique="false">
+            <column length="50" name="Respuesta" not-null="true"/>
         </property>
     </class>
 </hibernate-mapping>

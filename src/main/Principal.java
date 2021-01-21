@@ -43,7 +43,7 @@ public class Principal {
 		try{
 			InsertarBorrar.insertar(provincia, sesion, session);
 			InsertarBorrar.insertar(municipio, sesion, session);
-		}catch(Exception a){a.printStackTrace();}
+		}catch(Exception a){/*a.printStackTrace();*/}
 		try {
 			@SuppressWarnings("resource")
 			Socket socket = new Socket("127.0.0.1",44444);
