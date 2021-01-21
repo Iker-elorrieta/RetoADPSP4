@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated Jan 21, 2021, 3:55:47 AM by Hibernate Tools 5.4.18.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="euskalmet" dynamic-insert="false" dynamic-update="false" mutable="true" name="modelo.Usuario" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="usuario">
+        <id name="id" type="java.lang.Integer">
+            <column name="Id"/>
+            <generator class="identity"/>
+        </id>
+        <property generated="never" lazy="false" name="nombre" optimistic-lock="true" type="string" unique="false">
+            <column length="20" name="Nombre" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="contrasena" optimistic-lock="true" type="string" unique="false">
+            <column length="30" name="Contrasena" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="pregunta" optimistic-lock="true" type="string" unique="false">
+            <column length="50" name="Pregunta" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="respuesta" optimistic-lock="true" type="string" unique="false">
+            <column length="50" name="Respuesta" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

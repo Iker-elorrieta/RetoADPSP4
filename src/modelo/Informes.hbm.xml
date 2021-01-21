@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated Jan 21, 2021, 3:55:47 AM by Hibernate Tools 5.4.18.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="euskalmet" dynamic-insert="false" dynamic-update="false" mutable="true" name="modelo.Informes" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="informes">
+        <id name="id" type="java.lang.Integer">
+            <column name="Id"/>
+            <generator class="identity"/>
+        </id>
+        <many-to-one class="modelo.Estaciones" embed-xml="true" fetch="select" insert="true" name="estaciones" not-found="exception" optimistic-lock="true" unique="false" update="true">
+            <column name="Estacion" not-null="true"/>
+        </many-to-one>
+        <property generated="never" lazy="false" name="formato" optimistic-lock="true" type="string" unique="false">
+            <column length="1000" name="Formato"/>
+        </property>
+        <property generated="never" lazy="false" name="url" optimistic-lock="true" type="string" unique="false">
+            <column length="500" name="Url" not-null="true" unique="true"/>
+        </property>
+        <set embed-xml="true" fetch="select" inverse="true" lazy="true" mutable="true" name="horarios" optimistic-lock="true" sort="unsorted" table="horario">
+            <key on-delete="noaction">
+                <column name="Informe" not-null="true"/>
+            </key>
+            <one-to-many class="modelo.Horario" embed-xml="true" not-found="exception"/>
+        </set>
+    </class>
+</hibernate-mapping>
