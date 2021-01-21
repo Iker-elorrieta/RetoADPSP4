@@ -84,7 +84,7 @@ public class TestServidor {
 			ObjectInputStream entrada = new ObjectInputStream(socket.getInputStream()); 
 			ObjectOutputStream salida = new ObjectOutputStream(socket.getOutputStream());
 			Usuario nuevo = new Usuario();
-			nuevo.setUsuario("prueba");
+			nuevo.setNombre("prueba");
 			nuevo.setContrasena("prueba");
 			salida.writeObject(2);
 			salida.writeObject(nuevo);
@@ -152,7 +152,7 @@ public class TestServidor {
 				e.getComponent().setName("volver");
 				controladorRegistro.mouseClicked(e);
 				Usuario user = new Usuario();
-				user.setUsuario(nombrePruebas);
+				user.setNombre(nombrePruebas);
 				user.setContrasena(nombrePruebas);
 				InsertarBorrar.borrar(user, sesion, session);
 				socket.close();

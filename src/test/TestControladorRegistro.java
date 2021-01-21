@@ -80,7 +80,7 @@ public class TestControladorRegistro {
 			e.getComponent().setName("volver");
 			controladorRegistro.mouseClicked(e);
 			Usuario user = new Usuario();
-			user.setUsuario(nombrePruebas);
+			user.setNombre(nombrePruebas);
 			user.setContrasena(nombrePruebas);
 			InsertarBorrar.borrar(user, sesion, session);
 			socket.close();

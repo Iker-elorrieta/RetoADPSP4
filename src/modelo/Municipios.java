@@ -1,5 +1,5 @@
 package modelo;
-// Generated 19 ene. 2021 17:44:31 by Hibernate Tools 5.4.18.Final
+// Generated Jan 21, 2021, 3:38:32 AM by Hibernate Tools 5.4.18.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -11,6 +11,7 @@ public class Municipios implements java.io.Serializable {
 
 	private Integer id;
 	private Provincias provincias;
+	private String nombreentero;
 	private String provincia;
 	private String nombre;
 	private String descripcion;
@@ -48,6 +49,22 @@ public class Municipios implements java.io.Serializable {
 		this.id = id;
 	}
 
+	public String getNombreentero() {
+		return nombreentero;
+	}
+
+	public void setNombreentero(String nombreentero) {
+		this.nombreentero = nombreentero;
+	}
+
+	public String getProvincia() {
+		return provincia;
+	}
+
+	public void setProvincia(String provincia) {
+		this.provincia = provincia;
+	}
+	
 	/**
 	 * Metodo de set latidud modificado para que funcione con la libreria de JSon jackson.
 	 * @param latitud
@@ -76,14 +93,6 @@ public class Municipios implements java.io.Serializable {
 		{
 			this.longitud = null;
 		}
-	}
-	
-	public String getProvincia() {
-		return provincia;
-	}
-
-	public void setProvincia(String provincia) {
-		this.provincia = provincia;
 	}
 
 	public Provincias getProvincias() {
@@ -149,7 +158,7 @@ public class Municipios implements java.io.Serializable {
 	public void setEntornosmunis(Set entornosmunis) {
 		this.entornosmunis = entornosmunis;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Municipios [id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + ", latitud=" + latitud

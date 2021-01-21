@@ -74,7 +74,7 @@ public class Controlador_Registro implements MouseListener {
 				
 				try {
 					Usuario usuario = new Usuario();
-					usuario.setUsuario(this.ventanaRegistro.getNombre().getText());
+					usuario.setNombre(this.ventanaRegistro.getNombre().getText());
 					usuario.setContrasena(this.ventanaRegistro.getContrasena().getText());
 					usuario.setPregunta(this.ventanaRegistro.getTextFieldPregunta().getText());
 					usuario.setRespuesta(this.ventanaRegistro.getTextFieldRespuesta().getText());
