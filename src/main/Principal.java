@@ -34,16 +34,7 @@ public class Principal {
 	{
 		Login cliente = new Login();
 		cliente.getFrame().setVisible(true);
-		SessionFactory sesion = modelo.HibernateUtil.getSessionFactory();
-		Session session = sesion.openSession();
-		Set set = new HashSet(0);
-		Provincias provincia = new Provincias("Inicio"); 
-		Municipios municipio = new Municipios(provincia,"Inicio", "Inicio",(double) 1,(double) 1, "1", set, set);
-		
-		try{
-			InsertarBorrar.insertar(provincia, sesion, session);
-			InsertarBorrar.insertar(municipio, sesion, session);
-		}catch(Exception a){a.printStackTrace();}
+
 		try {
 			@SuppressWarnings("resource")
 			Socket socket = new Socket("127.0.0.1",44444);

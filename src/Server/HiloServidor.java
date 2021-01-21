@@ -52,12 +52,13 @@ public class HiloServidor extends Thread {
 
 	public void run() {
 
+		Usuario usuario = new Usuario();
+
 		while (true) {
 
 			try {
 
-				Usuario usuario = new Usuario();
-
+			
 				ventana = (int) oentrada.readObject();
 
 				switch (ventana) {
@@ -140,7 +141,7 @@ public class HiloServidor extends Thread {
 				break;	
 				
 				case 501:
-					
+					System.out.println("peticion 501");
 					recibirArrayMunicipios(nombreArray[0]);	
 					
 				break;
@@ -175,6 +176,7 @@ public class HiloServidor extends Thread {
 		
 		
 	}
+	@SuppressWarnings("unchecked")
 	private ArrayList<Municipios> recibirArrayMunicipios(String nombre) {
 		ArrayList<Municipios> arrayMunicipio = null;
 		
@@ -183,15 +185,25 @@ public class HiloServidor extends Thread {
 		sesion = modelo.HibernateUtil.getSessionFactory();
 		session = sesion.openSession();	
 		tx = session.beginTransaction();
-		
+		System.out.println("nombre");
 		if(!nombre.equals("nada")) {
-		hql = "from Municipios where Provincia = (Select Id from Provincias where nombre='"+nombre+"'";
+			
+		hql = "from Municipios where Provincia = (Select id from Provincias where nombre='"+nombre+"')";
 		}else {
 		hql = "from Municipios";	
 		}
 		q = session.createQuery(hql);
 		
+		System.out.println("he salido de la query");
+		
 		arrayMunicipio = (ArrayList<Municipios>) q.list();
+		
+		
+		for(int i=0; i<arrayMunicipio.size();i++) {
+			
+			System.out.println(arrayMunicipio.get(i).getNombre());
+			
+		}
 		
 		osalida.writeObject(arrayMunicipio);
 		
