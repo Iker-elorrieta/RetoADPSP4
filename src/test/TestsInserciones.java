@@ -65,10 +65,9 @@ public class TestsInserciones {
 	
 	@org.junit.Test
 	public void testInsercionProvincia(){
-		provincia.setEstacioneses(set);
 		provincia.setMunicipioses(set);
 		provincia.setNombre("prueba");
-		provincia = new Provincias(nombrePruebas, set,set);
+		provincia = new Provincias(nombrePruebas, set);
 		provincia = new Provincias(nombrePruebas);
 		assertEquals(true, InsertarBorrar.insertar(provincia, sesion, session));
 		InsertarBorrar.borrar(provincia, sesion, session);
@@ -111,7 +110,7 @@ public class TestsInserciones {
     public void testInsercionHorarios() {
 		provincia = new Provincias(nombrePruebas);
 		municipio = new Municipios(provincia, nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
-		estacion = new Estaciones(municipio, provincia, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
+		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
 		InsertarBorrar.insertar(provincia, sesion, session);
 		InsertarBorrar.insertar(municipio, sesion, session);
@@ -194,7 +193,7 @@ public class TestsInserciones {
 		municipio = new Municipios(provincia, nombrePruebas, nombrePruebas, valor, valor, "1", set, set);
 		InsertarBorrar.insertar(provincia, sesion, session);
 		InsertarBorrar.insertar(municipio, sesion, session);
-		estacion = new Estaciones(municipio, provincia, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
+		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		InsertarBorrar.insertar(estacion, sesion, session);
 		informe = new Informes(estacion, nombrePruebas);
 		informe = new Informes(estacion, nombrePruebas, nombrePruebas, set);
@@ -216,8 +215,8 @@ public class TestsInserciones {
 		estacion.setLongitud(valorString);
 		estacion.setMunicipio("algo");
 		estacion.getMunicipio();
-		estacion = new Estaciones(municipio, provincia, nombrePruebas, nombrePruebas);
-		estacion = new Estaciones(municipio, provincia, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
+		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas);
+		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
 		assertEquals(true, InsertarBorrar.insertar(estacion, sesion, session));
 		InsertarBorrar.borrar(municipio, sesion, session);
 		InsertarBorrar.borrar(provincia, sesion, session);
@@ -229,7 +228,7 @@ public class TestsInserciones {
 	public void testInsercionUsuario() {
 		Usuario user = new Usuario();
 		
-		user.setUsuario(nombrePruebas);
+		user.setNombre(nombrePruebas);
 		user.setContrasena(contrasena);
 		
 		user = new Usuario(nombrePruebas,email,contrasena, contrasena);

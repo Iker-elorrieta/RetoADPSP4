@@ -26,16 +26,14 @@ public class InsertarBorrar {
 		// Insertar nuevo objeto
 
 		try {
-		session.save(object);
-		
-		
+			session.save(object);
 			tx.commit();
 		} catch (Exception e) {
-			e.printStackTrace();
+//			e.printStackTrace();
 			return false;
 		}
 		
-		System.out.println("Objeto insertado");
+//		System.out.println("Objeto insertado");
 		
 		return true;
 	}

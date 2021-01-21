@@ -77,7 +77,7 @@ public class Controlador_Login implements MouseListener {
 				// Si los campos están rellenados se crea un objeto Usuario con ellos
 				
 				Usuario nuevo = new Usuario();
-				nuevo.setUsuario(ventanaLogin.getNombre().getText());
+				nuevo.setNombre(ventanaLogin.getNombre().getText());
 				nuevo.setContrasena(ventanaLogin.getContrasena().getText());
 				try {
 					
