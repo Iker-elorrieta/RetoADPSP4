@@ -1,5 +1,7 @@
 package Server;
 
+import static org.junit.Assert.assertEquals;
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -11,6 +13,18 @@ import javax.swing.JLabel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import modelo.Entornos;
+import modelo.Estaciones;
+import modelo.Informes;
+import modelo.Json;
+import modelo.Municipios;
+
 /**
  * Esta es la clase que accepta conexiones de los clientes
  * siendo limitado a 870 conexiones
@@ -18,7 +32,7 @@ import javax.swing.JTextField;
  * @author Grupo 4
  *
  */
-public class Servidor extends Thread {
+public class ServidorPeticiones extends Thread {
 
 	ArrayList<ObjectOutputStream> lista;
 	int PUERTO = 44444;
@@ -36,7 +50,7 @@ public class Servidor extends Thread {
 	 * @param texto
 	 * @param hora
 	 */
-	public Servidor(JTextArea textArea, JTextField texto,JLabel hora) {
+	public ServidorPeticiones(JTextArea textArea, JTextField texto,JLabel hora) {
 		lista = new ArrayList<ObjectOutputStream>();
 		this.texto = texto;
 		this.textArea = textArea;
@@ -53,6 +67,20 @@ public class Servidor extends Thread {
 			@SuppressWarnings("resource")
 			Socket socket = new Socket();
 			texto.setText("Conexiones actuales: "+ lista.size());
+			
+			SessionFactory sesion = modelo.HibernateUtil.getSessionFactory();
+			Session session = sesion.openSession();
+			
+			String hql = "from Provincias";
+			Query q = session.createQuery(hql);
+			
+			if(!(q.list().size() > 1) || q == null)
+			{
+				Json json = new Json();
+				ArrayList<Object> listaJson = json.cargarJsons();
+				json.cargarTodosLosDatos((ArrayList<Informes>) listaJson.get(0),(ObjectMapper) listaJson.get(1),(Municipios[]) listaJson.get(2),(Entornos[]) listaJson.get(3),(Estaciones[]) listaJson.get(4), (Informes[]) listaJson.get(5), sesion, session);
+			}
+			
 			while (continuar) {
 				socket = servidor.accept();
 				if (lista.size() < MAXIMO_CONEXIONES) {

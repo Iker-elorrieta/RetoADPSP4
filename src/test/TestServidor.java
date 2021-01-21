@@ -21,12 +21,12 @@ import org.hibernate.SessionFactory;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Order;
 
-import Server.Servidor;
-import Server.VentanaServidor;
+import Server.ServidorPeticiones;
 import modelo.InsertarBorrar;
 import modelo.Json;
 import controlador.Controlador_Login;
 import controlador.Controlador_Registro;
+import main.Servidor;
 import modelo.Entornos;
 import modelo.Entornosmuni;
 import modelo.EntornosmuniId;
@@ -60,7 +60,7 @@ public class TestServidor {
 	private Logeado logeado = new Logeado();						@SuppressWarnings("unused")
 	private Controlador_Login controladorLogin;						@SuppressWarnings("unused")
 	private Controlador_Registro controladorRegistro;
-	Servidor server = new Servidor(new JTextArea(), new JTextField(), new JLabel());
+	ServidorPeticiones server = new ServidorPeticiones(new JTextArea(), new JTextField(), new JLabel());
 	SessionFactory sesion = HibernateUtil.getSessionFactory();
 	Session session = sesion.openSession();
 	
@@ -112,11 +112,13 @@ public class TestServidor {
 				MouseEvent e = new MouseEvent(login.getBotonRegistrar(), 0, 0, 0, 0, 0, 0, false);
 				login = new Login();
 				controladorLogin = new Controlador_Login(login, entrada, salida);
+				controladorLogin.setTipo("prueba");
 				e.getComponent().setName("registrar");
 				controladorLogin.mousePressed(e);
 				e.getComponent().setName("volver");
 				controladorRegistro = new Controlador_Registro(registrar, entrada, salida);
 				controladorRegistro.mousePressed(e);
+				controladorRegistro.setTipo("prueba");
 				e.getComponent().setName("entrar");
 				login.getNombre().setText("test");
 				login.getContrasena().setText("no");
@@ -145,6 +147,7 @@ public class TestServidor {
 				registrar.getNombre().setText(nombrePruebas);
 				registrar.getContrasena().setText(nombrePruebas);
 				controladorRegistro = new Controlador_Registro(registrar, entrada, salida);
+				controladorRegistro.setTipo("prueba");
 				MouseEvent e = new MouseEvent(registrar.getBotonAcceptar(), 0, 0, 0, 0, 0, 0, false);
 				e.getComponent().setName("registrar");
 				controladorRegistro.mouseClicked(e);
@@ -165,7 +168,7 @@ public class TestServidor {
 	@org.junit.Test
 	public void d() // Test Servidor Ventana
 	{
-		VentanaServidor frame = new VentanaServidor();
+		Servidor frame = new Servidor();
 		Socket socket;
 		try {
 			socket = new Socket("127.0.0.1",44444);
@@ -177,7 +180,6 @@ public class TestServidor {
 			a.setSource(frame.getBotonSalir());
 			frame.actionPerformed(a);
 		} catch (Exception a) {
-			a.printStackTrace();
 		}
 		assertEquals(true,frame.prueba());
 	}

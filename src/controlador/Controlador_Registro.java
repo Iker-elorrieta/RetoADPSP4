@@ -15,6 +15,7 @@ public class Controlador_Registro implements MouseListener {
 	private ObjectInputStream entrada;
 	private ObjectOutputStream salida;
 	private boolean prueba = false;
+	private String tipo = "normal";
 	
 	/**
 	 * {@summary Constructor de la clase que da inicio al controlador }
@@ -79,15 +80,15 @@ public class Controlador_Registro implements MouseListener {
 				if (respuesta.equals("bien")){
 					
 //					Si la respuesta es bien significa que el registro se ha realizado correctamente. Se informa de ello al usuario
-					
-					JOptionPane.showMessageDialog(null,"Registro realizado", "Información", JOptionPane.INFORMATION_MESSAGE);
+					if(tipo.equals("normal"))
+						JOptionPane.showMessageDialog(null,"Registro realizado", "Información", JOptionPane.INFORMATION_MESSAGE);
 					prueba = true;
 					
 				} else if (respuesta.equals("mal")) {
 					
 //					Si la respuesta es mal significa que el registro no se ha realizado. Se informa de ello al usuario
-					
-					JOptionPane.showMessageDialog(null,"Ocurrió algún error. Registro no realizado", "Información", JOptionPane.ERROR_MESSAGE);
+					if(tipo.equals("normal"))
+						JOptionPane.showMessageDialog(null,"Ocurrió algún error. Registro no realizado", "Información", JOptionPane.ERROR_MESSAGE);
 					prueba = true;
 				}
 				
@@ -109,6 +110,10 @@ public class Controlador_Registro implements MouseListener {
 			break;
 		}
 		
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
 	}
 
 	@Override

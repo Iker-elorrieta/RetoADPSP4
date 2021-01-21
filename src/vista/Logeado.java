@@ -33,8 +33,7 @@ public class Logeado {
 		frame.setBounds(100, 100, 700, 525);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setLocationRelativeTo(null);
-		frame.getContentPane().setLayout(null);	
-	
+		frame.getContentPane().setLayout(null);
 	}
 	
 	/**

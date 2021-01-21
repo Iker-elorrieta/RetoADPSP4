@@ -18,7 +18,7 @@ public class TestControladorLogeado {
 	@org.junit.Test
 	public void test() {
 		Logeado ventana = new Logeado();
-		//controlador = new ControladorLogeado(ventana, usuario);
+		controlador = new ControladorLogeado(ventana, usuario);
 		assertEquals(true, ControladorLogeado.booleanTest = true);
 	}
 

@@ -1,4 +1,4 @@
-package Server;
+package main;
 
 import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
@@ -10,6 +10,9 @@ import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+
+import Server.ServidorPeticiones;
+
 import javax.swing.JLabel;
 
 
@@ -18,7 +21,7 @@ import javax.swing.JLabel;
  * @author Grupo 4
  *
  */
-public class VentanaServidor extends JFrame implements ActionListener {
+public class Servidor extends JFrame implements ActionListener {
 	/**
 	 * 
 	 */
@@ -30,7 +33,7 @@ public class VentanaServidor extends JFrame implements ActionListener {
 	static JTextArea textarea1;
 	JButton botonEnviar = new JButton("Enviar");
 	JButton botonSalir = new JButton("Salir");
-	Servidor s = null;
+	ServidorPeticiones s = null;
 	JLabel labelHora= null;
 	boolean prueba = false; 
 
@@ -41,7 +44,7 @@ public class VentanaServidor extends JFrame implements ActionListener {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					VentanaServidor frame = new VentanaServidor();
+					Servidor frame = new Servidor();
 					frame.setBounds(0, 0, 500, 450);
 					frame.setVisible(true);
 				} catch (Exception e) {
@@ -54,7 +57,7 @@ public class VentanaServidor extends JFrame implements ActionListener {
 	/**
 	 * Create the frame.
 	 */
-	public VentanaServidor() {
+	public Servidor() {
 		super(" VENTANA SERVIDOR ");
 		setTitle("Servidor ");
 		getContentPane().setLayout(null);
@@ -79,7 +82,7 @@ public class VentanaServidor extends JFrame implements ActionListener {
 		getContentPane().add(labelHora);
 		
 		textarea1.setEditable(false);				
-		s = new Servidor(textarea1,mensaje,labelHora);	
+		s = new ServidorPeticiones(textarea1,mensaje,labelHora);	
 		s.start();
 	}
 

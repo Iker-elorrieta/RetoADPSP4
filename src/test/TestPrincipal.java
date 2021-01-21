@@ -12,7 +12,7 @@ import javax.swing.JTextField;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
-import Server.Servidor;
+import Server.ServidorPeticiones;
 import modelo.InsertarBorrar;
 import modelo.Json;
 import controlador.Controlador_Login;
@@ -52,7 +52,7 @@ public class TestPrincipal {
 	private Controlador_Registro controladorRegistro;
 	SessionFactory sesion = HibernateUtil.getSessionFactory();
 	Session session = sesion.openSession();
-	Servidor server = new Servidor(new JTextArea(), new JTextField(), new JLabel());
+	ServidorPeticiones server = new ServidorPeticiones(new JTextArea(), new JTextField(), new JLabel());
 
 	//Valores de prueba
 	String nombrePruebas = "prueba";

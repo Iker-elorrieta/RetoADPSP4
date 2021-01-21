@@ -17,6 +17,7 @@ public class Controlador_Login implements MouseListener {
 	private ObjectOutputStream salida;
 	private ObjectInputStream entrada;
 	private boolean booleanPrueba = false;
+	private String tipo = "normal";
 	
 	/**
 	 * {@summary Constructor de la clase que da inicio al controlador}
@@ -88,8 +89,8 @@ public class Controlador_Login implements MouseListener {
 				if (nuevo != null) {
 					
 					// Si el usuario recibido no es nulo significa que los datos eran correctos. Se informa de ello al usuario y se da paso a la siguiente ventana
-					
-					JOptionPane.showMessageDialog(this.ventanaLogin.getFrame(),"Ha iniciado sesión", "Información", JOptionPane.INFORMATION_MESSAGE);
+					if(tipo.equals("normal"))
+						JOptionPane.showMessageDialog(this.ventanaLogin.getFrame(),"Ha iniciado sesión", "Información", JOptionPane.INFORMATION_MESSAGE);
 					Logeado ventanaLogeado = new Logeado();
 					@SuppressWarnings("unused")
 					ControladorLogeado controladorLogeado = new ControladorLogeado(ventanaLogeado, nuevo);
@@ -97,8 +98,8 @@ public class Controlador_Login implements MouseListener {
 				} else {
 					
 					// Si el usuario recibido es nulo significa que los datos enviados no eran correctos. Se informa de ello al usuario
-					
-					JOptionPane.showMessageDialog(null,"Los datos introducidos no son correctos", "Información", JOptionPane.ERROR_MESSAGE);
+					if(tipo.equals("normal"))
+						JOptionPane.showMessageDialog(null,"Los datos introducidos no son correctos", "Información", JOptionPane.ERROR_MESSAGE);
 					
 				}
 				
@@ -122,13 +123,16 @@ public class Controlador_Login implements MouseListener {
 
 			break;
 			
-			
 		default:
 			break;
 		}
 		
 		booleanPrueba = true;
 		
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
 	}
 
 	@Override

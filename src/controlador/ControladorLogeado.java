@@ -39,20 +39,15 @@ public class ControladorLogeado {
 		
 		SessionFactory sesion = modelo.HibernateUtil.getSessionFactory();
 		Session session = sesion.openSession();
-		Transaction tx = session.beginTransaction();
 		
-		String hql = "from Municipios where Nombre = 'Inicio'";
+		String hql = "from Municipios";
 		Query q = session.createQuery(hql);
 		
-		Municipios municipio = (Municipios) q.uniqueResult();
+		Municipios municipio = (Municipios) q.list().get(0);
 		
 		this.ventanaLogeado.getFrame().setVisible(true);
-		String contenido = "Municipio de prueba: " + municipio.toString();
-		this.ventanaLogeado.getlabelHola().setText("Municipio de prueba: " + municipio.toString());
+		this.ventanaLogeado.getlabelHola().setText("Municipio de prueba: " + municipio.getNombre());
 		this.ventanaLogeado.getlabelCorreo().setText("");
-		
-		
-		
 	}
 
 }

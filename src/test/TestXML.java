@@ -2,7 +2,7 @@ package test;
 
 import static org.junit.Assert.*;
 
-import main.Xml;
+import modelo.Xml;
 
 /**
  * Clase para comprobar la clase xml funciona correctamente.
