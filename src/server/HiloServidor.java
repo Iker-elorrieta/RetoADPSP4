@@ -1,4 +1,4 @@
-package Server;
+package server;
 
 import java.awt.Color;
 import java.io.IOException;
