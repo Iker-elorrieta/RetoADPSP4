@@ -11,9 +11,11 @@ import java.util.ArrayList;
 
 import javax.swing.table.DefaultTableModel;
 
+import modelo.Estaciones;
 import modelo.Municipios;
 import modelo.Usuario;
 import vista.Logeado;
+import vista.VentanaEstaciones;
 
 public class ControladorLogeado implements MouseListener {
 
@@ -161,10 +163,29 @@ public class ControladorLogeado implements MouseListener {
 		// TODO Auto-generated method stub
 		switch (e.getComponent().getName()) {
 
-		case "row":	
+		case "row":
+			
+			int colum= ventanaLogeado.getTable().columnAtPoint(e.getPoint());
+			
 			int row =  ventanaLogeado.getTable().rowAtPoint(e.getPoint());
 	
-			ventanaLogeado.getTable().getModel().getValueAt(row, 0);
+			String devuelto =(String) ventanaLogeado.getTable().getModel().getValueAt(row, colum);
+			
+			if(!devuelto.equals("")) {
+				try {
+				salida.writeObject(404);
+				salida.writeObject(devuelto);
+				ArrayList<Estaciones> araE;
+				araE = (ArrayList<Estaciones>) entrada.readObject();
+
+				VentanaEstaciones VE = new VentanaEstaciones();
+				ControladorEstaciones ce = new ControladorEstaciones(VE,usuario,entrada,salida,araE);
+				VE.setVisible(true);
+				} catch (Exception e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				} 
+			}
 			
 			
 			

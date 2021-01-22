@@ -1,5 +1,6 @@
 package Server;
 
+import java.awt.Color;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -14,6 +15,8 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
 import comunes.CrearHash;
+import modelo.Estaciones;
+import modelo.Horario;
 import modelo.Municipios;
 import modelo.Usuario;
 
@@ -24,21 +27,25 @@ public class HiloServidor extends Thread {
 	ObjectOutputStream osalida = null;
 	ObjectInputStream oentrada = null;
 	ArrayList<ObjectOutputStream> lista = null;
-	final String[] nombreArray = {"bizkaia","araba/álava","gipuzkoa","nada"};
-	int ventana; 
-	// 1-Login 
-	//2-Registro 
-	// 3 - RestaurarContraseña enviar usuario 
+	final String[] nombreArray = { "bizkaia", "araba/álava", "gipuzkoa", "nada" };
+	int ventana;
+	// 1-Login
+	// 2-Registro
+	// 3 - RestaurarContraseña enviar usuario
 	// 4 - RestaurarContraseña enviar nueva contraseña
-	//apartir de 500 son consulas SQL
-	//501 arrayList Bizkaia
-	//502 arraylist Araba
-	//503 arrayList Gipuzkoa
+	// apartir de 500 son consulas SQL
+	// 501 arrayList Bizkaia
+	// 502 arraylist Araba
+	// 503 arrayList Gipuzkoa
 	Transaction tx;
 	SessionFactory sesion;
 	Session session;
 	String hql;
 	Query q;
+	Boolean desconexion = false;
+	ArrayList<Estaciones> araE;
+	ArrayList<Horario> arah;
+	
 
 	public HiloServidor(JTextArea textArea, JTextField texto, ObjectOutputStream osalida, ObjectInputStream oentrada,
 			ArrayList<ObjectOutputStream> lista) {
@@ -50,11 +57,12 @@ public class HiloServidor extends Thread {
 
 	}
 
+	@SuppressWarnings("unchecked")
 	public void run() {
 
 		Usuario usuario = new Usuario();
 
-		while (true) {
+		while (!desconexion) {
 
 			try {
 
@@ -73,7 +81,7 @@ public class HiloServidor extends Thread {
 					usuario = (Usuario) oentrada.readObject();
 					usuario.setContrasena(comunes.CrearHash.crearHash(usuario.getContrasena()));
 					tx = session.beginTransaction();		
-					hql = "from Usuario where usuario = '" + usuario.getNombre() + "' and contrasena = '" + usuario.getContrasena() + "'";
+					hql = "from Usuario where nombre = '" + usuario.getNombre() + "' and contrasena = '" + usuario.getContrasena() + "'";
 					q = session.createQuery(hql);
 					
 					usuario = (Usuario) q.uniqueResult();
@@ -111,7 +119,7 @@ public class HiloServidor extends Thread {
 					sesion = modelo.HibernateUtil.getSessionFactory();
 					session = sesion.openSession();	
 					tx = session.beginTransaction();	
-					hql = "from Usuario where usuario = '" + nombreUsuario + "'";
+					hql = "from Usuario where nombre = '" + nombreUsuario + "'";
 					q = session.createQuery(hql);
 					
 					usuario = (Usuario) q.uniqueResult();
@@ -135,13 +143,41 @@ public class HiloServidor extends Thread {
 					
 					break;
 					
+					
+				case 404:
+					
+					String devuelto = (String) oentrada.readObject();
+					 araE = new ArrayList<Estaciones>();
+					try	{
+					tx = null;	
+					sesion = modelo.HibernateUtil.getSessionFactory();
+					session = sesion.openSession();	
+					tx = session.beginTransaction();
+					System.out.println("pre");
+					hql = "from Estaciones where municipios.nombre='"+devuelto+"'";
+					System.out.println("pos");
+					q = session.createQuery(hql);
+					
+					System.out.println("he salido de la query");
+					
+					araE = (ArrayList<Estaciones>) q.list();
+					
+					System.out.println("Aray en hilo"+araE.size());
+			
+					osalida.writeObject(araE);
+					}catch(Exception e2) {
+						e2.printStackTrace();
+					}
+					
+				break;
+					
 				case 5:		
 					recibirArrayMunicipios(nombreArray[3]);	
 					
 				break;	
 				
 				case 501:
-					System.out.println("peticion 501");
+					
 					recibirArrayMunicipios(nombreArray[0]);	
 					
 				break;
@@ -159,14 +195,46 @@ public class HiloServidor extends Thread {
 					recibirArrayMunicipios(nombreArray[2]);		
 					
 				break;
+				
+		
+
+				case 6:
+					
+					int str = (Integer) oentrada.readObject();
+					
+					tx = null;	
+					sesion = modelo.HibernateUtil.getSessionFactory();
+					session = sesion.openSession();	
+					tx = session.beginTransaction();
+					
+					hql = "from Horario where informes in (from Informes where estaciones in (from Estaciones where id="+str+"))";
+				
+					q = session.createQuery(hql);
+					
+					System.out.println("he salido de la query");
+					
+					arah = (ArrayList<Horario>) q.list();
 					
 					
+			
+					osalida.writeObject(arah);
+					
+				break;
+				
+				
+				default:
+			
+					desconexion = true;
+				
+				break;
+				
+				
 				}	
 		
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-//				e.printStackTrace();
+				e.printStackTrace();
 			}
 
 		}
@@ -176,43 +244,45 @@ public class HiloServidor extends Thread {
 		
 		
 	}
-	@SuppressWarnings("unchecked")
+
+	@SuppressWarnings({ "unchecked", "null" })
 	private ArrayList<Municipios> recibirArrayMunicipios(String nombre) {
 		ArrayList<Municipios> arrayMunicipio = null;
-		
+
 		try {
-		tx = null;	
-		sesion = modelo.HibernateUtil.getSessionFactory();
-		session = sesion.openSession();	
-		tx = session.beginTransaction();
-		System.out.println("nombre");
-		if(!nombre.equals("nada")) {
-			
-		hql = "from Municipios where Provincia = (Select id from Provincias where nombre='"+nombre+"')";
-		}else {
-		hql = "from Municipios";	
-		}
-		q = session.createQuery(hql);
-		
-		System.out.println("he salido de la query");
-		
-		arrayMunicipio = (ArrayList<Municipios>) q.list();
-		
-		
-		for(int i=0; i<arrayMunicipio.size();i++) {
-			
-			System.out.println(arrayMunicipio.get(i).getNombre());
-			
-		}
-		
-		osalida.writeObject(arrayMunicipio);
-		
+			tx = null;
+			sesion = modelo.HibernateUtil.getSessionFactory();
+			session = sesion.openSession();
+			tx = session.beginTransaction();
+			System.out.println("nombre");
+			if (!nombre.equals("nada")) {
+
+				hql = "from Municipios where Provincia = (Select id from Provincias where nombre='" + nombre + "')";
+			} else {
+				hql = "from Municipios";
+			}
+			q = session.createQuery(hql);
+
+			arrayMunicipio = (ArrayList<Municipios>) q.list();
+
+			ArrayList<Municipios> arrayLimpio = new ArrayList<Municipios>();
+
+			for (int i = 0; i < arrayMunicipio.size(); i++) {
+
+				if (arrayMunicipio.get(i).getEstacioneses().size() > 0) {
+					arrayLimpio.add(arrayMunicipio.get(i));
+				}
+
+			}
+
+			osalida.writeObject(arrayLimpio);
+
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}	
-		
+		}
+
 		return arrayMunicipio;
-		
+
 	}
 }
