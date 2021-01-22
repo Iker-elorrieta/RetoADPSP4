@@ -113,7 +113,7 @@ public class Json {
 		try{
 			//Insertartamos todos los municipios
 			for(int i = 0 ; i < listaMunicipios.length ; i++)
-			{
+		{
 				String nombreProvincia;
 				try {
 					nombreProvincia = listaMunicipios[i].getProvincia().substring(0,listaMunicipios[i].getProvincia().indexOf(" "));
@@ -124,24 +124,29 @@ public class Json {
 				String hql1 = "from Provincias where lower(nombre) = '"+nombreProvincia+"'";
 				Query q1 = session.createQuery(hql1);
 				provincia = (Provincias) q1.uniqueResult();
-				
+
 				if (provincia == null){
-					provincia = new Provincias(nombreProvincia);
+					provincia = new Provincias(nombreProvincia); 
 					InsertarBorrar.insertar(provincia,sesion,session);
+					hql1 = "from Provincias where lower(nombre) = '"+nombreProvincia+"'";
+					q1 = session.createQuery(hql1);
+					provincia = (Provincias) q1.uniqueResult();
 					listaMunicipios[i].setProvincias(provincia);
+					InsertarBorrar.insertar(listaMunicipios[i],sesion,session);
+					
+						String[] municipiosRaros = listaMunicipios[i].getNombreentero().split(" ");
+						
+						if(municipiosRaros.length > 1 && !municipiosRaros[0].equals(municipiosRaros[1]))
+							comprobarMunicipios.add(listaMunicipios[i]);
 				}else {
 					listaMunicipios[i].setProvincias(provincia);
+					InsertarBorrar.insertar(listaMunicipios[i],sesion,session);
+
+						String[] municipiosRaros = listaMunicipios[i].getNombreentero().split(" ");
+						
+						if(municipiosRaros.length > 1 && !municipiosRaros[0].equals(municipiosRaros[1]))
+							comprobarMunicipios.add(listaMunicipios[i]);
 				}
-				
-				InsertarBorrar.insertar(listaMunicipios[i],sesion,session);
-				try{
-					String[] municipiosRaros = listaMunicipios[i].getNombreentero().split(" ");
-					
-					if(municipiosRaros.length > 1 && !municipiosRaros[0].equals(municipiosRaros[1]))
-						comprobarMunicipios.add(listaMunicipios[i]);
-				}catch(NullPointerException d){/* En caso de que no se encuentre ningun espacio o que la primera palabra y la segunda coinciden no lo añadimos al arraylist */}
-			
-				
 			}
 			
 			//Insertar espacios naturales
@@ -333,13 +338,26 @@ public class Json {
 	private String readAll(Reader rd, String url) throws IOException {
 		StringBuilder sb = new StringBuilder();
 		int cp;
+		int contadorRepetidos = 1;
 		String result = "";
+		char numeroDescripcion = (char) String.valueOf(contadorRepetidos).charAt(0);
 		while ((cp = rd.read()) != -1) {
 			sb.append((char) cp);
-
+			numeroDescripcion = (char) String.valueOf(contadorRepetidos).charAt(0);
 			result = comprobarHoraDia(sb.toString(),url);
 				if(!result.equals("continuar"))
 					return result.toLowerCase();
+				
+			if(sb.toString().indexOf("turismDescription\"") != -1)
+			{
+				sb.deleteCharAt(sb.length()-1);
+				sb.append((char) numeroDescripcion);
+				sb.append('"');
+				contadorRepetidos++;
+				if(contadorRepetidos == 3)
+					contadorRepetidos = 1;
+				
+			}
 		}
 		
 		/**
@@ -573,7 +591,7 @@ public class Json {
 		else if(tipo.toLowerCase().contains("pueblos.json"))
 		{
 			cadena = cadena.replace("documentName", "Nombre");
-			cadena = cadena.replace("documentDescription", "Descripcion");
+			cadena = cadena.replace("turismDescription1", "Descripcion");
 			cadena = cadena.replace("latwgs84", "Latitud");
 			cadena = cadena.replace("lonwgs84", "Longitud");
 			cadena = cadena.replace("municipalitycode", "Codigo");
@@ -583,7 +601,7 @@ public class Json {
 		else if(tipo.toLowerCase().contains("espacios-naturales.json"))
 		{
 			cadena = cadena.replace("documentName", "Nombre");
-			cadena = cadena.replace("turismDescription", "Descripcion");
+			cadena = cadena.replace("turismDescription1", "Descripcion");
 			cadena = cadena.replace("natureType", "Tipo");
 			cadena = cadena.replace("territory", "Territorio");
 			cadena = cadena.replace("municipality", "municipio");

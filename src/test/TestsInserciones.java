@@ -45,7 +45,7 @@ public class TestsInserciones {
 	private EntornosmuniId entornosmuniId = new EntornosmuniId();
 	private Entornos entorno = new Entornos();						
 	private Municipios municipio = new Municipios();				
-	private Horario horario = new Horario();						
+	private Horario horario = new Horario();
 	private Informes informe = new Informes();						
 	private Estaciones estacion = new Estaciones();					
 	private Entornosmuni entornosmuni = new Entornosmuni();			
@@ -65,9 +65,6 @@ public class TestsInserciones {
 	
 	@org.junit.Test
 	public void testInsercionProvincia(){
-		provincia.setMunicipioses(set);
-		provincia.setNombre("prueba");
-		provincia = new Provincias(nombrePruebas, set);
 		provincia = new Provincias(nombrePruebas);
 		assertEquals(true, InsertarBorrar.insertar(provincia, sesion, session));
 		InsertarBorrar.borrar(provincia, sesion, session);

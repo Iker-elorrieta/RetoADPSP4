@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 20, 2021 at 05:30 AM
+-- Generation Time: Jan 22, 2021 at 03:58 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.1
 
@@ -58,7 +58,6 @@ CREATE TABLE `entornosmuni` (
 CREATE TABLE `estaciones` (
   `Id` int(11) NOT NULL,
   `Nombre` varchar(100) NOT NULL,
-  `Provincia` int(11) NOT NULL,
   `Municipio` int(11) NOT NULL,
   `Direccion` varchar(500) NOT NULL,
   `CoordenadaX` double DEFAULT NULL,
@@ -139,9 +138,11 @@ CREATE TABLE `provincias` (
 --
 
 CREATE TABLE `usuario` (
-  `usuario` varchar(20) NOT NULL,
-  `e-mail` varchar(30) NOT NULL,
-  `contrasena` varchar(30) NOT NULL
+  `Id` int(11) NOT NULL,
+  `Nombre` varchar(20) NOT NULL,
+  `Contrasena` varchar(30) NOT NULL,
+  `Pregunta` varchar(50) NOT NULL,
+  `Respuesta` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -170,8 +171,7 @@ ALTER TABLE `estaciones`
   ADD PRIMARY KEY (`Id`) USING BTREE,
   ADD UNIQUE KEY `Nombre` (`Nombre`),
   ADD KEY `Id` (`Id`),
-  ADD KEY `Municipio` (`Municipio`),
-  ADD KEY `Provincia` (`Provincia`);
+  ADD KEY `Municipio` (`Municipio`);
 
 --
 -- Indexes for table `horario`
@@ -195,7 +195,6 @@ ALTER TABLE `informes`
 ALTER TABLE `municipios`
   ADD PRIMARY KEY (`Id`) USING BTREE,
   ADD UNIQUE KEY `Nombre` (`Nombre`),
-  ADD KEY `Id` (`Id`),
   ADD KEY `Provincia` (`Provincia`);
 
 --
@@ -208,7 +207,7 @@ ALTER TABLE `provincias`
 -- Indexes for table `usuario`
 --
 ALTER TABLE `usuario`
-  ADD PRIMARY KEY (`usuario`);
+  ADD PRIMARY KEY (`Id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -218,37 +217,43 @@ ALTER TABLE `usuario`
 -- AUTO_INCREMENT for table `entornos`
 --
 ALTER TABLE `entornos`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=489;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=877;
 
 --
 -- AUTO_INCREMENT for table `estaciones`
 --
 ALTER TABLE `estaciones`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=215;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=510;
 
 --
 -- AUTO_INCREMENT for table `horario`
 --
 ALTER TABLE `horario`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1949;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6648;
 
 --
 -- AUTO_INCREMENT for table `informes`
 --
 ALTER TABLE `informes`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=292;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=897;
 
 --
 -- AUTO_INCREMENT for table `municipios`
 --
 ALTER TABLE `municipios`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2257;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3548;
 
 --
 -- AUTO_INCREMENT for table `provincias`
 --
 ALTER TABLE `provincias`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=344;
+
+--
+-- AUTO_INCREMENT for table `usuario`
+--
+ALTER TABLE `usuario`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Constraints for dumped tables
@@ -265,8 +270,7 @@ ALTER TABLE `entornosmuni`
 -- Constraints for table `estaciones`
 --
 ALTER TABLE `estaciones`
-  ADD CONSTRAINT `estaciones_ibfk_1` FOREIGN KEY (`Municipio`) REFERENCES `municipios` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `estaciones_ibfk_2` FOREIGN KEY (`Provincia`) REFERENCES `provincias` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `estaciones_ibfk_1` FOREIGN KEY (`Municipio`) REFERENCES `municipios` (`Id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `horario`

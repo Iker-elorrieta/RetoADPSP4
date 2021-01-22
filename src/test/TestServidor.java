@@ -8,6 +8,8 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
+import java.time.Duration;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashSet;
 import java.util.Set;
@@ -21,12 +23,16 @@ import org.hibernate.SessionFactory;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Order;
 
-import Server.Servidor;
-import Server.VentanaServidor;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import comunes.InsertarBorrar;
 import comunes.Json;
+import comunes.Xml;
+import controlador.ControladorLogeado;
 import controlador.Controlador_Login;
 import controlador.Controlador_Registro;
+import main.Principal;
+import main.Servidor;
 import modelo.Entornos;
 import modelo.Entornosmuni;
 import modelo.EntornosmuniId;
@@ -36,6 +42,7 @@ import modelo.Horario;
 import modelo.Informes;
 import modelo.Municipios;
 import modelo.Usuario;
+import server.ServidorPeticiones;
 import vista.Logeado;
 import vista.Login;
 import vista.Registrar;
@@ -60,7 +67,10 @@ public class TestServidor {
 	private Logeado logeado = new Logeado();						@SuppressWarnings("unused")
 	private Controlador_Login controladorLogin;						@SuppressWarnings("unused")
 	private Controlador_Registro controladorRegistro;
-	Servidor server = new Servidor(new JTextArea(), new JTextField(), new JLabel());
+	ControladorLogeado controlador;
+	Usuario usuario = new Usuario();
+	ServidorPeticiones server = new ServidorPeticiones(new JTextArea(), new JTextField(), new JLabel());
+	private Xml xml;
 	SessionFactory sesion = HibernateUtil.getSessionFactory();
 	Session session = sesion.openSession();
 	
@@ -76,8 +86,14 @@ public class TestServidor {
 	//en otras palabras que no haya otro servidor arrancado.
 	
 	@org.junit.Test
-	public void a() // Test servidor
-	{	
+	public void aaaa() { // Prueba de creación de xml
+		xml = new Xml();
+		assertEquals(true, xml.convertirJSONaXML());
+	}
+	
+	@org.junit.Test
+	public void bbbb() // Test servidor
+	{
 		server.start();
 		try {
 			Socket socket = new Socket("127.0.0.1",44444);@SuppressWarnings("unused")
@@ -92,80 +108,98 @@ public class TestServidor {
 			salida.writeObject(nuevo);
 			InsertarBorrar.borrar(nuevo, sesion, session);
 			socket.close();
-		} catch (IOException e) {
-			
-		}
+		} catch (IOException e) {}
 		assertEquals(true,server.prueba());
+	}
+	
+	@SuppressWarnings("static-access")
+	@org.junit.Test
+	public void cccc() { // Prueba del cliente principal
+		Principal main = new Principal();
+		assertEquals(true,main.start());
+	}
+	
+	@org.junit.Test
+	public void dddd() {//Prueba del controlador de logeado
+		try {
+			Logeado ventana = new Logeado();
+			Socket socket = new Socket("127.0.0.1",44444);@SuppressWarnings("unused")
+			ObjectInputStream entrada = new ObjectInputStream(socket.getInputStream()); 
+			ObjectOutputStream salida = new ObjectOutputStream(socket.getOutputStream());
+	
+			controlador = new ControladorLogeado(ventana, usuario, entrada, salida);
+		} catch (IOException e) {}
+		assertEquals(true, ControladorLogeado.booleanTest = true);
 	}
 	
 	//Para hacer esta prueba el servido debe estar en funcionamiento.
 	
-		@org.junit.Test
-		public void b() // Test Controlador Login
-		{
-			ObjectOutputStream salida;
-			ObjectInputStream entrada;
-			try {
-				Socket socket = new Socket("127.0.0.1",44444);
-				entrada = new ObjectInputStream(socket.getInputStream());
-				salida = new ObjectOutputStream(socket.getOutputStream());
-				MouseEvent e = new MouseEvent(login.getBotonRegistrar(), 0, 0, 0, 0, 0, 0, false);
-				login = new Login();
-				controladorLogin = new Controlador_Login(login, entrada, salida);
-				e.getComponent().setName("registrar");
-				controladorLogin.mousePressed(e);
-				e.getComponent().setName("volver");
-				controladorRegistro = new Controlador_Registro(registrar, entrada, salida);
-				controladorRegistro.mousePressed(e);
-				e.getComponent().setName("entrar");
-				login.getNombre().setText("test");
-				login.getContrasena().setText("no");
-				controladorLogin.mousePressed(e);
-				login.getNombre().setText("test");
-				login.getContrasena().setText("test");
-				controladorLogin.mousePressed(e);
-				socket.close();
-			} catch (IOException e) {
-			}
-			assertEquals(true, controladorLogin.isBooleanPrueba());
-			
-		}
+	@org.junit.Test
+	public void eeee() // Test Controlador Login
+	{
+		ObjectOutputStream salida;
+		ObjectInputStream entrada;
+		try {
+			Socket socket = new Socket("127.0.0.1",44444);
+			entrada = new ObjectInputStream(socket.getInputStream());
+			salida = new ObjectOutputStream(socket.getOutputStream());
+			MouseEvent e = new MouseEvent(login.getBotonRegistrar(), 0, 0, 0, 0, 0, 0, false);
+			login = new Login();
+			controladorLogin = new Controlador_Login(login, entrada, salida);
+			controladorLogin.setTipo("prueba");
+			e.getComponent().setName("registrar");
+			controladorLogin.mousePressed(e);
+			e.getComponent().setName("volver");
+			controladorRegistro = new Controlador_Registro(registrar, entrada, salida);
+			controladorRegistro.setTipo("prueba");
+			controladorRegistro.mousePressed(e);
+			e.getComponent().setName("entrar");
+			login.getNombre().setText("test");
+			login.getContrasena().setText("no");
+			controladorLogin.mousePressed(e);
+			login.getNombre().setText("test");
+			login.getContrasena().setText("test");
+			controladorLogin.mousePressed(e);
+			socket.close();
+		} catch (IOException e) {}
+		assertEquals(true, controladorLogin.isBooleanPrueba());
 		
-		//Para hacer esta prueba el servido debe estar en funcionamiento.
+	}
 		
-		@org.junit.Test
-		public void c() // Test Controlador Registro
-		{
-			ObjectOutputStream salida;
-			ObjectInputStream entrada;
-			try {			
-				Socket socket = new Socket("127.0.0.1",44444);
-				entrada = new ObjectInputStream(socket.getInputStream());
-				salida = new ObjectOutputStream(socket.getOutputStream());
-				registrar.getNombre().setText(nombrePruebas);
-				registrar.getContrasena().setText(nombrePruebas);
-				controladorRegistro = new Controlador_Registro(registrar, entrada, salida);
-				MouseEvent e = new MouseEvent(registrar.getBotonAcceptar(), 0, 0, 0, 0, 0, 0, false);
-				e.getComponent().setName("registrar");
-				controladorRegistro.mouseClicked(e);
-				controladorRegistro.mouseClicked(e);
-				e.getComponent().setName("volver");
-				controladorRegistro.mouseClicked(e);
-				Usuario user = new Usuario();
-				user.setNombre(nombrePruebas);
-				user.setContrasena(nombrePruebas);
-				InsertarBorrar.borrar(user, sesion, session);
-				socket.close();
-			} catch (IOException e) {
-				
-			}
-			assertEquals(true,controladorRegistro.iniciarControlador());
-		}
+	//Para hacer esta prueba el servido debe estar en funcionamiento.
+		
+	@org.junit.Test
+	public void ffff() // Test Controlador Registro
+	{
+		ObjectOutputStream salida;
+		ObjectInputStream entrada;
+		try {			
+			Socket socket = new Socket("127.0.0.1",44444);
+			entrada = new ObjectInputStream(socket.getInputStream());
+			salida = new ObjectOutputStream(socket.getOutputStream());
+			registrar.getNombre().setText(nombrePruebas);
+			registrar.getContrasena().setText(nombrePruebas);
+			controladorRegistro = new Controlador_Registro(registrar, entrada, salida);
+			controladorRegistro.setTipo("prueba");
+			MouseEvent e = new MouseEvent(registrar.getBotonAcceptar(), 0, 0, 0, 0, 0, 0, false);
+			e.getComponent().setName("registrar");
+			controladorRegistro.mouseClicked(e);
+			controladorRegistro.mouseClicked(e);
+			e.getComponent().setName("volver");
+			controladorRegistro.mouseClicked(e);
+			Usuario user = new Usuario();
+			user.setNombre(nombrePruebas);
+			user.setContrasena(nombrePruebas);
+			InsertarBorrar.borrar(user, sesion, session);
+			socket.close();
+		} catch (IOException e) {}
+		assertEquals(true,controladorRegistro.iniciarControlador());
+	}
 	
 	@org.junit.Test
-	public void d() // Test Servidor Ventana
+	public void gggg() // Test Servidor Ventana
 	{
-		VentanaServidor frame = new VentanaServidor();
+		Servidor frame = new Servidor();
 		Socket socket;
 		try {
 			socket = new Socket("127.0.0.1",44444);
@@ -176,11 +210,7 @@ public class TestServidor {
 			ActionEvent a = new ActionEvent(frame.getBotonSalir(), 0, nombrePruebas);
 			a.setSource(frame.getBotonSalir());
 			frame.actionPerformed(a);
-		} catch (Exception a) {
-			a.printStackTrace();
-		}
+		} catch (Exception a) {}
 		assertEquals(true,frame.prueba());
 	}
-	
-	
 }

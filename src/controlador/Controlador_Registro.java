@@ -15,6 +15,7 @@ public class Controlador_Registro implements MouseListener {
 	private ObjectInputStream entrada;
 	private ObjectOutputStream salida;
 	private boolean prueba = false;
+	private String tipo = "normal";
 
 	
 	/**
@@ -90,16 +91,16 @@ public class Controlador_Registro implements MouseListener {
 					if (respuesta.equals("bien")) {
 
 						//					Si la respuesta es bien significa que el registro se ha realizado correctamente. Se informa de ello al usuario
-
-						JOptionPane.showMessageDialog(null, "Registro realizado", "Información",
-								JOptionPane.INFORMATION_MESSAGE);
+						if(tipo.equals("normal"))
+							JOptionPane.showMessageDialog(null, "Registro realizado", "Información",
+									JOptionPane.INFORMATION_MESSAGE);
 						prueba = true;
 
 					} else if (respuesta.equals("mal")) {
 
 						//					Si la respuesta es mal significa que el registro no se ha realizado. Se informa de ello al usuario
-
-						JOptionPane.showMessageDialog(null, "Ocurrió algún error. Registro no realizado", "Información",
+						if(tipo.equals("normal"))
+							JOptionPane.showMessageDialog(null, "Ocurrió algún error. Registro no realizado", "Información",
 								JOptionPane.ERROR_MESSAGE);
 						prueba = true;
 					}
@@ -112,41 +113,41 @@ public class Controlador_Registro implements MouseListener {
 				if (this.ventanaRegistro.getNombre().getText().isBlank() || this.ventanaRegistro.getContrasena().getText().isBlank() ||
 						this.ventanaRegistro.getContrasena().getText().isBlank() || this.ventanaRegistro.getRepetirContrasena().getText().isBlank() ||
 						this.ventanaRegistro.getTextFieldPregunta().getText().isBlank() || this.ventanaRegistro.getTextFieldRespuesta().getText().isBlank()) {
-					
-					JOptionPane.showMessageDialog(null, "Debe rellenar todos los campos antes de realizar el registro", "Información", JOptionPane.ERROR_MESSAGE);
+					if(tipo.equals("normal"))
+						JOptionPane.showMessageDialog(null, "Debe rellenar todos los campos antes de realizar el registro", "Información", JOptionPane.ERROR_MESSAGE);
 					
 				}
 				
 				if (this.ventanaRegistro.getNombre().getText().length() > 20) {
-					
-					JOptionPane.showMessageDialog(null, "El nombre no puede tener más de 20 caracteres", "Información", JOptionPane.ERROR_MESSAGE);
+					if(tipo.equals("normal"))
+						JOptionPane.showMessageDialog(null, "El nombre no puede tener más de 20 caracteres", "Información", JOptionPane.ERROR_MESSAGE);
 					
 				}
 				
 				if (this.ventanaRegistro.getContrasena().getText().length() > 30) {
 					
-					
-					JOptionPane.showMessageDialog(null, "La contraseña no puede tener más de 30 caracteres", "Información", JOptionPane.ERROR_MESSAGE);
+					if(tipo.equals("normal"))
+						JOptionPane.showMessageDialog(null, "La contraseña no puede tener más de 30 caracteres", "Información", JOptionPane.ERROR_MESSAGE);
 					
 				}
 				
 				if (this.ventanaRegistro.getTextFieldPregunta().getText().length() > 50) {
 					
-					
-					JOptionPane.showMessageDialog(null, "La pregunta no puede tener más de 50 caracteres", "Información", JOptionPane.ERROR_MESSAGE);
+					if(tipo.equals("normal"))
+						JOptionPane.showMessageDialog(null, "La pregunta no puede tener más de 50 caracteres", "Información", JOptionPane.ERROR_MESSAGE);
 					
 				}
 				
 				if (this.ventanaRegistro.getTextFieldRespuesta().getText().length() > 50) {
 					
-					
-					JOptionPane.showMessageDialog(null, "La respuesta no puede tener más de 50 caracteres", "Información", JOptionPane.ERROR_MESSAGE);
+					if(tipo.equals("normal"))
+						JOptionPane.showMessageDialog(null, "La respuesta no puede tener más de 50 caracteres", "Información", JOptionPane.ERROR_MESSAGE);
 					
 				}
 				
 				if (!this.ventanaRegistro.getContrasena().getText().equals(this.ventanaRegistro.getRepetirContrasena().getText())) {
-					
-					JOptionPane.showMessageDialog(null, "Las contraseñas no coinciden", "Información", JOptionPane.ERROR_MESSAGE);
+					if(tipo.equals("normal"))
+						JOptionPane.showMessageDialog(null, "Las contraseñas no coinciden", "Información", JOptionPane.ERROR_MESSAGE);
 					
 				}
 						
@@ -190,5 +191,9 @@ public class Controlador_Registro implements MouseListener {
 	public void mouseExited(MouseEvent e) {
 		// TODO Auto-generated method stub
 		
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
 	}
 }

@@ -1,4 +1,4 @@
-package Server;
+package server;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -72,7 +72,7 @@ public class HiloServidor extends Thread {
 					usuario = (Usuario) oentrada.readObject();
 					usuario.setContrasena(comunes.CrearHash.crearHash(usuario.getContrasena()));
 					tx = session.beginTransaction();		
-					hql = "from Usuario where usuario = '" + usuario.getNombre() + "' and contrasena = '" + usuario.getContrasena() + "'";
+					hql = "from Usuario where nombre = '" + usuario.getNombre() + "' and contrasena = '" + usuario.getContrasena() + "'";
 					q = session.createQuery(hql);
 					
 					usuario = (Usuario) q.uniqueResult();
@@ -110,7 +110,7 @@ public class HiloServidor extends Thread {
 					sesion = modelo.HibernateUtil.getSessionFactory();
 					session = sesion.openSession();	
 					tx = session.beginTransaction();	
-					hql = "from Usuario where usuario = '" + nombreUsuario + "'";
+					hql = "from Usuario where nombre = '" + nombreUsuario + "'";
 					q = session.createQuery(hql);
 					
 					usuario = (Usuario) q.uniqueResult();
