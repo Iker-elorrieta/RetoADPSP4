@@ -1,4 +1,4 @@
-package Server;
+package server;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -18,7 +18,7 @@ import javax.swing.JTextField;
  * @author Grupo 4
  *
  */
-public class Servidor extends Thread {
+public class ServidorPeticiones extends Thread {
 
 	ArrayList<ObjectOutputStream> lista;
 	int PUERTO = 44444;
@@ -36,7 +36,7 @@ public class Servidor extends Thread {
 	 * @param texto
 	 * @param hora
 	 */
-	public Servidor(JTextArea textArea, JTextField texto,JLabel hora) {
+	public ServidorPeticiones(JTextArea textArea, JTextField texto,JLabel hora) {
 		lista = new ArrayList<ObjectOutputStream>();
 		this.texto = texto;
 		this.textArea = textArea;

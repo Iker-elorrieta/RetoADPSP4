@@ -18,6 +18,7 @@ public class Controlador_Login implements MouseListener {
 	private ObjectOutputStream salida;
 	private ObjectInputStream entrada;
 	private boolean booleanPrueba = false;
+	private String tipo = "normal";
 	
 	/**
 	 * {@summary Constructor de la clase que da inicio al controlador}
@@ -31,7 +32,7 @@ public class Controlador_Login implements MouseListener {
 		this.ventanaLogin = frame;
 		this.entrada = entrada;
 		this.salida = salida;
-		iniciarControlador();		
+		iniciarControlador();
 		
 	}
 	
@@ -40,7 +41,6 @@ public class Controlador_Login implements MouseListener {
 	 */
 	
 	public void iniciarControlador() {
-		
 		this.ventanaLogin.getFrame().setVisible(true);
 		this.ventanaLogin.getBotonIniciar().addMouseListener(this);
 		this.ventanaLogin.getBotonIniciar().setName("entrar");
@@ -93,8 +93,8 @@ public class Controlador_Login implements MouseListener {
 					if (nuevo != null) {
 						
 						// Si el usuario recibido no es nulo significa que los datos eran correctos. Se informa de ello al usuario y se da paso a la siguiente ventana
-						
-						JOptionPane.showMessageDialog(this.ventanaLogin.getFrame(),"Ha iniciado sesión", "Información", JOptionPane.INFORMATION_MESSAGE);
+						if(tipo.equals("normal"))
+							JOptionPane.showMessageDialog(this.ventanaLogin.getFrame(),"Ha iniciado sesión", "Información", JOptionPane.INFORMATION_MESSAGE);
 						Logeado ventanaLogeado = new Logeado();
 						@SuppressWarnings("unused")
 						ControladorLogeado controladorLogeado = new ControladorLogeado(ventanaLogeado, nuevo, entrada, salida);
@@ -102,8 +102,8 @@ public class Controlador_Login implements MouseListener {
 					} else {
 						
 						// Si el usuario recibido es nulo significa que los datos enviados no eran correctos. Se informa de ello al usuario
-						
-						JOptionPane.showMessageDialog(null,"Los datos introducidos no son correctos", "Información", JOptionPane.ERROR_MESSAGE);
+						if(tipo.equals("normal"))
+							JOptionPane.showMessageDialog(null,"Los datos introducidos no son correctos", "Información", JOptionPane.ERROR_MESSAGE);
 						
 					}
 					
@@ -118,8 +118,8 @@ public class Controlador_Login implements MouseListener {
 			} else {
 				
 				// Si no se han rellenado los campos no se puede iniciar sesión. Se avisa al usuario de ello
-				
-				JOptionPane.showMessageDialog(null,"Debe escribir un nombre y una contraseña para iniciar sesión", "Información", JOptionPane.ERROR_MESSAGE);
+				if(tipo.equals("normal"))
+					JOptionPane.showMessageDialog(null,"Debe escribir un nombre y una contraseña para iniciar sesión", "Información", JOptionPane.ERROR_MESSAGE);
 				
 			}
 			
@@ -168,6 +168,10 @@ public class Controlador_Login implements MouseListener {
 	public void mouseExited(MouseEvent e) {
 		// TODO Auto-generated method stub
 		
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
 	}
 
 	public boolean isBooleanPrueba() {
