@@ -23,6 +23,7 @@ public class VentanaEstaciones extends JFrame {
 	private DefaultTableModel model;
 	private String columnas[] = {"Hora","ICA","NOXGM3","PM10"};
 	private JComboBox comboBox;
+	private boolean comprobacionPrueba = false;
 	
 	public VentanaEstaciones() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -62,6 +63,7 @@ public class VentanaEstaciones extends JFrame {
 		comboBox.setBounds(10, 14, 121, 23);
 		contentPane.add(comboBox);
 		
+		comprobacionPrueba = true;
 	}
 
 	public JTable getTable() {
@@ -96,5 +98,8 @@ public class VentanaEstaciones extends JFrame {
 		this.comboBox = comboBox;
 	}
 	
-	
+	public boolean metodoPrueba()
+	{
+		return comprobacionPrueba;
+	}
 }

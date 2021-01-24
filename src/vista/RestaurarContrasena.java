@@ -23,6 +23,7 @@ public class RestaurarContrasena {
 	private JTextField textFieldRepetirContrasena;
 	private JLabel lblContrasena;
 	private JLabel lblRepetirContrasena;
+	private boolean comprobacionPruebas = false;
 	
 	public RestaurarContrasena() {
 		
@@ -30,7 +31,7 @@ public class RestaurarContrasena {
 		cargarEtiquetas();
 		cargarBotones();
 		cargarCamposTexto();
-		
+		comprobacionPruebas = true;
 	}
 	
 	public void cargarVentana() {
@@ -173,10 +174,6 @@ public class RestaurarContrasena {
 		return btnVolver;
 	}
 
-	public void setBtnVolver(JButton btnVolver) {
-		this.btnVolver = btnVolver;
-	}
-
 	public JLabel getLblIntroduzcaUsuario() {
 		return lblIntroduzcaUsuario;
 	}
@@ -207,6 +204,11 @@ public class RestaurarContrasena {
 
 	public JLabel getLblRepetirContrasena() {
 		return lblRepetirContrasena;
+	}
+	
+	public boolean metodoPrueba()
+	{
+		return comprobacionPruebas;
 	}
 	
 }

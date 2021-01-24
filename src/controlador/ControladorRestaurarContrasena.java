@@ -21,7 +21,8 @@ public class ControladorRestaurarContrasena implements MouseListener {
 	Usuario usuario;
 	Login login;
 	Controlador_Login controladorLogin;
-	
+	private boolean prueba = false;
+	private boolean probando = false;
 	public ControladorRestaurarContrasena(RestaurarContrasena ventana, ObjectInputStream entrada, ObjectOutputStream salida) {
 		
 		this.ventana = ventana;
@@ -58,8 +59,6 @@ public class ControladorRestaurarContrasena implements MouseListener {
 		switch (e.getComponent().getName()) {
 		case "enviarUsuario":
 			
-			
-			
 			if (!this.ventana.getTextFieldUsuario().getText().isBlank()) {
 				try {
 					salida.writeObject(3);
@@ -82,7 +81,7 @@ public class ControladorRestaurarContrasena implements MouseListener {
 						this.ventana.getTextFieldRespuesta().setEnabled(true);
 
 						this.ventana.getLblPregunta().setText(usuario.getPregunta());
-
+						prueba = true;
 					} else {
 
 						JOptionPane.showMessageDialog(null, "El usuario introducido no existe", "Información",
@@ -125,7 +124,7 @@ public class ControladorRestaurarContrasena implements MouseListener {
 					this.ventana.getTextFieldRepetirContrasena().setEnabled(true);
 					this.ventana.getBtnEnviarContrasena().setVisible(true);
 					this.ventana.getBtnEnviarContrasena().setEnabled(true);
-							
+					prueba = true;
 				} else {
 					
 					JOptionPane.showMessageDialog(null, "La respuesta introducida no es correcta", "Información", JOptionPane.ERROR_MESSAGE);
@@ -136,8 +135,6 @@ public class ControladorRestaurarContrasena implements MouseListener {
 				JOptionPane.showMessageDialog(null, "Debe introducir una respuesta para continuar", "Información", JOptionPane.ERROR_MESSAGE);
 				
 			}
-			
-			
 			break;
 			
 		case "volver":
@@ -145,7 +142,7 @@ public class ControladorRestaurarContrasena implements MouseListener {
 			login = new Login();
 			controladorLogin = new Controlador_Login(login, entrada, salida);
 			this.ventana.getFrame().dispose();
-			
+			prueba = true;
 			break;
 			
 		case "enviarContrasena":
@@ -159,12 +156,11 @@ public class ControladorRestaurarContrasena implements MouseListener {
 					salida.writeObject(usuario);
 					salida.writeObject(this.ventana.getTextFieldContrasena().getText());
 					if ((Boolean) entrada.readObject()) {
-						
-						JOptionPane.showMessageDialog(null, "Contraseña actualizada", "Información", JOptionPane.INFORMATION_MESSAGE);
+						if(!probando)
+							JOptionPane.showMessageDialog(null, "Contraseña actualizada", "Información", JOptionPane.INFORMATION_MESSAGE);
 						login = new Login();
 						controladorLogin = new Controlador_Login(login, entrada, salida);
-						
-						
+						prueba = true;
 					}
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
@@ -173,8 +169,6 @@ public class ControladorRestaurarContrasena implements MouseListener {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
-				
-				
 				
 			} else {
 				
@@ -193,33 +187,37 @@ public class ControladorRestaurarContrasena implements MouseListener {
 					JOptionPane.showMessageDialog(null, "La contraseña no puede tener más de 30 caracteres", "Información", JOptionPane.ERROR_MESSAGE);
 					
 				}
-				
 			}
-		
 		break;
 
 		default:
 			break;
 		}
-		
 	}
 
 	@Override
 	public void mouseReleased(MouseEvent e) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
 	public void mouseEntered(MouseEvent e) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
 	public void mouseExited(MouseEvent e) {
 		// TODO Auto-generated method stub
-		
 	}
-
+	
+	public boolean metodoPrueba()
+	{
+		return prueba;
+	}
+	
+	public void Probando()
+	{
+		probando = true;
+	}
+	
 }

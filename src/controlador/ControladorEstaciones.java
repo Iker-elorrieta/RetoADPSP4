@@ -27,7 +27,8 @@ public class ControladorEstaciones implements ActionListener  {
 	private ObjectInputStream entrada;
 	private ObjectOutputStream salida;
 	private ArrayList<Estaciones> araE;
-	public static boolean booleanTest = false;
+	private boolean booleanTest = false;
+	
 	final String na = "No disponible";
 
 	/**
@@ -36,14 +37,12 @@ public class ControladorEstaciones implements ActionListener  {
 	 * @param ventanaLogeado
 	 * @param usuario
 	 */
-
 	public ControladorEstaciones(VentanaEstaciones ventanaEstaciones, Usuario usuario, ObjectInputStream entrada,
-			ObjectOutputStream salida,ArrayList<Estaciones> araE) {
+								ObjectOutputStream salida,ArrayList<Estaciones> araE) {
 		this.ventanaEstaciones = ventanaEstaciones;
 		this.usuario = usuario;
 		this.entrada = entrada;
 		this.salida = salida;
-		booleanTest = true;
 		this.araE = araE;
 		iniciarControlador();
 
@@ -61,14 +60,9 @@ public class ControladorEstaciones implements ActionListener  {
 		this.ventanaEstaciones.getTable().setVisible(true);
 		
 		try {
-			
 			this.ventanaEstaciones.getComboBox().addActionListener(this);
 			this.ventanaEstaciones.getComboBox().setActionCommand("combo");
 		
-			
-		
-		
-
 			DefaultTableModel model = (DefaultTableModel) ventanaEstaciones.getModel();
 			model.setRowCount(0);
 
@@ -85,24 +79,20 @@ public class ControladorEstaciones implements ActionListener  {
 			for (int i = 0; i < arah.size(); i++) {
 				String temp[] = { arah.get(i).getHora(), arah.get(i).getIcaestacion(), arah.get(i).getNoxgm3()+"", arah.get(i).getPm10()+""};
 				ventanaEstaciones.getModel().addRow(temp);
-				
 			}
-
+			booleanTest = true;
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
 	}
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		switch ( e.getActionCommand()) {
-
+		
 		case "combo":
-			
-			
 			try {
 				
 				DefaultTableModel model = (DefaultTableModel) ventanaEstaciones.getModel();
@@ -126,25 +116,20 @@ public class ControladorEstaciones implements ActionListener  {
 					String temp[] = { ah.get(i).getHora(), ah.get(i).getIcaestacion(), ah.get(i).getNoxgm3()+"", ah.get(i).getPm10()+""};
 					
 					ventanaEstaciones.getModel().addRow(temp);
-					
 				}
-				
-				
-				
-				
-				
-				
-				
-				
-				
+				booleanTest = true;
 			} catch (Exception e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 			
-			
 			break;
 		}
+	}
+	
+	public boolean probarClase()
+	{
+		return booleanTest;
 	}
 }
 
