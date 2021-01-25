@@ -201,13 +201,8 @@ public class Controlador_Login implements MouseListener {
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
-
+	//Metodo para hacer la prueba de esta clase
 	public boolean isBooleanPrueba() {
 		return booleanPrueba;
 	}
-
-	public void setBooleanPrueba(boolean booleanPrueba) {
-		this.booleanPrueba = booleanPrueba;
-	}
-
 }

@@ -8,29 +8,21 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashSet;
 import java.util.Set;
 
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.Order;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import comunes.CrearHash;
 import comunes.InsertarBorrar;
 import comunes.Json;
-import comunes.Xml;
 import controlador.ControladorEstaciones;
 import controlador.ControladorLogeado;
 import controlador.ControladorRestaurarContrasena;
@@ -59,19 +51,20 @@ import vista.VentanaEstaciones;
  */
 public class TestServidor {
 																	
-	private Json principal = new Json();							
-	private InsertarBorrar insertado = new InsertarBorrar();		
-	private Entornos entorno = new Entornos();						
-	private Municipios municipio = new Municipios();				
-	private Horario horario = new Horario();						
-	private Informes informe = new Informes();						
-	private Estaciones estacion = new Estaciones();					
-	private Entornosmuni entornosmuni = new Entornosmuni();			
-	private EntornosmuniId entornosmuniId = new EntornosmuniId();	
-	private HibernateUtil hibernate = new HibernateUtil();			
+																					@SuppressWarnings("unused")
+	private Json principal = new Json();											@SuppressWarnings("unused")	
+	private InsertarBorrar insertado = new InsertarBorrar();						@SuppressWarnings("unused")
+	private Entornos entorno = new Entornos();										@SuppressWarnings("unused")
+	private Municipios municipio = new Municipios();								@SuppressWarnings("unused")
+	private Horario horario = new Horario();										@SuppressWarnings("unused")
+	private Informes informe = new Informes();										@SuppressWarnings("unused")
+	private Estaciones estacion = new Estaciones();									@SuppressWarnings("unused")
+	private Entornosmuni entornosmuni = new Entornosmuni();							@SuppressWarnings("unused")
+	private EntornosmuniId entornosmuniId = new EntornosmuniId();					@SuppressWarnings("unused")
+	private HibernateUtil hibernate = new HibernateUtil();							@SuppressWarnings("unused")
+	private Logeado logeado = new Logeado();
 	private Login login = new Login();								
 	private Registrar registrar = new Registrar();					
-	private Logeado logeado = new Logeado();						
 	private RestaurarContrasena restaurar = new RestaurarContrasena();
 	private VentanaEstaciones ventanaEstaciones = new VentanaEstaciones();
 	private Controlador_Login controladorLogin;						
@@ -123,11 +116,12 @@ public class TestServidor {
 		assertEquals(true,main.start());
 	}
 	
+	@SuppressWarnings("resource")
 	@org.junit.Test
 	public void cccc() {//Prueba del controlador de logeado
 		try {
 			Logeado ventana = new Logeado();
-			Socket socket = new Socket("127.0.0.1",44444);@SuppressWarnings("unused")
+			Socket socket = new Socket("127.0.0.1",44444);
 			ObjectInputStream entrada = new ObjectInputStream(socket.getInputStream()); 
 			ObjectOutputStream salida = new ObjectOutputStream(socket.getOutputStream());
 	
@@ -233,6 +227,7 @@ public class TestServidor {
 		assertEquals(true,controladorRestaurar.metodoPrueba());
 	}
 	
+	@SuppressWarnings("unchecked")
 	@org.junit.Test
 	public void gggg() // Test Controlador Registro
 	{

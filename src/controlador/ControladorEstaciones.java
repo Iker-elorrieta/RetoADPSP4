@@ -1,28 +1,20 @@
 package controlador;
 
-import java.awt.Window;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.ComponentEvent;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.io.IOException;
 import java.io.ObjectInputStream;
-import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
-
 import javax.swing.table.DefaultTableModel;
-
 import modelo.Estaciones;
 import modelo.Horario;
-import modelo.Municipios;
 import modelo.Usuario;
 import vista.VentanaEstaciones;
 
 public class ControladorEstaciones implements ActionListener  {
 
 	private VentanaEstaciones ventanaEstaciones;
+	@SuppressWarnings("unused")
 	private Usuario usuario;
 	private ObjectInputStream entrada;
 	private ObjectOutputStream salida;
@@ -52,7 +44,6 @@ public class ControladorEstaciones implements ActionListener  {
 	 * {@summary Método que hace visible el frame de la ventana y que cambia las
 	 * etiquetas en función de los datos del usuario que ha iniciado sesión}
 	 */
-
 	@SuppressWarnings("unchecked")
 	public void iniciarControlador() {
 
@@ -86,7 +77,10 @@ public class ControladorEstaciones implements ActionListener  {
 			e.printStackTrace();
 		}
 	}
-
+	
+	/**
+	 * Metodo para la seleccion de una estacion
+	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
@@ -100,6 +94,7 @@ public class ControladorEstaciones implements ActionListener  {
 				salida.writeObject(6);
 				Integer nbr = araE.get(ventanaEstaciones.getComboBox().getSelectedIndex()).getId();
 				salida.writeObject(nbr);
+				@SuppressWarnings("unchecked")
 				ArrayList<Horario> ah = (ArrayList<Horario>) entrada.readObject();
 				
 				for (int i = 0; i < ah.size(); i++) {
@@ -126,7 +121,9 @@ public class ControladorEstaciones implements ActionListener  {
 			break;
 		}
 	}
-	
+	/**
+	 * Metodo para probar la clase.
+	 */
 	public boolean probarClase()
 	{
 		return booleanTest;

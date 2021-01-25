@@ -1,10 +1,6 @@
 package vista;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.EventQueue;
 import java.awt.Font;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
@@ -16,15 +12,18 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JComboBox;
 
+@SuppressWarnings("serial")
 public class VentanaEstaciones extends JFrame {
 
 	private JPanel contentPane;
 	private JTable table;
 	private DefaultTableModel model;
 	private String columnas[] = {"Hora","ICA","NOXGM3","PM10"};
+	@SuppressWarnings("rawtypes")
 	private JComboBox comboBox;
 	private boolean comprobacionPrueba = false;
 	
+	@SuppressWarnings("rawtypes")
 	public VentanaEstaciones() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 583, 423);
@@ -90,10 +89,12 @@ public class VentanaEstaciones extends JFrame {
 		this.columnas = columnas;
 	}
 
+	@SuppressWarnings("rawtypes")
 	public JComboBox getComboBox() {
 		return comboBox;
 	}
 
+	@SuppressWarnings("rawtypes")
 	public void setComboBox(JComboBox comboBox) {
 		this.comboBox = comboBox;
 	}

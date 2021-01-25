@@ -1,7 +1,5 @@
 package server;
 
-import java.awt.Color;
-import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
@@ -229,7 +227,7 @@ public class HiloServidor extends Thread {
 
 	}
 
-	@SuppressWarnings({ "unchecked", "null" })
+	@SuppressWarnings({ "unchecked"})
 	private ArrayList<Municipios> recibirArrayMunicipios(String nombre) {
 		ArrayList<Municipios> arrayMunicipio = null;
 

@@ -2,7 +2,10 @@ package comunes;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-
+/**
+ * Metodo para crear el hash de cualquier string que recibe.
+ * @author Grupo 4
+ */
 public class CrearHash {
 
 	public static String crearHash (String texto){

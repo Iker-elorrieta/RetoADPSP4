@@ -3,17 +3,7 @@ package main;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
-import java.util.HashSet;
-import java.util.Set;
-
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
-
-import comunes.InsertarBorrar;
 import controlador.Controlador_Login;
-import modelo.Municipios;
-import modelo.Provincias;
 import vista.Login;
 
 /**

@@ -51,7 +51,7 @@ public class ControladorRestaurarContrasena implements MouseListener {
 		// TODO Auto-generated method stub
 		
 	}
-
+	
 	@Override
 	public void mousePressed(MouseEvent e) {
 		// TODO Auto-generated method stub

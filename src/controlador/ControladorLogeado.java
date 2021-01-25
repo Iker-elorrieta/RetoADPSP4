@@ -1,18 +1,14 @@
 package controlador;
 
-import java.awt.Window;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.IOException;
 import java.io.ObjectInputStream;
-import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
-
 import javax.swing.table.DefaultTableModel;
-
 import modelo.Estaciones;
 import modelo.Municipios;
 import modelo.Usuario;
@@ -34,7 +30,6 @@ public class ControladorLogeado implements MouseListener {
 	 * @param ventanaLogeado
 	 * @param usuario
 	 */
-
 	public ControladorLogeado(Logeado ventanaLogeado, Usuario usuario, ObjectInputStream entrada,
 			ObjectOutputStream salida) {
 		this.ventanaLogeado = ventanaLogeado;
@@ -50,28 +45,19 @@ public class ControladorLogeado implements MouseListener {
 	 * {@summary Método que hace visible el frame de la ventana y que cambia las
 	 * etiquetas en función de los datos del usuario que ha iniciado sesión}
 	 */
-
 	@SuppressWarnings("unchecked")
 	public void iniciarControlador() {
 
 		this.ventanaLogeado.getFrame().setVisible(true);
 		this.ventanaLogeado.getTable().setVisible(true);
-
 		this.ventanaLogeado.getBotonBizkaia().setName("Bizkaia");
-
 		this.ventanaLogeado.getBotonBizkaia().addMouseListener(this);
-
 		this.ventanaLogeado.getBotonAraba().setName("Araba");
-
 		this.ventanaLogeado.getBotonAraba().addMouseListener(this);
-
 		this.ventanaLogeado.getBotonGipuzkoa().setName("Gipuzkoa");
-
 		this.ventanaLogeado.getBotonGipuzkoa().addMouseListener(this);
-
 		this.ventanaLogeado.getTable().addMouseListener(this);
 		this.ventanaLogeado.getTable().setName("row");
-
 		this.ventanaLogeado.getFrame().addWindowListener(new WindowAdapter() {
 
 			public void windowClosing(WindowEvent e) {
@@ -105,7 +91,10 @@ public class ControladorLogeado implements MouseListener {
 		}
 
 	}
-
+	
+	/**
+	 * Metodo que carga la lista en base a la provincia seleccionada.
+	 */
 	@SuppressWarnings("unchecked")
 	@Override
 	public void mouseClicked(MouseEvent e) {
@@ -173,6 +162,10 @@ public class ControladorLogeado implements MouseListener {
 
 	}
 
+	/**
+	 * Metodo para sacar los horarios de las estaciónes
+	 */
+	@SuppressWarnings("unchecked")
 	@Override
 	public void mousePressed(MouseEvent e) {
 		// TODO Auto-generated method stub
@@ -194,6 +187,7 @@ public class ControladorLogeado implements MouseListener {
 					araE = (ArrayList<Estaciones>) entrada.readObject();
 
 					VentanaEstaciones VE = new VentanaEstaciones();
+					@SuppressWarnings("unused")
 					ControladorEstaciones ce = new ControladorEstaciones(VE, usuario, entrada, salida, araE);
 					VE.setVisible(true);
 				} catch (Exception e1) {
