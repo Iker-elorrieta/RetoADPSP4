@@ -26,6 +26,8 @@ import modelo.Usuario;
 import vista.Logeado;
 import vista.Login;
 import vista.Registrar;
+import vista.RestaurarContrasena;
+import vista.VentanaEstaciones;
 
 
 /**
@@ -231,6 +233,37 @@ public class TestsInserciones {
 		user = new Usuario(nombrePruebas,email,contrasena, contrasena);
 		assertEquals(true, InsertarBorrar.insertar(user, sesion, session));
 		InsertarBorrar.borrar(user, sesion, session);
+	}
+	
+	//Tests ventanas
+	@org.junit.Test
+	public void testVentanaRestaurar() {
+		RestaurarContrasena ventana = new RestaurarContrasena();
+		ventana.getBtnEnviarContrasena();
+		ventana.getBtnEnviarRespuesta();
+		ventana.getBtnEnviarUsuario();
+		ventana.getBtnVolver();
+		ventana.getFrame();
+		ventana.getLblContrasena();
+		ventana.getLblIntroduzcaUsuario();
+		ventana.getLblPregunta();
+		ventana.getLblRepetirContrasena();
+		ventana.getLblResponda();
+		ventana.getTextFieldContrasena();
+		ventana.getTextFieldRepetirContrasena();
+		ventana.getTextFieldRespuesta();
+		ventana.getTextFieldUsuario();
+		assertEquals(true, ventana.metodoPrueba());
+	}
+	
+	@org.junit.Test
+	public void testVentanaEstaciones() {
+		VentanaEstaciones ventana = new VentanaEstaciones();
+		ventana.setTable(ventana.getTable());
+		ventana.setModel(ventana.getModel());
+		ventana.setColumnas(ventana.getColumnas());
+		ventana.setComboBox(ventana.getComboBox());
+		assertEquals(true, ventana.metodoPrueba());
 	}
 	
     public Date toDate(Calendar calendar)

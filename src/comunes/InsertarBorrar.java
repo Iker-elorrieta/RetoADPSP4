@@ -33,7 +33,7 @@ public class InsertarBorrar {
 			return false;
 		}
 		
-//		System.out.println("Objeto insertado");
+		System.out.println("Objeto insertado");
 		
 		return true;
 	}

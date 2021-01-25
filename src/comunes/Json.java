@@ -51,6 +51,7 @@ public class Json {
 	 */
 	public ArrayList<Object> cargarJsons()
 	{
+		System.out.println("Leyendo jsones...");
 		Entornos[] listaEspaciosNaturales = null;
 		Municipios[] listaMunicipios = null;
 		@SuppressWarnings("unused")

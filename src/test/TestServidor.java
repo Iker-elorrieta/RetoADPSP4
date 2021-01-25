@@ -18,6 +18,8 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.junit.jupiter.api.AfterAll;
@@ -25,10 +27,13 @@ import org.junit.jupiter.api.Order;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import comunes.CrearHash;
 import comunes.InsertarBorrar;
 import comunes.Json;
 import comunes.Xml;
+import controlador.ControladorEstaciones;
 import controlador.ControladorLogeado;
+import controlador.ControladorRestaurarContrasena;
 import controlador.Controlador_Login;
 import controlador.Controlador_Registro;
 import main.Principal;
@@ -46,31 +51,36 @@ import server.ServidorPeticiones;
 import vista.Logeado;
 import vista.Login;
 import vista.Registrar;
+import vista.RestaurarContrasena;
+import vista.VentanaEstaciones;
 
 /**
  * Clase para comprobar que el servidor funciona correctamente.
  */
 public class TestServidor {
-																	@SuppressWarnings("unused")
-	private Json principal = new Json();							@SuppressWarnings("unused")
-	private InsertarBorrar insertado = new InsertarBorrar();		@SuppressWarnings("unused")
-	private Entornos entorno = new Entornos();						@SuppressWarnings("unused")
-	private Municipios municipio = new Municipios();				@SuppressWarnings("unused")
-	private Horario horario = new Horario();						@SuppressWarnings("unused")
-	private Informes informe = new Informes();						@SuppressWarnings("unused")
-	private Estaciones estacion = new Estaciones();					@SuppressWarnings("unused")
-	private Entornosmuni entornosmuni = new Entornosmuni();			@SuppressWarnings("unused")
-	private EntornosmuniId entornosmuniId = new EntornosmuniId();	@SuppressWarnings("unused")
-	private HibernateUtil hibernate = new HibernateUtil();			@SuppressWarnings("unused")	
-	private Login login = new Login();								@SuppressWarnings("unused")
-	private Registrar registrar = new Registrar();					@SuppressWarnings("unused")
-	private Logeado logeado = new Logeado();						@SuppressWarnings("unused")
-	private Controlador_Login controladorLogin;						@SuppressWarnings("unused")
+																	
+	private Json principal = new Json();							
+	private InsertarBorrar insertado = new InsertarBorrar();		
+	private Entornos entorno = new Entornos();						
+	private Municipios municipio = new Municipios();				
+	private Horario horario = new Horario();						
+	private Informes informe = new Informes();						
+	private Estaciones estacion = new Estaciones();					
+	private Entornosmuni entornosmuni = new Entornosmuni();			
+	private EntornosmuniId entornosmuniId = new EntornosmuniId();	
+	private HibernateUtil hibernate = new HibernateUtil();			
+	private Login login = new Login();								
+	private Registrar registrar = new Registrar();					
+	private Logeado logeado = new Logeado();						
+	private RestaurarContrasena restaurar = new RestaurarContrasena();
+	private VentanaEstaciones ventanaEstaciones = new VentanaEstaciones();
+	private Controlador_Login controladorLogin;						
 	private Controlador_Registro controladorRegistro;
+	private ControladorRestaurarContrasena controladorRestaurar;
+	private ControladorEstaciones controladorEstaciones;
 	ControladorLogeado controlador;
 	Usuario usuario = new Usuario();
 	ServidorPeticiones server = new ServidorPeticiones(new JTextArea(), new JTextField(), new JLabel());
-	private Xml xml;
 	SessionFactory sesion = HibernateUtil.getSessionFactory();
 	Session session = sesion.openSession();
 	
@@ -86,13 +96,7 @@ public class TestServidor {
 	//en otras palabras que no haya otro servidor arrancado.
 	
 	@org.junit.Test
-	public void aaaa() { // Prueba de creación de xml
-		xml = new Xml();
-		assertEquals(true, xml.convertirJSONaXML());
-	}
-	
-	@org.junit.Test
-	public void bbbb() // Test servidor
+	public void aaaa() // Test servidor
 	{
 		server.start();
 		try {
@@ -114,13 +118,13 @@ public class TestServidor {
 	
 	@SuppressWarnings("static-access")
 	@org.junit.Test
-	public void cccc() { // Prueba del cliente principal
+	public void bbbb() { // Prueba del cliente principal
 		Principal main = new Principal();
 		assertEquals(true,main.start());
 	}
 	
 	@org.junit.Test
-	public void dddd() {//Prueba del controlador de logeado
+	public void cccc() {//Prueba del controlador de logeado
 		try {
 			Logeado ventana = new Logeado();
 			Socket socket = new Socket("127.0.0.1",44444);@SuppressWarnings("unused")
@@ -131,11 +135,9 @@ public class TestServidor {
 		} catch (IOException e) {}
 		assertEquals(true, ControladorLogeado.booleanTest = true);
 	}
-	
-	//Para hacer esta prueba el servido debe estar en funcionamiento.
-	
+		
 	@org.junit.Test
-	public void eeee() // Test Controlador Login
+	public void dddd() // Test Controlador Login
 	{
 		ObjectOutputStream salida;
 		ObjectInputStream entrada;
@@ -166,10 +168,8 @@ public class TestServidor {
 		
 	}
 		
-	//Para hacer esta prueba el servido debe estar en funcionamiento.
-		
 	@org.junit.Test
-	public void ffff() // Test Controlador Registro
+	public void eeee() // Test Controlador Registro
 	{
 		ObjectOutputStream salida;
 		ObjectInputStream entrada;
@@ -197,7 +197,68 @@ public class TestServidor {
 	}
 	
 	@org.junit.Test
-	public void gggg() // Test Servidor Ventana
+	public void ffff() // Test Controlador recuperar contraseña
+	{
+		ObjectOutputStream salida;
+		ObjectInputStream entrada;
+		try {			
+			Socket socket = new Socket("127.0.0.1",44444);
+			entrada = new ObjectInputStream(socket.getInputStream());
+			salida = new ObjectOutputStream(socket.getOutputStream());
+			controladorRestaurar = new ControladorRestaurarContrasena(restaurar, entrada, salida);
+			controladorRestaurar.Probando();
+			Usuario nuevo = new Usuario("prueba","prueba","prueba?", "prueba!");
+			nuevo.setRespuesta(CrearHash.crearHash(nuevo.getRespuesta()));
+			InsertarBorrar.insertar(nuevo, sesion, session);
+			restaurar.getTextFieldUsuario().setText(nuevo.getNombre());
+			MouseEvent e = new MouseEvent(restaurar.getBtnEnviarUsuario(), 0, 0, 0, 0, 0, 0, false);
+			e.getComponent().setName("enviarUsuario");
+			controladorRestaurar.mousePressed(e);
+			
+			restaurar.getTextFieldRespuesta().setText("prueba!");
+			e.getComponent().setName("enviarRespuesta");
+			controladorRestaurar.mousePressed(e);
+			
+			e.getComponent().setName("volver");
+			controladorRestaurar.mousePressed(e);
+			
+			restaurar.getTextFieldContrasena().setText("Funciona");
+			restaurar.getTextFieldRepetirContrasena().setText("Funciona");
+			e.getComponent().setName("enviarContrasena");
+			controladorRestaurar.mousePressed(e);
+			
+			InsertarBorrar.borrar(nuevo, sesion, session);
+			socket.close();
+		} catch (IOException e) {}
+		assertEquals(true,controladorRestaurar.metodoPrueba());
+	}
+	
+	@org.junit.Test
+	public void gggg() // Test Controlador Registro
+	{
+		ObjectOutputStream salida;
+		ObjectInputStream entrada;
+		try {			
+			Socket socket = new Socket("127.0.0.1",44444);
+			entrada = new ObjectInputStream(socket.getInputStream());
+			salida = new ObjectOutputStream(socket.getOutputStream());
+			Usuario nuevo = new Usuario("prueba","prueba","prueba?", "prueba!");
+			InsertarBorrar.insertar(nuevo, sesion, session);
+			String hql = "from Estaciones where municipios.nombre='bilbao'";
+			Query q = session.createQuery(hql);
+			controladorEstaciones = new ControladorEstaciones(ventanaEstaciones, nuevo, entrada, salida, (ArrayList<Estaciones>) q.list());
+			ActionEvent e = new ActionEvent(ventanaEstaciones.getComboBox(), 0, "combo");
+			ventanaEstaciones.getComboBox().setActionCommand("combo");
+			ventanaEstaciones.getComboBox().setSelectedIndex(2);
+			controladorEstaciones.actionPerformed(e);
+			InsertarBorrar.borrar(nuevo, sesion, session);
+			socket.close();
+		} catch (IOException e) {}
+		assertEquals(true,controladorEstaciones.probarClase());
+	}
+	
+	@org.junit.Test
+	public void hhhh() // Test Servidor Ventana
 	{
 		Servidor frame = new Servidor();
 		Socket socket;
