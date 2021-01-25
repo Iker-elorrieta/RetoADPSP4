@@ -8,6 +8,7 @@ import java.security.NoSuchAlgorithmException;
  */
 public class CrearHash {
 
+	@SuppressWarnings("unused")
 	public static String crearHash (String texto){
 	    Byte [] hash = null;
 	    String resumenAString = "";

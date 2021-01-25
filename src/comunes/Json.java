@@ -15,7 +15,6 @@ import java.security.SecureRandom;
 import java.security.cert.X509Certificate;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.regex.PatternSyntaxException;
 
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
@@ -25,7 +24,6 @@ import javax.net.ssl.X509TrustManager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.exception.ConstraintViolationException;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
@@ -197,6 +195,7 @@ public class Json {
 			//Insertar informes y horarios
 			for(int i = 0 ; i < horariosEstaciones.length ;i++)
 			{
+				@SuppressWarnings("unused")
 				String url = horariosEstaciones[i].getUrl();
 				try{	
 					String hql1 = "from Estaciones where lower(nombre) = '"+horariosEstaciones[i].getNombre()+"'";
