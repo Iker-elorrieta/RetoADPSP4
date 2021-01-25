@@ -53,6 +53,7 @@ public class ServidorPeticiones extends Thread {
 			@SuppressWarnings("resource")
 			Socket socket = new Socket();
 			texto.setText("Conexiones actuales: "+ lista.size());
+			
 			while (continuar) {
 				socket = servidor.accept();
 				if (lista.size() < MAXIMO_CONEXIONES) {

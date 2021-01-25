@@ -3,6 +3,8 @@ package controlador;
 import java.awt.Window;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutput;
@@ -60,16 +62,29 @@ public class ControladorLogeado implements MouseListener {
 		this.ventanaLogeado.getBotonBizkaia().addMouseListener(this);
 
 		this.ventanaLogeado.getBotonAraba().setName("Araba");
-	
+
 		this.ventanaLogeado.getBotonAraba().addMouseListener(this);
 
 		this.ventanaLogeado.getBotonGipuzkoa().setName("Gipuzkoa");
-	
+
 		this.ventanaLogeado.getBotonGipuzkoa().addMouseListener(this);
 
 		this.ventanaLogeado.getTable().addMouseListener(this);
 		this.ventanaLogeado.getTable().setName("row");
-		
+
+		this.ventanaLogeado.getFrame().addWindowListener(new WindowAdapter() {
+
+			public void windowClosing(WindowEvent e) {
+				try {
+					salida.writeObject(999);
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+			}
+
+		});
+
 		try {
 
 			DefaultTableModel model = (DefaultTableModel) ventanaLogeado.getModel();
@@ -164,34 +179,32 @@ public class ControladorLogeado implements MouseListener {
 		switch (e.getComponent().getName()) {
 
 		case "row":
-			
-			int colum= ventanaLogeado.getTable().columnAtPoint(e.getPoint());
-			
-			int row =  ventanaLogeado.getTable().rowAtPoint(e.getPoint());
-	
-			String devuelto =(String) ventanaLogeado.getTable().getModel().getValueAt(row, colum);
-			
-			if(!devuelto.equals("")) {
-				try {
-				salida.writeObject(404);
-				salida.writeObject(devuelto);
-				ArrayList<Estaciones> araE;
-				araE = (ArrayList<Estaciones>) entrada.readObject();
 
-				VentanaEstaciones VE = new VentanaEstaciones();
-				ControladorEstaciones ce = new ControladorEstaciones(VE,usuario,entrada,salida,araE);
-				VE.setVisible(true);
+			int colum = ventanaLogeado.getTable().columnAtPoint(e.getPoint());
+
+			int row = ventanaLogeado.getTable().rowAtPoint(e.getPoint());
+
+			String devuelto = (String) ventanaLogeado.getTable().getModel().getValueAt(row, colum);
+
+			if (!devuelto.equals("")) {
+				try {
+					salida.writeObject(404);
+					salida.writeObject(devuelto);
+					ArrayList<Estaciones> araE;
+					araE = (ArrayList<Estaciones>) entrada.readObject();
+
+					VentanaEstaciones VE = new VentanaEstaciones();
+					ControladorEstaciones ce = new ControladorEstaciones(VE, usuario, entrada, salida, araE);
+					VE.setVisible(true);
 				} catch (Exception e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
-				} 
+				}
 			}
-			
-			
-			
-		break;
+
+			break;
 		}
-		
+
 	}
 
 	@Override
@@ -222,8 +235,5 @@ public class ControladorLogeado implements MouseListener {
 
 		return true;
 	}
-	
 
-	}
-	
-
+}
