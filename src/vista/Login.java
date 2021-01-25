@@ -5,12 +5,13 @@ import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 import javax.swing.JTextField;
 import javax.swing.JButton;
+import javax.swing.JPasswordField;
 
 public class Login {
 
 	private JFrame frame;
 	private JTextField nombre;
-	private JTextField contrasena;
+	private JPasswordField contrasena;
 	private JButton botonIniciar;
 	private JButton botonRegistrar;
 	private JButton botonRestaurar;
@@ -78,7 +79,7 @@ public class Login {
 		nombre.setColumns(10);
 		frame.getContentPane().add(nombre);
 		
-		contrasena = new JTextField();
+		contrasena = new JPasswordField();
 		contrasena.setBounds(133, 236, 194, 40);
 		contrasena.setColumns(10);
 		frame.getContentPane().add(contrasena);
