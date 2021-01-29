@@ -2,10 +2,17 @@
 -- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
+<<<<<<< HEAD
 -- Servidor: 127.0.0.1
 -- Tiempo de generación: 21-01-2021 a las 16:01:10
 -- Versión del servidor: 10.4.16-MariaDB
 -- Versión de PHP: 7.4.12
+=======
+-- Host: 127.0.0.1
+-- Generation Time: Jan 25, 2021 at 02:25 AM
+-- Server version: 10.4.11-MariaDB
+-- PHP Version: 7.4.1
+>>>>>>> refs/heads/Sprint3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -194,7 +201,6 @@ ALTER TABLE `informes`
 ALTER TABLE `municipios`
   ADD PRIMARY KEY (`Id`) USING BTREE,
   ADD UNIQUE KEY `Nombre` (`Nombre`),
-  ADD KEY `Id` (`Id`),
   ADD KEY `Provincia` (`Provincia`);
 
 --
@@ -217,37 +223,51 @@ ALTER TABLE `usuario`
 -- AUTO_INCREMENT de la tabla `entornos`
 --
 ALTER TABLE `entornos`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=489;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `estaciones`
 --
 ALTER TABLE `estaciones`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=215;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `horario`
 --
 ALTER TABLE `horario`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1949;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `informes`
 --
 ALTER TABLE `informes`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=292;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `municipios`
 --
 ALTER TABLE `municipios`
+<<<<<<< HEAD
   MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2258;
+=======
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
+>>>>>>> refs/heads/Sprint3
 
 --
 -- AUTO_INCREMENT de la tabla `provincias`
 --
 ALTER TABLE `provincias`
+<<<<<<< HEAD
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+=======
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `usuario`
+--
+ALTER TABLE `usuario`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT;
+>>>>>>> refs/heads/Sprint3
 
 --
 -- AUTO_INCREMENT de la tabla `usuario`

@@ -1,7 +1,5 @@
 package Server;
 
-import static org.junit.Assert.assertEquals;
-
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -19,10 +17,10 @@ import org.hibernate.SessionFactory;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import comunes.Json;
 import modelo.Entornos;
 import modelo.Estaciones;
 import modelo.Informes;
-import modelo.Json;
 import modelo.Municipios;
 
 /**

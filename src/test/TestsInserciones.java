@@ -9,6 +9,7 @@ import java.util.Set;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
+
 import modelo.InsertarBorrar;
 import modelo.Json;
 import controlador.Controlador_Login;
@@ -28,6 +29,26 @@ import vista.Login;
 import vista.Registrar;
 
 
+
+import controlador.Controlador_Login;
+import controlador.Controlador_Registro;
+import modelo.Entornos;
+import modelo.Entornosmuni;
+import modelo.EntornosmuniId;
+import modelo.Estaciones;
+import modelo.HibernateUtil;
+import modelo.Horario;
+import modelo.Informes;
+import modelo.Municipios;
+import modelo.Provincias;
+import modelo.Usuario;
+import vista.Logeado;
+import vista.Login;
+import vista.Registrar;
+import vista.RestaurarContrasena;
+import vista.VentanaEstaciones;
+
+
 /**
  * Clase para comprobar que el programa inserta objectos correctamente.
  */
@@ -45,7 +66,7 @@ public class TestsInserciones {
 	private EntornosmuniId entornosmuniId = new EntornosmuniId();
 	private Entornos entorno = new Entornos();						
 	private Municipios municipio = new Municipios();				
-	private Horario horario = new Horario();						
+	private Horario horario = new Horario();
 	private Informes informe = new Informes();						
 	private Estaciones estacion = new Estaciones();					
 	private Entornosmuni entornosmuni = new Entornosmuni();			
@@ -65,9 +86,6 @@ public class TestsInserciones {
 	
 	@org.junit.Test
 	public void testInsercionProvincia(){
-		provincia.setMunicipioses(set);
-		provincia.setNombre("prueba");
-		provincia = new Provincias(nombrePruebas, set);
 		provincia = new Provincias(nombrePruebas);
 		assertEquals(true, InsertarBorrar.insertar(provincia, sesion, session));
 		InsertarBorrar.borrar(provincia, sesion, session);
@@ -227,13 +245,44 @@ public class TestsInserciones {
 	@org.junit.Test
 	public void testInsercionUsuario() {
 		Usuario user = new Usuario();
-		user = new Usuario(nombrePruebas,email,contrasena, contrasena);
+		
 		user.setNombre(nombrePruebas);
 		user.setContrasena(contrasena);
 		
-		
+		user = new Usuario(nombrePruebas,email,contrasena, contrasena);
 		assertEquals(true, InsertarBorrar.insertar(user, sesion, session));
 		InsertarBorrar.borrar(user, sesion, session);
+	}
+	
+	//Tests ventanas
+	@org.junit.Test
+	public void testVentanaRestaurar() {
+		RestaurarContrasena ventana = new RestaurarContrasena();
+		ventana.getBtnEnviarContrasena();
+		ventana.getBtnEnviarRespuesta();
+		ventana.getBtnEnviarUsuario();
+		ventana.getBtnVolver();
+		ventana.getFrame();
+		ventana.getLblContrasena();
+		ventana.getLblIntroduzcaUsuario();
+		ventana.getLblPregunta();
+		ventana.getLblRepetirContrasena();
+		ventana.getLblResponda();
+		ventana.getTextFieldContrasena();
+		ventana.getTextFieldRepetirContrasena();
+		ventana.getTextFieldRespuesta();
+		ventana.getTextFieldUsuario();
+		assertEquals(true, ventana.metodoPrueba());
+	}
+	
+	@org.junit.Test
+	public void testVentanaEstaciones() {
+		VentanaEstaciones ventana = new VentanaEstaciones();
+		ventana.setTable(ventana.getTable());
+		ventana.setModel(ventana.getModel());
+		ventana.setColumnas(ventana.getColumnas());
+		ventana.setComboBox(ventana.getComboBox());
+		assertEquals(true, ventana.metodoPrueba());
 	}
 	
     public Date toDate(Calendar calendar)

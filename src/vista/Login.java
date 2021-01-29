@@ -5,14 +5,18 @@ import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 import javax.swing.JTextField;
 import javax.swing.JButton;
+import javax.swing.JPasswordField;
 
 public class Login {
 
 	private JFrame frame;
 	private JTextField nombre;
-	private JTextField contrasena;
+	private JPasswordField contrasena;
 	private JButton botonIniciar;
 	private JButton botonRegistrar;
+
+	private JButton botonRestaurar;
+
 	
 	/**
 	 * {@summary Constructor de la clase. Carga los distintos componentes de la ventana} 
@@ -77,7 +81,7 @@ public class Login {
 		nombre.setColumns(10);
 		frame.getContentPane().add(nombre);
 		
-		contrasena = new JTextField();
+		contrasena = new JPasswordField();
 		contrasena.setBounds(133, 236, 194, 40);
 		contrasena.setColumns(10);
 		frame.getContentPane().add(contrasena);
@@ -99,6 +103,12 @@ public class Login {
 		botonRegistrar.setFocusPainted(false);
 		botonRegistrar.setBounds(386, 204, 194, 40);
 		frame.getContentPane().add(botonRegistrar);
+
+		botonRestaurar = new JButton("Restaurar contraseña");
+		botonRestaurar.setFocusPainted(false);
+		botonRestaurar.setBounds(386, 262, 194, 40);
+		frame.getContentPane().add(botonRestaurar);
+
 			
 	}
 
@@ -120,6 +130,11 @@ public class Login {
 
 	public JButton getBotonRegistrar() {
 		return botonRegistrar;
+	}
+
+
+	public JButton getBotonRecuperar() {
+		return botonRestaurar;
 	}
 
 }

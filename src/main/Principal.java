@@ -3,17 +3,7 @@ package main;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
-import java.util.HashSet;
-import java.util.Set;
-
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
-
 import controlador.Controlador_Login;
-import modelo.InsertarBorrar;
-import modelo.Municipios;
-import modelo.Provincias;
 import vista.Login;
 
 /**
@@ -34,6 +24,7 @@ public class Principal {
 	{
 		Login cliente = new Login();
 		cliente.getFrame().setVisible(true);
+
 		try {
 			@SuppressWarnings("resource")
 			Socket socket = new Socket("127.0.0.1",44444);

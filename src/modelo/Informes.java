@@ -24,6 +24,7 @@ public class Informes implements java.io.Serializable {
 		this.url = url;
 	}
 
+
 	public Informes(Estaciones estaciones, String formato, String url, Set horarios) {
 		this.estaciones = estaciones;
 		this.formato = formato;
@@ -71,13 +72,12 @@ public class Informes implements java.io.Serializable {
 		this.url = url;
 	}
 
+
 	public Set getHorarios() {
 		return this.horarios;
 	}
 
-	public void setHorarios(Set horarios) {
-		this.horarios = horarios;
-	}
+
 
 	@Override
 	public String toString() {
