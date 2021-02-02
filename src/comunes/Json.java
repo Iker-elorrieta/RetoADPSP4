@@ -84,7 +84,7 @@ public class Json {
 		}
 		
 		ArrayList<Object> result = new ArrayList<Object>();
-		result.add(cargarHorarios(horariosEstaciones, mapper).get(1));
+		result.add(cargarHorarios().get(1));
 		result.add(mapper);
 		result.add(listaMunicipios);
 		result.add(listaEspaciosNaturales);
@@ -258,8 +258,20 @@ public class Json {
 	 * @return devuelve un arraylist con todas las estaciones y las paginas no encontradas
 	 * Las paginas no encontradas sirve para señalar que paginas evitar y resistencia a fallos inesperados del programa y BDD.
 	 */
-	public ArrayList<Object> cargarHorarios(Informes[] horariosEstaciones, ObjectMapper mapper)
+	public ArrayList<Object> cargarHorarios()
 	{
+		ObjectMapper mapper = new ObjectMapper();
+		Informes[] horariosEstaciones = null;
+		try {
+			horariosEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2021/es_def/adjuntos/index.json"), Informes[].class);
+		} catch (JsonMappingException e2) {
+//				e2.printStackTrace();
+		} catch (JsonProcessingException e2) {
+//				e2.printStackTrace();
+		} catch (IOException e2) {
+//				e2.printStackTrace();
+		}
+		
 		ArrayList<Informes> paginasNoEncontrada = new ArrayList<Informes>();
 		ArrayList<Object> result = new ArrayList<Object>();
 		@SuppressWarnings("unused")

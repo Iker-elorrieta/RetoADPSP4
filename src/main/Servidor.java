@@ -1,8 +1,13 @@
 package main;
 
+import static org.junit.Assert.assertEquals;
+
 import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Calendar;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -11,6 +16,20 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import comunes.InsertarBorrar;
+import comunes.Json;
+import modelo.Entornos;
+import modelo.Estaciones;
+import modelo.HibernateUtil;
+import modelo.Informes;
+import modelo.Municipios;
+import server.ComprobarHashJson;
 import server.ServidorPeticiones;
 
 import javax.swing.JLabel;
@@ -44,6 +63,18 @@ public class Servidor extends JFrame implements ActionListener {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
+					SessionFactory sesion = HibernateUtil.getSessionFactory();
+					Session session = sesion.openSession();
+					limbiarBDD(sesion, session);
+					//Hay que borrar todos los datos de la BDD para hacer esta prueba 
+
+					Json hijoDeJ = new Json();
+					ArrayList<Object> lista = hijoDeJ.cargarJsons();
+					hijoDeJ.cargarTodosLosDatos((ArrayList<Informes>) lista.get(0),(ObjectMapper) lista.get(1),(Municipios[]) lista.get(2),(Entornos[]) lista.get(3),(Estaciones[]) lista.get(4), (Informes[]) lista.get(5), sesion, session);
+					
+					ComprobarHashJson hilo = new ComprobarHashJson();
+					hilo.run();
+					
 					Servidor frame = new Servidor();
 					frame.setBounds(0, 0, 500, 450);
 					frame.setVisible(true);
@@ -103,4 +134,22 @@ public class Servidor extends JFrame implements ActionListener {
 	{
 		return prueba;
 	}
+	
+	public static void limbiarBDD(SessionFactory sesion, Session session)
+	{
+		String hql = "From Provincias";
+		Query q = session.createQuery(hql);
+		for(Object objeto : q.list())
+		{
+			InsertarBorrar.borrar(objeto, sesion, session);
+		}
+			
+		hql = "From Entornos";
+		q = session.createQuery(hql);
+		for(Object objeto : q.list())
+		{
+			InsertarBorrar.borrar(objeto, sesion, session);
+		}
+	}
+	
 }
