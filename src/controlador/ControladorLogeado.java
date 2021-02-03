@@ -14,6 +14,7 @@ import modelo.Municipios;
 import modelo.Usuario;
 import vista.Logeado;
 import vista.VentanaEstaciones;
+import vista.VentanaTop;
 
 public class ControladorLogeado implements MouseListener {
 
@@ -56,6 +57,8 @@ public class ControladorLogeado implements MouseListener {
 		this.ventanaLogeado.getBotonAraba().addMouseListener(this);
 		this.ventanaLogeado.getBotonGipuzkoa().setName("Gipuzkoa");
 		this.ventanaLogeado.getBotonGipuzkoa().addMouseListener(this);
+		this.ventanaLogeado.getBotonTops().setName("Tops");
+		this.ventanaLogeado.getBotonTops().addMouseListener(this);
 		this.ventanaLogeado.getTable().addMouseListener(this);
 		this.ventanaLogeado.getTable().setName("row");
 		this.ventanaLogeado.getFrame().addWindowListener(new WindowAdapter() {
@@ -156,6 +159,17 @@ public class ControladorLogeado implements MouseListener {
 				e1.printStackTrace();
 			}
 
+			break;
+			
+			
+			case "Tops":
+				
+			VentanaTop vtop = new VentanaTop();
+			Controlador_Tops ct = new Controlador_Tops(vtop, entrada, salida);
+			vtop.setVisible(true);
+			
+				
+					
 			break;
 
 		}

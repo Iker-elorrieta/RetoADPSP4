@@ -5,6 +5,8 @@ import javax.swing.JButton;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.JMenuBar;
+import javax.swing.JMenu;
 
 public class Logeado {
 	
@@ -15,6 +17,8 @@ public class Logeado {
 	private JButton botonBizkaia;
 	private JButton botonAraba;
 	private JButton botonGipuzkoa;
+    private	JButton botonTops;
+	private JButton botonEspaciosNaturales;
 	
 	/**
 	 *{@summary Constructor de la clase. Carga los distintos componentes de la ventana} 
@@ -41,15 +45,15 @@ public class Logeado {
 		frame.getContentPane().setLayout(null);	
 		
 		this.botonBizkaia = new JButton("Bizkaia");
-		this.botonBizkaia.setBounds(10, 62, 117, 42);
+		this.botonBizkaia.setBounds(10, 167, 117, 42);
 		frame.getContentPane().add(this.botonBizkaia);
 		
 		this.botonAraba = new JButton("Araba");
-		this.botonAraba.setBounds(10, 115, 117, 42);
+		this.botonAraba.setBounds(10, 220, 117, 42);
 		frame.getContentPane().add(this.botonAraba);
 		
 		this.botonGipuzkoa = new JButton("Gipuzkoa");
-		this.botonGipuzkoa.setBounds(10, 168, 117, 42);
+		this.botonGipuzkoa.setBounds(10, 273, 117, 42);
 		frame.getContentPane().add(this.botonGipuzkoa);
 		
 		JScrollPane scrollPane = new JScrollPane();
@@ -66,6 +70,14 @@ public class Logeado {
 			
 		}
 		table.setModel(model);
+		
+		botonTops = new JButton("Tops");
+		botonTops.setBounds(10, 373, 141, 23);
+		frame.getContentPane().add(botonTops);
+		
+		JButton botonEspaciosNaturales = new JButton("Espacios Naturales");
+		botonEspaciosNaturales.setBounds(10, 407, 141, 23);
+		frame.getContentPane().add(botonEspaciosNaturales);
 	}
 	
 	/**
@@ -122,4 +134,21 @@ public class Logeado {
 	public JFrame getFrame() {
 		return frame;
 	}
+
+	public JButton getBotonTops() {
+		return botonTops;
+	}
+
+	public void setBotonTops(JButton botonTops) {
+		this.botonTops = botonTops;
+	}
+
+	public JButton getBotonEspaciosNaturales() {
+		return botonEspaciosNaturales;
+	}
+
+	public void setBotonEspaciosNaturales(JButton botonEspaciosNaturales) {
+		this.botonEspaciosNaturales = botonEspaciosNaturales;
+	}
+	
 }
