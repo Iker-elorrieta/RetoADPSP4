@@ -20,7 +20,6 @@ public class ControladorEstaciones implements ActionListener  {
 	private ObjectOutputStream salida;
 	private ArrayList<Estaciones> araE;
 	private boolean booleanTest = false;
-	
 	final String na = "No disponible";
 
 	/**

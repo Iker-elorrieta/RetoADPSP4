@@ -62,15 +62,15 @@ public class Servidor extends JFrame implements ActionListener {
 					SessionFactory sesion = HibernateUtil.getSessionFactory();
 					Session session = sesion.openSession();
 
-					limbiarBDD(sesion,session);
+				//	limbiarBDD(sesion,session);
 					//Hay que borrar todos los datos de la BDD para hacer esta prueba 
 					
-					Json hijoDeJ = new Json();
-					ArrayList<Object> lista = hijoDeJ.cargarJsons();
-					hijoDeJ.cargarTodosLosDatos((ObjectMapper)lista.get(0),(Municipios[])lista.get(1),(Entornos[])lista.get(2),(Estaciones[])lista.get(3),(Informes[])lista.get(4),sesion,session);
+//					Json hijoDeJ = new Json();
+//					ArrayList<Object> lista = hijoDeJ.cargarJsons();
+//					hijoDeJ.cargarTodosLosDatos((ObjectMapper)lista.get(0),(Municipios[])lista.get(1),(Entornos[])lista.get(2),(Estaciones[])lista.get(3),(Informes[])lista.get(4),sesion,session);
 					
-					ComprobarHashJson hilo = new ComprobarHashJson();
-					hilo.start();
+				//	ComprobarHashJson hilo = new ComprobarHashJson();
+				//	hilo.start();
 					
 					Servidor frame = new Servidor();
 					frame.setBounds(0, 0, 500, 450);

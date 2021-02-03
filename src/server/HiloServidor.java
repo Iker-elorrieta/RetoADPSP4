@@ -13,9 +13,11 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
 import comunes.CrearHash;
+import modelo.Entornos;
 import modelo.Estaciones;
 import modelo.Horario;
 import modelo.Municipios;
+import modelo.Provincias;
 import modelo.Usuario;
 
 public class HiloServidor extends Thread {
@@ -43,6 +45,7 @@ public class HiloServidor extends Thread {
 	Boolean desconexion = false;
 	ArrayList<Estaciones> araE;
 	ArrayList<Horario> arah;
+	ArrayList<Provincias> provi;
 
 	public HiloServidor(JTextArea textArea, JTextField texto, ObjectOutputStream osalida, ObjectInputStream oentrada,
 			ArrayList<ObjectOutputStream> lista) {
@@ -51,6 +54,20 @@ public class HiloServidor extends Thread {
 		this.osalida = osalida;
 		this.oentrada = oentrada;
 		this.lista = lista;
+
+		tx = null;
+		sesion = modelo.HibernateUtil.getSessionFactory();
+		session = sesion.openSession();
+		tx = session.beginTransaction();
+		hql = "from Provincias";
+		q = session.createQuery(hql);
+
+		provi = (ArrayList<Provincias>) q.list();
+
+		for (int i = 0; i < provi.size(); i++) {
+			System.out.println(provi.get(i).getId());
+			System.out.println(provi.get(i).getNombre());
+		}
 
 	}
 
@@ -207,6 +224,128 @@ public class HiloServidor extends Thread {
 
 					break;
 
+				case 7:
+
+					ArrayList<Horario> arrayTopHorario = new ArrayList<Horario>();
+					ArrayList<Municipios> arrayTopMuni = new ArrayList<Municipios>();
+					ArrayList<Municipios> arrayTopBizka = new ArrayList<Municipios>();
+					ArrayList<Municipios> arrayTopAraba = new ArrayList<Municipios>();
+					ArrayList<Municipios> arrayTopGipu = new ArrayList<Municipios>();
+					ArrayList<Entornos> arrayTopEntorno = new ArrayList<Entornos>();
+					ArrayList<Entornos> arrayLimpioEntorno = new ArrayList<Entornos>();
+					tx = null;
+					sesion = modelo.HibernateUtil.getSessionFactory();
+					session = sesion.openSession();
+					tx = session.beginTransaction();
+					// hql = "from Municipios INNER JOIN Estaciones on Municipios.id =
+					// Estaciones.municipio INNER JOIN Informes ON Estaciones.id = Informes.estacion
+					// INNER JOIN Horario ON Horario.informe = Informes.id where Horario.nogm3 is
+					// not null AND latitud is not null and longitud is not null and CoordenadaX is
+					// not null and CoordenadaY is not null and COmgm3 is not null and NO2ICA is not
+					// null and NOXgm3 pm10ica is not null and pm25ica is not null and so2 is not
+					// null and so2ica is not null ORDER BY Horario.nogm3 DESC";
+					hql = "from Horario order by nogm3 desc ";
+
+					q = session.createQuery(hql);
+
+					arrayTopHorario = (ArrayList<Horario>) q.list();
+					String nombreMuni = "";
+
+					for (int i = 0; i < arrayTopHorario.size(); i++) {
+
+						if (arrayTopMuni.size() < 5) {
+
+							if (!nombreMuni.contains(
+									arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre())) {
+
+								arrayTopMuni.add(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios());
+							
+							}
+						}
+						nombreMuni += arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre();
+					}
+
+					osalida.writeObject(arrayTopMuni);
+
+					nombreMuni = "";
+					
+					for (int i = 0; i < arrayTopHorario.size(); i++) {
+
+						if (arrayTopBizka.size() < 5) {
+
+							if (!nombreMuni.contains(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre())&& arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getProvincias().getNombre().toLowerCase().contains("bizkaia")) {
+
+								arrayTopBizka.add(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios());
+							
+							}
+						}
+						nombreMuni += arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre();
+					}
+
+					osalida.writeObject(arrayTopBizka);
+					nombreMuni = "";
+					
+					for (int i = 0; i < arrayTopHorario.size(); i++) {
+
+						if (arrayTopAraba.size() < 5) {
+
+							if (!nombreMuni.contains(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre())&& arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getProvincias().getNombre().toLowerCase().contains("araba")) {
+
+								arrayTopAraba.add(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios());
+						
+							}
+						}
+						nombreMuni += arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre();
+					}
+
+					osalida.writeObject(arrayTopAraba);
+					
+					nombreMuni = "";
+					
+		
+					
+					for (int i = 0; i < arrayTopHorario.size(); i++) {
+
+						if (arrayTopGipu.size() < 5) {
+
+							if (!nombreMuni.contains(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre())&& arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getProvincias().getNombre().toLowerCase().contains("gipu")) {
+
+								arrayTopGipu.add(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios());
+							
+							}
+						}
+						nombreMuni += arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre();
+					}
+
+					osalida.writeObject(arrayTopGipu);
+					
+					
+//					
+//					nombreMuni = "";
+//					
+//					for (int i = 0; i < arrayTopHorario.size(); i++) {
+//						
+//						hql = "from Entornos where id in (Select entornos.id from Entornosmuni where municipios.id ="+ arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getId()+")";
+//
+//						q = session.createQuery(hql);
+//						System.out.println(i + ") " + arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getId());
+//						try {
+//							System.out.println(((Entornos)q.uniqueResult()).getNombre());
+//							
+//							arrayTopEntorno.add((Entornos) q.uniqueResult());
+//						} catch (NullPointerException e) {
+//							System.out.println(i+") es nulo");
+//						}
+//					}
+//
+//					osalida.writeObject(arrayTopEntorno);
+					
+					
+					
+					
+
+					break;
+
 				default:
 
 					desconexion = true;
@@ -217,17 +356,16 @@ public class HiloServidor extends Thread {
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-//				e.printStackTrace();
+				e.printStackTrace();
 			}
 
 		}
 
-		lista.remove(lista.size() - 1);
 		System.out.println("Hilo servidor acabado");
 
 	}
 
-	@SuppressWarnings({ "unchecked"})
+	@SuppressWarnings({ "unchecked" })
 	private ArrayList<Municipios> recibirArrayMunicipios(String nombre) {
 		ArrayList<Municipios> arrayMunicipio = null;
 
@@ -239,7 +377,7 @@ public class HiloServidor extends Thread {
 
 			if (!nombre.equals("nada")) {
 
-				hql = "from Municipios where provincias.nombre = '" + nombre + "'";
+				hql = "from Municipios where Provincia = (Select id from Provincias where nombre='" + nombre + "')";
 			} else {
 				hql = "from Municipios";
 			}
