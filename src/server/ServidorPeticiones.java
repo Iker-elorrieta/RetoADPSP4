@@ -66,19 +66,6 @@ public class ServidorPeticiones extends Thread {
 			Socket socket = new Socket();
 			texto.setText("Conexiones actuales: "+ lista.size());
 			
-			SessionFactory sesion = modelo.HibernateUtil.getSessionFactory();
-			Session session = sesion.openSession();
-			
-			String hql = "from Provincias";
-			Query q = session.createQuery(hql);
-			
-			if(!(q.list().size() > 1) || q == null)
-			{
-				Json json = new Json();
-				ArrayList<Object> listaJson = json.cargarJsons();
-				json.cargarTodosLosDatos((ArrayList<Informes>) listaJson.get(0),(ObjectMapper) listaJson.get(1),(Municipios[]) listaJson.get(2),(Entornos[]) listaJson.get(3),(Estaciones[]) listaJson.get(4), (Informes[]) listaJson.get(5), sesion, session);
-			}
-			
 			while (continuar) {
 				socket = servidor.accept();
 				if (lista.size() < MAXIMO_CONEXIONES) {

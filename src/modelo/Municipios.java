@@ -51,6 +51,36 @@ public class Municipios implements java.io.Serializable {
 		this.id = id;
 	}
 	
+	/**
+	 * Metodo de set latidud modificado para que funcione con la libreria de JSon jackson.
+	 * @param latitud
+	 */
+	public void setLatitud(String latitud) {
+		try
+		{
+			this.latitud = Double.parseDouble(latitud.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.latitud = null;
+		}
+	}
+	
+	/**
+	 * Metodo de set longitud modificado para que funcione con la libreria de JSon jackson.
+	 * @param latitud
+	 */
+	public void setLongitud(String longitud) {
+		try
+		{
+			this.longitud = Double.parseDouble(longitud.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.longitud = null;
+		}
+	}
+	
 	public String getNombreentero() {
 		return nombreentero;
 	}

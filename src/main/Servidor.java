@@ -1,13 +1,9 @@
 package main;
 
-import static org.junit.Assert.assertEquals;
-
 import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.time.Duration;
 import java.util.ArrayList;
-import java.util.Calendar;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -65,15 +61,16 @@ public class Servidor extends JFrame implements ActionListener {
 				try {
 					SessionFactory sesion = HibernateUtil.getSessionFactory();
 					Session session = sesion.openSession();
-					limbiarBDD(sesion, session);
-					//Hay que borrar todos los datos de la BDD para hacer esta prueba 
 
+					limbiarBDD(sesion,session);
+					//Hay que borrar todos los datos de la BDD para hacer esta prueba 
+					
 					Json hijoDeJ = new Json();
 					ArrayList<Object> lista = hijoDeJ.cargarJsons();
-					hijoDeJ.cargarTodosLosDatos((ArrayList<Informes>) lista.get(0),(ObjectMapper) lista.get(1),(Municipios[]) lista.get(2),(Entornos[]) lista.get(3),(Estaciones[]) lista.get(4), (Informes[]) lista.get(5), sesion, session);
+					hijoDeJ.cargarTodosLosDatos((ObjectMapper)lista.get(0),(Municipios[])lista.get(1),(Entornos[])lista.get(2),(Estaciones[])lista.get(3),(Informes[])lista.get(4),sesion,session);
 					
 					ComprobarHashJson hilo = new ComprobarHashJson();
-					hilo.run();
+					hilo.start();
 					
 					Servidor frame = new Servidor();
 					frame.setBounds(0, 0, 500, 450);
@@ -135,7 +132,7 @@ public class Servidor extends JFrame implements ActionListener {
 		return prueba;
 	}
 	
-	public static void limbiarBDD(SessionFactory sesion, Session session)
+	public static void limbiarBDD(SessionFactory sesion,Session session)
 	{
 		String hql = "From Provincias";
 		Query q = session.createQuery(hql);

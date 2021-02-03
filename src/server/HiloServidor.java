@@ -239,7 +239,7 @@ public class HiloServidor extends Thread {
 
 			if (!nombre.equals("nada")) {
 
-				hql = "from Municipios where Provincia = (Select id from Provincias where nombre='" + nombre + "')";
+				hql = "from Municipios where provincias.nombre = '" + nombre + "'";
 			} else {
 				hql = "from Municipios";
 			}

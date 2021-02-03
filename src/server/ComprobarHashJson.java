@@ -1,6 +1,7 @@
 package server;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.MalformedURLException;
@@ -21,6 +22,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
+import comunes.Json;
 import modelo.Horario;
 import modelo.Informes;
 
@@ -31,7 +33,7 @@ public class ComprobarHashJson extends Thread {
 	}
 
 	public void run() {
-		
+		System.out.println("Se ha inciado el hilo de actualizar.");
 		while (true) {
 
 			try {
@@ -72,8 +74,8 @@ public class ComprobarHashJson extends Thread {
 					
 //				Descomentar cuando se llame al método que mete los json en la base de datos
 					
-//					borrarHorarios();
-					
+				borrarHorarios();
+				insertarHorarios();
 					System.out.println("Hay que actualizar");
 					
 				} else {
@@ -87,13 +89,15 @@ public class ComprobarHashJson extends Thread {
 				
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
-				e.printStackTrace();
+//				e.printStackTrace();
 			} catch (MalformedURLException e) {
 				// TODO Auto-generated catch block
-				e.printStackTrace();
+//				e.printStackTrace();
+			}catch(FileNotFoundException e) {
+				System.out.println("No se pudo comprobar con el json de la url " + e.getLocalizedMessage());
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
-				e.printStackTrace();
+//				e.printStackTrace();
 			}
 
 		}
@@ -149,7 +153,16 @@ public class ComprobarHashJson extends Thread {
 		
 	}
 	
-	public static boolean actualizarHash (Informes informe) {
+	public static void insertarHorarios()
+	{
+		SessionFactory sesion = modelo.HibernateUtil.getSessionFactory();
+		Session session = sesion.openSession();	
+		Json actualizar = new Json();
+		actualizar.insertarHorarios(sesion, session);
+		session.close();
+	}
+	
+	public static boolean actualizarHash(Informes informe) {
 		
 		SessionFactory sesion = modelo.HibernateUtil.getSessionFactory();
 		Session session = sesion.openSession();

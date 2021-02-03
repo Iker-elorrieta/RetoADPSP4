@@ -41,6 +41,8 @@ import modelo.Provincias;
 
 public class Json {
 	
+	
+	
 	/**
 	 * Metodo principal de sacar todos los datos de los json
 	 * Tambien es la clase donde se crean los ficheros de json de cada url menos los horarios
@@ -80,11 +82,10 @@ public class Json {
 			listaEspaciosNaturales = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/playas_de_euskadi/opendata/espacios-naturales.json"), Entornos[].class);
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
-			e1.printStackTrace();
+//			e1.printStackTrace();
 		}
 		
 		ArrayList<Object> result = new ArrayList<Object>();
-		result.add(cargarHorarios().get(1));
 		result.add(mapper);
 		result.add(listaMunicipios);
 		result.add(listaEspaciosNaturales);
@@ -103,10 +104,9 @@ public class Json {
 	 * @param sesion
 	 * @param session
 	 */
-	public boolean cargarTodosLosDatos(ArrayList<Informes> paginasNoEncontrada,
-									  ObjectMapper mapper, Municipios[] listaMunicipios, 
-									  Entornos[] listaEspaciosNaturales,Estaciones[] listaEstaciones, 
-									  Informes[] horariosEstaciones, SessionFactory sesion,Session session)
+	public boolean cargarTodosLosDatos(ObjectMapper mapper, Municipios[] listaMunicipios, 
+									   Entornos[] listaEspaciosNaturales,Estaciones[] listaEstaciones, 
+									   Informes[] horariosEstaciones, SessionFactory sesion,Session session)
 	{
 		ArrayList<Municipios> comprobarMunicipios = new ArrayList<Municipios>();
 		try{
@@ -187,37 +187,8 @@ public class Json {
 				}
 				catch (Exception f)
 				{
-					System.out.println(f.getMessage());
+//					System.out.println(f.getMessage());
 					return false;
-				}
-			}
-			
-			//Insertar informes y horarios
-			for(int i = 0 ; i < horariosEstaciones.length ;i++)
-			{
-				@SuppressWarnings("unused")
-				String url = horariosEstaciones[i].getUrl();
-				try{	
-					String hql1 = "from Estaciones where lower(nombre) = '"+horariosEstaciones[i].getNombre()+"'";
-					Query q1 = session.createQuery(hql1);
-					Estaciones estacion = (Estaciones) q1.uniqueResult();
-					
-					if(estacion != null)
-					{
-						horariosEstaciones[i].setEstaciones(estacion);
-						boolean encontrado = false;
-						for(int o = 0 ; o < paginasNoEncontrada.size() ; o++)
-						{
-							if(horariosEstaciones[i].equals(paginasNoEncontrada.get(o)))
-								encontrado = true;
-						}
-						if(!encontrado)
-							InsertarBorrar.insertar(horariosEstaciones[i],sesion,session);
-					}
-				}
-				catch (Exception f)
-				{
-//					f.printStackTrace();
 				}
 			}
 			
@@ -225,11 +196,11 @@ public class Json {
 			for (int i = 0 ; i < listaEspaciosNaturales.length; i++)
 			{
 				try{
-					String hql = "from Entornos where lower(nombre) = '"+listaEspaciosNaturales[i].getNombre()+"'";
+					String hql = "from Entornos where lower(nombre) like '"+listaEspaciosNaturales[i].getNombre()+"'";
 					Query q = session.createQuery(hql);
 					Entornos entorno = (Entornos) q.uniqueResult();
 					
-					String hql1 = "from Municipios where lower(nombre) = '"+listaEspaciosNaturales[i].getMunicipio()+"'";
+					String hql1 = "from Municipios where lower(nombre) like '"+listaEspaciosNaturales[i].getMunicipio()+"'";
 					Query q1 = session.createQuery(hql1);
 					Municipios muni = (Municipios) q1.uniqueResult();
 					if(entorno != null && muni != null)
@@ -240,27 +211,68 @@ public class Json {
 					}
 				}
 				catch (Exception f){
-					System.out.println(f.getMessage());
+//					System.out.println(f.getMessage());
 					return false;
 				}
 			}
-			insertarHorarios(horariosEstaciones, sesion, session, mapper);
+			
+			//Insertar informes y horarios
+			for(int i = 0 ; i < horariosEstaciones.length ;i++)
+			{
+				horariosEstaciones[i].setNombre(horariosEstaciones[i].getNombre().replace("_", " "));
+				try{	
+					String hql1 = "from Estaciones where lower(nombre) like '%"+horariosEstaciones[i].getNombre().toLowerCase()+"%'";
+					Query q1 = session.createQuery(hql1);
+					Estaciones estacion = null;
+					try {
+						estacion = (Estaciones) q1.uniqueResult();}
+					catch(Exception fInChat) {
+						estacion = null;
+					}
+					
+					if(estacion != null)
+					{
+						try {
+							BufferedReader reader = new BufferedReader(new InputStreamReader((new URL(horariosEstaciones[i].getUrl())).openStream()));
+							
+							StringBuffer buffer = new StringBuffer();
+							int read;
+							char[] chars = new char[1024];
+							while ((read = reader.read(chars)) != -1)
+								buffer.append(chars, 0, read);
+							
+							horariosEstaciones[i].setHash(comunes.CrearHash.crearHash(buffer.toString()));
+							horariosEstaciones[i].setEstaciones(estacion);
+							InsertarBorrar.insertar(horariosEstaciones[i],sesion,session);
+						}catch(Exception a){
+//							a.printStackTrace();
+						}
+					}
+				}
+				catch (Exception f)
+				{
+//					f.printStackTrace();
+				}
+			}
+			
+			insertarHorarios(sesion, session);
 		} catch (Exception e) {
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
 		return true;
 	}
-	
+
 	/**
-	 * Metodo que crea los Jsones para comprobar con los hashes de la BDD.
+	 * Metodo de insercion a la base de datos de todos los horarios de cada index que se encuentra en el json.
 	 * @param horariosEstaciones
+	 * @param sesion
+	 * @param session
 	 * @param mapper
-	 * @return devuelve un arraylist con todas las estaciones y las paginas no encontradas
-	 * Las paginas no encontradas sirve para señalar que paginas evitar y resistencia a fallos inesperados del programa y BDD.
 	 */
-	public ArrayList<Object> cargarHorarios()
+	public boolean insertarHorarios(SessionFactory sesion, Session session)
 	{
 		ObjectMapper mapper = new ObjectMapper();
+		mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
 		Informes[] horariosEstaciones = null;
 		try {
 			horariosEstaciones = mapper.readValue(readJsonDesdeUrl("https://opendata.euskadi.eus/contenidos/ds_informes_estudios/calidad_aire_2021/es_def/adjuntos/index.json"), Informes[].class);
@@ -272,44 +284,6 @@ public class Json {
 //				e2.printStackTrace();
 		}
 		
-		ArrayList<Informes> paginasNoEncontrada = new ArrayList<Informes>();
-		ArrayList<Object> result = new ArrayList<Object>();
-		@SuppressWarnings("unused")
-		Horario[] horario = null;
-		for(int y = 0 ; y < horariosEstaciones.length ;y++)
-		{
-			try
-			{
-				String url = horariosEstaciones[y].getUrl();
-				if(url.contains("datos_indice") || url.contains("datos_diarios"))
-				{
-					horario = mapper.readValue(readJsonDesdeUrl(horariosEstaciones[y].getUrl()), Horario[].class);
-				}
-			}
-			catch(FileNotFoundException d)
-			{
-				paginasNoEncontrada.add(horariosEstaciones[y]);
-			}
-			catch (Exception a)
-			{
-				//Seguir al siguiente objeto en caso de fallo
-			}
-		}
-		result.add(horariosEstaciones);
-		result.add(paginasNoEncontrada);
-		return result;
-	}
-	
-	/**
-	 * Metodo de insercion a la base de datos de todos los horarios de cada index que se encuentra en el json.
-	 * @param horariosEstaciones
-	 * @param sesion
-	 * @param session
-	 * @param mapper
-	 */
-	public boolean insertarHorarios(Informes[] horariosEstaciones, 
-										   SessionFactory sesion, Session session , ObjectMapper mapper  )
-	{
 		Horario[] horario = null;
 		for(int y = 0 ; y < horariosEstaciones.length ;y++)
 		{
@@ -333,6 +307,7 @@ public class Json {
 			}
 			catch(Exception b)
 			{
+//				b.printStackTrace();
 				//Seguir al siguiente objeto en caso de fallo
 			}
 		}
@@ -416,7 +391,7 @@ public class Json {
 		catch (FileNotFoundException fn) {
 			System.out.println("No se encuentra el fichero");
 		} catch (IOException e) {
-//			e.printStackTrace();
+			e.printStackTrace();
 		}
 		return false;
 	}

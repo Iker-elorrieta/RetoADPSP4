@@ -47,6 +47,28 @@ public class Entornos implements java.io.Serializable {
 		this.id = id;
 	}
 	
+	public void setLatitud(String latitud) {
+		try
+		{
+			this.latitud = Double.parseDouble(latitud.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.latitud = null;
+		}
+	}
+	
+	public void setLongitud(String longitud) {
+		try
+		{
+			this.longitud = Double.parseDouble(longitud.replace(",", "."));
+		}
+		catch(NumberFormatException a)
+		{
+			this.longitud = null;
+		}
+	}
+	
 	public String getMunicipio() {
 		return municipio;
 	}

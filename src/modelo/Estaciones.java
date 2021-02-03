@@ -1,4 +1,4 @@
-package modelo;
+	package modelo;
 // Generated 2 feb. 2021 1:38:46 by Hibernate Tools 5.4.21.Final
 
 import java.util.HashSet;
@@ -40,7 +40,39 @@ public class Estaciones implements java.io.Serializable {
 		this.longitud = longitud;
 		this.informeses = informeses;
 	}
-
+	
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
+	public void setCoordenadaX(String coordenadaX) {
+		this.coordenadaX = Double.parseDouble(coordenadaX.replace(",", "."));
+	}
+	
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
+	public void setCoordenadaY(String coordenadaY) {
+		this.coordenadaY = Double.parseDouble(coordenadaY.replace(",", "."));
+	}
+	
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
+	public void setLatitud(String latitud) {
+		this.latitud = Double.parseDouble(latitud.replace(",", "."));
+	}
+	
+	/**
+	 * Metodo modificado para poder funcionar con la libreria de json jackson
+	 * 
+	 */
+	public void setLongitud(String longitud) {
+		this.longitud = Double.parseDouble(longitud.replace(",", "."));
+	}
+	
 	public Integer getId() {
 		return this.id;
 	}

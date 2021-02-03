@@ -42,7 +42,7 @@ public class TestJson {
 
 		Json hijoDeJ = new Json();
 		ArrayList<Object> lista = hijoDeJ.cargarJsons();
-		assertEquals(true,hijoDeJ.cargarTodosLosDatos((ArrayList<Informes>) lista.get(0),(ObjectMapper) lista.get(1),(Municipios[]) lista.get(2),(Entornos[]) lista.get(3),(Estaciones[]) lista.get(4), (Informes[]) lista.get(5), sesion, session));
+		assertEquals(true,hijoDeJ.cargarTodosLosDatos((ObjectMapper)lista.get(0),(Municipios[])lista.get(1),(Entornos[])lista.get(2),(Estaciones[])lista.get(3),(Informes[])lista.get(4),sesion,session));
 		Calendar tiempo2 = Calendar.getInstance();
 		System.out.println(Duration.between(tiempo1.toInstant(), tiempo2.toInstant()));
 	}
