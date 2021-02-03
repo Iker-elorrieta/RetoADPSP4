@@ -195,7 +195,7 @@ public class ComprobarHashJson extends Thread {
 		}
 		
 		listaHorarios = (ArrayList<Horario>) q.list();
-		
+		tx = session.beginTransaction();
 		for (Horario horario : listaHorarios) {
 			
 			session.delete(horario);

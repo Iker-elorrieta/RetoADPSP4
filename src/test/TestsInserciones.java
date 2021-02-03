@@ -164,12 +164,10 @@ public class TestsInserciones {
     public void testInsercionEntornosMuni() {
 		provincia = new Provincias(nombrePruebas);
 		municipio = new Municipios(provincia, nombrePruebas, nombrePruebas, valor, valor, "1", set, set, set);
-		estacion = new Estaciones(municipio, nombrePruebas, nombrePruebas, valor, valor, valor, valor, set);
-		informe = new Informes(estacion, nombrePruebas, nombrePruebas, nombrePruebas, set);
+		entorno = new Entornos(nombrePruebas, nombrePruebas, nombrePruebas, nombrePruebas, valor, valor, set, set);
+		InsertarBorrar.insertar(entorno, sesion, session);
 		InsertarBorrar.insertar(provincia, sesion, session);
 		InsertarBorrar.insertar(municipio, sesion, session);
-		InsertarBorrar.insertar(estacion, sesion, session);
-		InsertarBorrar.insertar(informe, sesion, session);
 		
 		entorno.setId(InsertarBorrar.obtenerEntornoId(entorno, sesion, session));
 		municipio.setId(InsertarBorrar.obtenerMunicipioId(municipio, sesion, session));

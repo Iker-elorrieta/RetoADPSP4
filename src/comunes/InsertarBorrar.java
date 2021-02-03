@@ -66,11 +66,11 @@ public class InsertarBorrar {
 		@SuppressWarnings("unused")
 		Transaction tx = null;
 		tx = session.beginTransaction();		  
-		hql = "from Entornos where Nombre = '" + entorno.getNombre() + "'";
+		hql = "from Entornos where lower(nombre) = '" + entorno.getNombre().toLowerCase() + "'";
 		Query q = session.createQuery(hql);
 		
 		entorno = (Entornos) q.uniqueResult();
-		
+		System.out.println(entorno.getId());
 		return entorno.getId();
 		
 	}
@@ -88,11 +88,11 @@ public class InsertarBorrar {
 		@SuppressWarnings("unused")
 		Transaction tx = null;
 		tx = session.beginTransaction();		
-		hql = "from Municipios where Nombre = '" + municipio.getNombre() + "'";
+		hql = "from Municipios where lower(nombre) = '" + municipio.getNombre().toLowerCase() + "'";
 		Query q = session.createQuery(hql);
 		
 		municipio = (Municipios) q.uniqueResult();
-		
+		System.out.println(municipio.getId());
 		return municipio.getId();
 		
 	}

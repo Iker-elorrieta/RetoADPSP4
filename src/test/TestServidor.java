@@ -155,7 +155,7 @@ public class TestServidor {
 			controladorLogin.mousePressed(e);
 			login.getNombre().setText("test");
 			login.getContrasena().setText("test");
-			controladorLogin.mousePressed(e);
+//			controladorLogin.mousePressed(e);
 			socket.close();
 		} catch (IOException e) {}
 		assertEquals(true, controladorLogin.isBooleanPrueba());
@@ -223,7 +223,7 @@ public class TestServidor {
 			
 			InsertarBorrar.borrar(nuevo, sesion, session);
 			socket.close();
-		} catch (IOException e) {}
+		} catch (IOException e) {e.printStackTrace();}
 		assertEquals(true,controladorRestaurar.metodoPrueba());
 	}
 	
