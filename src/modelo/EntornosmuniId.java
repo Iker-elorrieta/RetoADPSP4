@@ -33,6 +33,7 @@ public class EntornosmuniId implements java.io.Serializable {
 		this.municipio = municipio;
 	}
 
+	@Override
 	public boolean equals(Object other) {
 		if ((this == other))
 			return true;
@@ -45,6 +46,7 @@ public class EntornosmuniId implements java.io.Serializable {
 		return (this.getEntorno() == castOther.getEntorno()) && (this.getMunicipio() == castOther.getMunicipio());
 	}
 
+	@Override
 	public int hashCode() {
 		int result = 17;
 

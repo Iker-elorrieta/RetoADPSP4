@@ -11,18 +11,6 @@ import javax.swing.JLabel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-import org.hibernate.Query;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import comunes.Json;
-import modelo.Entornos;
-import modelo.Estaciones;
-import modelo.Informes;
-import modelo.Municipios;
-
 /**
  * Esta es la clase que accepta conexiones de los clientes
  * siendo limitado a 870 conexiones
@@ -56,6 +44,7 @@ public class ServidorPeticiones extends Thread {
 		texto.setText("0");
 	}
 
+	@Override
 	public void run() {
 
 		try {

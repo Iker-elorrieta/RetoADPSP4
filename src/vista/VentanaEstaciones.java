@@ -6,6 +6,7 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.JTable;
+import javax.swing.WindowConstants;
 import javax.swing.JButton;
 import javax.swing.JScrollPane;
 import java.awt.event.ActionListener;
@@ -25,7 +26,7 @@ public class VentanaEstaciones extends JFrame {
 	
 	@SuppressWarnings("rawtypes")
 	public VentanaEstaciones() {
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		setBounds(100, 100, 583, 423);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -34,6 +35,7 @@ public class VentanaEstaciones extends JFrame {
 		
 		JButton btnNewButton = new JButton("He visto suficiente");
 		btnNewButton.addActionListener(new ActionListener() {
+			@Override
 			public void actionPerformed(ActionEvent e) {
 				dispose();
 			}
@@ -79,14 +81,6 @@ public class VentanaEstaciones extends JFrame {
 
 	public void setModel(DefaultTableModel model) {
 		this.model = model;
-	}
-
-	public String[] getColumnas() {
-		return columnas;
-	}
-
-	public void setColumnas(String[] columnas) {
-		this.columnas = columnas;
 	}
 
 	@SuppressWarnings("rawtypes")

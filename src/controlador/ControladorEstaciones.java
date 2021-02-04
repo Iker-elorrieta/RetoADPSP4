@@ -8,34 +8,31 @@ import java.util.ArrayList;
 import javax.swing.table.DefaultTableModel;
 import modelo.Estaciones;
 import modelo.Horario;
-import modelo.Usuario;
 import vista.VentanaEstaciones;
 
 public class ControladorEstaciones implements ActionListener  {
 
 	private VentanaEstaciones ventanaEstaciones;
-	@SuppressWarnings("unused")
-	private Usuario usuario;
+
 	private ObjectInputStream entrada;
 	private ObjectOutputStream salida;
 	private ArrayList<Estaciones> araE;
 	private boolean booleanTest = false;
 	final String na = "No disponible";
-
+	
 	/**
 	 * {@summary Constructor de la clase que inicia el controlador}
 	 * 
 	 * @param ventanaLogeado
 	 * @param usuario
 	 */
-	public ControladorEstaciones(VentanaEstaciones ventanaEstaciones, Usuario usuario, ObjectInputStream entrada,
-								ObjectOutputStream salida,ArrayList<Estaciones> araE) {
+	public ControladorEstaciones(VentanaEstaciones ventanaEstaciones, ObjectInputStream entrada,
+								ObjectOutputStream salida,ArrayList<Estaciones> araE, ArrayList<Horario> listaHorarios, String desdeVentana) {
 		this.ventanaEstaciones = ventanaEstaciones;
-		this.usuario = usuario;
 		this.entrada = entrada;
 		this.salida = salida;
 		this.araE = araE;
-		iniciarControlador();
+		iniciarControlador(desdeVentana,listaHorarios);
 
 	}
 
@@ -44,36 +41,46 @@ public class ControladorEstaciones implements ActionListener  {
 	 * etiquetas en función de los datos del usuario que ha iniciado sesión}
 	 */
 	@SuppressWarnings("unchecked")
-	public void iniciarControlador() {
-
-		this.ventanaEstaciones.setVisible(true);
-		this.ventanaEstaciones.getTable().setVisible(true);
-		
-		try {
-			this.ventanaEstaciones.getComboBox().addActionListener(this);
-			this.ventanaEstaciones.getComboBox().setActionCommand("combo");
-		
-			DefaultTableModel model = (DefaultTableModel) ventanaEstaciones.getModel();
-			model.setRowCount(0);
-
-			for(int i = 0; i < araE.size(); i++) {
-				ventanaEstaciones.getComboBox().addItem(araE.get(i).getNombre().toString());
-			}
+	public void iniciarControlador(String desdeVentana,ArrayList<Horario> listaHorarios) {
+		if(desdeVentana.equals("logeado"))
+		{
+			this.ventanaEstaciones.setVisible(true);
+			this.ventanaEstaciones.getTable().setVisible(true);
 			
-			salida.writeObject(6);
+			try {
+				this.ventanaEstaciones.getComboBox().addActionListener(this);
+				this.ventanaEstaciones.getComboBox().setActionCommand("combo");
+			
+				DefaultTableModel model = ventanaEstaciones.getModel();
+				model.setRowCount(0);
 	
-			int wombo = araE.get(ventanaEstaciones.getComboBox().getSelectedIndex()).getId();
-			salida.writeObject(wombo);
-			
-			ArrayList<Horario> arah = (ArrayList<Horario>) entrada.readObject();
-			for (int i = 0; i < arah.size(); i++) {
-				String temp[] = { arah.get(i).getHora(), arah.get(i).getIcaestacion(), arah.get(i).getNoxgm3()+"", arah.get(i).getPm10()+""};
+				for(int i = 0; i < araE.size(); i++) {
+					ventanaEstaciones.getComboBox().addItem(araE.get(i).getNombre().toString());
+				}
+				
+				salida.writeObject(6);
+		
+				int wombo = araE.get(ventanaEstaciones.getComboBox().getSelectedIndex()).getId();
+				salida.writeObject(wombo);
+				
+				ArrayList<Horario> arah = (ArrayList<Horario>) entrada.readObject();
+				for (int i = 0; i < arah.size(); i++) {
+					String temp[] = { arah.get(i).getHora(), arah.get(i).getIcaestacion(), arah.get(i).getNoxgm3()+"", arah.get(i).getPm10()+""};
+					ventanaEstaciones.getModel().addRow(temp);
+				}
+				booleanTest = true;
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		else if(desdeVentana.equals("espacios"))
+		{
+			for (int i = 0; i < listaHorarios.size(); i++) {
+				String temp[] = { listaHorarios.get(i).getHora(), listaHorarios.get(i).getIcaestacion(), listaHorarios.get(i).getNoxgm3()+"", listaHorarios.get(i).getPm10()+""};
 				ventanaEstaciones.getModel().addRow(temp);
 			}
 			booleanTest = true;
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
 	}
 	
@@ -88,7 +95,7 @@ public class ControladorEstaciones implements ActionListener  {
 		case "combo":
 			try {
 				
-				DefaultTableModel model = (DefaultTableModel) ventanaEstaciones.getModel();
+				DefaultTableModel model = ventanaEstaciones.getModel();
 				model.setRowCount(0);
 				salida.writeObject(6);
 				Integer nbr = araE.get(ventanaEstaciones.getComboBox().getSelectedIndex()).getId();

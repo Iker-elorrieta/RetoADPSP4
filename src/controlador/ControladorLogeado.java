@@ -13,6 +13,7 @@ import modelo.Estaciones;
 import modelo.Municipios;
 import modelo.Usuario;
 import vista.Logeado;
+import vista.VentanaEspacios;
 import vista.VentanaEstaciones;
 import vista.VentanaTop;
 
@@ -61,8 +62,10 @@ public class ControladorLogeado implements MouseListener {
 		this.ventanaLogeado.getBotonTops().addMouseListener(this);
 		this.ventanaLogeado.getTable().addMouseListener(this);
 		this.ventanaLogeado.getTable().setName("row");
+		this.ventanaLogeado.getBotonEspaciosNaturales().setName("espacios");
+		this.ventanaLogeado.getBotonEspaciosNaturales().addMouseListener(this);
 		this.ventanaLogeado.getFrame().addWindowListener(new WindowAdapter() {
-
+			@Override
 			public void windowClosing(WindowEvent e) {
 				try {
 					salida.writeObject(999);
@@ -76,7 +79,7 @@ public class ControladorLogeado implements MouseListener {
 
 		try {
 
-			DefaultTableModel model = (DefaultTableModel) ventanaLogeado.getModel();
+			DefaultTableModel model = ventanaLogeado.getModel();
 			model.setRowCount(0);
 
 			salida.writeObject(5);
@@ -109,7 +112,7 @@ public class ControladorLogeado implements MouseListener {
 
 			try {
 
-				DefaultTableModel model = (DefaultTableModel) ventanaLogeado.getModel();
+				DefaultTableModel model = ventanaLogeado.getModel();
 				model.setRowCount(0);
 
 				salida.writeObject(501);
@@ -127,7 +130,7 @@ public class ControladorLogeado implements MouseListener {
 
 		case "Araba":
 			try {
-				DefaultTableModel model = (DefaultTableModel) ventanaLogeado.getModel();
+				DefaultTableModel model = ventanaLogeado.getModel();
 				model.setRowCount(0);
 				salida.writeObject(502);
 
@@ -144,7 +147,7 @@ public class ControladorLogeado implements MouseListener {
 
 		case "Gipuzkoa":
 			try {
-				DefaultTableModel model = (DefaultTableModel) ventanaLogeado.getModel();
+				DefaultTableModel model = ventanaLogeado.getModel();
 				model.setRowCount(0);
 				salida.writeObject(503);
 
@@ -169,6 +172,14 @@ public class ControladorLogeado implements MouseListener {
 				
 					
 			break;
+			
+			case "espacios":
+				
+				VentanaEspacios espacios = new VentanaEspacios();
+				Controlador_Espacios ce = new Controlador_Espacios(ventanaLogeado,espacios, entrada, salida);
+				espacios.setVisible(true);
+				ventanaLogeado.getFrame().setVisible(false);
+				break;
 
 		}
 
@@ -184,23 +195,23 @@ public class ControladorLogeado implements MouseListener {
 		switch (e.getComponent().getName()) {
 
 		case "row":
-
+			
 			int colum = ventanaLogeado.getTable().columnAtPoint(e.getPoint());
-
+			
 			int row = ventanaLogeado.getTable().rowAtPoint(e.getPoint());
-
+			
 			String devuelto = (String) ventanaLogeado.getTable().getModel().getValueAt(row, colum);
-
+			
 			if (!devuelto.equals("")) {
 				try {
 					salida.writeObject(404);
 					salida.writeObject(devuelto);
 					ArrayList<Estaciones> araE;
 					araE = (ArrayList<Estaciones>) entrada.readObject();
-
+					
 					VentanaEstaciones VE = new VentanaEstaciones();
 					@SuppressWarnings("unused")
-					ControladorEstaciones ce = new ControladorEstaciones(VE, usuario, entrada, salida, araE);
+					ControladorEstaciones ce = new ControladorEstaciones(VE, entrada, salida,araE,null,"logeado");
 					VE.setVisible(true);
 				} catch (Exception e1) {
 					// TODO Auto-generated catch block

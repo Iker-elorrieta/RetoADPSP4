@@ -67,6 +67,7 @@ public class HiloServidor extends Thread {
 
 	}
 
+	@Override
 	@SuppressWarnings("unchecked")
 	public void run() {
 
@@ -347,7 +348,26 @@ public class HiloServidor extends Thread {
 					
 
 					break;
+				case 8:
+					sesion = modelo.HibernateUtil.getSessionFactory();
+					session = sesion.openSession();
 
+					hql = "from Entornos";
+
+					q = session.createQuery(hql);
+					osalida.writeObject(q.list());
+					break;
+					
+				case 9:
+					sesion = modelo.HibernateUtil.getSessionFactory();
+					session = sesion.openSession();
+					String nombreEntorno = (String) oentrada.readObject();
+					hql = "from Horario where informe in (from Informes where estacion in (from Estaciones where municipio in (from Municipios where id in (Select municipios.id from Entornosmuni where entornos.id in (from Entornos where nombre = '" + nombreEntorno + "')))))";
+					q = session.createQuery(hql);
+					
+					ArrayList<Horario> horarios = (ArrayList<Horario>) q.list();
+					osalida.writeObject(horarios);
+					break;
 				default:
 
 					desconexion = true;

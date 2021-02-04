@@ -34,6 +34,7 @@ public class ComprobarHashJson extends Thread {
 
 	}
 
+	@Override
 	public void run() {
 		System.out.println("Se ha iniciado el hilo de actualizar.");
 		while (funciona) {
@@ -116,14 +117,17 @@ public class ComprobarHashJson extends Thread {
 	public static boolean comprobarPagina(String url) {
 		try {
 			SSLContext ssl_ctx = SSLContext.getInstance("TLS");
-			TrustManager[] trust_mgr = new TrustManager[] { (TrustManager) new X509TrustManager() {
+			TrustManager[] trust_mgr = new TrustManager[] { new X509TrustManager() {
+				@Override
 				public X509Certificate[] getAcceptedIssuers() {
 					return null;
 				}
 
+				@Override
 				public void checkClientTrusted(X509Certificate[] certs, String t) {
 				}
 
+				@Override
 				public void checkServerTrusted(X509Certificate[] certs, String t) {
 				}
 			} };

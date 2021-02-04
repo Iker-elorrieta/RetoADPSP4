@@ -49,7 +49,7 @@ public class Json {
 	 */
 	public ArrayList<Object> cargarJsons()
 	{
-		System.out.println("Leyendo jsones...");
+		System.out.println("Leyendo jsones... tiempo estimado minimo: 8 min, tiempo estimado maximo: 15 min.");
 		Entornos[] listaEspaciosNaturales = null;
 		Municipios[] listaMunicipios = null;
 		@SuppressWarnings("unused")
@@ -325,10 +325,10 @@ public class Json {
 		int cp;
 		int contadorRepetidos = 1;
 		String result = "";
-		char numeroDescripcion = (char) String.valueOf(contadorRepetidos).charAt(0);
+		char numeroDescripcion = String.valueOf(contadorRepetidos).charAt(0);
 		while ((cp = rd.read()) != -1) {
 			sb.append((char) cp);
-			numeroDescripcion = (char) String.valueOf(contadorRepetidos).charAt(0);
+			numeroDescripcion = String.valueOf(contadorRepetidos).charAt(0);
 			result = comprobarHoraDia(sb.toString(),url);
 				if(!result.equals("continuar"))
 					return result.toLowerCase();
@@ -336,7 +336,7 @@ public class Json {
 			if(sb.toString().indexOf("turismDescription\"") != -1)
 			{
 				sb.deleteCharAt(sb.length()-1);
-				sb.append((char) numeroDescripcion);
+				sb.append(numeroDescripcion);
 				sb.append('"');
 				contadorRepetidos++;
 				if(contadorRepetidos == 3)
@@ -438,14 +438,17 @@ public class Json {
 	{
 		try {
 			SSLContext ssl_ctx = SSLContext.getInstance("TLS");
-			TrustManager[] trust_mgr = new TrustManager[] { (TrustManager) new X509TrustManager() {
+			TrustManager[] trust_mgr = new TrustManager[] { new X509TrustManager() {
+				@Override
 				public X509Certificate[] getAcceptedIssuers() {
 					return null;
 				}
 
+				@Override
 				public void checkClientTrusted(X509Certificate[] certs, String t) {
 				}
 
+				@Override
 				public void checkServerTrusted(X509Certificate[] certs, String t) {
 				}
 			} };

@@ -11,6 +11,7 @@ import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+import javax.swing.WindowConstants;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
@@ -57,20 +58,21 @@ public class Servidor extends JFrame implements ActionListener {
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
+			@Override
 			public void run() {
 				try {
 					SessionFactory sesion = HibernateUtil.getSessionFactory();
 					Session session = sesion.openSession();
 
-				//	limbiarBDD(sesion,session);
-					//Hay que borrar todos los datos de la BDD para hacer esta prueba 
+					limbiarBDD(sesion,session);
+//					Hay que borrar todos los datos de la BDD para hacer esta prueba
 					
-//					Json hijoDeJ = new Json();
-//					ArrayList<Object> lista = hijoDeJ.cargarJsons();
-//					hijoDeJ.cargarTodosLosDatos((ObjectMapper)lista.get(0),(Municipios[])lista.get(1),(Entornos[])lista.get(2),(Estaciones[])lista.get(3),(Informes[])lista.get(4),sesion,session);
+					Json hijoDeJ = new Json();
+					ArrayList<Object> lista = hijoDeJ.cargarJsons();
+					hijoDeJ.cargarTodosLosDatos((ObjectMapper)lista.get(0),(Municipios[])lista.get(1),(Entornos[])lista.get(2),(Estaciones[])lista.get(3),(Informes[])lista.get(4),sesion,session);
 					
-				//	ComprobarHashJson hilo = new ComprobarHashJson();
-				//	hilo.start();
+					ComprobarHashJson hilo = new ComprobarHashJson();
+					hilo.start();
 					
 					Servidor frame = new Servidor();
 					frame.setBounds(0, 0, 500, 450);
@@ -100,7 +102,7 @@ public class Servidor extends JFrame implements ActionListener {
 		getContentPane().add(botonSalir);
 		botonEnviar.addActionListener(this);
 		botonSalir.addActionListener(this);
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		textarea1 = new JTextArea();
 		textarea1.setBounds(226, 51, 398, 298);
 		getContentPane().add(textarea1);

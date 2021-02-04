@@ -23,11 +23,14 @@ import org.hibernate.SessionFactory;
 import comunes.CrearHash;
 import comunes.InsertarBorrar;
 import comunes.Json;
+import comunes.Xml;
 import controlador.ControladorEstaciones;
 import controlador.ControladorLogeado;
 import controlador.ControladorRestaurarContrasena;
+import controlador.Controlador_Espacios;
 import controlador.Controlador_Login;
 import controlador.Controlador_Registro;
+import controlador.Controlador_Tops;
 import main.Principal;
 import main.Servidor;
 import modelo.Entornos;
@@ -44,7 +47,9 @@ import vista.Logeado;
 import vista.Login;
 import vista.Registrar;
 import vista.RestaurarContrasena;
+import vista.VentanaEspacios;
 import vista.VentanaEstaciones;
+import vista.VentanaTop;
 
 /**
  * Clase para comprobar que el servidor funciona correctamente.
@@ -63,6 +68,8 @@ public class TestServidor {
 	private EntornosmuniId entornosmuniId = new EntornosmuniId();					@SuppressWarnings("unused")
 	private HibernateUtil hibernate = new HibernateUtil();							@SuppressWarnings("unused")
 	private Logeado logeado = new Logeado();
+	private VentanaTop top = new VentanaTop();
+	private VentanaEspacios espacios = new VentanaEspacios();
 	private Login login = new Login();								
 	private Registrar registrar = new Registrar();					
 	private RestaurarContrasena restaurar = new RestaurarContrasena();
@@ -74,6 +81,7 @@ public class TestServidor {
 	ControladorLogeado controlador;
 	Usuario usuario = new Usuario();
 	ServidorPeticiones server = new ServidorPeticiones(new JTextArea(), new JTextField(), new JLabel());
+	Xml xml;
 	SessionFactory sesion = HibernateUtil.getSessionFactory();
 	Session session = sesion.openSession();
 	
@@ -113,7 +121,7 @@ public class TestServidor {
 	@org.junit.Test
 	public void bbbb() { // Prueba del cliente principal
 		Principal main = new Principal();
-		assertEquals(true,main.start());
+		assertEquals(true,Principal.start());
 	}
 	
 	@SuppressWarnings("resource")
@@ -223,37 +231,76 @@ public class TestServidor {
 			
 			InsertarBorrar.borrar(nuevo, sesion, session);
 			socket.close();
-		} catch (IOException e) {e.printStackTrace();}
+		} catch (IOException e) {}
 		assertEquals(true,controladorRestaurar.metodoPrueba());
 	}
 	
 	@SuppressWarnings("unchecked")
 	@org.junit.Test
-	public void gggg() // Test Controlador Registro
+	public void gggg() // Test Controlador Tops
 	{
 		ObjectOutputStream salida;
 		ObjectInputStream entrada;
+		Controlador_Tops controlador = null;
+		try {
+			Socket socket = new Socket("127.0.0.1",44444);
+			entrada = new ObjectInputStream(socket.getInputStream());
+			salida = new ObjectOutputStream(socket.getOutputStream());
+			controlador = new Controlador_Tops(top,entrada,salida);
+			
+			socket.close();
+		} catch (IOException e) {}
+		assertEquals(true,controlador.metodoPrueba());
+	}
+	
+	@SuppressWarnings("unchecked")
+	@org.junit.Test
+	public void hhhh() // Test Controlador Espacios naturales
+	{
+		ObjectOutputStream salida;
+		ObjectInputStream entrada;
+		Controlador_Espacios controlador = null;
 		try {			
 			Socket socket = new Socket("127.0.0.1",44444);
 			entrada = new ObjectInputStream(socket.getInputStream());
 			salida = new ObjectOutputStream(socket.getOutputStream());
-			Usuario nuevo = new Usuario("prueba","prueba","prueba?", "prueba!");
-			InsertarBorrar.insertar(nuevo, sesion, session);
-			String hql = "from Estaciones where municipios.nombre='bilbao'";
-			Query q = session.createQuery(hql);
-			controladorEstaciones = new ControladorEstaciones(ventanaEstaciones, nuevo, entrada, salida, (ArrayList<Estaciones>) q.list());
-			ActionEvent e = new ActionEvent(ventanaEstaciones.getComboBox(), 0, "combo");
-			ventanaEstaciones.getComboBox().setActionCommand("combo");
-			ventanaEstaciones.getComboBox().setSelectedIndex(2);
-			controladorEstaciones.actionPerformed(e);
-			InsertarBorrar.borrar(nuevo, sesion, session);
+			controlador = new Controlador_Espacios(logeado,espacios,entrada,salida);
+			MouseEvent e = new MouseEvent(espacios.getVolver(), 0, 0, 0, 0, 0, 0, false);
+			e.getComponent().setName("volver");
+			controlador.mouseClicked(e);
+			e = new MouseEvent(espacios.getEspacios(), 0, 0, 0, 0, 0, 0, false);
+			e.getComponent().setName("row");
+//			controlador.mouseClicked(e);
+
 			socket.close();
 		} catch (IOException e) {}
-		assertEquals(true,controladorEstaciones.probarClase());
+		assertEquals(true,controlador.metodoPruebas());
+	}
+	
+	@SuppressWarnings("unchecked")
+	@org.junit.Test
+	public void iiii() // Test Controlador Espacios naturales
+	{
+		ObjectOutputStream salida;
+		ObjectInputStream entrada;
+		ControladorEstaciones controlador = null;
+		try {			
+			Socket socket = new Socket("127.0.0.1",44444);
+			entrada = new ObjectInputStream(socket.getInputStream());
+			salida = new ObjectOutputStream(socket.getOutputStream());
+			controlador = new ControladorEstaciones(ventanaEstaciones,entrada,salida,new ArrayList<Estaciones>(),new ArrayList<Horario>(),"logeado");
+			controlador = new ControladorEstaciones(ventanaEstaciones,entrada,salida,new ArrayList<Estaciones>(),new ArrayList<Horario>(),"espacios");
+			
+			ActionEvent e = new ActionEvent(ventanaEstaciones.getComboBox(), 0, "combo");
+			controlador.actionPerformed(e);
+			
+			socket.close();
+		} catch (IOException e) {}
+		assertEquals(true,controlador.probarClase());
 	}
 	
 	@org.junit.Test
-	public void hhhh() // Test Servidor Ventana
+	public void jjjj() // Test Servidor Ventana
 	{
 		Servidor frame = new Servidor();
 		Socket socket;
@@ -269,5 +316,4 @@ public class TestServidor {
 		} catch (Exception a) {}
 		assertEquals(true,frame.prueba());
 	}
-	
 }

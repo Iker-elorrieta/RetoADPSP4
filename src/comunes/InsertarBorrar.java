@@ -70,7 +70,6 @@ public class InsertarBorrar {
 		Query q = session.createQuery(hql);
 		
 		entorno = (Entornos) q.uniqueResult();
-		System.out.println(entorno.getId());
 		return entorno.getId();
 		
 	}
@@ -92,7 +91,6 @@ public class InsertarBorrar {
 		Query q = session.createQuery(hql);
 		
 		municipio = (Municipios) q.uniqueResult();
-		System.out.println(municipio.getId());
 		return municipio.getId();
 		
 	}

@@ -51,6 +51,7 @@ public class Controlador_Registro implements MouseListener {
 		this.ventanaRegistro.getBotonVolver().setName("volver");
 		this.ventanaRegistro.getFrame().addWindowListener(new WindowAdapter() {
 
+			@Override
 			public void windowClosing(WindowEvent e) {
 				try {
 					salida.writeObject(999);

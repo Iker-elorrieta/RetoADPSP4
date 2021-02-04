@@ -4,7 +4,9 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import vista.Logeado;
 import vista.RestaurarContrasena;
+import vista.VentanaEspacios;
 import vista.VentanaEstaciones;
 import vista.VentanaTop;
 
@@ -36,7 +38,6 @@ public class TestsVentanas {
 		VentanaEstaciones ventana = new VentanaEstaciones();
 		ventana.setTable(ventana.getTable());
 		ventana.setModel(ventana.getModel());
-		ventana.setColumnas(ventana.getColumnas());
 		ventana.setComboBox(ventana.getComboBox());
 		assertEquals(true, ventana.metodoPrueba());
 	}
@@ -64,5 +65,29 @@ public class TestsVentanas {
 		ventana.setScrollPaneMunicipios(ventana.getScrollPaneMunicipios());
 		assertEquals(true, ventana.metodoPrueba());
 	}
-
+	
+	@Test
+	public void testVentanaEspacios()
+	{
+		VentanaEspacios ventana = new VentanaEspacios();
+		ventana.setEspacios(ventana.getEspacios());
+		ventana.setVolver(ventana.getVolver());
+		ventana.getModel();
+		assertEquals(true, ventana.metodoPrueba());
+	}
+	
+	@Test
+	public void testVentanaLogeado()
+	{
+		Logeado ventana = new Logeado();
+		ventana.setModel(ventana.getModel());
+		ventana.setTable(ventana.getTable());
+		ventana.getBotonBizkaia();
+		ventana.getBotonAraba();
+		ventana.getBotonGipuzkoa();
+		ventana.getFrame();
+		ventana.getBotonTops();
+		ventana.getBotonEspaciosNaturales();
+		assertEquals(true, ventana.probarClase());
+	}
 }

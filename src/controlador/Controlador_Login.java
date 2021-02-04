@@ -54,6 +54,7 @@ public class Controlador_Login implements MouseListener {
 		this.ventanaLogin.getBotonRecuperar().setName("restaurar");
 		this.ventanaLogin.getFrame().addWindowListener(new WindowAdapter() {
 
+			@Override
 			public void windowClosing(WindowEvent e) {
 				try {
 					salida.writeObject(999);

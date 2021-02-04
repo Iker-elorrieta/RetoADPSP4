@@ -4,9 +4,8 @@ import javax.swing.JFrame;
 import javax.swing.JButton;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
+import javax.swing.WindowConstants;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.JMenuBar;
-import javax.swing.JMenu;
 
 public class Logeado {
 	
@@ -19,7 +18,7 @@ public class Logeado {
 	private JButton botonGipuzkoa;
     private	JButton botonTops;
 	private JButton botonEspaciosNaturales;
-	
+	private boolean probarVentana = false;
 	/**
 	 *{@summary Constructor de la clase. Carga los distintos componentes de la ventana} 
 	 */
@@ -40,7 +39,7 @@ public class Logeado {
 		frame = new JFrame();
 		frame.setResizable(false);
 		frame.setBounds(100, 100, 700, 525);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		frame.setLocationRelativeTo(null);
 		frame.getContentPane().setLayout(null);	
 		
@@ -75,9 +74,10 @@ public class Logeado {
 		botonTops.setBounds(10, 373, 141, 23);
 		frame.getContentPane().add(botonTops);
 		
-		JButton botonEspaciosNaturales = new JButton("Espacios Naturales");
+		botonEspaciosNaturales = new JButton("Espacios Naturales");
 		botonEspaciosNaturales.setBounds(10, 407, 141, 23);
 		frame.getContentPane().add(botonEspaciosNaturales);
+		probarVentana = true;
 	}
 	
 	/**
@@ -103,32 +103,16 @@ public class Logeado {
 		this.table = table;
 	}
 
-	public void setFrame(JFrame frame) {
-		this.frame = frame;
-	}
-
 	public JButton getBotonBizkaia() {
 		return botonBizkaia;
-	}
-
-	public void setBotonBizkaia(JButton botonBizkaia) {
-		this.botonBizkaia = botonBizkaia;
 	}
 
 	public JButton getBotonAraba() {
 		return botonAraba;
 	}
 
-	public void setBotonAraba(JButton botonAraba) {
-		this.botonAraba = botonAraba;
-	}
-
 	public JButton getBotonGipuzkoa() {
 		return botonGipuzkoa;
-	}
-
-	public void setBotonGipuzkoa(JButton botonGipuzkoa) {
-		this.botonGipuzkoa = botonGipuzkoa;
 	}
 
 	public JFrame getFrame() {
@@ -139,16 +123,12 @@ public class Logeado {
 		return botonTops;
 	}
 
-	public void setBotonTops(JButton botonTops) {
-		this.botonTops = botonTops;
-	}
-
 	public JButton getBotonEspaciosNaturales() {
 		return botonEspaciosNaturales;
 	}
-
-	public void setBotonEspaciosNaturales(JButton botonEspaciosNaturales) {
-		this.botonEspaciosNaturales = botonEspaciosNaturales;
-	}
 	
+	public boolean probarClase()
+	{
+		return probarVentana;
+	}
 }
