@@ -2,6 +2,7 @@ package server;
 
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.Serializable;
 import java.util.ArrayList;
 
 import javax.swing.JTextArea;
@@ -63,11 +64,6 @@ public class HiloServidor extends Thread {
 		q = session.createQuery(hql);
 
 		provi = (ArrayList<Provincias>) q.list();
-
-		for (int i = 0; i < provi.size(); i++) {
-			System.out.println(provi.get(i).getId());
-			System.out.println(provi.get(i).getNombre());
-		}
 
 	}
 
@@ -216,8 +212,6 @@ public class HiloServidor extends Thread {
 
 					q = session.createQuery(hql);
 
-					System.out.println("he salido de la query");
-
 					arah = (ArrayList<Horario>) q.list();
 
 					osalida.writeObject(arah);
@@ -225,12 +219,8 @@ public class HiloServidor extends Thread {
 					break;
 
 				case 7:
-
+					ArrayList<ListadoTop> listado = new ArrayList<ListadoTop>();
 					ArrayList<Horario> arrayTopHorario = new ArrayList<Horario>();
-					ArrayList<Municipios> arrayTopMuni = new ArrayList<Municipios>();
-					ArrayList<Municipios> arrayTopBizka = new ArrayList<Municipios>();
-					ArrayList<Municipios> arrayTopAraba = new ArrayList<Municipios>();
-					ArrayList<Municipios> arrayTopGipu = new ArrayList<Municipios>();
 					ArrayList<Entornos> arrayTopEntorno = new ArrayList<Entornos>();
 					ArrayList<Entornos> arrayLimpioEntorno = new ArrayList<Entornos>();
 					tx = null;
@@ -252,93 +242,105 @@ public class HiloServidor extends Thread {
 					String nombreMuni = "";
 
 					for (int i = 0; i < arrayTopHorario.size(); i++) {
+						if (listado.size() < 5) {
 
-						if (arrayTopMuni.size() < 5) {
-
-							if (!nombreMuni.contains(
-									arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre())) {
-
-								arrayTopMuni.add(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios());
-							
+							if (!nombreMuni.contains(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre())) {
+								ListadoTop objectoHaInsertar = new ListadoTop();
+								objectoHaInsertar.setParam1(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre());
+								objectoHaInsertar.setParam2(arrayTopHorario.get(i).getNogm3());
+								listado.add(objectoHaInsertar);
 							}
 						}
 						nombreMuni += arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre();
 					}
 
-					osalida.writeObject(arrayTopMuni);
-
+					osalida.writeObject(listado);
+					listado = new ArrayList<ListadoTop>();
 					nombreMuni = "";
 					
 					for (int i = 0; i < arrayTopHorario.size(); i++) {
 
-						if (arrayTopBizka.size() < 5) {
+						if (listado.size() < 5) {
 
 							if (!nombreMuni.contains(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre())&& arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getProvincias().getNombre().toLowerCase().contains("bizkaia")) {
-
-								arrayTopBizka.add(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios());
-							
+								ListadoTop objectoHaInsertar = new ListadoTop();
+								objectoHaInsertar.setParam1(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre());
+								objectoHaInsertar.setParam2(arrayTopHorario.get(i).getNogm3());
+								listado.add(objectoHaInsertar);
 							}
 						}
 						nombreMuni += arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre();
 					}
 
-					osalida.writeObject(arrayTopBizka);
+					osalida.writeObject(listado);
+					listado = new ArrayList<ListadoTop>();
 					nombreMuni = "";
 					
 					for (int i = 0; i < arrayTopHorario.size(); i++) {
 
-						if (arrayTopAraba.size() < 5) {
-
+						if (listado.size() < 5) {
 							if (!nombreMuni.contains(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre())&& arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getProvincias().getNombre().toLowerCase().contains("araba")) {
-
-								arrayTopAraba.add(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios());
-						
+								ListadoTop objectoHaInsertar = new ListadoTop();
+								objectoHaInsertar.setParam1(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre());
+								objectoHaInsertar.setParam2(arrayTopHorario.get(i).getNogm3());
+								listado.add(objectoHaInsertar);
 							}
 						}
 						nombreMuni += arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre();
 					}
 
-					osalida.writeObject(arrayTopAraba);
-					
+					osalida.writeObject(listado);
+					listado = new ArrayList<ListadoTop>();
 					nombreMuni = "";
-					
-		
 					
 					for (int i = 0; i < arrayTopHorario.size(); i++) {
 
-						if (arrayTopGipu.size() < 5) {
+						if (listado.size() < 5) {
 
 							if (!nombreMuni.contains(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre())&& arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getProvincias().getNombre().toLowerCase().contains("gipu")) {
-
-								arrayTopGipu.add(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios());
-							
+								ListadoTop objectoHaInsertar = new ListadoTop();
+								objectoHaInsertar.setParam1(arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre());
+								objectoHaInsertar.setParam2(arrayTopHorario.get(i).getNogm3());
+								listado.add(objectoHaInsertar);	
 							}
 						}
 						nombreMuni += arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getNombre();
 					}
+					osalida.writeObject(listado);
+					
+					
+					listado = new ArrayList<ListadoTop>();
+					nombreMuni = "";
+					
+					for (int i = 0; i < arrayTopHorario.size(); i++) {
+						
+						hql = "from Entornos where id in (Select entornos.id from Entornosmuni where municipios.id ="+ arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getId()+")";
 
-					osalida.writeObject(arrayTopGipu);
-					
-					
-//					
-//					nombreMuni = "";
-//					
-//					for (int i = 0; i < arrayTopHorario.size(); i++) {
-//						
-//						hql = "from Entornos where id in (Select entornos.id from Entornosmuni where municipios.id ="+ arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getId()+")";
-//
-//						q = session.createQuery(hql);
-//						System.out.println(i + ") " + arrayTopHorario.get(i).getInformes().getEstaciones().getMunicipios().getId());
-//						try {
-//							System.out.println(((Entornos)q.uniqueResult()).getNombre());
-//							
-//							arrayTopEntorno.add((Entornos) q.uniqueResult());
-//						} catch (NullPointerException e) {
+						q = session.createQuery(hql);
+						try {
+							ListadoTop objectoHaInsertar;
+							for(int y = 0 ; y < q.list().size();y++)
+							{
+								if(!nombreMuni.contains(((Entornos) q.list().get(y)).getNombre())){
+									objectoHaInsertar = new ListadoTop();
+									objectoHaInsertar.setParam1(((Entornos) q.list().get(y)).getNombre());
+									objectoHaInsertar.setParam2(arrayTopHorario.get(i).getNogm3());
+									listado.add(objectoHaInsertar);
+								}
+							}
+						} catch (NullPointerException e) {
 //							System.out.println(i+") es nulo");
-//						}
-//					}
-//
-//					osalida.writeObject(arrayTopEntorno);
+						}
+						catch(IndexOutOfBoundsException a) {
+							
+						}
+						try{
+							nombreMuni += listado.get(listado.size()-1).getParam1();
+						}catch(Exception b){
+							
+						}
+					}
+					osalida.writeObject(listado);
 					
 					
 					
@@ -403,6 +405,50 @@ public class HiloServidor extends Thread {
 		}
 
 		return arrayMunicipio;
+	}
 
+	public static class ListadoTop implements Serializable{
+		
+		private String param1;
+		private Double param2;
+		private String param3;
+		
+		public ListadoTop(){}
+		
+		public ListadoTop(Municipios muni, Object dato){
+			param1 = muni.getNombre();
+			if(dato instanceof Double)
+			{
+				param2 = (Double) dato;
+			}
+			else if(dato instanceof String)
+			{
+				param3 = (String) dato;
+			}
+		}
+
+		public String getParam1() {
+			return param1;
+		}
+
+		public Double getParam2() {
+			return param2;
+		}
+
+		public String getParam3() {
+			return param3;
+		}
+
+		public void setParam3(String param3) {
+			this.param3 = param3;
+		}
+
+		public void setParam1(String param1) {
+			this.param1 = param1;
+		}
+
+		public void setParam2(Double param2) {
+			this.param2 = param2;
+		}	
 	}
 }

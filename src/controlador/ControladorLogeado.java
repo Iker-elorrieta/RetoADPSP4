@@ -118,8 +118,6 @@ public class ControladorLogeado implements MouseListener {
 
 				arrayATabla(arrayBizkaia);
 
-				System.out.println("hellegado");
-
 			} catch (Exception e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
@@ -235,7 +233,6 @@ public class ControladorLogeado implements MouseListener {
 
 	public boolean arrayATabla(ArrayList<Municipios> arrayMunillo) {
 
-		System.out.println(arrayMunillo.size());
 		for (int i = 0; i < arrayMunillo.size(); i++) {
 			String temp[] = { arrayMunillo.get(i).getNombre(), arrayMunillo.get(i).getDescripcion() };
 			ventanaLogeado.getModel().addRow(temp);

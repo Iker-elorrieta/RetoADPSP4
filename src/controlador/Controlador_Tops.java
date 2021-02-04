@@ -10,6 +10,8 @@ import javax.swing.table.DefaultTableModel;
 import modelo.Entornos;
 import modelo.Municipios;
 import modelo.Usuario;
+import server.HiloServidor;
+import server.HiloServidor.ListadoTop;
 import vista.Logeado;
 import vista.VentanaTop;
 
@@ -17,11 +19,11 @@ public class Controlador_Tops {
 	private VentanaTop VentanaTop;
 	private ObjectInputStream entrada;
 	private ObjectOutputStream salida;
-	private ArrayList<Municipios> araMuniTop;
-	private ArrayList<Municipios> araMuniBizkaia;
-	private ArrayList<Municipios> araMuniGipu;
-	private ArrayList<Municipios> araMuniAraba;
-	private ArrayList<Entornos> araEntornosTop;
+	private ArrayList<HiloServidor.ListadoTop> araMuniTop;
+	private ArrayList<HiloServidor.ListadoTop> araMuniBizkaia;
+	private ArrayList<HiloServidor.ListadoTop> araMuniAraba;
+	private ArrayList<HiloServidor.ListadoTop> araMuniGipu;
+	private ArrayList<HiloServidor.ListadoTop> araEntornosTop;
 	
 	public static boolean booleanTest = false;
 
@@ -48,51 +50,47 @@ public class Controlador_Tops {
 		try {
 			salida.writeObject(7);
 			
-			araMuniTop = (ArrayList<Municipios>) entrada.readObject();
-			araMuniBizkaia = (ArrayList<Municipios>) entrada.readObject();
-			araMuniAraba = (ArrayList<Municipios>) entrada.readObject();
-			araMuniGipu = (ArrayList<Municipios>) entrada.readObject();
-			
-			//araEntornosTop = (ArrayList<Entornos>) entrada.readObject();
-			
-			
-			System.out.println(araMuniTop.size());
-			
+			araMuniTop = (ArrayList<HiloServidor.ListadoTop>) entrada.readObject();
+			araMuniBizkaia = (ArrayList<HiloServidor.ListadoTop>) entrada.readObject();
+			araMuniAraba = (ArrayList<HiloServidor.ListadoTop>) entrada.readObject();
+			araMuniGipu = (ArrayList<HiloServidor.ListadoTop>) entrada.readObject();
+			araEntornosTop = (ArrayList<HiloServidor.ListadoTop>) entrada.readObject();
+						
 			DefaultTableModel model = (DefaultTableModel) VentanaTop.getModelMunicipios();
 			model.setRowCount(0);
 			for (int i = 0; i < araMuniTop.size(); i++) {
-				String temp[] = { araMuniTop.get(i).getNombre(), araMuniTop.get(i).getDescripcion() };
+				String temp[] = { araMuniTop.get(i).getParam1(), String.valueOf(araMuniTop.get(i).getParam2()) };
 				VentanaTop.getModelMunicipios().addRow(temp);
 			}
 			
 			DefaultTableModel modelBizka = (DefaultTableModel) VentanaTop.getModelBizkaia();
 			modelBizka.setRowCount(0);
 			for (int i = 0; i < araMuniBizkaia.size(); i++) {
-				String temp[] = { araMuniBizkaia.get(i).getNombre(), araMuniBizkaia.get(i).getDescripcion() };
+				String temp[] = { araMuniBizkaia.get(i).getParam1(), String.valueOf(araMuniBizkaia.get(i).getParam2()) };
 				VentanaTop.getModelBizkaia().addRow(temp);
 			}
 			
 			DefaultTableModel modelAraba = (DefaultTableModel) VentanaTop.getModelAraba();
 			modelAraba.setRowCount(0);
-			
 			for (int i = 0; i < araMuniAraba.size(); i++) {
-				String temp[] = { araMuniAraba.get(i).getNombre(), araMuniAraba.get(i).getDescripcion() };
-				VentanaTop.getModelAraba().addRow(temp);
+				String temp[] = { araMuniAraba.get(i).getParam1(), String.valueOf(araMuniAraba.get(i).getParam2()) };
+				modelAraba.addRow(temp);
 			}
+			VentanaTop.setModelAraba(modelAraba);
 			
 			DefaultTableModel modelGipu = (DefaultTableModel) VentanaTop.getModelGuipu();
 			modelGipu.setRowCount(0);
 			for (int i = 0; i < araMuniGipu.size(); i++) {
-				String temp[] = { araMuniGipu.get(i).getNombre(), araMuniGipu.get(i).getDescripcion() };
+				String temp[] = { araMuniGipu.get(i).getParam1(),  String.valueOf(araMuniGipu.get(i).getParam2()) };
 				VentanaTop.getModelGuipu().addRow(temp);
 			}
 			
-//			DefaultTableModel modelEtornos = (DefaultTableModel) VentanaTop.getModelEspacios();
-//			modelEtornos.setRowCount(0);
-//			for (int i = 0; i < araEntornosTop.size(); i++) {
-//				String temp[] = { araEntornosTop.get(i).getNombre(), araEntornosTop.get(i).getDescripcion() };
-//				VentanaTop.getModelEspacios().addRow(temp);
-//			}
+			DefaultTableModel modelEtornos = (DefaultTableModel) VentanaTop.getModelEspacios();
+			modelEtornos.setRowCount(0);
+			for (int i = 0; i < araEntornosTop.size(); i++) {
+				String temp[] = { araEntornosTop.get(i).getParam1(), String.valueOf(araEntornosTop.get(i).getParam2()) };
+				VentanaTop.getModelEspacios().addRow(temp);
+			}
 			
 			
 		} catch (Exception e) {

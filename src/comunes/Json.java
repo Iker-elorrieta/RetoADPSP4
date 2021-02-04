@@ -120,14 +120,14 @@ public class Json {
 					nombreProvincia = listaMunicipios[i].getProvincia();
 				}
 				Provincias provincia = new Provincias(nombreProvincia);
-				String hql1 = "from Provincias where lower(nombre) = '"+nombreProvincia+"'";
+				String hql1 = "from Provincias where lower(nombre) like '%"+nombreProvincia.toLowerCase()+"%'";
 				Query q1 = session.createQuery(hql1);
 				provincia = (Provincias) q1.uniqueResult();
 
 				if (provincia == null){
 					provincia = new Provincias(nombreProvincia); 
 					InsertarBorrar.insertar(provincia,sesion,session);
-					hql1 = "from Provincias where lower(nombre) = '"+nombreProvincia+"'";
+					hql1 = "from Provincias where lower(nombre) like '%"+nombreProvincia.toLowerCase()+"%'";
 					q1 = session.createQuery(hql1);
 					provincia = (Provincias) q1.uniqueResult();
 					listaMunicipios[i].setProvincias(provincia);
@@ -157,7 +157,7 @@ public class Json {
 			for(int i = 0 ; i < listaEstaciones.length ; i++)
 			{
 				try{
-					String hql = "from Municipios where lower(nombre) = '"+listaEstaciones[i].getMunicipio()+"'";
+					String hql = "from Municipios where nombre = '"+listaEstaciones[i].getMunicipio()+"'";
 					Query q = session.createQuery(hql);
 					Municipios muni = (Municipios) q.uniqueResult();
 					
@@ -173,7 +173,7 @@ public class Json {
 						{
 							if(comprobarMunicipios.get(y).getNombreentero().contains(listaEstaciones[i].getMunicipio()))
 							{
-								hql = "from Municipios where lower(nombre) = '"+comprobarMunicipios.get(y).getNombre()+"'";
+								hql = "from Municipios where nombre = '"+comprobarMunicipios.get(y).getNombre()+"'";
 								q = session.createQuery(hql);
 								muni = (Municipios) q.uniqueResult();
 								
@@ -187,7 +187,7 @@ public class Json {
 				}
 				catch (Exception f)
 				{
-//					System.out.println(f.getMessage());
+//					f.printStackTrace();
 					return false;
 				}
 			}
@@ -196,11 +196,11 @@ public class Json {
 			for (int i = 0 ; i < listaEspaciosNaturales.length; i++)
 			{
 				try{
-					String hql = "from Entornos where lower(nombre) like '"+listaEspaciosNaturales[i].getNombre()+"'";
+					String hql = "from Entornos where nombre = '"+listaEspaciosNaturales[i].getNombre()+"'";
 					Query q = session.createQuery(hql);
 					Entornos entorno = (Entornos) q.uniqueResult();
 					
-					String hql1 = "from Municipios where lower(nombre) like '"+listaEspaciosNaturales[i].getMunicipio()+"'";
+					String hql1 = "from Municipios where nombre = '"+listaEspaciosNaturales[i].getMunicipio()+"'";
 					Query q1 = session.createQuery(hql1);
 					Municipios muni = (Municipios) q1.uniqueResult();
 					if(entorno != null && muni != null)
@@ -211,7 +211,7 @@ public class Json {
 					}
 				}
 				catch (Exception f){
-//					System.out.println(f.getMessage());
+//					f.printStackTrace();
 					return false;
 				}
 			}
@@ -391,7 +391,7 @@ public class Json {
 		catch (FileNotFoundException fn) {
 			System.out.println("No se encuentra el fichero");
 		} catch (IOException e) {
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
 		return false;
 	}

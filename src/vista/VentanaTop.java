@@ -20,10 +20,8 @@ public class VentanaTop extends JFrame {
 	private DefaultTableModel modelMunicipios;
 	private JTable tableMunicipios;
 	private String columnasEspacios[] = {"Nombre","Descripcion","Tipo","Direccion"};
-	private String columnasMunicipios[] = {"Nombre","Descripcion"};
+	private String columnasMunicipios[] = {"Nombre","NoGm3"};
 
-	
-	
 	private JScrollPane scrollPaneEstaciones;
 	private JScrollPane scrollPaneMunicipios;
 	private JScrollPane scrollPaneBizkaia;
@@ -41,7 +39,7 @@ public class VentanaTop extends JFrame {
 	
 	
 	  public VentanaTop () {
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 708, 591);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -79,17 +77,13 @@ public class VentanaTop extends JFrame {
 		this.tableMunicipios.setFont(new Font("Times New Roman", Font.PLAIN, 13));
 		this.scrollPaneMunicipios.setViewportView(this.tableMunicipios);
 		for(int i=0; i<this.columnasMunicipios.length;i++) {
-			this.modelMunicipios.addColumn(this.columnasMunicipios[i]);
-			
+			this.modelMunicipios.addColumn(this.columnasMunicipios[i]);	
 		}
 		this.tableMunicipios.setModel(modelMunicipios);
-		
-		
 		
 		this.scrollPaneBizkaia = new JScrollPane();
 		this.scrollPaneBizkaia.setBounds(10, 225, 308, 165);
 		contentPane.add(this.scrollPaneBizkaia);
-		
 		
 		this.modelBizkaia = new DefaultTableModel(); 
 		this.tableBizkaia = new JTable();
@@ -99,15 +93,12 @@ public class VentanaTop extends JFrame {
 		this.scrollPaneBizkaia.setViewportView(this.tableBizkaia);
 		for(int i=0; i<columnasMunicipios.length;i++) {
 			this.modelBizkaia.addColumn(this.columnasMunicipios[i]);
-			
 		}
 		this.tableBizkaia.setModel(this.modelBizkaia);
-		
 		
 		this.scrollPaneAraba = new JScrollPane();
 		this.scrollPaneAraba.setBounds(10, 47, 308, 149);
 		contentPane.add(this.scrollPaneAraba);
-		
 		
 		this.modelAraba = new DefaultTableModel(); 
 		this.tableAraba = new JTable();
@@ -117,17 +108,12 @@ public class VentanaTop extends JFrame {
 		this.scrollPaneAraba.setViewportView(this.tableAraba);
 		for(int i=0; i<columnasMunicipios.length;i++) {
 			this.modelAraba.addColumn(columnasMunicipios[i]);
-			
 		}
 		this.tableAraba.setModel(this.modelAraba);
-		
-		
-	
 		
 		this.scrollPaneGuipuzkoa = new JScrollPane();
 		this.scrollPaneGuipuzkoa.setBounds(372, 225, 308, 165);
 		contentPane.add(this.scrollPaneGuipuzkoa);
-		
 		
 		this.modelGuipu = new DefaultTableModel(); 
 		this.tableGuipu = new JTable();
@@ -137,9 +123,8 @@ public class VentanaTop extends JFrame {
 		this.scrollPaneGuipuzkoa.setViewportView(tableGuipu);
 		for(int i=0; i<columnasMunicipios.length;i++) {
 			this.modelGuipu.addColumn(columnasMunicipios[i]);
-			
 		}
-		this.tableAraba.setModel(this.modelGuipu);
+		this.tableGuipu.setModel(this.modelGuipu);
 		
 		JLabel lblNewLabel = new JLabel("Guipuzkoa");
 		lblNewLabel.setBounds(514, 207, 67, 14);
@@ -159,13 +144,8 @@ public class VentanaTop extends JFrame {
 		
 		JLabel lblNewLabel_4 = new JLabel("Entornos");
 		lblNewLabel_4.setBounds(318, 394, 58, 14);
-		contentPane.add(lblNewLabel_4);
-		
-				
+		contentPane.add(lblNewLabel_4);			
 	}
-
-
-
 
 	public JScrollPane getScrollPaneBizkaia() {
 		return scrollPaneBizkaia;
