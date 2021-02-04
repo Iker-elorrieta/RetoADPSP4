@@ -18,11 +18,12 @@ public class VentanaEspacios extends JFrame {
 	private DefaultTableModel model;
 	private JTable table;
 	private String columnas[] = {"Nombre","Descripcion","Tipo"};
+	private JTable Espacios;
 
 	
 	public VentanaEspacios() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
+		setBounds(100, 100, 734, 468);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
@@ -33,23 +34,15 @@ public class VentanaEspacios extends JFrame {
 		scrollPane.setBounds(10, 47, 547, 300);
 		contentPane.add(scrollPane);
 		
+		Espacios = new JTable();
+		scrollPane.setViewportView(Espacios);
 		
-		model = new DefaultTableModel(); 
-		table = new JTable();
-		scrollPane.setViewportView(table);
-		table = new JTable(model);	
-		table.setFont(new Font("Times New Roman", Font.PLAIN, 13));
-		scrollPane.setViewportView(table);
+		
+		model = new DefaultTableModel();
 		for(int i=0; i<columnas.length;i++) {
 			model.addColumn(columnas[i]);
 			
 		}
-		table.setModel(model);
-		
-		
-		
-		
-		
 	}
 
 }

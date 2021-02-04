@@ -41,8 +41,6 @@ import modelo.Provincias;
 
 public class Json {
 	
-	
-	
 	/**
 	 * Metodo principal de sacar todos los datos de los json
 	 * Tambien es la clase donde se crean los ficheros de json de cada url menos los horarios

@@ -37,6 +37,7 @@ public class VentanaTop extends JFrame {
 	private DefaultTableModel modelGuipu;
 	private JTable tableGuipu;
 	
+	private boolean comprobacionPrueba = false;
 	
 	  public VentanaTop () {
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -144,7 +145,8 @@ public class VentanaTop extends JFrame {
 		
 		JLabel lblNewLabel_4 = new JLabel("Entornos");
 		lblNewLabel_4.setBounds(318, 394, 58, 14);
-		contentPane.add(lblNewLabel_4);			
+		contentPane.add(lblNewLabel_4);		
+		comprobacionPrueba = true;
 	}
 
 	public JScrollPane getScrollPaneBizkaia() {
@@ -281,5 +283,10 @@ public class VentanaTop extends JFrame {
 
 	public void setScrollPaneMunicipios(JScrollPane scrollPaneMunicipios) {
 		this.scrollPaneMunicipios = scrollPaneMunicipios;
+	}
+	
+	public boolean metodoPrueba()
+	{
+		return comprobacionPrueba;
 	}
 }
