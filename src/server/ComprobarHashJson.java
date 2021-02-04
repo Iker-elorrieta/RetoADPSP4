@@ -8,10 +8,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.security.SecureRandom;
 import java.security.cert.X509Certificate;
-import java.time.Duration;
 import java.util.ArrayList;
-import java.util.Calendar;
-
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
@@ -27,14 +24,19 @@ import modelo.Horario;
 import modelo.Informes;
 
 public class ComprobarHashJson extends Thread {
-
+	
+	private static int frecuencia = 6000000;
+	private static boolean testfuncionabien = false;
+	private static boolean funciona = true;
+	private static boolean test = false;
+	
 	public ComprobarHashJson() {
 
 	}
 
 	public void run() {
-		System.out.println("Se ha inciado el hilo de actualizar.");
-		while (true) {
+		System.out.println("Se ha iniciado el hilo de actualizar.");
+		while (funciona) {
 
 			try {
 				
@@ -73,10 +75,9 @@ public class ComprobarHashJson extends Thread {
 				if (actualizarJson) {
 					
 //				Descomentar cuando se llame al método que mete los json en la base de datos
-					
-				borrarHorarios();
-				insertarHorarios();
 					System.out.println("Hay que actualizar");
+					borrarHorarios();
+					insertarHorarios();
 					
 				} else {
 					
@@ -85,7 +86,7 @@ public class ComprobarHashJson extends Thread {
 				}
 			
 				
-				Thread.sleep(600000);
+				Thread.sleep(frecuencia);
 				
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
@@ -99,12 +100,20 @@ public class ComprobarHashJson extends Thread {
 				// TODO Auto-generated catch block
 //				e.printStackTrace();
 			}
+			
+			testfuncionabien = true;
+			
+			if (test) {
+				
+				funciona = false;
+			}
 
 		}
+		
 
 	}
 	
-	public static void comprobarPagina(String url) {
+	public static boolean comprobarPagina(String url) {
 		try {
 			SSLContext ssl_ctx = SSLContext.getInstance("TLS");
 			TrustManager[] trust_mgr = new TrustManager[] { (TrustManager) new X509TrustManager() {
@@ -128,6 +137,8 @@ public class ComprobarHashJson extends Thread {
 		} catch (Exception e) {
 //			e.printStackTrace();
 		}
+		
+		return true;
 	}
 	
 	public static ArrayList <Informes> obtenerInformes() {
@@ -148,6 +159,8 @@ public class ComprobarHashJson extends Thread {
 		}
 		
 		session.close();
+		
+		testfuncionabien = true;
 		
 		return listaInformes;
 		
@@ -206,6 +219,22 @@ public class ComprobarHashJson extends Thread {
 		session.close();
 		
 		return true;
+	}
+
+	public boolean isTestfuncionabien() {
+		return testfuncionabien;
+	}
+
+	public static void setFrecuencia(int frecuencia) {
+		ComprobarHashJson.frecuencia = frecuencia;
+	}
+
+	public static void setFunciona(boolean funciona) {
+		ComprobarHashJson.funciona = funciona;
+	}
+
+	public static void setTest(boolean test) {
+		ComprobarHashJson.test = test;
 	}
 	
 }
