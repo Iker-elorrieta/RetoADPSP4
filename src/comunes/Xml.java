@@ -47,8 +47,7 @@ public class Xml {
 
 		File directorio = new File("json");
 		for (File archivo : directorio.listFiles()) {
-			if(!archivo.getName().contains("ignore"))
-			{
+			if(!archivo.getName().contains("ignore")) {
 				try {
 					JsonParser parser = new JsonParser();
 					FileReader fr = new FileReader(archivo.getAbsolutePath());
@@ -60,8 +59,14 @@ public class Xml {
 					DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 					DocumentBuilder builder = factory.newDocumentBuilder();
 					DOMImplementation implementation = builder.getDOMImplementation();
-					Document documento = implementation.createDocument(null,
-							archivo.getName().substring(0, archivo.getName().indexOf(".json")), null);
+					Document documento;
+					try {
+						Integer.parseInt(archivo.getName().substring(0, 1));
+						documento = implementation.createDocument(null, "_" + archivo.getName().substring(0, archivo.getName().indexOf(".json")), null);
+					} catch (NumberFormatException e) {
+						documento = implementation.createDocument(null, archivo.getName().substring(0, archivo.getName().indexOf(".json")), null);
+					}
+					
 					documento.setXmlVersion("1.0");
 					
 					// Integer que sirve para llevar la cuenta del número de objeto dentro de cada Json y dar nombre con él al elemento en el xml
@@ -82,9 +87,19 @@ public class Xml {
 						
 						// Da nombre al elemento xml en base al nombre del documento json y el número del objeto
 						
-						Element elemento = documento
-								.createElement(archivo.getName().substring(0, archivo.getName().indexOf(".json")) + "-"
-										+ String.valueOf(numero));
+						Element elemento;
+						
+						try {
+							Integer.parseInt(archivo.getName().substring(0, 1));
+							elemento = documento
+									.createElement("_" + archivo.getName().substring(0, archivo.getName().indexOf(".json")) + "-"
+											+ String.valueOf(numero));
+						} catch (NumberFormatException e) {
+							elemento = documento
+									.createElement(archivo.getName().substring(0, archivo.getName().indexOf(".json")) + "-"
+											+ String.valueOf(numero));
+						}
+						
 						while (iter2.hasNext()) {
 							
 							// Se va leyendo cada atributo del Json y se añade al objeto
